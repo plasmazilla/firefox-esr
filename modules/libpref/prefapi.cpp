@@ -967,11 +967,14 @@ void PREF_ReaderCallback(void       *closure,
                          PrefValue   value,
                          PrefType    type,
                          bool        isDefault,
-                         bool        isStickyDefault)
+                         bool        isStickyDefault,
+                         bool        isLocked)
 {
     uint32_t flags = isDefault ? kPrefSetDefault : kPrefForceSet;
     if (isDefault && isStickyDefault) {
         flags |= kPrefStickyDefault;
     }
     pref_HashPref(pref, value, type, flags);
+    if (isLocked)
+        PREF_LockPref(pref, true);
 }
