@@ -3716,7 +3716,7 @@ var SessionStoreInternal = {
 
     // only modify those aspects which aren't correct yet
     if (!isNaN(aLeft) && !isNaN(aTop) && (aLeft != win_("screenX") || aTop != win_("screenY"))) {
-      aWindow.moveTo(aLeft, aTop);
+      aWindow.moveTo((aLeft < -aWidth) ? 0 : aLeft, (aTop < -aHeight) ? 0 : aTop);
     }
     if (aWidth && aHeight && (aWidth != win_("width") || aHeight != win_("height"))) {
       // Don't resize the window if it's currently maximized and we would
@@ -3733,8 +3733,6 @@ var SessionStoreInternal = {
         aWindow.maximize();
         break;
       case "minimized":
-        aWindow.minimize();
-        break;
       case "normal":
         aWindow.restore();
         break;
