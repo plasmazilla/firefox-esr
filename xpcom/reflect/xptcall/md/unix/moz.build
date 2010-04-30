@@ -316,6 +316,11 @@ if CONFIG['OS_ARCH'] == 'Linux':
             '-fomit-frame-pointer',
             '-mbackchain',
         ]
+    elif CONFIG['OS_TEST'] in ('sh4', 'sh4a'):
+        SOURCES += [
+            'xptcinvoke_linux_sh.cpp',
+            'xptcstubs_linux_sh.cpp',
+        ]
 
 FINAL_LIBRARY = 'xul'
 
