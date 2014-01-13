@@ -716,7 +716,6 @@ int main(int argc, char **argv)
 #ifdef USES_LINKS
     int ret;
     struct stat stat_buf;
-    char link_buf[MAXPATHLEN+1];
     char *link_file = NULL;
 #endif
 
@@ -1044,10 +1043,22 @@ int main(int argc, char **argv)
     }
     if (S_ISLNK(stat_buf.st_mode)) {
         char *dirpath,*dirend;
-        ret = readlink(input_file, link_buf, sizeof(link_buf) - 1);
-        if (ret < 0) {
-            perror(input_file);
-            goto cleanup;
+        char *link_buf = NULL;
+        size_t size = 64;
+        while (1) {
+            link_buf = realloc(link_buf, size);
+            if (!link_buf) {
+                perror(input_file);
+                goto cleanup;
+            }
+            ret = readlink(input_file, link_buf, size - 1);
+            if (ret < 0) {
+                perror(input_file);
+                goto cleanup;
+            }
+            if (ret < size - 1)
+                break;
+            size *= 2;
         }
         link_buf[ret] = 0;
         link_file = mkoutput(input_file);
