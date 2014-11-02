@@ -6,16 +6,17 @@
 
 DEFINES['CUBEB_GECKO_BUILD'] = True
 
-GeckoCppUnitTests([
-  'test_tone'
-])
+if CONFIG['CPU_ARCH'] != 'mips':
+    GeckoCppUnitTests([
+      'test_tone'
+    ])
 
-if CONFIG['OS_TARGET'] != 'Android':
-  GeckoCppUnitTests([
-    'test_audio',
-    'test_latency',
-    'test_sanity'
-  ])
+    if CONFIG['OS_TARGET'] != 'Android':
+      GeckoCppUnitTests([
+        'test_audio',
+        'test_latency',
+        'test_sanity'
+      ])
 
 LOCAL_INCLUDES += [
     '../include'
