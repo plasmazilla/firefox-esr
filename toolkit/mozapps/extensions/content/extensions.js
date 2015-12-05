@@ -211,6 +211,8 @@ function isCorrectlySigned(aAddon) {
   // temporary add-ons do not require signing
   if (aAddon.scope == AddonManager.SCOPE_TEMPORARY)
       return true;
+  if (aAddon.scope == AddonManager.SCOPE_SYSTEM)
+    return true;
   if (aAddon.signedState <= AddonManager.SIGNEDSTATE_MISSING)
     return false;
   return true;
