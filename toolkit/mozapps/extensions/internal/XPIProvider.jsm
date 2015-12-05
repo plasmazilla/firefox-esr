@@ -682,7 +682,8 @@ function isUsableAddon(aAddon) {
     return false;
   }
   // temporary and system add-ons do not require signing
-  if ((aAddon._installLocation.name != KEY_APP_SYSTEM_DEFAULTS &&
+  if ((aAddon._installLocation.scope != AddonManager.SCOPE_SYSTEM &&
+       aAddon._installLocation.name != KEY_APP_SYSTEM_DEFAULTS &&
        aAddon._installLocation.name != KEY_APP_TEMPORARY) &&
        mustSign(aAddon.type)) {
     if (aAddon.signedState <= AddonManager.SIGNEDSTATE_MISSING)
