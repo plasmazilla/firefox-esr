@@ -81,3 +81,5 @@ usr/lib/@browser@/Throbber-small.gif
 usr/lib/@browser@/crashreporter.ini
 usr/lib/@browser@/browser/crashreporter-override.ini
 %endif
+
+usr/lib/@browser@/fonts/EmojiOneMozilla.ttf
