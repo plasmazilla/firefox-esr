@@ -1,3 +1,15 @@
+firefox-esr (45.3.0esr-2) unstable; urgency=medium
+
+  * debian/rules: Build with -fno-schedule-insns2 and
+    -fno-delete-null-pointer-checks with GCC >= 6 because it miscompiles
+    Firefox. Closes: #836533.
+
+  * config/gcc-stl-wrapper.template.h, memory/mozalloc/throw_gcc.h:
+    Don't include mozalloc.h from the cstdlib wrapper. bz#1245076, bz#1259537.
+    Closes: #822715.
+
+ -- Mike Hommey <glandium@debian.org>  Mon, 05 Sep 2016 06:21:16 +0900
+
 firefox-esr (45.3.0esr-1) unstable; urgency=medium
 
   * New upstream release.
