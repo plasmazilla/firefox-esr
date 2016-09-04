@@ -123,6 +123,12 @@ ifeq (default,$(origin CXX))
 CXX := g++
 endif
 
+ifneq (,$(findstring gcc,$(CC)))
+ifeq (,$(filter 4.% 5.%,$(shell $(CC) -dumpversion)))
+CFLAGS += -fno-schedule-insns2 -fno-delete-null-pointer-checks
+endif
+endif
+
 CXXFLAGS = $(CFLAGS)
 
 EXPORTS := CC CXX CFLAGS CXXFLAGS CPPFLAGS LDFLAGS MOZILLA_OFFICIAL
