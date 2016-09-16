@@ -20,7 +20,7 @@
 <!ENTITY selectAllCmd.accesskey         "ท">
 <!ENTITY goBackCmd.commandkey           "[">
 <!ENTITY goForwardCmd.commandkey        "]">
-<!ENTITY homeButton.label               "บ้าน">
+<!ENTITY homeButton.label               "หน้าแรก">
 <!ENTITY homeButton.tooltip             "กลับไปหน้าแรกวิธีใช้">
 <!ENTITY printButton.label              "พิมพ์">
 <!ENTITY printButton.tooltip            "พิมพ์หน้านี้">
@@ -54,4 +54,4 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceBtn.label        "ขยายออก">
 <!ENTITY fullZoomReduceBtn.accesskey    "อ">
 <!ENTITY fullZoomEnlargeBtn.label       "ขยายเข้า">
-<!ENTITY fullZoomEnlargeBtn.accesskey   "ข">
+<!ENTITY fullZoomEnlargeBtn.accesskey   "เ">

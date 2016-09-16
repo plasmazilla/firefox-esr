@@ -6,9 +6,9 @@
 <!ENTITY Settings.label "Nastavení">
 <!ENTITY TextAreaName.label "Název pole:">
 <!ENTITY TextAreaName.accessKey "N">
-<!ENTITY TextAreaRows.label "Řádků:">
+<!ENTITY TextAreaRows.label "Řádky:">
 <!ENTITY TextAreaRows.accessKey "d">
-<!ENTITY TextAreaCols.label "Sloupců:">
+<!ENTITY TextAreaCols.label "Sloupce:">
 <!ENTITY TextAreaCols.accessKey "S">
 <!ENTITY TextAreaReadOnly.label "Pouze pro čtení">
 <!ENTITY TextAreaReadOnly.accessKey "r">
@@ -16,14 +16,14 @@
 <!ENTITY TextAreaDisabled.accessKey "V">
 <!ENTITY TextAreaTabIndex.label "Rejstřík pro tab:">
 <!ENTITY TextAreaTabIndex.accessKey "R">
-<!ENTITY TextAreaAccessKey.label "Přístupový klíč:">
+<!ENTITY TextAreaAccessKey.label "Přístupová klávesa:">
 <!ENTITY TextAreaAccessKey.accessKey "k">
 <!ENTITY InitialText.label "Výchozí text:">
 <!ENTITY InitialText.accessKey "t">
 <!ENTITY TextAreaWrap.label "Druh zalamování:">
 <!ENTITY TextAreaWrap.accessKey "z">
 <!ENTITY WrapDefault.value "Výchozí">
-<!ENTITY WrapOff.value "Vypnuto">
+<!ENTITY WrapOff.value "Zakázáno">
 <!ENTITY WrapHard.value "Tvrdé">
 <!ENTITY WrapSoft.value "Měkké">
 <!ENTITY WrapPhysical.value "Fyzické">

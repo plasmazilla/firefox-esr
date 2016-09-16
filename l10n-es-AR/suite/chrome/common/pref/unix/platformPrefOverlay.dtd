@@ -10,6 +10,7 @@
      XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
      size of this window for en-US. -->
 <!ENTITY  prefWindow.size             "width: 102ch; height: 44em;">
+
 <!-- pref-tabs.xul -->
 <!ENTITY urlbar.label                 "Ctrl+Enter en la barra de navegación">
 <!ENTITY urlbar.accesskey             "l">

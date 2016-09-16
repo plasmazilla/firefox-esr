@@ -30,7 +30,7 @@
 
 <!ENTITY  locationBar.label             "Konum çubuğu">
 
-<!ENTITY  locbar.suggest.label          "Konum çubuğunu kullanırken">
+<!ENTITY  locbar.suggest.label          "Konum çubuğunu kullanırken şunları öner:">
 <!ENTITY  locbar.history.label          "Geçmiş">
 <!ENTITY  locbar.history.accesskey      "G">
 <!ENTITY  locbar.bookmarks.label        "Yer imleri">
@@ -90,7 +90,7 @@
 <!ENTITY  dontrememberActions.clearHistory.label "tüm mevcut geçmişinizi de silebilirsiniz">
 <!ENTITY  dontrememberActions.post.label         ".">
 
-<!ENTITY  privateBrowsingPermanent2.label "Her zaman gizli gezinti modunu kullan">
+<!ENTITY  privateBrowsingPermanent2.label "Her zaman gizli gezinti kipini kullan">
 <!ENTITY  privateBrowsingPermanent2.accesskey "m">
 
 <!ENTITY  rememberHistory2.label      "Tarama ve indirme geçmişimi hatırla">

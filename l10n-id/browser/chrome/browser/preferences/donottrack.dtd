@@ -3,10 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title                 "Jangan Lacak">
-<!ENTITY window.width                 "40em">
-<!ENTITY window.height                "8em">
+<!ENTITY window.width                 "50em">
+<!ENTITY window.height                "10em">
 
-<!ENTITY doNotTrackCheckbox.label     "Gunakan Jangan Lacak">
-<!ENTITY doNotTrackCheckbox.accesskey "G">
+<!ENTITY doNotTrackCheckbox2.label    "Selalu aktifkan Jangan Lacak">
+<!ENTITY doNotTrackCheckbox2.accesskey "S">
 
 <!ENTITY doNotTrackLearnMore.label    "Lebih Lanjut">

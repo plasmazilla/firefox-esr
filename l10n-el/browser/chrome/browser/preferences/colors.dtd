@@ -3,11 +3,15 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  colorsDialog.title              "Χρώματα">
-<!ENTITY window.width                     "44em">
+<!ENTITY  window.width                    "44em">
 <!ENTITY  window.macWidth                 "44em">
 
-<!ENTITY  allowPagesToUse.label           "Να επιτρέπεται η χρήση των χρωμάτων της σελίδας, αντί των επιλογών μου">
-<!ENTITY  allowPagesToUse.accesskey       "χ">
+<!ENTITY  overridePageColors.label        "Παράκαμψη των χρωμάτων που ορίζονται από τη σελίδα και χρήση των παραπάνω επιλογών μου:">
+<!ENTITY  overridePageColors.accesskey    "Π">
+
+<!ENTITY  overridePageColors.always.label "Πάντα">
+<!ENTITY  overridePageColors.auto.label   "Μόνο σε θέματα υψηλής αντίθεσης">
+<!ENTITY  overridePageColors.never.label  "Ποτέ">
 
 <!ENTITY  color                           "Κείμενο και παρασκήνιο">
 <!ENTITY  textColor.label                 "Κείμενο:">

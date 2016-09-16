@@ -125,7 +125,7 @@
 
 <!ENTITY discover.title                       "Što přidatki su?">
 <!ENTITY discover.description2                "Přidatki su nałoženja, z kotrymiž móžeće &brandShortName; z přidatnej funkcionalnosću abo přidatnym stilom swojim přećam a potrjebam přiměrić. Wupruwujće čas lutowacu bóčnicu, předpowědź wjedra abo drastu, zo byšće swój wosobinski &brandShortName; dóstał.">
-<!ENTITY discover.footer                      "Hdyž sće z internetom zwjazany, budźe tute wokno wam někotre z lěpšich a najpopularnišich přidatkow za wupruwowanje poskićeć.">
+<!ENTITY discover.footer                      "Hdyž sće z internetom zwjazany, budźe tute wokno wam někotre z lěpšich a najbóle woblubowanich přidatkow za wupruwowanje poskićeć.">
 <!-- detail view -->
 
 <!ENTITY detail.version.label                 "Wersija">
@@ -142,7 +142,7 @@
 <!ENTITY detail.updateAutomatic.label         "Zapinjeny">
 <!ENTITY detail.updateAutomatic.tooltip       "Aktualizacije awtomatisce instalować">
 <!ENTITY detail.updateManual.label            "Wupinjeny">
-<!ENTITY detail.updateManual.tooltip          "Aktualizacije awtomatisce njestartować">
+<!ENTITY detail.updateManual.tooltip          "Aktualizacije awtomatisce njeinstalować">
 <!ENTITY detail.home                          "Startowa strona">
 <!ENTITY detail.repository                    "Přidatkowy profil">
 <!ENTITY detail.size                          "Wulkosć">
@@ -225,7 +225,7 @@
      Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
      to cause this tab to appear. -->
 
-<!ENTITY experiment.info.label "Što to je? Telemetrija móže hdys a hdys eksperimenty instalować a běžeć dać.">
+<!ENTITY experiment.info.label "Što to je? Telemetrija móže hdys a hdys eksperimenty instalować a přewjesć.">
 <!ENTITY experiment.info.learnmore "Dalše informacije">
 <!ENTITY experiment.info.learnmore.accesskey "D">
 <!ENTITY experiment.info.changetelemetry "Telemetrijowe nastajenja">

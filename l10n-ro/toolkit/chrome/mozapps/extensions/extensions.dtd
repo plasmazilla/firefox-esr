@@ -14,7 +14,7 @@
 <!ENTITY listEmpty.availableUpdates.label     "Nicio actualizare găsită">
 <!ENTITY listEmpty.recentUpdates.label        "Nu ați actualizat recent niciun supliment">
 <!ENTITY listEmpty.findUpdates.label          "Caută actualizări">
-<!ENTITY listEmpty.search.label               "Nu s-a putut găsi vreun supliment potrivit">
+<!ENTITY listEmpty.search.label               "Nu s-a putut găsi vreun supliment care se potrivește">
 <!ENTITY listEmpty.button.label               "Află mai multe despre suplimente">
 <!ENTITY installAddonFromFile.label           "Instalează supliment dintr-un fișier…">
 <!ENTITY installAddonFromFile.accesskey       "I">
@@ -25,8 +25,8 @@
 
 <!ENTITY showUnsignedExtensions.button.label  "Unele extensii nu au putut fi verificate">
 <!ENTITY showAllExtensions.button.label       "Arată toate extensiile">
-
-
+<!ENTITY debugAddons.label                    "Depanează suplimente">
+<!ENTITY debugAddons.accesskey                "b">
 <!-- global warnings -->
 
 <!ENTITY warning.safemode.label                    "Toate suplimentele sunt dezactivate în modul de siguranță.">
@@ -38,8 +38,8 @@
 <!ENTITY warning.updatesecurity.enable.tooltip     "Activează verificarea securității actualizărilor suplimentelor">
 <!-- global informations -->
 
-<!ENTITY info.plugincheck.label                 "Verifică pentru a vedea dacă pluginurile sunt actualizate">
-<!ENTITY info.plugincheck.tooltip               "Verifică pentru a vedea dacă pluginurile sunt actualizate">
+<!ENTITY info.plugincheck.label                 "Verifică dacă pluginurile sunt actualizate">
+<!ENTITY info.plugincheck.tooltip               "Verifică dacă pluginurile sunt actualizate">
 <!-- categories / views -->
 
 <!ENTITY view.search.label                    "Căutare">
@@ -68,8 +68,8 @@
 <!ENTITY updates.resetUpdatesToManual.label          "Resetează toate suplimentele să se actualizeze manual">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "R">
 <!ENTITY updates.updating.label               "Se actualizează suplimentele">
-<!ENTITY updates.installed.label              "Suplimentele dumneavoastră au fost actualizate.">
-<!ENTITY updates.downloaded.label             "S-au descărcat actualizările pentru suplimentele dumneavoastră.">
+<!ENTITY updates.installed.label              "Suplimentele tale au fost actualizate.">
+<!ENTITY updates.downloaded.label             "S-au descărcat actualizările pentru suplimentele tale.">
 <!ENTITY updates.restart.label                "Repornește acum pentru a încheia instalarea">
 <!ENTITY updates.noneFound.label              "Nicio actualizare găsită">
 <!ENTITY updates.manualUpdatesFound.label     "Vezi actualizările disponibile">
@@ -79,8 +79,8 @@
 
 <!ENTITY cmd.showDetails.label                "Arată mai multe informații">
 <!ENTITY cmd.showDetails.accesskey            "A">
-<!ENTITY cmd.findUpdates.label                "Caută actualizări">
-<!ENTITY cmd.findUpdates.accesskey            "C">
+<!ENTITY cmd.findUpdates.label                "Găsește actualizări">
+<!ENTITY cmd.findUpdates.accesskey            "G">
 <!ENTITY cmd.preferencesWin.label             "Opțiuni">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
 <!ENTITY cmd.preferencesUnix.label            "Preferințe">
@@ -98,7 +98,7 @@
 <!ENTITY cmd.disableTheme.accesskey           "N">
 <!ENTITY cmd.askToActivate.label              "Întreabă pentru activare">
 <!ENTITY cmd.askToActivate.tooltip            "Întreabă de fiecare dată pentru a utiliza acest supliment">
-<!ENTITY cmd.alwaysActivate.label             "Întotdeauna activat">
+<!ENTITY cmd.alwaysActivate.label             "Activează întotdeauna">
 <!ENTITY cmd.alwaysActivate.tooltip           "Utilizează întotdeauna această extensie">
 <!ENTITY cmd.neverActivate.label              "Nu activa niciodată">
 <!ENTITY cmd.neverActivate.tooltip            "Nu utiliza niciodată această extensie">
@@ -124,7 +124,7 @@
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 
 <!ENTITY discover.title                       "Ce sunt suplimentele?">
-<!ENTITY discover.description2                "Suplimentele sunt aplicații care vă permit să personalizați &brandShortName; cu funcționalități sau stiluri suplimentare. Economisiți timp cu o bară laterală, țineți prognoza meteo la îndemână sau folosiți o temă pentru a personaliza &brandShortName;.">
+<!ENTITY discover.description2                "Suplimentele sunt aplicații care îți permit să personalizezi &brandShortName; cu funcții sau stiluri suplimentare. Încearcă o bară laterală care economisește timp, un notificator pentru vreme sau o temă pentru a face din &brandShortName; o experiență unică.">
 <!ENTITY discover.footer                      "Când sunteți conectat la internet, acest panou va afișa cele mai utilizate și populare extensii pentru a vă permite să le încercați.">
 <!-- detail view -->
 
@@ -231,7 +231,7 @@
 <!ENTITY experiment.info.changetelemetry "Configurări Telemetrie">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "Aflați mai multe…">
+<!ENTITY setting.learnmore "Află mai multe…">
 
 <!ENTITY disabledUnsigned.heading "Unele suplimente au fost dezactivate">
 <!-- LOCALIZATION NOTE (disabledUnsigned.description.start, disabledUnsigned.description.findAddonsLink, disabledUnsigned.description.end):

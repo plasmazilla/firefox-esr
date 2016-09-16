@@ -30,7 +30,7 @@
 
 <!ENTITY dataChoicesTab.label            "Eleición de datos">
 
-<!ENTITY healthReportDesc.label          "Ayúdate a atalantar el rendimientu del navegador y comparte datos con &vendorShortName; sobre la salú d'ésti">
+<!ENTITY healthReportDesc.label          "Ayúdate a entender el rindimientu'l to restolador y comparte datos con &vendorShortName; tocante a la so salú">
 <!ENTITY enableHealthReport.label        "Activar l'informe de salú de &brandShortName;">
 <!ENTITY enableHealthReport.accesskey    "R">
 <!ENTITY healthReportLearnMore.label     "Deprender más">
@@ -82,9 +82,6 @@
 <!ENTITY updateCheck.accesskey           "C">
 <!ENTITY updateManual.label              "Nun comprobar anovamientos (nun se recomienda: riesgu na seguridá)">
 <!ENTITY updateManual.accesskey          "N">
-
-<!ENTITY updateAutoAddonWarn.label       "Avisame si esto va desactivar dalgún de los mios complementos">
-<!ENTITY updateAutoAddonWarn.accesskey   "t">
 
 <!ENTITY updateHistory.label             "Amosar historial d'anovamientos">
 <!ENTITY updateHistory.accesskey         "m">

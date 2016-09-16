@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Използване на &amp;защитата от проследяване">
+<!ENTITY  trackingProtectionHeader.label       "Използване на защитата от проследяване">
 <!ENTITY  trackingProtectionAlways.label       "Винаги">
 <!ENTITY  trackingProtectionAlways.accesskey   "В">
 <!ENTITY  trackingProtectionPrivate.label      "Само в поверителни прозорци">
@@ -11,7 +11,7 @@
 <!ENTITY  trackingProtectionNever.accesskey    "Н">
 <!ENTITY  trackingProtectionLearnMore.label    "Научете повече">
 <!ENTITY  trackingProtectionExceptions.label   "Изключения…">
-<!ENTITY  trackingProtectionExceptions.accesskey "И">
+<!ENTITY  trackingProtectionExceptions.accesskey "з">
 
 <!ENTITY tracking.label                 "Следене">
 <!ENTITY trackingProtectionPBM5.label         "Използване на защитата от проследяване в поверителните прозорци">
@@ -19,11 +19,11 @@
 <!ENTITY trackingProtectionPBMLearnMore.label "Научете повече">
 <!ENTITY changeBlockList.label          "Промяна списъка за блокиране">
 <!ENTITY changeBlockList.accesskey      "б">
+
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
-
 <!ENTITY  doNotTrack.pre.label          "Можете също ">
-<!ENTITY  doNotTrack.settings.label     "да управлявате настройките на Без следене">
+<!ENTITY  doNotTrack.settings.label     "да управлявате настройките на Без проследяване">
 <!ENTITY  doNotTrack.post.label         ".">
 
 <!ENTITY  history.label                 "История">
@@ -35,12 +35,12 @@
 <!ENTITY  locbar.history.accesskey      "И">
 <!ENTITY  locbar.bookmarks.label        "Отметки">
 <!ENTITY  locbar.bookmarks.accesskey    "О">
-<!ENTITY  locbar.openpage.label         "Отворените подпрозорци">
-<!ENTITY  locbar.openpage.accesskey     "п">
+<!ENTITY  locbar.openpage.label         "Отворените раздели">
+<!ENTITY  locbar.openpage.accesskey     "р">
 <!ENTITY  locbar.searches.label         "Подобни търсения в стандартната търсеща машина">
 <!ENTITY  locbar.searches.accesskey     "П">
 
-<!ENTITY  suggestionSettings.label      "Промяна настройките на подсказките от търсещите машини">
+<!ENTITY  suggestionSettings.label      "Промяна настройките на подсказките от търсещите машини…">
 <!ENTITY  suggestionSettings.accesskey  "р">
 
 <!ENTITY  acceptCookies.label           "Разрешаване на бисквитките">
@@ -72,10 +72,10 @@
 <!ENTITY  historyHeader.post.label         "">
 
 <!ENTITY  rememberDescription.label      "&brandShortName; ще помни историята на сърфирането, изтеглянията, формулярите и търсенията и ще съхранява бисквитките на страниците, които посещавате.">
+
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
-
 <!ENTITY  rememberActions.pre.label           "Вероятно желаете да ">
 <!ENTITY  rememberActions.clearHistory.label  "изчистите скорошната история">
 <!ENTITY  rememberActions.middle.label        ", или ">
@@ -83,9 +83,9 @@
 <!ENTITY  rememberActions.post.label          ".">
 
 <!ENTITY  dontrememberDescription.label  "&brandShortName; ще използва същите настройки като при поверително сърфиране и няма да помни никаква история, докато сте в Интернет.">
+
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-
 <!ENTITY  dontrememberActions.pre.label          "Може също да искате да">
 <!ENTITY  dontrememberActions.clearHistory.label "изчистите цялата настояща история">
 <!ENTITY  dontrememberActions.post.label         ".">

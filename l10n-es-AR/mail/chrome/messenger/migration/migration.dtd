@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY migrationWizard.title "Asistente para importar">
+<!ENTITY migrationWizard.title          "Asistente para importar">
 
 <!ENTITY importFromWin.label            "Importar opciones, configuración de la cuenta, libreta de direcciones y otros datos de:">
 <!ENTITY importFromNonWin.label         "Importar preferencias, configuración de la cuenta, libreta de direcciones y otros datos de:">
@@ -28,4 +28,4 @@
 <!ENTITY selectProfile.label            "Los siguientes perfiles están disponibles para importar desde:">
 
 <!ENTITY done.title                     "Importación finalizada">
-<!ENTITY done.label                     "Los siguientes elementos se importaron correctamente:">
+<!ENTITY done.label                     "Los siguientes elementos se importaron exitosamente:">

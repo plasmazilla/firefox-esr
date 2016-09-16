@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!-- Note: each tab panel must contain unique accesskeys -->
 
+<!-- Note: each tab panel must contain unique accesskeys -->
 
 <!ENTITY generalTab.label                "Общи">
 
@@ -15,7 +15,7 @@
 <!ENTITY blockAutoRefresh.label          "Предупреждение, когато страницата се опитва да пренасочи или презареди">
 <!ENTITY blockAutoRefresh.accesskey      "П">
 <!ENTITY useOnScreenKeyboard.label       "Показване на клавиатура за докосване, ако е необходимо">
-<!ENTITY useOnScreenKeyboard.accesskey   "к">
+<!ENTITY useOnScreenKeyboard.accesskey   "д">
 
 <!ENTITY browsing.label                  "Сърфиране">
 
@@ -26,7 +26,7 @@
 <!ENTITY allowHWAccel.label              "Използване на хардуерно ускоряване, ако е налично">
 <!ENTITY allowHWAccel.accesskey          "х">
 <!ENTITY checkSpelling.label             "Проверка на правописа при въвеждане">
-<!ENTITY checkSpelling.accesskey         "П">
+<!ENTITY checkSpelling.accesskey         "в">
 
 <!ENTITY dataChoicesTab.label            "Данни">
 
@@ -56,13 +56,13 @@
 <!ENTITY httpCache.label                 "Кеширано уеб съдържание">
 
 <!ENTITY offlineStorage2.label           "Уеб съдържание при работа извън мрежа и потребителски данни">
+
 <!-- LOCALIZATION NOTE:
   The entities limitCacheSizeBefore.label and limitCacheSizeAfter.label appear on a single
   line in preferences as follows:
 
   &limitCacheSizeBefore.label [textbox for cache size in MB] &limitCacheSizeAfter.label;
 -->
-
 <!ENTITY limitCacheSizeBefore.label      "Ограничаване на кеша до">
 <!ENTITY limitCacheSizeBefore.accesskey  "О">
 <!ENTITY limitCacheSizeAfter.label       "МБ пространство">
@@ -83,9 +83,6 @@
 <!ENTITY updateManual.label              "Никога не се проверява за обновявания (не е препоръчвано: риск за безопасността)">
 <!ENTITY updateManual.accesskey          "Н">
 
-<!ENTITY updateAutoAddonWarn.label       "Предупреждение при възможно изключване на добавки">
-<!ENTITY updateAutoAddonWarn.accesskey   "в">
-
 <!ENTITY updateHistory.label             "История на обновяванията">
 <!ENTITY updateHistory.accesskey         "о">
 
@@ -99,7 +96,7 @@
 <!ENTITY offlineNotify.label             "Предупреждение, когато сайт иска да съхрани информация за работа извън мрежата">
 <!ENTITY offlineNotify.accesskey         "П">
 <!ENTITY offlineNotifyExceptions.label   "Изключения…">
-<!ENTITY offlineNotifyExceptions.accesskey "И">
+<!ENTITY offlineNotifyExceptions.accesskey "з">
 
 <!ENTITY offlineAppsList2.label          "На следните сайтове е позволено да съхраняват информация за работа извън мрежата:">
 <!ENTITY offlineAppsList.height          "7em">

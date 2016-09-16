@@ -10,9 +10,9 @@
 <!ENTITY title      "เชื่อมต่อ">
 <!ENTITY header     "เชื่อมต่อไปยังอุปกรณ์ระยะไกล">
 <!ENTITY host       "โฮสต์:">
-<!ENTITY port       "พอร์ต :">
+<!ENTITY port       "พอร์ต:">
 <!ENTITY connect    "เชื่อมต่อ">
-<!ENTITY connecting "เชื่อมต่อ">
+<!ENTITY connecting "กำลังเชื่อมต่อ…">
 <!ENTITY availableAddons "ส่วนเสริมระยะไกลที่มี:">
 <!ENTITY availableTabs "แท็บระยะไกลที่มี:">
 <!ENTITY availableProcesses "โพรเซสทางไกลที่มี:">
@@ -23,6 +23,8 @@
 <!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
 these strings will be concatenated in a single label, remoteDocumentation will
 be used as text for a link to MDN. -->
+
+<!ENTITY remoteHelp "แถบเครื่องมือนักพัฒนาของ Firefox สามารถใช้ดีบักอุปกรณ์ (เช่น Firefox สำหรับแแอนดรอยด์ และ Firefox OS) ได้ พยายามให้แน่ใจว่าคุณเปิดใช้ตัวเลือก 'การดีบักระยะไกล' จากในอุปกรณ์ระยะไกลนั้น ข้อมูลเพิ่มเติม โปรดดู ">
 <!ENTITY remoteDocumentation "เอกสารอ้างอิง">
 
 

@@ -3,10 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title                 "ಜಾಡು ಇರಿಸಬೇಡ">
-<!ENTITY window.width                 "40em">
-<!ENTITY window.height                "8em">
+<!ENTITY window.width                 "50em">
+<!ENTITY window.height                "10em">
 
-<!ENTITY doNotTrackCheckbox.label     "ಜಾಡು ಇರಿಸಬೇಡ ಅನ್ನು ಬಳಸು">
-<!ENTITY doNotTrackCheckbox.accesskey "U">
+<!ENTITY doNotTrackCheckbox2.label    "ಯಾವಾಗಲೂ ಜಾಡು ಹಿಡಿಯ ಬೇಡ ಅನ್ವಯಿಸಿ">
+<!ENTITY doNotTrackCheckbox2.accesskey "A">
 
+<!ENTITY doNotTrackTPInfo.description "&brandShortName; ಜಾಡುಹಿಡಿಯುವಿಕೆಯ ಸುರಕ್ಷಿತೆ ಸಕ್ರಿಯವಾಗಿದ್ದು ನಿಮಗೆ ಜಾಡು ಹಿಡಿಯುವಿಕೆ ಬೇಡವಾದಾಗ ನಿಮಗೆ ಸೂಚನೆಗಳನ್ನು ಕಳುಹಿಸುತ್ತದೆ.">
 <!ENTITY doNotTrackLearnMore.label    "ಇನ್ನಷ್ಟು ಅರಿತುಕೊಳ್ಳಿ">

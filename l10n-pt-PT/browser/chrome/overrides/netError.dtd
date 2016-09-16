@@ -6,7 +6,7 @@
 %brandDTD;
 
 <!ENTITY loadError.label "Ocorreu um problema ao carregar a página">
-<!ENTITY retry.label "Voltar a tentar">
+<!ENTITY retry.label "Tentar novamente">
 <!ENTITY returnToPreviousPage.label "Retroceder">
 <!ENTITY advanced.label "Avançado">
 <!-- Specific error messages -->
@@ -83,8 +83,8 @@ was trying to connect. -->
 <!ENTITY cspBlocked.title "Bloqueada pela Content Security Policy">
 <!ENTITY cspBlocked.longDesc "<p>O &brandShortName; impediu o carregamento desta página desta forma porque a página tem uma política de segurança de conteúdo que não o permite.</p>">
 
-<!ENTITY corruptedContentError.title "Conteúdo corrompido">
-<!ENTITY corruptedContentError.longDesc "<p>A página que está a tentar ver não pode ser exibida porque foi detetado um erro na transmissão de dados.</p><ul><li>Por favor reporte o problema aos proprietário do website.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Conteúdo corrompido">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que está a tentar ver não pode ser exibida porque foi detetado um erro na transmissão de dados.</p><ul><li>Por favor reporte o problema aos proprietário do website.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Adicionar exceção…">
@@ -107,6 +107,10 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Avançado">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> usa tecnologia de segurança que está desatualizada e vulnerável a ataque. Um atacante pode facilmente revelar informação que pensasse ser segura.">
 <!ENTITY weakCryptoAdvanced.override "(Não seguro) Tente carregar <span class='hostname'></span> utilizando segurança desatualizada">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+
+<!ENTITY certerror.wrongSystemTime "<p>Uma ligação segura para <span id='wrongSystemTime_URL'/> não é possível porque o relógio parece mostrar a hora errada.</p> <p>O seu computador pensa que são <span id='wrongSystemTime_systemDate'/>, quando devem ser <span id='wrongSystemTime_actualDate'/>. Para reparar este problema, altere as suas definições de data e hora para corresponderem à hora correta.</p>">
 
 <!ENTITY certerror.pagetitle1  "Ligação não segura">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Este site utiliza HTTP Strict Transport Security (HSTS) para especificar que o &brandShortName; apenas se liga ao mesmo em segurança. Como resultado, não é possível adicionar uma exceção para este certificado.">
@@ -116,3 +120,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> utiliza tecnologia de segurança que está desatualizada e vulnerável a ataques. Um atacante pode facilmente revelar informação que pensou estar segura. O administrador do website precisa de corrigir o servidor primeiro antes que possa visitar o site. </p><p>Código de erro: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Parece que as suas definições de segurança de rede podem estar a causar isto. Pretende que as definições predefinidas sejam restauradas?">
+<!ENTITY prefReset.label "Restaurar definições predefinidas">

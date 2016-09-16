@@ -152,7 +152,7 @@
 <!ENTITY detail.checkForUpdates.tooltip       "Khangela uhlaziyo lwesi songezelelo">
 <!ENTITY detail.showPreferencesWin.label      "Ekunokukhethwa kuko">
 <!ENTITY detail.showPreferencesWin.accesskey  "E">
-<!ENTITY detail.showPreferencesWin.tooltip    "Tshintsha ekunokukhethwa kuko kwesi songezelelo">
+<!ENTITY detail.showPreferencesWin.tooltip    "Tshintsha okunokukhethwa kuko kwesongezelelo">
 <!ENTITY detail.showPreferencesUnix.label     "Izikhethwa">
 <!ENTITY detail.showPreferencesUnix.accesskey "I">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Tshintsha iipriferensi zesongezelelo">

@@ -12,7 +12,7 @@
 <!ENTITY update.checkForUpdatesButton.accesskey   "C">
 <!ENTITY update.updateButton.label2                "ਅੱਪਡੇਟ ਕਰਨ ਲਈ &brandShortName; ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰੋ">
 <!ENTITY update.updateButton.accesskey            "R">
-<!ENTITY update.applyButtonBillboard.label        "…ਅੱਪਡੇਟ ਲਾਗੂ ਕਰੋ">
+<!ENTITY update.applyButtonBillboard.label        "…ਅੱਪਡੇਟ ਨੂੰ ਲਾਗੂ ਕਰੋ">
 <!ENTITY update.applyButtonBillboard.accesskey    "A">
 
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
@@ -47,12 +47,13 @@
 <!ENTITY helpus.getInvolvedLink     "ਭਾਗ ਲਵੋ!">
 <!ENTITY helpus.end                 "">
 
+<!ENTITY releaseNotes.link          "ਨਵਾਂ ਕੀ ਹੈ">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 <!ENTITY bottomLinks.license        "ਕਾਨੂੰਨੀ ਜਾਣਕਾਰੀ">
 
 <!-- LOCALIZATION NOTE (bottomLinks.rights): This is a link title that links to about:rights. -->
-<!ENTITY bottomLinks.rights         "ਅੰਤਮ ਯੂਜ਼ਰ ਹੱਕ">
+<!ENTITY bottomLinks.rights         "ਅੰਤਮ ਵਰਤੋਂਕਾਰ ਦੇ ਹੱਕ">
 
 <!-- LOCALIZATION NOTE (bottomLinks.privacy): This is a link title that links to http://www.mozilla.com/legal/privacy/. -->
 <!ENTITY bottomLinks.privacy        "ਪਰਦੇਦਾਰੀ ਨੀਤੀ">

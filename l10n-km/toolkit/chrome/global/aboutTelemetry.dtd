@@ -20,6 +20,9 @@
 
 <!ENTITY aboutTelemetry.showArchivedPingData "ទិន្នន័យ​ភីង​​បាន​រក្សាទុក​ក្នុង​ប័ណ្ណសារ">
 
+
+
+
 <!ENTITY aboutTelemetry.showSubsessionData "បង្ហាញ​ទិន្នន័យ​សម័យ​រង">
 
 <!ENTITY aboutTelemetry.choosePing "ជ្រើស​ភីង៖">
@@ -27,6 +30,7 @@
 <!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; ភីង​ថ្មី​ជាង">
 
 <!ENTITY aboutTelemetry.showOlderPing "ភីង​ចាស់ &gt;&gt;">
+
 
 <!ENTITY aboutTelemetry.archiveWeekHeader "សប្ដាហ៍">
 
@@ -54,7 +58,6 @@
 
 <!ENTITY aboutTelemetry.lateWritesSection "  សរសេរ​យឺត">
 
-<!ENTITY aboutTelemetry.systemInfoSection "   ព័ត៌មាន​ប្រព័ន្ធ">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "   គំនូស​តាង​របារ​​ដែល​បាន​សម្រាំង​ដោយ​កម្មវិធី​បន្ថែម ">
 
@@ -69,3 +72,5 @@
 <!ENTITY aboutTelemetry.hideSymbols "   បង្ហាញ​ទិន្នន័យ​ដើម​​ពី​​បណ្ដុំ​ឯកសារ​ដែល​បាន​រង់ចាំ">
 
 <!ENTITY aboutTelemetry.filterText "  តម្រង (strings or /regexp/)">
+
+

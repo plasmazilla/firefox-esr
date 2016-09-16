@@ -78,8 +78,6 @@
 <!ENTITY fxaSignedIn.tooltip "Открыть настройки Синхронизации">
 <!ENTITY fxaSignInError.label "Снова подсоединиться к Синхронизации">
 <!ENTITY fxaUnverified.label "Подтвердить свой аккаунт">
-<!ENTITY syncStartPanel2.heading "Синхронизация включена">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; сейчас начнёт синхронизироваться.">
 <!ENTITY fullScreenMinimize.tooltip "Свернуть">
 <!ENTITY fullScreenRestore.tooltip "Восстановить">
 <!ENTITY fullScreenClose.tooltip "Закрыть">
@@ -122,6 +120,10 @@
 <!ENTITY recentBookmarks.label "Недавно добавленные закладки">
 <!ENTITY otherBookmarksCmd.label "Другие закладки">
 <!ENTITY bookmarksToolbarChevron.tooltip "Показать больше закладок">
+<!ENTITY showRecentlyBookmarked.label "Показать недавно добавленные закладки">
+<!ENTITY showRecentlyBookmarked.accesskey "к">
+<!ENTITY hideRecentlyBookmarked.label "Скрыть недавно добавленные закладки">
+<!ENTITY hideRecentlyBookmarked.accesskey "к">
 <!ENTITY backCmd.label "Назад">
 <!ENTITY backButton.tooltip "На предыдущую страницу">
 <!ENTITY forwardCmd.label "Вперёд">
@@ -165,6 +167,7 @@
 <!ENTITY bookmarksMenuButton.other.label "Другие закладки">
 <!ENTITY viewBookmarksSidebar2.label "Показать боковую панель закладок">
 <!ENTITY viewBookmarksToolbar.label "Показать панель закладок">
+<!ENTITY containersMenu.label "Контейнеры">
 <!ENTITY bookmarksGtkCmd.commandkey "o">
 <!ENTITY bookmarksWinCmd.commandkey "i">
 <!ENTITY historyButton.label "Журнал">
@@ -188,14 +191,6 @@
 <!ENTITY fileMenu.accesskey "Ф">
 <!ENTITY newUserContext.label "Новая вкладка в контейнере">
 <!ENTITY newUserContext.accesskey "а">
-<!ENTITY userContextPersonal.label "Личный">
-<!ENTITY userContextPersonal.accesskey "и">
-<!ENTITY userContextWork.label "Работа">
-<!ENTITY userContextWork.accesskey "а">
-<!ENTITY userContextBanking.label "Банкинг">
-<!ENTITY userContextBanking.accesskey "н">
-<!ENTITY userContextShopping.label "Шоппинг">
-<!ENTITY userContextShopping.accesskey "п">
 <!ENTITY newNavigatorCmd.label "Новое окно">
 <!ENTITY newNavigatorCmd.key "N">
 <!ENTITY newNavigatorCmd.accesskey "Н">
@@ -406,16 +401,20 @@
 <!ENTITY mediaMute.accesskey "т">
 <!ENTITY mediaUnmute.label "Восстановить звук">
 <!ENTITY mediaUnmute.accesskey "т">
-<!ENTITY mediaPlaybackRate.label "Скорость воспроизведения">
-<!ENTITY mediaPlaybackRate.accesskey "к">
-<!ENTITY mediaPlaybackRate050x.label "Замедленное движение (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "м">
-<!ENTITY mediaPlaybackRate100x.label "Нормальная скорость">
-<!ENTITY mediaPlaybackRate100x.accesskey "о">
-<!ENTITY mediaPlaybackRate150x.label "Высокая скорость (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "ы">
-<!ENTITY mediaPlaybackRate200x.label "Безумная скорость (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "з">
+<!ENTITY mediaPlaybackRate2.label "Скорость воспроизведения">
+<!ENTITY mediaPlaybackRate2.accesskey "к">
+<!ENTITY mediaPlaybackRate050x2.label "Замедленная (0.5×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "м">
+<!ENTITY mediaPlaybackRate100x2.label "Нормальная">
+<!ENTITY mediaPlaybackRate100x2.accesskey "о">
+<!ENTITY mediaPlaybackRate125x2.label "Повышенная (1.25×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "ш">
+<!ENTITY mediaPlaybackRate150x2.label "Высокая (1.5×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "ы">
+<!ENTITY mediaPlaybackRate200x2.label "Безумная (2×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "з">
+<!ENTITY mediaLoop.label "Повторять">
+<!ENTITY mediaLoop.accesskey "в">
 <!ENTITY mediaShowControls.label "Показать пульт управления">
 <!ENTITY mediaShowControls.accesskey "п">
 <!ENTITY mediaHideControls.label "Скрыть пульт управления">
@@ -491,7 +490,7 @@
 <!ENTITY identity.connectionSecure "Защищённое соединение">
 <!ENTITY identity.connectionNotSecure "Незащищённое соединение">
 <!ENTITY identity.connectionFile "Эта страница хранится на вашем компьютере.">
-<!ENTITY identity.connectionVerified1 "Вы подключились по защищённому соединению к этому сайту, управляемому:">
+<!ENTITY identity.connectionVerified2 "Вы подключились по защищённому соединению к сайту, которым владеет:">
 <!ENTITY identity.connectionInternal "Это защищённая страница &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Логины, введённые на этой странице, могут быть скомпрометированы.">
 <!ENTITY identity.activeBlocked "&brandShortName; заблокировал незащищённые части этой страницы.">
@@ -569,7 +568,7 @@
 <!ENTITY social.directory.viewmore.text "Показать ещё">
 <!ENTITY customizeMode.menuAndToolbars.header2 "Дополнительные инструменты и функции">
 <!ENTITY customizeMode.menuAndToolbars.empty "Нужно больше инструментов?">
-<!ENTITY customizeMode.menuAndToolbars.emptyLink "Выбирайте из тысяч дополнений">
+<!ENTITY customizeMode.menuAndToolbars.emptyLink "Выберите нужные вам дополнения">
 <!ENTITY customizeMode.restoreDefaults "По умолчанию">
 <!ENTITY customizeMode.toolbars "Показать / Скрыть панели">
 <!ENTITY customizeMode.titlebar "Заголовок">

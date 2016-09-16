@@ -60,24 +60,24 @@
 <!ENTITY setup.captchaPage2.title.label     "Potvrďte prosím, že nejste robot">
 
 <!-- Existing Account Page 1: Add Device (incl. Add a Device dialog strings) -->
-<!ENTITY addDevice.title.label              "Přidání zařízení">
+<!ENTITY addDevice.title.label              "Přidat zařízení">
 <!ENTITY addDevice.showMeHow.label          "Zobrazit nápovědu.">
 <!ENTITY addDevice.dontHaveDevice.label     "Nemám zařízení u sebe">
 <!ENTITY addDevice.setup.description.label  "Pro aktivaci přejděte do dialogu možností &syncBrand.shortName.label; na připojeném zařízení a zvolte „Přidat zařízení“.">
-<!ENTITY addDevice.setup.enterCode.label    "A tam pak vložte tento kód:">
+<!ENTITY addDevice.setup.enterCode.label    "A pak vložte tento kód:">
 <!ENTITY addDevice.dialog.description.label "Pro aktivaci přejděte do dialogu možností &syncBrand.shortName.label; na připojovaném zařízení a zvolte „Připojit“.">
-<!ENTITY addDevice.dialog.enterCode.label   "Zde pak vložte kód, který obdržíte:">
+<!ENTITY addDevice.dialog.enterCode.label   "A pak vložte kód získaný z druhého zařízení:">
 <!ENTITY addDevice.dialog.tryAgain.label    "Prosím zkuste to znovu.">
 <!ENTITY addDevice.dialog.successful.label  "Zařízení bylo úspěšně přidáno. Počáteční synchronizace může trvat několik minut a bude probíhat na pozadí.">
 <!ENTITY addDevice.dialog.recoveryKey.label "Pro aktivaci vzdáleného zařízení budete potřebovat obnovovací klíč. Níže uvedený obnovovací klíč si prosím vytiskněte nebo uložte a vezměte si ho sebou.">
 <!ENTITY addDevice.dialog.connected.label   "Zařízení připojeno">
 
 <!-- Existing Account Page 2: Manual Login -->
-<!ENTITY setup.signInPage.title.label "Přihlásit">
+<!ENTITY setup.signInPage.title.label "Přihlásit se">
 <!ENTITY existingRecoveryKey.description "Svůj obnovovací klíč můžete nalézt v připojeném zařízení v dialogu možností &syncBrand.shortName.label;, pokud klepnete na „Obnovovací klíč“ pod tlačítkem „Správa účtu“.">
 <!ENTITY verifying.label              "Ověřování…">
-<!ENTITY resetPassword.label          "Vynulovat heslo">
-<!ENTITY resetSyncKey.label           "Ztratil jsem své další zařízení.">
+<!ENTITY resetPassword.label          "Obnovit heslo">
+<!ENTITY resetSyncKey.label           "Ztratil(a) jsem své další zařízení.">
 
 <!-- Sync Options -->
 <!ENTITY setup.optionsPage.title      "Možnosti synchronizace">
@@ -94,17 +94,17 @@
 <!ENTITY engine.history.label       "Historie">
 <!ENTITY engine.history.accesskey   "H">
 <!ENTITY engine.passwords.label     "Hesla">
-<!ENTITY engine.passwords.accesskey "s">
+<!ENTITY engine.passwords.accesskey "e">
 <!ENTITY engine.prefs.label         "Předvolby">
-<!ENTITY engine.prefs.accesskey     "e">
+<!ENTITY engine.prefs.accesskey     "v">
 
 <!ENTITY choice2.merge.main.label      "Sloučit data na tomto počítači s daty &syncBrand.shortName.label;">
-<!ENTITY choice2.merge.recommended.label "Doporučováno:">
+<!ENTITY choice2.merge.recommended.label "(doporučeno)">
 <!ENTITY choice2.client.main.label     "Nahradit všechna data na tomto počítači daty z vašeho &syncBrand.shortName.label;">
 <!ENTITY choice2.server.main.label     "Nahradit data na ostatních zařízeních daty na tomto počítači">
 
 <!-- Confirm Merge Options -->
-<!ENTITY setup.optionsConfirmPage.title "Potvrdit">
+<!ENTITY setup.optionsConfirmPage.title "Potvrzení">
 <!ENTITY confirm.merge.label    "Zvolili jste sloučení dat na tomto počítači s daty na ostatních zařízeních, kde běží &syncBrand.fullName.label;.">
 <!ENTITY confirm.client2.label         "Upozornění: Následující data aplikace &brandShortName; na tomto počítači budou smazána:">
 <!ENTITY confirm.client.moreinfo.label "&brandShortName; poté nakopíruje data &syncBrand.fullName.label; na tento počítač.">

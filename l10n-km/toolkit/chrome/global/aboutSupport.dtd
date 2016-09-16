@@ -5,9 +5,7 @@
 <!ENTITY aboutSupport.pageTitle "ព័ត៌មាន​អំពី​ដំណោះស្រាយ​បញ្ហា">
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 
-<!ENTITY aboutSupport.pageSubtitle "  ទំព័រ​នេះ មាន​ព័ត៌មាន​បច្ចេកទេស​ដែល​អាច​មាន​ប្រយោជន៍ នៅ​ពេល​ដែល​អ្នក 
-ព្យាយាម​ដោះស្រាយ​បញ្ហា ។ ប្រសិនបើ​អ្នក​កំពុង​រក​ចម្លើយ​សម្រាប់​សំណួរ​ទូទៅ 
-អំពី &brandShortName; ពិនិត្យមើល <a id='supportLink'>តំបន់​បណ្ដាញ​គាំទ្រ</a> របស់​យើង ។">
+<!ENTITY aboutSupport.pageSubtitle "  ទំព័រ​នេះ មាន​ព័ត៌មាន​បច្ចេកទេស​ដែល​អាច​មាន​ប្រយោជន៍ នៅ​ពេល​ដែល​អ្នក ព្យាយាម​ដោះស្រាយ​បញ្ហា ។ ប្រសិនបើ​អ្នក​កំពុង​រក​ចម្លើយ​សម្រាប់​សំណួរ​ទូទៅ អំពី &brandShortName; ពិនិត្យមើល <a id='supportLink'>តំបន់​បណ្ដាញ​គាំទ្រ</a> របស់​យើង ។">
 
 <!ENTITY aboutSupport.crashes.title "របាយការណ៍​ការ​គាំង">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
@@ -30,7 +28,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentActive "សកម្ម">
 <!ENTITY aboutSupport.experimentEndDate "កាលបរិច្ឆេទ​បញ្ចប់">
 <!ENTITY aboutSupport.experimentHomepage "គេហទំព័រ">
-
+<!ENTITY aboutSupport.experimentBranch "សាខា​">
 
 <!ENTITY aboutSupport.appBasicsTitle "មូលដ្ឋាន​គ្រឹះ​របស់​កម្មវិធី">
 <!ENTITY aboutSupport.appBasicsName "ឈ្មោះ">
@@ -52,10 +50,13 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "កម្មវិធី​ជំនួយ​ដែល​បាន​បើក">
 <!ENTITY aboutSupport.appBasicsBuildConfig "ស្ថាបនា​ការ​កំណត់​រចនាសម្ព័ន្ធ">
 <!ENTITY aboutSupport.appBasicsUserAgent "ភ្នាក់ងារ​អ្នកប្រើ">
+
 <!ENTITY aboutSupport.appBasicsMemoryUse "អង្គ​ចងចាំ​ដែល​ប្រើ">
+<!ENTITY aboutSupport.appBasicsPerformance "ដំណើរការ">
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers ដែល​បាន​ចុះ​ឈ្មោះ">
+
 
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "វីនដូ​ដំណើរការ​ច្រើន">
 
@@ -84,6 +85,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "ក្រាហ្វិក">
 
+
+
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "GC បន្ថែម">
 
@@ -103,3 +107,11 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "សាកល្បង​របៀប​សុវត្ថិភាព">
 <!ENTITY aboutSupport.restartInSafeMode.label "ចាប់ផ្ដើម​ឡើងវិញ​ដោយ​បិទ​កម្មវិធី​បន្ថែម...">
+
+
+
+
+
+
+
+

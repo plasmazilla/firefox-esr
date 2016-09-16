@@ -14,6 +14,8 @@
 <!ENTITY searchStartTyping.accesskey     "អ">
 <!ENTITY blockAutoRefresh.label          "ព្រមាន​ខ្ញុំ នៅ​ពេល​ដែល​​តំបន់បណ្ដាញ​ព្យាយាម​ប្ដូរ​ទិស ឬ​ផ្ទុក​ទំព័រ​ឡើងវិញ">
 <!ENTITY blockAutoRefresh.accesskey      "ន">
+<!ENTITY useOnScreenKeyboard.label       "បង្ហាញ​ក្ដារចុច​ប៉ះ​នៅ​ពេល​ចាំបាច់">
+<!ENTITY useOnScreenKeyboard.accesskey   "k">
 
 <!ENTITY browsing.label                  "រក​មើល">
 
@@ -80,9 +82,6 @@
 <!ENTITY updateCheck.accesskey           "រ">
 <!ENTITY updateManual.label              "កុំ​រកមើល​បច្ចុប្បន្នភាព (មិន​ត្រូវ​បាន​ផ្ដល់​អនុសាសន៍ ៖ ហានិភ័យ​សុវត្ថិភាព)">
 <!ENTITY updateManual.accesskey          "ក">
-
-<!ENTITY updateAutoAddonWarn.label       "ព្រមាន​ខ្ញុំ ប្រសិនបើ​វា​នឹង​បិទ​​កម្មវិធី​បន្ថែម​ណាមួយ​របស់​ខ្ញុំ ">
-<!ENTITY updateAutoAddonWarn.accesskey   "ព">
 
 <!ENTITY updateHistory.label             "បង្ហាញ​ប្រវត្តិ​បច្ចុប្បន្នភាព">
 <!ENTITY updateHistory.accesskey         "ព">

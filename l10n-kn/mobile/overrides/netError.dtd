@@ -19,14 +19,16 @@
 <!ENTITY dnsNotFound.title "ಪರಿಚಾರಕವು ಕಂಡುಬಂದಿಲ್ಲ">
 <!-- LOCALIZATION NOTE (dnsNotFound.longDesc4) This string contains markup including widgets for searching
      or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
-<!ENTITY dnsNotFound.longDesc4 "<ul> <li>ವಿಳಾಸಗಳಲ್ಲಿ ಟೈಪ್ ಮಾಡುವಾಗ ಸಂಭವಿಸಿರಬಹುದಾದ ಇಂತಹ ತಪ್ಪುಗಳನ್ನು  <strong>ww</strong>.example.com ಅನ್ನು ಇದರ ಬದಲಿಗೆ <strong>www</strong>.example.com</li> <div id='searchbox'> <input id='searchtext' type='search'></input> <button id='searchbutton'>ಹುಡುಕು</button> </div> <li>ನೀವು ಯಾವುದೇ ಪುಟಗಳನ್ನು ನೋಡಲಾಗದಿದ್ದಲ್ಲಿ, ನಿಮ್ಮ ಸಾಧನದ ಡೇಟಾ ಅಥವಾ ವೈ-ಫೈ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ. <button id='wifi'>ವೈ-ಫೈ ಸಕ್ರಿಯಗೊಳಿಸು</button> </li> </ul>">
+<!ENTITY dnsNotFound.longDesc4 "<ul> <li>ವಿಳಾಸಗಳಲ್ಲಿ ಟೈಪ್ ಮಾಡುವಾಗ ಸಂಭವಿಸಿರಬಹುದಾದ ಇಂತಹ ತಪ್ಪುಗಳನ್ನು ಗಮನಿಸಿ <strong>ww</strong>.example.com ಇದರ ಬದಲಿಗೆ <strong>www</strong>.example.com</li> <div id='searchbox'> <input id='searchtext' type='search'></input> <button id='searchbutton'>ಹುಡುಕು</button> </div> <li>ನೀವು ಯಾವುದೇ ಪುಟಗಳನ್ನು ನೋಡಲಾಗದಿದ್ದಲ್ಲಿ, ನಿಮ್ಮ ಸಾಧನದ ಡೇಟಾ ಅಥವಾ ವೈ-ಫೈ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ. <button id='wifi'>ವೈ-ಫೈ ಸಕ್ರಿಯಗೊಳಿಸಿ</button> </li> </ul>">
 
 <!ENTITY fileNotFound.title "ಕಡತವು ಕಂಡುಬಂದಿಲ್ಲ">
 <!ENTITY fileNotFound.longDesc "<ul> <li>ಕ್ಯಾಪಿಟಲೈಸೇಶನ್‍ಗಾಗಿ ಅಥವ ಇತರೆ ಬೆರಳಚ್ಚು ದೋಷಗಳಿಗಾಗಿ ಕಡತದ ಹೆಸರನ್ನು ಪರೀಕ್ಷಿಸಿ.</li> <li>ಕಡತವು ಸ್ಥಳಾಂತರಿಸಲ್ಪಟ್ಟಿದೆಯೆ, ಹೆಸರು ಬದಲಾಯಿಸಲ್ಪಟ್ಟಿದೆಯೆ ಅಥವ ಅಳಿಸಲ್ಪಟಿದೆಯೆ ಎಂದು ಪರೀಕ್ಷಿಸಿ.</li> </ul>">
 
+<!ENTITY fileAccessDenied.title "ಕಡತ ಪ್ರವೇಶವನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>ಅದನ್ನು ತೆಗೆದುಹಾಕಿರಬಹುದು, ಜರುಗಿಸಿರಬಹುದು, ಅಥವಾ ಕಡತದ ಅನುಮತಿಗಳು ಪ್ರವೇಶವನ್ನು ತಡೆಹಿಡಿಯುತ್ತಿರವಬಹುದು.</li></ul>">
 
 <!ENTITY generic.title "ಓಹ್.">
-<!ENTITY generic.longDesc "<p>&brandShortName; ಕ್ಕೆ ಈ ಪುಟವನ್ನು ಕೆಲವೊಂದು ಕಾರಣದಿಂದಾಗಿ ಲೋಡ್‍ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</p>">
+<!ENTITY generic.longDesc "<p>&brandShortName; ಗೆ ಈ ಪುಟವನ್ನು ಕೆಲವೊಂದು ಕಾರಣದಿಂದಾಗಿ ಲೋಡ್‍ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</p>">
 
 <!ENTITY malformedURI.title "ವಿಳಾಸವು ಸಮಂಜಸವಾಗಿಲ್ಲ">
 <!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
@@ -37,7 +39,7 @@
 <!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY notCached.title "ದಸ್ತಾವೇಜಿನ ವಾಯಿದೆ ತೀರಿದೆ">
-<!ENTITY notCached.longDesc "<p>ಮನವಿ ಸಲ್ಲಿಸಲಾದ ದಸ್ತಾವೇಜು &brandShortName; ನ ಕ್ಯಾಶೆಯಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ.</p><ul><li>As a security precautionಸುರಕ್ಷತಾ ಮುನ್ನೆಚ್ಚರಿಕೆಯಾಗಿ, &brandShortName; ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸೂಕ್ಷ್ಮ ಸಂವೇದಿ ದಸ್ತಾವೇಜುಗಳನ್ನು ಮರಳಿ-ಮನವಿ ಮಾಡುವುದಿಲ್ಲ.</li><li>ಜಾಲತಾಣದಿಂದ ದಸ್ತಾವೇಜನ್ನು ಮರಳಿ-ಮನವಿ ಮಾಡಲು ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸು ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</li></ul>">
+<!ENTITY notCached.longDesc "<p>ಮನವಿ ಸಲ್ಲಿಸಲಾದ ದಸ್ತಾವೇಜು &brandShortName; ನ ಕ್ಯಾಶೆಯಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ.</p><ul><li>ಸುರಕ್ಷತಾ ಮುನ್ನೆಚ್ಚರಿಕೆಯಾಗಿ, &brandShortName; ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸೂಕ್ಷ್ಮ ಸಂವೇದಿ ದಸ್ತಾವೇಜುಗಳನ್ನು ಮರಳಿ-ಮನವಿ ಮಾಡುವುದಿಲ್ಲ.</li><li>ಜಾಲತಾಣದಿಂದ ದಸ್ತಾವೇಜನ್ನು ಮರಳಿ-ಮನವಿ ಮಾಡಲು ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸು ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.</li></ul>">
 
 <!ENTITY netOffline.title "ಆಫ್‍ಲೈನ್‍ ಕ್ರಮ">
 <!-- LOCALIZATION NOTE (netOffline.longDesc3) This string contains markup including widgets enabling wifi connections.
@@ -77,7 +79,7 @@
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>ನೀವು ನೋಡಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಪಡೆಯಲಾದ ಮಾಹಿತಿಯ ವಿಶ್ವಾಸಾರ್ಹತೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ .</li> <li>ದಯವಿಟ್ಟು ಈ ತೊಂದರೆಯ ಬಗ್ಗೆ ಜಾಲತಾಣದ ಮಾಲಿಕರಿಗೆ ತಿಳಿಸಿ.</li> </ul>">
 
 <!ENTITY nssBadCert.title "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ">
-<!ENTITY nssBadCert.longDesc2 "<ul> <li>ಇದು ಪರಿಚಾರಕದ ಸಂರಚನೆಯಲ್ಲಿನ ಒಂದು ತೊಂದರೆ ಇರಬಹುದು, ಅಥವ ಯಾರಾದರೂ ಪರಿಚಾರಕದಂತೆ ವರ್ತಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರಬಹುದು.</li> <li>ಈ ಮೊದಲು ನೀವು ಪರಿಚಾರಕಕ್ಕೆ ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕ ಹೊಂದಲು ಸಾಧ್ಯವಾಗಿದ್ದಲ್ಲಿ, ಈಗಿನ ದೋಷವು ತಾತ್ಕಾಲಿಕವಾಗಿರಬಹುದು, ಹಾಗು ನೀವು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li> </ul>">
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>ಇದು ಸರ್ವರ್ ಸಂರಚನೆಯಲ್ಲಿನ ಒಂದು ತೊಂದರೆ ಇರಬಹುದು, ಅಥವ ಯಾರಾದರೂ ಸರ್ವರ್‍‍ನಂತೆ ವರ್ತಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರಬಹುದು.</li> <li>ಈ ಮೊದಲು ನೀವು ಸರ್ವರ್‍‍ಗೆ ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕ ಹೊಂದಲು ಸಾಧ್ಯವಾಗಿದ್ದಲ್ಲಿ, ಈಗಿನ ದೋಷವು ತಾತ್ಕಾಲಿಕವಾಗಿರಬಹುದು, ಹಾಗು ನೀವು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li> </ul>">
 <!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 
@@ -86,8 +88,8 @@
 <!ENTITY cspBlocked.title "ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮದಿಂದ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
 <!ENTITY cspBlocked.longDesc "<p>ಈ ಪುಟವನ್ನು ಈ ರೀತಿಯಲ್ಲಿ ಲೋಡ್ ಮಾಡುದಂತೆ &brandShortName; ತಡೆದಿದೆ ಏಕೆಂದರೆ ಈ ಪುಟದಲ್ಲಿನ ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮವು ಇದಕ್ಕೆ ಅನುಮತಿ ನೀಡುವುದಿಲ್ಲ.</p>">
 
-<!ENTITY corruptedContentError.title "ವಿಷಯ ಹಾಳಾದ ದೋಷ">
-<!ENTITY corruptedContentError.longDesc "<p>ನೀವು ನೋಡಲು ಬಯಸುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಮಾಹಿತಿ ವರ್ಗಾವಣೆಯಲ್ಲಿ ಒಂದು ದೋಷವು ಕಂಡು ಬಂದಿದೆ.</p><ul><li>ಈ ತೊಂದರೆಯನ್ನು ವರದಿ ಮಾಡಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "ವಿಷಯ ಹಾಳಾದ ದೋಷ">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>ನೀವು ನೋಡಲು ಬಯಸುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಮಾಹಿತಿ ವರ್ಗಾವಣೆಯಲ್ಲಿ ಒಂದು ದೋಷವು ಕಂಡು ಬಂದಿದೆ.</p><ul><li>ಈ ತೊಂದರೆಯನ್ನು ವರದಿ ಮಾಡಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
 <!ENTITY securityOverride.linkText "ಅಥವ ನೀವು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಬಹದು…">
 <!ENTITY securityOverride.getMeOutOfHereButton "ನನಗೆ ಇಲ್ಲಿಂದ ಹೊರಗೆ ಕೊಂಡೊಯ್ಯಿ!">
@@ -112,3 +114,8 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "ಸುಧಾರಿತ ಮಾಹಿತಿ: SSL_ERROR_NO_CYPHER_OVERLAP">
+
+<!ENTITY inadequateSecurityError.title "ನಿಮ್ಮ ಸಂಪರ್ಕವು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ‍">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span>ಹಳತಾದ ಮತ್ತು ಆಕ್ರಮಣಕ್ಕೆ ಸಿಲುಕಬಹುದಾದ ಸುರಕ್ಷತಾ ತಂತ್ರಜ್ಞಾನವನ್ನು ಬಳಸುತ್ತಿದೆ. ಆಕ್ರಮಣಕಾರ ನಿಮಗೆ ಸುರಕ್ಷಿತ ಎನಿಸಬಹುದಾದ ಮಾಹಿತಿಯನ್ನು ಸುಲಭವಾಗಿ ಬಹಿರಂಗಪಡಿಸಬಲ್ಲ. ಜಾಲತಾಣದ ನಿರ್ವಾಹಕ ಈ ಸರ್ವರ್ ಅನ್ನು ನೀವು ಭೇಟಿ ನೀಡುವುದಕ್ಕಿಂತ ಮುಂಚೆ ಸರಿಪಡಿಸಬೇಕಿದೆ.</p><p>ದೋಷದ ಸಂಕೇತ: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

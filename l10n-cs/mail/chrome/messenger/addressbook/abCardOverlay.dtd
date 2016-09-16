@@ -30,7 +30,7 @@
 <!ENTITY PhoneticField1.label "Foneticky:">
 <!ENTITY PhoneticField2.label "Foneticky:">
 <!ENTITY DisplayName.label "Zobrazované jméno:">
-<!ENTITY DisplayName.accesskey "b">
+<!ENTITY DisplayName.accesskey "n">
 <!ENTITY preferDisplayName.label "Vždy upřednostnit zobrazované jméno před hlavičkou zprávy">
 <!ENTITY preferDisplayName.accesskey "u">
 <!ENTITY NickName.label "Přezdívka:">
@@ -58,16 +58,16 @@
 <!ENTITY CellularNumber.label "Mobilní telefon:">
 <!ENTITY CellularNumber.accesskey "t">
 
-<!ENTITY Home.tab "Bydliště">
-<!ENTITY Home.accesskey "B">
+<!ENTITY Home.tab "Soukromé">
+<!ENTITY Home.accesskey "S">
 <!ENTITY HomeAddress.label "Adresa:">
-<!ENTITY HomeAddress.accesskey "r">
+<!ENTITY HomeAddress.accesskey "A">
 <!ENTITY HomeAddress2.label "">
 <!ENTITY HomeAddress2.accesskey "">
 <!ENTITY HomeCity.label "Město:">
 <!ENTITY HomeCity.accesskey "M">
 <!ENTITY HomeState.label "Kraj:">
-<!ENTITY HomeState.accesskey "K">
+<!ENTITY HomeState.accesskey "j">
 <!ENTITY HomeZipCode.label "PSČ:">
 <!ENTITY HomeZipCode.accesskey "P">
 <!ENTITY HomeCountry.label "Země:">
@@ -88,22 +88,22 @@
 <!ENTITY JobTitle.accesskey "i">
 <!ENTITY Department.label "Oddělení:">
 <!ENTITY Department.accesskey "d">
-<!ENTITY Company.label "Organizace:">
-<!ENTITY Company.accesskey "g">
+<!ENTITY Company.label "Společnost:">
+<!ENTITY Company.accesskey "l">
 <!ENTITY WorkAddress.label "Adresa:">
 <!ENTITY WorkAddress.accesskey "A">
 <!ENTITY WorkAddress2.label "">
 <!ENTITY WorkAddress2.accesskey "">
 <!ENTITY WorkCity.label "Město:">
-<!ENTITY WorkCity.accesskey "t">
+<!ENTITY WorkCity.accesskey "M">
 <!ENTITY WorkState.label "Kraj:">
 <!ENTITY WorkState.accesskey "j">
 <!ENTITY WorkZipCode.label "PSČ:">
-<!ENTITY WorkZipCode.accesskey "S">
+<!ENTITY WorkZipCode.accesskey "P">
 <!ENTITY WorkCountry.label "Země:">
 <!ENTITY WorkCountry.accesskey "e">
 <!ENTITY WorkWebPage.label "Webová stránka:">
-<!ENTITY WorkWebPage.accesskey "b">
+<!ENTITY WorkWebPage.accesskey "W">
 
 <!ENTITY Other.tab "Ostatní">
 <!ENTITY Other.accesskey "O">
@@ -143,7 +143,7 @@
 <!ENTITY Photo.accesskey "F">
 <!ENTITY PhotoDesc.label "Zvolte jednu z následujících:">
 <!ENTITY GenericPhoto.label "Obecná fotografie">
-<!ENTITY GenericPhoto.accesskey "b">
+<!ENTITY GenericPhoto.accesskey "e">
 <!ENTITY DefaultPhoto.label "Výchozí">
 <!ENTITY PhotoFile.label "Na počítači">
 <!ENTITY PhotoFile.accesskey "p">

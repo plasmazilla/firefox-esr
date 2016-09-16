@@ -26,8 +26,9 @@
 <!ENTITY stopFilters.accesskey "κ">
 <!ENTITY folderPickerPrefix.label "Εκτέλεση επιλεγμένων φίλτρων στο:">
 <!ENTITY folderPickerPrefix.accesskey "λ">
-<!ENTITY choosethis.label "επιλογή αυτού του φακέλου">
-<!ENTITY choosethisnewsserver.label "επιλογή αυτού του εξυπηρετητή συζητήσεων">
 <!ENTITY helpButton.label "Βοήθεια">
 <!ENTITY helpButton.accesskey "Β">
-<!ENTITY closeCmd.key "W">
+ 
+
+
+

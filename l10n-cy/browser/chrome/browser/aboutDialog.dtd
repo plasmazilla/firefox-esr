@@ -10,7 +10,7 @@
 
 <!ENTITY update.checkForUpdatesButton.label       "Gwirio am ddiweddariadau">
 <!ENTITY update.checkForUpdatesButton.accesskey   "G">
-<!ENTITY update.updateButton.label2                "Ailgychwyn &brandShortName; i Ddiweddaru">
+<!ENTITY update.updateButton.label2                "Ailgychwyn &brandShortName; i'w Ddiweddaru">
 <!ENTITY update.updateButton.accesskey            "A">
 <!ENTITY update.applyButtonBillboard.label        "Gosod y Diweddariad…">
 <!ENTITY update.applyButtonBillboard.accesskey    "D">
@@ -49,7 +49,7 @@
 <!ENTITY releaseNotes.link          "Beth sy'n newydd">
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 
-<!ENTITY bottomLinks.license        "Gwybodaeth Trwyddedu">
+<!ENTITY bottomLinks.license        "Manylion Trwyddedu">
 <!-- LOCALIZATION NOTE (bottomLinks.rights): This is a link title that links to about:rights. -->
 
 <!ENTITY bottomLinks.rights         "Hawliau'r Defnyddiwr">

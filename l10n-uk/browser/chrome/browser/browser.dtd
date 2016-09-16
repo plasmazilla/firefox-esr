@@ -96,22 +96,20 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY mirrorTabCmd.accesskey "з">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
-<!ENTITY enterFullScreenCmd.label "Повноекранний режим">
-<!ENTITY enterFullScreenCmd.accesskey "П">
+<!ENTITY enterFullScreenCmd.label "На весь екран">
+<!ENTITY enterFullScreenCmd.accesskey "е">
 <!ENTITY exitFullScreenCmd.label "Вийти з повноекранного режиму">
-<!ENTITY exitFullScreenCmd.accesskey "П">
-<!ENTITY fullScreenCmd.label "Повноекранний режим">
+<!ENTITY exitFullScreenCmd.accesskey "п">
+<!ENTITY fullScreenCmd.label "На весь екран">
 <!ENTITY fullScreenCmd.accesskey "е">
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Показати всі вкладки">
 <!ENTITY showAllTabsCmd.accesskey "в">
 
 <!ENTITY fxaSignIn.label "Увійти в Синхронізацію">
-<!ENTITY fxaSignedIn.tooltip "Відкрити налаштування синхронізації">
+<!ENTITY fxaSignedIn.tooltip "Відкрити налаштування Синхронізації">
 <!ENTITY fxaSignInError.label "Повторно підключитись до Синхронізації">
 <!ENTITY fxaUnverified.label "Підтвердити свій обліковий запис">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; увімкнена">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; почне синхронізацію негайно.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Згорнути">
@@ -167,10 +165,14 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenupopup.label "Підписатися на цю сторінку">
 <!ENTITY subscribeToPageMenuitem.label "Підписатися на цю сторінку…">
 <!ENTITY addCurPagesCmd.label "Закласти всі вкладки…">
-<!ENTITY showAllBookmarks2.label "Показати всі вкладки">
+<!ENTITY showAllBookmarks2.label "Показати всі закладки">
 <!ENTITY recentBookmarks.label "Недавно закладені">
 <!ENTITY otherBookmarksCmd.label "Інші закладки">
 <!ENTITY bookmarksToolbarChevron.tooltip "Показати інші закладки">
+<!ENTITY showRecentlyBookmarked.label     "Показати недавно закладені">
+<!ENTITY showRecentlyBookmarked.accesskey "о">
+<!ENTITY hideRecentlyBookmarked.label     "Приховати недавно закладені">
+<!ENTITY hideRecentlyBookmarked.accesskey "х">
 
 <!ENTITY backCmd.label                "Назад">
 <!ENTITY backButton.tooltip           "Назад на одну сторінку">
@@ -228,6 +230,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "Показати панель закладок">
 <!ENTITY viewBookmarksToolbar.label         "Показати панель закладок">
 
+<!ENTITY containersMenu.label "Контейнери">
+
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -261,20 +265,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.accesskey       "Ф">
 <!ENTITY newUserContext.label             "Нова вкладка в контейнері">
 <!ENTITY newUserContext.accesskey         "к">
-<!ENTITY userContextPersonal.label        "Особистий">
-<!ENTITY userContextPersonal.accesskey    "О">
-<!ENTITY userContextWork.label            "Робочий">
-<!ENTITY userContextWork.accesskey        "Р">
-<!ENTITY userContextBanking.label         "Банківський">
-<!ENTITY userContextBanking.accesskey     "Б">
-<!ENTITY userContextShopping.label        "Покупки">
-<!ENTITY userContextShopping.accesskey    "П">
 <!ENTITY newNavigatorCmd.label        "Нове вікно">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "в">
 <!ENTITY newPrivateWindow.label     "Приватне вікно">
 <!ENTITY newPrivateWindow.accesskey "т">
-<!ENTITY newNonRemoteWindow.label   "Нове однопроцесове вікно">
+<!ENTITY newNonRemoteWindow.label   "Однопроцесне вікно">
 
 <!ENTITY editMenu.label         "Редагувати"> 
 <!ENTITY editMenu.accesskey       "Р"> 
@@ -295,7 +291,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY pasteCmd.accesskey         "т"> 
 <!ENTITY deleteCmd.label          "Видалити">  
 <!ENTITY deleteCmd.key            "D">  
-<!ENTITY deleteCmd.accesskey        "С"> 
+<!ENTITY deleteCmd.accesskey        "В"> 
 <!ENTITY selectAllCmd.label         "Виділити все">  
 <!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "с"> 
@@ -336,7 +332,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.clearRecent.label "Стерти недавню історію…">
 <!ENTITY appMenuHistory.restoreSession.label "Відновити попередній сеанс">
 <!ENTITY appMenuHistory.viewSidebar.label "Показати панель історії">
-<!ENTITY appMenuHelp.tooltip "Відкрити меню допомоги">
+<!ENTITY appMenuHelp.tooltip "Відкрити меню довідки">
 
 <!ENTITY appMenuRemoteTabs.label "Синхронізовані вкладки">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
@@ -560,19 +556,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "и">
 <!ENTITY mediaUnmute.label           "Увімкнути звук">
 <!ENTITY mediaUnmute.accesskey       "и">
-<!ENTITY mediaPlaybackRate.label     "Швідкість відтворення">
-<!ENTITY mediaPlaybackRate.accesskey "Ш">
-<!ENTITY mediaPlaybackRate050x.label "Вповільнена швидкість (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "п">
-<!ENTITY mediaPlaybackRate100x.label "Нормальна швидкість">
-<!ENTITY mediaPlaybackRate100x.accesskey "Н">
-<!ENTITY mediaPlaybackRate150x.label "Висока швидкість (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "ш">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+<!ENTITY mediaPlaybackRate2.label     "Швидкість відтворення">
+<!ENTITY mediaPlaybackRate2.accesskey "в">
+<!ENTITY mediaPlaybackRate050x2.label "Повільно (0.5×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "П">
+<!ENTITY mediaPlaybackRate100x2.label "Нормально">
+<!ENTITY mediaPlaybackRate100x2.accesskey "Н">
+<!ENTITY mediaPlaybackRate125x2.label "Швидко (1.25×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "к">
+<!ENTITY mediaPlaybackRate150x2.label "Швидше (1.5×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "е">
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Шалена швидкість (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "л">
+<!ENTITY mediaPlaybackRate200x2.label "Надшвидко (2×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "о">
+<!ENTITY mediaLoop.label             "Цикл">
+<!ENTITY mediaLoop.accesskey         "л">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -680,7 +680,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Захищене з'єднання">
 <!ENTITY identity.connectionNotSecure "Незахищене з'єднання">
 <!ENTITY identity.connectionFile "Ця сторінка збережена на вашому комп'ютері.">
-<!ENTITY identity.connectionVerified1 "Ви підключились до цього сайту через захищене з'єднання, яке керується:">
+<!ENTITY identity.connectionVerified2 "Ви безпечно підключились до цього сайту, власником якого є:">
 <!ENTITY identity.connectionInternal "Це захищена сторінка &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Логіни введені на цій сторінці можуть бути скомпрометовані.">
 
@@ -729,7 +729,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "Хочете побачити тут свої вкладки з інших пристроїв?">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "Увійдіть, щоб переглядати список вкладок з інших ваших пристроїв.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "Немає відкритих вкладок">
-<!ENTITY syncedTabs.sidebar.openprefs.label    "Відкрити налаштування синхронізації">
+<!ENTITY syncedTabs.sidebar.openprefs.label    "Відкрити налаштування Синхронізації">
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Увімкніть синхронізацію вкладок для перегляду списку вкладок з інших пристроїв.">

@@ -59,8 +59,6 @@
 <!ENTITY updateCheck.accesskey           "d">
 <!ENTITY updateManual.label              "Güncellemeleri asla denetleme (önerilmez: güvenlik riski)">
 <!ENTITY updateManual.accesskey          "a">
-<!ENTITY updateAutoAddonWarn.label       "Bu işlem herhangi bir eklentimi devredışı bırakacaksa beni uyar">
-<!ENTITY updateAutoAddonWarn.accesskey   "B">
 <!ENTITY updateHistory.label             "Güncelleme geçmişini göster">
 <!ENTITY updateHistory.accesskey         "n">
 
@@ -103,6 +101,7 @@
 <!ENTITY enableOCSP.label                "Sertifikaların geçerliliğini doğrulamak için OCSP yanıt sunucularını sorgula">
 <!ENTITY enableOCSP.accesskey            "S">
 
-
+<!ENTITY manageCertificates.label "Sertifikaları yönet">
+<!ENTITY manageCertificates.accesskey "S">
 <!ENTITY viewSecurityDevices.label "Güvenlik aygıtları">
 <!ENTITY viewSecurityDevices.accesskey "G">

@@ -110,8 +110,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Malfermi preferojn de &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Reconnect to &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Konfirmi vian konton">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; aktiva">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; komencos tre baldaŭ speguli.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Malplejgrandigi">
@@ -171,6 +169,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY recentBookmarks.label "Ĵusaj legosignoj">
 <!ENTITY otherBookmarksCmd.label "Aliaj legosignoj">
 <!ENTITY bookmarksToolbarChevron.tooltip "Montri pliajn legosignojn">
+<!ENTITY showRecentlyBookmarked.label     "Montri ĵusajn legosignojn">
+<!ENTITY showRecentlyBookmarked.accesskey "M">
+<!ENTITY hideRecentlyBookmarked.label     "Kaŝi ĵusajn legosignojn">
+<!ENTITY hideRecentlyBookmarked.accesskey "K">
 
 <!ENTITY backCmd.label                "Malantaŭen">
 <!ENTITY backButton.tooltip           "Unu paĝo malantaŭen">
@@ -228,6 +230,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "Montri flankan strion de legosignoj">
 <!ENTITY viewBookmarksToolbar.label         "Montri ilaron de legosignoj">
 
+<!ENTITY containersMenu.label "Ujoj">
+
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -261,14 +265,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.accesskey       "o">
 <!ENTITY newUserContext.label             "Nova entena langeto">
 <!ENTITY newUserContext.accesskey         "e">
-<!ENTITY userContextPersonal.label        "Persona">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Laboro">
-<!ENTITY userContextWork.accesskey        "L">
-<!ENTITY userContextBanking.label         "Banka">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Aĉetumado">
-<!ENTITY userContextShopping.accesskey    "A">
 <!ENTITY newNavigatorCmd.label        "Nova fenestro">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -560,19 +556,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "S">
 <!ENTITY mediaUnmute.label           "Malsilentigi">
 <!ENTITY mediaUnmute.accesskey       "M">
-<!ENTITY mediaPlaybackRate.label     "Ludrapido">
-<!ENTITY mediaPlaybackRate.accesskey "l">
-<!ENTITY mediaPlaybackRate050x.label "Malrapide (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "M">
-<!ENTITY mediaPlaybackRate100x.label "Normale rapide">
-<!ENTITY mediaPlaybackRate100x.accesskey "N">
-<!ENTITY mediaPlaybackRate150x.label "Tre rapide (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "T">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+<!ENTITY mediaPlaybackRate2.label     "Ludrapido">
+<!ENTITY mediaPlaybackRate2.accesskey "d">
+<!ENTITY mediaPlaybackRate050x2.label "Malrapide (0.5×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "M">
+<!ENTITY mediaPlaybackRate100x2.label "Normale">
+<!ENTITY mediaPlaybackRate100x2.accesskey "N">
+<!ENTITY mediaPlaybackRate125x2.label "Rapide (1.25×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "R">
+<!ENTITY mediaPlaybackRate150x2.label "Pli rapide (1.5×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "P">
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Treege rapide (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "g">
+<!ENTITY mediaPlaybackRate200x2.label "Rapidege (2×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "g">
+<!ENTITY mediaLoop.label             "Ripeti">
+<!ENTITY mediaLoop.accesskey         "R">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -680,7 +680,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Sekura konekto">
 <!ENTITY identity.connectionNotSecure "Nesekura konekto">
 <!ENTITY identity.connectionFile "Tiu ĉi paĝo estas konservita en via komputilo.">
-<!ENTITY identity.connectionVerified1 "Vi estas sekure konektita al tiu ĉi retejo, funkciigita de:">
+<!ENTITY identity.connectionVerified2 "Vi estas sekure konektita al tiu ĉi retejo, kies posedanto estas:">
 <!ENTITY identity.connectionInternal "Tiu ĉi estas sekura paĝo de &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Akreditiloj uzitaj en tiu ĉi paĝo povus esti riskitaj.">
 

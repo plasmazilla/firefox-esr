@@ -149,10 +149,10 @@
 <!ENTITY detail.checkForUpdates.tooltip       "এই এড-অনৰ কাৰণে আপডেইটসমূহ নীৰিক্ষণ কৰক">
 <!ENTITY detail.showPreferencesWin.label      "বিকল্পসমূহ">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "এই এড-অনৰ বিকল্পসমূহ সলনি কৰক">
+<!ENTITY detail.showPreferencesWin.tooltip    "এই এড-অনৰ বিকল্পসমূহ পৰিৱৰ্তন কৰক">
 <!ENTITY detail.showPreferencesUnix.label     "পছন্দসমূহ">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "এই এড-অনৰ পছন্দসমূহ সলনি কৰক">
+<!ENTITY detail.showPreferencesUnix.tooltip   "এই এড-অনৰ পছন্দসমূহ পৰিৱৰ্তন কৰক">
 <!-- ratings -->
 
 

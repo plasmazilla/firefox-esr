@@ -56,6 +56,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Selaintunniste">
 <!ENTITY aboutSupport.appBasicsOS "Käyttöjärjestelmä">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Muistin käyttö">
+<!ENTITY aboutSupport.appBasicsPerformance "Suorituskyky">
 
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Rekisteröidyt Service Workers -apukomentosarjat">
@@ -89,6 +90,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Grafiikka">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Places-tietokanta">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Virheettömyys">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Tarkista virheettömyys">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Jatkuva roskienkeräys">
 
@@ -114,3 +119,6 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsFailureLogTitle "Virheloki">
 <!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
 <!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Päätösloki">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Kaatumisvahdin käytöstä poistamat ominaisuudet">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Hätäratkaisut">

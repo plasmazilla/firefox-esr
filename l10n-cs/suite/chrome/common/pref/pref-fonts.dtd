@@ -40,7 +40,7 @@
 <!ENTITY font.langGroup.el "Řečtina">
 <!ENTITY font.langGroup.turkish "Turecká">
 <!ENTITY font.langGroup.unicode1 "Unicode">
-<!ENTITY font.langGroup.user-def "Definovaná uživatelem">
+<!ENTITY font.langGroup.user-def "Definována uživatelem">
 <!ENTITY font.langGroup.thai "Thajština">
 <!ENTITY font.langGroup.hebrew "Hebrejština">
 <!ENTITY font.langGroup.arabic "Arabština">
@@ -48,16 +48,16 @@
 <!ENTITY font.langGroup.tamil "Tamilština">
 <!ENTITY font.langGroup.armenian "Arménština">
 <!ENTITY font.langGroup.bengali "Bengálština">
-<!ENTITY font.langGroup.canadian "Unified Canadian Syllabary">
+<!ENTITY font.langGroup.canadian "Kannadština">
 <!ENTITY font.langGroup.ethiopic "Etiopština">
 <!ENTITY font.langGroup.georgian "Gruzínština">
-<!ENTITY font.langGroup.gujarati "Gudžarádština">
+<!ENTITY font.langGroup.gujarati "Gudžarátština">
 <!ENTITY font.langGroup.gurmukhi "Gurmukhi">
-<!ENTITY font.langGroup.khmer "Khmérština">
+<!ENTITY font.langGroup.khmer "Khmerština">
 <!ENTITY font.langGroup.malayalam "Malajálamština">
 <!ENTITY font.langGroup.math                     "Matematika">
 <!-- Minimum font size -->
-<!ENTITY minSize.label "Minimální velikost fontů:">
+<!ENTITY minSize.label "Minimální velikost písma:">
 <!ENTITY minSize.accesskey "M">
 <!ENTITY minSize.none "Žádná">
 

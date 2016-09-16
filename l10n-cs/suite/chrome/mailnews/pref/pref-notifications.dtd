@@ -4,7 +4,7 @@
 
 <!ENTITY pref.notifications.title         "Upozornění">
 <!ENTITY notifications.caption            "Upozornění">
-<!ENTITY newMessagesArrive.label          "Při obdržení nové zprávy:">
+<!ENTITY newMessagesArrive.label          "Při přijetí nové zprávy:">
 
 <!-- LOCALIZATION NOTE: (showAlertFor.label, showAlertTimeEnd.label)
      showAlertFor.label is associated with the checkbox to show the alert,
@@ -33,13 +33,13 @@
 <!ENTITY bounceSystemDockIcon.label       "Animovat ikonku v doku">
 <!ENTITY bounceSystemDockIcon.accesskey   "A">
 
-<!ENTITY playSound.label                  "Přehrát zvukový soubor">
+<!ENTITY playSound.label                  "Přehrát zvuk">
 <!ENTITY playSound.accesskey              "P">
 <!ENTITY playButton.label                 "Přehrát">
 <!ENTITY playButton.accesskey             "h">
 <!ENTITY systemsound.label                "Zvuk nové pošty v systému">
 <!ENTITY systemsound.accesskey            "n">
-<!ENTITY customsound.label                "Vlastní wav soubor">
+<!ENTITY customsound.label                "Vlastní zvukový soubor">
 <!ENTITY customsound.accesskey            "V">
 <!ENTITY browse.label                     "Procházet…">
 <!ENTITY browse.accesskey                 "c">

@@ -4,17 +4,17 @@
 
 <!ENTITY connectionsDialog.title "Nastavení připojení">
 
-<!ENTITY proxyTitle.label "Nastavení proxy serveru pro přístup na Internet">
+<!ENTITY proxyTitle.label "Nastavení proxy serverů pro přístup k internetu">
 <!ENTITY noProxyTypeRadio.label "Bez proxy serveru">
 <!ENTITY noProxyTypeRadio.accesskey "B">
 <!ENTITY systemTypeRadio.label "Použít nastavení proxy serverů v systému">
-<!ENTITY systemTypeRadio.accesskey "s">
-<!ENTITY WPADTypeRadio.label "Automaticky detekovat nastavení">
+<!ENTITY systemTypeRadio.accesskey "u">
+<!ENTITY WPADTypeRadio.label "Automatické zjištění konfigurace proxy serverů">
 <!ENTITY WPADTypeRadio.accesskey "A">
-<!ENTITY manualTypeRadio.label "Ruční konfigurace proxy serverů">
-<!ENTITY manualTypeRadio.accesskey "R">
-<!ENTITY autoTypeRadio.label "Použít skript pro automatickou konfiguraci:">
-<!ENTITY autoTypeRadio.accesskey "a">
+<!ENTITY manualTypeRadio.label "Ruční konfigurace proxy serverů:">
+<!ENTITY manualTypeRadio.accesskey "k">
+<!ENTITY autoTypeRadio.label "URL pro automatickou konfiguraci proxy serverů:">
+<!ENTITY autoTypeRadio.accesskey "m">
 <!ENTITY reload.label "Znovu načíst">
 <!ENTITY reload.accesskey "Z">
 <!ENTITY http.label "HTTP proxy:">
@@ -35,6 +35,6 @@
 <!ENTITY SOCKSport.accesskey "t">
 <!ENTITY noproxy.label "Nepoužívat pro:">
 <!ENTITY noproxy.accesskey "N">
-<!ENTITY noproxyExplain.label "Příklad: .firma.com, .domena.cz, 192.168.1.0/24">
+<!ENTITY noproxyExplain.label "Příklad: .mozilla.org, .net.nz, 192.168.1.0/24">
 <!ENTITY shareproxy.label "Pro všechny protokoly používat tento proxy server">
 <!ENTITY shareproxy.accesskey "P">

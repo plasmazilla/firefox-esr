@@ -6,6 +6,15 @@
 
 <!ENTITY  blockPopups.label           "Chặn các cửa sổ pop-up (B)">
 <!ENTITY  blockPopups.accesskey       "B">
+
+
+
+
+
+
+
+
+
 <!ENTITY  popupExceptions.label       "Ngoại lệ…">
 <!ENTITY  popupExceptions.accesskey   "N">
 
@@ -47,4 +56,4 @@
 
 <!ENTITY  playDRMContent.label         "Phát nội dung có bảo vệ DRM">
 <!ENTITY  playDRMContent.accesskey     "P">
-<!ENTITY  playDRMContent.learnMore.label "Tìm hiểu thêm">
+

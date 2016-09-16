@@ -13,7 +13,7 @@
 <!ENTITY preferencesCmd.key             ",">
 <!ENTITY preferencesCmd.modifiers       "accel">
 <!ENTITY servicesMenu.label             "Služby">
-<!ENTITY hideThisAppCmd.label           "Skrýt aplikaci &brandShortName;">
+<!ENTITY hideThisAppCmd.label           "Skrýt &brandShortName;">
 <!ENTITY hideThisAppCmd.key             "S">
 <!ENTITY hideThisAppCmd.modifiers       "accel">
 <!ENTITY hideOtherAppsCmd.label         "Skrýt ostatní">
@@ -49,10 +49,10 @@
 
 <!ENTITY minimizeWindowCmd.label        "Minimalizovat">
 <!ENTITY minimizeWindowCmd.key          "M">
-<!ENTITY zoomWindowCmd.label            "Lupa">
+<!ENTITY zoomWindowCmd.label            "Zvětšit okno">
 
 <!-- Help menu -->
-<!ENTITY openHelpCmd.label              "Nápověda &brandShortName;">
+<!ENTITY openHelpCmd.label              "Nápověda aplikace &brandShortName;">
 <!ENTITY openHelpCmd.accesskey          "N">
 <!ENTITY openHelpCmd.key                "?">
 <!ENTITY openHelpCmd.modifiers          "accel">

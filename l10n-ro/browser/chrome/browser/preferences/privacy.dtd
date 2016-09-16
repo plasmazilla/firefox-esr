@@ -3,13 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  trackingProtectionHeader.label       "Folosește protecția față de urmărire">
-
-
-
-
+<!ENTITY  trackingProtectionAlways.label       "Întotdeauna">
+<!ENTITY  trackingProtectionAlways.accesskey   "y">
+<!ENTITY  trackingProtectionPrivate.label      "Doar în ferestrele private">
+<!ENTITY  trackingProtectionPrivate.accesskey  "l">
 <!ENTITY  trackingProtectionNever.label        "Niciodată">
 <!ENTITY  trackingProtectionNever.accesskey    "N">
-<!ENTITY  trackingProtectionLearnMore.label    "Aflați mai multe">
+<!ENTITY  trackingProtectionLearnMore.label    "Află mai multe">
 <!ENTITY  trackingProtectionExceptions.label   "Excepții…">
 <!ENTITY  trackingProtectionExceptions.accesskey "x">
 
@@ -22,6 +22,8 @@
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
 
+<!ENTITY  doNotTrack.pre.label          "Poți și ">
+<!ENTITY  doNotTrack.settings.label     "să gestionezi setările Nu mă urmări">
 
 
 <!ENTITY  history.label                 "Istoric">
@@ -75,17 +77,17 @@
 <!-- LOCALIZATION NOTE (rememberActions.post.label): include a starting space as needed -->
 
 <!ENTITY  rememberActions.pre.label           "Poate dorești ">
-<!ENTITY  rememberActions.clearHistory.label  "să cureți istoricul recent">
+<!ENTITY  rememberActions.clearHistory.label  "să ștergi istoricul recent">
 <!ENTITY  rememberActions.middle.label        " sau ">
 <!ENTITY  rememberActions.removeCookies.label "să ștergi anumite cookie-uri">
 <!ENTITY  rememberActions.post.label          ".">
 
-<!ENTITY  dontrememberDescription.label  "&brandShortName; va folosi aceleași setări ca navigarea privată și nu va memora niciun istoric pe măsură ce navigați pe web.">
+<!ENTITY  dontrememberDescription.label  "&brandShortName; va folosi aceleași setări ca navigarea privată și nu va memora niciun istoric pe măsură ce navighezi pe web.">
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
 
 <!ENTITY  dontrememberActions.pre.label          "Ai putea dori și să ">
-<!ENTITY  dontrememberActions.clearHistory.label "curățați tot istoricul recent">
+<!ENTITY  dontrememberActions.clearHistory.label "ștergi tot istoricul recent">
 <!ENTITY  dontrememberActions.post.label         ".">
 
 <!ENTITY  privateBrowsingPermanent2.label "Folosește mereu modul de navigare privată">

@@ -81,10 +81,10 @@ was trying to connect. -->
 <!ENTITY sharedLongDesc "<ul> <li>ไซต์อาจใช้งานไม่ได้ชั่วคราวหรือกำลังทำงานหนักเกินไป ลองอีกครั้งในอีกสักครู่</li> <li>หากคุณไม่สามารถโหลดหน้าใด ๆ ได้ ตรวจสอบการเชื่อมต่อเครือข่ายของคอมพิวเตอร์ของคุณ</li> <li>หากคอมพิวเตอร์หรือเครือข่ายของคุณถูกปกป้องด้วยไฟร์วอลล์หรือพร็อกซี ตรวจสอบให้แน่ใจว่า &brandShortName; ได้รับอนุญาตให้เข้าถึงเว็บ</li> </ul>">
 
 <!ENTITY cspBlocked.title "ถูกปิดกั้นโดยนโยบายความปลอดภัยของเนื้อหา">
-<!ENTITY cspBlocked.longDesc "<p>&brandShortName; ป้องกันหน้านี้จากการโหลดในลักษณะนี้เนื่องจากหน้ามีนโยบายความปลอดภัยของเนื้อหาที่ไม่อนุญาต</p>">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; ได้ป้องกันหน้านี้จากการโหลดในลักษณะนี้เนื่องจากหน้ามีนโยบายความปลอดภัยของเนื้อหาที่ไม่อนุญาต</p>">
 
-<!ENTITY corruptedContentError.title "ข้อผิดพลาดเนื้อหาเสียหาย">
-<!ENTITY corruptedContentError.longDesc "<p>ไม่สามารถแสดงหน้าที่คุณกำลังพยายามจะดูเนื่องจากตรวจพบข้อผิดพลาดในการส่งผ่านข้อมูล</p><ul><li>โปรดติดต่อเจ้าของเว็บไซต์เพื่อแจ้งพวกเขาให้ทราบถึงปัญหานี้</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "ข้อผิดพลาดเนื้อหาเสียหาย">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>ไม่สามารถแสดงหน้าที่คุณกำลังพยายามจะดูเนื่องจากตรวจพบข้อผิดพลาดในการส่งผ่านข้อมูล</p><ul><li>โปรดติดต่อเจ้าของเว็บไซต์เพื่อแจ้งพวกเขาให้ทราบถึงปัญหานี้</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "เพิ่มข้อยกเว้น…">
@@ -107,6 +107,10 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "ขั้นสูง">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> ใช้เทคโนโลยีความปลอดภัยที่ล้าสมัยและเสี่ยงต่อการถูกโจมตี ผู้โจมตีสามารถเปิดเผยข้อมูลที่คุณคิดว่าปลอดภัยได้อย่างง่ายดาย">
 <!ENTITY weakCryptoAdvanced.override "(ไม่ปลอดภัย) ลองโหลด <span class='hostname'></span> โดยใช้ความปลอดภัยที่ล้าสมัย">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+
+<!ENTITY certerror.wrongSystemTime "<p>การเชื่อมต่อปลอดภัยไปยัง <span id='wrongSystemTime_URL'/> เป็นไปไม่ได้เนื่องจากนาฬิกาของคุณดูเหมือนจะแสดงเวลาผิด</p> <p>คอมพิวเตอร์ของคุณคิดว่าคือ <span id='wrongSystemTime_systemDate'/> ขณะที่ควรจะเป็น <span id='wrongSystemTime_actualDate'/> เพื่อแก้ปัญหานี้ เปลี่ยนการตั้งค่าวันที่และเวลาของคุณเพื่อให้ตรงกับเวลาที่ถูกต้อง</p>">
 
 <!ENTITY certerror.pagetitle1  "การเชื่อมต่อไม่ปลอดภัย">
 
@@ -116,3 +120,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> ใช้เทคโนโลยีความปลอดภัยที่ล้าสมัยและเสี่ยงต่อการถูกโจมตี ผู้โจมตีสามารถเปิดเผยข้อมูลที่คุณคิดว่าปลอดภัยได้อย่างง่ายดาย ผู้ดูแลเว็บไซต์จำเป็นต้องแก้ไขเซิร์ฟเวอร์ก่อนที่คุณจะสามารถเยี่ยมชมไซต์ได้</p><p>รหัสข้อผิดพลาด: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "ดูเหมือนว่าการตั้งค่าความปลอดภัยเครือข่ายของคุณอาจเป็นสาเหตุของสิ่งนี้ คุณต้องการเรียกคืนการตั้งค่าปริยายหรือไม่?">
+<!ENTITY prefReset.label "เรียกคืนการตั้งค่าปริยาย">

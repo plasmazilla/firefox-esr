@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY firstrun_panel_title_welcome "Добро пожаловать">
-<!ENTITY onboard_start_message3 "Браузер &brandShortName;">
-<!ENTITY onboard_start_subtext3 "Делает ваш мобильный веб-сёрфинг по-настоящему уникальным.">
 <!ENTITY firstrun_urlbar_message "Добро пожаловать в &brandShortName;">
 <!ENTITY firstrun_urlbar_subtext "Ускорьте свой поиск с помощью полезных ярлыков поисковых предложений.">
 <!ENTITY firstrun_bookmarks_title "История">
@@ -19,15 +17,21 @@
 <!ENTITY firstrun_signin_message "Соединитесь и вперёд">
 <!ENTITY firstrun_signin_button "Войти в Синхронизацию">
 <!ENTITY onboard_start_button_browser "Начать веб-сёрфинг">
+<!ENTITY firstrun_button_notnow "Не сейчас">
 <!ENTITY firstrun_button_next "Далее">
+<!ENTITY firstrun_tabqueue_title "Ссылки">
+<!ENTITY firstrun_tabqueue_message_off "Включить Очередь вкладок">
+<!ENTITY firstrun_tabqueue_subtext_off "Ставьте ссылки в очередь, касаясь их в других приложениях, чтобы открыть их позже в &brandShortName;.">
+<!ENTITY firstrun_tabqueue_message_on "Успех!">
+<!ENTITY firstrun_tabqueue_subtext_on "Вы всегда можете отключить её в меню &settings; в разделе &pref_category_general;.">
+<!ENTITY firstrun_readerview_title "Статьи">
+<!ENTITY firstrun_readerview_message "Удалите всё ненужное">
+<!ENTITY firstrun_readerview_subtext "Используйте Вид для чтения, чтобы облегчить чтение статей \u2014 даже без связи с Интернетом.">
+<!ENTITY firstrun_account_title "Вы">
+<!ENTITY firstrun_account_message "Установили &brandShortName; на другом устройстве?">
 <!ENTITY onboard_start_restricted1 "Будьте в безопасности и установите свой контроль с этой упрощённой версией &brandShortName;.">
-<!ENTITY reading_list_migration_title "Список для чтения подключён">
-<!ENTITY reading_list_migration_subtext "Пункты вашего Списка для чтения будут добавлены в Закладки">
-<!ENTITY reading_list_migration_goto_bookmarks "Перейти в Закладки">
-<!ENTITY reading_list_migration_bookmarks_hidden "Ваша панель закладок скрыта">
 <!ENTITY bookmarks_title "Закладки">
 <!ENTITY history_title "История">
-<!ENTITY reading_list_title "Список для чтения">
 <!ENTITY recent_tabs_title "Последние вкладки">
 <!ENTITY switch_to_tab "Перейти на вкладку">
 <!ENTITY crash_reporter_title "Сообщение о падении &brandShortName;">
@@ -53,6 +57,8 @@
 <!ENTITY screenshot_added_to_bookmarks "Скриншот добавлен в закладки">
 <!ENTITY screenshot_folder_label_in_bookmarks "Скриншоты">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "Список для чтения">
+<!ENTITY bookmark_folder_items "&formatD; закладок">
+<!ENTITY bookmark_folder_one_item "1 закладка">
 <!ENTITY reader_saved_offline "Сохранено в автономном режиме">
 <!ENTITY reader_switch_to_bookmarks "Переключиться">
 <!ENTITY history_today_section "Сегодня">
@@ -179,7 +185,8 @@
 <!ENTITY tab_queue_notification_settings "Для \&quot;Открытия множества ссылок\&quot;, пожалуйста, предоставьте &brandShortName; разрешение \'Показ окон поверх других приложений\'">
 <!ENTITY content_notification_summary "&brandShortName;">
 <!ENTITY content_notification_title_plural "обновлено &formatD; веб-сайтов">
-<!ENTITY content_notification_action_settings "Параметры уведомлений">
+<!ENTITY content_notification_action_settings2 "Параметры">
+<!ENTITY content_notification_action_read_now "Прочитать">
 <!ENTITY content_notification_updated_on "Обновлено в &formatS;">
 <!ENTITY pref_char_encoding "Кодировка">
 <!ENTITY pref_char_encoding_on "Показывать меню">
@@ -352,6 +359,7 @@
 <!ENTITY home_history_title "История">
 <!ENTITY home_synced_devices_smartfolder "Облачные устройства">
 <!ENTITY home_synced_devices_number "&formatD; устройств(а)">
+<!ENTITY home_synced_devices_one "1 устройство">
 <!ENTITY home_history_back_to2 "Вернуться ко всей истории">
 <!ENTITY home_clear_history_button "Удалить историю веб-сёрфинга">
 <!ENTITY home_clear_history_confirm "Вы уверены, что хотите удалить свою историю?">
@@ -460,3 +468,6 @@
 <!ENTITY helper_first_offline_bookmark_title "Чтение без подключения">
 <!ENTITY helper_first_offline_bookmark_message "Найдите ваш Список для чтения в Закладках, даже без подключения к Интернету.">
 <!ENTITY helper_first_offline_bookmark_button "Перейти в Закладки">
+<!ENTITY helper_triple_readerview_open_title "Доступно без подключения">
+<!ENTITY helper_triple_readerview_open_message "Добавьте пункты Списка для чтения в Закладки, чтобы читать их без подключения к Интернету.">
+<!ENTITY helper_triple_readerview_open_button "Добавить в закладки">

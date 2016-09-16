@@ -17,30 +17,15 @@
 <!ENTITY  manualUpdate.title              "ไม่สามารถปรับรุ่นโปรแกรมได้">
 <!ENTITY  manualUpdate.desc               "พบการปรับรุ่นความปลอดภัยและเสถียรภาพซึ่งเราแนะนำให้ติดตั้ง แต่คุณไม่มีสิทธิ์ในการเข้าถึงระบบที่เพียงพอสำหรับการติดตั้ง โปรดติดต่อผู้ดูแลระบบหรือลองอีกครั้งโดยใช้บัญชีผู้ใช้ที่มีสิทธิ์ติดตั้งโปรแกรม บนคอมพิวเตอร์เครื่องนี้">
 <!ENTITY  manualUpdate.space.desc         "พบการปรับรุ่นความปลอดภัยและเสถียรภาพซึ่งเราแนะนำให้ติดตั้ง แต่คุณไม่มีเนื้อที่เพียงพอในการติดตั้ง">
-<!ENTITY  manualUpdateGetMsg.label        "คุณยังสามารถขอรับ &brandShortName; รุ่นล่าสุดได้เสมอที่ :">
+<!ENTITY  manualUpdateGetMsg.label        "คุณสามารถรับ &brandShortName; รุ่นล่าสุดได้เสมอที่:">
 
 <!ENTITY  unsupported.title               "ไม่รองรับระบบนี้">
 <!ENTITY  unsupported.label               "&brandShortName; ของคุณนั้นล้าสมัยแล้ว แต่รุ่นล่าสุดก็ไม่รองรับระบบของคุณเช่นกัน โปรดปรับรุ่นระบบของคุณก่อน หลังจากนั้นลองอีกครั้ง คุณจะไม่เห็นข้อความนี้อีก แต่คุณสามารถ">
 <!ENTITY  unsupportedLink.label           "เรียนรู้เพิ่มเติม">
 
-<!ENTITY  incompatibleCheck.title         "ตรวจสอบความเข้ากันได้ของส่วนเสริม">
-<!ENTITY  incompatibleCheck.label         "กำลังตรวจหาส่วนเสริมรุ่นใหม่…">
-
 <!ENTITY  clickHere.label                 "ดูข้อมูลเพิ่มเกี่ยวกับการปรับรุ่นนี้">
 
 <!ENTITY  evangelism.desc                 "ขอแนะนำอย่างยิ่งว่า คุณควรปรับรุ่น &brandShortName; โดยด่วนที่สุดเท่าที่จะทำได้">
-
-<!ENTITY  license.instructions            "ถ้าคุณยอมรับข้อตกลง, คลิก 'ยอมรับ' ด้านล่าง เพื่อติดตั้งชุดปรับรุ่นนี้">
-
-<!ENTITY  license.titleText               "ข้อตกลงสัญญาอนุญาตซอฟต์แวร์">
-<!ENTITY  license.introText               "ข้อตกลงและเงื่อนไขในการในการใช้งานซอฟต์แวร์">
-<!ENTITY  license.instructionText         "โปรดอ่านข้อตกลงสัญญาอนุญาตต่อไปนี้ ใช้แถบเลื่อนเพื่อดูรายละเอียดในสัญญา">
-<!ENTITY  license.accept                  "ยอมรับเงื่อนไขข้อตกลงสัญญาอนุญาต">
-<!ENTITY  license.accept.accesskey        "ร">
-<!ENTITY  license.decline                 "ไม่ยอมรับเงื่อนไขข้อตกลงสัญญาอนุญาต">
-<!ENTITY  license.decline.accesskey       "ม">
-
-<!ENTITY  incompatibleList.title          "พบส่วนเสริมที่เข้ากันไม่ได้">
 
 <!ENTITY  downloadPage.title              "กำลังดาวน์โหลด &brandShortName;">
 <!ENTITY  downloading.intro               "กำลังดาวน์โหลดชุดปรับรุ่น…">
@@ -67,14 +52,11 @@
 <!ENTITY  finishedPage.text               "ชุดปรับรุ่นนี้จะถูกติดตั้งเมื่อเริ่ม &brandShortName; ครั้งถัดไป คุณสามารถเริ่ม &brandShortName; ใหม่ได้เดี๋ยวนี้ หรือคุณอาจใช้งานต่อไปและเริ่มโปรแกรมใหม่ภายหลัง">
 
 <!ENTITY  finishedBackgroundPage.text     "ชุดปรับรุ่นความปลอดภัยและเสถียรภาพสำหรับ &brandShortName; ได้ถูกดาวน์โหลดและพร้อมสำหรับการติดตั้งแล้ว">
-<!ENTITY  finishedBackground.name         "ปรับรุ่น :">
+<!ENTITY  finishedBackground.name         "ปรับปรุง:">
 <!-- LOCALIZATION NOTE (finishedBackground.more): This string describes the button labels defined by restartNowButton and restartLaterButton in updates.properties. -->
 <!ENTITY  finishedBackground.more         "ชุดปรับรุ่นนี้จะถูกติดตั้งเมื่อเริ่ม &brandShortName; ครั้งถัดไป คุณสามารถเริ่ม &brandShortName; ใหม่ได้เดี๋ยวนี้ หรือคุณอาจใช้งานต่อไปและเริ่มโปรแกรมใหม่ภายหลัง">
 
-<!ENTITY  installed.title                 "ติดตั้งชุดปรับรุ่นแล้ว">
-<!ENTITY  installed.intro                 "ติดตั้งชุดปรับรุ่นสำเร็จแล้ว">
-<!ENTITY  whatsnew.label                  "อ่านต่อว่ามีอะไรใหม่บ้าง…">
 
 <!ENTITY  update.details.label            "รายละเอียด">
-<!ENTITY  update.installedOn.label        "ติดตั้งเมื่อ :">
-<!ENTITY  update.status.label             "สถานะ :">
+<!ENTITY  update.installedOn.label        "ติดตั้งเมื่อ:">
+<!ENTITY  update.status.label             "สถานะ:">

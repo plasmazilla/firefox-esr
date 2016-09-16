@@ -9,8 +9,8 @@
 <!ENTITY syncKey.keepItSafe.heading       "பாதுகாப்பாக வைத்து கொள்ளவும்">
 <!ENTITY syncKey.keepItSafe1.description  "உங்கள் விசையை தொலைத்துவிடாதீர்கள்.">
 
-
-
+<!ENTITY syncKey.keepItSafe3.description  "அதை மீட்க எங்களால் உதவி முடியவில்லை">
+<!ENTITY syncKey.keepItSafe4a.description " நீங்கள் இதை இழந்துவிட்டால். நீங்கள் ஒரு புதிய சாதனத்தை &syncBrand.fullName.label; உடன் இணைக்கும் எப்போதும் இந்த விசையை நீங்கள் பயன்படுத்த வேண்டும்.">
 <!ENTITY syncKey.findOutMore1.label       "Find out more about &syncBrand.fullName.label;  and your privacy at ">
 <!ENTITY syncKey.findOutMore2.label       ".">
 <!ENTITY syncKey.footer1.label            "&syncBrand.fullName.label; சேவைகளின் விதிமுறைகள் இங்கே உள்ளது ">

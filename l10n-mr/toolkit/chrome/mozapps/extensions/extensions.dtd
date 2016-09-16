@@ -155,7 +155,7 @@
 <!ENTITY detail.showPreferencesWin.tooltip    "या ॲड-ऑनचे पर्याय बदला">
 <!ENTITY detail.showPreferencesUnix.label     "पसंती">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "या ॲड-ऑनची पसंती बदलवा">
+<!ENTITY detail.showPreferencesUnix.tooltip   "या ॲड-ऑनची पसंती बदला">
 <!-- ratings -->
 
 

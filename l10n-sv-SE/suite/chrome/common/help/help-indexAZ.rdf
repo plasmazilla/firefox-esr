@@ -31,12 +31,10 @@
         <rdf:li> <rdf:Description ID="t" nc:name="T"/> </rdf:li>
         <rdf:li> <rdf:Description ID="u" nc:name="U"/> </rdf:li>
         <rdf:li> <rdf:Description ID="v" nc:name="V"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="w" nc:name="W"/> </rdf:li>
         <rdf:li> <rdf:Description ID="x" nc:name="X"/> </rdf:li>
         <rdf:li> <rdf:Description ID="y" nc:name="Y"/> </rdf:li>
         <rdf:li> <rdf:Description ID="z" nc:name="Z"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="å" nc:name="Å"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="ä" nc:name="Ä"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="ö" nc:name="Ö"/> </rdf:li>        
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>

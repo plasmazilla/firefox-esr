@@ -10,7 +10,7 @@
 
 <!ENTITY forwardMsg.label                     "Přeposílat zprávy:">
 <!ENTITY forwardMsg.accesskey                 "s">
-<!ENTITY inline.label                         "Vloženě">
+<!ENTITY inline.label                         "Vložené">
 <!ENTITY asAttachment.label                   "Jako přílohu">
 <!ENTITY addExtension.label                   "Přidat k názvu souboru příponu">
 <!ENTITY addExtension.accesskey               "d">
@@ -22,17 +22,17 @@
 <!ENTITY size.accesskey                       "V">
 <!ENTITY fontColor.label                      "Text:">
 <!ENTITY fontColor.accesskey                  "T">
-<!ENTITY bgColor.label                        "Pozadí:">
+<!ENTITY bgColor.label                        "Barva pozadí:">
 <!ENTITY bgColor.accesskey                    "P">
 <!ENTITY restoreHTMLDefaults.label            "Obnovit výchozí">
 <!ENTITY restoreHTMLDefaults.accesskey        "O">
-<!ENTITY enterKeyCreatesNewParagraph.label    "Při použití formátu odstavce, klávesou Enter vytvoříte nový odstavec">
-<!ENTITY enterKeyCreatesNewParagraph.accesskey "f">
+<!ENTITY defaultToParagraph.label             "Ve výchozím nastavení používat formát odstavce namísto základního textu">
+<!ENTITY defaultToParagraph.accesskey         "D">
 
-<!ENTITY spellCheck.label                     "Při odesílání zpráv kontrolovat pravopis">
-<!ENTITY spellCheck.accesskey                 "k">
-<!ENTITY spellCheckInline.label               "Povolit kontrolu pravopisu při psaní">
-<!ENTITY spellCheckInline1.accesskey          "P">
+<!ENTITY spellCheck.label                     "Před odesláním zprávy zkontrolovat pravopis">
+<!ENTITY spellCheck.accesskey                 "P">
+<!ENTITY spellCheckInline.label               "Kontrolovat pravopis při psaní">
+<!ENTITY spellCheckInline1.accesskey          "K">
 <!ENTITY languagePopup.label                  "Jazyk:">
 <!ENTITY languagePopup.accessKey              "J">
 <!ENTITY downloadDictionaries.label           "Stáhnout další slovníky">
@@ -45,8 +45,8 @@
 
 <!ENTITY emailCollectionPicker.label           "Automaticky přidat odchozí e-mailovou adresu do složky:">
 <!ENTITY emailCollectionPicker.accesskey       "A">
-<!ENTITY addressingTitle.label                 "Automatické dokončování adres">
-<!ENTITY autocompleteText.label                "Při vkládání adresáta hledat shodné položky v:">
+<!ENTITY addressingTitle.label                 "Automatické doplňování adres">
+<!ENTITY autocompleteText.label                "Při psaní adresy hledat vhodné položky v:">
 <!ENTITY addressingEnable.label                "Místní kontakty">
 <!ENTITY addressingEnable.accesskey            "M">
 <!ENTITY directories.label                     "Adresářový server:">

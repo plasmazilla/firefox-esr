@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Arquivo não encontrado">
 <!ENTITY fileNotFound.longDesc "<ul><li>Este item poderia ter sido renomeado, removido ou movido?</li><li>Há algum erro de digitação no endereço, como uma letra maiúscula em vez de minúscula?</li><li>Você possui permissões para acessar o item solicitado?</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Acesso ao arquivo foi negado">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Pode ter sido removido, movido ou as permissões do arquivo podem estar impedindo o acesso.</li></ul>">
+
 <!ENTITY generic.title "Não foi possível concluir o pedido">
 <!ENTITY generic.longDesc "<p>Informações adicionais sobre este problema ou erro não estão disponíveis neste momento.</p>">
 
@@ -79,8 +82,13 @@
 <!ENTITY cspBlocked.title "Bloqueado pela política de segurança de conteúdo">
 <!ENTITY cspBlocked.longDesc "<p>O navegador impediu esta página de carregar desta forma porque a política de segurança de conteúdo da página não permite.</p>">
 
-<!ENTITY corruptedContentError.title "Conteúdo corrompido">
-<!ENTITY corruptedContentError.longDesc "<p>A página que você está tentando abrir não pôde ser exibida porque foi detectado um erro na transmissão.</p><ul><li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Corrupted Content Error">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>The page you are trying to view cannot be shown because an error in the data transmission was detected.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL remoto">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Sua conexão não é segura">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> usa uma tecnologia de segurança que está ultrapassada e vulnerável a ataques. Um cracker poderia facilmente coletar informações enquanto você acreditava estar seguro. O administrador do website precisa consertar essa brecha no servidor primeiro antes de você poder acessar esse site.</p><p>Código de erro: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

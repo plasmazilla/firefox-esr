@@ -20,7 +20,7 @@
 <!ENTITY warningDesc.telemetryDesc  "Trimite automat informații despre performanță, hardware, utilizare și personalizări înapoi către &vendorShortName; pentru a ajuta la crearea unui &brandShortName; mai bun.">
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 
-<!ENTITY community.exp.start        "">
+<!ENTITY community.exp.start        "Experimental">
 <!-- LOCALIZATION NOTE (community.exp.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.exp.mozillaLink  "&vendorShortName;">
 <!ENTITY community.exp.middle       " este o ">
@@ -28,7 +28,7 @@
 <!ENTITY community.exp.creditsLink  "comunitate globală">
 <!ENTITY community.exp.end          " care lucrează împreună pentru a păstra webul deschis, public și accesibil tuturor.">
 
-<!ENTITY community.start2           "&brandShortName; este proiectat de ">
+<!ENTITY community.start2           "&brandShortName; este conceput de ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
 <!ENTITY community.mozillaLink      "&vendorShortName;">
 <!ENTITY community.middle2          ", o ">
@@ -103,6 +103,6 @@
      example: You are currently on the _Stable_ update channel. -->
 
 <!ENTITY channel.description.start  "Folosești în prezent ">
-<!ENTITY channel.description.end    " ca sursă de actualizare. ">
+<!ENTITY channel.description.end    " drept canal de actualizare. ">
 
 <!ENTITY cmdCloseMac.commandKey "w">

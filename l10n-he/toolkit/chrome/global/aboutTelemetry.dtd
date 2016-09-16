@@ -16,6 +16,9 @@
 
 
 
+<!ENTITY aboutTelemetry.structured "
+מובנה
+">
 
 <!ENTITY aboutTelemetry.raw "
 JSON גולמי
@@ -63,6 +66,9 @@ JSON גולמי
 
 <!ENTITY aboutTelemetry.lateWritesSection "  כתיבה מאוחרת">
 
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  פרטי הפעלה
+">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "  נתוני היסטוגרמה שנאספו על־ידי תוספות">
 

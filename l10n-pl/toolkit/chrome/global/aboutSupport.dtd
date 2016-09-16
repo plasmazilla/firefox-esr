@@ -47,6 +47,7 @@
 <!ENTITY aboutSupport.appBasicsUserAgent "Identyfikator programu">
 <!ENTITY aboutSupport.appBasicsOS "System operacyjny">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Zużycie pamięci">
+<!ENTITY aboutSupport.appBasicsPerformance "Wydajność">
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Zarejestrowane wątki usługowe">
 <!ENTITY aboutSupport.appBasicsProfiles "Profile">
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Okna wieloprocesowe">
@@ -74,6 +75,11 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.lockedPrefsValue "Wartość">
 
 <!ENTITY aboutSupport.graphicsTitle "Grafika">
+
+<!ENTITY aboutSupport.placeDatabaseTitle "Baza danych „Places”">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integralność">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Sprawdź integralność">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Przyrostowy GC">
 
@@ -99,3 +105,6 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.graphicsFailureLogTitle "Dziennik niepowodzeń">
 <!ENTITY aboutSupport.graphicsGPU1Title "GPU 1">
 <!ENTITY aboutSupport.graphicsGPU2Title "GPU 2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Decyzje">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funkcje wyłączone dla ochrony przed awariami">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Obejścia problemów">

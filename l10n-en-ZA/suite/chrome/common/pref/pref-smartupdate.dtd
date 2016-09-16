@@ -16,7 +16,7 @@
 <!ENTITY addOnsWeekly.accesskey               "k">
 <!ENTITY addOnsModeAutomatic.label            "Automatically download and install the updates">
 <!ENTITY addOnsModeAutomatic.accesskey        "m">
-<!ENTITY enablePersonalized.label             "Personalize add-on recommendations">
+<!ENTITY enablePersonalized.label             "Personalise add-on recommendations">
 <!ENTITY enablePersonalized.accesskey         "P">
 <!ENTITY addonManagerLink.label               "Manage Add-ons">
 
@@ -27,7 +27,5 @@
 <!ENTITY appWeekly.accesskey                  "e">
 <!ENTITY appModeAutomatic.label               "Automatically download and install the update">
 <!ENTITY appModeAutomatic.accesskey           "u">
-<!ENTITY appModeAutoAddonWarn.label           "Warn me if this will disable any of my add-ons">
-<!ENTITY appModeAutoAddonWarn.accesskey       "n">
 <!ENTITY updateHistoryButton.label            "Show Update History…">
 <!ENTITY updateHistoryButton.accesskey        "S">

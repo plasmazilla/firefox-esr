@@ -21,16 +21,13 @@
      or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
 
 <!ENTITY fileNotFound.title "Fail tidak ditemui">
-<!ENTITY fileNotFound.longDesc "<ul> 
-<li>Periksa nama fail untuk huruf besar atau ralat menaip lain.</li> 
-<li>Periksa juga jika fail telah dipindahkan, dinamakan atau dipadam.</li> 
-</ul>">
+<!ENTITY fileNotFound.longDesc "<ul> <li>Periksa nama fail untuk huruf besar atau ralat menaip lain.</li> <li>Periksa juga jika fail telah dipindahkan, dinamakan atau dipadam.</li> </ul>">
+
 
 
 <!ENTITY generic.title "Oops.">
-<!ENTITY generic.longDesc "<p>&brandShortName; tidak dapat memuatkan laman ini atas sebab tertentu.</p>">
 
-<!ENTITY malformedURI.title "Alamat tidak sah">
+
 <!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
      or enabling wifi connections. The text inside the tags should be localized. Do not touch the ids. -->
 
@@ -38,26 +35,18 @@
 <!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY notCached.title "Dokumen Luput">
-<!ENTITY notCached.longDesc "<p>Dokumen yang diminta tidak berada di dalam &brandShortName;'s cache.</p><ul><li>Sebagai satu keselamatan berjaga-jaga, &brandShortName;tidak akan diminta kembali dokumen sensitif.</li><li>Tekan Cuba Lagi untuk meminta semula dokumen daripada laman web.</li></ul>">
+
 
 <!ENTITY netOffline.title "Mod luar talian">
 <!-- LOCALIZATION NOTE (netOffline.longDesc3) This string contains markup including widgets enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
-<!ENTITY netOffline.longDesc3 "<ul> 
-<li>Cuba lagi. &brandShortName; akan membuat cubaan untuk membuka sambungan dan memuat laman. 
-<button id='wifi'>Dayakan Wi-Fi</button> 
-</li> 
-</ul>">
+<!ENTITY netOffline.longDesc3 "<ul> <li>Cuba lagi. &brandShortName; akan membuat cubaan untuk membuka sambungan dan memuat laman. <button id='wifi'>Dayakan Wi-Fi</button> </li> </ul>">
 
 <!ENTITY contentEncodingError.title "Mengandungi Ralat Pengekodan">
-<!ENTITY contentEncodingError.longDesc "<ul> 
-<li>Sila hubungi pemilik tapak web untuk memaklumkan masalah ini.</li> 
-</ul>">
+<!ENTITY contentEncodingError.longDesc "<ul> <li>Sila hubungi pemilik tapak web untuk memaklumkan masalah ini.</li> </ul>">
 
 <!ENTITY unsafeContentType.title "Jenis Fail Tidak Selamat">
-<!ENTITY unsafeContentType.longDesc "<ul> 
-<li>Sila hubungi pemilik tapak web untuk memaklumkan masalah ini.</li> 
-</ul>">
+<!ENTITY unsafeContentType.longDesc "<ul> <li>Sila hubungi pemilik tapak web untuk memaklumkan masalah ini.</li> </ul>">
 
 <!ENTITY netReset.title "Sambungan diulang tetap">
 <!ENTITY netReset.longDesc2 "&sharedLongDesc3;">
@@ -65,69 +54,34 @@
 <!ENTITY netTimeout.title "Sambungan telah tamat tempoh">
 <!ENTITY netTimeout.longDesc2 "&sharedLongDesc3;">
 
-<!ENTITY unknownProtocolFound.title "Alamat tidak difahami">
-<!ENTITY unknownProtocolFound.longDesc "<ul> 
-<li>Anda mungkin perlu mamasang perisian lain untuk membuka alamat ini.</li> 
-</ul>">
+<!ENTITY unknownProtocolFound.longDesc "<ul> <li>Anda mungkin perlu mamasang perisian lain untuk membuka alamat ini.</li> </ul>">
 
 <!ENTITY proxyConnectFailure.title "Pelayan proksi menolak sambungan">
-<!ENTITY proxyConnectFailure.longDesc "<ul> 
-<li>Periksa tetapan proksi untuk memastikan yang ianya telah betul.</li> 
-<li>Hubungi pentadbir rangkaian anda unutuk pastikan yang proksi 
-berfungsi.</li> 
-</ul>">
+<!ENTITY proxyConnectFailure.longDesc "<ul> <li>Periksa tetapan proksi untuk memastikan yang ianya telah betul.</li> <li>Hubungi pentadbir rangkaian anda unutuk pastikan yang proksi berfungsi.</li> </ul>">
 
 <!ENTITY proxyResolveFailure.title "Tidak dapat menemui pelayan proksi">
 <!-- LOCALIZATION NOTE (proxyResolveFailure.longDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
-<!ENTITY proxyResolveFailure.longDesc3 "<ul> 
-<li>Periksa tetapan proksi untuk memastikan yang ianya adalah betul.</li> 
-<li>Periksa juga yang peranti anda mempunyai sambungan data atau Wi-Fi. 
-<button id='wifi'>Dayakan Wi-Fi</button> 
-</li> 
-</ul>">
+<!ENTITY proxyResolveFailure.longDesc3 "<ul> <li>Periksa tetapan proksi untuk memastikan yang ianya adalah betul.</li> <li>Periksa juga yang peranti anda mempunyai sambungan data atau Wi-Fi. <button id='wifi'>Dayakan Wi-Fi</button> </li> </ul>">
 
-<!ENTITY redirectLoop.title "Laman tidak diarahkan dengan betul">
-<!ENTITY redirectLoop.longDesc "<ul> 
-<li>Masalah ini kadagkala disebabkan oleh melumpuhkan atau penolakan dari 
-menerima cookie.</li> 
-</ul>">
+<!ENTITY redirectLoop.longDesc "<ul> <li>Masalah ini kadagkala disebabkan oleh melumpuhkan atau penolakan dari menerima cookie.</li> </ul>">
 
 <!ENTITY unknownSocketType.title "Tindak balas tidak dijangka daripada pelayan">
-<!ENTITY unknownSocketType.longDesc "<ul> 
-<li>Periksa untuk pastikan yang sistem anda mempunyai Pengurus 
-Sekuriti Peribadi yang terpasang.</li> 
-<li>Ini mungkin disebabkan konfigurasi bukan-piawai pada pelayan.</li> 
-</ul>">
+<!ENTITY unknownSocketType.longDesc "<ul> <li>Periksa untuk pastikan yang sistem anda mempunyai Pengurus Sekuriti Peribadi yang terpasang.</li> <li>Ini mungkin disebabkan konfigurasi bukan-piawai pada pelayan.</li> </ul>">
 
 <!ENTITY nssFailure2.title "Sambungan yang Selamat Gagal">
-<!ENTITY nssFailure2.longDesc2 "<ul> 
-<li>Laman yang anda cuba lihat tidah dapat ditunjukan kerana ketentusahan data yang diterima tidak dapat disahkan.</li> 
-<li>Sila hubungi pemilik laman web bagi melaporkan masalah ini.</li> 
-</ul>">
+<!ENTITY nssFailure2.longDesc2 "<ul> <li>Laman yang anda cuba lihat tidah dapat ditunjukan kerana ketentusahan data yang diterima tidak dapat disahkan.</li> <li>Sila hubungi pemilik laman web bagi melaporkan masalah ini.</li> </ul>">
 
 <!ENTITY nssBadCert.title "Sambungan Selamat Gagal">
-<!ENTITY nssBadCert.longDesc2 "<ul> 
-<li>Ini mungkin masalah konfigurasi server, atau 
- seseorang cuba meniru jadi server.</li>
-<li>Jika anda telah disambungkan ke server ini dengan jayanya sebelum ini, masalah ini mungkin 
- sementara, dan anda boleh cuba lagi kemudian.</li>
-</ul>">
+
 <!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
-
-<!ENTITY sharedLongDesc3 "<ul> 
-<li>Laman ini mungkin belum tersedia buat sementara waktu atau terlalu sibuk. Cuba lagi seketika nanti.</li> 
-<li>Jika anda tidak dapat memuat sebarang laman, periksa sambungan data mudah alih atau Wifi peranti anda. 
-<button id='wifi'>Enable Wi-Fi</button> 
-</li> 
-</ul>">
 
 <!ENTITY cspBlocked.title "Disekat oleh Polisi Keselamatan Kandungan">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; menghalang laman ini daripada dipaparkan kerana ia mempunyai kandungan yang tidak dibenarkan oleh polisi keselamatan.</p>">
 
-<!ENTITY corruptedContentError.title "Ralat Kandungan Rosak">
-<!ENTITY corruptedContentError.longDesc "<p>Laman yang anda cuba untuk lihat tidak dapat dipamer kerana ada kesilapan dalam penghantaran data telah dikesan.</p><ul><li>Sila hubungi pemilik tapak web ini untuk memaklumkannya mengenai masalah ini.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Ralat Kandungan Rosak">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Laman yang anda cuba untuk lihat tidak dapat dipamer kerana ada kesilapan dalam penghantaran data telah dikesan.</p><ul><li>Sila hubungi pemilik tapak web ini untuk memaklumkannya mengenai masalah ini.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Atau anda boleh tambah pengecualian…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Keluarkan saya dari sini!">
@@ -138,11 +92,16 @@ which uses strings already defined above. The button is included here (instead o
 netError.xhtml) because it exposes functionality specific to firefox. -->
 
 
-<!ENTITY securityOverride.warningContent "<p>Anda tidak sepatutnya menambah pengecualian anda menggunakan sambungan internet yang anda tidak percayai sepenuhnya atau anda tidak biasa melihat amaran untuk pelayan ini.</p> 
-
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
+<!ENTITY securityOverride.warningContent "<p>Anda tidak sepatutnya menambah pengecualian anda menggunakan sambungan internet yang anda tidak percayai sepenuhnya atau anda tidak biasa melihat amaran untuk pelayan ini.</p> <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button><button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
 <!ENTITY remoteXUL.title "XUL Jarak Jauh">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Sila hubungi pemilik tapak web dan beritahu mereka mengenai masalah ini.</li></ul></p>">
 
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->

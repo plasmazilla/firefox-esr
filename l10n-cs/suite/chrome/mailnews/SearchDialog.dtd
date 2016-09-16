@@ -29,11 +29,11 @@
 <!ENTITY saveAsVFButton.accesskey "a">
 
 <!-- for ABSearchDialog.xul -->
-<!ENTITY abSearchHeading.label "Hledat ve složce kontaktů:">
+<!ENTITY abSearchHeading.label "Hledat v:">
 <!ENTITY abSearchHeading.accesskey "H">
 <!ENTITY propertiesButton.label "Vlastnosti">
 <!ENTITY propertiesButton.accesskey "V">
-<!ENTITY composeButton.label "Napsat zprávu">
-<!ENTITY composeButton.accesskey "z">
+<!ENTITY composeButton.label "Napsat">
+<!ENTITY composeButton.accesskey "s">
 <!ENTITY abSearchDialogTitle.label "Rozšířené hledání v kontaktech">
 

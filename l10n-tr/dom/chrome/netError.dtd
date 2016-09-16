@@ -8,7 +8,7 @@
 
 
 <!ENTITY connectionFailure.title "Bağlanma girişimi başarısız">
-<!ENTITY connectionFailure.longDesc "<p>Açmak istediğiniz site çalışıyor görünmesine rağmen tarayıcı bu siteyle bağlantı kurmayı başaramadı.</p><ul><li>Site geçici olarak açılamıyor olabilir. Daha sonra yeniden deneyin.</li><li>Diğer sayfaları da açamıyor olabilirsiniz. Öyleyse bilgisayarınızın ağ bağlantısının durumuna gözatın.</li><li>Bilgisayarınız ya da ağınız güvenlik duvarıyla çevrili olabilir. Düzgün yapılmayan ayarlar internete erişmenizi engeller.</li></ul>">
+<!ENTITY connectionFailure.longDesc "<p>Açmak istediğiniz site geçerli görünmesine rağmen tarayıcı bu siteyle bağlantı kuramadı.</p><ul><li>Site geçici olarak kapalı olabilir. Daha sonra yeniden deneyin.</li><li>Diğer siteler de mi açılmıyor? Öyleyse bilgisayarınızın ağ bağlantısın kontrol edin.</li><li>Bilgisayarınız veya ağınız bir güvenlik duvarıyla veya vekil sunucuyla korunuyorsa hatalı ayarlar internete erişmenizi engelleyebilir.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Güvenlik nedeniyle bağlantı noktası kısıtlanmış">
 <!ENTITY deniedPortAccess.longDesc "<p>İstenen adres normalde web gezintisi <em>dışında</em> amaçlar için kullanılan bir bağlantı noktası (örn. mozilla.org üzerinde 80. port için <q>mozilla.org:80</q>) içeriyor. Tarayıcı sizi korumak ve güvenliğini sağlamak amacıyla isteği iptal etti.</p>">
@@ -29,7 +29,7 @@
 <!ENTITY malformedURI.longDesc "<p>Girilen adres tanınan bir biçimde değil. Konum çubuğuna bakıp olası hataları giderdikten sonra yeniden deneyin.</p>">
 
 <!ENTITY netInterrupt.title "Veri aktarma hatası">
-<!ENTITY netInterrupt.longDesc "<p>Tarayıcı başarıyla bağlantı kurmasına karşın veri aktarımı sırasında kesinti meydana geldi. Lütfen yeniden deneyin.</p><ul><li>Diğer siteleri de açamıyor olabilirsiniz. Bilgisayarınızın ağ bağlantısını gözden geçirin.</li><li>Hâlâ sorun yaşıyorsanız ağ yöneticinize ya da internet servis sağlayıcınıza başvurun.</li></ul>">
+<!ENTITY netInterrupt.longDesc "<p>Tarayıcı başarıyla bağlantı kurdu ama bilgiler aktarılırken bağlantı kesildi. Lütfen yeniden deneyin.</p><ul><li>Başka siteler de mi açılmıyor? Bilgisayarınızın ağ bağlantısını gözden geçirin.</li><li>Hâlâ sorun yaşıyorsanız ağ yöneticinize veya internet servis sağlayıcınıza başvurun.</li></ul>">
 
 <!ENTITY notCached.title "Belge zaman aşımına uğradı">
 <!ENTITY notCached.longDesc "<p>Talep edilen belge tarayıcının önbelleğinde mevcut değil.</p><ul><li>Güvenlik önlemi olarak, tarayıcınız hassas belgeleri otomatik olarak yeniden talep etmez.</li><li>Belgeyi web sitesinden yeniden talep etmek için Yeniden dene düğmesine tıklayın.</li></ul>">
@@ -47,7 +47,7 @@
 <!ENTITY netReset.longDesc "<p>Bağlantı sırasında ağ iletişimi kesintiye uğradı. Lütfen yeniden deneyin.</p>">
 
 <!ENTITY netTimeout.title "Ağ zaman aşımı">
-<!ENTITY netTimeout.longDesc "<p>Açılmak istenen site isteğe yanıt vermeyince, tarayıcı da beklemeyi bıraktı.</p><ul><li>Sunucu çok sayıda bağlanma istemi veya geçici olarak açılamama durumuyla karşı karşıya olabilir. Daha sonra yeniden deneyin.</li><li>Diğer sitelere de bağlanamıyor olabilirsiniz. Bilgisayarınızın ağ bağlantısını gözden geçirin.</li><li>Bilgisayarınız ya da ağınız güvenlik duvarıyla çevrili olabilir. Düzgün yapılmayan ayarlar internete erişmenizi engeller.</li><li>Her yolu denemenize rağmen hâlâ bağlantı kuramıyorsanız, ağ yöneticinize veya internet servis sağlayıcınıza başvurun.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>İstenen site bağlantı isteğine yanıt vermeyince tarayıcı da beklemeyi bıraktı.</p><ul><li>Sunucu, yoğun talep veya geçici bir kesinti nedeniyle hizmet veremiyor olabilir. Daha sonra yeniden deneyin.</li><li>Diğer siteler de mi açılmıyor? Öyleyse bilgisayarınızın ağ bağlantısın kontrol edin.</li><li>Bilgisayarınız veya ağınız bir güvenlik duvarıyla veya vekil sunucuyla korunuyorsa hatalı ayarlar internete erişmenizi engelleyebilir.</li><li>Her yolu denemenize rağmen hâlâ bağlantı kuramıyorsanız ağ yöneticinize veya internet servis sağlayıcınıza başvurun.</li></ul>">
 
 <!ENTITY unknownProtocolFound.title "Tanınmayan iletişim kuralı">
 <!ENTITY unknownProtocolFound.longDesc "<p>Girilen adres tarayıcı tarafından tanınmayan bir iletişim kuralına (ör. <q>abcd://</q>) işaret ettiğinden tarayıcı siteye düzgünce bağlanamıyor.</p><ul><li>Çoklu ortam barındıran veya metin içermeyen bir hizmete bağlanmak istiyor olabilirsiniz.</li><li>Bazı iletişim kurallarının tarayıcı tarafından tanınabilmesi için üçüncü kişilerce geliştirilen yazılımlara ya da eklentilere ihtiyaç duyulabilir.</li></ul>">
@@ -76,8 +76,8 @@
 <!ENTITY cspBlocked.title "İçerik güvenliği ilkesi uyarınca engellendi">
 <!ENTITY cspBlocked.longDesc "<p>Tarayıcı bu sayfanın yüklenmesini engelledi; çünkü sayfa, yüklenmesine izin vermeyen bir içerik güvenliği ilkesine sahip.</p>">
 
-<!ENTITY corruptedContentError.title "Hasarlı İçerik Hatası">
-<!ENTITY corruptedContentError.longDesc "<p>Bakmak istediğiniz sayfa gösterilemiyor, çünkü dosya aktarımı sırasında bir hata saptandı.</p><ul><li>Site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Hasarlı İçerik Hatası">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Bakmak istediğiniz sayfa gösterilemiyor, çünkü dosya aktarımı sırasında bir hata saptandı.</p><ul><li>Site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul>">
 
 <!ENTITY remoteXUL.title "Uzak XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Lütfen site sahipleriyle iletişim kurup onları bu sorundan haberdar edin.</li></ul></p>">

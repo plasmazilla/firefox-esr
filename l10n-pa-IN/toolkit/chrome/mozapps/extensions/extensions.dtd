@@ -3,7 +3,7 @@
    - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
 
 <!ENTITY addons.windowTitle                   "ਐਡ-ਆਨ ਮੈਨੇਜਰ">
-<!ENTITY search.placeholder                   "ਸਭ ਐਡ-ਆਨ ਲਈ ਖੋਜ">
+<!ENTITY search.placeholder                   "ਸਭ ਐਡ-ਆਨ ਲਈ ਖੋਜ ਕਰੋ">
 <!ENTITY search.buttonlabel                   "ਖੋਜੋ">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
@@ -25,6 +25,9 @@
 
 <!ENTITY showUnsignedExtensions.button.label  "ਕੁਝ ਇਕਸਟੈਨਸ਼ਨਾਂ ਦੀ ਜਾਂਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ">
 <!ENTITY showAllExtensions.button.label       "ਸਭ ਇਕਸਟੈਨਸ਼ਨਾਂ ਦਿਖਾਉ">
+
+<!ENTITY debugAddons.label                    "ਐਡ-ਆਨ ਨੂੰ ਡੀਬੱਗ ਕਰੋ">
+<!ENTITY debugAddons.accesskey                "B">
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "ਸੁਰੱਖਿਅਤ ਮੋਡ 'ਚ ਸਭ ਐਡ-ਆਨ ਬੰਦ ਕਰ ਦਿੱਤੀਆਂ ਗਈਆਂ ਹਨ।">
@@ -99,8 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "ਹਟਾਓ">
 <!ENTITY cmd.uninstallAddon.accesskey         "R">
-<!ENTITY cmd.debugAddon.label                 "ਡੀਬੱਗ">
-<!ENTITY cmd.debugAddon.accesskey             "B">
+
 <!ENTITY cmd.showPreferencesWin.label         "ਚੋਣਾਂ">
 <!ENTITY cmd.showPreferencesWin.tooltip       "ਇਸ ਐਡ-ਆਨ ਦੀਆਂ ਚੋਣਾਂ ਨੂੰ ਬਦਲੋ">
 <!ENTITY cmd.showPreferencesUnix.label        "ਮੇਰੀ ਪਸੰਦ">
@@ -122,7 +124,7 @@
 <!ENTITY discover.footer                      "ਜਦੋਂ ਤੁਸੀਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਕੁਨੈਕਟ ਹੋਵੋਗੇ ਤਾਂ ਇਹ ਥਾਂ ਵੀ ਕੁਝ ਬਹੁਤ ਵਧੀਆ ਤੇ ਹਰਮਨ ਪਿਆਰੇ ਐਡ-ਆਨ ਵੇਖਾਏ ਜਾਣਗੇ, ਜਿੰਨ੍ਹਾਂ ਨੂੰ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੋਗੇ।">
 
 <!-- detail view -->
-<!ENTITY detail.version.label                 "ਵਰਜਨ">
+<!ENTITY detail.version.label                 "ਵਰਜ਼ਨ">
 <!ENTITY detail.lastupdated.label             "ਆਖਰੀ ਅੱਪਡੇਟ">
 <!ENTITY detail.creator.label                 "ਡਿਵੈਲਪਰ">
 <!ENTITY detail.homepage.label                "ਮੁੱਖ ਸਫ਼ਾ">
@@ -232,6 +234,6 @@
 <!-- LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
      These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
      being a link to an external site. -->
-<!ENTITY disabledUnsigned.devInfo.start "Developers interested in getting their add-ons verified can continue by reading our ">
+<!ENTITY disabledUnsigned.devInfo.start "ਡਿਵੈਲਪਰ, ਜੋ ਆਪਣੀਆਂ ਐਡ-ਆਨ ਨੂੰ ਤਸਦੀਕ ਕਰਵਾਉਣਾ ਚਾਹੁੰਦੇ ਹਨ, ਸਾਡੇ ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "ਦਸਤੀ">
-<!ENTITY disabledUnsigned.devInfo.end ".">
+<!ENTITY disabledUnsigned.devInfo.end " ਨੂੰ ਪੜ੍ਹਨਾ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹਨ।">

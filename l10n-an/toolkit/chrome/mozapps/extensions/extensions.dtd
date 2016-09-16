@@ -152,7 +152,7 @@
 <!ENTITY detail.checkForUpdates.tooltip       "Mirar si i hai actualizacions d'este complemento">
 <!ENTITY detail.showPreferencesWin.label      "Opcions">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "Cambiar as opcions d'iste complemento">
+<!ENTITY detail.showPreferencesWin.tooltip    "Cambiar as opciones d'iste complemento">
 <!ENTITY detail.showPreferencesUnix.label     "Preferencias">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
 <!ENTITY detail.showPreferencesUnix.tooltip   "Cambiar as preferencias d'iste complemento">

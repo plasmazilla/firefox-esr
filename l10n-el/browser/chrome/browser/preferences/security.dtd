@@ -2,21 +2,32 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY  general.label                 "Γενικά">
+
 <!ENTITY  warnAddonInstall.label        "Προειδοποίηση όταν οι σελίδες προσπαθούν να  εγκαταστήσουν πρόσθετα">
 <!ENTITY  warnAddonInstall.accesskey    "δ">
 
-<!-- LOCALIZATION NOTE (tellMaybeForgery.label, tellMaybeAttackSite.label):
-  The methods by which forged (phished) and attack sites will be detected by
-  phishing providers will vary from human review to machine-based heuristics to a
-  combination of both, so it's important that these strings and
-  useDownloadedList.label convey the meaning "suspected" (and not something like
-  "known").
+<!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
+  It is important that wording follows the guidelines outlined on this page:
+  https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 -->
+<!ENTITY  enableSafeBrowsing.label        "Αποκλεισμός επικίνδυνου και παραπλανητικού περιεχομένου">
+<!ENTITY  enableSafeBrowsing.accesskey    "Α">
 
-<!ENTITY  passwords.label               "Κωδικοί">
+<!ENTITY  blockDownloads.label            "Αποκλεισμός επικίνδυνων λήψεων">
+<!ENTITY  blockDownloads.accesskey        "λ">
 
-<!ENTITY  rememberPasswords.label       "Απομνημόνευση κωδικών για σελίδες">
-<!ENTITY  rememberPasswords.accesskey   "μ">
+<!ENTITY  blockUncommonUnwanted.label     "Προειδοποίηση για ανεπιθύμητο και ασυνήθιστο λογισμικό">
+<!ENTITY  blockUncommonUnwanted.accesskey "θ">
+
+<!ENTITY  addonExceptions.label         "Εξαιρέσεις...">
+<!ENTITY  addonExceptions.accesskey     "Ε">
+
+
+<!ENTITY  logins.label                  "Λογαριασμοί">
+
+<!ENTITY  rememberLogins.label          "Απομνημόνευση λογαριασμών για ιστοσελίδες">
+<!ENTITY  rememberLogins.accesskey      "μ">
 <!ENTITY  passwordExceptions.label      "Εξαιρέσεις...">
 <!ENTITY  passwordExceptions.accesskey  "ξ">
 
@@ -25,17 +36,5 @@
 <!ENTITY  changeMasterPassword.label     "Αλλαγή κύριου κωδικού...">
 <!ENTITY  changeMasterPassword.accesskey "γ">
 
-
-<!ENTITY  addonExceptions.label         "Εξαιρέσεις...">
-<!ENTITY  addonExceptions.accesskey     "Ε">
-
-<!ENTITY  savedPasswords.label            "Αποθηκευμένοι κωδικοί…">
-<!ENTITY  savedPasswords.accesskey        "θ">
-
-
-<!ENTITY  blockAttackSites.label     "Φραγή σελίδων που έχουν αναφερθεί ως κακόβουλες">
-<!ENTITY  blockAttackSites.accesskey "κ">
-
-<!ENTITY  blockWebForgeries.label     "Φραγή σελίδων που έχουν αναφερθεί ως πλαστές">
-<!ENTITY  blockWebForgeries.accesskey "φ">
-
+<!ENTITY  savedLogins.label              "Αποθηκευμένοι λογαριασμοί…">
+<!ENTITY  savedLogins.accesskey          "π">

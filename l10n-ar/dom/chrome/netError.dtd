@@ -76,8 +76,8 @@
 <!ENTITY cspBlocked.title "حجبتها سياسة أمن المحتوى">
 <!ENTITY cspBlocked.longDesc "<p>منع المتصفح هذه الصفحة من التحميل بهذه الطريقة لأنها تملك سياسة أمن للمحتوى لا تسمح بذلك.</p>">
 
-<!ENTITY corruptedContentError.title "خطأ: محتوى فاسد">
-<!ENTITY corruptedContentError.longDesc "<p>تعذر عرض الصفحة التي تريد مشاهدتها بسبب خطأ أثناء نقل البيانات.</p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "خطأ: محتوى فاسد">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>تعذر عرض الصفحة التي تريد مشاهدتها بسبب خطأ أثناء نقل البيانات.</p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL بعيد">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>الرجاء التواصل مع مالك الموقع لإبلاغه بهذه المشكلة.</li></ul></p>">

@@ -22,7 +22,7 @@
 
 <!ENTITY generalTab "Obecné">
 <!ENTITY generalTab.accesskey "O">
-<!ENTITY generalURL "URL:">
+<!ENTITY generalURL "Adresa:">
 <!ENTITY generalType "Typ:">
 <!ENTITY generalMode "Režim vykreslování:">
 <!ENTITY generalSize "Velikost:">
@@ -44,7 +44,7 @@
 <!ENTITY formTarget "Cíl:">
 <!ENTITY formFields "Prvky:">
 <!ENTITY formLabel "Označení">
-<!ENTITY formFName "Název prvku">
+<!ENTITY formFName "Název pole">
 <!ENTITY formType "Typ">
 <!ENTITY formCValue "Současná hodnota">
 
@@ -58,7 +58,7 @@
 
 <!ENTITY mediaTab "Média">
 <!ENTITY mediaTab.accesskey "M">
-<!ENTITY mediaURL "URL:">
+<!ENTITY mediaURL "Adresa:">
 <!ENTITY mediaAlt "Alternativní text:">
 <!ENTITY mediaAltHeader "Alternativní text">
 <!ENTITY mediaAddress "Adresa">
@@ -67,7 +67,7 @@
 <!ENTITY mediaCount "Počet">
 <!ENTITY mediaDimensions "Rozměry:">
 <!ENTITY mediaPhysDimensions "Skutečné rozměry:">
-<!ENTITY mediaTitle "Titulek:">
+<!ENTITY mediaTitle "Název:">
 <!ENTITY mediaLongdesc "Dlouhý popis:">
 <!ENTITY mediaBlockImage.accesskey "B">
 <!ENTITY mediaSaveAs "Uložit jako…">
@@ -95,8 +95,8 @@
 <!ENTITY permInstall "Instalovat doplňky">
 <!ENTITY permGeo "Prozradit polohu">
 
-<!ENTITY securityTab "Bezpečnost">
-<!ENTITY securityTab.accesskey "B">
+<!ENTITY securityTab "Zabezpečení">
+<!ENTITY securityTab.accesskey "b">
 <!ENTITY securityHeader "Bezpečnostní informace o této stránce">
 <!ENTITY securityView.certView "Zobrazit certifikát">
 <!ENTITY securityView.accesskey "c">

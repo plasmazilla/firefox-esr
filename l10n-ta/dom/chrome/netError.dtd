@@ -28,7 +28,7 @@
 <!ENTITY malformedURI.longDesc "<p>வழங்கிய முகவரி அடையாளங்காணத்தக்க வடிவில் இல்லை. இருப்பிடப்பட்டியைப் பார்த்து ஏதேனும் பிழைகள் உள்ளதா எனச் சரிபார்த்துவிட்டு மீண்டும் முயற்சிக்கவும்.</p>">
 
 <!ENTITY netInterrupt.title "தரவு பரிமாற்ற தடங்கல்">
-<!ENTITY netInterrupt.longDesc "[p]The browser connected successfully, but the connection was interrupted while transferring information.  Please try again.[/p][ul][li]Are you unable to browse other sites? Check the computer's network connection.[/li][li]Still having trouble? Consult your network administrator or Internet provider for assistance.[/li][/ul]">
+
 
 <!ENTITY notCached.title "ஆவணம் காலாவதியானது">
 <!ENTITY notCached.longDesc "<p>கோரிய ஆவணம் உலாவியின் தற்காலிக சேமிப்பில் கிடைக்கவில்லை.</p><ul><li> பாதுகாப்பு முன்னெச்சரிக்கையாக, உலாவி தானாக மீண்டும் முக்கியமான ஆவணங்ககளை கோருவது இல்லை.</li><li>இந்த ஆவணத்தை வலைதலத்தில் இருந்து மீண்டும் கோர &quot;மீண்டும் முயற்சிக்கவும்&quot; பொத்தானை சொடுக்கவும்.</li></ul>">
@@ -74,8 +74,8 @@
 <!ENTITY cspBlocked.title "உள்ளடக்க பாதுகாப்பு கொள்கையால் தடுக்கப்பட்டது">
 <!ENTITY cspBlocked.longDesc "<p>இந்தப் பக்கத்தில், இந்தப் பக்கத்தை இவ்விதமாக ஏற்றுவதைத் தடுக்கும் வகையிலான ஒரு உள்ளடக்கப் பாதுகாப்பு கொள்கை உள்ளதால், உலாவி இந்தப் பக்கத்தை இவ்விதமாக ஏற்றுவதைத் தடுத்துவிட்டது.</p>">
 
-<!ENTITY corruptedContentError.title "சிதைந்த உள்ளடக்கப் பிழை">
-<!ENTITY corruptedContentError.longDesc "<p>தரவுப் பரிமாற்றத்தில் பிழை கண்டறியப்பட்டதால், நீங்கள் காண முயற்சிக்கும் பக்கத்தைக் காண்பிக்க முடியாது.</p><ul><li>வலைத்தள உரிமையாளர்களைத் தொடர்புகொண்டு இந்த சிக்கல் குறித்து தெரிவிக்கவும்.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "சிதைந்த உள்ளடக்கப் பிழை">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>தரவுப் பரிமாற்றத்தில் பிழை கண்டறியப்பட்டதால், நீங்கள் காண முயற்சிக்கும் பக்கத்தைக் காண்பிக்க முடியாது.</p><ul><li>வலைத்தள உரிமையாளர்களைத் தொடர்புகொண்டு இந்த சிக்கல் குறித்து தெரிவிக்கவும்.</li></ul>">
 
 <!ENTITY remoteXUL.title "தொலைநிலை XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>வலைத்தள உரிமையாளர்களைத் தொடர்புகொண்டு இந்த சிக்கல் குறித்து தெரிவிக்கவும்.</li></ul></p>">

@@ -8,7 +8,7 @@
 
 
 <!ENTITY connectionFailure.title "Klarte ikke koble til nettstedet">
-<!ENTITY connectionFailure.longDesc "<p>Selv om adressen ser ut til å være gyldig, klarte ikke nettleseren å koble til det.</p><ul><li>Kan nettstedet midlertidig være utilgjengelig? Prøv igjen senere.</li><li>Klarer du å åpne andre nettsider?  Kontroller datamaskinens nettverksforbindelse.</li><li>Er datamaskinen eller nettverket ditt beskyttet av en brannmur eller proxy? Feil innstillinger kan gjøre det umulig å åpne nettsider.</li></ul>">
+<!ENTITY connectionFailure.longDesc "<p>Selv om adressen ser ut til å være gyldig, klarte ikke nettleseren å koble til det.</p><ul><li>Kan nettstedet midlertidig være utilgjengelig? Prøv igjen senere.</li><li>Klarer du å åpne andre nettsider?  Kontroller datamaskinens nettverksforbindelse.</li><li>Er datamaskinen eller nettverket ditt beskyttet av en brannmur eller proxy? Feil innstillinger kan forstyrre åpning av nettsider.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Porten er adgangsbegrenset av sikkerhetsårsaker">
 <!ENTITY deniedPortAccess.longDesc "<p>Forespørselsadressen oppgav en port (f.eks. <q>mozilla.org:80</q> for port 80 på mozilla.org) som normalt brukes til et <em>annet</em> formål enn nettlesing. Nettleseren har avbrutt forespørselen av sikkerhetsårsaker.</p>">
@@ -76,8 +76,8 @@
 <!ENTITY cspBlocked.title "Blokkert av sikkerhetspolicy">
 <!ENTITY cspBlocked.longDesc "<p>Nettleseren forhindret denne siden fra å lastes inn på denne måten, fordi nettsiden har en sikkerhetspolicy som forbyr det.</p>">
 
-<!ENTITY corruptedContentError.title "Feil - ødelagt innhold">
-<!ENTITY corruptedContentError.longDesc "<p>Siden du forsøker å vise kan ikke åpnes på grunn av en feil i dataoverføringen</p><ul><li>Kontakt nettstedseierne og informer dem om problemet.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Feil - ødelagt innhold">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Siden du forsøker å vise kan ikke åpnes på grunn av en feil i dataoverføringen</p><ul><li>Kontakt nettstedseierne og informer dem om problemet.</li></ul>">
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontakt nettstedseierne og informer dem om dette problemet.</li></ul></p>">

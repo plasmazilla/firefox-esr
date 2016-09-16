@@ -2,12 +2,12 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY pref.composing.messages.title "Vytváření zpráv">
+<!ENTITY pref.composing.messages.title "Vytváření">
 <!ENTITY generalComposing.label "Obecné">
-<!ENTITY forwardMsg.label "Přeposlat zprávy:">
+<!ENTITY forwardMsg.label "Přeposílat zprávy:">
 <!ENTITY inline.label "Vložené">
 <!ENTITY inline.accesskey "l">
-<!ENTITY asAttachment.label "Jako příloha">
+<!ENTITY asAttachment.label "Jako přílohu">
 <!ENTITY asAttachment.accesskey "p">
 
 <!ENTITY replyQuoteInline.label "Citovat v odpovědích vložené přílohy">

@@ -2,21 +2,814 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  splash_screen_loading "Φόρτωση">
-<!ENTITY  splash_screen_installing_libs "Γίνεται εγκατάσταση βιβλιοθηκών\u2026">
-<!ENTITY  splash_firstrun "Ρύθμιση &brandShortName;\u2026">
+<!ENTITY firstrun_panel_title_welcome "Καλώς ήλθατε">
 
-<!ENTITY  no_space_to_start_error "Δεν υπάρχει αρκετός ελεύθερος χώρος για να ξεκινήσει ο &brandShortName;.">
-<!ENTITY  error_loading_file "Σφάλμα κατά την φόρτωση των απαραίτητων αρχείων για την εκτέλεση του &brandShortName;">
+<!ENTITY firstrun_urlbar_message "Καλώς ήλθατε στον &brandShortName;">
+<!ENTITY firstrun_urlbar_subtext "Βρείτε τα πάντα πιο γρήγορα με τις χρήσιμες προτάσεις αναζήτησης.">
+<!ENTITY firstrun_bookmarks_title "Ιστορικό">
+<!ENTITY firstrun_bookmarks_message "Οι σελιδοδείκτες σας στο επίκεντρο">
+<!ENTITY firstrun_bookmarks_subtext "Λάβετε αποτελέσματα από τους σελιδοδείκτες και το ιστορικό σας όταν κάνετε αναζήτηση.">
+<!ENTITY firstrun_data_title "Δεδομένα">
+<!ENTITY firstrun_data_message "Λιγότερα δεδομένα, μεγαλύτερη οικονομία">
+<!ENTITY firstrun_data_subtext2 "Απενεργοποιήστε τις εικόνες για να ξοδεύετε λιγότερα δεδομένα σε κάθε ιστοσελίδα που επισκέπτεστε.">
+<!ENTITY firstrun_sync_title "Συγχρονισμός">
+<!ENTITY firstrun_sync_message "Ο &brandShortName; πάντα στο πλευρό σας">
+<!ENTITY firstrun_sync_subtext "Συγχρονίστε τις καρτέλες, τους κωδικούς πρόσβασης και άλλα οπουδήποτε τον χρησιμοποιείτε.">
+<!ENTITY firstrun_signin_message "Συνδεθείτε και ξεκινήστε">
+<!ENTITY firstrun_signin_button "Είσοδος στον Συγχρονισμό">
+<!ENTITY  onboard_start_button_browser "Ξεκινήστε την περιήγηση">
+<!ENTITY firstrun_button_notnow "Όχι τώρα">
+<!ENTITY firstrun_button_next "Επόμενο">
+
+<!ENTITY firstrun_tabqueue_title "Σύνδεσμοι">
+<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "Ενεργοποίηση της ουράς αναμονής καρτελών">
+<!ENTITY firstrun_tabqueue_subtext_off "Αποθήκευση συνδέσμων για αργότερα στον &brandShortName; όταν τους επιλέγω σε άλλες εφαρμογές.">
+
+<!ENTITY firstrun_tabqueue_message_on "Επιτυχία!">
+<!ENTITY firstrun_tabqueue_subtext_on "Μπορείτε πάντα να το απενεργοποιήσετε στις &settings; στην ενότητα &pref_category_general;.">
+
+<!ENTITY firstrun_readerview_title "Άρθρα">
+<!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+<!ENTITY firstrun_readerview_message "Τακτοποιημένη εμφάνιση">
+<!ENTITY firstrun_readerview_subtext "Χρησιμοποιήστε την προβολή ανάγνωσης για πιο ευανάγνωστα άρθρα, διαθέσιμα ακόμα και χωρίς σύνδεση.">
+
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+<!ENTITY firstrun_account_title "Εσείς">
+<!ENTITY firstrun_account_message "Έχετε τον &brandShortName; σε κάποια άλλη συσκευή;">
+
+<!ENTITY  onboard_start_restricted1 "Παραμείνετε ασφαλής και διατηρήστε τον έλεγχο με αυτή την απλοποιημένη έκδοση του &brandShortName;.">
+
+<!-- Localization note: These are used as the titles of different pages on the home screen.
+     They are automatically converted to all caps by the Android platform. -->
+<!ENTITY  bookmarks_title "Mobile">
+<!ENTITY  history_title "Ιστορικό">
+<!ENTITY  recent_tabs_title "Πρόσφατες καρτέλες">
+
+<!ENTITY  switch_to_tab "Μετάβαση σε καρτέλα">
 
 <!ENTITY  crash_reporter_title "Αναφορά σφαλμάτων &brandShortName;">
-<!ENTITY  crash_message "Ο &brandShortName; κατέρευσε. Οι ανοικτές καρτέλες θα παρουσιαστούν στην αρχική σελίδα του &brandShortName; όταν επανεκκινήσετε.">
-<!ENTITY  crash_help_message "Βοηθήστε μας να διορθώσουμε το πρόβλημα!">
-<!ENTITY  crash_send_report_message "Στείλτε μια αναφορά σφάλματος στον Mozilla">
-<!ENTITY  crash_include_url "Να συμπεριληφθεί και η διεύθυνση της σελίδας">
+<!ENTITY  crash_message2 "Ο &brandShortName; αντιμετώπισε ένα πρόβλημα και κατέρρευσε. Οι καρτέλες σας θα πρέπει να εμφανιστούν στην αρχική σελίδα του &brandShortName; όταν τον επανεκκινήσετε.">
+<!ENTITY  crash_send_report_message3 "Ειδοποιήστε το &vendorShortName; για αυτό το πρόβλημα ώστε να διορθωθεί">
+<!ENTITY  crash_include_url2 "Να συμπεριληφθεί η διεύθυνση της ιστοσελίδας στην οποία βρισκόμουν">
+<!ENTITY  crash_sorry "Λυπούμαστε">
+<!ENTITY  crash_comment "Προσθήκη σχολίου (τα σχόλια είναι δημόσια)">
+<!ENTITY  crash_allow_contact2 "Να επιτραπεί στο &vendorShortName; να έρθει σε επαφή μαζί μου σχετικά με αυτή την αναφορά">
+<!ENTITY  crash_email "Η ηλ. διεύθυνσή σας">
+<!ENTITY  crash_closing_alert "Έξοδος χωρίς αποστολή αναφοράς κατάρρευσης;">
+<!ENTITY  sending_crash_report "Γίνεται αποστολή αναφοράς σφάλματος\u2026">
 <!ENTITY  crash_close_label "Κλείσιμο">
 <!ENTITY  crash_restart_label "Επανεκκίνηση &brandShortName;">
-<!ENTITY  sending_crash_report "Γίνεται αποστολή αναφοράς σφάλματος\u2026">
-<!ENTITY  exit_label "Έξοδος">
-<!ENTITY  continue_label "Συνέχεια">
+
+<!ENTITY url_bar_default_text2 "Αναζητήστε ή εισάγετε μια διεύθυνση">
+
+<!ENTITY bookmark "Σελιδοδείκτης">
+<!ENTITY bookmark_remove "Διαγραφή σελιδοδείκτη">
+<!ENTITY bookmark_added "Ο σελιδοδείκτης προστέθηκε">
+<!-- Localization note (bookmark_already_added) : This string is
+     used as a label in a toast. It is the verb "to bookmark", not
+     the noun "a bookmark". -->
+<!ENTITY bookmark_already_added "Ήδη στους σελιδοδείκτες">
+<!ENTITY bookmark_removed "Ο σελιδοδείκτης διεγράφη">
+<!ENTITY bookmark_updated "Ο σελιδοδείκτης ενημερώθηκε">
+<!ENTITY bookmark_options "Επιλογές">
+<!ENTITY screenshot_added_to_bookmarks "Το στιγμιότυπο οθόνης προστέθηκε στους σελιδοδείκτες">
+<!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
+     the user takes. The folder we store these links in is located in the bookmarks list
+     and is labeled by this String. -->
+<!ENTITY screenshot_folder_label_in_bookmarks "Στιγμιότυπα οθόνης">
+<!ENTITY readinglist_smartfolder_label_in_bookmarks "Λίστα ανάγνωσης">
+
+<!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
+     in the folder. -->
+<!ENTITY bookmark_folder_items "&formatD; στοιχεία">
+<!ENTITY bookmark_folder_one_item "1 στοιχείο">
+
+<!ENTITY reader_saved_offline "Αποθηκευμένα για χρήση χωρίς σύνδεση">
+<!-- Localization note (reader_switch_to_bookmarks) : This
+     string is used as an action in a snackbar - it lets you
+     "switch" to the bookmarks (saved items) panel. -->
+<!ENTITY reader_switch_to_bookmarks "Μετάβαση">
+
+<!ENTITY history_today_section "Σήμερα">
+<!ENTITY history_yesterday_section "Χθες">
+<!ENTITY history_week_section3 "Τελευταίες 7 ημέρες">
+<!ENTITY history_older_section3 "Παλαιότερα από 6 μήνες">
+
+<!ENTITY search "Αναζήτηση">
+<!ENTITY reload "Ανανέωση">
+<!ENTITY forward "Εμπρός">
+<!ENTITY menu "Μενού">
+<!ENTITY back "Πίσω">
+<!ENTITY stop "Διακοπή">
+<!ENTITY site_security "Ασφάλεια σελίδας">
+<!ENTITY edit_mode_cancel "Ακύρωση">
+
+<!ENTITY close_tab "Κλείσιμο καρτέλας">
+<!ENTITY one_tab "1 καρτέλα">
+<!-- Localization note (num_tabs2) : Number of tabs is always more than one.
+     We can't use android plural forms, sadly. See bug #753859. -->
+<!ENTITY num_tabs2 "&formatD; καρτέλες">
+<!ENTITY new_tab_opened "Άνοιξε νέα καρτέλα">
+<!ENTITY new_private_tab_opened "Άνοιξε νέα ιδιωτική καρτέλα">
+<!-- Localization note (switch_button_message): This string should be as short
+     as possible because it's shown as a label in a toast.  Ideally, this string
+     is upper-case, to match Google and Android's convention. -->
+<!ENTITY switch_button_message "ΜΕΤΑΒΑΣΗ">
+<!-- Localization note (tab_title_prefix_is_playing_audio): This string is not
+     visible in the UI, but rather used as a text-to-speech content description
+     for sight-impaired a11y users. The content description is set on a tab
+     title in a list of open tabs when content in that tab is playing audio.
+     &formatS; will be replaced with the title of the tab, as received from the
+     web page. When audio is not playing in a tab, &formatS; will be used as
+     the content description. -->
+<!ENTITY tab_title_prefix_is_playing_audio "Αναπαραγωγή ήχου – &formatS;">
+
+<!ENTITY settings "Ρυθμίσεις">
+<!ENTITY settings_title "Ρυθμίσεις">
+<!ENTITY pref_category_general "Γενικά">
+<!ENTITY pref_category_general_summary3 "Αρχική σελίδα, γλώσσα, λίστα αναμονής καρτελών">
+
+<!-- Localization note (pref_category_language) : This is the preferences
+     section in which the user picks the locale in which to display Firefox
+     UI. The locale includes both language and region concepts. -->
+<!ENTITY pref_category_language "Γλώσσα">
+<!ENTITY pref_category_language_summary "Αλλαγή της γλώσσας του περιηγητή σας">
+<!ENTITY pref_browser_locale "Γλώσσα περιηγητή">
+
+<!-- Localization note (locale_system_default) : This string indicates that
+     Firefox will use the locale currently selected in Android's settings
+     to display browser chrome. -->
+<!ENTITY locale_system_default "Προεπιλογή συστήματος">
+
+<!-- Localization note (overlay_share_label) : This is the label that appears
+     in Android's intent chooser when sending a link to Firefox to bookmark,
+     send to another device, or add to Reading List. -->
+<!ENTITY overlay_share_label "Προσθήκη στον &brandShortName;">
+
+<!-- Localization note (overlay_share_bookmark_btn_label) : This string is
+     used in the share overlay menu to select an action. It is the verb
+     "to bookmark", not the noun "a bookmark". -->
+<!ENTITY overlay_share_bookmark_btn_label "Προσθήκη στους σελιδοδείκτες">
+<!ENTITY overlay_share_bookmark_btn_label_already "Ήδη στους σελιδοδείκτες">
+<!ENTITY overlay_share_send_other "Αποστολή σε άλλες συσκευές">
+
+<!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
+     share overlay menu to represent the "Send Tab" action when the user
+     either has not set up Sync, or has no other devices to send a tab
+     to. -->
+<!ENTITY overlay_share_send_tab_btn_label "Αποστολή σε άλλη συσκευή">
+<!ENTITY overlay_share_no_url "Δεν βρέθηκε σύνδεσμος σε αυτό το στοιχείο">
+<!ENTITY overlay_share_select_device "Επιλογή συσκευής">
+<!-- Localization note (overlay_no_synced_devices) : Used when the menu option
+     to send a tab to a synced device is pressed and no other synced devices
+     are found. -->
+<!ENTITY overlay_no_synced_devices "Δεν βρέθηκαν συσκευές συνδεδεμένες με λογαριασμό Firefox">
+
+<!ENTITY pref_category_search3 "Αναζήτηση">
+<!ENTITY pref_category_search_summary2 "Προσθήκη, ορισμός προεπιλογής, εμφάνιση προτάσεων">
+<!ENTITY pref_category_accessibility "Προσβασιμότητα">
+<!ENTITY pref_category_accessibility_summary2 "Μέγεθος κειμένου, μεγέθυνση, φωνητική είσοδος">
+<!ENTITY pref_category_privacy_short "Απόρρητο">
+<!ENTITY pref_category_privacy_summary4 "Καταγραφή, στοιχεία σύνδεσης, επιλογές δεδομένων">
+<!ENTITY pref_category_vendor2 "&vendorShortName; &brandShortName;">
+<!ENTITY pref_category_vendor_summary2 "Σχετικά με τον &brandShortName;, συχνές ερωτήσεις, η γνώμη σας">
+<!ENTITY pref_category_datareporting "Επιλογές δεδομένων">
+<!ENTITY pref_category_logins "Στοιχεία σύνδεσης">
+<!ENTITY pref_learn_more "Μάθετε περισσότερα">
+<!ENTITY pref_category_installed_search_engines "Εγκατεστημένες μηχανές αναζήτησης">
+<!ENTITY pref_category_add_search_providers "Προσθήκη περισσοτέρων μηχανών αναζήτησης">
+<!ENTITY pref_category_search_restore_defaults "Επαναφορά μηχανών αναζήτησης">
+<!ENTITY pref_search_restore_defaults "Επαναφορά προεπιλογών">
+<!ENTITY pref_search_restore_defaults_summary "Επαναφορά προεπιλογών">
+<!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
+     advisory message on the customise search providers settings page explaining how to add new
+     search providers.
+     The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
+     it is applicable. -->
+<!ENTITY pref_search_hint2 "ΣΥΜΒΟΥΛΗ: προσθέστε οποιαδήποτε ιστοσελίδα στη λίστα των μηχανών αναζήτησης σας, πατώντας παρατεταμένα το πεδίο αναζήτησης της και μετά το εικονίδιο &formatI;.">
+<!ENTITY pref_category_advanced "Για προχωρημένους">
+<!-- Localization note (pref_category_advanced_summary3): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
+<!ENTITY pref_category_advanced_summary3 "Επαναφορά καρτελών, εξοικονόμηση δεδομένων, εργαλεία προγραμματιστών">
+<!ENTITY pref_category_notifications "Ειδοποιήσεις">
+<!ENTITY pref_category_notifications_summary "Νέα χαρακτηριστικά, ενημερώσεις ιστοσελίδων">
+<!ENTITY pref_content_notifications "Ενημερώσεις ιστοσελίδων">
+<!ENTITY pref_content_notifications_summary2 "Ανακαλύψτε νέο περιεχόμενο από υποστηριζόμενες σελίδες">
+<!ENTITY pref_developer_remotedebugging_usb "Απομακρυσμένη αποσφαλμάτωση μέσω USB">
+<!ENTITY pref_developer_remotedebugging_wifi "Απομακρυσμένη αποσφαλμάτωση μέσω Wi-Fi">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Η αποσφαλμάτωση μέσω Wi-Fi προαπαιτεί την ύπαρξη εφαρμογής ανάγνωσης κωδικών QR στη συσκευή σας.">
+<!ENTITY pref_remember_signons2 "Απομνημόνευση στοιχείων σύνδεσης">
+<!ENTITY pref_manage_logins "Διαχείριση στοιχείων σύνδεσης">
+
+<!ENTITY pref_category_home "Αρχική σελίδα">
+<!ENTITY pref_category_home_summary "Προσαρμόστε την αρχική σελίδα σας">
+<!ENTITY pref_category_home_panels "Πλαίσια">
+<!ENTITY pref_category_home_add_ons "Πρόσθετα">
+<!ENTITY pref_home_updates2 "Ενημερώσεις περιεχομένου">
+<!ENTITY pref_home_updates_enabled "Ενεργοποιημένες">
+<!ENTITY pref_home_updates_wifi "Μόνο μέσω Wi-Fi">
+<!ENTITY pref_category_home_homepage "Αρχική σελίδα">
+<!ENTITY home_homepage_title "Ορισμός αρχικής σελίδας">
+<!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
+     buttons to choose the homepage they'd like to start on. When they click the radio
+     button for this string, they will use the built-in default Firefox homepage (about:home). -->
+<!ENTITY home_homepage_radio_default "Αρχική σελίδα &brandShortName;">
+<!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
+     buttons to choose the homepage they'd like to start on. When they click the radio
+     button for this string, a text field will appear below the radio button and allow the
+     user to insert an address of their choice. -->
+<!ENTITY home_homepage_radio_user_address "Προσαρμοσμένη">
+<!-- Localization note (home_homepage_hint_user_address): The user will see a series of
+     radio buttons to choose the homepage they'd like to start on. When they click a
+     particular radio button, a text field will appear below the radio button and allow the
+     user to insert an address of their choice. This string is the hint text to that
+     text field. -->
+<!ENTITY home_homepage_hint_user_address "Εισάγετε διεύθυνση ή όρο αναζήτησης">
+
+<!-- Localization note: These are shown in the left sidebar on tablets -->
+<!ENTITY pref_header_general "Γενικά">
+<!ENTITY pref_header_search "Αναζήτηση">
+<!ENTITY pref_header_privacy_short "Απόρρητο">
+<!ENTITY pref_header_accessibility "Προσβασιμότητα">
+<!ENTITY pref_header_notifications "Ειδοποιήσεις">
+<!ENTITY pref_header_advanced "Για προχωρημένους">
+<!ENTITY pref_header_help "Βοήθεια">
+<!ENTITY pref_header_vendor "&vendorShortName;">
+
+<!ENTITY pref_cookies_menu "Cookies">
+<!ENTITY pref_cookies_accept_all "Ενεργοποίηση">
+<!ENTITY pref_cookies_not_accept_foreign "Ενεργοποίηση, εκτός από cookies τρίτων">
+<!ENTITY pref_cookies_disabled "Απενεργοποίηση">
+
+<!-- Localization note (pref_category_data_saver): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
+<!ENTITY pref_category_data_saver "Εξοικονόμηση δεδομένων">
+<!ENTITY pref_category_media "Πολυμέσα">
+<!ENTITY pref_category_developer_tools "Εργαλεία προγραμματιστών">
+
+<!ENTITY pref_tap_to_load_images_title2 "Εμφάνιση εικόνων">
+<!ENTITY pref_tap_to_load_images_enabled "Πάντα">
+<!ENTITY pref_tap_to_load_images_data "Μόνο μέσω Wi-Fi">
+<!ENTITY pref_tap_to_load_images_disabled2 "Ποτέ">
+
+<!ENTITY pref_show_web_fonts "Εμφάνιση web γραμματοσειρών">
+<!ENTITY pref_show_web_fonts_summary2 "Λήψη απομακρυσμένων γραμματοσειρών κατά την φόρτωση σελίδων">
+
+<!ENTITY pref_tracking_protection_title2 "Προστασία δεδομένων περιήγησης">
+<!ENTITY pref_tracking_protection_summary3 "Ενεργοποιημένη στην ιδιωτική περιήγηση">
+<!ENTITY pref_donottrack_title "Αποτροπή καταγραφής (Do Not Track)">
+<!ENTITY pref_donottrack_summary "Ο &brandShortName; θα γνωστοποιεί στις ιστοσελίδες ότι δεν επιθυμείτε την καταγραφή της συμπεριφοράς περιήγησης σας">
+
+<!ENTITY pref_tracking_protection_enabled "Ενεργοποιημένη">
+<!ENTITY pref_tracking_protection_enabled_pb "Μόνο στην ιδιωτική περιήγηση">
+<!ENTITY pref_tracking_protection_disabled "Απενεργοποιημένη">
+
+<!ENTITY pref_whats_new_notification "Τί νέο υπάρχει στον &brandShortName;">
+<!ENTITY pref_whats_new_notification_summary "Μάθετε για τα νέα χαρακτηριστικά από μια ενημέρωση">
+
+<!ENTITY tracking_protection_prompt_title "Τώρα και με προστασία δεδομένων περιήγησης">
+<!ENTITY tracking_protection_prompt_text "Ενεργή φραγή της καταγραφής δεδομένων περιήγησης έτσι ώστε να μην χρειάζεται να ανησυχείτε.">
+<!ENTITY tracking_protection_prompt_tip_text "Μεταβείτε στις ρυθμίσεις απορρήτου για να μάθετε περισσότερα">
+<!ENTITY tracking_protection_prompt_action_button "Το κατάλαβα!">
+
+<!ENTITY tab_queue_toast_message3 "Η καρτέλα αποθηκεύτηκε στον &brandShortName;">
+<!ENTITY tab_queue_toast_action "Άνοιγμα τώρα">
+<!ENTITY tab_queue_prompt_title "Άνοιγμα πολλαπλών συνδέσμων;">
+<!ENTITY tab_queue_prompt_text4 "Αποθήκευση τους μέχρι την επόμενη φορά που θα ανοίξετε τον &brandShortName;.">
+<!ENTITY tab_queue_prompt_tip_text2 "Αυτό μπορείτε να το αλλάξετε αργότερα στις Ρυθμίσεις">
+<!-- Localization note (tab_queue_prompt_permit_drawing_over_apps): This additional text is shown if the
+     user needs to enable an Android setting in order to enable tab queues. -->
+<!ENTITY tab_queue_prompt_permit_drawing_over_apps "Ενεργοποιήστε την «Σχεδίαση πάνω σε άλλες εφαρμογές»">
+<!ENTITY tab_queue_prompt_positive_action_button "Ενεργοποίηση">
+<!ENTITY tab_queue_prompt_negative_action_button "Όχι τώρα">
+<!-- Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
+     enable a permission in Android's setting in order to enable tab queues. -->
+<!ENTITY tab_queue_prompt_settings_button "Μεταβείτε στις Ρυθμίσεις">
+<!ENTITY tab_queue_notification_title "&brandShortName;">
+<!-- Localization note (tab_queue_notification_text_plural2) : The
+     formatD is replaced with the number of tabs queued.  The
+     number of tabs queued is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY tab_queue_notification_text_plural2 "&formatD; καρτέλες σε αναμονή">
+<!-- Localization note (tab_queue_notification_text_singular2) : This is the
+     text of a notification; we expect only one tab queued. -->
+<!ENTITY tab_queue_notification_text_singular2 "1 καρτέλα σε αναμονή">
+
+<!-- Localization note (tab_queue_notification_settings): This notification text is shown if a tab
+     has been queued but we are missing the system permission to show an overlay. -->
+<!ENTITY tab_queue_notification_settings "Για το «Άνοιγμα πολλαπλών συνδέσμων», παρακαλώ ενεργοποιήστε την άδεια «Σχεδίαση πάνω σε άλλες εφαρμογές» για τον &brandShortName;">
+
+<!ENTITY content_notification_summary "&brandShortName;">
+<!-- Localization note (content_notification_title_plural): &formatD; will be replaced with the number of websites that
+     have been updated (new content is available). The number of websites is always more than one (>= 2). For a single
+     update the website title is used instead of this string.
+     We can't use Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY content_notification_title_plural "Έχουν ενημερωθεί &formatD; ιστοσελίδες">
+<!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
+     Clicking the action will jump to the notification settings of the app. -->
+<!ENTITY content_notification_action_settings2 "Ρυθμίσεις">
+<!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
+     Clicking the action will open all new content in the browser. -->
+<!ENTITY content_notification_action_read_now "Ανάγνωση τώρα">
+<!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
+     date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
+     documentation for DateFormat.getMediumDateFormat(). -->
+<!ENTITY content_notification_updated_on "Ενημερώθηκε την &formatS;">
+
+<!ENTITY pref_char_encoding "Κωδικοποίηση χαρακτήρων">
+<!ENTITY pref_char_encoding_on "Εμφάνιση μενού">
+<!ENTITY pref_char_encoding_off "Απόκρυψη μενού">
+<!ENTITY pref_clear_private_data2 "Εκκαθάριση ιδιωτικών δεδομένων">
+<!-- Localization note (pref_clear_private_data_now_tablet): This action to clear private data is only shown on tablets.
+     The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
+<!ENTITY pref_clear_private_data_now_tablet "Εκκαθάριση τώρα">
+<!ENTITY pref_clear_on_exit_title3 "Εκκαθάριση ιδιωτικών δεδομένων κατά την έξοδο">
+<!ENTITY pref_clear_on_exit_summary2 "Ο &brandShortName; θα προχωρά αυτόματα σε εκκαθάριση των δεδομένων σας όταν θα επιλέγετε \u0022Έξοδος\u0022 από το κύριο μενού">
+<!ENTITY pref_clear_on_exit_dialog_title "Επιλέξετε τα δεδομένα προς εκκαθάριση">
+<!ENTITY pref_plugins "Πρόσθετες λειτουργίες">
+<!ENTITY pref_plugins_enabled "Ενεργοποιημένες">
+<!ENTITY pref_plugins_tap_to_play2 "Ενεργοποίηση με πάτημα">
+<!ENTITY pref_plugins_disabled "Απενεργοποιημένες">
+<!ENTITY pref_text_size "Μέγεθος κειμένου">
+<!ENTITY pref_restore_tabs "Επαναφορά καρτελών">
+<!ENTITY pref_restore_always "Να επαναφέρονται πάντα">
+<!ENTITY pref_restore_quit "Να μην επαναφέρονται μετά την έξοδο από τον &brandShortName;">
+<!ENTITY pref_font_size_tiny "Μικροσκοπικό">
+<!ENTITY pref_font_size_small "Μικρό">
+<!ENTITY pref_font_size_medium "Μεσαίο">
+<!ENTITY pref_font_size_large "Μεγάλο">
+<!ENTITY pref_font_size_xlarge "Πολύ μεγάλο">
+<!ENTITY pref_font_size_set "Ορισμός">
+<!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
+(or combination of characters) is used to decrease the preview font size; a larger version of the
+same character/combination is used to increase the preview font size. It should be a concise
+representation of the language it is used in that will help show the text in the preview will change
+size. -->
+<!ENTITY pref_font_size_adjust_char "A">
+
+<!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
+    demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!ENTITY pref_font_size_preview_text "Ο καλύμνιος σφουγγαράς ψιθύρισε πως θα βουτήξει χωρίς να διστάζει. Ως μη κερδοσκοπική οργάνωση, μπορούμε να καινοτομούμε ελεύθερα προς όφελος σας, χωρίς να δεχόμαστε πιέσεις ώστε να συμβιβαστούμε. Αυτό έχει ως αποτέλεσμα μια καλύτερη εμπειρία για εσάς και ένα πιο λαμπερό μέλλον για τον Παγκόσμιο Ιστό.">
+
+<!ENTITY pref_media_autoplay_enabled "Αποδοχή αυτόματης αναπαραγωγής">
+<!ENTITY pref_media_autoplay_enabled_summary "Καθορίστε αν οι ιστοσελίδες θα αναπαράγουν αυτόματα βίντεο και άλλο περιεχόμενο πολυμέσων">
+<!ENTITY pref_zoom_force_enabled "Ενεργοποίηση μεγέθυνσης πάντα">
+<!ENTITY pref_zoom_force_enabled_summary "Εξαναγκασμός δυνατότητας μεγέθυνσης σε κάθε σελίδα">
+<!ENTITY pref_voice_input "Φωνητική εισαγωγή">
+<!ENTITY pref_voice_input_summary2 "Να επιτρέπεται η υπαγόρευση στη μπάρα διευθύνσεων">
+<!ENTITY pref_qrcode_enabled "Αναγνώστης κωδικών QR">
+<!ENTITY pref_qrcode_enabled_summary2 "Να επιτρέπεται η χρήση του αναγνώστη κωδικών QR στη μπάρα διευθύνσεων">
+
+<!ENTITY pref_use_master_password "Χρήση ενός κύριου κωδικού">
+<!ENTITY pref_sync2 "Σύνδεση">
+<!ENTITY pref_sync_summary2 "Συγχρονίστε τις καρτέλες, τους σελιδοδείκτες, τα στοιχεία σύνδεσης και το ιστορικό σας">
+<!ENTITY pref_search_suggestions "Εμφάνιση προτάσεων αναζήτησης">
+<!ENTITY pref_history_search_suggestions "Εμφάνιση ιστορικού αναζήτησης">
+<!ENTITY pref_import_options "Επιλογές εισαγωγής">
+<!ENTITY pref_import_android_summary "Εισαγωγή σελιδοδεικτών και ιστορικού από τον εγγενή περιηγητή">
+<!ENTITY pref_private_data_history2 "Ιστορικό περιήγησης">
+<!ENTITY pref_private_data_searchHistory "Ιστορικό αναζήτησης">
+<!ENTITY pref_private_data_formdata2 "Ιστορικό φορμών">
+<!ENTITY pref_private_data_cookies2 "Cookies &amp; ενεργές συνδέσεις">
+<!ENTITY pref_private_data_passwords2 "Αποθηκευμένα στοιχεία σύνδεσης">
+<!ENTITY pref_private_data_cache "Προσωρινή μνήμη">
+<!ENTITY pref_private_data_offlineApps "Δεδομένα ιστοσελίδων για εργασία χωρίς σύνδεση">
+<!ENTITY pref_private_data_siteSettings2 "Ρυθμίσεις ιστοσελίδων">
+<!ENTITY pref_private_data_downloadFiles2 "Λήψεις">
+<!ENTITY pref_private_data_syncedTabs "Συγχρονισμένες καρτέλες">
+
+<!ENTITY pref_default_browser "Ορισμός ως προεπιλεγμένος περιηγητής">
+<!ENTITY pref_about_firefox "Σχετικά με τον &brandShortName;">
+<!ENTITY pref_vendor_faqs "Συχνές ερωτήσεις">
+<!ENTITY pref_vendor_feedback "Στείλτε σχόλια">
+
+<!ENTITY pref_dialog_set_default "Ορισμός ως προεπιλογή">
+<!ENTITY pref_dialog_default "Προεπιλογή">
+<!ENTITY pref_dialog_remove "Αφαίρεση">
+
+<!ENTITY pref_search_last_toast "Δεν είναι δυνατή η αφαίρεση ή απενεργοποίηση της τελευταίας μηχανής αναζήτησης σας.">
+
+<!ENTITY pref_panels_show "Εμφάνιση">
+<!ENTITY pref_panels_hide "Απόκρυψη">
+<!ENTITY pref_panels_reorder "Αλλαγή σειράς">
+<!ENTITY pref_panels_move_up "Μετακίνηση προς τα επάνω">
+<!ENTITY pref_panels_move_down "Μετακίνηση προς τα κάτω">
+
+<!ENTITY datareporting_notification_title "Στατιστικά &amp; δεδομένα του &brandShortName;">
+<!ENTITY datareporting_notification_action "Επιλέξτε τι θα μοιράζεστε">
+<!-- Used in datareporting_notification_ticket_text, but unused in strings.xml. -->
+<!ENTITY datareporting_notification_action_long "Επιλέξτε ποιες πληροφορίες θα μοιράζεστε">
+<!ENTITY datareporting_notification_summary "Για τη βελτίωση της εμπειρίας σας, ο &brandShortName; αποστέλλει αυτόματα ορισμένες πληροφορίες στο &vendorShortName;.">
+<!-- When this item is removed, also remove datareporting_notification_action_long:
+     it is unused in strings.xml. -->
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
+
+<!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
+     reporting_telemetry_title, datareporting_telemetry_summary,
+     datareporting_crashreporter_summary) : These match the strings in
+     en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
+     healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
+     crashReporterDesc.label). -->
+<!ENTITY datareporting_fhr_title "Αναφορά Υγείας &brandShortName;">
+<!ENTITY datareporting_fhr_summary2 "Αποστέλλει πληροφορίες στο &vendorShortName; σχετικά με την υγεία του περιηγητή σας και σας βοηθά να κατανοήσετε την απόδοση του">
+<!ENTITY datareporting_abouthr_title "Εμφάνιση της αναφοράς υγείας μου">
+<!ENTITY datareporting_telemetry_title "Τηλεμετρία">
+<!ENTITY datareporting_telemetry_summary "Αποστέλλει πληροφορίες απόδοσης, χρήσης, υλικού συσκευής και εξατομίκευσης του περιηγητή σας στο &vendorShortName; έτσι ώστε να βελτιώσουμε τον &brandShortName;">
+<!ENTITY datareporting_crashreporter_summary "Ο &brandShortName; αποστέλλει αναφορές κατάρρευσης έτσι ώστε το &vendorShortName; να βελτιώσει τη σταθερότητα και ασφάλεια του περιηγητή σας">
+<!-- Localization note (datareporting_crashreporter_title_short) : This string matches
+     (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
+<!ENTITY datareporting_crashreporter_title_short "Αναφορές κατάρρευσης">
+<!ENTITY datareporting_wifi_title2 "Υπηρεσία Τοποθεσίας &vendorShortName;">
+<!ENTITY datareporting_wifi_geolocation_summary4 "Βοηθήστε το &vendorShortName; να χαρτογραφήσει τον κόσμο! Αποστείλετε την τοποθεσία της συσκευής σας κατά προσέγγιση (βάσει Wi-Fi και δικτύων κινητής τηλεφωνίας) έτσι ώστε να βελτιώσετε την υπηρεσία γεωεντοπισμού μας.">
+<!-- Localization note (pref_update_autodownload2) : This should mention downloading
+     specifically, since the pref only prevents automatic downloads and not the
+     actual notification that an update is available. -->
+<!ENTITY pref_update_autodownload3 "Αυτόματες ενημερώσεις">
+<!ENTITY pref_update_autodownload_wifi "Μόνο μέσω Wi-Fi">
+<!ENTITY pref_update_autodownload_never "Ποτέ">
+<!ENTITY pref_update_autodownload_always "Πάντα">
+
+<!-- Localization note (help_menu) : This string is used in the main menu-->
+<!ENTITY help_menu "Βοήθεια">
+
+<!ENTITY quit "Έξοδος">
+
+<!ENTITY addons "Πρόσθετα">
+<!ENTITY logins "Στοιχεία σύνδεσης">
+<!ENTITY downloads "Λήψεις">
+<!ENTITY char_encoding "Κωδικοποίηση χαρακτήρων">
+
+<!ENTITY share "Κοινή χρήση">
+<!ENTITY share_title "Κοινή χρήση μέσω">
+<!ENTITY share_image_failed "Δεν είναι δυνατή η κοινή χρήση αυτής της εικόνας">
+<!ENTITY save_as_pdf "Αποθήκευση ως PDF">
+<!ENTITY print "Εκτύπωση">
+<!ENTITY find_in_page "Εύρεση στη σελίδα">
+<!ENTITY desktop_mode "Αίτημα ιστοσελίδας για υπολογιστή">
+<!ENTITY page "Σελίδα">
+<!ENTITY tools "Εργαλεία">
+<!ENTITY new_tab "Νέα καρτέλα">
+<!ENTITY new_private_tab "Νέα ιδιωτική καρτέλα">
+<!ENTITY close_all_tabs "Κλείσιμο όλων των καρτελών">
+<!ENTITY close_private_tabs "Κλείσιμο των ιδιωτικών καρτελών">
+<!ENTITY tabs_normal "Καρτέλες">
+<!ENTITY tabs_private "Ιδιωτική">
+<!ENTITY set_image_fail "Δεν ήταν δυνατός ο ορισμός της εικόνας">
+<!ENTITY set_image_path_fail "Δεν ήταν δυνατή η αποθήκευση της εικόνας">
+<!ENTITY set_image_chooser_title "Ορισμός εικόνας ως">
+
+<!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY find_text "Εύρεση στη σελίδα">
+<!ENTITY find_prev "Προηγούμενο">
+<!ENTITY find_next "Επόμενο">
+<!ENTITY find_close "Κλείσιμο">
+
+<!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
+     as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY media_sending_to "Αποστολή σε συσκευή">
+<!ENTITY media_play "Αναπαραγωγή">
+<!ENTITY media_pause "Παύση">
+<!ENTITY media_stop "Διακοπή">
+
+<!ENTITY contextmenu_open_new_tab "Άνοιγμα σε νέα καρτέλα">
+<!ENTITY contextmenu_open_private_tab "Άνοιγμα σε ιδιωτική καρτέλα">
+<!ENTITY contextmenu_remove "Αφαίρεση">
+<!ENTITY contextmenu_add_to_launcher "Προσθήκη στην αρχική οθόνη">
+<!ENTITY contextmenu_share "Κοινή χρήση">
+<!ENTITY contextmenu_pasteandgo "Επικόλληση &amp; μετάβαση">
+<!ENTITY contextmenu_paste "Επικόλληση">
+<!ENTITY contextmenu_copyurl "Αντιγραφή διεύθυνσης">
+<!ENTITY contextmenu_edit_bookmark "Επεξεργασία">
+<!ENTITY contextmenu_subscribe "Συνδρομή σε αυτή τη σελίδα">
+<!ENTITY contextmenu_site_settings "Επεξεργασία ρυθμίσεων σελίδας">
+<!ENTITY contextmenu_top_sites_edit "Επεξεργασία">
+<!ENTITY contextmenu_top_sites_pin "Καρφίτσωμα τοποθεσίας">
+<!ENTITY contextmenu_top_sites_unpin "Ξεκαρφίτσωμα τοποθεσίας">
+<!ENTITY contextmenu_add_search_engine "Προσθήκη μηχανής αναζήτησης">
+
+<!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
+     where normally a username would be displayed. In this case, no username was found, and this placeholder
+     contains brackets to indicate this is not actually a username, but rather a placeholder -->
+<!ENTITY doorhanger_login_no_username "[Χωρίς όνομα χρήστη]">
+<!ENTITY doorhanger_login_edit_title "Επεξεργασία στοιχείων σύνδεσης">
+<!ENTITY doorhanger_login_edit_username_hint "Όνομα χρήστη">
+<!ENTITY doorhanger_login_edit_password_hint "Κωδικός">
+<!ENTITY doorhanger_login_edit_toggle "Προβολή κωδικού">
+<!ENTITY doorhanger_login_edit_toast_error "Απέτυχε η αποθήκευση των στοιχείων σύνδεσης">
+<!ENTITY doorhanger_login_select_message "Αντιγραφή κωδικού πρόσβασης του &formatS;;">
+<!ENTITY doorhanger_login_select_toast_copy "Ο κωδικός έχει αντιγραφεί στο πρόχειρο">
+<!ENTITY doorhanger_login_select_toast_copy_error "Δεν ήταν δυνατή ήταν αντιγραφή του κωδικού">
+<!ENTITY doorhanger_login_select_action_text "Επιλέξτε άλλο στοιχείο σύνδεσης">
+<!ENTITY doorhanger_login_select_title "Αντιγραφή κωδικού από">
+
+<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
+     whether or not the magnifying glass is disabled. -->
+<!ENTITY pref_magnifying_glass_enabled "Μεγέθυνση μικρών περιοχών">
+<!ENTITY pref_magnifying_glass_enabled_summary2 "Μεγέθυνση συνδέσμων και πεδίων φόρμας κατά το άγγιγμα κοντά σε αυτά">
+
+<!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
+     whether or not the dynamic toolbar is enabled. -->
+<!ENTITY pref_scroll_title_bar2 "Περιήγηση πλήρους οθόνης">
+<!ENTITY pref_scroll_title_bar_summary2 "Απόκρυψη της μπάρας εργαλείων του &brandShortName; κατά την κύλιση προς τα κάτω σε μια σελίδα">
+
+<!ENTITY pref_tab_queue_title3 "Ουρά αναμονής καρτελών">
+<!ENTITY pref_tab_queue_summary4 "Αποθήκευση συνδέσμων μέχρι την επόμενη φορά που θα ανοίξετε τον &brandShortName;">
+
+<!-- Localization note (page_removed): This string appears in a toast message when
+     any page is removed frome about:home. This includes pages that are in history,
+     bookmarks, or reading list. -->
+<!ENTITY page_removed "Η σελίδα αφαιρέθηκε">
+
+<!ENTITY bookmark_edit_title "Επεξεργασία σελιδοδείκτη">
+<!ENTITY bookmark_edit_name "Όνομα">
+<!ENTITY bookmark_edit_location "Τοποθεσία">
+<!ENTITY bookmark_edit_keyword "Λέξη κλειδί">
+
+<!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
+     dialog that appears after selecting the "Edit Site Settings" context menu item. -->
+<!ENTITY site_settings_title3       "Ρυθμίσεις σελίδας">
+<!ENTITY site_settings_cancel       "Ακύρωση">
+<!ENTITY site_settings_clear        "Εκκαθάριση">
+
+<!-- Localization note : These strings are used as alternate text for accessibility.
+     They are not visible in the UI. -->
+<!ENTITY page_action_dropmarker_description "Πρόσθετες ενέργειες">
+
+<!ENTITY masterpassword_create_title "Δημιουργία κύριου κωδικού">
+<!ENTITY masterpassword_remove_title "Αφαίρεση κύριου κωδικού">
+<!ENTITY masterpassword_password "Κωδικός">
+<!ENTITY masterpassword_confirm "Επιβεβαίωση κωδικού">
+
+<!ENTITY button_ok "ΟΚ">
+<!ENTITY button_cancel "Ακύρωση">
+<!ENTITY button_yes "Ναι">
+<!ENTITY button_no "Όχι">
+<!ENTITY button_clear_data "Εκκαθάριση δεδομένων">
+<!ENTITY button_set "Ορισμός">
+<!ENTITY button_clear "Εκκαθάριση">
+<!ENTITY button_copy "Αντιγραφή">
+
+<!ENTITY home_top_sites_title "Δημοφιλείς σελίδες">
+<!-- Localization note (home_top_sites_add): This string is used as placeholder
+     text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "Προσθήκη σελίδας">
+
+<!-- Localization note (home_title): This string should be kept in sync
+     with the page title defined in aboutHome.dtd -->
+<!ENTITY home_title "Αρχική σελίδα &brandShortName;">
+<!ENTITY home_history_title "Ιστορικό">
+<!ENTITY home_synced_devices_smartfolder "Συγχρονισμένες συσκευές">
+<!ENTITY home_synced_devices_number "&formatD; συσκευές">
+<!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
+<!ENTITY home_synced_devices_one "1 συσκευή">
+<!ENTITY home_history_back_to2 "Επιστροφή στο πλήρες ιστορικό">
+<!ENTITY home_clear_history_button "Εκκαθάριση ιστορικού περιήγησης">
+<!ENTITY home_clear_history_confirm "Θέλετε σίγουρα να διαγράψετε το ιστορικό σας;">
+<!ENTITY home_bookmarks_empty "Οι σελιδοδείκτες που αποθηκεύετε θα εμφανίζονται εδώ.">
+<!ENTITY home_closed_tabs_title "Πρόσφατα κλεισμένες καρτέλες">
+<!ENTITY home_last_tabs_title "Καρτέλες της προηγούμενης συνεδρίας">
+<!ENTITY home_last_tabs_empty "Οι πρόσφατες καρτέλες σας θα εμφανίζονται εδώ.">
+<!ENTITY home_open_all "Άνοιγμα όλων">
+<!ENTITY home_most_recent_empty "Οι ιστοσελίδες που επισκεφθήκατε πιο πρόσφατα θα εμφανίζονται εδώ.">
+<!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
+     The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
+<!ENTITY home_most_recent_emptyhint2 "Ψιτ! Με τη χρήση μιας &formatS1;νέας ιδιωτικής καρτέλας&formatS2; δεν θα αποθηκευτεί το ιστορικό σας.">
+
+<!-- Localization note (home_default_empty): This string is used as the default text when there
+     is no data to show in an about:home panel that was created by an add-on. -->
+<!ENTITY home_default_empty "Δεν βρέθηκε περιεχόμενο για αυτό το πλαίσιο.">
+
+<!-- Localization note (home_back_up_to_filter): The variable is replaced by the name of the
+     previous location in the navigation, such as the previous folder -->
+<!ENTITY home_move_back_to_filter "Επιστροφή στο &formatS;">
+
+<!-- Localization note (home_remote_tabs_many_hidden_devices) : The
+     formatD is replaced with the number of hidden devices.  The
+     number of hidden devices is always more than one.  We can't use
+     Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY home_remote_tabs_many_hidden_devices "&formatD; κρυφές συσκευές">
+<!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
+     title of a dialog; we expect more than one device. -->
+<!ENTITY home_remote_tabs_hidden_devices_title "Κρυφές συσκευές">
+<!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
+     the text of a button; we expect more than one device. -->
+<!ENTITY home_remote_tabs_unhide_selected_devices "Επανεμφάνιση επιλεγμένων συσκευών">
+
+<!ENTITY remote_tabs_panel_moved_title "Πού πήγαν οι καρτέλες μου;">
+<!ENTITY remote_tabs_panel_moved_desc "Έχουμε μετακινήσει τις καρτέλες από άλλες συσκευές σας σε ένα πλαίσιο στην αρχική σελίδα για εύκολη πρόσβαση κάθε φορά που ανοίγετε μια νέα καρτέλα.">
+<!ENTITY remote_tabs_panel_moved_link "Μετάβαση στον νέο μου πλαίσιο.">
+
+<!ENTITY pin_site_dialog_hint "Εισάγετε έναν όρο αναζήτησης">
+
+<!ENTITY filepicker_title "Επιλογή αρχείου">
+<!ENTITY filepicker_audio_title "Επιλέξτε ή εγγράψτε έναν ήχο">
+<!ENTITY filepicker_image_title "Επιλέξτε ή τραβήξτε μια εικόνα">
+<!ENTITY filepicker_video_title "Επιλέξτε ή τραβήξτε ένα βίντεο">
+
+<!-- Site identity popup -->
+<!ENTITY identity_connected_to "Έχει συνδεθεί στο">
+<!-- Localization note (identity_run_by) : This string appears between a
+domain name (above) and an organization name (below). E.g.
+
+example.com
+which is run by
+Example Enterprises, Inc.
+
+The layout of the identity dialog prevents combining this into a single string with
+substitution variables.  If it is difficult to translate the sense of the string
+with that structure, consider a translation which ignores the preceding domain and
+just addresses the organization to follow, e.g. "This site is run by " -->
+<!ENTITY identity_connection_secure "Ασφαλής σύνδεση">
+<!ENTITY identity_connection_insecure "Μη ασφαλής σύνδεση">
+<!ENTITY identity_login_insecure "Αυτή η σελίδα δεν είναι ασφαλής και τα στοιχεία σύνδεσης σας ενδέχεται να υποκλαπούν.">
+<!ENTITY identity_connection_chromeui "Αυτή είναι μια ασφαλής σελίδα του &brandShortName;.">
+
+<!-- Mixed content notifications in site identity popup -->
+<!ENTITY mixed_content_blocked_all1 "Ο &brandShortName; έχει αποκλείσει το μη ασφαλές περιεχόμενο σε αυτήν τη σελίδα.">
+<!ENTITY mixed_content_blocked_some1 "Ο &brandShortName; έχει αποκλείσει κάποιο από το μη ασφαλές περιεχόμενο σε αυτήν τη σελίδα.">
+<!ENTITY mixed_content_display_loaded1 "Κάποια τμήματα αυτής της σελίδας δεν είναι ασφαλή (π.χ. κάποιες εικόνες).">
+<!ENTITY mixed_content_protection_disabled1 "Έχετε απενεργοποιήσει την προστασία από μη ασφαλές περιεχόμενο σε αυτήν τη σελίδα.">
+
+<!-- Tracking content notifications in site identity popup -->
+<!ENTITY doorhanger_tracking_title2 "Προστασία δεδομένων περιήγησης">
+<!ENTITY doorhanger_tracking_state_enabled "Ενεργοποιημένη">
+<!ENTITY doorhanger_tracking_state_disabled "Απενεργοποιημένη">
+<!ENTITY doorhanger_tracking_message_enabled1 "Απετράπησαν προσπάθειες καταγραφής της συμπεριφοράς περιήγησης σας.">
+<!ENTITY doorhanger_tracking_message_disabled2 "Αυτή η σελίδα περιλαμβάνει στοιχεία που ενδέχεται να καταγράφουν την περιήγηση σας.">
+
+<!-- Common mixed and tracking content strings in site identity popup -->
+<!ENTITY learn_more "Μάθετε περισσότερα">
+<!ENTITY enable_protection "Ενεργοποίηση προστασίας">
+<!ENTITY disable_protection "Απενεργοποίηση προστασίας">
+
+<!ENTITY private_data_success "Τα ιδιωτικά δεδομένα έχουν εκκαθαριστεί">
+<!ENTITY private_data_fail "Δεν ήταν δυνατή η εκκαθάριση κάποιων από τα ιδιωτικά δεδομένα">
+
+<!ENTITY bookmarkhistory_button_import "Εισαγωγή">
+<!ENTITY bookmarkhistory_import_both "Εισαγωγή σελιδοδεικτών και ιστορικού
+                                      από το Android">
+<!ENTITY bookmarkhistory_import_bookmarks "Εισαγωγή σελιδοδεικτών
+                                           από το Android">
+<!ENTITY bookmarkhistory_import_history "Εισαγωγή ιστορικού
+                                         από το Android">
+<!ENTITY bookmarkhistory_import_wait "Παρακαλώ περιμένετε...">
+
+<!ENTITY suggestions_prompt3 "Επιθυμείτε να ενεργοποιήσετε τις προτάσεις αναζήτησης;">
+<!--  Localization note (search_bar_item_desc): When the user clicks the url bar
+      and starts typing, a list of icons of search engines appears at the bottom
+      of the screen. When a user clicks an icon, the entered text will be searched
+      via the search engine that uses the icon they clicked. This text is used
+      for screen reader users when they hover each icon - &formatS; will be
+      replaced with the name of the currently highlighted icon. -->
+<!ENTITY search_bar_item_desc "Αναζήτηση με τη μηχανή &formatS;">
+
+<!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
+     replaced with the name of the search engine. The placeholder &formatS2; will be
+     replaced with the search query. -->
+<!ENTITY suggestion_for_engine "Αναζήτηση του όρου &formatS2; στη μηχανή &formatS1;">
+
+<!ENTITY searchable_description "Σελιδοδείκτες και ιστορικό">
+
+ <!-- Updater notifications -->
+<!ENTITY updater_start_title2 "Διατίθεται ενημέρωση για τον &brandShortName;">
+<!ENTITY updater_start_select2 "Πατήστε για την λήψη">
+
+<!ENTITY updater_downloading_title2 "Γίνεται λήψη του &brandShortName;">
+<!ENTITY updater_downloading_title_failed2 "Η λήψη απέτυχε">
+<!ENTITY updater_downloading_select2 "Πατήστε για εφαρμογή της ενημέρωσης μόλις ολοκληρωθεί η λήψη της">
+<!ENTITY updater_downloading_retry2 "Πατήστε για νέα προσπάθεια">
+
+<!ENTITY updater_apply_title2 "Διατίθεται ενημέρωση για τον &brandShortName;">
+<!ENTITY updater_apply_select2 "Πατήστε για ενημέρωση">
+
+<!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
+     if the app requires a runtime permission to download updates. Currently, the updater only sees
+     remotely advertised updates in the Nightly and Aurora channels. -->
+<!ENTITY updater_permission_text "Για να είναι δυνατή η λήψη αρχείων και ενημερώσεων, επιτρέψετε στον &brandShortName; την πρόσβαση στον χώρο αποθήκευσης.">
+<!-- LOCALIZATION NOTE (updater_permission_allow): This action is shown in a snackbar along with updater_permission_text. -->
+<!ENTITY updater_permission_allow "Να επιτρέπεται">
+
+    <!-- Guest mode -->
+<!ENTITY new_guest_session "Νέα συνεδρία επισκέπτη">
+<!ENTITY exit_guest_session "Έξοδος από τη συνεδρία επισκέπτη">
+<!ENTITY guest_session_dialog_continue "Συνέχεια">
+<!ENTITY guest_session_dialog_cancel "Ακύρωση">
+<!ENTITY new_guest_session_title "Θα γίνει επανεκκίνηση του &brandShortName;">
+<!ENTITY new_guest_session_text2 "Το άτομο που θα το χρησιμοποιήσει δεν θα είναι σε θέση να δει τα προσωπικά σας στοιχεία περιήγησης (όπως τα αποθηκευμένα στοιχεία σύνδεσης, το ιστορικό ή τους σελιδοδείκτες).\n\nΌταν τελειώσει ο επισκέπτης, τα δεδομένα περιήγησης του θα διαγραφούν και θα αποκατασταθεί η δική σας συνεδρία.">
+<!ENTITY guest_browsing_notification_title "Η περιήγηση επισκέπτη είναι ενεργοποιημένη">
+<!ENTITY guest_browsing_notification_text "Πατήστε για έξοδο">
+
+<!ENTITY exit_guest_session_title "Θα γίνει επανεκκίνηση του &brandShortName;">
+<!ENTITY exit_guest_session_text "Τα δεδομένα περιήγησης αυτής της συνεδρίας θα διαγραφούν.">
+
+<!-- Miscellaneous -->
+<!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
+     designated space. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit
+     traditions in your locale. -->
+<!ENTITY ellipsis "…">
+
+<!ENTITY colon ":">
+
+<!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
+     display a percentage value. formatS is the number, #37 is the code to display a percent sign.
+     This format string is typically used by getString method, in such method the percent sign
+     is a reserved caracter. In order to display one percent sign in the result of getString,
+     double percent signs must be inserted in the format string.
+     This entity is used in the zoomed view to display the zoom factor-->
+<!ENTITY percent "&formatS;&#37;&#37;">
+
+<!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
+     They are never shown to users -->
+<!ENTITY actionbar_menu "Μενού">
+<!ENTITY actionbar_done "Ολοκληρώθηκε">
+
+<!-- Voice search in the awesome bar -->
+<!ENTITY voicesearch_prompt "Μιλήστε τώρα">
+
+<!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
+     "relative time span string" produced by Android.  This string describes the
+     time the tabs were last synced relative to the current time; examples
+     include "42 minutes ago", "4 days ago", "last week", etc. The subject of
+     "Last synced" is one of the user's other Sync clients, typically Firefox on
+     their desktop or laptop.-->
+<!ENTITY remote_tabs_last_synced "Τελευταίος συγχρονισμός: &formatS;">
+<!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!ENTITY remote_tabs_never_synced "Τελευταίος συγχρονισμός: ποτέ">
+
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
+     appear in an alert when a user, who is currently in private browsing,
+     clicks a link that will open an external Android application. "&formatS;"
+     will be replaced with the name of the application that will be opened. -->
+<!ENTITY intent_uri_private_browsing_prompt "Αυτός ο σύνδεσμος θα ανοίξει στην εφαρμογή &formatS;. Θέλετε σίγουρα να εγκαταλείψετε την ιδιωτική περιήγηση;">
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
+     string will appear as the title of an alert when a user, who is currently
+     in private browsing, clicks a link that will open an external Android
+     application and more than one application is available to open that link.
+     We don't have control over the style of this dialog and it looks
+     unpolished when this string is longer than one line so ideally keep it
+     short! -->
+<!ENTITY intent_uri_private_browsing_multiple_match_title "Έξοδος από την ιδιωτική περιήγηση;">
+
+<!-- DevTools Authentication -->
+<!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
+     above a QR reader that is actively scanning for QR codes.  The expected QR
+     code has already been displayed by the client trying to connect (such as
+     desktop Firefox via WebIDE), so you just need to aim this device at the QR
+     code. -->
+<!ENTITY devtools_auth_scan_header "Σάρωση του κωδικού QR που εμφανίζεται στην άλλη συσκευή">
+
+<!-- Restrictable features -->
+<!-- Localization note: These are features the device owner (e.g. parent) can enable or disable for
+     a restricted profile (e.g. child). Used inside the Android settings UI. -->
+<!ENTITY restrictable_feature_addons_installation "Πρόσθετα">
+<!ENTITY restrictable_feature_addons_installation_description "Προσθέστε χαρακτηριστικά ή λειτουργικότητα στον Firefox. Σημείωση: τα πρόσθετα μπορούν να απενεργοποιήσουν κάποιους περιορισμούς.">
+<!ENTITY restrictable_feature_private_browsing "Ιδιωτική περιήγηση">
+<!ENTITY restrictable_feature_private_browsing_description "Επιτρέπει σε μέλη της οικογένειας να περιηγούνται χωρίς να αποθηκεύονται πληροφορίες σχετικά με τις ιστοσελίδες που έχουν επισκεφτεί.">
+<!ENTITY restrictable_feature_clear_history "Εκκαθάριση ιστορικού">
+<!ENTITY restrictable_feature_clear_history_description "Επιτρέπει σε μέλη της οικογένειας να διαγράφουν πληροφορίες σχετικά με τις ιστοσελίδες που έχουν επισκεφτεί.">
+<!ENTITY restrictable_feature_advanced_settings "Ρυθμίσεις για προχωρημένους">
+<!ENTITY restrictable_feature_advanced_settings_description "Περιλαμβάνει την εισαγωγή σελιδοδεικτών, την επαναφορά καρτελών και τις αυτόματες ενημερώσεις. Απενεργοποιήστε το για να έχετε απλοποιημένες ρυθμίσεις, κατάλληλες για κάθε μέλος της οικογένειας.">
+<!ENTITY restrictable_feature_camera_microphone "Κάμερα &amp; μικρόφωνο">
+<!ENTITY restrictable_feature_camera_microphone_description "Επιτρέπει σε μέλη της οικογένειας να συμμετάσχουν σε επικοινωνία πραγματικού χρόνου σε ιστοσελίδες.">
+<!ENTITY restrictable_feature_block_list "Λίστα αποκλεισμού">
+<!ENTITY restrictable_feature_block_list_description "Αποκλεισμός ιστοσελίδων που περιλαμβάνουν ευαίσθητο περιεχόμενο.">
+
+<!-- Default Bookmarks titles-->
+<!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
+<!ENTITY bookmarks_about_browser "Firefox: Σχετικά με το πρόγραμμα περιήγησής σας">
+<!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
+<!ENTITY bookmarks_addons "Firefox: Προσαρμογή με πρόσθετα">
+<!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
+<!ENTITY bookmarks_support "Firefox: Υποστήριξη">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
+<!ENTITY bookmarks_restricted_support2 "Υποστήριξη και βοήθεια Firefox για τα προφίλ περιορισμένης πρόσβασης σε ταμπλέτα με Android">
+<!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
+<!ENTITY bookmarks_restricted_webmaker "Μάθετε τον Ιστό: Mozilla Webmaker">
+
+<!-- LOCALIZATION NOTE (unsupported_sdk_version): The user installed a build of this app that does not support
+     the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
+     replaced by the Android OS version (e.g., 14)-->
+<!ENTITY unsupported_sdk_version "Λυπούμαστε! Αυτή η έκδοση του &brandShortName; δεν είναι συμβατή με αυτή τη συσκευή (&formatS1;, &formatS2;). Παρακαλώ κατεβάστε τη σωστή έκδοση.">
+
+<!ENTITY eol_notification_title2 "Ο &brandShortName; δεν θα λαμβάνει πλέον ενημερώσεις">
+<!ENTITY eol_notification_summary "Πατήστε για να μάθετε περισσότερα">
+
+<!-- LOCALIZATION NOTE (whatsnew_notification_title, whatsnew_notification_summary): These strings
+     are used for a system notification that's shown to users after the app updates. -->
+<!ENTITY whatsnew_notification_title "Ο &brandShortName; είναι ενημερωμένος">
+<!ENTITY whatsnew_notification_summary "Μάθετε τι νέο υπάρχει σε αυτή την έκδοση">
+
+<!ENTITY promotion_add_to_homescreen "Προσθήκη στην αρχική οθόνη">
+
+<!ENTITY helper_first_offline_bookmark_title "Ανάγνωση χωρίς σύνδεση">
+<!ENTITY helper_first_offline_bookmark_message "Βρείτε τα στοιχεία της προβολής ανάγνωσης στους σελιδοδείκτες σας, ακόμα και χωρίς σύνδεση.">
+<!ENTITY helper_first_offline_bookmark_button "Μετάβαση στους σελιδοδείκτες">
+
+<!ENTITY helper_triple_readerview_open_title "Διαθέσιμο χωρίς σύνδεση">
+<!ENTITY helper_triple_readerview_open_message "Προσθέστε τα στοιχεία της προβολής ανάγνωσης στους σελιδοδείκτες για να τα διαβάζετε χωρίς σύνδεση.">
+<!ENTITY helper_triple_readerview_open_button "Προσθήκη στους σελιδοδείκτες">
 

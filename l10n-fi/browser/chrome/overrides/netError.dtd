@@ -42,7 +42,7 @@
 <!ENTITY fileAccessDenied.title "Tiedoston käyttö estettiin">
 <!ENTITY fileAccessDenied.longDesc "
 <ul>
-  <li>Tiedosto on saatettu poistaa tai siirtää, tai sen käyttöoikeudet voivat estää käytön.</li>
+  <li>Tiedosto on voitu poistaa tai siirtää, tai ehkä siihen ei ole käyttöoikeutta.</li>
 </ul>
 ">
 
@@ -165,8 +165,8 @@ was trying to connect. -->
 <!ENTITY cspBlocked.title "Sisällön tietosuojakäytännön estämä">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; esti tämän sivun latautumisen tässä yhteydessä, koska sivun sisällön tietosuojakäytäntö kieltää sen.</p>">
 
-<!ENTITY corruptedContentError.title "Sisältö vioittunut virhe">
-<!ENTITY corruptedContentError.longDesc "<p>Avattavaa sivua ei voida näyttää, koska tiedonsiirrossa tapahtui virhe.</p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Sisältö vioittunut -virhe">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Avattavaa sivua ei voida näyttää, koska tiedonsiirrossa tapahtui virhe.</p><ul><li>Ilmoitathan ongelmasta sivuston omistajalle.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Lisää poikkeus…">
@@ -190,6 +190,10 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> käyttää suojaustekniikkaa, joka on vanhentunut ja haavoittuvainen hyökkäyksille. Hyökkääjä voisi helposti lukea tietoja, joiden luulit olevan suojattuja.">
 <!ENTITY weakCryptoAdvanced.override "(Ei suojattu) Yritä ladata <span class='hostname'></span> käyttäen vanhentunut tietosuojaa">
 
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>Osoitteeseen <span id='wrongSystemTime_URL'/> ei ole mahdollista muodostaa suojattua yhteyttä, koska tietokoneen kello näyttää olevan väärässä ajassa.</p> <p>Tietokoneesi mukaan kello on <span id='wrongSystemTime_systemDate'/>, kun sen pitäisi olla <span id='wrongSystemTime_actualDate'/>. Voit korjata ongelman asettamalla kellon oikeaan aikaan tietokoneen aika-asetuksista.</p>">
+
 <!ENTITY certerror.pagetitle1  "Suojaamaton yhteys">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tämä sivusto määrää
 käyttäen HTTP Strict Transport Security (HSTS) -ominaisuutta, että
@@ -201,3 +205,6 @@ tälle varmenteelle ei voi luoda poikkeusta.">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> käyttää suojaustekniikkaa, joka on vanhentunut ja haavoittuvainen hyökkäyksille. Hyökkääjä voisi helposti lukea tietoja, joiden luulit olevan suojattuja. Sivuston ylläpitäjän täytyy korjata tämä ongelma ennen kuin voit käydä sivustolla.</p><p>Virhekoodi: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Vaikuttaa siltä, että verkon turvallisuusasetukset aiheuttavat tämän. Haluatko palauttaa oletusasetukset?">
+<!ENTITY prefReset.label "Palauta oletusasetukset">

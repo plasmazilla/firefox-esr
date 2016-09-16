@@ -7,58 +7,13 @@
 <!ENTITY syncBrand.fullName.label "Đồng bộ Firefox">
 <!ENTITY syncBrand.shortName.label "Đồng bộ">
 <!-- Main titles. -->
-
-
-<!ENTITY sync.title.pair.label "Ghép đối thiết bị">
 <!-- J-PAKE Key Screen -->
-
-
 <!ENTITY sync.subtitle.pair.label "Để kích hoạt, chọn “Ghép đôi thiết bị” trên thiết bị khác của bạn.">
 
-<!ENTITY sync.pin.oneline.label "...">
-<!ENTITY sync.link.show.label "Chỉ tôi cách làm.">
-
-
-<!-- J-PAKE Waiting Screen -->
-<!-- Account Login Screen -->
-<!ENTITY sync.input.username.label "Tên Tài Khoản">
-
-<!ENTITY sync.input.key.label "Từ khóa khôi phục">
-<!ENTITY sync.checkbox.server.label "Dùng máy chủ tùy biến">
-<!ENTITY sync.input.server.label "URL máy chủ">
-<!-- Setup Fail -->
-
-<!ENTITY sync.button.tryagain.label "Thử lại">
-
-
-
-
-<!-- Setup Success -->
-
-<!ENTITY sync.title.success.label "Cài đặt Hoàn tất">
-
-<!ENTITY sync.settings.label "Thiết lập">
-
-<!-- Pair Device -->
-
-<!ENTITY sync.pair.tryagain.label "Vui lòng thử lại.">
-
-<!-- Firefox SyncAdapter Settings Screen -->
-
-<!ENTITY sync.settings.options.label "Tùy chọn">
 
 <!-- Configure Engines -->
 
-
-
-
 <!ENTITY sync.configure.engines.title.tabs "Thẻ">
-<!-- Common text -->
-
-<!ENTITY sync.button.cancel.label "Hủy bỏ">
-<!ENTITY sync.button.connect.label "Kết nối">
-<!ENTITY sync.button.ok.label "OK">
-<!-- Account strings -->
 <!-- Localization note (sync.default.client.name): Default string of the "Device
      name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
      will be replaced by the name of the Firefox release channel and &formatS2
@@ -70,81 +25,14 @@
 <!ENTITY bookmarks.folder.places.label ''>
 <!ENTITY bookmarks.folder.tags.label "Nhãn">
 <!ENTITY bookmarks.folder.toolbar.label "Thanh Đánh Dấu">
-<!ENTITY bookmarks.folder.unfiled.label "Các trang đánh dấu Chưa sắp xếp">
+
 <!ENTITY bookmarks.folder.desktop.label "Trang đánh dấu Desktop">
 <!ENTITY bookmarks.folder.mobile.label "Trang đánh dấu Di động">
-
 <!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
-<!-- Notification strings -->
-
-<!-- Incorrect settings and changing credentials. -->
-<!ENTITY sync.invalidserver.label "Vui lòng điền một URL máy chủ hợp lệ">
-<!ENTITY sync.verifying.label "Đang xác thực…">
-
-<!-- Send tab to device. -->
-
-
-
-
-
-
 <!-- Firefox Account strings. -->
-
-
-<!-- Localization note: these are shown in all screens that query the
-     user for an email address and password. Hide and show are button
-     labels. -->
-
-
-<!ENTITY fxaccount_password_show "Hiện">
 <!-- Localization note: these are shown in screens after the user has
      created or signed in to an account, and take the user back to
      Firefox. -->
-<!-- Localization note: the following two strings are interpolated
-     into fxaccount_create_account_policy_text2; see note for that
-     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
-     these strings are separated to accommodate languages that decline
-     the two uses differently. -->
-
-
-
-
-
-<!-- Localization note: the Firefox below should not change with the
-     particular version of Firefox installed (Release, Beta, Aurora,
-     etc).  The account remains a "Firefox Account". -->
-
-
-
-
-<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
-<!ENTITY fxaccount_create_account_button "Tiếp">
-
-
-
-
-
-
-
-
-<!-- Localization note: &formatS; is the Firefox Account's email address. -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -177,6 +65,7 @@
 
 
 
+
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
 
@@ -194,7 +83,6 @@
      has been made to the remote server, and an error of some type has
      been returned. -->
 <!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
-
 
 
 

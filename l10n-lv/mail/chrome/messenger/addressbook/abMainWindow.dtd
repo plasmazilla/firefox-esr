@@ -75,8 +75,8 @@
 <!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
 <!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
 <!ENTITY hideSwapFnLnUI "true">
-
-
+<!ENTITY propertiesCmd2.label                           "Īpašības">
+<!ENTITY propertiesCmd2.accesskey                       "p">
 <!ENTITY propertiesCmd.key                              "i">
 <!-- View Menu -->
 
@@ -144,7 +144,7 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newContactButton.tooltip                       "Izveidot jaunu kontaktu adrešu grāmatā">
 <!ENTITY newlistButton.tooltip                          "Izveidot jaunu sarakstu">
 <!ENTITY editButton2.tooltip                            "Rediģēt izvēlēto vienumu">
-<!ENTITY newmsgButton.tooltip                           "Nosūtīt e-pasta vēstuli">
+<!ENTITY newmsgButton.tooltip                           "Nosūtīt epasta vēstuli">
 
 
 <!-- Dir Tree header -->

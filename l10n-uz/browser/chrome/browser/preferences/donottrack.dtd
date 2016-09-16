@@ -3,10 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title                 "Kuzatilmasin">
-<!ENTITY window.width                 "40em">
-<!ENTITY window.height                "8em">
+<!ENTITY window.width                 "50em">
+<!ENTITY window.height                "10em">
 
-<!ENTITY doNotTrackCheckbox.label     "Kuzatilmasin funksiyaidan foydalanish">
-<!ENTITY doNotTrackCheckbox.accesskey "K">
+<!ENTITY doNotTrackCheckbox2.label    "Doimo &quot;Kuzatilmasin&quot; funksiyasi qo‘llansin">
+<!ENTITY doNotTrackCheckbox2.accesskey "D">
 
+<!ENTITY doNotTrackTPInfo.description "Kuzatishdan himoyalanish ishga tushirilganda &brandShortName; kuzatishlarini xohlamasligingiz haqidagi signal jo‘natadi.">
 <!ENTITY doNotTrackLearnMore.label    "Batafsil ma’lumot">

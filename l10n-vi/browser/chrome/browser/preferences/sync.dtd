@@ -72,7 +72,7 @@ both, to better adapt this sentence to their language.
 <!ENTITY notSignedIn.label           "Bạn chưa đăng nhập.">
 <!ENTITY signIn.label                "Đăng nhập">
 
-<!ENTITY manage.label                "Quản lý">
+
 <!ENTITY disconnect.label            "Ngắt kết nối…">
 <!ENTITY verify.label                "Kiểm tra email">
 <!ENTITY forget.label                "Quên email này đi">
@@ -88,7 +88,11 @@ both, to better adapt this sentence to their language.
 
 
 
-
-<!-- LOCALIZATION NOTE (mobilePromo.androidLink): This is a link title that links to https://www.mozilla.org/firefox/android/ -->
-
+<!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
+     create a single sentence with active links.
+     The resulting sentence in English is: "Download Firefox for
+     Android or iOS to sync with your mobile device." -->
+<!-- LOCALIZATION NOTE (mobilePromo3.androidLink): This is a link title that links to https://www.mozilla.org/firefox/android/ -->
+<!-- LOCALIZATION NOTE (mobilePromo3.iOSBefore): This is text displayed between mobilePromo3.androidLink and mobilePromo3.iosLink -->
+<!-- LOCALIZATION NOTE (mobilePromo3.iOSLink): This is a link title that links to https://www.mozilla.org/firefox/ios/ -->
 

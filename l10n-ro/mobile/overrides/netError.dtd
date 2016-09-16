@@ -24,9 +24,11 @@
 <!ENTITY fileNotFound.title "Fișier negăsit">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Verifică ca numele fișierului să nu aibă erori de majuscule/minuscule sau alte erori de tastare.</li> <li>Verifică ca fișierul să nu fi fost mutat, redenumit sau șters.</li> </ul>">
 
+<!ENTITY fileAccessDenied.title "Accesul la fișierul a fost refuzat">
+<!ENTITY fileAccessDenied.longDesc "<ul> <li>Este posibil să fi fost eliminat, mutat sau permisiunile fișierului pot împiedica accesul.</li> </ul>">
 
 <!ENTITY generic.title "Ups.">
-<!ENTITY generic.longDesc "<p>&brandShortName; nu poate încărca pagina dintr-un motiv oarecare.</p>">
+<!ENTITY generic.longDesc "<p>&brandShortName; nu poate încărca această pagină dintr-un motiv oarecare.</p>">
 
 <!ENTITY malformedURI.title "Adresa nu este validă">
 <!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
@@ -81,13 +83,13 @@
 <!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 
-<!ENTITY sharedLongDesc3 "<ul> <li>Site-ul ar putea fi temporar indisponibil sau foarte încărcat. Încearcă din nou în câteva momente.</li> <li>Dacă nu poți să încarci nicio pagină, verifică conexiunea de date sau Wi-Fi a dispozitivului. <button id='wifi'>Activează Wi-Fi-ul</button> </li> </ul>">
+<!ENTITY sharedLongDesc3 "<ul> <li>Site-ul ar putea fi indisponibil temporar sau prea ocupat. Încearcă din nou în câteva momente.</li> <li>Dacă nu poți să încarci nicio pagină, verifică conexiunea de date sau Wi-Fi a dispozitivului. <button id='wifi'>Activează Wi-Fi-ul</button> </li> </ul>">
 
 <!ENTITY cspBlocked.title "Blocat de politica de securitate asupra conținutului">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; a împiedicat această pagină să se încarce în acest mod deoarece pagina are o politică de securitate asupra conținutului ce nu permite asta.</p>">
 
-<!ENTITY corruptedContentError.title "Eroare cauzată de conținut corupt">
-<!ENTITY corruptedContentError.longDesc "<p>Pagina pe care încerci să o vezi nu poate fi afișată deoarece a fost detectată o eroare legată de transmiterea datelor.</p><ul><li>Te rugăm să contactezi proprietarii site-ului web pentru a-i informa despre această problemă.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Eroare cauzată de conținut corupt">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Pagina pe care încerci să o vezi nu poate fi afișată deoarece a fost detectată o eroare legată de transmiterea datelor.</p><ul><li>Te rugăm să contactezi proprietarii site-ului web pentru a-i informa despre această problemă.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Sau poți adăuga o excepție…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Du-mă de aici!">
@@ -108,7 +110,12 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc "Informații avansate: SSL_ERROR_UNSUPPORTED_VERSION">
 
-<!ENTITY weakCryptoUsed.title "Conexiunea ta nu este securizată">
+<!ENTITY weakCryptoUsed.title "Conexiunea nu este securizată">
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "Informații avansate: SSL_ERROR_NO_CYPHER_OVERLAP">
+
+<!ENTITY inadequateSecurityError.title "Conexiunea nu este securizată">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> folosește tehnologie de securitate care este învechită și vulnerabilă la atac. Un atacator ar putea dezvălui cu ușurință informații pe care le credeai a fi în siguranță. Administratorul site-ului web va trebui să repare serverul mai întâi înainte să poți vizita site-ul.</p><p>Codul erorii: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

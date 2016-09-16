@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutPrivateBrowsing.notPrivate                 "Não está a navegar no modo privado.">
+<!ENTITY aboutPrivateBrowsing.notPrivate                 "Atualmente, não está numa janela privada.">
 <!ENTITY privatebrowsingpage.openPrivateWindow.label     "Abrir uma janela privada">
 <!ENTITY privatebrowsingpage.openPrivateWindow.accesskey "p">
 
@@ -22,10 +22,10 @@
 <!ENTITY aboutPrivateBrowsing.info.bookmarks             "marcadores">
 <!ENTITY aboutPrivateBrowsing.note.before                "A navegação privada ">
 <!ENTITY aboutPrivateBrowsing.note.emphasize             "não o torna anónimo">
-<!ENTITY aboutPrivateBrowsing.note.after                 " na Internet. O seu empregador ou operador de serviço de Internet continuam a poder consultar as páginas que visita.">
+<!ENTITY aboutPrivateBrowsing.note.after                 " na Internet. O seu empregador ou provedor de serviço de Internet podem ainda saber as páginas que visita.">
 <!ENTITY aboutPrivateBrowsing.learnMore2                 "Saiba mais acerca da">
 <!ENTITY aboutPrivateBrowsing.learnMore2.title           "Navegação privada">
 
 <!ENTITY trackingProtection.title                        "Proteção contra monitorização">
-<!ENTITY trackingProtection.description2                 "Alguns websites utilizam rastreadores que podem monitorizar a sua atividade na Internet. Com a proteção contra monitorização, o Firefox irá bloquear vários rastreadores que podem recolher informações relacionadas com a sua navegação na Internet.">
+<!ENTITY trackingProtection.description2                 "Alguns websites utilizam rastreadores que podem monitorizar a sua atividade na Internet. Com a proteção contra monitorização, o Firefox irá bloquear vários rastreadores que podem recolher informação relacionada com o seu comportamento de navegação.">
 <!ENTITY trackingProtection.startTour1                   "Ver como funciona">

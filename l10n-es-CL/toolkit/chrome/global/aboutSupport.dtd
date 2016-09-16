@@ -11,13 +11,13 @@
   acerca de &brandShortName;, mire en nuestro <a id='supportLink'>sitio web de soporte</a>.
 ">
 
-<!ENTITY aboutSupport.crashes.title "Reportes de fallos">
+<!ENTITY aboutSupport.crashes.title "Informes de fallos">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "ID del reporte">
+<!ENTITY aboutSupport.crashes.id "ID del informe">
 <!ENTITY aboutSupport.crashes.sendDate "Enviado">
-<!ENTITY aboutSupport.crashes.allReports "Todos los reportes de fallos">
-<!ENTITY aboutSupport.crashes.noConfig "Esta aplicación no ha sido configurada para mostrar reportes de fallos.">
+<!ENTITY aboutSupport.crashes.allReports "Todos los informes de fallos">
+<!ENTITY aboutSupport.crashes.noConfig "Esta aplicación no ha sido configurada para mostrar informes de fallos.">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensiones">
 <!ENTITY aboutSupport.extensionName "Nombre">
@@ -42,8 +42,8 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
 <!ENTITY aboutSupport.appBasicsUpdateChannel "Canal de actualización">
-<!ENTITY aboutSupport.appBasicsUpdateHistory "Historial de actualización">
-<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Mostrar historial de actualización">
+<!ENTITY aboutSupport.appBasicsUpdateHistory "Historial de actualizaciones">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Mostrar historial de actualizaciones">
 
 <!ENTITY aboutSupport.appBasicsProfileDir "Directorio del perfil">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
@@ -56,9 +56,10 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Agente de usuario">
 <!ENTITY aboutSupport.appBasicsOS "S.O.">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memoria">
+<!ENTITY aboutSupport.appBasicsPerformance "Rendimiento">
 
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
-<!ENTITY aboutSupport.appBasicsServiceWorkers "ServiceWorkers registrados">
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers registrados">
 
 <!ENTITY aboutSupport.appBasicsProfiles "Perfiles">
 
@@ -89,6 +90,10 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
 
+<!ENTITY aboutSupport.placeDatabaseTitle "Base de datos de lugares">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integridad">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verificar integridad">
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "GC incremental">
 
@@ -107,10 +112,13 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.sandboxTitle "Caja de arena">
 
 <!ENTITY aboutSupport.safeModeTitle "Probar el modo seguro">
-<!ENTITY aboutSupport.restartInSafeMode.label "Reinicar con los complementos desactivados…">
+<!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar sin complementos…">
 
 <!ENTITY aboutSupport.graphicsFeaturesTitle "Funciones">
 <!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnósticos">
 <!ENTITY aboutSupport.graphicsFailureLogTitle "Registro de fallos">
 <!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
 <!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Registro de decisiones">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funciones desactivadas de protección contra fallos">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Soluciones">

@@ -44,7 +44,7 @@ their language.
 -->
 
 
-<!ENTITY welcomeback2.beforelink.pageInfo2  "Ձեր հավելումները և հարմարեցումները հեռացվել են և դիտարկիչի կարգավորումները վերակայվել են: Եթե սա չլուծի խնդիրները, ապա ">
+<!ENTITY welcomeback2.beforelink.pageInfo2  "Ձեր հավելումները և հարմարեցումները հեռացվել են և դիտարկիչի կարգավորումները վերակայվել են: Եթե սա չլուծի խնդիրը, ապա ">
 <!ENTITY welcomeback2.afterlink.pageInfo2   "">
 
 <!ENTITY welcomeback2.link.pageInfo2        "մանրամասներ, թե ինչ կարող եք անել:">

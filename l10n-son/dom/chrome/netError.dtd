@@ -76,8 +76,8 @@
 <!ENTITY cspBlocked.title "Gagayandi gundekuna saajaw alhukum ra">
 <!ENTITY cspBlocked.longDesc "<p>Interneti ceecikaa na moɲoo woo ganji a ma zunbu takaa woo zama moɲoo goo nda gundekuna kaŋ saajaw alhukum foo ši yadda a ga.</p>">
 
-<!ENTITY corruptedContentError.title "Gundekuna laybante firka">
-<!ENTITY corruptedContentError.longDesc "<p>Moɲoo kaŋ war ga wiri k'a guna ši hin ka diyandi zama a mma goy nda kankamandiyan dabari laala, wala affoo kaŋ ši nda gaakašinay.</p><ul><li>Taare wa šendaa woo alhabar tee war nungoo koyey še.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Gundekuna laybante firka">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Moɲoo kaŋ war ga wiri k'a guna ši hin ka diyandi zama a mma goy nda kankamandiyan dabari laala, wala affoo kaŋ ši nda gaakašinay.</p><ul><li>Taare wa šendaa woo alhabar tee war nungoo koyey še.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL moora">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Taare wa šendaa woo bayrandi Interneti nungey koyey še.</li></ul></p>">

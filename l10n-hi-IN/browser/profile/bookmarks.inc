@@ -10,16 +10,16 @@
 # live.
 
 
-#define bookmarks_title Bookmarks
+#define bookmarks_title बुकमार्क
 
 
-#define bookmarks_heading Bookmarks
+#define bookmarks_heading बुकमार्क
 
 
-#define bookmarks_toolbarfolder Bookmarks Toolbar Folder
+#define bookmarks_toolbarfolder बुकमार्क्स टूलबार फ़ोल्डर
 
 
-#define bookmarks_toolbarfolder_description Add bookmarks to this folder to see them displayed on the Bookmarks Toolbar
+#define bookmarks_toolbarfolder_description इस फ़ोल्डर में पुस्तचिह्न जोड़ें ताकि वह औजार पट्टी पर प्रदर्शित हों.
 
 
 # LOCALIZATION NOTE (getting_started):
@@ -28,7 +28,7 @@
 # link title for https://www.mozilla.org/en-US/firefox/central/
 
 
-#define getting_started Getting Started
+#define getting_started शुरू करना
 
 
 # LOCALIZATION NOTE (firefox_heading):
@@ -46,7 +46,7 @@
 # link title for https://www.mozilla.org/en-US/firefox/help/
 
 
-#define firefox_help Help and Tutorials
+#define firefox_help मदद और ट्यूटोरियल
 
 
 # LOCALIZATION NOTE (firefox_customize):
@@ -55,7 +55,7 @@
 # link title for https://www.mozilla.org/en-US/firefox/customize/
 
 
-#define firefox_customize Customize Firefox
+#define firefox_customize Firefox मनपसंद बनाएँ
 
 
 # LOCALIZATION NOTE (firefox_community):
@@ -64,7 +64,7 @@
 # link title for https://www.mozilla.org/en-US/contribute/
 
 
-#define firefox_community Get Involved
+#define firefox_community शामिल हों
 
 
 # LOCALIZATION NOTE (firefox_about):
@@ -73,19 +73,7 @@
 # link title for https://www.mozilla.org/en-US/about/
 
 
-#define firefox_about About Us
-
-
-# LOCALIZATION NOTE (firefox_feedback):
-
-
-# link title for browser feedback page
-
-
-# currently used by Metro only: https://input.mozilla.org/feedback/metrofirefox
-
-
-#define firefox_feedback प्रतिक्रिया दें
+#define firefox_about हमारा परिचय
 
 
 #unfilter emptyLines

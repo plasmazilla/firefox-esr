@@ -19,10 +19,11 @@
 <!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Server negăsit">
-<!ENTITY dnsNotFound.longDesc "<ul> <li>Verifică adresa de erori de tastare cum ar fi <strong>ww</strong>.exemplu.ro în loc de <strong>www</strong>.exemplu.ro</li> <li>Dacă nu poți încărca nicio pagină, verifică conexiunea la rețea a calculatorului.</li> <li>Dacă calculatorul sau rețeaua este protejat(ă) de un firewall sau proxy, asigură-te că &brandShortName; are permisiunea de a accesa webul.</li> </ul>">
+<!ENTITY dnsNotFound.longDesc "<ul> <li>Verifică adresa de erori de tastare cum ar fi <strong>ww</strong>.exemplu.ro în loc de <strong>www</strong>.exemplu.ro</li> <li>Dacă nu poți să încarci nicio pagină, verifică conexiunea la rețea a calculatorului.</li> <li>Dacă calculatorul sau rețeaua este protejat(ă) de un firewall sau proxy, asigură-te că &brandShortName; are permisiunea de a accesa webul.</li> </ul>">
 
 <!ENTITY fileNotFound.title "Fișier negăsit">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Verificați ca numele fișierului să nu aibă erori de majuscule/minuscule sau alte erori de tastare.</li> <li>Verificați ca fișierul să nu fi fost mutat, redenumit sau șters.</li> </ul>">
+
 
 
 <!ENTITY generic.title "Au.">
@@ -70,30 +71,23 @@
 <!ENTITY nssFailure2.title "Conexiunea securizată a eșuat">
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>Pagina pe care încercați să o vedeți nu poate fi afișată deoarece nu s-a putut verifica autenticitatea datelor primite.</li> <li>Vă rugăm să contactați proprietarii site-ului web pentru a-i informa despre această problemă</li> </ul>">
 
-<!ENTITY nssBadCert.title "Conexiunea securizată a eșuat">
-<!ENTITY nssBadCert.longDesc2 "<ul> <li>Acest lucru s-ar putea datora unei probleme în configurația serverului, sau s-ar putea ca cineva să încerce să pretindă în mod fraudulos că este acest server.</li> <li>Dacă v-ați conectat cu succes în trecut la acest server, eroarea poate fi temporară și puteți încerca din nou mai târziu.</li> </ul>">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
 
-<!ENTITY sharedLongDesc "<ul> <li>Site-ul ar putea fi indisponibil temporar sau prea ocupat. Încearcă din nou în câteva momente.</li> <li>Dacă nu poți încărca nicio pagină, verifică conexiunea la rețea a calculatorului.</li> <li>Dacă calculatorul sau rețeaua este protejat(ă) de un firewall sau proxy, asigură-te că &brandShortName; are permisiunea de a accesa webul.</li> </ul>">
+<!ENTITY sharedLongDesc "<ul> <li>Site-ul ar putea fi indisponibil temporar sau prea ocupat. Încearcă din nou în câteva momente.</li> <li>Dacă nu poți să încarci nicio pagină, verifică conexiunea la rețea a calculatorului.</li> <li>Dacă calculatorul sau rețeaua este protejat(ă) de un firewall sau proxy, asigură-te că &brandShortName; are permisiunea de a accesa webul.</li> </ul>">
 
 <!ENTITY cspBlocked.title "Blocat de politica de securitate asupra conținutului">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; a împiedicat această pagină să se încarce în acest mod deoarece pagina are o politică de securitate asupra conținutului ce nu permite asta.</p>">
 
-<!ENTITY corruptedContentError.title "Eroare cauzată de conținut corupt">
-<!ENTITY corruptedContentError.longDesc "<p>Pagina pe care încercați să o vedeți nu poate fi afișată deoarece a fost detectată o eroare legată de transmiterea datelor.</p><ul><li>Vă rugăm să contactați proprietarii site-ului web pentru a-i informa despre această problemă.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Eroare cauzată de conținut corupt">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Pagina pe care încercați să o vedeți nu poate fi afișată deoarece a fost detectată o eroare legată de transmiterea datelor.</p><ul><li>Vă rugăm să contactați proprietarii site-ului web pentru a-i informa despre această problemă.</li></ul>">
 
 
-<!ENTITY securityOverride.linkText "Sau puteți adăuga o excepție…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Du-mă de aici!">
 <!ENTITY securityOverride.exceptionButtonLabel "Adaugă excepție…">
-<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
-contents of the <button> tags. It uses strings already defined above. The
-button is included here (instead of netError.xhtml) because it exposes
-functionality specific to firefox. -->
 
-
-<!ENTITY securityOverride.warningContent "<p>Nu ar trebui să adăugați o excepție dacă folosiți o conexiune la internet în care nu aveți încredere în totalitate sau dacă nu sunteți obișnuit să vedeți un avertisment pentru acest server.</p>  <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
-
-<!ENTITY errorReporting.learnMore "Aflați mai multe…">
+<!ENTITY errorReporting.automatic2 "Raportează erori precum acestea pentru a ajuta Mozilla să identifice și să blocheze site-urile rău-intenționate">
+<!ENTITY errorReporting.learnMore "Află mai multe…">
 
 <!ENTITY remoteXUL.title "XUL la distanță">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Vă rugăm să contactați proprietarii site-ului web pentru a-i informa despre această problemă.</li></ul></p>">
@@ -105,5 +99,16 @@ functionality specific to firefox. -->
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> folosește tehnologie de securitate care este învechită și vulnerabilă la atac. Un atacator ar putea dezvălui cu ușurință informații pe care le credeai a fi în siguranță.">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+
+
+
+
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> folosește tehnologie de securitate care este învechită și vulnerabilă la atac. Un atacator ar putea dezvălui cu ușurință informații pe care le credeai a fi în siguranță. Administratorul site-ului web va trebui să repare serverul mai întâi înainte să poți vizita site-ul.</p><p>Codul erorii: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
 

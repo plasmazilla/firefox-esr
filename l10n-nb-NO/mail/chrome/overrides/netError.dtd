@@ -22,7 +22,8 @@
 <!ENTITY fileNotFound.title "Fil ikke funnet">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Kontroller filnavnet etter forskjeller i store/små bokstaver eller andre skrivefeil.</li> <li>Sjekk om filen er flyttet, har endret navn eller er slettet.</li> </ul>">
 
-
+<!ENTITY fileAccessDenied.title "Tilgang til filen ble nektet">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Den kan ha blitt fjernet, flyttet eller filrettighetene forhindrer tilgang.</li></ul>">
 
 <!ENTITY generic.title "Oops.">
 <!ENTITY generic.longDesc "<p>&brandShortName; klarte ikke å laste denne siden av ukjent årsak.</p>">
@@ -77,8 +78,8 @@
 <!ENTITY cspBlocked.title "Blokkert av sikkerhetspolicy">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; forhindret nettsiden fra å lastes inn på denne måten fordi nettsiden har en sikkerhetspolicy som forhindrer det.</p>">
 
-<!ENTITY corruptedContentError.title "Ødelagt innhold">
-<!ENTITY corruptedContentError.longDesc "<p>Siden du forsøker å vise kan ikke åpnes på grunn av en feil i dataoverføringen.</p><ul><li>Kontakt nettstedseierne og informer dem om dette problemet.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Ødelagt innhold">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Siden du forsøker å vise kan ikke åpnes på grunn av en feil i dataoverføringen.</p><ul><li>Kontakt nettstedseierne og informer dem om dette problemet.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Eller du kan lage en unntaksregel …">
 <!ENTITY securityOverride.getMeOutOfHereButton "Få meg bort herfra">
@@ -93,3 +94,8 @@ functionality specific to thunderbird. -->
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontakt nettstedseierne og informer dem om dette problemet.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Tilkoblingen din er ikke sikker">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> bruker sikkerhetsteknologi som er utdatert eller sårbar for angrep. En angriper kan enkelt fremskaffe informasjon som du trodde var sikker. Nettstedsadministratoren må endre serveren først, før du kan besøke nettstedet.</p><p>Feilkode: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

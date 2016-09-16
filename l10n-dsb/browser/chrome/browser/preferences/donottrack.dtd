@@ -4,9 +4,10 @@
 
 <!ENTITY window.title                 "Njeslědowaś">
 <!ENTITY window.width                 "50em">
-<!ENTITY window.height                "8em">
+<!ENTITY window.height                "10em">
 
-<!ENTITY doNotTrackCheckbox.label     "Njeslědowanje wužywaś">
-<!ENTITY doNotTrackCheckbox.accesskey "N">
+<!ENTITY doNotTrackCheckbox2.label    "Do Not Track pśecej nałožyś">
+<!ENTITY doNotTrackCheckbox2.accesskey "D">
 
+<!ENTITY doNotTrackTPInfo.description "&brandShortName; pósćelo signal, až njocośo, až was slěduju, gažkuli slědowański šćit jo zmóžnjony.">
 <!ENTITY doNotTrackLearnMore.label    "Dalše informacije">

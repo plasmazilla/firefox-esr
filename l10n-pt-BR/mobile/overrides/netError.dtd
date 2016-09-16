@@ -38,6 +38,12 @@
   <li>Verifique se o arquivo foi movido, renomeado ou excluído.</li>
 </ul>">
 
+<!ENTITY fileAccessDenied.title "Acesso ao arquivo foi negado">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>Isso pode ter sido removido, movido ou as permissões do arquivo podem estar impedindo o acesso.</li>
+</ul>
+">
 
 <!ENTITY generic.title "Oops.">
 <!ENTITY generic.longDesc "<p>Algo impediu o &brandShortName; de carregar esta página.</p>">
@@ -148,8 +154,8 @@ e pode tentar de novo mais tarde.</li>
 <!ENTITY cspBlocked.title "Bloqueado pela política de segurança de conteúdo">
 <!ENTITY cspBlocked.longDesc "<p>O &brandShortName; impediu esta página de carregar desta forma porque a política de segurança de conteúdo da página não permite.</p>">
 
-<!ENTITY corruptedContentError.title "Conteúdo corrompido">
-<!ENTITY corruptedContentError.longDesc "<p>A página que está tentando abrir não pôde ser exibida porque foi detectado um erro na transmissão.</p><ul><li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Conteúdo corrompido">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que está tentando ver não pode ser exibida porque foi detectado um erro na transmissão de dados.</p><ul><li>Entre em contato com os proprietários do site para informá-los sobre este problema.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Ou pode adicionar uma exceção…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Me tire daqui!">
@@ -177,3 +183,8 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "Informações avançadas: SSL_ERROR_NO_CYPHER_OVERLAP">
+
+<!ENTITY inadequateSecurityError.title "Sua conexão não é segura">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span>usa tecnologia de segurança que está desatualizada e vulnerável a ataque. Um invasor pode facilmente revelar informações que você pensou estarem seguras. Será necessário que o administrador do site corrija o servidor primeiro antes que você pode visitá-lo.</p><p>Código do erro: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

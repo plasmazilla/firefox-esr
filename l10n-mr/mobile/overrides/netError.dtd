@@ -88,8 +88,8 @@
 <!ENTITY cspBlocked.title "मजकूर सुरक्षा धोरणामुळे रोखले गेले">
 <!ENTITY cspBlocked.longDesc "<p>पृष्ठात अंतर्भुत मजकूर सुरक्षा धोरणामुळे &brandShortName;ने या पृष्ठाला, याप्रकारे लोड होण्यापासून रोखले आहे.</p>">
 
-<!ENTITY corruptedContentError.title "दुषीत मजकूर त्रुटी">
-<!ENTITY corruptedContentError.longDesc "<p>माहिती स्थानांतरणवेळी त्रुटी आढळल्याने, अपेक्षीत पान दाखवणे शक्य नाही.</p><ul><li>या अडचणीविषयी माहिती देण्याकरीता, कृपया संकेतस्थळाच्या मालकांशी संपर्क साधा.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "दुषीत मजकूर त्रुटी">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>माहिती स्थानांतरणवेळी त्रुटी आढळल्याने, अपेक्षीत पान दाखवणे शक्य नाही.</p><ul><li>या अडचणीविषयी माहिती देण्याकरीता, कृपया संकेतस्थळाच्या मालकांशी संपर्क साधा.</li></ul>">
 
 <!ENTITY securityOverride.linkText "किंवा आपण यास अपवाद यादीत जोडू शकता…">
 <!ENTITY securityOverride.getMeOutOfHereButton "मला येथून बाहेर काढा!">
@@ -118,4 +118,4 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!ENTITY inadequateSecurityError.title "आपली जोडणी सुरक्षीत नाही">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> कालबाह्य आणि हल्ला संवेदनशील असलेले सुरक्षा तंत्रज्ञान वापरत आहे. आक्रमणकर्ता सहजपणे आपण सुरक्षित समजत असलेली माहिती मिळवू शकतो. वेबसाइट प्रशासकाने सर्व्हर निर्दोष केल्यावरच आपण साइटला भेट देऊ शकता. </p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> कालबाह्य आणि हल्ला संवेदनशील असलेले सुरक्षा तंत्रज्ञान वापरत आहे. आक्रमणकर्ता सहजपणे आपण सुरक्षित समजत असलेली माहिती मिळवू शकतो. वेबसाइट प्रशासकाने सर्व्हर निर्दोष केल्यावरच आपण साइटला भेट देऊ शकता. </p><p>त्रुटी कोड: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

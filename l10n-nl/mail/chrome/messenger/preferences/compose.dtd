@@ -26,8 +26,8 @@
 <!ENTITY bgColor.accesskey                    "A">
 <!ENTITY restoreHTMLDefaults.label            "Standaardwaarden herstellen">
 <!ENTITY restoreHTMLDefaults.accesskey        "S">
-<!ENTITY enterKeyCreatesNewParagraph.label    "Bij gebruik van tekstopmaak Alinea creëert de Enter-toets een nieuwe alinea">
-<!ENTITY enterKeyCreatesNewParagraph.accesskey "r">
+<!ENTITY defaultToParagraph.label             "Standaard tekstopmaak Alinea gebruiken in plaats van Tekst">
+<!ENTITY defaultToParagraph.accesskey         "r">
 
 <!ENTITY spellCheck.label                     "Spelling controleren voor het verzenden">
 <!ENTITY spellCheck.accesskey                 "c">
@@ -37,7 +37,7 @@
 <!ENTITY languagePopup.accessKey              "T">
 <!ENTITY downloadDictionaries.label           "Meer woordenboeken downloaden">
 
-<!ENTITY warnOnSendAccelKey.label             "Bevestiging vragen bij gebruik van sneltoets om berichten te verzenden">
+<!ENTITY warnOnSendAccelKey.label             "Bevestiging vragen bij het gebruik van sneltoets om bericht te verzenden">
 <!ENTITY warnOnSendAccelKey.accesskey         "B">
 <!ENTITY autoSave.label                       "Elke">
 <!ENTITY autoSave.accesskey                   "E">

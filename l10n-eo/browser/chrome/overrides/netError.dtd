@@ -131,8 +131,8 @@ was trying to connect. -->
 <!ENTITY cspBlocked.title "Blokita de la sekureca politiko pri enhavo">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; ne permesis ŝargi la paĝon ĉi tiel, ĉar la paĝo havas sekurecan politikon pri enhavo kiu malpermesas tion.</p>">
 
-<!ENTITY corruptedContentError.title "Eraro pro difektita enhavo">
-<!ENTITY corruptedContentError.longDesc "<p>La paĝo, kiun vi volas vidi, ne povas esti montrita, ĉar okazis eraro en la sendado de datumoj.</p><ul><li>Bonvolu kontakti la posedantojn de tiu retejo kaj raporti al ili tiun ĉi problemon.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Eraro pro difektita enhavo">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>La paĝo, kiun vi klopodas vidi, ne povas esti montrita ĉar okazis eraro dum la transmeto de datumoj.</p><ul><li>Bonvolu kontakti la posedantojn de la retejo por raporti al ili tiun ĉi problemon.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Aldoni escepton…">
@@ -156,6 +156,10 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> uzas sekurecan teĥnologion, kiu estas kaduka kaj sendefenda. Atakanto povas facile elmeti informojn, kiujn vi opiniis sekuraj.">
 <!ENTITY weakCryptoAdvanced.override "(Ne sekura) Klopodi ŝargi <span class='hostname'></span> kun kaduka sekureco">
 
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>Ne eblas sekure konektiĝi al <span id='wrongSystemTime_URL'/> ĉar via horloĝo estas ŝajne malĝusta.</p> <p>Via komputilo pensas ke nun estas <span id='wrongSystemTime_systemDate'/>, sed la dato devus esti <span id='wrongSystemTime_actualDate'/>. Por solvi tiun ĉi problemon, ŝanĝu la daton kaj horon tiel ke ili kongruas kun la ĝustaj dato kaj horo.</p>">
+
 <!ENTITY certerror.pagetitle1  "Nesekura konekto">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tiu ĉi retejo uzas Striktan Transportan Sekurecan HTTP (HSTS) por indiki ke &brandShortName; nur konektu al ĝi sekure. Pro tio, ne eblas aldoni escepton por tiu ĉi atestilo.">
 <!ENTITY certerror.copyToClipboard.label "Kopii tekston al tondujo">
@@ -164,3 +168,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> uzas sekurecan teĥnologion kiu estas kaduka kaj sendefenda. Atakanto povus facile elmeti informojn, kiujn vi opiniis sekuraj. La administranto de la retejo devos ripari la servilon, antaŭ ol vi povos viziti ĝin.</p><p>Erarkodo: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Ŝajne viaj retaj sekurecaj agordoj povus esti la kaŭzo. Ĉu vi volas restarigi la normajn agordojn?">
+<!ENTITY prefReset.label "Restarigi normajn agordojn">

@@ -36,6 +36,7 @@
 <!ENTITY aboutSupport.appBasicsUserAgent "User agent">
 <!ENTITY aboutSupport.appBasicsOS "SO">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Utilizzo memoria">
+<!ENTITY aboutSupport.appBasicsPerformance "Prestazioni">
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Service worker registrati">
 <!ENTITY aboutSupport.appBasicsProfiles "Profili">
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Finestre multiprocesso">
@@ -52,6 +53,9 @@
 <!ENTITY aboutSupport.lockedPrefsName "Nome">
 <!ENTITY aboutSupport.lockedPrefsValue "Valore">
 <!ENTITY aboutSupport.graphicsTitle "Grafica">
+<!ENTITY aboutSupport.placeDatabaseTitle "Database Places">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrità">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verifica integrità">
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "GC incrementale">
 <!ENTITY aboutSupport.a11yTitle "Accessibilità">
@@ -70,3 +74,6 @@
 <!ENTITY aboutSupport.graphicsFailureLogTitle "Registro errori">
 <!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
 <!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Registro decisioni">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Funzioni disattivate da Crash Guard">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Soluzioni alternative">

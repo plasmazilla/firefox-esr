@@ -62,7 +62,7 @@
 <!ENTITY unknownProtocolFound.longDesc "<ul> <li>Efallai bydd angen i chi osod meddalwedd arall i agor y cyfeiriad yma.</li> </ul>">
 
 <!ENTITY proxyConnectFailure.title "Mae'r gweinydd dirprwy yn gwrthod cysylltiadau">
-<!ENTITY proxyConnectFailure.longDesc "<ul> <li>Gwiriwch osodiadau'r dirprwy i wneud yn siŵr eu bod yn gywir.</li> <li>Cysylltwch eich gweinyddwr system i wneud yn siŵr fod y gweinydd  dirprwyol yn gweithio.</li> </ul>">
+<!ENTITY proxyConnectFailure.longDesc "<ul> <li>Gwiriwch osodiadau'r dirprwy i wneud yn siŵr eu bod yn gywir.</li> <li>Cysylltwch eich gweinyddwr system i wneud yn siŵr fod y gweinydd dirprwyol yn gweithio.</li> </ul>">
 
 <!ENTITY proxyResolveFailure.title "Methu canfod y gweinydd dirprwyol">
 <!-- LOCALIZATION NOTE (proxyResolveFailure.longDesc3) This string contains markup including widgets for enabling wifi connections.
@@ -88,8 +88,8 @@
 <!ENTITY cspBlocked.title "Rhwystrwyd gan Bolisi Diogelwch Cynnwys">
 <!ENTITY cspBlocked.longDesc "<p>Mae &brandShortName; wedi rhwystro'r dudalen rhag llwytho yn y ffordd yma gan fod gan y dudalen bolisi diogelwch cynnwys sy'n atal hynny.</p>">
 
-<!ENTITY corruptedContentError.title "Gwall Cynnwys Llygredig">
-<!ENTITY corruptedContentError.longDesc "<p>Nid oes modd dangos y dudalen rydych yn ceisio ei gweld yn sgil canfod gwall trosglwyddo data.</p><ul><li>Cysylltwch â pherchnogion y wefan i'w hysbysu o'r anhawster.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Gwall Cynnwys Llygredig">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Nid oes modd dangos y dudalen rydych yn ceisio ei gweld yn sgil canfod gwall trosglwyddo data.</p><ul><li>Cysylltwch â pherchnogion y wefan i'w hysbysu o'r anhawster.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Neu mae modd ychwanegu eithriad…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Allan o fan hyn!">

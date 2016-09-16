@@ -149,10 +149,10 @@
 <!ENTITY detail.checkForUpdates.tooltip       "இந்த கூடுதல் இணைப்பிற்கான புதுப்பித்தல்களுக்கு சரி பார்">
 <!ENTITY detail.showPreferencesWin.label      "விருப்பங்கள்">
 <!ENTITY detail.showPreferencesWin.accesskey  "O">
-<!ENTITY detail.showPreferencesWin.tooltip    "இந்த கூடுதல் இணைப்பின் விருப்பங்களை மாற்று">
+<!ENTITY detail.showPreferencesWin.tooltip    "இந்த கூடுதல் இணைப்பு விருப்பங்களை மாற்றவும்">
 <!ENTITY detail.showPreferencesUnix.label     "விருப்பங்கள்">
 <!ENTITY detail.showPreferencesUnix.accesskey "P">
-<!ENTITY detail.showPreferencesUnix.tooltip   "இந்த கூடுதல் இணைப்புகளின் விருப்பங்களை மாற்று">
+<!ENTITY detail.showPreferencesUnix.tooltip   "இந்த கூடுதல் இணைப்பு விருப்பங்களை மாற்றவும்">
 <!-- ratings -->
 
 

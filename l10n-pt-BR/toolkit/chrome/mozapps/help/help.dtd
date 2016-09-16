@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY printCmd.commandkey            "p">
+<!ENTITY printCmd.commandkey            "P">
 
 <!ENTITY findOnCmd.commandkey           "F">
-<!ENTITY findAgainCmd.commandkey        "g">
+<!ENTITY findAgainCmd.commandkey        "G">
 <!ENTITY findAgainCmd.commandkey2       "VK_F3">
 
 <!ENTITY backButton.label               "Voltar">
@@ -24,7 +24,7 @@
 <!ENTITY homeButton.tooltip             "Ir para a página inicial da ajuda">
 <!ENTITY printButton.label              "Imprimir">
 <!ENTITY printButton.tooltip            "Imprimir a página">
-<!ENTITY closeWindow.commandkey         "w">
+<!ENTITY closeWindow.commandkey         "W">
 
 <!ENTITY search.emptytext               "Localizar">
 <!ENTITY searchHeader.label             "Resultados da pesquisa">

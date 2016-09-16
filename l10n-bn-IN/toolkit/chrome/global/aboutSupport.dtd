@@ -5,9 +5,7 @@
 <!ENTITY aboutSupport.pageTitle "সমস্যাসমাধান সংক্রান্ত তথ্য">
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 
-<!ENTITY aboutSupport.pageSubtitle "  এই পাতাটিতে প্রযুক্তিগত তথ্য উপস্থিত রয়েছে যা অাপনার 
-একটি সমস্যা সমাধান করতে উপযোগী হতে পারে। যদি আপনি সাধারণ প্রশ্নের উত্তর খুজছেন 
-&brandShortName;, দেখুন আমাদের <a id='supportLink'>সাপোর্ট ওয়েবসাইট</a>।">
+<!ENTITY aboutSupport.pageSubtitle "  এই পাতাটিতে প্রযুক্তিগত তথ্য উপস্থিত রয়েছে যা অাপনার একটি সমস্যা সমাধান করতে উপযোগী হতে পারে। যদি আপনি সাধারণ প্রশ্নের উত্তর খুজছেন &brandShortName;, দেখুন আমাদের <a id='supportLink'>সাপোর্ট ওয়েবসাইট</a>।">
 
 <!ENTITY aboutSupport.crashes.title "বিপর্যয়ের রিপোর্ট">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
@@ -52,7 +50,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "সক্রিয় প্লাগ-ইন">
 <!ENTITY aboutSupport.appBasicsBuildConfig "বিল্ডের কনফিগারেশন">
 <!ENTITY aboutSupport.appBasicsUserAgent "ইউজার এজেন্ট">
+
 <!ENTITY aboutSupport.appBasicsMemoryUse "মেমরির ব্যবহার">
+
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 
 <!ENTITY aboutSupport.appBasicsServiceWorkers "নিবন্ধিত সার্ভিস কর্মীরা">
@@ -84,6 +84,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "গ্রাফিক্স">
 
+
+
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Incremental GC">
 
@@ -103,3 +106,11 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "সুরক্ষিত মোডে চেষ্টা করুন">
 <!ENTITY aboutSupport.restartInSafeMode.label "অ্যাড-অন নিষ্ক্রিয় করে পুনরায় চালু করুন...">
+
+
+
+
+
+
+
+

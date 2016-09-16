@@ -41,7 +41,7 @@
 <!-- LOCALIZATION NOTE (performanceUI.loadingNotice): This is the label shown
   -  in the details view while loading a profile. -->
 
-<!ENTITY performanceUI.loadingNotice "Oñemyanyhẽhína…">
+<!ENTITY performanceUI.loadingNotice "Oñemyenyhẽhína…">
 <!-- LOCALIZATION NOTE (performanceUI.recordButton): This string is displayed
   -  on a button that starts a new profile. -->
 
@@ -109,6 +109,12 @@
 
 <!ENTITY performanceUI.showPlatformData             "Mba'ekuaarã jehechauka Gecko rehegua">
 <!ENTITY performanceUI.showPlatformData.tooltiptext "Ehechaukávo mba'ekuaarã rehegua omoneĩ JavaScript Profiler-pe omombe'úvo Gecko-pe ijeike ta'ãnga'i reheguápe.">
+<!-- LOCALIZATION NOTE (performanceUI.showJITOptimizations): This string
+  -  is displayed next to a checkbox determining whether or not JIT optimization data
+  -  should be displayed. -->
+
+<!ENTITY performanceUI.showJITOptimizations             "JIT haipyre jepuruporã">
+<!ENTITY performanceUI.showJITOptimizations.tooltiptext "Mba'ekuaarã JIT jepuruporãme ojehechaukahápe peteĩteĩva JavaScript peguáva.">
 <!-- LOCALIZATION NOTE (performanceUI.flattenTreeRecursion): This is the
   -  label for the checkbox that toggles the flattening of tree recursion in inspected
   -  functions in the profiler. -->
@@ -133,22 +139,12 @@
 
 <!ENTITY performanceUI.enableFramerate             "Mba'era'ãnga ñongatu aravo'ivépe">
 <!ENTITY performanceUI.enableFramerate.tooltiptext "Ta'ãngakuéra jehaipy aravo'ive jave, oñembohape aja.">
-<!-- LOCALIZATION NOTE (performanceUI.enableJITOptimizations): This string
-  -  is displayed next to a checkbox determining whether or not JIT optimization data
-  -  should be recorded. -->
-
-<!ENTITY performanceUI.enableJITOptimizations             "JIT haipyre jepuruporã">
-<!ENTITY performanceUI.enableJITOptimizations.tooltiptext "Mba'ekuaarã jehaipy JIT jepuruporãme ojehechaukahápe peteĩteĩva JavaScript fotográmape.">
-<!-- LOCALIZATION NOTE (performanceUI.JITOptimizationsTitle): This string
-  -  is displayed as the title of the JIT Optimizations panel. -->
-
-<!ENTITY performanceUI.JITOptimizationsTitle "JIT jepuruporã">
 <!-- LOCALIZATION NOTE (performanceUI.console.recordingNoticeStart/recordingNoticeEnd):
   -  This string is displayed when a recording is selected that started via console.profile.
   -  Wraps the command used to start, like "Currently recording via console.profile("label")" -->
 
 <!ENTITY performanceUI.console.recordingNoticeStart "Ko'ag̃aite pe ñongatuete peteĩva rupi">
-<!ENTITY performanceUI.console.recordingNoticeEnd   "Guarani">
+<!ENTITY performanceUI.console.recordingNoticeEnd   "">
 <!-- LOCALIZATION NOTE (performanceUI.console.stopCommandStart/stopCommandEnd):
   -  This string is displayed when a recording is selected that started via console.profile.
   -  Indicates how to stop the recording, wrapping the command, like

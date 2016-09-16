@@ -291,7 +291,7 @@
 <!ENTITY printToolbarCmd.label "Afdrukken">
 <!ENTITY printToolbarCmd.tooltip "Deze pagina afdrukken">
 <!ENTITY findToolbarCmd.label "Zoeken">
-<!ENTITY findToolbarCmd.tooltip "Tekst zoeken in pagina">
+<!ENTITY findToolbarCmd.tooltip "Tekst zoeken op pagina">
 <!ENTITY spellToolbarCmd.label "Spelling">
 <!ENTITY spellToolbarCmd.tooltip "Spelling van selectie of hele pagina controleren">
 <!ENTITY imageToolbarCmd.label "Afbeelding">
@@ -306,7 +306,7 @@
 <!ENTITY anchorToolbarCmd.tooltip "Nieuwe ankerverwijzing invoegen of eigenschappen van geselecteerde ankerverwijzing bewerken">
 <!ENTITY TextColorButton.tooltip "Kleur voor tekst kiezen">
 <!ENTITY BackgroundColorButton.tooltip "Kleur voor achtergrond kiezen">
-<!ENTITY throbber.tooltip "Naar de &vendorShortName;-beginpagina gaan">
+<!ENTITY throbber.tooltip "Naar de &vendorShortName;-startpagina">
 <!ENTITY HighlightColorButton.tooltip "Markeringskleur voor tekst kiezen">
 
 <!-- Editor toolbar -->

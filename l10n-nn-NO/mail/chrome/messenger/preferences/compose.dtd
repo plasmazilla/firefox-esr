@@ -26,8 +26,8 @@
 <!ENTITY bgColor.accesskey                    "B">
 <!ENTITY restoreHTMLDefaults.label            "Bruk standard">
 <!ENTITY restoreHTMLDefaults.accesskey        "d">
-<!ENTITY enterKeyCreatesNewParagraph.label    "Ved bruk av avsnitt-formatet, lagar Enter-tasten eit nytt avsnitt">
-<!ENTITY enterKeyCreatesNewParagraph.accesskey "V">
+<!ENTITY defaultToParagraph.label             "Bruk paragrafformat i staden for brødtekst som standard">
+<!ENTITY defaultToParagraph.accesskey         "p">
 
 <!ENTITY spellCheck.label                     "Stavekontroll før meldingar vert sende">
 <!ENTITY spellCheck.accesskey                 "S">
@@ -61,5 +61,5 @@
 
 <!ENTITY attachmentReminder.label              "Åtvar meg dersom vedlegg manglar">
 <!ENTITY attachmentReminder.accesskey          "Å">
-<!ENTITY attachmentReminderOptions.label       "Nykelord …">
+<!ENTITY attachmentReminderOptions.label       "Nykelord…">
 <!ENTITY attachmentReminderOptions.accesskey   "N">

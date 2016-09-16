@@ -20,18 +20,18 @@
 <!ENTITY rights.intro-point1b "Veřejné licenci Mozilly">
 <!ENTITY rights.intro-point1c " (MPL). Ta vám umožňuje aplikaci &brandShortName; používat, kopírovat a šířit. Pokud potřebujete, můžete také pozměnit zdrojový kód aplikace &brandShortName; podle vašich potřeb. Veřejná licence Mozilly vám rovněž dává právo šířit vámi pozměněné verze.">
 
-<!ENTITY rights.intro-point2a "Mozilla vám však nepodstupuje práva k ochranné známce a k logu Mozilly a SeaMonkey. Podrobnější informace o ochranných známkách jsou dostupné  na ">
-<!ENTITY rights.intro-point2b "samostatné stránce">
+<!ENTITY rights.intro-point2a "Mozilla vám však nepodstupuje práva k ochranné známce a k logu Mozilly a SeaMonkey. Podrobnější informace o ochranných známkách jsou dostupné ">
+<!ENTITY rights.intro-point2b "zde">
 <!ENTITY rights.intro-point2c ".">
 
 <!-- point 3 text for official branded builds -->
-<!ENTITY rights.intro-point3a "Zásady ochrany soukromí pro produkty &vendorShortName; jsou dostupné na ">
-<!ENTITY rights.intro-point3b "samostatné stránce">
+<!ENTITY rights.intro-point3a "Zásady ochrany soukromí pro produkty &vendorShortName; jsou dostupné ">
+<!ENTITY rights.intro-point3b "zde">
 <!ENTITY rights.intro-point3c ".">
 
 <!-- point 4 text for official branded builds -->
-<!ENTITY rights2.intro-point4a "&brandShortName; poskytuje volitelné služby, například služby Doplňků nebo Bezpečného prohlížení; nicméně u těchto služeb není možno garantovat jejich 100&#37; správnost a bezchybnost. Více podrobností, včetně informací jak tyto služby zakázat, lze nalézt v sekci ">
-<!ENTITY rights.intro-point4b "Služby webových serverů">
+<!ENTITY rights2.intro-point4a "&brandShortName; poskytuje volitelné služby, například služby Doplňků nebo Bezpečného prohlížení; nicméně u těchto služeb není možno garantovat jejich 100&#37; správnost a bezchybnost. Více podrobností, včetně informací jak tyto služby zakázat, lze nalézt v ">
+<!ENTITY rights.intro-point4b "podmínkách služeb">
 <!ENTITY rights.intro-point4c ".">
 
 <!ENTITY rights.webservices-header "Služby webových serverů aplikace &brandFullName;">
@@ -43,12 +43,12 @@
 <!-- intro paragraph for branded builds -->
 <!ENTITY rights2.webservices-a "&brandFullName; poskytuje informační služby („Služby“), například službu návrhů a aktualizace doplňků, nebo funkci bezpečného prohlížení webu, které jsou dostupné v rámci této binární verze aplikace &brandShortName;, za podmínek popsaných níže. Ve výchozím nastavení jsou tyto služby povoleny. Pokud si nepřejete Služby používat nebo jsou pro vás níže uvedené podmínky neakceptovatelné, postup jak jednotlivé funkce nebo služby zakázat můžete nalézt ">
 <!ENTITY rights2.webservices-b "zde">
-<!ENTITY rights2.webservices-c ". Ostatní funkce a Služby lze zakázat v předvolbách aplikace.">
+<!ENTITY rights2.webservices-c ". Další funkce a Služby lze zakázat v předvolbách aplikace.">
 
 <!-- add-on related points for branded builds -->
 <!ENTITY rights.addons-a "Služby doplňků: ">
 <!ENTITY rights.addons-b "Ve výchozím nastavení &brandShortName; navrhuje doplňky na stránce &view.discover.label; a v pravidelných intervalech kontroluje jejich aktualizace. Pokud si přejete tyto funkce zakázat a zamezit tak přenosu informací o nainstalovaných doplňcích na server, postupujte podle těchto kroků:">
-<!ENTITY rights.addons-term1 "Otevřít předvolby aplikace">
+<!ENTITY rights.addons-term1 "Otevřete předvolby aplikace">
 <!ENTITY rights.addons-term2 "Klepněte na kartu &smart.label; v kategorii &advance.label;">
 <!ENTITY rights.addons-term3 "Zrušte zaškrtnutí předvolby &quot;&autoAddOnsUpdates.label;&quot; a &quot;&enablePersonalized.label;&quot;">
 <!ENTITY rights.addons-term4 "Služby doplňků jsou nyní vypnuty">
@@ -64,10 +64,10 @@
 
 
 <!-- points 1-6 text for branded builds -->
-<!ENTITY rights.webservices-term1 "&vendorShortName; může libovolně ukončit nebo změnit užívání Služeb.">
+<!ENTITY rights.webservices-term1 "Organizace &vendorShortName; může libovolně ukončit nebo změnit užívání Služeb.">
 <!ENTITY rights.webservices-term2 "Jste zváni k užití Služeb spojených s touto verzí aplikace &brandShortName; a máte všechna práva k tomu potřebná. &vendorShortName; a držitelé licencí si vyhrazují všechna ostatní práva spojená se Službami. Cílem těchto podmínek není omezení žádných práv udělených v rámci licencí svobodného softwaru vztahujících se na aplikaci &brandShortName; a na odpovídající zdrojový kód této verze aplikace &brandShortName;.">
-<!ENTITY rights.webservices-term3 "Služby jsou poskytovány „tak jak jsou“. &vendorShortName;, její přispěvatelé, držitelé licencí a distributoři se zříkají všech záruk, ať už vyjádřených nebo předpokládaných, včetně ale nikoliv výhradně, záruk zpeněžitelnosti Služeb a vhodnosti k vašemu určitému účelu. Jste plně zodpovědni za veškerá rizika spojená s volbou Služeb pro vaše účely, a to jak do kvality, tak do výkonnosti Služeb. Některé právní systémy nepovolují vyloučení nebo omezení předpokládaných záruk, v takovém případě toto zřeknutí pro vás neplatí.">
-<!ENTITY rights.webservices-term4 "&vendorShortName;, její přispěvatelé, držitelé licencí a distributoři nejsou mimo výjimky daných zákonem zodpovědni za žádné nepřímé, mimořádné, nahodilé škody (a ani za sankční náhradu škody) vyplývající ze způsobu použití nebo ze způsobu souvisejícího s použitím aplikace &brandShortName; a Služeb. Souhrnná odpovědnost za těchto podmínek nepřesáhne $500 (pět set dolarů). Některé právní systémy nepovolují vyloučení odpovědnosti za určité škody, v takovém případě tato vyloučení a omezení pro vás neplatí.">
-<!ENTITY rights.webservices-term5 "&vendorShortName; může dle nutnosti tyto podmínky libovolně aktualizovat. Tyto podmínky nelze měnit či zrušit bez písemného souhlasu organizace &vendorShortName;.">
+<!ENTITY rights.webservices-term3 "Služby jsou poskytovány „tak jak jsou“. Organizace &vendorShortName;, její přispěvatelé, držitelé licencí a distributoři se zříkají všech záruk, ať už vyjádřených nebo předpokládaných, včetně ale nikoliv výhradně, záruk zpeněžitelnosti Služeb a vhodnosti k vašemu určitému účelu. Jste plně zodpovědni za veškerá rizika spojená s volbou Služeb pro vaše účely, a to jak do kvality, tak do výkonnosti Služeb. Některé právní systémy nepovolují vyloučení nebo omezení předpokládaných záruk, v takovém případě toto zřeknutí pro vás neplatí.">
+<!ENTITY rights.webservices-term4 "Organizace &vendorShortName;, její přispěvatelé, držitelé licencí a distributoři nejsou mimo výjimky daných zákonem zodpovědni za žádné nepřímé, mimořádné, nahodilé škody (a ani za sankční náhradu škody) vyplývající ze způsobu použití nebo ze způsobu souvisejícího s použitím aplikace &brandShortName; a Služeb. Souhrnná odpovědnost za těchto podmínek nepřesáhne $500 (pět set dolarů). Některé právní systémy nepovolují vyloučení odpovědnosti za určité škody, v takovém případě tato vyloučení a omezení pro vás neplatí.">
+<!ENTITY rights.webservices-term5 "Organizace &vendorShortName; může dle nutnosti tyto podmínky libovolně aktualizovat. Tyto podmínky nelze měnit či zrušit bez písemného souhlasu organizace &vendorShortName;.">
 <!ENTITY rights.webservices-term6 "Tyto podmínky se řídí zákony státu Kalifornie, U.S.A., vyjma neshod se zákonnými ustanoveními. Pokud se ukáže, že některá část těchto podmínek je neplatná či nevynutitelná, zůstávají zbylé podmínky v plné platnosti. V případě rozporu mezi touto přeloženou verzí podmínek a anglickou verzí podmínek je autoritativní anglická verze.">
 

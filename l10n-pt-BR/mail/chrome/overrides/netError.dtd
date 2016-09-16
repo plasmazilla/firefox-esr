@@ -33,7 +33,14 @@ que o &brandShortName; esteja autorizado a acessar a web.</li>
 <li>Verifique se o arquivo foi movido, renomeado ou excluído.</li> 
 </ul>">
 
-<!ENTITY generic.title "Epa">
+<!ENTITY fileAccessDenied.title "Acesso ao arquivo foi negado">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>Isso pode ter sido removido, movido ou as permissões do arquivo podem estar impedindo o acesso.</li>
+</ul>
+">
+
+<!ENTITY generic.title "Oops.">
 <!ENTITY generic.longDesc "<p>Algo impediu o &brandShortName; de carregar esta página.</p>">
 
 <!ENTITY malformedURI.title "Endereço inválido">
@@ -127,26 +134,11 @@ do computador.</li>
 de que o &brandShortName; esteja autorizado a acessar a web.</li> 
 </ul>">
 
-<!ENTITY malwareBlocked.title "Site suspeito de ser um foco de ataques!">
-<!ENTITY malwareBlocked.longDesc "<p>Focos de ataques são sites que tentam instalar aplicativos que roubam informações pessoais, usam o seu computador para atacar outros ou danificam o seu sistema.</p> 
-<p>Proprietários de sites que acreditem estar sendo injustamente classificados como um foco de ataques podem <a href='http://www.stopbadware.org/home/reviewinfo'>solicitar uma reavaliação</a>.</p>">
-
-<!ENTITY unwantedBlocked.title "Suspeita de software indesejável no site!">
-<!ENTITY unwantedBlocked.longDesc "<p>As páginas de software indesejados tentam instalar softwares que podem afetar seu sistema de formas inesperadas.</p>">
-
-<!ENTITY phishingBlocked.title "Site suspeito de ser uma fraude!">
-<!ENTITY phishingBlocked.longDesc "<p>O fornecimento de dados pessoais nesta página pode resultar em roubo de identidade ou outros golpes.</p> 
-<p>Estes tipos de fraude são usados em golpes conhecidos como phishing attacks, em que páginas falsas e e-mails se fazem passar por fontes que você confiaria.</p>">
-
-<!ENTITY forbiddenBlocked.title "Site proibido">
-<!ENTITY forbiddenBlocked.longDesc "<p>O &brandShortName; impediu esta página de ser carregada porque está configurado para bloqueá-la.</p>
-">
-
 <!ENTITY cspBlocked.title "Bloqueado pela política de segurança de conteúdo">
 <!ENTITY cspBlocked.longDesc "<p>O &brandShortName; impediu esta página de carregar desta forma porque a política de segurança de conteúdo da página não permite.</p>">
 
-<!ENTITY corruptedContentError.title "Conteúdo corrompido">
-<!ENTITY corruptedContentError.longDesc "<p>A página que você está tentando abrir não pôde ser exibida porque foi detectado um erro na transmissão.</p><ul><li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Conteúdo corrompido">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que você está tentando abrir não pode ser exibida devido a um erro detectado na transmissão dos dados.</p><ul><li>Por favor, contacte os donos do website para informá-los do problema.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Ou você pode adicionar uma exceção…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Me tire daqui!">
@@ -164,3 +156,8 @@ functionality specific to thunderbird. -->
 
 <!ENTITY remoteXUL.title "XUL remoto">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Sua conexão não é segura">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> usa tecnologia de segurança obsoleta e vulnerável a ataques. Um atacante pode facilmente revelar informações que você acredita estarem seguras. O administrador do website precisa corrigir o servidor antes que você possa visitar o site.</p><p>Error code: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
