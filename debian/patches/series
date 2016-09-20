@@ -10,6 +10,7 @@ porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/NSS-GNU-kFreeBSD-support.patch
 porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
+porting/Disable-libyuv-assembly-on-mips64.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
