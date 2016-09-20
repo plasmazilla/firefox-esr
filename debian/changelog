@@ -1,4 +1,4 @@
-firefox-esr (45.2.0esr-1) unstable; urgency=medium
+firefox-esr (45.2.0esr-1~deb8u1) stable-security; urgency=medium
 
   * New upstream release.
   * Fixes for mfsa2016-{49-52,56,58}, also known as:
