@@ -26,6 +26,11 @@ ifeq ($(BACKPORT),wheezy)
 CC := gcc-4.7
 CXX := g++-4.7
 endif
+# Building with GCC 6 leads to crashes on arm*.
+ifneq (,$(filter arm%,$(DEB_BUILD_ARCH)))
+CC := gcc-5
+CXX := g++-5
+endif
 
 OFFICIAL_BRANDING := browser/branding/official
 MOZILLA_OFFICIAL := 1
