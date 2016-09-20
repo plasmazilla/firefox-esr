@@ -132,5 +132,8 @@ if CONFIG['INTEL_ARCHITECTURE']:
     if not CONFIG['HAVE_TOOLCHAIN_SUPPORT_MSSSE3'] or not CONFIG['HAVE_TOOLCHAIN_SUPPORT_MSSE4_1']:
         gyp_vars['yuv_disable_asm'] = 1
 
+if 'mips64' in CONFIG['TARGET_CPU']:
+    gyp_vars['yuv_disable_asm'] = 1
+
 if CONFIG['MACOS_SDK_DIR']:
     gyp_vars['mac_sdk_path'] = CONFIG['MACOS_SDK_DIR']
