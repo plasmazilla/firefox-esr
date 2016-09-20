@@ -1,3 +1,17 @@
+firefox-esr (45.3.0esr-1~deb8u1) stable-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-{62-65,67,70,72-73,76-80}, also known as:
+    CVE-2016-2836, CVE-2016-2830, CVE-2016-2838, CVE-2016-2839,
+    CVE-2016-5252, CVE-2016-5254, CVE-2016-5258, CVE-2016-5259,
+    CVE-2016-5262, CVE-2016-2837, CVE-2016-5263, CVE-2016-5264,
+    CVE-2016-5265.
+
+  * debian/upstream.mk: Use l10n_changesets.txt from last candidate build for
+    L10N_REV.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 03 Aug 2016 06:33:48 +0900
+
 firefox-esr (45.2.0esr-1~deb8u1) stable-security; urgency=medium
 
   * New upstream release.
