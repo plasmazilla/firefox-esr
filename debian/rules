@@ -26,6 +26,11 @@ ifeq ($(BACKPORT),wheezy)
 CC := gcc-4.7
 CXX := g++-4.7
 endif
+# Building with GCC 6 leads to crashes on arm*.
+ifneq (,$(filter arm%,$(DEB_BUILD_ARCH)))
+CC := gcc-5
+CXX := g++-5
+endif
 
 OFFICIAL_BRANDING := browser/branding/official
 MOZILLA_OFFICIAL := 1
@@ -121,6 +126,12 @@ CC := gcc
 endif
 ifeq (default,$(origin CXX))
 CXX := g++
+endif
+
+ifneq (,$(findstring gcc,$(CC)))
+ifeq (,$(filter 4.% 5.%,$(shell $(CC) -dumpversion)))
+CFLAGS += -fno-schedule-insns2 -fno-delete-null-pointer-checks
+endif
 endif
 
 CXXFLAGS = $(CFLAGS)

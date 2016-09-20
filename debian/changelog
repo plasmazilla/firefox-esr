@@ -1,3 +1,24 @@
+firefox-esr (45.4.0esr-1~deb8u1) stable-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-86, also known as:
+    CVE-2016-5270, CVE-2016-5272, CVE-2016-5276, CVE-2016-5274,
+    CVE-2016-5277, CVE-2016-5278, CVE-2016-5280, CVE-2016-5281,
+    CVE-2016-5284, CVE-2016-5250, CVE-2016-5261, CVE-2016-5257.
+
+  * debian/control*, debian/rules: Compile with GCC 5 on testing/unstable
+    on arm* because of crashes when building with GCC 6. (FTBFS)
+  * debian/rules: Build with -fno-schedule-insns2 and
+    -fno-delete-null-pointer-checks with GCC >= 6 because it miscompiles
+    Firefox. Closes: #836533.
+
+  * config/gcc-stl-wrapper.template.h, memory/mozalloc/throw_gcc.h:
+    Don't include mozalloc.h from the cstdlib wrapper. bz#1245076, bz#1259537.
+    Closes: #822715.
+  * build/gyp.mozbuild: Disable libyuv assembly on mips64. (FTBFS)
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 21 Sep 2016 07:09:32 +0900
+
 firefox-esr (45.3.0esr-1~deb8u1) stable-security; urgency=medium
 
   * New upstream release.

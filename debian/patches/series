@@ -4,10 +4,13 @@ fixes/Bug-1178266-Link-against-libatomic-when-necessary.patch
 fixes/Bug-1235107-Move-bookmarks.html-to-a-chrome-localize.patch
 fixes/Bug-1239866-Remove-signaling-standalone-tests.-r-bwc.patch
 fixes/Bug-1257888-Link-chromium-mutex-based-atomics-implem.patch
+fixes/Bug-1245076-Don-t-include-mozalloc.h-from-the-cstdli.patch
+fixes/Bug-1259537-Unbreak-libc-build-after-bug-1245076.-r-.patch
 porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/NSS-GNU-kFreeBSD-support.patch
 porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
+porting/Disable-libyuv-assembly-on-mips64.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
