@@ -1,3 +1,10 @@
+firefox-esr (45.4.0esr-1~deb8u2) stable-security; urgency=medium
+
+  * debian/rules, debian/control*: Only force GCC 5 on arm when building for
+    stretch+.
+
+ -- Mike Hommey <glandium@debian.org>  Thu, 22 Sep 2016 05:45:12 +0900
+
 firefox-esr (45.4.0esr-1~deb8u1) stable-security; urgency=medium
 
   * New upstream release.
