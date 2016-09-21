@@ -1,3 +1,10 @@
+firefox-esr (45.4.0esr-2) unstable; urgency=medium
+
+  * debian/control*: Force build against libnss3-dev >= 2:3.26-2~, which fixed
+    its symbols file. Closes: #833719.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 21 Sep 2016 11:56:40 +0900
+
 firefox-esr (45.4.0esr-1) unstable; urgency=medium
 
   * New upstream release.
