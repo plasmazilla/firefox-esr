@@ -8,7 +8,7 @@
 
 
 <!ENTITY connectionFailure.title "Error de connexió">
-<!ENTITY connectionFailure.longDesc "<p>Encara que el lloc sembla vàlid, el navegador no ha pogut establir-ne una connexió.</p><ul><li>Podria ser que no estigués disponible temporalment? Torneu-ho a provar més tard.</li><li>No podeu navegar per altres llocs? Comproveu la connexió del vostre ordinador a la xarxa.</li><li>L'ordinador està protegit amb un tallafocs o servidor intermediari (proxy)? Uns paràmetres incorrectes poden interferir amb la navegació web.</li></ul>">
+<!ENTITY connectionFailure.longDesc "<p>Encara que el lloc sembla vàlid, el navegador no ha pogut establir-hi una connexió.</p><ul><li>Pot ser que no estigui disponible temporalment? Torneu-ho a provar més tard.</li><li>No podeu navegar per altres llocs? Comproveu la connexió del vostre ordinador a la xarxa.</li><li>L'ordinador està protegit amb un tallafocs o servidor intermediari? Una configuració incorrecta pot interferir amb la navegació web.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "El port s'ha restringit per motius de seguretat">
 <!ENTITY deniedPortAccess.longDesc "<p>L'adreça sol·licitada especifica un port (e.g. <q>mozilla.org:80</q> per al 80 a mozilla.org) que normalment s'utilitza per a propòsits <em>diferents</em> de la navegació web. El navegador ha cancel·lat la sol·licitud per garantir la vostra protecció i seguretat.</p>">
@@ -18,6 +18,9 @@
 
 <!ENTITY fileNotFound.title "No s'ha trobat el fitxer">
 <!ENTITY fileNotFound.longDesc "<ul><li>Pot ser que l'element hagi canviat de nom, s'hagi esborrat o canviat d'ubicació?</li><li>Que hi ha cap error ortogràfic, de majúscules/minúscules, o bé tipogràfic a l'adreça?</li><li>Teniu suficients permisos d'accés per accedir a l'element sol·licitat?</li></ul>">
+
+<!ENTITY fileAccessDenied.title "S'ha denegat l'accés al fitxer">
+<!ENTITY fileAccessDenied.longDesc "<ul> <li>Pot ser que s'hagi eliminat, que s'hagi traslladat o que els permisos del fitxer n'impedeixin l'accés.</li> </ul>">
 
 <!ENTITY generic.title "No es pot completar la sol·licitud">
 <!ENTITY generic.longDesc "<p>No hi ha informació disponible actualment sobre aquest problema o error.</p>">
@@ -65,7 +68,7 @@
 <!ENTITY nssFailure2.longDesc2 "<p>La pàgina que esteu intentant veure no es pot mostrar perquè no s'ha pogut verificar l'autenticitat de les dades rebudes.</p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul>">
 
 <!ENTITY nssBadCert.title "La connexió segura ha fallat">
-<!ENTITY nssBadCert.longDesc2 "<ul> <li>Això podria ser un problema amb la configuració del servidor, o bé podria ser que algú estigués provant de fer-se passar pel servidor.</li> <li>Si us hi heu connectat sense cap problema alguna altra vegada, l'error podria ser temporal, i podeu tornar-ho a provar més tard.</li> </ul>">
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>Això podria ser un problema amb la configuració del servidor, o bé podria ser que algú estigués intentant fer-se passar pel servidor.</li> <li>Si us hi heu connectat sense cap problema alguna altra vegada, l'error podria ser temporal, i podeu tornar-ho a provar més tard.</li> </ul>">
 
 <!ENTITY securityOverride.linkText "O bé, podeu afegir una excepció…">
 <!ENTITY securityOverride.warningContent "<p>No hauríeu d'afegir una excepció si esteu utilitzant una connexió d'Internet de la qual no en confieu completament, o si no esteu acostumat a veure un avís d'aquest servidor.</p> <p>Si tot i això voleu afegir una excepció per a aquest lloc web, podeu fer-ho des dels paràmetres avançats de xifratge.</p>">
@@ -73,8 +76,13 @@
 <!ENTITY cspBlocked.title "Blocat per la política de seguretat del contingut">
 <!ENTITY cspBlocked.longDesc "<p>El navegador ha impedit que la pàgina es carregui d'aquesta manera perquè la pàgina té una política de seguretat del contingut que no ho permet.</p>">
 
-<!ENTITY corruptedContentError.title "Error de contingut malmès">
-<!ENTITY corruptedContentError.longDesc "<p>La pàgina que esteu intentant veure no es pot mostrar perquè s'ha produït un error en la transmissió de les dades.</p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Error de contingut malmès">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>La pàgina que esteu intentant veure no es pot mostrar perquè s'ha produït un error en la transmissió de les dades.</p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL remot">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "La connexió no és segura">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> utilitza una tecnologia de seguretat obsoleta i vulnerable a atacs. Un atacant podria veure fàcilment la informació que altrament pensaríeu que és segura. Per tal que pugueu visitar el lloc, abans l'administrador del lloc web haurà d'arreglar el servidor.</p><p>Codi d'error: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

@@ -3,10 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title                 "لا تتعقبني">
-<!ENTITY window.width                 "40em">
-<!ENTITY window.height                "8em">
+<!ENTITY window.width                 "50em">
+<!ENTITY window.height                "10em">
 
-<!ENTITY doNotTrackCheckbox.label     "استخدم «لا تتعقبني»">
-<!ENTITY doNotTrackCheckbox.accesskey "ت">
+<!ENTITY doNotTrackCheckbox2.label    "طبّق دائمًا ”لا تتعقبني“">
+<!ENTITY doNotTrackCheckbox2.accesskey "د">
 
+<!ENTITY doNotTrackTPInfo.description "سيُرسل &brandShortName; إشارة أنك لا تريد أن يتعقبك أحد ما دامت الحماية من التعقب مفعّلة.">
 <!ENTITY doNotTrackLearnMore.label    "اطّلع على المزيد">

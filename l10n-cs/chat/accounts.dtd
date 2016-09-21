@@ -23,12 +23,12 @@
 <!ENTITY account.connect.accesskey    "P">
 <!ENTITY account.disconnect.label     "Odpojit">
 <!ENTITY account.disconnect.accesskey "O">
-<!ENTITY account.delete.label         "Odstranit">
-<!ENTITY account.delete.accesskey     "d">
-<!ENTITY account.edit.label           "Volby">
+<!ENTITY account.delete.label         "Smazat">
+<!ENTITY account.delete.accesskey     "m">
+<!ENTITY account.edit.label           "Vlastnosti">
 <!ENTITY account.edit.accesskey       "V">
-<!ENTITY account.moveup.label         "Posunout nahoru">
-<!ENTITY account.movedown.label       "Posunout dolů">
+<!ENTITY account.moveup.label         "Posunout výše">
+<!ENTITY account.movedown.label       "Posunout níže">
 <!ENTITY account.cancelReconnection.label         "Zrušit opětovné připojení">
 <!ENTITY account.cancelReconnection.accesskey     "r">
 <!ENTITY account.copyDebugLog.label     "Kopírovat ladící záznamy">
@@ -37,4 +37,4 @@
 <!ENTITY account.showDebugLog.accesskey "Z">
 <!ENTITY account.connecting           "Připojování…">
 <!ENTITY account.disconnecting        "Odpojování…">
-<!ENTITY account.disconnected         "Odpojen">
+<!ENTITY account.disconnected         "Nepřipojeno">

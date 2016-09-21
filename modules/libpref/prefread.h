@@ -37,9 +37,15 @@ typedef void (*PrefReader)(void       *closure,
                            bool        stickyPref,
                            bool        lockPref);
 
+/**
+ * Report any errors or warnings we encounter during parsing.
+ */
+typedef void (*PrefParseErrorReporter)(const char* message, int line, bool error);
+
 /* structure fields are private */
 typedef struct PrefParseState {
     PrefReader  reader;
+    PrefParseErrorReporter reporter;
     void       *closure;
     int         state;      /* PREF_PARSE_...                */
     int         nextstate;  /* sometimes used...             */
@@ -64,16 +70,20 @@ typedef struct PrefParseState {
  * PREF_InitParseState
  *
  * Called to initialize a PrefParseState instance.
- * 
+ *
  * @param ps
  *        PrefParseState instance.
  * @param reader
  *        PrefReader callback function, which will be called once for each
  *        preference name value pair extracted.
+ * @param reporter
+ *        PrefParseErrorReporter callback function, which will be called if we
+ *        encounter any errors (stop) or warnings (continue) during parsing.
  * @param closure
  *        PrefReader closure.
  */
-void PREF_InitParseState(PrefParseState *ps, PrefReader reader, void *closure);
+void PREF_InitParseState(PrefParseState *ps, PrefReader reader,
+			 PrefParseErrorReporter reporter, void *closure);
 
 /**
  * PREF_FinalizeParseState

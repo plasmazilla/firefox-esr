@@ -13,7 +13,7 @@
 <!ENTITY connectionFailure.title "Chyba spojení">
 <!ENTITY connectionFailure.longDesc2 "&sharedLongDesc3;">
 
-<!ENTITY deniedPortAccess.title "Omezení přístupu na port">
+<!ENTITY deniedPortAccess.title "Omezení přístupu k adrese">
 <!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Server nenalezen">
@@ -85,17 +85,17 @@
 </ul>
 ">
 
-<!ENTITY contentEncodingError.title "Chyba kódování obsahu">
+<!ENTITY contentEncodingError.title "Chyba znakové sady obsahu">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Kontaktujte prosím vlastníka webového serveru a informujte ho o tomto problému.</li>
+  <li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Nebezpečný typ souboru">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li>
+  <li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li>
 </ul>
 ">
 
@@ -117,7 +117,6 @@
 <ul>
   <li>Zkontrolujte nastavení proxy serveru.</li>
   <li>Kontaktujte svého síťového administrátora, zda je proxy server v provozu.</li>
-
 </ul>
 ">
 
@@ -154,7 +153,7 @@ Personal Security Manager.</li>
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
   <li>Požadovanou stránku nelze zobrazit, protože nelze ověřit autenticitu přijatých dat.</li>
-  <li>Kontaktujte prosím vlastníka webového serveru a informujte ho o tomto problému.</li>
+  <li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li>
 </ul>
 ">
 
@@ -180,14 +179,14 @@ kdo se snaží vydávat za server.</li>
 ">
 
 <!ENTITY cspBlocked.title "Zablokováno dle bezpečnostních pravidel obsahu">
-<!ENTITY cspBlocked.longDesc "<p>Aplikace &brandShortName; zabránila této stránce v nahrání, protože má bezpečnostní pravidla, která tento způsob načtení zakazují.</p>">
+<!ENTITY cspBlocked.longDesc "<p>Aplikace &brandShortName; zabránila v nahrání této stránky, protože tato stránka má bezpečnostní pravidla, která takovýto způsob nahrání zakazují.</p>">
 
-<!ENTITY corruptedContentError.title "Chyba v obsahu stránky">
-<!ENTITY corruptedContentError.longDesc "<p>Stránka, kterou se snažíte načíst, nemůže být zobrazena, protože přenesená data jsou chybná.</p><ul><li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Chyba v obsahu stránky">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Požadovanou stránku nelze zobrazit, protože při přenosu dat došlo k chybě.</p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Nebo můžete přidat výjimku…">
-<!ENTITY securityOverride.getMeOutOfHereButton "Rychle odsud pryč">
-<!ENTITY securityOverride.exceptionButtonLabel "Přidat výjimku">
+<!ENTITY securityOverride.getMeOutOfHereButton "Rychle odsud pryč!">
+<!ENTITY securityOverride.exceptionButtonLabel "Přidat výjimku…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <xul:button> tags.  The only language content is the label= field,
@@ -202,17 +201,17 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 ">
 
 <!ENTITY remoteXUL.title "Vzdálené XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte prosím vlastníka stránky a informujte ho o tomto problému.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte prosím vlastníky webového serveru a informujte je o tomto problému.</li></ul></p>">
 
 <!ENTITY sslv3Used.title "Nelze se zabezpečeně připojit">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
-<!ENTITY sslv3Used.longDesc "Rozšířené informace: SSL_ERROR_UNSUPPORTED_VERSION">
+<!ENTITY sslv3Used.longDesc "Podrobné informace: SSL_ERROR_UNSUPPORTED_VERSION">
 
 <!ENTITY weakCryptoUsed.title "Vaše připojení není zabezpečené">
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
-<!ENTITY weakCryptoUsed.longDesc "Rozšířené informace: SSL_ERROR_NO_CYPHER_OVERLAP">
+<!ENTITY weakCryptoUsed.longDesc "Podrobné informace: SSL_ERROR_NO_CYPHER_OVERLAP">
 
 <!ENTITY inadequateSecurityError.title "Vaše připojení není zabezpečené">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate

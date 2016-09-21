@@ -15,11 +15,11 @@
 <!ENTITY     button.removeAllCookies.label "Odebrat vše">
 <!ENTITY     button.removeAllCookies.accesskey "d">
 
-<!ENTITY     props.name.label               "Název">
+<!ENTITY     props.name.label               "Název:">
 <!ENTITY     props.value.label              "Obsah:">
 <!ENTITY     props.domain.label             "Server:">
 <!ENTITY     props.path.label               "Cesta:">
-<!ENTITY     props.secure.label             "Zasláno pro:">
+<!ENTITY     props.secure.label             "Omezení na:">
 <!ENTITY     props.expires.label            "Platnost do:">
 <!ENTITY     props.container.label          "Kontejner:">
 

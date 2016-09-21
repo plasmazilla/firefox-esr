@@ -8,71 +8,18 @@
 <!ENTITY syncBrand.shortName.label "ធ្វើ​សមកាលកម្ម">
 <!-- Main titles. -->
 
-<!ENTITY sync.app.name.label "&syncBrand.fullName.label;">
 <!ENTITY sync.title.connect.label "តភ្ជាប់​ទៅ &syncBrand.shortName.label;">
-<!ENTITY sync.title.adddevice.label "បន្ថែម​គណនី &syncBrand.fullName.label;">
-<!ENTITY sync.title.pair.label "ផ្គូ​ឧបករណ៍">
 <!-- J-PAKE Key Screen -->
 
 <!ENTITY sync.subtitle.connect.label "ដើម្បី​ធ្វើឲ្យ​ឧបករណ៍​ថ្មី​របស់​អ្នក​សកម្ម អ្នក​ត្រូវ​ជ្រើស “រៀបចំ &syncBrand.shortName.label;” នៅ​លើ​ឧបករណ៍ ។">
-<!ENTITY sync.subtitle.header2.label "បញ្ចូល​កូដ​នេះ​នៅ​លើ​ឧបករណ៍​ផ្សេងទៀត​របស់​អ្នក">
-<!ENTITY sync.subtitle.connectlocation2.label "ជ្រើស​ផ្នែក “&sync.title.pair.label;” in the &syncBrand.shortName.label; នៃ​ជម្រើស​ Firefox របស់​ឧបករណ៍​ផ្សេង​ទៀត​របស់​អ្នក។">
 <!ENTITY sync.subtitle.pair.label "ដើម្បី​ធ្វើ​ឲ្យ​សកម្ម អ្នក​ត្រូវ​ជ្រើស “ផ្គូ​ឧបករណ៍” នៅ​លើ​ឧបករណ៍​ផ្សេងទៀត​របស់​អ្នក ។">
 <!ENTITY sync.pin.default.label "...\n...\n...\n">
-<!ENTITY sync.pin.oneline.label "...">
-<!ENTITY sync.link.show.label "បង្ហាញ​ខ្ញុំ​ពី​របៀប។">
-<!ENTITY sync.link.advancedsetup.label "ការ​រៀបចំ​កម្រិតខ្ពស់...">
 <!ENTITY sync.link.nodevice.label "ខ្ញុំ​មិន​មាន​ឧបករណ៍​​ជា​មួយ​ខ្ញុំ​ទេ...">
-<!-- J-PAKE Waiting Screen -->
-
-<!ENTITY sync.jpake.subtitle.waiting.label "កំពុង​រង់ចាំ​ឧបករណ៍​ផ្សេងទៀត...">
-<!-- Account Login Screen -->
-
-<!ENTITY sync.subtitle.account.label "បញ្ចូល​ព័ត៌មាន​គណនី &syncBrand.fullName.label; របស់​អ្នក">
-<!ENTITY sync.input.username.label "ឈ្មោះ​គណនី">
-<!ENTITY sync.input.password.label "ពាក្យសម្ងាត់">
-<!ENTITY sync.input.key.label "កូនសោ​សង្គ្រោះ">
-<!ENTITY sync.checkbox.server.label "ប្រើ​ម៉ាស៊ីន​មេ​ផ្ទាល់ខ្លួន">
-<!ENTITY sync.input.server.label "​URL​ ម៉ាស៊ីន​មេ">
-<!-- Setup Fail -->
-
-<!ENTITY sync.title.fail.label "មិន​អាច​រៀបចំ &syncBrand.shortName.label;">
-<!ENTITY sync.subtitle.fail.label "&syncBrand.fullName.label; មិន​អាច​តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​មេ។ តើ​អ្នក​ចង់​សាកល្បង​ម្ដងទៀត​ដែរ​ឬទេ ?">
-<!ENTITY sync.button.tryagain.label "ព្យាយាម​ម្ដងទៀត">
-<!ENTITY sync.button.manual.label "ការ​រៀបចំ​ដោយ​ដៃ">
-<!ENTITY sync.subtitle.nointernet.label "មិន​មាន​ការ​តភ្ជាប់​អ៊ីនធឺណិត ។">
-<!ENTITY sync.subtitle.failaccount.label "បាន​បរាជ័យ​ក្នុង​ការ​បង្កើត​គណនី​នៅ​លើ​ឧបករណ៍​របស់​អ្នក ។">
-<!ENTITY sync.subtitle.failmultiple.label "តើ​អ្នក​បាន​ដំឡើង Firefox ច្រើន​ជាង​មួយ​ឬ ? បច្ចុប្បន្ន &syncBrand.fullName.label; គាំទ្រ​តែ Firefox ដែល​បាន​ដំឡើង​នៅ​ពេល​នេះ​ប៉ុណ្ណោះ ។ សូម​លុប​ធាតុ​ផ្សេងទៀត​ដើម្បី​អាច​ប្រើ &syncBrand.shortName.label; បាន ។">
-<!-- Setup Success -->
-
-<!ENTITY sync.title.success.label "ការ​រៀបចំ​បញ្ចប់​ទាំងស្រុង">
-<!ENTITY sync.subtitle.success.label1 "ឥឡូវនេះ​ទិន្នន័យ​របស់​អ្នក​កំពុង​ត្រូវ​បាន​ទាញ​យក​នៅ​ក្នុង​ផ្នែក​ខាងក្រោយ ។ អ្នក​អាច​ទៅកាន់​ការ​កំណត់​ដើម្បី​គ្រប់គ្រង​គណនី​របស់​អ្នក ឬ​ចាប់ផ្ដើម​ការ​រុករក​ជាមួយ &brandShortName; ។">
-<!ENTITY sync.settings.label "ការ​កំណត់">
-<!ENTITY sync.subtitle.manage.label1 "គណនី &syncBrand.fullName.label; របស់​អ្នក​បាន​រៀបចំ​រួចហើយ ។ អ្នក​អាច​ចូល​ទៅកាន់​ការ​កំណត់​ដើម្បី​គ្រប់គ្រង​គណនី​របស់​អ្នក ឬ​ចាប់ផ្ដើម &brandShortName;។">
-<!-- Pair Device -->
-
-<!ENTITY sync.pair.tryagain.label "សូម​ព្យាយាម​ម្ដងទៀត ។">
-<!ENTITY sync.pair.connectlocation.label "ដើម្បី​ធ្វើឲ្យ​ឧបករណ៍​របស់​អ្នក​សកម្ម អ្នក​ត្រូវ​ជ្រើស “រៀបចំ &syncBrand.shortName.label;” នៅ​លលើ​ឧបករណ៍ បន្ទាប់មក​ជ្រើស “ខ្ញុំ​មាន​គណនី” ។">
-<!-- Firefox SyncAdapter Settings Screen -->
-
-<!ENTITY sync.settings.options.label "ជម្រើស">
-<!ENTITY sync.summary.pair.label "តភ្ជាប់​ឧបករណ៍​ផ្សេងទៀត​ទៅកាន់​គណនី &syncBrand.shortName.label; របស់​អ្នក">
 <!-- Configure Engines -->
 
-<!ENTITY sync.configure.engines.title.label "អ្វី​ដែល​ត្រូវ​ធ្វើ​សមកាល​កម្ម">
-<!ENTITY sync.configure.engines.sync.my.title.label "ធ្វើ​សមកាលកម្ម​របស់​អ្នក...">
-<!ENTITY sync.configure.engines.title.bookmarks "ចំណាំ">
 <!ENTITY sync.configure.engines.title.passwords2 "ការ​ចូល">
 <!ENTITY sync.configure.engines.title.history "ប្រវត្តិ">
 <!ENTITY sync.configure.engines.title.tabs "ផ្ទាំង">
-<!-- Common text -->
-
-<!ENTITY sync.button.cancel.label "បោះបង់">
-<!ENTITY sync.button.connect.label "តភ្ជាប់">
-<!ENTITY sync.button.ok.label "យល់ព្រម">
-<!-- Account strings -->
-
-<!ENTITY sync.account.label "&syncBrand.fullName.label; (បាន​បដិសេធ)">
 <!-- Localization note (sync.default.client.name): Default string of the "Device
      name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
      will be replaced by the name of the Firefox release channel and &formatS2
@@ -86,116 +33,24 @@
 <!ENTITY bookmarks.folder.places.label ''>
 <!ENTITY bookmarks.folder.tags.label "ស្លាក">
 <!ENTITY bookmarks.folder.toolbar.label "របារ​ឧបករណ៍​ចំណាំ">
-<!ENTITY bookmarks.folder.unfiled.label "មិន​តម្រៀប​ចំណាំ">
+
 <!ENTITY bookmarks.folder.desktop.label "ចំណាំ​ផ្ទៃតុ">
 <!ENTITY bookmarks.folder.mobile.label "ចំណាំ​ចល័ត">
-<!ENTITY bookmarks.folder.readinglist.label "បញ្ជី​អាន">
 <!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
 <!ENTITY bookmarks.folder.pinned.label "បាន​ខ្ទាស់">
-<!-- Notification strings -->
-
-<!ENTITY sync.notification.oneaccount.label "មានតែ​គណនី &syncBrand.fullName.label; មួយ​ប៉ុណ្ណោះ​ដែល​ត្រូវ​បាន​គាំទ្រ ។">
-<!ENTITY sync.notification.configure.saved "បាន​រក្សាទុក​ជម្រើស​របស់​អ្នក ។">
-<!-- Incorrect settings and changing credentials. -->
-
-<!ENTITY sync.invalidcreds.label "ឈ្មោះ​គណនី ឬ​ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ">
-<!ENTITY sync.invalidserver.label "សូម​បញ្ចូល URL ម៉ាស៊ីន​បម្រើ​ដែល​ត្រឹមត្រូវ">
-<!ENTITY sync.verifying.label "កំពុង​ផ្ទៀងផ្ទាត់...">
-<!ENTITY sync.new.recoverykey.status.incorrect "សោ​ដែល​បាន​សង្គ្រោះ​គឺ​មិន​ត្រឹមត្រូវ ។ សូម​ព្យាយាម​ម្ដងទៀត ។">
-<!-- Send tab to device. -->
-
-<!ENTITY sync.title.send.tab.label "ផ្ញើ​ផ្ទាំង​ទៅ​ឧបករណ៍">
-<!ENTITY sync.button.send.label "ផ្ញើ">
-<!ENTITY sync.button.set.up.sync.label "រៀបចំ &syncBrand.shortName.label;">
-<!ENTITY sync.title.redirect.to.set.up.sync.label "រៀបចំ &syncBrand.shortName.label; ដើម្បី​ផ្ញើ​ផ្ទាំង">
-<!ENTITY sync.text.redirect.to.set.up.sync.label "រៀបចំ &syncBrand.fullName.label; នៅ​លើ​ឧបករណ៍​របស់​អ្នក​ដើម្បី​​ផ្ញើ​ផ្ទាំង​ទៅកាន់​ឧបករណ៍​ផ្សេងទៀត ។">
-<!ENTITY sync.text.tab.sent.label "បាន​ផ្ញើ​ផ្ទាំង​របស់​អ្នក !">
-<!ENTITY sync.text.tab.not.sent.label "មាន​បញ្ហា​ក្នុង​ការ​ផ្ញើ​ផ្ទាំង​របស់​អ្នក ។">
 <!-- Firefox Account strings. -->
-
-
-<!ENTITY fxaccount_full_label "គណនី Firefox">
-
-<!ENTITY fxaccount_custom_server_account_title "ប្រើ​គណនីលើ​ម៉ាស៊ីន​មេ">
-<!ENTITY fxaccount_custom_server_sync_title "រក្សាទុក​ទិន្នន័យ​ធ្វើ​សមកាលកម្ម​លើម៉ាស៊ីន​មេ">
-<!-- Localization note: these are shown in all screens that query the
-     user for an email address and password. Hide and show are button
-     labels. -->
-
-<!ENTITY fxaccount_email_hint "អ៊ីមែល">
-<!ENTITY fxaccount_password_hint "ពាក្យ​សម្ងាត់">
-<!ENTITY fxaccount_password_hide "លាក់">
-<!ENTITY fxaccount_password_show "បង្ហាញ">
 <!-- Localization note: these are shown in screens after the user has
      created or signed in to an account, and take the user back to
      Firefox. -->
 
-<!ENTITY fxaccount_back_to_browsing "ថយ​ក្រោយ​ដើម្បី​រុករក">
-<!-- Localization note: the following two strings are interpolated
-     into fxaccount_create_account_policy_text2; see note for that
-     string as well.  Compare fxaccount_status_{linktos,linkprivacy}:
-     these strings are separated to accommodate languages that decline
-     the two uses differently. -->
 
-<!ENTITY fxaccount_policy_linktos "លក្ខខណ្ឌ​ប្រើប្រាស់">
-<!ENTITY fxaccount_policy_linkprivacy "សម្គាល់​ឯកជន">
+<!ENTITY fxaccount_back_to_browsing "ថយ​ក្រោយ​ដើម្បី​រុករក">
 
 <!ENTITY fxaccount_getting_started_welcome_to_sync "ស្វាគមន៍​មកកាន់ &syncBrand.shortName.label;">
 <!ENTITY fxaccount_getting_started_description2 "ចូល​ដើម្បី​ធ្វើ​សមកាលកម្ម​ផ្ទាំង, ចំណាំ, ការ​ចូល​របស់​អ្នក &amp; ច្រើន​ទៀត។">
 <!ENTITY fxaccount_getting_started_get_started "បាន​ចាប់ផ្ដើម">
 <!ENTITY fxaccount_getting_started_old_firefox "ប្រើ​កំណែ​ចាស់​នៃ &syncBrand.shortName.label;?">
-<!-- Localization note: the Firefox below should not change with the
-     particular version of Firefox installed (Release, Beta, Aurora,
-     etc).  The account remains a "Firefox Account". -->
 
-<!ENTITY fxaccount_create_account_header2 "បង្កើត​គណនី Firefox">
-<!ENTITY fxaccount_create_account_password_length_restriction "ត្រូវតែ​មាន​យ៉ាងហោចណាស់ ៨ តួ​អក្សរ">
-<!ENTITY fxaccount_create_account_day_of_birth "ថ្ងៃ">
-<!ENTITY fxaccount_create_account_month_of_birth "ខែ">
-<!ENTITY fxaccount_create_account_year_of_birth "ឆ្នាំ​កំណើត">
-<!-- Localization note: &formatS1; is fxaccount_policy_linktos, &formatS2; is fxaccount_policy_linkprivacy, both hyperlinked. -->
-<!ENTITY fxaccount_create_account_policy_text2 "ដោយ​ការ​ធ្វើ​បន្ត, ខ្ញុំ​យល់​ព្រម​ចំពោះ &formatS1; និង &formatS2; នៃ​សេវាកម្ម​នៅ​លើ​បណ្ដាញ​សម្រាប់ Firefox ។">
-<!ENTITY fxaccount_create_account_button "បន្ទាប់">
-<!ENTITY fxaccount_create_account_choose_what_to_sync "ជ្រើស​អ្វី​ដែល​ត្រូវ​ធ្វើ​សមកាលកម្ម">
-<!ENTITY fxaccount_create_account_sign_in_instead "មាន​គណនី​រួច​ហើយ? ចូល">
-<!ENTITY fxaccount_create_account_1990_or_earlier "1990 ឬ​មុន">
-<!ENTITY fxaccount_create_account_unknown_error "មិន​អាច​បង្កើត​គណនី">
-
-<!ENTITY fxaccount_account_create_not_allowed "មិន​អាច​បង្កើត​គណនី">
-<!ENTITY fxaccount_account_create_not_allowed_you_must_meet_certain_age_requirements "អ្នក​ត្រូវ​តែ​​​មាន​អាយុ​គ្រប់​​ ដើម្បី​បង្កើត​គណនី​បាន។">
-<!ENTITY fxaccount_account_create_not_allowed_learn_more "ស្វែងយល់​បន្ថែម">
-
-<!ENTITY fxaccount_confirm_account_header "បញ្ជាក់​គណនី​របស់​អ្នក">
-<!-- Localization note: &formatS; is the Firefox Account's email address. -->
-<!ENTITY fxaccount_confirm_account_verification_link "តំណ​ការ​ផ្ទៀងផ្ទាត់​ត្រូវ​បាន​ផ្ញើ​ទៅ &formatS;">
-<!ENTITY fxaccount_confirm_account_resend_email "ផ្ញើ​អ៊ីមែល​ម្ដង​ទៀត">
-<!ENTITY fxaccount_confirm_account_change_email "ភ្លេច​អាសយដ្ឋាន​អ៊ីមែល​នេះ​ឬ?">
-<!ENTITY fxaccount_confirm_account_verification_link_sent2 "ផ្ញើ​អ៊ីមែល​ម្ដងទៀត">
-<!ENTITY fxaccount_confirm_account_verification_link_not_sent2 "មិន​អាច​ផ្ញើ​អ៊ីមែល​ការ​ផ្ទៀងផ្ទាត់">
-<!ENTITY fxaccount_resend_unlock_code_button_label "ផ្ញើ​អ៊ីមែល​ដោះ​សោ​ម្ដងទៀត">
-<!ENTITY fxaccount_unlock_code_sent "បាន​ផ្ញើ​អ៊ីមែល​ដោះ​សោ​គណនី">
-<!ENTITY fxaccount_unlock_code_not_sent "មិន​អាច​ផ្ញើ​អ៊ីមែល​ដោះ​សោ​គណនី">
-
-<!ENTITY fxaccount_sign_in_sub_header "ចូល">
-<!ENTITY fxaccount_sign_in_button_label "ចូល">
-<!ENTITY fxaccount_sign_in_forgot_password "ភ្លេច​ពាក្យ​សម្ងាត់?">
-<!ENTITY fxaccount_sign_in_create_account_instead "បង្កើត​គណនី">
-<!ENTITY fxaccount_sign_in_unknown_error "មិន​អាច​ចូល">
-
-<!ENTITY fxaccount_account_verified_sub_header "បាន​ផ្ទៀងផ្ទាត់​គណនី">
-<!ENTITY fxaccount_account_verified_description2 "ទិន្នន័យ​របស់​អ្នក​នឹង​កំពុង​ត្រូវ​បាន​ធ្វើ​សមកាលកម្ម​នៅ​ពេល​នេះ។">
-
-<!ENTITY fxaccount_migration_finished_header "បាន​បញ្ចប់​បច្ចុប្បន្នភាព">
-
-<!ENTITY fxaccount_update_credentials_header "ចូល">
-<!ENTITY fxaccount_update_credentials_button_label "ចូល">
-<!ENTITY fxaccount_update_credentials_unknown_error "មិន​អាច​ចូល">
-
-<!ENTITY fxaccount_finish_migrating_header "ចូល ដើម្បី​បញ្ចប់​បច្ចុប្បន្នភាព">
-<!ENTITY fxaccount_finish_migrating_button_label "បញ្ចប់​បច្ចុប្បន្នភាព">
-<!ENTITY fxaccount_finish_migrating_description "ការ​ធ្វើ​បច្ចុប្បន្នភាព​អាច​ផ្ទេរ​ទិន្នន័យ​បាន​ច្រើន។ វា​ដំណើរការ​ល្អ​នៅ​បណ្ដាញ​វ៉ាយហ្វាយ។">
-
-<!ENTITY fxaccount_status_header2 "គណនី Firefox">
 <!ENTITY fxaccount_status_signed_in_as "បាន​ចូល​ជា">
 <!ENTITY fxaccount_status_manage_account "គ្រប់គ្រង​គណនី">
 <!ENTITY fxaccount_status_auth_server "ម៉ាស៊ីន​មេ​គណនី">
@@ -211,7 +66,7 @@
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled "បាន​ដំឡើង &syncBrand.shortName.label; ប៉ុន្តែ​មិន​បាន​ធ្វើ​សមកាលកម្ម​​ដោយ​ស្វ័យប្រវត្តិ​ទេ។ បិទ/បើក \&quot;ការ​​ធ្វើ​សមកាលកម្ម​​ទិន្នន័យ​ស្វ័យប្រវត្តិ\&quot; នៅ​ក្នុង​ការ​កំណត់ Android &gt; ការ​ប្រើប្រាស់​ទិន្នន័យ។">
 <!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 "បាន​ដំឡើង &syncBrand.shortName.label; ប៉ុន្តែ​មិន​បាន​ធ្វើ​សមកាលកម្ម​​ដោយ​ស្វ័យប្រវត្តិ​ទេ។ បិទ/បើក \&quot;ការ​​ធ្វើ​សមកាលកម្ម​​ទិន្នន័យ​ស្វ័យប្រវត្តិ\&quot; នៅ​ក្នុង​ម៉ឺនុយ​ការ​កំណត់​គណនី Android &gt; ។">
 <!ENTITY fxaccount_status_needs_finish_migrating "ប៉ះ​ដើម្បី​ចូល​គណនី Firefox ថ្មី​របស់​អ្នក។">
-<!ENTITY fxaccount_status_bookmarks "ចំណាំ">
+
 <!ENTITY fxaccount_status_history "ប្រវត្តិ">
 <!ENTITY fxaccount_status_passwords2 "ចូល">
 <!ENTITY fxaccount_status_tabs "បើក​ផ្ទាំង">
@@ -220,9 +75,9 @@
      external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
      these strings are separated to accommodate languages that decline
      the two uses differently. -->
-<!ENTITY fxaccount_status_linktos "លក្ខខណ្ឌ​ប្រើប្រាស់">
-<!ENTITY fxaccount_status_linkprivacy "សម្គាល់​ឯកជន">
+
 <!ENTITY fxaccount_status_more "ច្រើន​ទៀត&ellipsis;">
+
 
 <!ENTITY fxaccount_remove_account_dialog_title "លុប​គណនី Firefox ចេញ​មែន​ទេ?">
 <!ENTITY fxaccount_remove_account_dialog_message "&brandShortName; នឹង​បញ្ឈប់​ការ​ធ្វើសមកាលកម្ម​ជា​មួយ​គណនី​របស់​អ្នក ប៉ុន្តែ​នឹង​មិន​លុប​ទិន្នន័យ​រុករក​របស់​អ្នក​​ណា​មួយ​ទេ​នៅ​លើ​ឧបករណ៍​នេះ។">
@@ -230,7 +85,6 @@
      with the Firefox Account's email address. -->
 <!ENTITY fxaccount_remove_account_toast "បាន​លុប​ &formatS; គណនី Firefox ។">
 
-<!ENTITY fxaccount_remove_account_menu_item "លុប​គណនី​ចេញ">
 <!ENTITY fxaccount_enable_debug_mode "អនុញ្ញាត​​របៀប​កែ​កំហុស">
 <!-- Localization note: this is the name shown by the Android system
      itself for a Firefox Account. Don't localize this. -->
@@ -258,7 +112,6 @@
 <!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS "ម៉ាស៊ីន​មេ​ជាប់​រវល់, ព្យាយាម​ម្ដងទៀត​ឆាប់ៗ​នេះ">
 <!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD "ម៉ាស៊ីន​មេ​ជាប់​រវល់, ព្យាយាម​ម្ដងទៀត​ឆាប់ៗ​នេះ">
 <!ENTITY fxaccount_remote_error_UNKNOWN_ERROR "មាន​បញ្ហា">
-<!ENTITY fxaccount_remote_error_COULD_NOT_CONNECT "មិន​អាច​តភ្ជាប់​ទៅ​បណ្ដាញ">
 <!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED "គណនី​ត្រូវ​បាន​ចាក់សោ។ &formatS1;">
 
 <!ENTITY fxaccount_sync_sign_in_error_notification_title2 "&syncBrand.shortName.label; ត្រូវ​បាន​តភ្ជាប់">

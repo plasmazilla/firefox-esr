@@ -2,33 +2,39 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+
+
+
+
+
+
+
+
+
 <!ENTITY tracking.label                 "Penjejakan">
 
 
-<!ENTITY doNotTrackInfo.label          "Ketahui Lanjut">
-<!ENTITY trackingProtection5.label     "Guna Perlindungan Penjejakan">
-<!ENTITY trackingProtection5.accesskey "P">
-<!ENTITY trackingProtectionLearnMore.label "Ketahui lanjut">
-<!ENTITY trackingProtectionPBM5.label         "Guna Perlindungan Penjejakan dalam Tetingkap Persendirian">
-<!ENTITY trackingProtectionPBM5.accesskey     "P">
-<!ENTITY trackingProtectionPBMLearnMore.label "Ketahui lanjut">
 
-<!ENTITY  history.label                 "Sejarah">
+
+
+<!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
+
+
+
 
 <!ENTITY  locationBar.label             "Bar Lokasi">
 
-<!ENTITY  locbar.suggest.label          "Semasa menggunakan bar lokasi, cadang:">
-<!ENTITY  locbar.history.label          "Sejarah">
-<!ENTITY  locbar.history.accesskey      "h">
-<!ENTITY  locbar.bookmarks.label        "Penanda">
-<!ENTITY  locbar.bookmarks.accesskey    "P">
-<!ENTITY  locbar.openpage.label         "Buka tab">
-<!ENTITY  locbar.openpage.accesskey     "B">
-<!ENTITY  locbar.searches.label         "Carian berkaitan dari enjin carian lalai">
-<!ENTITY  locbar.searches.accesskey     "e">
 
-<!ENTITY  suggestionSettings.label      "Ubah keutamaan untuk cadangan enjin carian…">
-<!ENTITY  suggestionSettings.accesskey  "U">
+
+
+
+
+
+
+
+
+
 
 <!ENTITY  acceptCookies.label           "Terima kuki dari laman web">
 <!ENTITY  acceptCookies.accesskey       "e">
@@ -43,7 +49,6 @@
 
 <!ENTITY  expire.label                  "ianya luput">
 <!ENTITY  close.label                   "Saya tutup &brandShortName;">
-<!ENTITY  askEachTime.label             "tanya saya setiap kali">
 
 <!ENTITY  cookieExceptions.label        "Pengecualian…">
 <!ENTITY  cookieExceptions.accesskey    "e">

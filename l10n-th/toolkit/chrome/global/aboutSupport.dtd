@@ -5,23 +5,23 @@
 <!ENTITY aboutSupport.pageTitle "ข้อมูลการแก้ไขปัญหา">
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 
-<!ENTITY aboutSupport.pageSubtitle "  หน้านี้ประกอบด้วยข้อมูลทางด้านเทคนิคที่อาจจะมีประโยชน์ต่อคุณเมื่อคุณพยายาม จะแก้ไขปัญหา หากคุณกำลังมองหาคำตอบของคำถามที่พบบ่อยที่เกี่ยวกับ &brandShortName; ให้ตรวจสอบ<a id='supportLink'>เว็บไซต์การช่วยเหลือ</a>ของเรา">
+<!ENTITY aboutSupport.pageSubtitle "  หน้านี้มีข้อมูลทางเทคนิคที่อาจเป็นประโยชน์เมื่อคุณกำลังพยายามแก้ไขปัญหา หากคุณกำลังมองหาคำตอบสำหรับคำถามที่พบบ่อยเกี่ยวกับ &brandShortName; ตรวจสอบ <a id='supportLink'>เว็บไซต์สนับสนุน</a> ของเรา">
 
-<!ENTITY aboutSupport.crashes.title "ตัวรายงานข้อขัดข้อง">
+<!ENTITY aboutSupport.crashes.title "รายงานข้อขัดข้อง">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "หมายเลขรายงาน">
+<!ENTITY aboutSupport.crashes.id "ID รายงาน">
 <!ENTITY aboutSupport.crashes.sendDate "ส่งข้อมูลแล้ว">
 <!ENTITY aboutSupport.crashes.allReports "รายงานข้อขัดข้องทั้งหมด">
-<!ENTITY aboutSupport.crashes.noConfig "โปรแกรมนี้ไม่ได้ถูกตั้งค่าให้แสดงรายงานข้อขัดข้อง">
+<!ENTITY aboutSupport.crashes.noConfig "แอปพลิเคชันนี้ไม่ได้ถูกกำหนดค่าให้แสดงผลรายงานข้อข้อง">
 
-<!ENTITY aboutSupport.extensionsTitle "ส่วนเสริม">
+<!ENTITY aboutSupport.extensionsTitle "ส่วนขยาย">
 <!ENTITY aboutSupport.extensionName "ชื่อ">
-<!ENTITY aboutSupport.extensionEnabled "เปิดใช้งาน">
+<!ENTITY aboutSupport.extensionEnabled "ถูกเปิดใช้งาน">
 <!ENTITY aboutSupport.extensionVersion "รุ่น">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "คุณสมบัติทดลอง">
+<!ENTITY aboutSupport.experimentsTitle "คุณลักษณะทดลอง">
 <!ENTITY aboutSupport.experimentName "ชื่อ">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "คำอธิบาย">
@@ -30,7 +30,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.experimentHomepage "หน้าแรก">
 
 
-<!ENTITY aboutSupport.appBasicsTitle "แอปพลิเคชั่นพื้นฐาน">
+<!ENTITY aboutSupport.appBasicsTitle "พื้นฐานแอปพลิเคชัน">
 <!ENTITY aboutSupport.appBasicsName "ชื่อ">
 <!ENTITY aboutSupport.appBasicsVersion "รุ่น">
 <!ENTITY aboutSupport.appBasicsBuildID "Build ID">
@@ -50,12 +50,16 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "โปรแกรมเสริมที่ถูกเปิดใช้งาน">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Build Configuration">
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
-
+<!ENTITY aboutSupport.appBasicsOS "ระบบปฏิบัติการ">
 <!ENTITY aboutSupport.appBasicsMemoryUse "หน่วยความจำที่ใช้">
+<!ENTITY aboutSupport.appBasicsPerformance "ประสิทธิภาพ">
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 
+<!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers ที่ลงทะเบียน">
 
-<!ENTITY aboutSupport.appBasicsMultiProcessSupport "หน้าต่างหลายโปรเซส">
+<!ENTITY aboutSupport.appBasicsProfiles "โพรไฟล์">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "หน้าต่างแบบหลายโพรเซส">
 
 <!ENTITY aboutSupport.appBasicsSafeMode "โหมดปลอดภัย">
 
@@ -68,28 +72,31 @@ variant of aboutSupport.showDir.label.  This allows us to use the preferred
 variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.showWin.label "แสดงโฟลเดอร์">
 
-<!ENTITY aboutSupport.modifiedKeyPrefsTitle "การตั้งค่าสำคัญที่ถูกแก้ไข">
+<!ENTITY aboutSupport.modifiedKeyPrefsTitle "การตั้งค่าสำคัญที่ถูกเปลี่ยนแปลง">
 <!ENTITY aboutSupport.modifiedPrefsName "ชื่อ">
 <!ENTITY aboutSupport.modifiedPrefsValue "ค่า">
 <!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
 
 <!ENTITY aboutSupport.userJSTitle "การตั้งค่า user.js">
-<!ENTITY aboutSupport.userJSDescription "โฟลเดอร์โพรไฟล์ของคุณประกอบด้วย<a id='prefs-user-js-link'>แฟ้ม user.js</a>ที่รวมไปถึงการตั้งค่าที่ไม่ได้ถูกสร้างโดย &brandShortName;">
+<!ENTITY aboutSupport.userJSDescription "โฟลเดอร์โพรไฟล์ของคุณมี <a id='prefs-user-js-link'>ไฟล์ user.js</a> ซึ่งมีการตั้งค่าที่ไม่ได้ถูกสร้างโดย &brandShortName;.">
 
-<!ENTITY aboutSupport.lockedKeyPrefsTitle "การตั้งค่าสำคัญที่ปิดกั้น">
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "การตั้งค่าสำคัญที่ถูกล็อค">
 <!ENTITY aboutSupport.lockedPrefsName "ชื่อ">
 <!ENTITY aboutSupport.lockedPrefsValue "ค่า">
 
 <!ENTITY aboutSupport.graphicsTitle "กราฟิก">
 
-<!ENTITY aboutSupport.jsTitle "จาวาสคริปต์">
-<!ENTITY aboutSupport.jsIncrementalGC "ตัวเก็บกวาดขยะแบบเพิ่มขึ้น">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "ความถูกต้อง">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "ตรวจสอบความถูกต้อง">
 
-<!ENTITY aboutSupport.a11yTitle "กลไกการเข้าถึงได้">
-<!ENTITY aboutSupport.a11yActivated "เปิดใช้งาน">
-<!ENTITY aboutSupport.a11yForceDisabled "ปิดกั้นกลไกการเข้าถึงได้">
+<!ENTITY aboutSupport.jsTitle "JavaScript">
 
-<!ENTITY aboutSupport.libraryVersionsTitle "เวอร์ชันของไลบรารี">
+
+<!ENTITY aboutSupport.a11yTitle "การช่วยเข้าถึง">
+<!ENTITY aboutSupport.a11yActivated "ถูกเปิดใช้งาน">
+<!ENTITY aboutSupport.a11yForceDisabled "ป้องกันการช่วยเข้าถึง">
+
+<!ENTITY aboutSupport.libraryVersionsTitle "รุ่น Library">
 
 <!ENTITY aboutSupport.installationHistoryTitle "ประวัติการติดตั้ง">
 <!ENTITY aboutSupport.updateHistoryTitle "ประวัติการปรับรุ่น">
@@ -100,9 +107,13 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.sandboxTitle "กระบะทราย">
 
 <!ENTITY aboutSupport.safeModeTitle "ลองใช้โหมดปลอดภัย">
-<!ENTITY aboutSupport.restartInSafeMode.label "เริ่มใหม่และปิดใช้งานส่วนเสริม…">
+<!ENTITY aboutSupport.restartInSafeMode.label "เริ่มการทำงานใหม่และปิดใช้งานส่วนเสริม…">
 
+<!ENTITY aboutSupport.graphicsFeaturesTitle "คุณลักษณะ">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "การวินิจฉัย">
 
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
 
 
 

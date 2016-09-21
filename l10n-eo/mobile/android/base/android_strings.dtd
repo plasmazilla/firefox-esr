@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY firstrun_panel_title_welcome "Bonvenon">
-<!ENTITY  onboard_start_message3 "Retumi per &brandShortName;">
-<!ENTITY  onboard_start_subtext3 "Igi vian poŝaparatan retumsperton vere via.">
 
 <!ENTITY firstrun_urlbar_message "Bonvenon al &brandShortName;">
 <!ENTITY firstrun_urlbar_subtext "Trovi aferojn pli rapide per helpaj serĉaj ŝparvojoj al sugestoj.">
@@ -20,20 +18,32 @@
 <!ENTITY firstrun_signin_message "Komencu seancon kaj eku">
 <!ENTITY firstrun_signin_button "Komenci seancon en Speguli">
 <!ENTITY  onboard_start_button_browser "Komenci retumi">
+<!ENTITY firstrun_button_notnow "Nun ne">
 <!ENTITY firstrun_button_next "Antaŭen">
 
-<!ENTITY  onboard_start_restricted1 "Estu sekura kaj regu vian retumadon per tiu ĉi simpligita versio de &brandShortName;.">
+<!ENTITY firstrun_tabqueue_title "Ligiloj">
+<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "Ŝalti vicon de langetoj">
+<!ENTITY firstrun_tabqueue_subtext_off "Konservi ligilojn por posta vido en &brandShortName; kiam vi tuŝetas ilin en aliaj programoj.">
 
-<!ENTITY  reading_list_migration_title "Legolisto konektita">
-<!ENTITY  reading_list_migration_subtext "La elementoj de via legolisto estos aldonitaj al viaj legosignoj">
-<!ENTITY  reading_list_migration_goto_bookmarks "Iri al legosignoj">
-<!ENTITY  reading_list_migration_bookmarks_hidden "Via panelo de legosignoj estas kaŝita">
+<!ENTITY firstrun_tabqueue_message_on "Sukceso!">
+<!ENTITY firstrun_tabqueue_subtext_on "Vi povas ĉiam malŝalti tion ĉi en \'&settings;\' sub \'&pref_category_general;\'.">
+
+<!ENTITY firstrun_readerview_title "Artikoloj">
+<!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+<!ENTITY firstrun_readerview_message "Forigi la superfluon">
+<!ENTITY firstrun_readerview_subtext "Uzu legilan vidon por igi artikolojn facile legeblaj \u2014 eĉ malkonektite.">
+
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+<!ENTITY firstrun_account_title "Vi">
+<!ENTITY firstrun_account_message "Ĉu vi havas &brandShortName; en alia aparato?">
+
+<!ENTITY  onboard_start_restricted1 "Estu sekura kaj regu vian retumadon per tiu ĉi simpligita versio de &brandShortName;.">
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "Legosignoj">
 <!ENTITY  history_title "Historio">
-<!ENTITY  reading_list_title "Legolisto">
 <!ENTITY  recent_tabs_title "Freŝaj langetoj">
 
 <!ENTITY  switch_to_tab "Iri al langeto">
@@ -69,6 +79,11 @@
      and is labeled by this String. -->
 <!ENTITY screenshot_folder_label_in_bookmarks "Ekrankopioj">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "Legolisto">
+
+<!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
+     in the folder. -->
+<!ENTITY bookmark_folder_items "&formatD; elementoj">
+<!ENTITY bookmark_folder_one_item "1 elemento">
 
 <!ENTITY reader_saved_offline "Malkonektite konservita">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -174,6 +189,9 @@
      it is applicable. -->
 <!ENTITY pref_search_hint2 "Konsileto: aldonu iun ajn retejon al via listo de serĉiloj per longa premo sur la serĉkampo kaj posta tuŝo de la emblemo &formatI;.">
 <!ENTITY pref_category_advanced "Spertulaj">
+<!-- Localization note (pref_category_advanced_summary3): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 <!ENTITY pref_category_advanced_summary3 "Restarigo de langetoj, datumŝparo, programistaj iloj">
 <!ENTITY pref_category_notifications "Sciigoj">
 <!ENTITY pref_category_notifications_summary "Novaj trajtoj, retejaj ĝisdatigoj">
@@ -225,6 +243,9 @@
 <!ENTITY pref_cookies_not_accept_foreign "Aktivaj, krom la nerektaj">
 <!ENTITY pref_cookies_disabled "Malaktiva">
 
+<!-- Localization note (pref_category_data_saver): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 <!ENTITY pref_category_data_saver "Datumŝparilo">
 <!ENTITY pref_category_media "Aŭdvidaĵoj">
 <!ENTITY pref_category_developer_tools "Programistaj iloj">
@@ -287,7 +308,12 @@
      update the website title is used instead of this string.
      We can't use Android plural forms, sadly. See Bug #753859. -->
 <!ENTITY content_notification_title_plural "&formatD; retejoj ĝisdatigitaj">
-<!ENTITY content_notification_action_settings "Agordoj pri sciigoj">
+<!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
+     Clicking the action will jump to the notification settings of the app. -->
+<!ENTITY content_notification_action_settings2 "Agordoj">
+<!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
+     Clicking the action will open all new content in the browser. -->
+<!ENTITY content_notification_action_read_now "Legi nun">
 <!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
      date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
      documentation for DateFormat.getMediumDateFormat(). -->
@@ -538,6 +564,8 @@ size. -->
 <!ENTITY home_history_title "Historio">
 <!ENTITY home_synced_devices_smartfolder "Spegulitaj aparatoj">
 <!ENTITY home_synced_devices_number "&formatD; aparatoj">
+<!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
+<!ENTITY home_synced_devices_one "1 aparato">
 <!ENTITY home_history_back_to2 "Reen al la tuta historio">
 <!ENTITY home_clear_history_button "Viŝi retuman historion">
 <!ENTITY home_clear_history_confirm "Ĉu vi certe volas viŝi vian historion?">
@@ -777,3 +805,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_first_offline_bookmark_title "Legi malkonektite">
 <!ENTITY helper_first_offline_bookmark_message "Eĉ malkonektite, trovi inter la legosignoj viajn elementojn de legila vido.">
 <!ENTITY helper_first_offline_bookmark_button "Iri al legosignoj">
+
+<!ENTITY helper_triple_readerview_open_title "Malkonektite disponebla">
+<!ENTITY helper_triple_readerview_open_message "Aldoni al legosignoj elementojn de legila vido, por legi ilin malkonektite.">
+<!ENTITY helper_triple_readerview_open_button "Aldoni al legosignoj">
+

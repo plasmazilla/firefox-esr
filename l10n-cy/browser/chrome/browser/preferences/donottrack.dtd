@@ -3,10 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY window.title                 "Dim Tracio">
-<!ENTITY window.width                 "40em">
-<!ENTITY window.height                "8em">
+<!ENTITY window.width                 "50em">
+<!ENTITY window.height                "10em">
 
-<!ENTITY doNotTrackCheckbox.label     "Defnyddio Dim Tracio">
-<!ENTITY doNotTrackCheckbox.accesskey "D">
+<!ENTITY doNotTrackCheckbox2.label    "Gosod Dim Tracio bob tro">
+<!ENTITY doNotTrackCheckbox2.accesskey "G">
 
+<!ENTITY doNotTrackTPInfo.description "Bydd &brandShortName; yn anfon arwydd na fyddwch am eich tracio pryd bynnag fydd Diogelu Rhag Tracio ymlaen.">
 <!ENTITY doNotTrackLearnMore.label    "Dysgu Rhagor">

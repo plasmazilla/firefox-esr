@@ -32,6 +32,7 @@
 <li>בדוק אם הקובץ הועבר, שינה שם או נמחק.</li> 
 </ul>">
 
+<!ENTITY fileAccessDenied.title "הגישה לקובץ נדחתה">
 
 <!ENTITY generic.title "שגיאה כללית">
 <!ENTITY generic.longDesc "<p>&brandShortName; אינו יכול לטעון דף זה מסיבה לא ידועה.</p>">
@@ -115,6 +116,7 @@
 </ul>
 ">
 
+<!ENTITY certerror.longpagetitle1 "החיבור שלך אינו בטוח">
 <!-- Localization note (certerror.introPara) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
@@ -128,8 +130,6 @@ was trying to connect. -->
 <!ENTITY cspBlocked.title "נחסם בהתאם למדיניות האבטחה של התוכן">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; מונע מדף זה להיטען בצורה זו מאחר שהדף כולל מדיניות אבטחת תוכן שמונעת זאת.</p>">
 
-<!ENTITY corruptedContentError.title "שגיאת תוכן פגום">
-<!ENTITY corruptedContentError.longDesc "<p>הדף שאתה מנסה לצפות בו אינו יכול להיות מוצג בגלל שהתגלתה שגיאה בהעברת הנתונים.</p><ul><li>אנא צור קשר עם בעלי האתר והודע על הבעיה הזאת.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "הוסף חריגה…">
@@ -153,6 +153,14 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.longDesc "האתר בכתובת <span class='hostname'></span> משתמש בטכנולוגית אבטחה שאינה עדכנית וחשופה להתקפות. תוקף יכול בקלות לחשוף מידע שלכאורה אמור היה להיות מוגן.">
 <!ENTITY weakCryptoAdvanced.override "(לא בטוח) לנסות לטעון את <span class='hostname'></span> עם אבטחה לא עדכנית">
 
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
 
+<!ENTITY certerror.pagetitle1  "חיבור בלתי מאובטח">
+<!ENTITY certerror.copyToClipboard.label "העתקת טקסט ללוח">
+
+<!ENTITY inadequateSecurityError.title "החיבור שלך אינו בטוח">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+
+<!ENTITY prefReset.label "שחזור הגדרות בררת המחדל">

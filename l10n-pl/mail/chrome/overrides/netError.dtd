@@ -74,8 +74,8 @@
 <!ENTITY cspBlocked.title "Zablokowane przez politykę bezpieczeństwa treści">
 <!ENTITY cspBlocked.longDesc "<p>Program &brandShortName; uniemożliwił tej stronie wczytanie treści w ten sposób, ponieważ jej polityka bezpieczeństwa treści na to nie pozwala.</p>">
 
-<!ENTITY corruptedContentError.title "Uszkodzona zawartość">
-<!ENTITY corruptedContentError.longDesc "<p>Żądana treść nie może zostać wyświetlona, ponieważ wystąpił błąd podczas transmisji danych.</p><ul><li>Należy skontaktować się z odpowiedzialnymi w celu poinformowania ich o problemie.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Błąd: treść uszkodzona">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Strona, którą próbujesz obejrzeć, nie może być wyświetlona, ponieważ wykryto błąd w transmisji danych.</p><ul><li>Prosimy poinformować właścicieli witryny o tym problemie.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Możesz także dodać wyjątek…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Zabierz mnie stąd">
@@ -84,3 +84,6 @@
 
 <!ENTITY remoteXUL.title "Zdalna treść XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Prosimy poinformować właścicieli witryny o tym problemie.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Połączenie nie gwarantuje bezpieczeństwa">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> używa przestarzałej i podatnej na ataki technologii bezpieczeństwa. Atakujący mógłby łatwo odszyfrować informacje, które miały być bezpieczne. Administrator strony musi naprawić serwer, zanim będzie można ją odwiedzić.</p><p>Kod błędu: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

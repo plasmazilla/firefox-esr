@@ -78,8 +78,6 @@
 <!ENTITY fxaSignedIn.tooltip "Apri le impostazioni di &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Riconnetti a &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Verifica l’account">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; attivato">
-<!ENTITY syncStartPanel2.subTitle "La sincronizzazione di &brandShortName; inizierà a breve.">
 <!ENTITY fullScreenMinimize.tooltip "Riduci a icona">
 <!ENTITY fullScreenRestore.tooltip "Ripristina">
 <!ENTITY fullScreenClose.tooltip "Chiudi">
@@ -122,6 +120,10 @@
 <!ENTITY recentBookmarks.label "Aggiunti di recente">
 <!ENTITY otherBookmarksCmd.label "Altri segnalibri">
 <!ENTITY bookmarksToolbarChevron.tooltip "Visualizza altri segnalibri">
+<!ENTITY showRecentlyBookmarked.label "Visualizza segnalibri recenti">
+<!ENTITY showRecentlyBookmarked.accesskey "b">
+<!ENTITY hideRecentlyBookmarked.label "Nascondi segnalibri recenti">
+<!ENTITY hideRecentlyBookmarked.accesskey "b">
 <!ENTITY backCmd.label "Indietro">
 <!ENTITY backButton.tooltip "Torna indietro di una pagina">
 <!ENTITY forwardCmd.label "Avanti">
@@ -165,6 +167,7 @@
 <!ENTITY bookmarksMenuButton.other.label "Altri segnalibri">
 <!ENTITY viewBookmarksSidebar2.label "Visualizza barra laterale segnalibri">
 <!ENTITY viewBookmarksToolbar.label "Visualizza Barra dei segnalibri">
+<!ENTITY containersMenu.label "Contenitori">
 <!ENTITY bookmarksGtkCmd.commandkey "o">
 <!ENTITY bookmarksWinCmd.commandkey "i">
 <!ENTITY historyButton.label "Cronologia">
@@ -188,14 +191,6 @@
 <!ENTITY fileMenu.accesskey "F">
 <!ENTITY newUserContext.label "Nuova scheda contenitore">
 <!ENTITY newUserContext.accesskey "c">
-<!ENTITY userContextPersonal.label "Personale">
-<!ENTITY userContextPersonal.accesskey "P">
-<!ENTITY userContextWork.label "Lavoro">
-<!ENTITY userContextWork.accesskey "L">
-<!ENTITY userContextBanking.label "Banca">
-<!ENTITY userContextBanking.accesskey "B">
-<!ENTITY userContextShopping.label "Shopping">
-<!ENTITY userContextShopping.accesskey "S">
 <!ENTITY newNavigatorCmd.label "Nuova finestra&#173;">
 <!ENTITY newNavigatorCmd.key "N">
 <!ENTITY newNavigatorCmd.accesskey "f">
@@ -406,16 +401,20 @@
 <!ENTITY mediaMute.accesskey "D">
 <!ENTITY mediaUnmute.label "Attiva audio">
 <!ENTITY mediaUnmute.accesskey "A">
-<!ENTITY mediaPlaybackRate.label "Velocità di riproduzione">
-<!ENTITY mediaPlaybackRate.accesskey "z">
-<!ENTITY mediaPlaybackRate050x.label "Rallentata (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "R">
-<!ENTITY mediaPlaybackRate100x.label "Normale">
-<!ENTITY mediaPlaybackRate100x.accesskey "N">
-<!ENTITY mediaPlaybackRate150x.label "Alta (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "A">
-<!ENTITY mediaPlaybackRate200x.label "Smodata (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "S">
+<!ENTITY mediaPlaybackRate2.label "Velocità di riproduzione">
+<!ENTITY mediaPlaybackRate2.accesskey "z">
+<!ENTITY mediaPlaybackRate050x2.label "Rallentata (0.5×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "a">
+<!ENTITY mediaPlaybackRate100x2.label "Normale">
+<!ENTITY mediaPlaybackRate100x2.accesskey "N">
+<!ENTITY mediaPlaybackRate125x2.label "Veloce (1.25×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "V">
+<!ENTITY mediaPlaybackRate150x2.label "Più veloce (1.5×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "P">
+<!ENTITY mediaPlaybackRate200x2.label "Smodata (2×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "S">
+<!ENTITY mediaLoop.label "Ripeti">
+<!ENTITY mediaLoop.accesskey "R">
 <!ENTITY mediaShowControls.label "Mostra controlli">
 <!ENTITY mediaShowControls.accesskey "c">
 <!ENTITY mediaHideControls.label "Nascondi controlli">
@@ -491,7 +490,7 @@
 <!ENTITY identity.connectionSecure "Connessione sicura">
 <!ENTITY identity.connectionNotSecure "Connessione non sicura">
 <!ENTITY identity.connectionFile "Questa pagina è salvata sul dispositivo in uso.">
-<!ENTITY identity.connectionVerified1 "La connessione con questo sito è sicura. Il sito è gestito da:">
+<!ENTITY identity.connectionVerified2 "La connessione con questo sito è sicura. Il sito è gestito da:">
 <!ENTITY identity.connectionInternal "Questa è una pagina sicura di &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Gli accessi effettuati in questa pagina potrebbero essere vulnerabili.">
 <!ENTITY identity.activeBlocked "Alcuni elementi non sicuri di questa pagina sono stati bloccati da &brandShortName;.">

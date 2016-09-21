@@ -9,9 +9,9 @@
      The search command key should match findOnCmd.commandkey from browser.dtd -->
 <!ENTITY search.commandkey                    "f">
 
-<!ENTITY loading.label                        "Nahrávání…">
+<!ENTITY loading.label                        "Načítání…">
 <!ENTITY listEmpty.installed.label            "Žádný doplněk tohoto typu není nainstalován">
-<!ENTITY listEmpty.availableUpdates.label     "Aktualizace nenalezeny">
+<!ENTITY listEmpty.availableUpdates.label     "Nebyly nalezeny žádné aktualizace">
 <!ENTITY listEmpty.recentUpdates.label        "Žádný doplněk nebyl aktualizován">
 <!ENTITY listEmpty.findUpdates.label          "Zkontrolovat aktualizace">
 <!ENTITY listEmpty.search.label               "Nepodařilo se najít žádný odpovídající doplněk">
@@ -20,8 +20,8 @@
 <!ENTITY installAddonFromFile.accesskey       "I">
 <!ENTITY toolsMenu.tooltip                    "Nástroje doplňků">
 
-<!ENTITY cmd.back.tooltip                     "Přejde jednu stránku zpět">
-<!ENTITY cmd.forward.tooltip                  "Přejde jednu stránku vpřed">
+<!ENTITY cmd.back.tooltip                     "Přejde na předchozí stránku">
+<!ENTITY cmd.forward.tooltip                  "Přejde na následující stránku">
 
 <!ENTITY showUnsignedExtensions.button.label  "Některá rozšíření nemohla být ověřena">
 <!ENTITY showAllExtensions.button.label       "Zobrazit všechna rozšíření">
@@ -168,8 +168,8 @@
 
 <!-- list sorting -->
 <!ENTITY sort.name.label                      "Název">
-<!ENTITY sort.name.tooltip                    "Řadit dle názvu">
-<!ENTITY sort.dateUpdated.label               "Aktualizace">
+<!ENTITY sort.name.tooltip                    "Seřadit podle názvu">
+<!ENTITY sort.dateUpdated.label               "Poslední aktualizace">
 <!ENTITY sort.dateUpdated.tooltip             "Řadit dle aktualizace">
 <!ENTITY sort.relevance.label                 "Nejlepší shody">
 <!ENTITY sort.relevance.tooltip               "Řadit dle nejlepší shody">
@@ -202,14 +202,14 @@
 <!ENTITY addon.restartNow.label               "Restartovat">
 <!ENTITY addon.install.label                  "Instalovat">
 <!ENTITY addon.install.tooltip                "Nainstaluje doplněk">
-<!ENTITY addon.updateNow.label                "Instalovat aktualizaci">
+<!ENTITY addon.updateNow.label                "Aktualizovat">
 <!ENTITY addon.updateNow.tooltip              "Nainstaluje aktualizaci doplňku">
 <!ENTITY addon.includeUpdate.label            "Vybrat k instalaci">
 <!ENTITY addon.updateAvailable.label          "Aktualizace je dostupná">
 <!ENTITY addon.checkingForUpdates.label       "Kontrola aktualizací…">
 <!ENTITY addon.releaseNotes.label             "Poznámky k vydání:">
-<!ENTITY addon.loadingReleaseNotes.label      "Nahrávání…">
-<!ENTITY addon.errorLoadingReleaseNotes.label "Omlouváme se, ale při nahrávání poznámek k vydání nastala chyba.">
+<!ENTITY addon.loadingReleaseNotes.label      "Načítání…">
+<!ENTITY addon.errorLoadingReleaseNotes.label "Omlouváme se, ale při načítání poznámek k vydání nastala chyba.">
 
 <!ENTITY addon.createdBy.label                "Od ">
 

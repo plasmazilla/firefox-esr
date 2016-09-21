@@ -8,9 +8,9 @@
 
 <!ENTITY accessibility.label             "Jeikekuaa">
 
-<!ENTITY useCursorNavigation.label       "Eipuru tapia tai'aty rekaha reikundaha hag̃ua kuatiarogue ryepýpe">
+<!ENTITY useCursorNavigation.label       "Eipuru tapia tairenda hu'ykuéra aikundaha kuatiaroguépe">
 <!ENTITY useCursorNavigation.accesskey   "c">
-<!ENTITY searchStartTyping.label         "Eheka moñe'ẽrã ehaikuévo">
+<!ENTITY searchStartTyping.label         "Eheka moñe'ẽrã ahaikuévo">
 <!ENTITY searchStartTyping.accesskey     "x">
 <!ENTITY blockAutoRefresh.label          "Ehechakuaa oĩramo peteĩ ñanduti kuatiarogue omboguata'ykese térã omyenyhẽsejeýramo pe kuatiarogue">
 <!ENTITY blockAutoRefresh.accesskey      "b">
@@ -83,9 +83,6 @@
 <!ENTITY updateManual.label              "Tekopyahu jejhechajey'ỹva, (jerovia'ỹva: hekorosã kyhyjéta)">
 <!ENTITY updateManual.accesskey          "N">
 
-<!ENTITY updateAutoAddonWarn.label       "Chemomarandu ikatúpa ko'ãva ombogue chehegui peteĩva umi moĩmbaha.">
-<!ENTITY updateAutoAddonWarn.accesskey   "W">
-
 <!ENTITY updateHistory.label             "Tembiasakue rekopyahu jehechauka">
 <!ENTITY updateHistory.accesskey         "p">
 
@@ -105,7 +102,7 @@
 <!ENTITY offlineAppsList.height          "7em">
 <!ENTITY offlineAppsListRemove.label     "Mboguete…">
 <!ENTITY offlineAppsListRemove.accesskey "R">
-<!ENTITY offlineAppRemove.confirm        "Hetepy mboguete jeikekatu'ỹre">
+<!ENTITY offlineAppRemove.confirm        "Mba'ekuaarã jeikekatu'ỹre mboguete">
 
 <!ENTITY certificateTab.label            "Mboajepyréva">
 <!ENTITY certSelection.label             "Mba'ejerure">

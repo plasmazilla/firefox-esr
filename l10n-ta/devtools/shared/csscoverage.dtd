@@ -31,7 +31,7 @@
 
 <!ENTITY csscoverage.optimize.body1 "உகந்ததக்க பக்கங்கள்">
 <!ENTITY csscoverage.optimize.body2 "பக்கத்தின் கீழே குறிச்சொல்லையும் ஒரு புதிய உள்வரைவையும் உருவாக்கிறது">
-
+<!ENTITY csscoverage.optimize.body3 "மேலே 'load' நிகழ்வுக்கு முன்னதாக பாணிகளுடன் கூடிய அங்கங்கள் தேவை. உங்களுக்கு தேவையான பாணியில் சில தொகுதிகள் இங்கே:">
 <!-- LOCALIZATION NOTE (csscoverage.optimize.bodyX):
   -  This is what we say when we have no optimization suggestions -->
 
@@ -42,6 +42,6 @@
   -  is clicked -->
 
 <!ENTITY csscoverage.footer1 "பார்">
-<!ENTITY csscoverage.footer2a "https://developer.mozilla.org/en-US/docs/Tools/CSS_Coverage">
+<!ENTITY csscoverage.footer2a "https://developer.mozilla.org/docs/Tools/CSS_Coverage">
 <!ENTITY csscoverage.footer3 "CSS கவரேஜ் கருவியில் MDN கட்டுரை">
 <!ENTITY csscoverage.footer4 "இந்த அறிக்கையின் தோற்றத்தில் தற்கால நடவடிக்கை.">

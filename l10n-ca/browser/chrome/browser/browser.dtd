@@ -110,8 +110,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Obre les preferències del &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Torna a connectar al &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Verifiqueu el compte">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; activat">
-<!ENTITY syncStartPanel2.subTitle "El &brandShortName; iniciarà la sincronització d'aquí a uns instants.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Minimitza">
@@ -168,8 +166,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Subscriu-me a la pàgina…">
 <!ENTITY addCurPagesCmd.label "Afegeix-hi totes les pestanyes…">
 <!ENTITY showAllBookmarks2.label "Mostra totes les adreces d'interès">
-<!ENTITY unsortedBookmarksCmd.label "Adreces d'interès desordenades">
+<!ENTITY recentBookmarks.label "Afegides més recentment">
+<!ENTITY otherBookmarksCmd.label "Altres adreces d'interès">
 <!ENTITY bookmarksToolbarChevron.tooltip "Mostra més adreces d'interès">
+<!ENTITY showRecentlyBookmarked.label     "Mostra les afegides més recentment">
+<!ENTITY showRecentlyBookmarked.accesskey "o">
+<!ENTITY hideRecentlyBookmarked.label     "Amaga les afegides més recentment">
+<!ENTITY hideRecentlyBookmarked.accesskey "m">
 
 <!ENTITY backCmd.label                "Enrere">
 <!ENTITY backButton.tooltip           "Vés una pàgina enrere">
@@ -196,7 +199,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.indexedDBNotificationAnchor.label       "Mostra el missatge d'emmagatzematge fora de línia de les aplicacions">
 <!ENTITY urlbar.loginFillNotificationAnchor.label       "Gestiona la informació d'inici de sessió">
 <!ENTITY urlbar.passwordNotificationAnchor.label        "Comprova si voleu desar la contrasenya">
-<!ENTITY urlbar.webappsNotificationAnchor.label         "Mostra el missatge d'instal·lació de l'aplicació">
 <!ENTITY urlbar.pluginsNotificationAnchor.label         "Gestiona l'ús de connectors en aquesta pàgina">
 <!ENTITY urlbar.webNotsNotificationAnchor3.label        "Canvia l'opció de si es poden rebre notificacions d'aquest lloc">
 
@@ -224,9 +226,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Adreces d'interès">
-<!ENTITY bookmarksMenuButton.unsorted.label "Adreces d'interès desordenades">
+<!ENTITY bookmarksMenuButton.other.label "Altres adreces d'interès">
 <!ENTITY viewBookmarksSidebar2.label        "Mostra la barra lateral de les adreces d'interès">
 <!ENTITY viewBookmarksToolbar.label         "Mostra la barra de les adreces d'interès">
+
+<!ENTITY containersMenu.label "Contenidors">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -254,98 +258,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Desenvolupador web">
 <!ENTITY webDeveloperMenu.accesskey   "w">
 
-<!ENTITY devToolsCmd.keycode          "VK_F12">
-<!ENTITY devToolsCmd.keytext          "F12">
-
-<!ENTITY devtoolsServiceWorkers.label      "Processos de treball de servei">
-<!ENTITY devtoolsServiceWorkers.accesskey  "P">
-
-<!ENTITY devtoolsConnect.label        "Connecta…">
-<!ENTITY devtoolsConnect.accesskey    "e">
-
-<!ENTITY errorConsoleCmd.label        "Consola d'errors">
-<!ENTITY errorConsoleCmd.accesskey    "C">
-
-<!ENTITY remoteWebConsoleCmd.label    "Consola web remota">
-
-<!ENTITY browserConsoleCmd.label      "Consola del navegador">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "n">
-
 <!ENTITY inspectContextMenu.label     "Inspecciona l'element">
 <!ENTITY inspectContextMenu.accesskey "I">
-
-<!ENTITY responsiveDesignTool.label   "Vista de disseny responsiu">
-<!ENTITY responsiveDesignTool.accesskey "r">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Comptagotes">
-<!ENTITY eyedropper.accesskey "m">
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-
-<!ENTITY scratchpad.label             "Bloc de proves">
-<!ENTITY scratchpad.accesskey         "s">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-<!-- LOCALIZATION NOTE (browserToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser toolbox UI in the Tools menu. -->
-
-<!ENTITY browserToolboxMenu.label     "Caixa d'eines del navegador">
-<!ENTITY browserToolboxMenu.accesskey "e">
-<!ENTITY browserToolboxCmd.commandkey "i">
-<!-- LOCALIZATION NOTE (browserContentToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser content toolbox UI in the Tools menu.
-  -  This toolbox allows to debug the chrome of the content process in multiprocess builds.  -->
-
-<!ENTITY browserContentToolboxMenu.label     "Caixa d'eines de contingut del navegador">
-<!ENTITY browserContentToolboxMenu.accesskey "x">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Tanca la barra per a desenvolupadors">
-<!ENTITY devToolbarMenu.label              "Barra d'eines per a desenvolupadors">
-<!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Mostra les eines">
-<!ENTITY devToolboxMenuItem.accesskey      "e">
-<!ENTITY devToolboxMenuItem.keytext        "I">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Mostra les eines per a desenvolupadors">
-<!ENTITY devToolbarOtherToolsButton.label  "Més eines">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Aconsegueix més eines">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "m">
 
 <!ENTITY fileMenu.label         "Fitxer"> 
 <!ENTITY fileMenu.accesskey       "F">
 <!ENTITY newUserContext.label             "Pestanya de contenidor nova">
 <!ENTITY newUserContext.accesskey         "c">
-<!ENTITY userContextPersonal.label        "Personal">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Feina">
-<!ENTITY userContextWork.accesskey        "F">
-<!ENTITY userContextBanking.label         "Banca">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Compres">
-<!ENTITY userContextShopping.accesskey    "s">
 <!ENTITY newNavigatorCmd.label        "Finestra nova">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "n">
 <!ENTITY newPrivateWindow.label     "Finestra privada nova">
 <!ENTITY newPrivateWindow.accesskey "i">
-<!ENTITY newNonRemoteWindow.label   "Nova finestra no-e10s">
+<!ENTITY newNonRemoteWindow.label   "Finestra no e10s nova">
 
 <!ENTITY editMenu.label         "Edita"> 
 <!ENTITY editMenu.accesskey       "E"> 
@@ -410,7 +335,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHelp.tooltip "Obre el menú d'ajuda">
 
 <!ENTITY appMenuRemoteTabs.label "Pestanyes sincronitzades">
-<!ENTITY appMenuRemoteTabs.fetching.label "S'estan obtenint les pestanyes sincronitzades…">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "No hi ha cap pestanya oberta">
@@ -420,7 +344,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
-<!ENTITY appMenuRemoteTabs.noclients.label "Inicieu la sessió al Firefox en altres dispositius per tal de veure'n aquí les pestanyes obertes.">
+<!ENTITY appMenuRemoteTabs.noclients.title "Encara no hi ha cap pestanya sincronitzada.">
+<!ENTITY appMenuRemoteTabs.noclients.subtitle "Voleu veure aquí les pestanyes d'altres dispositius?">
 <!ENTITY appMenuRemoteTabs.openprefs.label "Preferències del Sync">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Inicieu la sessió per veure una llista de les pestanyes que teniu obertes en altres dispositius.">
 <!ENTITY appMenuRemoteTabs.signin.label "Inicia la sessió al Sync">
@@ -631,19 +556,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "e">
 <!ENTITY mediaUnmute.label           "Amb so">
 <!ENTITY mediaUnmute.accesskey       "m">
-<!ENTITY mediaPlaybackRate.label     "Velocitat de reproducció">
-<!ENTITY mediaPlaybackRate.accesskey "l">
-<!ENTITY mediaPlaybackRate050x.label "Càmera lenta (×0,5)">
-<!ENTITY mediaPlaybackRate050x.accesskey "l">
-<!ENTITY mediaPlaybackRate100x.label "Velocitat normal">
-<!ENTITY mediaPlaybackRate100x.accesskey "n">
-<!ENTITY mediaPlaybackRate150x.label "Alta velocitat (×1,5)">
-<!ENTITY mediaPlaybackRate150x.accesskey "A">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+<!ENTITY mediaPlaybackRate2.label     "Velocitat de reproducció">
+<!ENTITY mediaPlaybackRate2.accesskey "l">
+<!ENTITY mediaPlaybackRate050x2.label "Lent (0,5x)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "L">
+<!ENTITY mediaPlaybackRate100x2.label "Normal">
+<!ENTITY mediaPlaybackRate100x2.accesskey "N">
+<!ENTITY mediaPlaybackRate125x2.label "Ràpid (1,25x)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "R">
+<!ENTITY mediaPlaybackRate150x2.label "Més ràpid (1,5x)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "s">
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Màxima velocitat (×2)">
-<!ENTITY mediaPlaybackRate200x.accesskey "M">
+<!ENTITY mediaPlaybackRate200x2.label "Màxima velocitat (×2)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "M">
+<!ENTITY mediaLoop.label             "Repetició">
+<!ENTITY mediaLoop.accesskey         "R">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -752,7 +681,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Connexió segura">
 <!ENTITY identity.connectionNotSecure "La connexió no és segura">
 <!ENTITY identity.connectionFile "Aquesta pàgina està desada a l'ordinador.">
-<!ENTITY identity.connectionVerified1 "Esteu connectat de forma segura a aquest lloc, mantingut per:">
+<!ENTITY identity.connectionVerified2 "Esteu connectat de forma segura a aquest lloc, mantingut per:">
 <!ENTITY identity.connectionInternal "Aquesta és una pàgina del &brandShortName; segura.">
 <!ENTITY identity.insecureLoginForms2 "Les dades d'inici de sessió que introduïu en aquesta pàgina podrien estar en risc.">
 <!-- Strings for connection state warnings. -->
@@ -796,8 +725,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncTabsMenu3.label     "Pestanyes sincronitzades">
 
 <!ENTITY syncedTabs.sidebar.label              "Pestanyes sincronitzades">
-<!ENTITY syncedTabs.sidebar.fetching.label     "S'estan obtenint les pestanyes sincronitzades…">
 <!ENTITY syncedTabs.sidebar.noclients.label    "Inicieu la sessió al Firefox en altres dispositius per tal de veure'n aquí les pestanyes obertes.">
+<!ENTITY syncedTabs.sidebar.noclients.title    "Encara no hi ha cap pestanya sincronitzada.">
+<!ENTITY syncedTabs.sidebar.noclients.subtitle "Voleu veure aquí les pestanyes d'altres dispositius?">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "Inicieu la sessió per veure una llista de les pestanyes que teniu obertes en altres dispositius.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "No hi ha cap pestanya oberta">
 <!ENTITY syncedTabs.sidebar.openprefs.label    "Obre les preferències del &syncBrand.shortName.label;">
@@ -805,10 +735,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Activeu la sincronització de pestanyes per veure una llista de les pestanyes que teniu obertes en altres dispositius.">
 
-<!ENTITY syncedTabs.context.openTab.label                   "Obre aquesta pestanya">
-<!ENTITY syncedTabs.context.openTab.accesskey               "O">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.label         "Afegeix aquesta pestanya a les adreces d'interès…">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey     "f">
+<!ENTITY syncedTabs.context.open.label                       "Obre">
+<!ENTITY syncedTabs.context.open.accesskey                   "O">
+<!ENTITY syncedTabs.context.openInNewTab.label               "Obre en una pestanya nova">
+<!ENTITY syncedTabs.context.openInNewTab.accesskey           "t">
+<!ENTITY syncedTabs.context.openInNewWindow.label            "Obre en una finestra nova">
+<!ENTITY syncedTabs.context.openInNewWindow.accesskey        "n">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Obre en una finestra privada nova">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "p">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.label          "Afegeix aquesta pestanya a les adreces d'interès…">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "f">
+<!ENTITY syncedTabs.context.copy.label                       "Copia">
+<!ENTITY syncedTabs.context.copy.accesskey                   "C">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">

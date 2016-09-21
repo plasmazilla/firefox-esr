@@ -6,7 +6,7 @@
 %brandDTD;
 
 <!ENTITY loadError.label "S'ha produït un problema en carregar la pàgina">
-<!ENTITY retry.label "Torneu-ho a provar">
+<!ENTITY retry.label "Torna-ho a provar">
 <!-- Specific error messages -->
 
 
@@ -19,25 +19,27 @@
 <!ENTITY dnsNotFound.title "No s'ha trobat el servidor">
 <!-- LOCALIZATION NOTE (dnsNotFound.longDesc4) This string contains markup including widgets for searching
      or enabling wifi connections. The text inside tags should be localized.  Do not change the ids. -->
-<!ENTITY dnsNotFound.longDesc4 "<ul> <li>Comproveu que no s'hagin introduït errors en teclejar l'adreça, p. ex. <strong>ww</strong>.exemple.com en comptes de <strong>www</strong>.exemple.com</li> <div id='searchbox'> <input id='searchtext' type='search'></input> <button id='searchbutton'>Cerca</button> </div> <li>Si no podeu carregar cap pàgina, comproveu la connexió de dades o Wi-Fi del vostre dispositiu. <button id='wifi'>Activa la connexió Wi-Fi</button> </li> </ul>">
+<!ENTITY dnsNotFound.longDesc4 "<ul> <li>Comproveu que no s'hagin introduït errors en teclejar l'adreça, p. ex. <strong>ww</strong>.example.com en comptes de <strong>www</strong>.example.com</li> <div id='searchbox'> <input id='searchtext' type='search'></input> <button id='searchbutton'>Cerca</button> </div> <li>Si no podeu carregar cap pàgina, comproveu la connexió de dades o Wi-Fi del vostre dispositiu. <button id='wifi'>Activa la connexió Wi-Fi</button> </li> </ul>">
 
 <!ENTITY fileNotFound.title "No s'ha trobat el fitxer">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Comproveu les majúscules i minúscules del nom del fitxer i qualsevol altre error que s'hagi produït en teclejar.</li> <li>Comproveu que el fitxer no s'hagi mogut, canviat de nom o eliminat.</li> </ul>">
 
+<!ENTITY fileAccessDenied.title "S'ha denegat l'accés al fitxer">
+
 
 <!ENTITY generic.title "Ups.">
-<!ENTITY generic.longDesc "<p>El &brandShortName; no ha pogut carregar la pàgina per algun motiu.</p>">
+<!ENTITY generic.longDesc "<p>El &brandShortName; no ha pogut carregar aquesta pàgina per algun motiu.</p>">
 
 <!ENTITY malformedURI.title "L'adreça no és vàlida">
 <!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
      or enabling wifi connections. The text inside the tags should be localized. Do not touch the ids. -->
-<!ENTITY malformedURI.longDesc2 "<ul> <li>Les adreces web normalment s'escriuen així: <strong>http://www.exemple.com/</strong></li> <div id='searchbox'> <input id='searchtext' type='search'></input> <button id='searchbutton'>Cerca</button> </div> <li>Assegureu-vos que utilitzeu les barres inclinades (<strong>/</strong>).</li> </ul>">
+<!ENTITY malformedURI.longDesc2 "<ul> <li>Les adreces web normalment s'escriuen així: <strong>http://www.example.com/</strong></li> <div id='searchbox'> <input id='searchtext' type='search'></input> <button id='searchbutton'>Cerca</button> </div> <li>Assegureu-vos que utilitzeu les barres inclinades (<strong>/</strong>).</li> </ul>">
 
 <!ENTITY netInterrupt.title "S'ha interromput la connexió">
 <!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY notCached.title "El document ha caducat">
-<!ENTITY notCached.longDesc "<p>El document sol·licitat ja no està disponible a la memòria cau del &brandShortName;.</p><ul><li>Per precaució, el &brandShortName; no tornarà a sol·licitar automàticament els documents sensibles.</li><li>Feu clic a Prova-ho de nou per tornar a sol·licitar el document al lloc web.</li></ul>">
+<!ENTITY notCached.longDesc "<p>El document sol·licitat ja no està disponible a la memòria cau del &brandShortName;.</p><ul><li>Per precaució, el &brandShortName; no tornarà a sol·licitar automàticament els documents sensibles.</li><li>Feu clic a «Torna-ho a provar» per tornar a sol·licitar el document al lloc web.</li></ul>">
 
 <!ENTITY netOffline.title "Mode fora de línia">
 <!-- LOCALIZATION NOTE (netOffline.longDesc3) This string contains markup including widgets enabling wifi connections.
@@ -86,8 +88,8 @@
 <!ENTITY cspBlocked.title "Blocat per la política de seguretat del contingut">
 <!ENTITY cspBlocked.longDesc "<p>El &brandShortName; ha impedit que la pàgina es carregui d'aquesta manera perquè la pàgina té una política de seguretat del contingut que no ho permet.</p>">
 
-<!ENTITY corruptedContentError.title "Error de contingut malmès">
-<!ENTITY corruptedContentError.longDesc "<p>La pàgina que esteu intentant veure no es pot mostrar perquè s'ha produït un error en la transmissió de les dades.</p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Error de contingut malmès">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>La pàgina que esteu intentant veure no es pot mostrar perquè s'ha produït un error en la transmissió de les dades.</p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul>">
 
 <!ENTITY securityOverride.linkText "O bé, podeu afegir una excepció…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Treu-me d'aquí!">
@@ -112,3 +114,7 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "Informació avançada: SSL_ERROR_NO_CYPHER_OVERLAP">
+
+<!ENTITY inadequateSecurityError.title "La connexió no és segura">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->

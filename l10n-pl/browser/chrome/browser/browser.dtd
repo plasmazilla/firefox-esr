@@ -99,8 +99,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Otwórz ustawienia &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Zaloguj się ponownie do &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Zweryfikuj konto">
-<!ENTITY syncStartPanel2.heading "Włączono &syncBrand.shortName.label;">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; za moment rozpocznie synchronizację.">
 
 <!ENTITY fullScreenMinimize.tooltip "Minimalizuj">
 <!ENTITY fullScreenRestore.tooltip "Przywróć">
@@ -147,6 +145,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY recentBookmarks.label "Ostatnio dodane">
 <!ENTITY otherBookmarksCmd.label "Pozostałe zakładki">
 <!ENTITY bookmarksToolbarChevron.tooltip "Wyświetl więcej zakładek">
+<!ENTITY showRecentlyBookmarked.label "Wyświetl ostatnio dodane">
+<!ENTITY showRecentlyBookmarked.accesskey "W">
+<!ENTITY hideRecentlyBookmarked.label "Ukryj ostatnio dodane">
+<!ENTITY hideRecentlyBookmarked.accesskey "U">
 
 <!ENTITY backCmd.label "Wstecz" >
 <!ENTITY backButton.tooltip "Przejdź do poprzedniej strony" >
@@ -198,6 +200,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label "Wyświetl panel zakładek">
 <!ENTITY viewBookmarksToolbar.label         "Wyświetl pasek zakładek">
 
+<!ENTITY containersMenu.label "Kontenery">
+
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -231,14 +235,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.accesskey "P" >
 <!ENTITY newUserContext.label "Nowa karta z kontekstem">
 <!ENTITY newUserContext.accesskey "k">
-<!ENTITY userContextPersonal.label "Osobiste">
-<!ENTITY userContextPersonal.accesskey "O">
-<!ENTITY userContextWork.label "Praca">
-<!ENTITY userContextWork.accesskey "P">
-<!ENTITY userContextBanking.label "Bankowość">
-<!ENTITY userContextBanking.accesskey "B">
-<!ENTITY userContextShopping.label "Zakupy">
-<!ENTITY userContextShopping.accesskey "Z">
 <!ENTITY newNavigatorCmd.label "Nowe okno" >
 <!ENTITY newNavigatorCmd.key "N" >
 <!ENTITY newNavigatorCmd.accesskey "N" >
@@ -474,22 +470,20 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "c">
 <!ENTITY mediaUnmute.label "Włącz dźwięk">
 <!ENTITY mediaUnmute.accesskey "c">
-<!ENTITY mediaPlaybackRate.label     "Szybkość odtwarzania">
-<!ENTITY mediaPlaybackRate.accesskey "b">
-<!ENTITY mediaPlaybackRate050x.label "Zwolnione tempo (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "l">
-<!ENTITY mediaPlaybackRate100x.label "Normalna szybkość">
-<!ENTITY mediaPlaybackRate100x.accesskey "N">
-<!ENTITY mediaPlaybackRate150x.label "Wysoka szybkość (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "o">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
-movie "Space Balls" and is meant to say that this speed is very
-fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Szybkość absurdalna (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "a">
-<!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
-"Hide Controls" are the same because the two context-menu
-items are mutually exclusive. -->
+<!ENTITY mediaPlaybackRate2.label "Szybkość odtwarzania">
+<!ENTITY mediaPlaybackRate2.accesskey "S">
+<!ENTITY mediaPlaybackRate050x2.label "Zmniejszona (0,5 ×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "Z">
+<!ENTITY mediaPlaybackRate100x2.label "Normalna">
+<!ENTITY mediaPlaybackRate100x2.accesskey "N">
+<!ENTITY mediaPlaybackRate125x2.label "Zwiększona (1,25 ×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "k">
+<!ENTITY mediaPlaybackRate150x2.label "Wysoka (1,5 ×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "W">
+<!ENTITY mediaPlaybackRate200x2.label "Absurdalna (2 ×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "A">
+<!ENTITY mediaLoop.label "Zapętl">
+<!ENTITY mediaLoop.accesskey "Z">
 <!ENTITY mediaShowControls.label     "Wyświetl elementy sterujące">
 <!ENTITY mediaShowControls.accesskey "e">
 <!ENTITY mediaHideControls.label     "Ukryj elementy sterujące">
@@ -594,7 +588,7 @@ you can use these alternative items. Otherwise, their values should be empty. --
 <!ENTITY identity.connectionSecure "Zabezpieczone połączenie">
 <!ENTITY identity.connectionNotSecure "Połączenie nie jest bezpieczne">
 <!ENTITY identity.connectionFile "Strona wczytana z tego komputera">
-<!ENTITY identity.connectionVerified1 "Połączenie bezpieczne, strona prowadzona przez:">
+<!ENTITY identity.connectionVerified2 "Połączenie bezpieczne, strona:">
 <!ENTITY identity.connectionInternal "To jest strona programu &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Dane logowania wprowadzone na tej stronie nie są chronione">
 

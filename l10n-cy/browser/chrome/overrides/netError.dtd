@@ -83,8 +83,8 @@ was trying to connect. -->
 <!ENTITY cspBlocked.title "Rhwystrwyd gan Bolisi Diogelwch Cynnwys">
 <!ENTITY cspBlocked.longDesc "<p>Mae &brandShortName; wedi rhwystro'r dudalen rhag llwytho yn y ffordd yma gan fod gan y dudalen bolisi diogelwch cynnwys sy'n atal hynny.</p>">
 
-<!ENTITY corruptedContentError.title "Gwall Cynnwys Llygredig">
-<!ENTITY corruptedContentError.longDesc "<p>Nid oes modd dangos y dudalen rydych y ceisio ei gweld oherwydd bu canfuwyd gwall wrth drosglwyddo data.</p><ul><li>Cysylltwch â pherchnogion y wefan i'w hysbysu o'r anhawster.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Gwall Cynnwys Llygredig">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Nid oes modd dangos y dudalen rydych y ceisio ei gweld oherwydd bu canfuwyd gwall wrth drosglwyddo data.</p><ul><li>Cysylltwch â pherchnogion y wefan i'w hysbysu o'r anhawster.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Ychwanegu Eithriad…">
@@ -107,6 +107,10 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Uwch">
 <!ENTITY weakCryptoAdvanced.longDesc "Mae <span class='hostname'></span> yn defnyddio hen dechnoleg diogelwch sy'n fregus iawn. Gall ymosodwr ddatgelu'n hawdd fanylion roeddech yn meddwl eu bod yn ddiogel.">
 <!ENTITY weakCryptoAdvanced.override "(Ddim yn ddiogel) Ceisiwch llwytho <span class='hostname'></span> gan ddefnyddio hen offer diogelwch">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+
+<!ENTITY certerror.wrongSystemTime "<p>Nid yw cysylltiad diogel i <span id='wrongSystemTime_URL'/> yn bosib gan fod eich cloc i weld yn dangos yr amser yn anghywir.</p> <p>Mae eich cyfrifiadur yn meddwl mai <span id='wrongSystemTime_systemDate'/>, yw hi, pan ddylai fod yn <span id='wrongSystemTime_actualDate'/>. I ddatrys yr anhawster, newidiwch eich gosodiadau dyddiad ac amser i'w cydweddu â'r amser cywir.</p>">
 
 <!ENTITY certerror.pagetitle1  "Cysylltiad Anniogel">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Mae'r wefan hon yn defnyddio HTTP Strict Transport Security (HSTS) i bennu fod &brandShortName; yn unig yn cysylltu iddo'n ddiogel. O ganlyniad, nid yw'n bosib ychwanegu eithriad ar gyfer y dystysgrif hon.">
@@ -116,3 +120,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "Mae <p><span class='hostname'></span> yn defnyddio technoleg diogelwch sy'n hen ac yn agored i ymosodiad. Gall yr ymosodwr weld manylion am hyn roeddech yn meddwl ei fod yn ddiogel. Mae angen i weinyddwr y wefan drwsio'r gweinydd yn gyntaf cyn bod modd i chi ymweld â' r wefan.</p><p>Cod gwall: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Mae'n edrych fel mai eich gosodiadau diogelwch rhwydwaith sy'n achosi hyn. Hoffech chi adfer y gosodiadau rhagosodedig?">
+<!ENTITY prefReset.label "Adfer y gosodiadau rhagosodedig">

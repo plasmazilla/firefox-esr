@@ -46,7 +46,7 @@ index b18b5db..3a40cd5 100644
  #ifdef __cplusplus
  }
 diff --git a/modules/libpref/prefread.cpp b/modules/libpref/prefread.cpp
-index 7e25836..af1a011 100644
+index 605dcaa..421cc69 100644
 --- a/modules/libpref/prefread.cpp
 +++ b/modules/libpref/prefread.cpp
 @@ -43,6 +43,7 @@ enum {
@@ -57,7 +57,7 @@ index 7e25836..af1a011 100644
  static const char kPref[] = "pref";
  static const char kPrefSticky[] = "sticky_pref";
  static const char kTrue[] = "true";
-@@ -131,7 +132,7 @@ pref_DoCallback(PrefParseState *ps)
+@@ -146,7 +147,7 @@ pref_DoCallback(PrefParseState *ps)
          break;
      }
      (*ps->reader)(ps->closure, ps->lb, value, ps->vtype, ps->fdefault,
@@ -66,7 +66,7 @@ index 7e25836..af1a011 100644
      return true;
  }
  
-@@ -191,6 +192,7 @@ PREF_ParseBuf(PrefParseState *ps, const char *buf, int bufLen)
+@@ -215,6 +216,7 @@ PREF_ParseBuf(PrefParseState *ps, const char *buf, int bufLen)
                  ps->vtype = PrefType::Invalid;
                  ps->fdefault = false;
                  ps->fstickydefault = false;
@@ -74,7 +74,7 @@ index 7e25836..af1a011 100644
              }
              switch (c) {
              case '/':       /* begin comment block or line? */
-@@ -202,12 +204,15 @@ PREF_ParseBuf(PrefParseState *ps, const char *buf, int bufLen)
+@@ -226,12 +228,15 @@ PREF_ParseBuf(PrefParseState *ps, const char *buf, int bufLen)
              case 'u':       /* indicating user_pref */
              case 's':       /* indicating sticky_pref */
              case 'p':       /* indicating pref */
@@ -91,7 +91,7 @@ index 7e25836..af1a011 100644
                  }
                  ps->sindex = 1;
                  ps->nextstate = PREF_PARSE_UNTIL_OPEN_PAREN;
-@@ -252,8 +257,10 @@ PREF_ParseBuf(PrefParseState *ps, const char *buf, int bufLen)
+@@ -277,8 +282,10 @@ PREF_ParseBuf(PrefParseState *ps, const char *buf, int bufLen)
          /* name parsing */
          case PREF_PARSE_UNTIL_NAME:
              if (c == '\"' || c == '\'') {
@@ -104,7 +104,7 @@ index 7e25836..af1a011 100644
                  ps->nextstate = PREF_PARSE_UNTIL_COMMA; /* return here when done */
                  state = PREF_PARSE_QUOTED_STRING;
 diff --git a/modules/libpref/prefread.h b/modules/libpref/prefread.h
-index 5e5cd09..79a6ed2 100644
+index 2a09b30..a2dac02 100644
 --- a/modules/libpref/prefread.h
 +++ b/modules/libpref/prefread.h
 @@ -34,7 +34,8 @@ typedef void (*PrefReader)(void       *closure,
@@ -115,9 +115,9 @@ index 5e5cd09..79a6ed2 100644
 +                           bool        stickyPref,
 +                           bool        lockPref);
  
- /* structure fields are private */
- typedef struct PrefParseState {
-@@ -56,6 +57,7 @@ typedef struct PrefParseState {
+ /**
+  * Report any errors or warnings we encounter during parsing.
+@@ -62,6 +63,7 @@ typedef struct PrefParseState {
      PrefType    vtype;      /* PREF_STRING,INT,BOOL          */
      bool        fdefault;   /* true if (default) pref        */
      bool        fstickydefault; /* true if (sticky) pref     */

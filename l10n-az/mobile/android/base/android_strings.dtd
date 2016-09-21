@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY firstrun_panel_title_welcome "Xoş Gəldiniz">
-<!ENTITY  onboard_start_message3 "&brandShortName; ilə Gəz">
-<!ENTITY  onboard_start_subtext3 "Mobil internet səyahətinizi özünüzə məxsus tərzdə edin.">
 
 <!ENTITY firstrun_urlbar_message "&brandShortName; səyyahına xoş gəlmisiniz">
 <!ENTITY firstrun_urlbar_subtext "Axtarış təklifləri qısa yolları ilə hər şeyi daha sürətli tapın.">
@@ -20,20 +18,32 @@
 <!ENTITY firstrun_signin_message "Qoşul, Başla">
 <!ENTITY firstrun_signin_button "Sync-ə Daxil ol">
 <!ENTITY  onboard_start_button_browser "Səyahətə Başla">
+<!ENTITY firstrun_button_notnow "İndi deyil">
 <!ENTITY firstrun_button_next "İrəli">
 
-<!ENTITY  onboard_start_restricted1 "Sadələşdirilmiş &brandShortName; versiyası ilə təhlükəsiz və idarədə qalın.">
+<!ENTITY firstrun_tabqueue_title "Keçidlər">
+<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "Vərəq sırasını aç">
+<!ENTITY firstrun_tabqueue_subtext_off "Keçidlərə digər tətbiqlərdə basdıqda daha sonrası üçün onları &brandShortName; səyyahında saxla.">
 
-<!ENTITY  reading_list_migration_title "Oxuma Siyahısı qoşuldu">
-<!ENTITY  reading_list_migration_subtext "Oxuma Siyahınızda olanlar artıq Əlfəcinlərinizə əlavə ediləcək">
-<!ENTITY  reading_list_migration_goto_bookmarks "Əlfəcinlərə Get">
-<!ENTITY  reading_list_migration_bookmarks_hidden "Əlfəcinlər paneliniz gizlidir">
+<!ENTITY firstrun_tabqueue_message_on "Uğurlu!">
+<!ENTITY firstrun_tabqueue_subtext_on "Bunu istədiyiniz vaxt &settings; &pref_category_general; altından söndürə bilərsiz.">
+
+<!ENTITY firstrun_readerview_title "Məqalələr">
+<!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+<!ENTITY firstrun_readerview_message "Qarışıqlıqdan azad ol">
+<!ENTITY firstrun_readerview_subtext "Oxuma Görünüşü ilə məqalələri oflayn olduqda belə rahat oxuyun.">
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+
+<!ENTITY firstrun_account_title "Siz">
+<!ENTITY firstrun_account_message "Digər cihazınızda &brandShortName; var?">
+
+<!ENTITY  onboard_start_restricted1 "Sadələşdirilmiş &brandShortName; versiyası ilə təhlükəsiz və idarədə qalın.">
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
 
 <!ENTITY  bookmarks_title "Əlfəcinlər">
 <!ENTITY  history_title "Tarixçə">
-<!ENTITY  reading_list_title "Oxuma Siyahısı">
 <!ENTITY  recent_tabs_title "Son Vərəqlər">
 
 <!ENTITY  switch_to_tab "Vərəqə keç">
@@ -69,6 +79,11 @@
      and is labeled by this String. -->
 <!ENTITY screenshot_folder_label_in_bookmarks "Ekran Görüntüləri">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "Oxuma Siyahısı">
+<!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
+     in the folder. -->
+
+<!ENTITY bookmark_folder_items "&formatD; element">
+<!ENTITY bookmark_folder_one_item "1 element">
 
 <!ENTITY reader_saved_offline "Oflayn Saxlanılıb">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -174,6 +189,9 @@
      it is applicable. -->
 <!ENTITY pref_search_hint2 "MƏSLƏHƏT: Hər-hansı bir saytı axtarış mühərrikləriniz siyahısına əlavə etmək üçün onun axtarış yerinə basılı tutun və daha sonra &formatI; ikonuna basın.">
 <!ENTITY pref_category_advanced "Təkmilləşmiş">
+<!-- Localization note (pref_category_advanced_summary3): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 <!ENTITY pref_category_advanced_summary3 "Vərəqləri bərpa et, məlumat saxlayıcısı, tərtibatçı alətləri">
 <!ENTITY pref_category_notifications "Bildirişlər">
 <!ENTITY pref_category_notifications_summary "Yeni özəlliklər, sayt yeniləmələri">
@@ -224,6 +242,9 @@
 <!ENTITY pref_cookies_accept_all "Aktiv">
 <!ENTITY pref_cookies_not_accept_foreign "Aktivdir, 3-cü tərəf xaric">
 <!ENTITY pref_cookies_disabled "Söndürülüb">
+<!-- Localization note (pref_category_data_saver): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 
 <!ENTITY pref_category_data_saver "Məlumat saxlayıcısı">
 <!ENTITY pref_category_media "Media">
@@ -287,7 +308,12 @@
      update the website title is used instead of this string.
      We can't use Android plural forms, sadly. See Bug #753859. -->
 <!ENTITY content_notification_title_plural "&formatD; sayt yenilənib">
-<!ENTITY content_notification_action_settings "Bildirişlər Tənzimləməsi">
+<!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
+     Clicking the action will jump to the notification settings of the app. -->
+<!ENTITY content_notification_action_settings2 "Tənzimləmələr">
+<!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
+     Clicking the action will open all new content in the browser. -->
+<!ENTITY content_notification_action_read_now "İndi oxu">
 <!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
      date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
      documentation for DateFormat.getMediumDateFormat(). -->
@@ -353,7 +379,7 @@ size. -->
 <!ENTITY pref_private_data_offlineApps "Offline sayt məlumatları">
 <!ENTITY pref_private_data_siteSettings2 "Sayt tənzimləmələri">
 <!ENTITY pref_private_data_downloadFiles2 "Endirilənlər">
-<!ENTITY pref_private_data_syncedTabs "Sinxronlaşdırılmış vərəqlər">
+<!ENTITY pref_private_data_syncedTabs "Sinxron vərəqlər">
 
 <!ENTITY pref_default_browser "Əsas səyyah et">
 <!ENTITY pref_about_firefox "&brandShortName; haqqında">
@@ -538,9 +564,11 @@ size. -->
 <!ENTITY home_history_title "Tarixçə">
 <!ENTITY home_synced_devices_smartfolder "Sinxronlaşdırılmış cihazlar">
 <!ENTITY home_synced_devices_number "&formatD; cihaz">
+<!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
+<!ENTITY home_synced_devices_one "1 cihaz">
 <!ENTITY home_history_back_to2 "Bütün Tarixçəyə geri dön">
-<!ENTITY home_clear_history_button "Səyahət keçmişini təmizlə">
-<!ENTITY home_clear_history_confirm "Keçmişi təmizləmək istədiyinizə əminsiniz?">
+<!ENTITY home_clear_history_button "Səyahət tarixçəsini təmizlə">
+<!ENTITY home_clear_history_confirm "Tarixçəni təmizləmək istədiyinizə əminsiniz?">
 <!ENTITY home_bookmarks_empty "Saxladığınız əlfəcinlər burada görünür.">
 <!ENTITY home_closed_tabs_title "Son qapatılan vərəqlər">
 <!ENTITY home_last_tabs_title "Son ziyarətdəki vərəqlər">
@@ -777,3 +805,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_first_offline_bookmark_title "Oflayn oxu">
 <!ENTITY helper_first_offline_bookmark_message "Oxuma Görünüşü elementlərinizi Əlfəcinlərdə tapın, hətta oflaynda belə.">
 <!ENTITY helper_first_offline_bookmark_button "Əlfəcinlərə Get">
+
+<!ENTITY helper_triple_readerview_open_title "Oflayn əlçatandır">
+<!ENTITY helper_triple_readerview_open_message "Oxuma Görünüşündəki məqalələri əlfəcinləyin və daha sonra oflayn oxuyun.">
+<!ENTITY helper_triple_readerview_open_button "Əlfəcinlərə Get">
+

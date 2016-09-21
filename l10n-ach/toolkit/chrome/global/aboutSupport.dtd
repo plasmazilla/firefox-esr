@@ -52,6 +52,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "Lukony Lutic kwede">
 
 <!ENTITY aboutSupport.appBasicsMemoryUse "Tic pa Lapo wic">
+
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers ma kicoyo">
@@ -84,6 +85,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "Cal">
 
+
+
+
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "GC ma kimedo">
 
@@ -103,3 +107,11 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Tem kit maber">
 <!ENTITY aboutSupport.restartInSafeMode.label "Cak odoco ma nongo kijuko med-ikome…">
+
+
+
+
+
+
+
+

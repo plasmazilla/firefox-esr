@@ -10,10 +10,10 @@
 <!ENTITY certmgr.tab.ca                       "Autoridades">
 <!ENTITY certmgr.tab.orphan2                  "Otros">
 
-<!ENTITY certmgr.mine                         "Usted tiene certificados de estas organizaciones que le identifican:">
-<!ENTITY certmgr.others                       "Usted tiene certificados que identifican a las siguientes personas:">
-<!ENTITY certmgr.websites2                    "Usted tiene certificados en archivo que identifican estos servidores:">
-<!ENTITY certmgr.cas                          "Usted tiene certificados que identifican a las siguientes autoridades:">
+<!ENTITY certmgr.mine                         "Tiene certificados de estas organizaciones que te identifican:">
+<!ENTITY certmgr.others                       "Tienes certificados que identifican a las siguientes personas:">
+<!ENTITY certmgr.websites2                    "Tienes certificados en archivo que identifican estos servidores:">
+<!ENTITY certmgr.cas                          "Tienes certificados que identifican a las siguientes autoridades:">
 <!ENTITY certmgr.orphans                      "Tiene certificados en el archivo que no calzan en las otras categorías:">
 
 <!ENTITY certmgr.detail.general_tab.title     "General">
@@ -30,7 +30,7 @@
 <!ENTITY certmgr.certdetail.cn                "Nombre común (CN)">
 <!ENTITY certmgr.certdetail.o                 "Organización (O)">
 <!ENTITY certmgr.certdetail.ou                "Unidad Organizacional (UO)">
-<!ENTITY certmgr.certdetail.serialnumber      "Número de Serie">
+<!ENTITY certmgr.certdetail.serialnumber      "Número de serie">
 <!ENTITY certmgr.certdetail.sha256fingerprint "Huella digital SHA-256">
 <!ENTITY certmgr.certdetail.sha1fingerprint   "Huella digital SHA1">
 
@@ -49,7 +49,7 @@
 <!ENTITY certmgr.begins                       "Empieza el">
 <!ENTITY certmgr.expires                      "Vence el">
 <!ENTITY certmgr.email                        "Email">
-<!ENTITY certmgr.serial                       "Número de Serie">
+<!ENTITY certmgr.serial                       "Número de serie">
 
 <!ENTITY certmgr.close.label                  "Cerrar">
 <!ENTITY certmgr.close.accesskey              "C">
@@ -63,7 +63,7 @@
 <!ENTITY certmgr.delete2.accesskey            "E">
 <!ENTITY certmgr.delete_builtin.label         "Borrar o desconfiar…">
 <!ENTITY certmgr.delete_builtin.accesskey     "B">
-<!ENTITY certmgr.backup2.label                "Hacer un Respaldo…">
+<!ENTITY certmgr.backup2.label                "Hacer un respaldo…">
 <!ENTITY certmgr.backup2.accesskey            "H">
 <!ENTITY certmgr.backupall2.label             "Respaldar Todo…">
 <!ENTITY certmgr.backupall2.accesskey         "R">
@@ -75,10 +75,10 @@
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "Jerarquía de Certificado">
 <!ENTITY certmgr.hierarchy.accesskey2         "H">
-<!ENTITY certmgr.addException.label           "Añadir Excepción…">
+<!ENTITY certmgr.addException.label           "Añadir excepción…">
 <!ENTITY certmgr.addException.accesskey       "x">
 
-<!ENTITY exceptionMgr.title                   "Agregar Excepción de Seguridad">
+<!ENTITY exceptionMgr.title                   "Añadir Excepción de Seguridad">
 <!ENTITY exceptionMgr.exceptionButton.label   "Confirmar excepción de seguridad">
 <!ENTITY exceptionMgr.exceptionButton.accesskey "C">
 <!ENTITY exceptionMgr.supplementalWarning     "Los bancos, tiendas y otros sitios públicos legítimos no le pedirán hacer esto.">

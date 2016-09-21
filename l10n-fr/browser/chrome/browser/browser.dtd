@@ -112,8 +112,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Ouvrir les préférences de &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Se reconnecter à &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Confirmer votre compte">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; activé">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; débutera la synchronisation dans un instant.">
 
 <!ENTITY fullScreenMinimize.tooltip "Réduire">
 <!ENTITY fullScreenRestore.tooltip "Restaurer">
@@ -171,6 +169,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY recentBookmarks.label "Marqués récemment">
 <!ENTITY otherBookmarksCmd.label "Autres marque-pages">
 <!ENTITY bookmarksToolbarChevron.tooltip "Afficher plus de marque-pages">
+<!ENTITY showRecentlyBookmarked.label     "Afficher les marque-pages récents">
+<!ENTITY showRecentlyBookmarked.accesskey "f">
+<!ENTITY hideRecentlyBookmarked.label     "Masquer les marque-pages récents">
+<!ENTITY hideRecentlyBookmarked.accesskey "M">
+
 
 <!ENTITY backCmd.label                "Page précédente">
 <!ENTITY backButton.tooltip           "Reculer d’une page">
@@ -228,6 +231,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "Afficher panneau des marque-pages">
 <!ENTITY viewBookmarksToolbar.label         "Afficher la barre personnelle">
 
+<!ENTITY containersMenu.label "Conteneurs">
+
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -260,14 +265,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.accesskey       "F">
 <!ENTITY newUserContext.label             "Nouvel onglet conteneur">
 <!ENTITY newUserContext.accesskey         "c">
-<!ENTITY userContextPersonal.label        "Personnel">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Professionnel">
-<!ENTITY userContextWork.accesskey        "r">
-<!ENTITY userContextBanking.label         "Bancaire">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Achats en ligne">
-<!ENTITY userContextShopping.accesskey    "h">
 <!ENTITY newNavigatorCmd.label        "&#xad;Nouvelle fenêtre">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "u">
@@ -555,19 +552,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "u">
 <!ENTITY mediaUnmute.label           "Audible">
 <!ENTITY mediaUnmute.accesskey       "u">
-<!ENTITY mediaPlaybackRate.label     "Vitesse de lecture">
-<!ENTITY mediaPlaybackRate.accesskey "d">
-<!ENTITY mediaPlaybackRate050x.label "Au ralenti (×0,5)">
-<!ENTITY mediaPlaybackRate050x.accesskey "A">
-<!ENTITY mediaPlaybackRate100x.label "Vitesse normale">
-<!ENTITY mediaPlaybackRate100x.accesskey "n">
-<!ENTITY mediaPlaybackRate150x.label "Vitesse rapide (×1,5)">
-<!ENTITY mediaPlaybackRate150x.accesskey "r">
+<!ENTITY mediaPlaybackRate2.label     "Vitesse de lecture">
+<!ENTITY mediaPlaybackRate2.accesskey "d">
+<!ENTITY mediaPlaybackRate050x2.label "Lente (×0,5)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "L">
+<!ENTITY mediaPlaybackRate100x2.label "Normale">
+<!ENTITY mediaPlaybackRate100x2.accesskey "N">
+<!ENTITY mediaPlaybackRate125x2.label "Rapide (×1,25)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "R">
+<!ENTITY mediaPlaybackRate150x2.label "Très rapide (×1,5)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "T">
 <!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Vitesse démesurée (×2)">
-<!ENTITY mediaPlaybackRate200x.accesskey "d">
+<!ENTITY mediaPlaybackRate200x2.label "Démesurée (×2)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "D">
+<!ENTITY mediaLoop.label             "Lire en boucle">
+<!ENTITY mediaLoop.accesskey         "i">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -676,7 +677,7 @@ you can use these alternative items. Otherwise, their values should be empty.
 <!ENTITY identity.connectionSecure "Connexion sécurisée">
 <!ENTITY identity.connectionNotSecure "Connexion non sécurisée">
 <!ENTITY identity.connectionFile "Cette page est stockée sur votre ordinateur.">
-<!ENTITY identity.connectionVerified1 "Vous êtes connecté de façon sécurisée à ce site, dont le détenteur est :">
+<!ENTITY identity.connectionVerified2 "Vous êtes connecté de façon sécurisée à ce site, dont le détenteur est :">
 <!ENTITY identity.connectionInternal "Ceci est une page sécurisée de &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Les identifiants saisis sur cette page pourraient être compromis.">
 

@@ -125,7 +125,7 @@
 
 <!ENTITY discover.title                       "Eklenti nedir?">
 <!ENTITY discover.description2                "Eklentiler ek işlev ve biçimlerle &brandShortName; uygulamanızı kişiselleştirmenizi sağlayan uygulamalardır. Size zaman kazandıracak bir araç çubuğunu, hava durumu habercisini veya &brandShortName; uygulamasının istediğiniz gibi görünmesini sağlayacak bir temayı deneyin.">
-<!ENTITY discover.footer                      "İnternete bağlı olduğunuzda bu bölümde denemeniz için en çok tutulan eklentilerden bazıları öne çıkarılacak.">
+<!ENTITY discover.footer                      "İnternete bağlı olduğunuzda bu bölümde denemeniz için en iyi ve en popüler eklentilerden bazıları öne çıkarılacak.">
 <!-- detail view -->
 
 <!ENTITY detail.version.label                 "Sürüm">

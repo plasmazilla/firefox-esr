@@ -59,8 +59,6 @@
 <!ENTITY updateCheck.accesskey           "C">
 <!ENTITY updateManual.label              "កុំ​​ពិនិត្យមើល​​បច្ចុប្បន្នភាព (មិន​ត្រូវ​បាន​ផ្ដល់​អនុសាសន៍ ៖ ហានិភ័យ​សុវត្ថិភាព)">
 <!ENTITY updateManual.accesskey          "ក">
-<!ENTITY updateAutoAddonWarn.label       "Warn me if this will disable any of my add-ons">
-<!ENTITY updateAutoAddonWarn.accesskey   "W">
 <!ENTITY updateHistory.label             "បង្ហាញ​ប្រវត្តិ​បច្ចុប្បន្នភាព">
 <!ENTITY updateHistory.accesskey         "p">
 
@@ -103,7 +101,6 @@
 <!ENTITY enableOCSP.label                "ម៉ាស៊ីនមេ​​ឆ្លើយតប OCSP ដើម្បី​បញ្ជាក់​ភាព​ត្រឹមត្រូវ​របស់វិញ្ញាបនបត្រ​បច្ចុប្បន្ន">
 <!ENTITY enableOCSP.accesskey            "ម">
 
-<!ENTITY viewCertificates.label         "View Certificates">
-<!ENTITY viewCertificates.accesskey     "C">
-<!ENTITY viewSecurityDevices.label      "ឧបករណ៍​សុវត្ថិភាព">
-<!ENTITY viewSecurityDevices.accesskey  "D">
+
+<!ENTITY viewSecurityDevices.label "ឧបករណ៍​សុវត្ថិភាព">
+<!ENTITY viewSecurityDevices.accesskey "D">

@@ -8,8 +8,8 @@
 <!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful -->
 <!ENTITY aboutWarningTitle.label "HIC SUNT DRACONES">
 <!ENTITY aboutWarningText.label "A modificação destas configurações avançadas pode prejudicar a estabilidade, a segurança e o desempenho deste aplicativo. Continue somente se estiver seguro do que for fazer.">
-<!ENTITY aboutWarningButton.label "Serei cuidadoso, prometo!">
-<!ENTITY aboutWarningCheckbox.label "Sempre exibir este alerta">
+<!ENTITY aboutWarningButton2.label "Eu aceito o risco!">
+<!ENTITY aboutWarningCheckbox.label "Mostrar este aviso de novo">
 
 <!ENTITY searchPrefs.label "Localizar:">
 <!ENTITY searchPrefs.accesskey "o">

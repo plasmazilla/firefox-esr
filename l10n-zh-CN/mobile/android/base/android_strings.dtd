@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY firstrun_panel_title_welcome "欢迎使用">
-<!ENTITY  onboard_start_message3 "使用 &brandShortName; 浏览">
-<!ENTITY  onboard_start_subtext3 "让移动互联网浏览体验有你的风格。">
 
 <!ENTITY firstrun_urlbar_message "欢迎使用 &brandShortName;">
 <!ENTITY firstrun_urlbar_subtext "搜索建议更加好用，找东西得心应手 。">
@@ -18,28 +16,40 @@
 <!ENTITY firstrun_sync_message "&brandShortName;，始终伴您左右">
 <!ENTITY firstrun_sync_subtext "随处同步您的标签页、密码等信息，个性体验如影随形。">
 <!ENTITY firstrun_signin_message "互联设备，即刻畅游">
-<!ENTITY firstrun_signin_button "登录以同步">
+<!ENTITY firstrun_signin_button "登录并同步">
 <!ENTITY  onboard_start_button_browser "开始浏览">
+<!ENTITY firstrun_button_notnow "暂时不要">
 <!ENTITY firstrun_button_next "下一步">
 
-<!ENTITY  onboard_start_restricted1 "使用简化的 &brandShortName; 版本，确保安全和可控。">
+<!ENTITY firstrun_tabqueue_title "链接">
+<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "开启标签页队列">
+<!ENTITY firstrun_tabqueue_subtext_off "在其他应用中点击链接时，先保存链接，稍后再于 &brandShortName; 中阅读。">
 
-<!ENTITY  reading_list_migration_title "阅读列表已与书签连通">
-<!ENTITY  reading_list_migration_subtext "您在“阅读列表”添加的项目现在将添加到您的书签">
-<!ENTITY  reading_list_migration_goto_bookmarks "转至书签">
-<!ENTITY  reading_list_migration_bookmarks_hidden "您的书签面板已隐藏">
+<!ENTITY firstrun_tabqueue_message_on "成功！">
+<!ENTITY firstrun_tabqueue_subtext_on "您随时可以在 &settings; 中的 &pref_category_general; 下面关闭此功能。">
+
+<!ENTITY firstrun_readerview_title "文章">
+<!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+<!ENTITY firstrun_readerview_message "干净无扰">
+<!ENTITY firstrun_readerview_subtext "在阅读视图中更清爽地阅读文章， \u2014 没网也不怕。">
+
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+<!ENTITY firstrun_account_title "您">
+<!ENTITY firstrun_account_message "在另一台设备上安装了 &brandShortName;？">
+
+<!ENTITY  onboard_start_restricted1 "使用简化的 &brandShortName; 版本，确保安全和可控。">
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "书签">
 <!ENTITY  history_title "历史记录">
-<!ENTITY  reading_list_title "阅读列表">
 <!ENTITY  recent_tabs_title "最近的标签页">
 
 <!ENTITY  switch_to_tab "切换到标签页">
 
 <!ENTITY  crash_reporter_title "&brandShortName; 崩溃报告器">
-<!ENTITY  crash_message2 "&brandShortName; 因某个问题而崩溃。您的标签页将在下次启动的 &brandShortName; 开始页中列出。">
+<!ENTITY  crash_message2 "&brandShortName; 因某个问题而崩溃。下次启动 &brandShortName; 时，您的标签页将在开始页中列出。">
 <!ENTITY  crash_send_report_message3 "告知 &vendorShortName; 有关此次崩溃的情况，以便修复此问题">
 <!ENTITY  crash_include_url2 "包含当时访问页面的地址">
 <!ENTITY  crash_sorry "非常抱歉">
@@ -69,6 +79,11 @@
      and is labeled by this String. -->
 <!ENTITY screenshot_folder_label_in_bookmarks "屏幕截图">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "阅读列表">
+
+<!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
+     in the folder. -->
+<!ENTITY bookmark_folder_items "&formatD; 项">
+<!ENTITY bookmark_folder_one_item "1 项">
 
 <!ENTITY reader_saved_offline "已离线保存">
 <!-- Localization note (reader_switch_to_bookmarks) : This
@@ -174,6 +189,9 @@
      it is applicable. -->
 <!ENTITY pref_search_hint2 "提示：您可以长按任何网站的搜索框，然后点击 &formatI; 图标，将网站添加到您的搜索提供商列表。">
 <!ENTITY pref_category_advanced "高级">
+<!-- Localization note (pref_category_advanced_summary3): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 <!ENTITY pref_category_advanced_summary3 "恢复标签页、节省流量、开发者工具">
 <!ENTITY pref_category_notifications "通知">
 <!ENTITY pref_category_notifications_summary "新功能、网站更新">
@@ -225,6 +243,9 @@
 <!ENTITY pref_cookies_not_accept_foreign "启用，第三方 Cookie 除外">
 <!ENTITY pref_cookies_disabled "禁用">
 
+<!-- Localization note (pref_category_data_saver): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 <!ENTITY pref_category_data_saver "节省流量">
 <!ENTITY pref_category_media "媒体">
 <!ENTITY pref_category_developer_tools "开发者工具">
@@ -287,7 +308,12 @@
      update the website title is used instead of this string.
      We can't use Android plural forms, sadly. See Bug #753859. -->
 <!ENTITY content_notification_title_plural "&formatD; 网站已更新">
-<!ENTITY content_notification_action_settings "通知设置">
+<!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
+     Clicking the action will jump to the notification settings of the app. -->
+<!ENTITY content_notification_action_settings2 "设置">
+<!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
+     Clicking the action will open all new content in the browser. -->
+<!ENTITY content_notification_action_read_now "现在阅读">
 <!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
      date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
      documentation for DateFormat.getMediumDateFormat(). -->
@@ -454,7 +480,7 @@ size. -->
 <!ENTITY contextmenu_remove "移除">
 <!ENTITY contextmenu_add_to_launcher "添加到主屏幕">
 <!ENTITY contextmenu_share "共享">
-<!ENTITY contextmenu_pasteandgo "粘贴并转到">
+<!ENTITY contextmenu_pasteandgo "粘贴并访问">
 <!ENTITY contextmenu_paste "粘贴">
 <!ENTITY contextmenu_copyurl "复制地址">
 <!ENTITY contextmenu_edit_bookmark "编辑">
@@ -537,7 +563,9 @@ size. -->
 <!ENTITY home_title "&brandShortName; 首页">
 <!ENTITY home_history_title "历史记录">
 <!ENTITY home_synced_devices_smartfolder "受同步的设备">
-<!ENTITY home_synced_devices_number "&formatD; 设备">
+<!ENTITY home_synced_devices_number "&formatD; 台设备">
+<!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
+<!ENTITY home_synced_devices_one "1 台设备">
 <!ENTITY home_history_back_to2 "返回完整历史记录">
 <!ENTITY home_clear_history_button "清除浏览历史记录">
 <!ENTITY home_clear_history_confirm "您确定要清除您的历史记录吗？">
@@ -563,13 +591,13 @@ size. -->
      formatD is replaced with the number of hidden devices.  The
      number of hidden devices is always more than one.  We can't use
      Android plural forms, sadly. See Bug #753859. -->
-<!ENTITY home_remote_tabs_many_hidden_devices "&formatD; 个隐藏的设备">
+<!ENTITY home_remote_tabs_many_hidden_devices "&formatD; 台隐藏的设备">
 <!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
      title of a dialog; we expect more than one device. -->
 <!ENTITY home_remote_tabs_hidden_devices_title "隐藏的设备">
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
-<!ENTITY home_remote_tabs_unhide_selected_devices "取消隐藏选中设备">
+<!ENTITY home_remote_tabs_unhide_selected_devices "不再隐藏选中的设备">
 
 <!ENTITY remote_tabs_panel_moved_title "我的标签页去哪了？">
 <!ENTITY remote_tabs_panel_moved_desc "我们已经从其他设备转移了您的标签页到您的首页上的一个面板，这让您可以轻松地在每次打开新标签页时访问它们。">
@@ -601,8 +629,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_chromeui "这是一个安全的 &brandShortName; 页面">
 
 <!-- Mixed content notifications in site identity popup -->
-<!ENTITY mixed_content_blocked_all1 "&brandShortName; 已拦截此页面上的不安全内容。">
-<!ENTITY mixed_content_blocked_some1 "&brandShortName; 已拦截此页面上的部分不安全内容。">
+<!ENTITY mixed_content_blocked_all1 "&brandShortName; 已拦截此页面上不安全的内容。">
+<!ENTITY mixed_content_blocked_some1 "&brandShortName; 已拦截此页面上部分不安全的内容。">
 <!ENTITY mixed_content_display_loaded1 "此页面的部分不安全的内容（例如图像）。">
 <!ENTITY mixed_content_protection_disabled1 "您已禁用对不安全内容的拦截。">
 
@@ -729,7 +757,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      code has already been displayed by the client trying to connect (such as
      desktop Firefox via WebIDE), so you just need to aim this device at the QR
      code. -->
-<!ENTITY devtools_auth_scan_header "扫描您的其他设备上显示的二维码">
+<!ENTITY devtools_auth_scan_header "扫描另一台设备上显示的二维码">
 
 <!-- Restrictable features -->
 <!-- Localization note: These are features the device owner (e.g. parent) can enable or disable for
@@ -777,3 +805,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_first_offline_bookmark_title "离线阅读">
 <!ENTITY helper_first_offline_bookmark_message "在您的书签中打开您的阅读项目，离线也不怕。">
 <!ENTITY helper_first_offline_bookmark_button "转至书签">
+
+<!ENTITY helper_triple_readerview_open_title "没网也能读">
+<!ENTITY helper_triple_readerview_open_message "加入书签的阅读视图项目可以离线阅读。">
+<!ENTITY helper_triple_readerview_open_button "添加书签">
+

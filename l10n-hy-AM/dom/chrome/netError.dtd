@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Ֆայլը չի գտնվել">
 <!ENTITY fileNotFound.longDesc "<ul><li>Կարո՞ղ է նշված բանը վերանվանվել կամ տեղափոխվել է:</li><li>Արդյո՞ք ուղղագրական, մեծ փոքրատառ կամ այլ տպելասխալ կա հասցեում:</li><li>Արդյո՞ք բավական իրավասություն ունեք նշված բանի վերաբերյալ</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Մատչումը ֆայլին մերժված է">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Հնարավոր է՝ այն հեռացվել է, տեղափոխվել կամ ֆայլի թույլտվությունները կանխում են մուտքը:</li></ul>">
+
 <!ENTITY generic.title "Անհնար է Հարցումն Ավարտել">
 <!ENTITY generic.longDesc "<p>Այս խնդրի կամ սխալի մասին հավելյալ տեղեկություններ առայժմ առկա չեն:</p>">
 
@@ -73,8 +76,13 @@
 <!ENTITY cspBlocked.title "Արգելափակվել է Կոնտենտի Անվտանգության Քաղաքականության կողմից">
 <!ENTITY cspBlocked.longDesc "<p>Դիտարկիչը կանխել է այս էջի բացումը, քանզի էջը պարունակում է անվտանգության քաղաքականությունը մերժող բովանդակություն։</p>">
 
-<!ENTITY corruptedContentError.title "Բովանդակությունը վնասված է">
-<!ENTITY corruptedContentError.longDesc "<p>Ընթացիկ էջը չի կարող ցուցադրվել, քանզի տեղի է ունեցնել փոխանցման սխալ։</p><ul><li>Կապնվեք վեբ կայիք հեղինակների հետ՝ նրանց այս մասին հաղորդելու համար։</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Բովանդակությունը վնասված է">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Ընթացիկ էջը չի կարող ցուցադրվել, քանզի տեղի է ունեցնել փոխանցման սխալ։</p><ul><li>Կապնվեք վեբ կայիք հեղինակների հետ՝ նրանց այս մասին հաղորդելու համար։</li></ul>">
 
 <!ENTITY remoteXUL.title "Հեռավոր XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Խնդրում ենք, կապնվեք վեբ կայքի սեփականատերերի հետ` այս խնդրի մասին տեղեկացնելու համար:</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Կապակցումն անվտանգ չէ">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> օգտագործում է անվտանգ տեխնոլոգիա, որը հնացած է և խոցելի՝ հարձակումների համար: Հարձակվողը կարող է հեշտությամբ հայտնաբերել տեղեկություններ, որոնք ձեր կարծիքով ապահով են: Կայքի վարիչը պետք է նախ ուղղի սպասարկիչը, որպեսզի կարողանաք այցելել կայքը:</p><p>Սխալի կոդը՝ NS_ERROR_NET_INADEQUATE_SECURITY</p>">

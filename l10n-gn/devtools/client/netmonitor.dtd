@@ -8,13 +8,14 @@
   - You want to make that choice consistent across the developer tools.
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
-<!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
+<!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2/3): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
 
 
 
 <!ENTITY netmonitorUI.perfNotice1         "• Ejopy pe votõme">
 <!ENTITY netmonitorUI.perfNotice2         "emoñepyrũ hag̃ua ehesa'ỹijo apopyre.">
+<!ENTITY netmonitorUI.perfNotice3         "Tesa'ỹijo">
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
 
@@ -37,6 +38,10 @@
   -  in the network table toolbar, above the "domain" column. -->
 
 <!ENTITY netmonitorUI.toolbar.domain      "Tendatee">
+<!-- LOCALIZATION NOTE (netmonitorUI.toolbar.cause): This is the label displayed
+  -  in the network table toolbar, above the "cause" column. -->
+
+<!ENTITY netmonitorUI.toolbar.cause        "Mba'ére">
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.type): This is the label displayed
   -  in the network table toolbar, above the "type" column. -->
 
@@ -119,6 +124,10 @@
   -  in the network details footer for the "Flash" filtering button. -->
 
 <!ENTITY netmonitorUI.footer.filterFlash  "Mba'erendy">
+<!-- LOCALIZATION NOTE (netmonitorUI.footer.filterWS): This is the label displayed
+  -  in the network details footer for the "WS" filtering button. -->
+
+<!ENTITY netmonitorUI.footer.filterWS  "WS">
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.filterOther): This is the label displayed
   -  in the network details footer for the "Other" filtering button. -->
 
@@ -135,7 +144,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.clear): This is the label displayed
   -  in the network details footer for the performance analysis button. -->
 
-<!ENTITY netmonitorUI.footer.perf   "Myandy/mbogue apopyre ñehesa'ỹijo…">
+<!ENTITY netmonitorUI.footer.perf   "Myendy/monge apopyre ñehesa'ỹijo…">
 <!-- LOCALIZATION NOTE (netmonitorUI.panesButton.tooltip): This is the tooltip for
   -  the button that toggles the panes visible or hidden in the netmonitor UI. -->
 
@@ -250,7 +259,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrlParams): This is the label displayed
   -  on the context menu that copies the selected request's url parameters -->
 
-<!ENTITY netmonitorUI.context.copyUrlParams     "URL monguatia rehegua">
+<!ENTITY netmonitorUI.context.copyUrlParams     "URL rehegua mbohasarã">
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyUrlParams.accesskey): This is the access key
   -  for the Copy URL Parameters menu item displayed in the context menu for a request -->
 
@@ -258,7 +267,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyPostData): This is the label displayed
   -  on the context menu that copies the selected request's post data -->
 
-<!ENTITY netmonitorUI.context.copyPostData     "POST mba'ekuaarã monguatia">
+<!ENTITY netmonitorUI.context.copyPostData     "POST mba'ekuaarã mbohasarã">
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyPostData.accesskey): This is the access key
   -  for the Copy POST Data menu item displayed in the context menu for a request -->
 
@@ -276,7 +285,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyRequestHeaders): This is the label displayed
   -  on the context menu that copies the selected item's request headers -->
 
-<!ENTITY netmonitorUI.context.copyRequestHeaders     "Ejerure myakãha monguatia">
+<!ENTITY netmonitorUI.context.copyRequestHeaders     "Jerure myakãha mbohasarã">
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyRequestHeaders.accesskey): This is the access key
   -  for the Copy Request Headers menu item displayed in the context menu for a request -->
 
@@ -284,7 +293,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyResponseHeaders): This is the label displayed
   -  on the context menu that copies the selected item's response headers -->
 
-<!ENTITY netmonitorUI.context.copyResponseHeaders     "Ñembohovái myakãha monguatia">
+<!ENTITY netmonitorUI.context.copyResponseHeaders     "Ñembohovái myakãha mbohasarã">
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyResponseHeaders.accesskey): This is the access key
   -  for the Copy Response Headers menu item displayed in the context menu for a response -->
 
@@ -292,7 +301,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyResponse): This is the label displayed
   -  on the context menu that copies the selected response as a string -->
 
-<!ENTITY netmonitorUI.context.copyResponse "Emonguatia mbohovái">
+<!ENTITY netmonitorUI.context.copyResponse "Mbohovái mbohasarã">
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyRespose.accesskey): This is the access key
   -  for the Copy Response menu item displayed in the context menu for a request -->
 
@@ -300,7 +309,7 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri): This is the label displayed
   -  on the context menu that copies the selected image as data uri -->
 
-<!ENTITY netmonitorUI.context.copyImageAsDataUri "Mba'era'ãnga mbohasarã mba'ekuaarã rehegua URI-ramo">
+<!ENTITY netmonitorUI.context.copyImageAsDataUri "Mba'era'ãnga mbohasarã URI mba'ekuaarãramo">
 <!-- LOCALIZATION NOTE (netmonitorUI.context.copyImageAsDataUri.accesskey): This is the access key
   -  for the Copy Image As Data URI menu item displayed in the context menu for a request -->
 

@@ -152,10 +152,10 @@
 <!ENTITY detail.checkForUpdates.tooltip       "Provjeri dostupnost dopuna za ovaj dodatak">
 <!ENTITY detail.showPreferencesWin.label      "Mogućnosti">
 <!ENTITY detail.showPreferencesWin.accesskey  "o">
-<!ENTITY detail.showPreferencesWin.tooltip    "Promijenite mogućnosti ovog dodatka">
+<!ENTITY detail.showPreferencesWin.tooltip    "Promijeni mogućnosti ovog dodatka">
 <!ENTITY detail.showPreferencesUnix.label     "Osobitosti">
 <!ENTITY detail.showPreferencesUnix.accesskey "t">
-<!ENTITY detail.showPreferencesUnix.tooltip   "Promijenite osobitosti ovog dodatka">
+<!ENTITY detail.showPreferencesUnix.tooltip   "Promijeni osobitosti ovog dodatka">
 <!-- ratings -->
 
 

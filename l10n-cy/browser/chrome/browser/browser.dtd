@@ -110,8 +110,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Agor dewisiadau &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Ail gysylltu i &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Gwirio eich Cyfrif">
-<!ENTITY syncStartPanel2.heading "Galluogwyd &syncBrand.shortName.label;">
-<!ENTITY syncStartPanel2.subTitle "Bydd &brandShortName; yn cychwyn cydweddu ymhen ychydig.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Lleihau">
@@ -171,6 +169,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY recentBookmarks.label "Wedi gosod Nod Tudalen yn Ddiweddar">
 <!ENTITY otherBookmarksCmd.label "Nodau Tudalen Eraill">
 <!ENTITY bookmarksToolbarChevron.tooltip "Dangos pob ffolder nod tudalen">
+<!ENTITY showRecentlyBookmarked.label     "Dangos Nodau Tudalen Ddiweddar">
+<!ENTITY showRecentlyBookmarked.accesskey "D">
+<!ENTITY hideRecentlyBookmarked.label     "Cuddio Nodau Tudalen Ddiweddar">
+<!ENTITY hideRecentlyBookmarked.accesskey "C">
 
 <!ENTITY backCmd.label                "Nôl">
 <!ENTITY backButton.tooltip           "Nôl un tudalen">
@@ -224,9 +226,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Nodau Tudalen">
-<!ENTITY bookmarksMenuButton.other.label "Nodau Tudalen Eraill ">
+<!ENTITY bookmarksMenuButton.other.label "Nodau Tudalen Eraill">
 <!ENTITY viewBookmarksSidebar2.label        "Gweld Bar Offer Nodau Tudalen">
 <!ENTITY viewBookmarksToolbar.label         "Gweld Bar Offer Nodau Tudalen">
+
+<!ENTITY containersMenu.label "Cynwysyddion">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -261,14 +265,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.accesskey       "F">
 <!ENTITY newUserContext.label             "Tab Cynhwysydd Newydd">
 <!ENTITY newUserContext.accesskey         "y">
-<!ENTITY userContextPersonal.label        "Personol">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Gwaith">
-<!ENTITY userContextWork.accesskey        "G">
-<!ENTITY userContextBanking.label         "Bancio">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Siopa">
-<!ENTITY userContextShopping.accesskey    "S">
 <!ENTITY newNavigatorCmd.label        "Ffenestr Newydd">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -560,19 +556,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "T">
 <!ENTITY mediaUnmute.label           "Dad-dewi">
 <!ENTITY mediaUnmute.accesskey       "a">
-<!ENTITY mediaPlaybackRate.label     "Cyflymder Chwarae">
-<!ENTITY mediaPlaybackRate.accesskey "y">
-<!ENTITY mediaPlaybackRate050x.label "Symud Araf (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "S">
-<!ENTITY mediaPlaybackRate100x.label "Cyflymder Arferol">
-<!ENTITY mediaPlaybackRate100x.accesskey "A">
-<!ENTITY mediaPlaybackRate150x.label "Cyflymder Uchel (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "U">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+<!ENTITY mediaPlaybackRate2.label     "Cyflymder Chwarae">
+<!ENTITY mediaPlaybackRate2.accesskey "y">
+<!ENTITY mediaPlaybackRate050x2.label "Araf (0.5×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "A">
+<!ENTITY mediaPlaybackRate100x2.label "Arferol">
+<!ENTITY mediaPlaybackRate100x2.accesskey "A">
+<!ENTITY mediaPlaybackRate125x2.label "Cyflym (1.25×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "C">
+<!ENTITY mediaPlaybackRate150x2.label "Cyflymach (1.5×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "y">
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Cyflym Iawn (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "I">
+<!ENTITY mediaPlaybackRate200x2.label "Hyrt (2×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "H">
+<!ENTITY mediaLoop.label             "Cylchu">
+<!ENTITY mediaLoop.accesskey         "C">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -663,7 +663,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY bidiSwitchTextDirectionItem.accesskey    "T">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
 
-<!ENTITY findOnCmd.label     "Canfod yn y Dudalen…">
+<!ENTITY findOnCmd.label     "Canfod ar y Dudalen…">
 <!ENTITY findOnCmd.accesskey "a">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Canfod Eto">
@@ -681,7 +681,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Cysylltiad Pell">
 <!ENTITY identity.connectionNotSecure "Nid yw'r Cysylltiad yn Ddiogel">
 <!ENTITY identity.connectionFile "Mae'r dudalen hon wedi ei chadw ar eich cyfrifiadur.">
-<!ENTITY identity.connectionVerified1 "Rydych wedi eich cysylltu'n ddiogel â'r wefan hon, sy'n cael ei redeg gan:">
+<!ENTITY identity.connectionVerified2 "Rydych wedi eich cysylltu'n ddiogel â'r wefan hon, sy'n cael ei redeg gan:">
 <!ENTITY identity.connectionInternal "Mae hon yn dudalen &brandShortName; diogel.">
 <!ENTITY identity.insecureLoginForms2 "Gall mewngofnodion sy'n cael eu cyflwyno ar y dudalen hon gael eu cyfaddawdu.">
 <!-- Strings for connection state warnings. -->
@@ -744,7 +744,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Agor Dolen mewn Ffenestr Breifat Newydd">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "N">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.label          "Gosod Nod Tudalen i'r Tab Hwn…">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "B">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "N">
 <!ENTITY syncedTabs.context.copy.label                       "Copïo">
 <!ENTITY syncedTabs.context.copy.accesskey                   "C">
 

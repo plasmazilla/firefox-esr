@@ -78,12 +78,12 @@
 <!ENTITY cspBlocked.title "Blokkert av tryggingspraksisen">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; hindra nettsiden frå å lastast inn på denne måten fordi nettsida har ein tryggingspraksis for innhald som hindrar det.</p>">
 
-<!ENTITY corruptedContentError.title "Øydelagd innhald">
-<!ENTITY corruptedContentError.longDesc "<p>Sida du freistar å visa kan ikkje opnast fordi ein feil i dataoverføringa vart oppdaga.</p><ul><li>Kontakt eigarane av nettstaden og informer dei om dette problemet.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Øydelagd innhald">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Sida du prøver å visa kan ikkje opnast på grunn av ein feil i dataoverføringa.</p><ul><li>Kontakt eigarane av nettstaden og informer dei om dette problemet.</li></ul>">
 
-<!ENTITY securityOverride.linkText "eller du kan leggja til eit unntak …">
+<!ENTITY securityOverride.linkText "eller du kan legga til eit unntak…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Få meg bort herifrå!">
-<!ENTITY securityOverride.exceptionButtonLabel "Lag eit unntak …">
+<!ENTITY securityOverride.exceptionButtonLabel "Lag eit unntak…">
 <!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
 contents of the <button> tags. It uses strings already defined above. The
 button is included here (instead of netError.xhtml) because it exposes
@@ -94,3 +94,8 @@ functionality specific to thunderbird. -->
 
 <!ENTITY remoteXUL.title "Remote XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontakt nettstadseigarane for å informera dei om dette problemet.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Tilkoplinga di er ikkje trygg">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> brukar tryggingsteknologi som er forelda og sårbar for åtak. Ein angripar kan lett avsløra informasjon som du trudde skulle vera sikker. Administrator på nettstaden må fiksa tenaren før du kan besøka nettsida.</p><p>Feilkode: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

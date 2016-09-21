@@ -37,6 +37,7 @@
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "ОС">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Использование памяти">
+<!ENTITY aboutSupport.appBasicsPerformance "Производительность">
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Зарегистрированные Service Workers">
 <!ENTITY aboutSupport.appBasicsProfiles "Профили">
 <!ENTITY aboutSupport.appBasicsMultiProcessSupport "Многопроцессные окна">
@@ -53,6 +54,9 @@
 <!ENTITY aboutSupport.lockedPrefsName "Имя">
 <!ENTITY aboutSupport.lockedPrefsValue "Значение">
 <!ENTITY aboutSupport.graphicsTitle "Графика">
+<!ENTITY aboutSupport.placeDatabaseTitle "База данных Places">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Целостность">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Проверить целостность">
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Инкрементальный GC">
 <!ENTITY aboutSupport.a11yTitle "Поддержка доступности">
@@ -71,3 +75,6 @@
 <!ENTITY aboutSupport.graphicsFailureLogTitle "Лог ошибок">
 <!ENTITY aboutSupport.graphicsGPU1Title "Видеокарта №1">
 <!ENTITY aboutSupport.graphicsGPU2Title "Видеокарта №2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Лог решения">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Возможности, отключённые защитой от падения">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Способы обхода">

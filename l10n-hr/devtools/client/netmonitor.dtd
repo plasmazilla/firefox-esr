@@ -8,13 +8,14 @@
   - You want to make that choice consistent across the developer tools.
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
-<!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2): These are the labels displayed
+<!-- LOCALIZATION NOTE (netmonitorUI.perfNotice1/2/3): These are the labels displayed
   -  in the network table when empty to start performance analysis. -->
 
 
 
 <!ENTITY netmonitorUI.perfNotice1         "• Kliknite na">
 <!ENTITY netmonitorUI.perfNotice2         "tipka za pokretanje analize performansi.">
+
 <!-- LOCALIZATION NOTE (netmonitorUI.reload1/2/3): These are the labels displayed
   -  in the network table when empty to start logging network requests. -->
 
@@ -37,6 +38,8 @@
   -  in the network table toolbar, above the "domain" column. -->
 
 <!ENTITY netmonitorUI.toolbar.domain      "Domena">
+<!-- LOCALIZATION NOTE (netmonitorUI.toolbar.cause): This is the label displayed
+  -  in the network table toolbar, above the "cause" column. -->
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.type): This is the label displayed
   -  in the network table toolbar, above the "type" column. -->
 
@@ -119,6 +122,8 @@
   -  in the network details footer for the "Flash" filtering button. -->
 
 <!ENTITY netmonitorUI.footer.filterFlash  "Flash">
+<!-- LOCALIZATION NOTE (netmonitorUI.footer.filterWS): This is the label displayed
+  -  in the network details footer for the "WS" filtering button. -->
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.filterOther): This is the label displayed
   -  in the network details footer for the "Other" filtering button. -->
 

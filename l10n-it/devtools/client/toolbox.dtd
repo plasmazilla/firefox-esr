@@ -7,19 +7,6 @@
 <!ENTITY toggleToolboxF12.keycode "VK_F12">
 <!ENTITY toggleToolboxF12.keytext "F12">
 <!ENTITY toolboxCloseButton.tooltip "Chiudi strumenti di sviluppo">
-<!ENTITY toolboxOptionsButton.key "o">
-<!ENTITY toolboxNextTool.key "à">
-<!ENTITY toolboxPreviousTool.key "ò">
-<!ENTITY fullZoomEnlargeCmd.commandkey "+">
-<!ENTITY fullZoomEnlargeCmd.commandkey2 "=">
-<!ENTITY fullZoomEnlargeCmd.commandkey3 "">
-<!ENTITY fullZoomReduceCmd.commandkey "-">
-<!ENTITY fullZoomReduceCmd.commandkey2 "">
-<!ENTITY fullZoomResetCmd.commandkey "0">
-<!ENTITY fullZoomResetCmd.commandkey2 "">
-<!ENTITY toolboxToggleMinimize.key "U">
-<!ENTITY toolboxToggle.key "d">
-<!ENTITY toolboxReload.key "r">
 <!ENTITY toolboxFramesTooltip "Seleziona un iframe come documento da analizzare">
 <!ENTITY toolboxNoAutoHideTooltip "Disattiva “nascondi automaticamente” per popup ">
 <!ENTITY browserToolboxErrorMessage "Errore in apertura Cassetta degli attrezzi browser:">
@@ -45,8 +32,8 @@
 <!ENTITY options.enableWorkers.tooltip "Attivando questa opzione è possibile utilizzare gli strumenti di sviluppo per effettuare il debug dei worker">
 <!ENTITY options.disableJavaScript.label "Disattiva JavaScript *">
 <!ENTITY options.disableJavaScript.tooltip "Attivando questa opzione JavaScript verrà disattivato per la scheda corrente. Se la scheda o gli strumenti di sviluppo vengono chiusi l’impostazione verrà rimossa.">
-<!ENTITY options.disableCache.label2 "Disattiva cache (quando gli strumenti sono aperti)">
-<!ENTITY options.disableCache.tooltip2 "Attivando questa opzione la cache verrà disattivata per tutte le schede in cui sono aperti gli strumenti di sviluppo.">
+<!ENTITY options.disableHTTPCache.label "Disattiva cache HTTP (quando gli strumenti sono aperti)">
+<!ENTITY options.disableHTTPCache.tooltip "Attivando questa opzione la cache HTTP verrà disattivata per tutte le schede in cui sono aperti gli strumenti di sviluppo. Questa impostazione non ha effetto sui service worker.">
 <!ENTITY options.enableServiceWorkersHTTP.label "Attiva Service worker via HTTP (quando la cassetta degli attrezzi è aperta)">
 <!ENTITY options.enableServiceWorkersHTTP.tooltip "Attivando questa opzione verranno attivati i Service worker via HTTP in tutte le schede dove la cassetta degli attrezzi è aperta.">
 <!ENTITY options.selectDefaultTools.label "Strumenti di sviluppo predefiniti di Firefox">

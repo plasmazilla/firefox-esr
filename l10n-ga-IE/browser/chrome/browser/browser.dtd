@@ -110,8 +110,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Oscail sainroghanna &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Athcheangail le &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Deimhnigh Do Chuntas">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; cumasaithe">
-<!ENTITY syncStartPanel2.subTitle "Tosóidh &brandShortName; ag sioncrónú go luath.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Íoslaghdaigh">
@@ -159,7 +157,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY shareLink.accesskey "h">
 <!ENTITY shareImage.label "Comhroinn an íomhá seo">
 <!ENTITY shareImage.accesskey "r">
-<!ENTITY shareSelect.label "Comhroinn an roghnúchán seo">
+<!ENTITY shareSelect.label "Comhroinn an rogha seo">
 <!ENTITY shareSelect.accesskey "r">
 <!ENTITY shareVideo.label "Comhroinn an físeán seo">
 <!ENTITY shareVideo.accesskey "r">
@@ -171,6 +169,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY recentBookmarks.label "Leabharmharc leo le déanaí">
 <!ENTITY otherBookmarksCmd.label "Leabharmharcanna Eile">
 <!ENTITY bookmarksToolbarChevron.tooltip "Tuilleadh leabharmharcanna">
+<!ENTITY showRecentlyBookmarked.label     "Taispeáin na Leabharmharcanna is déanaí">
+<!ENTITY showRecentlyBookmarked.accesskey "h">
+<!ENTITY hideRecentlyBookmarked.label     "Folaigh na Leabharmharcanna is déanaí">
+<!ENTITY hideRecentlyBookmarked.accesskey "h">
 
 <!ENTITY backCmd.label                "Siar">
 <!ENTITY backButton.tooltip           "Leathanach amháin siar">
@@ -227,6 +229,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksMenuButton.other.label "Leabharmharcanna Eile">
 <!ENTITY viewBookmarksSidebar2.label        "Féach ar Bharra na Leabharmharcanna">
 <!ENTITY viewBookmarksToolbar.label         "Féach ar Bharra Leabharmharc">
+
+<!ENTITY containersMenu.label "Coimeádáin">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -261,14 +265,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.accesskey       "C">
 <!ENTITY newUserContext.label             "Cluaisín Coimeádáin Nua">
 <!ENTITY newUserContext.accesskey         "C">
-<!ENTITY userContextPersonal.label        "Pearsanta">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Obair">
-<!ENTITY userContextWork.accesskey        "O">
-<!ENTITY userContextBanking.label         "Baincéireacht">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Siopadóireacht">
-<!ENTITY userContextShopping.accesskey    "S">
 <!ENTITY newNavigatorCmd.label        "Fuinneog Nua">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -338,22 +334,22 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.viewSidebar.label "Taispeáin Stair sa Bharra Taoibh">
 <!ENTITY appMenuHelp.tooltip "Oscail an Roghchlár Cabhrach">
 
-<!ENTITY appMenuRemoteTabs.label "Cluaisíní Sioncrónaithe">
+<!ENTITY appMenuRemoteTabs.label "Cluaisíní Sioncronaithe">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Níl aon chluaisín ar oscailt">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
-<!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Las sioncrónú cluaisíní chun liosta cluaisíní ó do ghléasanna eile a fheiscint.">
+<!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Las sioncronú cluaisíní chun liosta cluaisíní ó do ghléasanna eile a fheiceáil.">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
-<!ENTITY appMenuRemoteTabs.noclients.title "Níl aon chluaisíní sioncrónaithe agat… go fóill!">
+<!ENTITY appMenuRemoteTabs.noclients.title "Níl aon chluaisíní sioncronaithe agat… go fóill!">
 <!ENTITY appMenuRemoteTabs.noclients.subtitle "Ar mhaith leat cluaisíní ó ghléasanna eile a fheiceáil anseo?">
-<!ENTITY appMenuRemoteTabs.openprefs.label "Sioncrónaigh Sainroghanna">
+<!ENTITY appMenuRemoteTabs.openprefs.label "Sioncronaigh Sainroghanna">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Logáil isteach le hamharc ar liosta chluaisíní do ghléasanna eile.">
-<!ENTITY appMenuRemoteTabs.signin.label "Sínigh isteach le sioncrónú">
-<!ENTITY appMenuRemoteTabs.sidebar.label "Féach ar Chluaisíní Sioncrónaithe i mBarra Taoibh">
+<!ENTITY appMenuRemoteTabs.signin.label "Logáil isteach le sioncronú">
+<!ENTITY appMenuRemoteTabs.sidebar.label "Féach ar Chluaisíní Sioncronaithe i mBarra Taoibh">
 
 <!ENTITY customizeMenu.addToToolbar.label "Cuir leis an mBarra Uirlisí">
 <!ENTITY customizeMenu.addToToolbar.accesskey "C">
@@ -560,19 +556,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "m">
 <!ENTITY mediaUnmute.label           "Le Fuaim">
 <!ENTITY mediaUnmute.accesskey       "m">
-<!ENTITY mediaPlaybackRate.label     "Luas Seinnte">
-<!ENTITY mediaPlaybackRate.accesskey "L">
-<!ENTITY mediaPlaybackRate050x.label "Go Mall (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "M">
-<!ENTITY mediaPlaybackRate100x.label "Gnáthluas">
-<!ENTITY mediaPlaybackRate100x.accesskey "n">
-<!ENTITY mediaPlaybackRate150x.label "Go Tapa (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "T">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+<!ENTITY mediaPlaybackRate2.label     "Luas Seinnte">
+<!ENTITY mediaPlaybackRate2.accesskey "L">
+<!ENTITY mediaPlaybackRate050x2.label "Mall (0.5×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "M">
+<!ENTITY mediaPlaybackRate100x2.label "Gnáthluas">
+<!ENTITY mediaPlaybackRate100x2.accesskey "n">
+<!ENTITY mediaPlaybackRate125x2.label "Tapa (1.25×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "T">
+<!ENTITY mediaPlaybackRate150x2.label "Níos Tapúla (1.5×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "a">
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Luas Áiféiseach (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "L">
+<!ENTITY mediaPlaybackRate200x2.label "Luas Áiféiseach (2×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "L">
+<!ENTITY mediaLoop.label             "Lúb">
+<!ENTITY mediaLoop.accesskey         "L">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -681,7 +681,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Ceangal Slán">
 <!ENTITY identity.connectionNotSecure "Ní Ceangal Slán é seo">
 <!ENTITY identity.connectionFile "Stóráiltear an leathanach seo ar do ríomhaire.">
-<!ENTITY identity.connectionVerified1 "Tá ceangal slán agat leis an suíomh seo, suíomh faoi stiúir:">
+<!ENTITY identity.connectionVerified2 "Tá ceangal slán agat leis an suíomh seo, suíomh faoi stiúir:">
 <!ENTITY identity.connectionInternal "Is leathanach slán &brandShortName; é seo.">
 <!ENTITY identity.insecureLoginForms2 "D'fhéadfadh sonraí logáil isteach bheith i mbaol ar an leathanach seo.">
 <!-- Strings for connection state warnings. -->
@@ -722,18 +722,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY tabsToolbar.label "Cluaisíní brabhsálaí">
 <!-- LOCALIZATION NOTE (syncTabsMenu3.label): This appears in the history menu -->
 
-<!ENTITY syncTabsMenu3.label     "Cluaisíní Sioncrónaithe">
+<!ENTITY syncTabsMenu3.label     "Cluaisíní Sioncronaithe">
 
-<!ENTITY syncedTabs.sidebar.label              "Cluaisíní Sioncrónaithe">
+<!ENTITY syncedTabs.sidebar.label              "Cluaisíní Sioncronaithe">
 <!ENTITY syncedTabs.sidebar.noclients.label    "Logáil isteach in Firefox ó do ghléasanna eile lena gcluaisíní a fheiceáil anseo.">
-<!ENTITY syncedTabs.sidebar.noclients.title    "Níl aon chluaisíní sioncrónaithe agat… go fóill!">
+<!ENTITY syncedTabs.sidebar.noclients.title    "Níl aon chluaisíní sioncronaithe agat… go fóill!">
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "Ar mhaith leat cluaisíní ó ghléasanna eile a fheiceáil anseo?">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "Logáil isteach le hamharc ar liosta chluaisíní do ghléasanna eile.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "Níl aon chluaisín ar oscailt">
 <!ENTITY syncedTabs.sidebar.openprefs.label    "Oscail Sainroghanna &syncBrand.shortName.label;">
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
-<!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Las sioncrónú cluaisíní chun liosta cluaisíní ó do ghléasanna eile a fheiscint.">
+<!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Las sioncronú cluaisíní chun liosta cluaisíní ó do ghléasanna eile a fheiceáil.">
 
 <!ENTITY syncedTabs.context.open.label                       "Oscail">
 <!ENTITY syncedTabs.context.open.accesskey                   "O">
@@ -753,7 +753,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncSignIn.label             "Logáil isteach i &syncBrand.shortName.label;…">
 <!ENTITY syncSignIn.accesskey         "Y">
-<!ENTITY syncSyncNowItem.label        "Sioncrónaigh Anois">
+<!ENTITY syncSyncNowItem.label        "Sioncronaigh Anois">
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncReAuthItem.label         "Athcheangail le &syncBrand.shortName.label;…">
 <!ENTITY syncReAuthItem.accesskey     "A">
@@ -815,10 +815,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getUserMedia.audioCapture.label "Roinnfear fuaim ón gcluaisín.">
 <!ENTITY getUserMedia.allWindowsShared.message "Comhroinnfear gach fuinneog infheicthe ar do scáileáin.">
 
-<!ENTITY trackingProtection.title "Cosaint ar Rianú">
-<!ENTITY trackingProtection.detectedBlocked3 "Tá &brandShortName; ag cur baic ar chodanna den leathanach a d'fhéadfadh a bheith ag rianú do chuid brabhsála.">
-<!ENTITY trackingProtection.detectedNotBlocked3 "Tá eilimintí ar an suíomh seo a d'fhéadfadh do bhrabhsáil a rianú. Tá cosaint díchumasaithe agat.">
-<!ENTITY trackingProtection.notDetected3 "Níor aimsíodh aon eilimint rianaithe ar an leathanach seo.">
+<!ENTITY trackingProtection.title "Cosaint ar Lorgaireacht">
+<!ENTITY trackingProtection.detectedBlocked3 "Tá &brandShortName; ag cur baic ar chodanna den leathanach a d'fhéadfadh a bheith ag lorg do chuid brabhsála.">
+<!ENTITY trackingProtection.detectedNotBlocked3 "Tá eilimintí ar an suíomh seo a d'fhéadfadh do bhrabhsáil a lorg. Tá cosaint díchumasaithe agat.">
+<!ENTITY trackingProtection.notDetected3 "Níor aimsíodh aon eilimint lorgaireachta ar an leathanach seo.">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in NON-private browsing mode. -->
@@ -832,7 +832,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.block2.label "Cumasaigh cosaint">
 <!ENTITY trackingProtection.block2.accesskey "C">
 
-<!ENTITY trackingContentBlocked.message "Lorg">
+<!ENTITY trackingContentBlocked.message "Lorgaireacht">
 <!ENTITY trackingContentBlocked.moreinfo "Cuireadh cosc ar chodanna den leathanach a leanann do chuid ghníomhaíochta ar líne.">
 <!ENTITY trackingContentBlocked.learnMore "Tuilleadh Eolais">
 <!ENTITY trackingContentBlocked.options "Roghanna">
@@ -840,7 +840,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.unblock2.accesskey "D">
 <!ENTITY trackingContentBlocked.block.label "Cumasaigh cosaint">
 <!ENTITY trackingContentBlocked.block.accesskey "C">
-<!ENTITY trackingContentBlocked.disabled.message "Tá cosaint ar lorg díchumasaithe">
+<!ENTITY trackingContentBlocked.disabled.message "Tá cosaint ar lorgaireacht díchumasaithe">
 
 <!ENTITY pointerLock.notification.message "Brúigh ESC am ar bith chun é a thaispeáint arís.">
 

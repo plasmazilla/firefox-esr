@@ -27,12 +27,12 @@
 <!ENTITY saveAsTemplateCmd.accesskey "B">
 <!ENTITY attachMenu.label "Připojit">
 <!ENTITY attachMenu.accesskey "t">
-<!ENTITY attachFileCmd.label "Připojit soubor…">
+<!ENTITY attachFileCmd.label "Soubor…">
 <!ENTITY attachFileCmd.accesskey "S">
-<!ENTITY attachPageCmd.label "Připojit WWW stránku…">
+<!ENTITY attachPageCmd.label "Webovou stránku…">
 <!ENTITY attachPageCmd.accesskey "W">
 <!--LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard' -->
-<!ENTITY attachVCardCmd.label "Osobní vizitka (vCard)">
+<!ENTITY attachVCardCmd.label "Osobní vizitku (vCard)">
 <!ENTITY attachVCardCmd.accesskey "V">
 <!ENTITY sendNowCmd.label "Odeslat nyní">
 <!ENTITY sendCmd.keycode "VK_RETURN">
@@ -51,8 +51,8 @@
 <!-- View menu items -->
 <!ENTITY showComposeToolbarCmd.label "Lišta pošty">
 <!ENTITY showComposeToolbarCmd.accesskey "o">
-<!ENTITY showFormatToolbarCmd.label "Lišta stylů">
-<!ENTITY showFormatToolbarCmd.accesskey "S">
+<!ENTITY showFormatToolbarCmd.label "Lišta úprav">
+<!ENTITY showFormatToolbarCmd.accesskey "p">
 
 <!-- Format menu items -->
 <!ENTITY formatMenu.label "Formát">
@@ -104,7 +104,7 @@
 <!--LOCALIZATION NOTE Toolbar items Don't change any "chrome://" URLs -->
 <!-- Toolbar items -->
 <!ENTITY sendButton.label "Odeslat">
-<!ENTITY addressButton.label "Adresář">
+<!ENTITY addressButton.label "Adresa">
 <!ENTITY attachButton.label "Připojit">
 <!ENTITY spellingButton.label "Pravopis">
 <!ENTITY saveButton.label "Uložit">
@@ -128,7 +128,7 @@
 <!ENTITY renameAttachment.accesskey "P">
 <!ENTITY deleteAttachment.accesskey "m">
 <!ENTITY selectAllAttachments.accesskey "a">
-<!ENTITY attachFile.label "Připojit soubor(y)…">
+<!ENTITY attachFile.label "Připojit soubor…">
 <!ENTITY attachFile.accesskey "S">
-<!ENTITY attachPage.label "Připojit WWW stránku…">
+<!ENTITY attachPage.label "Připojit webovou stránku…">
 <!ENTITY attachPage.accesskey "W">

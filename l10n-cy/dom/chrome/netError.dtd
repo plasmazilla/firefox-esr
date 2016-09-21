@@ -20,7 +20,7 @@
 <!ENTITY fileNotFound.longDesc "<ul><li>Efallai bod yr eitem wedi cael ei hailenwi, ei thynnu neu ei symud?</li><li>Oes yna wall sillafu, llythrennu neu wall teipio arall yn y cyfeiriad?</li><li>A oes gennych hawl digonol i gael mynediad at yr eitem hon?</li></ul>">
 
 <!ENTITY fileAccessDenied.title "Mae mynediad i'r ffeil wedi ei wrthod">
-<!ENTITY fileAccessDenied.longDesc "<ul> <li>Gall ei fod wedi ei dynnu, symud neu fod caniatâd ffeiliau yn rhwystro mynediad.</li> </ul>">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Gall ei fod wedi ei dynnu, symud neu fod caniatâd ffeiliau yn rhwystro mynediad.</li></ul>">
 
 <!ENTITY generic.title "Methu Cyflawni'r Cais">
 <!ENTITY generic.longDesc "<p>Nid oes gwybodaeth ar gael am y gwall neu broblem yma ar hyn o bryd.</p>">
@@ -76,8 +76,8 @@
 <!ENTITY cspBlocked.title "Rhwystrwyd gan Bolisi Diogelwch Cynnwys">
 <!ENTITY cspBlocked.longDesc "<p>Mae'r porwr wedi atal y dudalen rhag cael ei llwytho yn y ffordd yma gan fod gan y dudalen bolisi diogelwch cynnwys sy'n atal hynny.</p>">
 
-<!ENTITY corruptedContentError.title "Gwall Cynnwys Llygredig">
-<!ENTITY corruptedContentError.longDesc "<p>Nid oes modd dangos y dudalen rycydch yn ceisio ei darllen gan fod gwall wedi ei ganfod yn y trosglwyddiad data.</p><ul><li>Cysylltwch â pherchnogion y wefan i'w hysbysu am yr anhawster.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Gwall Cynnwys Llygredig">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Nid oes modd dangos y dudalen rycydch yn ceisio ei darllen gan fod gwall wedi ei ganfod yn y trosglwyddiad data.</p><ul><li>Cysylltwch â pherchnogion y wefan i'w hysbysu am yr anhawster.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL pell">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Cysylltwch â pherchnogion y wefan i'w hysbysu am y broblem..</li></ul></p>">

@@ -3,10 +3,29 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 
-<!ENTITY  no_space_to_start_error "Không có đủ dung lượng trống để &brandShortName; khởi động.">
-<!ENTITY  error_loading_file "Một lỗi xảy ra khi đang các tệp cần thiết để chạy &brandShortName; đang được tải">
 
 
+
+
+
+
+<!ENTITY firstrun_sync_title "Đồng bộ">
+
+
+
+
+
+
+
+
+<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+
+
+
+
+<!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
 
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
@@ -14,7 +33,6 @@
 
 <!ENTITY  bookmarks_title "Trang ưa thích">
 <!ENTITY  history_title "Lược sử">
-
 
 
 <!ENTITY  switch_to_tab "Chuyển sang thẻ">
@@ -31,12 +49,6 @@
 <!ENTITY  sending_crash_report "Đang gửi báo cáo lỗi\u2026">
 <!ENTITY  crash_close_label "Đóng">
 <!ENTITY  crash_restart_label "Khởi động lại &brandShortName;">
-<!ENTITY  exit_label "Thoát">
-
-<!ENTITY  launcher_shortcuts_title "&brandShortName; ứng dụng web">
-<!ENTITY  launcher_shortcuts_empty "Không tìm thấy ứng dụng web nào">
-
-<!ENTITY choose_file "Chọn tập tin">
 
 
 
@@ -48,12 +60,23 @@
 <!ENTITY bookmark_updated "Trang đánh dấu đã được cập nhật">
 <!ENTITY bookmark_options "Tùy chọn">
 
+<!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
+     the user takes. The folder we store these links in is located in the bookmarks list
+     and is labeled by this String. -->
+
+<!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
+     in the folder. -->
+
+
+<!-- Localization note (reader_switch_to_bookmarks) : This
+     string is used as an action in a snackbar - it lets you
+     "switch" to the bookmarks (saved items) panel. -->
+
 <!ENTITY history_today_section "Hôm nay">
 <!ENTITY history_yesterday_section "Hôm qua">
 
 
 
-<!ENTITY go "Đi">
 <!ENTITY search "Tìm kiếm">
 <!ENTITY reload "Tải lại">
 <!ENTITY forward "Tiến">
@@ -73,12 +96,16 @@
 <!-- Localization note (switch_button_message): This string should be as short
      as possible because it's shown as a label in a toast.  Ideally, this string
      is upper-case, to match Google and Android's convention. -->
+<!-- Localization note (tab_title_prefix_is_playing_audio): This string is not
+     visible in the UI, but rather used as a text-to-speech content description
+     for sight-impaired a11y users. The content description is set on a tab
+     title in a list of open tabs when content in that tab is playing audio.
+     &formatS; will be replaced with the title of the tab, as received from the
+     web page. When audio is not playing in a tab, &formatS; will be used as
+     the content description. -->
 
 <!ENTITY settings "Thiết lập">
 
-
-<!ENTITY pref_category_advanced "Nâng cao">
-<!ENTITY pref_category_customize "Tùy chỉnh">
 
 
 <!-- Localization note (pref_category_language) : This is the preferences
@@ -97,8 +124,6 @@
      "to bookmark", not the noun "a bookmark". -->
 
 
-
-
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
@@ -108,21 +133,16 @@
 <!-- Localization note (overlay_no_synced_devices) : Used when the menu option
      to send a tab to a synced device is pressed and no other synced devices
      are found. -->
-<!-- Localization note (overlay_share_tab_not_sent) : Used when the menu option
-     to send a tab to a synced device is pressed and there is an error
-     connecting to the server so the tab could not be sent. The text should be
-     divided into two lines (use the newline escape character, "\n", between
-     them): the first notifying the user about the failure and the second
-     telling the user what to do about it. -->
 
 
-<!ENTITY pref_category_display "Hiển thị">
+
 
 <!ENTITY pref_category_privacy_short "Riêng tư">
 
-<!ENTITY pref_category_vendor "&vendorShortName;">
+
 
 <!ENTITY pref_category_datareporting "Lựa chọn dữ liệu">
+
 
 
 
@@ -135,6 +155,9 @@
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
 
+<!-- Localization note (pref_category_advanced_summary3): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 
 
 
@@ -146,16 +169,27 @@
 
 
 
-<!-- Localization note (home_add_panel_installed):
-     The &formatS; will be replaced with the name of the new panel the user just
-     selected to be added to the home page. -->
 
 
 
 
 
 
+
+<!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
+     buttons to choose the homepage they'd like to start on. When they click the radio
+     button for this string, they will use the built-in default Firefox homepage (about:home). -->
+<!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
+     buttons to choose the homepage they'd like to start on. When they click the radio
+     button for this string, a text field will appear below the radio button and allow the
+     user to insert an address of their choice. -->
+<!-- Localization note (home_homepage_hint_user_address): The user will see a series of
+     radio buttons to choose the homepage they'd like to start on. When they click a
+     particular radio button, a text field will appear below the radio button and allow the
+     user to insert an address of their choice. This string is the hint text to that
+     text field. -->
 <!-- Localization note: These are shown in the left sidebar on tablets -->
+
 
 
 
@@ -167,6 +201,9 @@
 
 
 
+<!-- Localization note (pref_category_data_saver): “data saver” in this
+     context means consuming less data, e.g. by not loading images, not
+     “storing data”. -->
 
 
 
@@ -178,6 +215,27 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Localization note (tab_queue_prompt_permit_drawing_over_apps): This additional text is shown if the
+     user needs to enable an Android setting in order to enable tab queues. -->
+
+
+<!-- Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
+     enable a permission in Android's setting in order to enable tab queues. -->
 
 <!-- Localization note (tab_queue_notification_text_plural2) : The
      formatD is replaced with the number of tabs queued.  The
@@ -185,11 +243,26 @@
      Android plural forms, sadly. See Bug #753859. -->
 <!-- Localization note (tab_queue_notification_text_singular2) : This is the
      text of a notification; we expect only one tab queued. -->
+<!-- Localization note (tab_queue_notification_settings): This notification text is shown if a tab
+     has been queued but we are missing the system permission to show an overlay. -->
+
+<!-- Localization note (content_notification_title_plural): &formatD; will be replaced with the number of websites that
+     have been updated (new content is available). The number of websites is always more than one (>= 2). For a single
+     update the website title is used instead of this string.
+     We can't use Android plural forms, sadly. See Bug #753859. -->
+<!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
+     Clicking the action will jump to the notification settings of the app. -->
+<!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
+     Clicking the action will open all new content in the browser. -->
+<!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
+     date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
+     documentation for DateFormat.getMediumDateFormat(). -->
 
 <!ENTITY pref_char_encoding_on "Hiển thị trình đơn">
 <!ENTITY pref_char_encoding_off "Không hiển thị trình đơn">
 
-<!ENTITY pref_clear_private_data_category "Xóa dữ liệu cá nhân">
+<!-- Localization note (pref_clear_private_data_now_tablet): This action to clear private data is only shown on tablets.
+     The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
 
 
 
@@ -198,7 +271,6 @@
 
 
 <!ENTITY pref_text_size "Cỡ chữ">
-
 
 
 
@@ -225,7 +297,7 @@ size. -->
 
 
 <!ENTITY pref_use_master_password "Dùng mật khẩu chính">
-<!ENTITY pref_sync "Đồng bộ">
+
 
 <!ENTITY pref_search_suggestions "Hiện gợi ý tìm kiếm">
 
@@ -235,9 +307,9 @@ size. -->
 
 
 
+
 <!ENTITY pref_private_data_cache "Bộ nhớ đệm">
 <!ENTITY pref_private_data_offlineApps "Dữ liệu trang web ngoại tuyến">
-
 
 
 
@@ -257,10 +329,10 @@ size. -->
 
 
 
+<!-- Used in datareporting_notification_ticket_text, but unused in strings.xml. -->
 
-
-
-
+<!-- When this item is removed, also remove datareporting_notification_action_long:
+     it is unused in strings.xml. -->
 <!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
      reporting_telemetry_title, datareporting_telemetry_summary,
      datareporting_crashreporter_summary) : These match the strings in
@@ -286,8 +358,6 @@ size. -->
 
 <!ENTITY quit "Thoát">
 
-<!ENTITY addons "Tiện ích">
-
 
 
 <!ENTITY char_encoding "Bảng mã">
@@ -298,11 +368,11 @@ size. -->
 
 
 
+
 <!ENTITY tools "Công cụ">
-<!ENTITY new_tab "Thẻ Mới">
+
 
 <!ENTITY close_all_tabs "Đóng tất cả các thẻ">
-
 
 
 
@@ -312,7 +382,7 @@ size. -->
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
 <!ENTITY find_prev "Trước">
-<!ENTITY find_next "Tiếp">
+
 
 <!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
@@ -348,8 +418,8 @@ size. -->
 
 
 
-
-
+<!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
+     whether or not the magnifying glass is disabled. -->
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
@@ -368,17 +438,6 @@ size. -->
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
 
 
-
-<!-- Localization note (reading_list_added2) : Used in a toast, please keep as short
-     as possible. -->
-
-<!-- Localization note (reading_list_remove) : Used to remove the currently open page from
-     the user's reading list. The opposite of overlay_share_reading_list_btn_label. -->
-
-<!-- Localization note (reading_list_time_minutes2) : This string is used in the "Reading List"
-     panel on the home page to give the user an estimate of how many minutes it will take to
-     read an article. The word "minute" should be abbreviated if possible. -->
-
 <!-- Localization note : These strings are used as alternate text for accessibility.
      They are not visible in the UI. -->
 
@@ -395,12 +454,15 @@ size. -->
 
 <!ENTITY button_copy "Chép">
 
-
 <!ENTITY home_top_sites_title "Trang tốp">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!-- Localization note (home_title): This string should be kept in sync
      with the page title defined in aboutHome.dtd -->
+
+
+
+<!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
 
 
 
@@ -412,26 +474,10 @@ size. -->
 
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
-
-<!-- Localization note (home_reading_list_hint): The "TIP" string is synonymous to "hint", "clue", etc. This string is displayed
-     as an advisory message on how to add content to the reading list when the reading list empty.
-     The placeholder &formatI; will be replaced by a small image of the icon described, and can be moved to wherever
-     it is applicable. -->
-<!-- Localization note (home_reading_list_hint_accessible): This string is used
-     as alternate text for accessibility. It is not visible in the UI. -->
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
-<!-- Localization note (home_move_up_to_filter): The variable is replaced by the name of the
+<!-- Localization note (home_back_up_to_filter): The variable is replaced by the name of the
      previous location in the navigation, such as the previous folder -->
-
-<!ENTITY home_remote_tabs_title "Các thẻ đã đồng bộ">
-
-<!ENTITY home_remote_tabs_unable_to_connect "Không thể kết nối">
-
-
-
-
-
 <!-- Localization note (home_remote_tabs_many_hidden_devices) : The
      formatD is replaced with the number of hidden devices.  The
      number of hidden devices is always more than one.  We can't use
@@ -462,21 +508,21 @@ The layout of the identity dialog prevents combining this into a single string w
 substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
-<!ENTITY identity_run_by "thuộc quyền kiểm soát của">
 
 
-<!ENTITY identity_encrypted "Mã hóa">
+
 <!-- Mixed content notifications in site identity popup -->
+
 
 
 <!-- Tracking content notifications in site identity popup -->
 
 
 
+
 <!-- Common mixed and tracking content strings in site identity popup -->
 
 <!ENTITY learn_more "Tìm hiểu Thêm">
-
 
 
 
@@ -497,7 +543,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      replaced with the name of the search engine. The placeholder &formatS2; will be
      replaced with the search query. -->
 
-
 <!-- Updater notifications -->
 
 
@@ -507,6 +552,10 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 
 
+<!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
+     if the app requires a runtime permission to download updates. Currently, the updater only sees
+     remotely advertised updates in the Nightly and Aurora channels. -->
+<!-- LOCALIZATION NOTE (updater_permission_allow): This action is shown in a snackbar along with updater_permission_text. -->
 <!-- Guest mode -->
 
 <!ENTITY guest_session_dialog_continue "Tiếp tục">
@@ -532,10 +581,6 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      They are never shown to users -->
 <!ENTITY actionbar_done "Xong">
 <!-- Voice search in the awesome bar -->
-
-
-
-
 <!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
      "relative time span string" produced by Android.  This string describes the
      time the tabs were last synced relative to the current time; examples
@@ -543,7 +588,56 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      "Last synced" is one of the user's other Sync clients, typically Firefox on
      their desktop or laptop.-->
 <!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
-<!-- Find-In-Page strings -->
-<!-- LOCALIZATION NOTE (find_matchcase): This is meant to appear as an icon that changes color
-     if match-case is activated. i.e. No more than two letters, one uppercase, one lowercase. -->
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
+     appear in an alert when a user, who is currently in private browsing,
+     clicks a link that will open an external Android application. "&formatS;"
+     will be replaced with the name of the application that will be opened. -->
+<!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
+     string will appear as the title of an alert when a user, who is currently
+     in private browsing, clicks a link that will open an external Android
+     application and more than one application is available to open that link.
+     We don't have control over the style of this dialog and it looks
+     unpolished when this string is longer than one line so ideally keep it
+     short! -->
+<!-- DevTools Authentication -->
+<!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
+     above a QR reader that is actively scanning for QR codes.  The expected QR
+     code has already been displayed by the client trying to connect (such as
+     desktop Firefox via WebIDE), so you just need to aim this device at the QR
+     code. -->
+<!-- Restrictable features -->
+<!-- Localization note: These are features the device owner (e.g. parent) can enable or disable for
+     a restricted profile (e.g. child). Used inside the Android settings UI. -->
+
+<!ENTITY restrictable_feature_private_browsing "Duyệt web Riêng tư">
+
+
+
+
+
+
+
+
+
+<!-- Default Bookmarks titles-->
+<!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
+<!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
+<!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
+<!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
+<!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
+<!-- LOCALIZATION NOTE (unsupported_sdk_version): The user installed a build of this app that does not support
+     the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
+     replaced by the Android OS version (e.g., 14)-->
+
+
+<!-- LOCALIZATION NOTE (whatsnew_notification_title, whatsnew_notification_summary): These strings
+     are used for a system notification that's shown to users after the app updates. -->
+
+
+
+
+
+
+
+
 

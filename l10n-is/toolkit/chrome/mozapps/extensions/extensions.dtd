@@ -155,7 +155,7 @@
 <!ENTITY detail.showPreferencesWin.tooltip    "Breyta stillingum fyrir þessa viðbót">
 <!ENTITY detail.showPreferencesUnix.label     "Valkostir">
 <!ENTITY detail.showPreferencesUnix.accesskey "o">
-<!ENTITY detail.showPreferencesUnix.tooltip   "Breyta stillingum fyrir þessa viðbót">
+<!ENTITY detail.showPreferencesUnix.tooltip   "Breyta stillingum viðbótar">
 <!-- ratings -->
 
 

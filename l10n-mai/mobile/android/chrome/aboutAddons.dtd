@@ -10,3 +10,6 @@
 <!ENTITY addonAction.disable                    "निष्क्रिय करू ">
 <!ENTITY addonAction.uninstall                  "विसंस्थापित करू">
 <!ENTITY addonAction.undo                       "पहिने जहिना">
+
+<!ENTITY addonUnsigned.message                  "ई ऐड-ऑन &brandShortName; क द्वारा सत्यापित नहि भ सकल.">
+<!ENTITY addonUnsigned.learnMore                "आओर जानू">

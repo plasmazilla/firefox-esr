@@ -36,8 +36,8 @@
 <!ENTITY cmd.backup.accesskey "Z">
 <!ENTITY cmd.restore2.label "Obnovit">
 <!ENTITY cmd.restore2.accesskey "O">
-<!ENTITY cmd.restoreFromFile.label "Zvolit soubor…">
-<!ENTITY cmd.restoreFromFile.accesskey "v">
+<!ENTITY cmd.restoreFromFile.label "Vybrat soubor…">
+<!ENTITY cmd.restoreFromFile.accesskey "V">
 
 <!ENTITY cmd.bookmarkLink.label "Přidat stránku do záložek…">
 <!ENTITY cmd.bookmarkLink.accesskey "P">
@@ -80,7 +80,7 @@
 <!ENTITY col.title.label "Název">
 <!ENTITY col.tags.label "Štítky">
 <!ENTITY col.url.label "Adresa">
-<!ENTITY col.lastvisit.label "Poslední návštěva">
+<!ENTITY col.lastvisit.label "Datum návštěvy">
 <!ENTITY col.visitcount.label "Počet návštěv">
 <!ENTITY col.keyword.label "Klíčové slovo">
 <!ENTITY col.description.label "Popis">
@@ -88,7 +88,7 @@
 <!ENTITY col.lastmodified.label "Poslední změna">
 
 <!ENTITY search.label "Hledat:">
-<!ENTITY search.placeholder "Hledat záložky">
+<!ENTITY search.placeholder "Hledat v záložkách">
 
 <!ENTITY search.in.label "Hledat v:">
 <!ENTITY search.scopeFolder.label "Zvolená složka">
@@ -107,7 +107,7 @@
 <!ENTITY detailsPane.more.accesskey "V">
 <!ENTITY detailsPane.fewer.label "Méně">
 <!ENTITY detailsPane.fewer.accesskey "M">
-<!ENTITY detailsPane.selectAnItemText.description "Vybrat položku do pohledu a upravit její vlastnosti">
+<!ENTITY detailsPane.selectAnItemText.description "Pro zobrazení a úpravu vlastností vyberte některou z položek">
 
 <!ENTITY editBookmark.done.label "Hotovo">
 <!ENTITY editBookmark.cancel.label "Zrušit">

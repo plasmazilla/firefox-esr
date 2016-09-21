@@ -4,6 +4,7 @@
 
 <!ENTITY window.emWidth "26em">
 <!ENTITY window.emHeight "26em">
-<!ENTITY ChooseApp.description "Избиране на приложение">
+<!ENTITY ChooseOtherApp.description "Избиране на друго приложение">
 <!ENTITY ChooseApp.label "Избиране…">
 <!ENTITY ChooseApp.accessKey "И">
+<!ENTITY accept "Отваряне на връзка">

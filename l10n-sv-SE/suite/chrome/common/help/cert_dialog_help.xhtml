@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
@@ -12,533 +8,484 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Certifikatinformation och beslut</title>
+<title>Certificate Information and Decisions</title>
 <link rel="stylesheet" href="helpFileLayout.css"
   type="text/css"/>
 </head>
 <body>
 
-<div class="boilerPlate">Det här dokumentet erbjuds endast som en hjälp åt
-  dig. Det kan hjälpa dig att vidta vissa steg för att skydda din personliga
-  integritet och säkerhet för personliga uppgifter på Internet. Det här 
-  dokumentet behandlar dock inte alla frågar om integritet och säkerhet på nätet,
-  inte heller är det en rekommendation om vad som utgör ett adekvat skydd av
-  personlig integritet och säkerhet på Internet.</div>
+<div class="boilerPlate">This document is provided for your information only.
+  It may help you take certain steps to protect the privacy and security of
+  your personal information on the Internet. This document does not, however,
+  address all online privacy and security issues, nor does it represent a
+  recommendation about what constitutes adequate privacy and security
+  protection on the Internet.</div>
 
-<h1 id="certificate_information_and_decisions">Certifikatinformation och
-  beslut</h1>
+<h1 id="certificate_information_and_decisions">Certificate Information and
+  Decisions</h1>
 
-<p>I det här avsnittet beskrivs hur du använder de olika fönster som visas av
-  Certifikathanteraren. Den information som ges här visas också när du klickar
-  på Hjälp-knappen i något av dessa fönster.</p>
+<p>This section describes how to use various windows displayed at different times by
+  Certificate Manager. The additional information given here appears when you click
+  the Help button in one of those windows.</p>
 
-<div class="contentsBox">I detta avsnitt:
+<div class="contentsBox">In this section:
   <ul>
-    <li><a href="#certificate_viewer">Certifikatvisaren</a></li>
-    <li><a href="#choose_security_device">Välj säkerhetsenhet</a></li>
-    <li><a href="#encryption_key_copy">Krypteringsnyckelkopia</a></li>
-    <li><a href="#certificate_backup">Certifikats säkerhetskopia</a></li>
-    <li><a href="#user_identification_request">Begäran om
-      användaridentifiering</a></li>
-    <li><a href="#new_certificate_authority">Ny certifikatutfärdare</a></li>
-    <li><a href="#web_site_certificates">Webbplatscertifikat</a></li>
+    <li><a href="#certificate_viewer">Certificate Viewer</a></li>
+    <li><a href="#choose_security_device">Choose Security Device</a></li>
+    <li><a href="#encryption_key_copy">Encryption Key Copy</a></li>
+    <li><a href="#certificate_backup">Certificate Backup</a></li>
+    <li><a href="#user_identification_request">User Identification Request</a></li>
+    <li><a href="#new_certificate_authority">New Certificate Authority</a></li>
+    <li><a href="#website_certificates">Website Certificates</a></li>
   </ul>
 </div>
 
-<h2 id="certificate_viewer">Certifikatvisaren</h2>
+<h2 id="certificate_viewer">Certificate Viewer</h2>
 
-<p>Certifikatvisaren visar information om ett certifikat som du har markerat via
-  någon av flikarna i Certifikathanteraren. Fliken Allmänt sammanfattar
-  information om vem som utfärdade certifikatet, dess giltighet, vad
-  certifikatet kan användas för och så vidare. Fliken Detaljer ger fullständiga
-  uppgifter om certifikatets innehåll.</p>
+<p>The Certificate Viewer displays information about a certificate you selected
+  in one of the Certificate Manager tabs. The General tab summarizes
+  information about who issued the certificate, its verification status, what
+  the certificate can be used for, and so on. The Details tab provides complete
+  details on the certificate&apos;s contents.</p>
 
-<p>Om du inte ser Certifikatvisarens fönster, följ dessa steg:</p>
+<p>If you are not currently viewing the Certificate Viewer, follow these
+  steps:</p>
 
 <ol>
-  <li>Öppna menyn <span class="mac">&brandShortName;</span>
-    <span class="noMac">Redigera</span> och välj Inställningar.</li>
-  <li>Under kategorin Integritet och säkerhet, klicka på Certifikat. (Om inga
-    underkategorier är synliga, dubbelklicka på Integritet och säkerhet för
-    att veckla upp listan.)</li>
-  <li>Klicka på Hantera certifikat.</li>
-  <li>Klicka på fliken för den typ av certifikat vars detaljer du vill
-     se.</li>
-   <li>Välj det certifikat vars detaljer du vill se.</li>
-   <li>Klicka på Visa.</li>
+  <li>Open the <span class="mac">&brandShortName;</span>
+    <span class="noMac">Edit</span> menu and choose Preferences.</li>
+  <li>Under the Privacy &amp; Security category, click Certificates. (If no
+    subcategories are visible, double-click Privacy &amp; Security to expand
+    the list.)</li>
+  <li>Click Manage Certificates.</li>
+  <li>Click the tab for the type of certificate whose details you want to
+    view.</li>
+  <li>Select the certificate whose details you want to view.</li>
+  <li>Click View.</li>
 </ol>
 
-<div class="contentsBox">I detta avsnitt:
+<div class="contentsBox">In this section:
   <ul>
-    <li><a href="#general_tab">Fliken Allmänt</a></li>
-    <li><a href="#details_tab">Fliken Detaljer</a></li>
+    <li><a href="#general_tab">General Tab</a></li>
+    <li><a href="#details_tab">Details Tab</a></li>
   </ul>
 </div>
 
-<h3 id="general_tab">Fliken Allmänt</h3>
+<h3 id="general_tab">General Tab</h3>
 
-<p>När du först öppnar Certifikatvisaren, visar fliken Allmänt flera typer av
-  information om det valda certifikatet:</p>
+<p>When you first open the Certificate Viewer, the General tab displays several
+  kinds of information about the selected certificate:</p>
 
 <ul>
-  <li><strong>Detta certifikat har verifierats för följande 
-    tillämpningar</strong>: Se
-    <a href="glossary.xhtml#certificate_verification">certifikatverifiering</a>
-    för att få veta mer om hur Certifikathanteraren verifierar certifikat.
-    Tillämpningar kan avse något av följande:
+  <li><strong>This certificate has been verified for the following
+    uses</strong>: See
+    <a href="glossary.xhtml#certificate_verification">certificate verification</a>
+    for a discussion of how the Certificate Manager verifies certificates. Uses
+    can include any of the following:
     <ul>
-      <li><strong>SSL-klientcertifikat</strong>: Certifikat som identifierar
-        dig för webbplatser.</li>
-      <li><strong>SSL-servercertifikat</strong>: Certifikat som identifierar en
-        webbserver för webbläsare.</li>
-      <li><strong>Signeringscertifikat för e-post</strong>: Certifikat som
-        identifierar dig för syftet att elektroniskt signera e-postmeddelanden.</li>
-      <li><strong>Mottagarcertifikat för e-post</strong>: Certifikat som
-        identifierar någon annan, så att du t.ex. kan skicka krypterad e-post
-        till denna.</li>
-      <li><strong>Statusrapporterande certifikat</strong>: Certifikat som
-        identifierar en direktansluten statusrapporterare som använder Online 
-        Certificate Status Protocol (OCSP) till att kontrollera giltigheten för 
-        certifikat. För mer information om OCSP, se
+      <li><strong>SSL Client Certificate</strong>: Certificate used to identify
+        you to websites.</li>
+      <li><strong>SSL Server Certificate</strong>: Certificate used to identify
+        a website server to browsers.</li>
+      <li><strong>Email Signer Certificate</strong>: Certificate used to
+        identify you for the purposes of digitally signing email messages.</li>
+      <li><strong>Email Recipient Certificate</strong>: Certificate used to
+        identify someone else, for example so you can send that person
+        encrypted email.</li>
+      <li><strong>Status Responder Certificate</strong>: Certificate used to
+        identify an online status responder that uses the Online Certificate
+        Status Protocol (OCSP) to check the validity of certificates. For more
+        information about OCSP, see
         <a href="certs_prefs_help.xhtml">Certificates Settings</a>.</li>
-      <li><strong>SSL-certifikatutfärdare (CA)</strong>: Certifikat som identifierar
-        en certifikatutfärdare &mdash; det vill säga en tjänst som utfärdar
-        certifikat som används för identifiering över datornätverk.</li>
+      <li><strong>SSL Certificate Authority</strong>: Certificate used to
+        identify a certificate authority&mdash;that is, a service that issues
+        certificates for use as identification over computer networks.</li>
     </ul>
   </li>
-  <li><strong>Utfärdat till</strong>: Sammanfattar följande information om
-    certifikatet:
+  <li><strong>Issued To</strong>: Summarizes the following information about
+    the certificate:
     <ul>
-      <li><strong>Common Name</strong>: Namnet på den person eller annan
-        enhet som certifikatet identifierar.</li>
-      <li><strong>Organisation</strong>: Namnet på den organisation som
-        enheten hör till (såsom ett företagsnamn).</li>
-      <li><strong>Organisationsenhet</strong>: Namnet på den
-        organisationsenhet som enheten hör till (såsom en
-        bokföringsavdelning).</li>
-      <li><strong>Serienummer</strong>: Certifikatets serienummer.</li>
+      <li><strong>Common Name</strong>: The name of the person or other entity
+        that the certificate identifies.</li>
+      <li><strong>Organization</strong>: The name of the organization to which
+        the entity belongs (such as the name of a company).</li>
+      <li><strong>Organizational Unit</strong>: The name of the organizational
+        unit to which the entity belongs (such as Accounting Department).</li>
+      <li><strong>Serial Number</strong>: The certificate&apos;s serial
+        number.</li>
     </ul>
   </li>
-  <li><strong>Utfärdat av</strong>: Sammanfattar information (liknande den som
-    ges under <q>Utfärdat till</q>; se ovan) om den certifikatutfärdare
-    (CA) som utfärdat certifikatet.</li>
-  <li><strong>Giltighet</strong>: Uppger perioden som
-    certifikatet är giltigt.</li>
-  <li><strong>Fingeravtryck</strong>: Listar certifikatets fingeravtryck.
-    Ett fingeravtryck är ett unikt nummer som skapas genom appliceringen av en
-    matematisk funktion på certifikatets innehåll. Ett certifikats 
-    fingeravtryck kan användas till att säkerställa att certifikatet inte
-    manipulerats.</li>
+  <li><strong>Issued By</strong>: Summarizes information (similar to that
+    provided under <q>Issued To</q>; see above) about the certificate authority
+    (CA) that issued the  certificate.</li>
+  <li><strong>Validity</strong>: Indicates the period during which the
+    certificate is valid.</li>
+  <li><strong>Fingerprints</strong>: Lists the certificate&apos;s fingerprints.
+    A fingerprint is a unique number produced by applying a mathematical
+    function to the certificate contents. A certificate&apos;s fingerprint can
+    be used to verify  that the certificate has not been tampered with.</li>
 </ul>
 
-<h3 id="details_tab">Fliken Detaljer</h3>
+<h3 id="details_tab">Details Tab</h3>
 
-<p>Klicka på fliken Detaljer högst upp i Certifikatvisaren för att se mer 
-  detaljerad information om det valda certifikatet. För att granska 
-  informationen för ett av certifikaten i fältet Certifikathierarki, markera 
-  namnet, och markera det fält som du vill granska under Certifikatfält, och 
-  läs fältets värde under Fältvärde:</p>
+<p>Click the Details tab at the top of the Certificate Viewer to see more
+  detailed information about the selected certificate. To examine information
+  for any certificate in the Certificate Hierarchy area, select its name,
+  select the field under Certificate Fields that you want to examine, and
+  read the field&apos;s value under Field Value:</p>
 
 <ul>
-  <li><strong>Certifikathierarki</strong>: Visar certifikatkedjan med det
-    certifikat du ursprungligen markerade längst ned. En certifikatkedja är
-    en hierarkisk serie av certifikat som signerats av på varandra följande
-    certifikatutfärdare (CA:er). Ett CA-certifikat identifierar en
-    <a href="glossary.xhtml#certificate_authority">certifikatutfärdare</a> och
-    används till att signera certifikat som utfärdats av denna utfärdare.Ett
-    CA-certifikat kan i sin tur vara signerat av ett CA-certifikat hos en
-    överordnad CA och vidare upp till en
-    a <a href="glossary.xhtml#root_ca">rot-CA</a>.</li>
-  <li><strong>Certifikatfält</strong>: Visar de fält som hör till det
-    certifikat som markerats under Certifikathierarki.</li>
-  <li><strong>Fältvärde</strong>: Visar värdet för det fält som markerats 
-    under Certifikatfält.</li>
+  <li><strong>Certificate Hierarchy</strong>: Displays the certificate chain,
+    with the certificate you originally selected at the bottom. A certificate
+    chain is a hierarchical series of certificates signed by successive
+    certificate authorities (CAs). A CA certificate identifies a
+    <a href="glossary.xhtml#certificate_authority">certificate authority</a>
+    and is used to sign certificates issued by that authority. A CA certificate
+    can in turn be signed by the CA certificate of a parent CA and so on up to
+    a <a href="glossary.xhtml#root_ca">root CA</a>.</li>
+  <li><strong>Certificate Fields</strong>: Displays the fields of the
+    certificate selected under Certificate Hierarchy.</li>
+  <li><strong>Field Value</strong>: Displays the value of the field selected
+    under Certificate Fields.</li>
 </ul>
 
-<p>Certifikatvisaren visar vanliga ANSI-tecken i läsbart format där så är
-  möjligt. För fält vars innehåll Certifikathanteraren inte kan tolka, visas
-  det verkliga värdet som återfinns i certifikatet.</p>
+<p>The Certificate Viewer displays basic ANSI types in human-readable form
+  wherever possible. For fields whose contents the Certificate Manager cannot
+  interpret, it displays the actual values contained in the certificate.</p>
 
-<h2 id="choose_security_device">Välj säkerhetsenhet</h2>
+<h2 id="choose_security_device">Choose Security Device</h2>
 
-<p>En säkerhetsenhet (ibland kallad ett igenkänningstecken) är en hårdvaru- eller
-  programvaruenhet som tillhandahåller kryptografiska tjänster, såsom kryptering
-  och dekryptering, och som lagrar certifikat och nycklar. Fönstret Välj
-  säkerhetsenhet visas när Certifikathanteraren behöver veta vilken
-  säkerhetsenhet som ska användas när du importerar ett certifikat, eller 
-  utför en kryptografisk operation, såsom att generera nycklar för ett nytt
-  certifikat. Detta fönster låter dig välja en av två eller flera 
-  säkerhetsenheter Certifikathanteraren har upptäckt på din maskin.</p>
+<p>A security device (sometimes called a token) is a hardware or software
+  device that provides cryptographic services such as encryption and decryption
+  and stores certificates and keys. The Choose Security Device window appears
+  when Certificate Manager needs help deciding which security device to use
+  when importing a certificate or performing a cryptographic operation, such as
+  generating keys for a new certificate. This window allows you to select one
+  of two or more security devices that Certificate Manager has detected on your
+  machine.</p>
 
-<p>Ett smartkort är ett exempel på en säkerhetsenhet. Om t.ex. en smartkortläsare
-  ansluten till din dator har ett smartkort i sig, kommer namnet på kortet att
-  visas i den nedrullningsbara listan. I detta fall måste du välja namnet på 
-  smartkortet från menyn för att Certifikathanteraren ska veta att du vill 
-  använda det.</p>
+<p>A smart card is one example of a security device. For example, if a smart
+  card reader connected to your computer has a smart card inserted in it, the
+  name of the smart card will show up in the drop-down menu. In this case, you
+  must choose the name of the smart card from the menu to let Certificate
+  Manager know that you want to use it.</p>
 
-<p>Certifikathanteraren har också sin egen inbyggda säkerhetsenhet, som
-  alltid kan användas oavsett vilka ytterligare enheter som är, eller inte är, 
-  tillgängliga.</p>
+<p>The Certificate Manager also supplies its own default, built-in security
+  device, which can always be used no matter what additional devices are or
+  aren&apos;t available.</p>
 
-<h2 id="encryption_key_copy">Krypteringsnyckelkopia</h2>
+<h2 id="encryption_key_copy">Encryption Key Copy</h2>
 
-<p><a href="glossary.xhtml#certificate_authority">Certifikatutfärdare
-  (CA:er)</a> som utfärdar separata signerings- och krypteringscertifikat för
-  e-post gör normalt en säkerhetskopia av din hemliga
-  <a href="glossary.xhtml#encryption_key">krypteringsnyckel</a> under
-  certifikatets registreringsprocess.</p>
+<p><a href="glossary.xhtml#certificate_authority">Certificate authorities (CAs)</a>
+  that issue separate signing and encryption email certificates typically make
+  backup copies of your private
+  <a href="glossary.xhtml#encryption_key">encryption key</a> during the
+  certificate enrollment process.</p>
 
-<p>Dialogrutan Kopiering av krypteringsnyckel låter dig godkänna skapandet av 
-  en sådan säkerhetskopia eller avslå denna begäran. En CA som har sparat en 
-  säkerhetskopia av din krypteringsnyckel har möjlighet att dekryptera alla 
-  meddelanden du mottar, vilka har krypterats med din tillhörande öppna 
-  nyckel.</p>
+<p>The Encryption Key Copy dialog box allows you to approve the creation of
+  such a backup or cancel the certificate request. A CA that has archived a
+  backup copy of your encryption key has the potential capability of
+  decrypting any messages you receive that were encrypted with your
+  corresponding public key.</p>
 
-<p>Du kan utföra dessa åtgärder i dialogrutan Kopiering av krypteringsnyckel:</p>
+<p>You can take these actions from the Encryption Key Copy dialog box:</p>
 
 <ul>
-  <li><strong>Visa certifikat</strong>: För att visa certifikatet som
-    identifierar den CA som begär säkerhetskopian, klicka på Visa
-    certifikat.</li>
-  <li><strong>OK</strong>: Om du litar på den CA som identifierats av
-    CA-certifikatet för att få dekryptera krypterade meddelanden du 
-    mottar, klicka på OK.
+  <li><strong>View Certificate</strong>: To view the certificate identifying
+    the CA that is requesting the backup copy, click View Certificate.</li>
+  <li><strong>OK</strong>: If you trust the CA identified by the CA certificate
+    to decrypt encrypted messages that you receive, click OK.
 
-    <p>Om du inte är säker på om du vill lita på den CA som begär
-    säkerhetskopian, tala med din systemadministratör.</p>
+    <p>If you are not sure whether to trust the CA that is requesting the
+      backup copy, talk to your system administrator.</p>
   </li>
-  <li><strong>Avbryt</strong>: Om du inte litar på den CA som begär
-    säkerhetskopian, bör du inte efterfråga ett certifikat från denna. Klicka
-    på Avbryt för att stoppa både säkerhetskopieringen och begäran om ett
-    certifikat.</li>
+  <li><strong>Cancel</strong>: If you don&apos;t trust the CA that is
+    requesting the backup copy, don&apos;t request a certificate from it. Click
+    Cancel to stop both the backup procedure and the request for a
+    certificate.</li>
 </ul>
 
-<p>Efter det att din CA har gjort en säkerhetskopia av krypteringsnyckeln kommer
-  du att kunna använda denna nyckel för åtkomst till dina krypterade
-  meddelanden, även om du tappar bort ditt lösenord eller din egen kopia av
-  nyckeln. Om ingen säkerhetskopia av din krypteringsnyckel finns, och du
-  tappar bort ditt lösenord eller nyckeln, kommer du inte att kunna läsa de
-  e-postmeddelanden som krypterats med denna nyckel.</p>
+<p>After your CA makes a backup copy of the encryption key, you will be able to
+  use that key to access your encrypted mail even if you lose your password or
+  lose your own copy of the key. If no backup copy of your encryption key
+  exists and you lose your password or the key, you will have no way of reading
+  email messages that were encrypted with that key.</p>
 
-<h2 id="certificate_backup">Certifikats säkerhetskopia</h2>
+<h2 id="certificate_backup">Certificate Backup</h2>
 
-<p>När du mottar ett certifikat, gör en säkerhetskopia av certifikatet
-  och dess hemliga nyckel och lagra den sedan på en säker plats. Till exempel
-  kan du spara den på en diskett och lagra den tillsammans med andra värdefulla 
-  poster inom lås och bom. På det sättet kommer du, även om du råkar ut för 
-  hårddiskproblem eller korrupta filer, att enkelt kunna återställa 
-  certifikatet.</p>
+<p>When you receive a certificate, make a backup copy of the certificate and
+  its private key, then store the copy in a safe place. For example, you can
+  put the copy on a floppy disk and store it with other valuable items under
+  lock and key. That way, even if you have hard disk or file corruption
+  problems, you can easily restore the certificate.</p>
 
-<p>Beroende på vad du använder det till, är det olyckligt eller i värsta
-  fall förödande om du tappar bort ditt certifikat och dess tillhörande 
-  hemliga nyckel. Till exempel:</p>
+<p>It can be inconvenient, at best, and in some situations catastrophic to lose
+  your certificate and its associated private key, depending on what you use it
+  for. For example:</p>
 
 <ul>
-  <li>Om du tappar bort ett certifikat som identifierar dig för viktiga webbplatser
-    kommer du inte att kunna ansluta till dessa webbplatser förrän du skaffat
-    ett nytt certifikat. </li>
-  <li>Om du tappar bort ett certifikat som används till att kryptera
-    e-postmeddelanden, kommer du inte att kunna läsa några av dina krypterade
-    meddelanden &mdash; vare sig de krypterade meddelanden du har skickat eller
-    de krypterade meddelanden du har tagit emot. Om du i det här fallet inte kan 
-    få tag i en säkerhetskopia av den hemliga krypteringsnyckel som hör till 
-    certifikatet, kommer du aldrig att kunna läsa de meddelanden som krypterats 
-    med den nyckeln.</li>
+  <li>If you lose a certificate that identifies you to important websites, you
+    will not be able to access those websites until you obtain a new
+    certificate. </li>
+  <li>If you lose a certificate used to encrypt email messages, you will not
+    be able to read any of your encrypted email&mdash;including both encrypted
+    messages that you have sent and encrypted messages that you have received.
+    In this case, if you cannot obtain a backup of the private encryption key
+    associated with the certificate, you will never be able to read any of the
+    messages encrypted with that key.</li>
 </ul>
 
-<p>Liksom annan värdefull data bör certifikat säkerhetskopieras för att undvika
-  framtida bekymmer och utgifter. Gör det nu så att du inte glömmer bort
-  det.</p>
+<p>Like any other valuable data, certificates should be backed up to avoid
+  future trouble and expense. Do it now so you don&apos;t forget.</p>
 
-<h2 id="user_identification_request">Begäran om användaridentifikation</h2>
+<h2 id="user_identification_request">User Identification Request</h2>
 
-<p>Somliga webbplatser kräver att du identifierar dig med ett certifikat i stället
-  för med namn och lösenord, därför att certifikat ger en säkrare form av
-  identifiering. Denna metod för identifiering över Internet kallas ibland
-  <a href="glossary.xhtml#client_authentication">klientautentisering</a>.</p>
+<p>Some websites require that you identify yourself with a certificate rather
+  than a name and password, because certificates provide a more reliable form
+  of identification. This method of identifying yourself over the Internet is
+  sometimes called
+  <a href="glossary.xhtml#client_authentication">client authentication</a>.</p>
 
-<p>Certifikathanteraren kan dock ha fler än ett certifikat lagrat som kan
-  användas för att identifiera dig för en webbplats. I detta fall kommer
-  Certifikathanteraren att visa dialogrutan Begäran om användaridentifikation
-  som visar två typer av information:</p>
+<p>However, Certificate Manager may have more than one certificate on file that
+  can be used for the purposes of identifying yourself to a website. In this
+  case, Certificate Manager presents the User Identification Request dialog
+  box, which displays two kinds of information:</p>
 
-<p><strong>Denna plats har begärt att du identifierar dig med ett 
-  certifikat</strong>: Denna sektion av dialogrutan listar följande
+<p><strong>This site has requested that you identify yourself with a
+  certificate</strong>: This section of the dialog box lists the following
   information:</p>
 
 <ul>
-  <li><strong>Värdnamn</strong>: Namnet på den server som begär
-      identifikation, visad som del av dess URL. T.ex., värdnamnet för
-      Netscapes webbplats är <tt>home.netscape.com</tt>.</li>
-  <li><strong>Organisation</strong>: Namnet på den organisation som
-      administrerar webbplatsen.</li>
-  <li><strong>Utfärdat under</strong>: Namnet på den
-    <a href="glossary.xhtml#certificate_authority">certifikatutfärdare
-      (CA)</a> som utfärdat certifikatet.</li>
+  <li><strong>Host name</strong>: The name of the server requesting
+    identification, used as part of its URL. For example, the host name for the
+    Netscape website is <tt>home.netscape.com</tt>.</li>
+  <li><strong>Organization</strong>: The name of the organization that runs the
+    website.</li>
+  <li><strong>Issued under</strong>: The name of the
+    <a href="glossary.xhtml#certificate_authority">certificate authority (CA)</a>
+    that issued the certificate.</li>
 </ul>
 
-<p><strong>Välj ett certifikat att ange som identifikation</strong>: 
-  Certifikaten du har tillgängliga för att identifiera dig för webbplatser är
-  listade i den nedrullningsbara listan i denna sektion av dialogrutan. Välj
-  det certifikat som har störst sannolikhet att accepteras av den webbplats du 
-  vill besöka.</p>
+<p><strong>Choose a certificate to present as identification</strong>: The
+  certificates you have available for the purposes of identifying yourself to a
+  website are listed in the drop-down list in this section of the dialog box.
+  Choose the certificate that seems most likely to be recognized by the website
+  you want to visit.</p>
 
-<p>För att hjälpa dig att välja rätt, visas följande detaljer om det markerade
-  certifikatet:</p>
+<p>To help you decide, the following details of the selected certificate are
+  displayed:</p>
 
 <ul>
-  <li><strong>Utfärdat till</strong>: Listar information om den person som
-      identifieras av certifikatet (t.ex. ditt namn och e-postadress) och
-      certifikatets serienummer och giltighetstid.</li>
-  <li><strong>Utfärdat av</strong>: Sammanfattar information om den CA som
-      utfärdat certifikatet, t.ex. dess namn, plats och land.</li>
+  <li><strong>Issued to</strong>: Lists information about the person identified
+    by the certificate (for example, your name and email address) and the
+    certificate&apos;s serial number and validity dates.</li>
+  <li><strong>Issued by</strong>: Summarizes information about the CA that
+    issued the certificate, such as its name, location, and state.</li>
 </ul>
 
-<h2 id="new_certificate_authority">Ny certifikatutfärdare</h2>
+<h2 id="new_certificate_authority">New Certificate Authority</h2>
 
-<p>Certifikaten som Certifikathanteraren har lagrat, oavsett om det är på din 
-  dator eller på en extern säkerhetsenhet såsom ett smartkort, inkluderar 
-  certifikat som identifierar
-  <a href="glossary.xhtml#certificate_authority">certifikatutfärdare (CA:er)</a>.
-  För att kunna använda ett annat lagrat certifikat, måste Certifikathanteraren
-  ha certifikat för de CA:er som utfärdade eller auktoriserade utfärdandet av
-  de certifikaten.</p>
+<p>The certificates that the Certificate Manager has on file, whether stored on
+  your computer or on an external security device such as a smart card, include
+  certificates that identify
+  <a href="glossary.xhtml#certificate_authority">certificate authorities (CAs)</a>.
+  To be able to recognize any other certificates it has on file, Certificate
+  Manager must have certificates for the CAs that issued or authorized issuance
+  of those certificates.</p>
 
-<p>När du bestämmer dig för att lita på en CA, hämtar Certifikathanteraren den 
-  CA:ns certifikat, och kan sedan använda de typer av certifikat, som du har 
-  tillit för den CA:n att utfärda.</p>
+<p>When you decide to trust a CA, Certificate Manager downloads that CA&apos;s
+  certificate and can then recognize the kinds of certificates you trust that
+  CA to issue.</p>
 
-<p>Innan Certifikathanteraren hämtar ett nytt CA-certifikat, låter dig  
-  Certifikathanteraren specificera för vilka tillämpningar du har tillit till 
-  certifikatet, om några alls. Du kan välja bland dessa alternativ:</p>
+<p>Before downloading a new CA certificate, Certificate Manager allows you to
+  specify the purposes for which you trust the certificate, if at all. You can
+  select any of the following options:</p>
 
 <ul>
-  <li><strong>Lita på denna CA för identifiering av webbplatser</strong>: 
-    Webbplatscertifikat för vissa platser, såsom de som hanterar finansiella
-    transaktioner, kan vara extremt viktiga och felaktig eller falsk 
-    identifiering kan få negativa konsekvenser.</li>
-  <li><strong>Lita på denna CA för identifiering av e-postanvändare</strong>: 
-    Om du avser att skicka konfidentiell information till andra e-postanvändare i
-    krypterad form, eller om korrekt identifiering av e-postanvändare är
-    viktigt för dig av något annat skäl, bör du noga överväga om CA:ns 
-    procedures identifiering av eventuella certifikatägare är godtagbara för 
-    dina syften innan du väljer detta alternativ.</li>
-  <li><strong>Lita på denna CA för identifiering av 
-    programvaruutvecklare</strong>: Detta alternativ innebär att du litar på de
-    certifikat som denna CA utfärdar för identifiering av ursprunget till
-    Java-appletar och JavaScript-skript, vilka begär speciell åtkomst till din
-    dator, såsom förmågan att ändra filer. Eftersom sådana åtkomstprivilegier
-    kan missbrukas, t.ex. genom att radera data lagrad på din hårddisk, så bör
-    du vara väldigt försiktig när du väljer detta alternativ, såvida du inte är
-    alldeles säker på att du litar på CA:n för detta syfte.</li>
+  <li><strong>Trust this CA to identify websites</strong>: Website certificates
+    for some websites, such as those that handle financial transactions, can be
+    extremely important, and inappropriate or false identification can have
+    negative consequences.</li>
+  <li><strong>Trust this CA to identify email users</strong>: If you intend to
+    send email users confidential information in encrypted form, or if accurate
+    identification of email users is important to you for any other reason, you
+    should consider carefully the CA&apos;s procedures for identifying
+    prospective certificate owners and whether they are appropriate for your
+    purposes before selecting this option.</li>
+  <li><strong>Trust this CA to identify software developers</strong>: Selecting
+    this option means that you trust the CA to issue certificates that identify
+    the origin of Java applets and JavaScript scripts requesting special access
+    to your computer, such as the ability to change files. Since such access
+    privileges can be misused, for example to destroy data stored on your hard
+    disk, be very careful about selecting this option unless you are certain
+    that you trust the CA for this purpose.</li>
 </ul>
 
-<p>Innan du beslutar dig för att lita på en ny CA, förvissa dig om vem som 
-  handhar den. Ta reda på om CA:ns policy och procedurer är lämpliga för den typ
-  av certifikat den utfärdar. T.ex., om CA:n utfärdar certifikat för
-  identifiering av webbplatser, som du använder för finansiella transaktioner,
-  förvissa dig om att du är tillfreds med den försäkran som CA:n ger.</p>
+<p>Before you decide to trust a new CA, make sure that you know who is
+  operating it. Make sure the CA&apos;s policies and procedures are
+  appropriate for the kinds of certificates it issues. For example, if the CA
+  issues certificates identifying websites you use for financial transactions,
+  make sure you are comfortable with the level of assurance the CA
+  provides.</p>
 
 <ul>
-  <li><strong>Visa</strong>: Klicka på denna knapp för att visa det
-    CA-certifikat som du tänker hämta. Om du beslutar dig för att 
-    inte hämta detta certifikat, klicka på Avbryt.</li>
+  <li><strong>View</strong>: Click this button to view the CA certificate you
+    are about to download. If you decide you don&apos;t want to download this
+    certificate, click Cancel.</li>
 </ul>
 
-<h2 id="web_site_certificates">Webbplatscertifikat</h2>
+<h2 id="website_certificates">Website Certificates</h2>
 
-<p>Ett av de fönster som listas här kan visas när du försöker gå till en
-  webbplats som stöder användningen av <a href="glossary.xhtml#ssl">SSL</a> för 
-  <a href="glossary.xhtml#authentication">autentisering</a> och
-  <a href="glossary.xhtml#encryption">kryptering</a>.</p>
+<p>When you attempt to go to a website that supports the use of
+  <a href="glossary.xhtml#ssl">SSL</a> for
+  <a href="glossary.xhtml#authentication">authentication</a> and
+  <a href="glossary.xhtml#encryption">encryption</a>, you may be faced with an
+  error page. There are two types, one called
+  <a href="#secure_connection_failed_page">Secure Connection Failed</a> and one
+  called <a href="#untrusted_connection_page">Untrusted Connection</a>.</p>
 
-<div class="contentsBox">I detta avsnitt:
+<div class="contentsBox">In this section:
   <ul>
-    <li><a href="#web_site_certified_by_an_unknown_authority">Webbplatsen är
-      certifierad av en okänd utfärdare</a></li>
-    <li><a href="#server_certificate_expired">Servercertifikat har
-      förfallit</a></li>
-    <li><a href="#server_certificate_not_yet_valid">Servercertifikat ännu inte
-      giltigt</a></li>
-    <li><a href="#domain_name_mismatch">Domännamnet matchar inte</a></li>
+    <li><a href="#secure_connection_failed_page">Secure Connection Failed
+      Page</a></li>
+    <li><a href="#untrusted_connection_page">Untrusted Connection Page</a></li>
+    <li><a href="#secure_connection_failed_dialog">Secure Connection Failed
+      Dialog</a></li>
+    <li><a href="#certificate_expired">Server Certificate Expired</a></li>
+    <li><a href="#certificate_not_yet_valid">Server Certificate Not Yet
+      Valid</a></li>
+    <li><a href="#domain_name_mismatch">Domain Name Mismatch</a></li>
   </ul>
 </div>
 
-<h3 id="web_site_certified_by_an_unknown_authority">Webbplatsen är certifierad
-  av en okänd utfärdare</h3>
+<h3 id="secure_connection_failed_page">Secure Connection Failed Page</h3>
 
-<p>Många webbplatser använder certifikat för att identifiera sig när du besöker
-  dem. Om Certifikathanteraren inte känner igen
-  <a href="glossary.xhtml#certificate_authority">certifikatutfärdaren (CA)</a>
-  som utfärdat ett webbplatscertifikat, visar den en varning, vilket låter dig 
-  granska det nya webbplatscertifikatet och bestämma vad du ska göra.</p>
+<p>In the case where you have disabled the SSL protocol (e.g. through
+  <a href="ssl_help.xhtml#ssl_settings">SSL Settings</a>) or the website that
+  you are accessing is using an older, insecure version of the SSL protocol then
+  you will be presented with a page titled &quot;Secure Connection Failed&quot;.
+  That page contains some basic background information (including the
+  <strong>Error code</strong> that uniquely identifies the type of problem
+  &brandShortName; detected with the website) and a <strong>Try Again</strong>
+  button that triggers a page reload.</p>
 
-<p>Använd knapparna för att utföra följande åtgärder:</p>
-<ul>
-  <li><strong>Visa certifikat</strong>: Granska webbplatsens certifikat.</li>
-  <li><strong>Avbryt</strong>: Avbryt operationen. Certifikathanteraren kommer
-    inte att godta certifikatet som en giltig identifikation och kommer inte
-    att ansluta till webbplatsen.</li>
-  <li><strong>OK</strong>: Acceptera certifikatet och anslut till webbplatsen.
-    Välj för hur länge certifikatet ska accepteras:
-    <ul>
-      <li><strong>Acceptera detta certifikat för gott</strong>: 
-        Certifikathanteraren kommer att godta detta certifikat som en giltig 
-        identifikation tills dess att certifikatet förfaller.</li>
-      <li><strong>Acceptera certifikatet för denna session</strong>:
-        Certifikathanteraren kommer att godta detta certifikat som en giltig 
-        identifikation bara under den aktella &brandShortName;-sessionen. Du
-        kommer att se varningen igen, om du startar om &brandShortName; och 
-        försöker besöka webbplatsen.</li>
-    </ul>
-  </li>
-</ul>
+<h3 id="untrusted_connection_page">Untrusted Connection Page</h3>
 
-<p><strong>Viktig information för serveradministratörer</strong>: Denna varning 
-  kan utlösas av en server som inte är korrekt konfigurerad. För att få veta 
-  om det är så, bör serveradministratören eller webbansvarig för platsen
-  du försöker besöka, kontrollera statusen på eventuella mellanliggande CA:er,
-  och vid behov installera saknade certifikat på servern.</p>
-
-<p>Om du beslutar dig för att kontakta webbplatsens webbtekniker om detta problem,
-  kan du inkludera följande information:</p>
+<p>If SSL itself is enabled then the error page that you will be presented with
+  will be titled &quot;This Connection is Untrusted&quot;. There are many
+  different reasons why a connection can appear untrusted. Here are some of the
+  most common ones:</p>
 
 <ul>
-  <li>Serveradministratören kan erhålla mer information om mellanliggande CA:er
-    här:
-    <a href="http://knowledge.verisign.com/search/solution.jsp?id=vs2119">What
-    is the purpose of the Intermediate CA certificate?</a></li>
-  <li>Om servern använder ett Verisign-certifikat kan serveradministratören
-    hämta ett lämpligt certifikat här:
-    <a href="http://www.verisign.com/support/ssl-certificates-support/install-ssl-certificate.html">SSL
-    Certificates Support</a></li>
+  <li>the certificate of the website is <a href="#certificate_expired">no longer
+    valid (expired)</a></li>
+  <li>the certificate of the website is
+    <a href="#certificate_not_yet_valid">not yet valid</a></li>
+  <li>the certificate of the website is only valid for another website
+    (<a href="#domain_name_mismatch">domain name mismatch</a>)</li>
+  <li>the certificate of the website is self-signed (thus the identity of the
+    website cannot be verified).</li>
+  <li>the issuer certificate is not trusted (&brandShortName; cannot
+    verify the identity of the website because it doesn&apos;t
+    recognize the <a href="glossary.xhtml#certificate_authority">certificate
+    authority (CA)</a> that issued the website&apos;s certificate)</li>
 </ul>
 
-<p><strong>För avancerade användare</strong>: För att säkerställa att
-  Certifikathanteraren litar på alla certifikat utfärdade av en viss
-  CA, kan du redigera inställningarna för tillit till det CA-certifikat som de
-  hör till. För att göra detta, följ dessa steg:</p>
+<p>The page displayed in the above cases is meant to help you understand why
+  &brandShortName; was unable to establish a secure connection to the website.
+  It starts by telling you that the website&apos;s identity could not be
+  verified, then offers you to leave the page by clicking the <strong>This
+  sounds bad, take me to my home page instead</strong> button. If you are unsure
+  what to do it is recommended that you follow this advice.</p>
 
-<ol>
-  <li>Öppna menyn <span class="mac">&brandShortName;</span>
-    <span class="noMac">Redigera</span> och välj Inställningar.</li>
-  <li>Under kategorin Integritet och säkerhet, klicka på Certifikat. (Om inga
-    underkategorier är synliga, dubbelklicka på Integritet och säkerhet för
-    att veckla upp listan.)</li>
-  <li>Klicka på Hantera certifikat.</li>
-  <li>Klicka på fliken Utfärdare.</li>
-  <li>Markera det CA-certifikat vars tillitsinställningar du vill
-     redigera.</li>
-  <li>Klicka på knappen Redigera och markera lämpliga tillitsinställningar.</li>
-</ol>
+<p>If you want to know a little bit more about the actual problem at hand you
+  may expand the corresponding section by clicking the chevron in front of
+  <strong>Technical Details</strong>. That section also contains the
+  <strong>Error code</strong> that uniquely identifies the type of problem
+  &brandShortName; detected with the website.</p>
 
-<h3 id="server_certificate_expired">Servercertifikat har förfallit</h3>
+<h4 id="add_security_exception">Adding a Security Exception</h4>
 
-<p>Liksom ett kreditkort, ett körkort eller många andra former av
-  identifikation, är ett <a href="glossary.xhtml#certificate">certifikat</a>
-  endast giltigt för en viss tid. När ett certifikat förfaller kommer
-  innehavaren att behöva skaffa ett nytt.</p>
+<p>The <strong>I Understand the Risks</strong> section of the Untrusted
+  Connection page allows you to tell &brandShortName; to explicitly override the
+  security checks for this website by adding an exception. If you expand the
+  section by clicking the chevron in front of it you will see an <strong>Add
+  Exception</strong> button that will take you to a dialog allowing you to get
+  and view the website&apos;s certificate and optionally add a Security
+  Exception for it (either permanently or just for the current session). Those
+  exceptions can be administered through the Certificate Manager&apos;s
+  <a href="certs_help.xhtml#servers">Servers</a> tab.</p>
 
-<p>Certifikathanteraren varnar dig om du försöker att besöka en webbplats vars
-  servercertifikat har förfallit. Det första du bör göra är att kontrollera
-  att din dator är inställd på rätt tid och datum. Om din dators klocka är
-  inställd på ett datum senare än certifikatets förfallodag, kommer
-  Certifikathanteraren att behandla webbplatscertifikatet som om det har
-  förfallit.</p>
+<h3 id="secure_connection_failed_dialog">Secure Connection Failed Dialog</h3>
 
-<p>Om din dators klocka är korrekt inställd behöver du fatta ett beslut om du
-  kan lita på webbplatsen. Detta beslut beror på vad du tänker göra på
-  webbplatsen, och vilken annan information som du känner till om den. De
-  flesta kommersiella webbplatser är noga med att ersätta sina certifikat
-  innan de har förfallit.</p>
+<p>In cases where &brandShortName; cannot determine the actual cause of the
+  problem a dialog titled &quot;Secure Connection Failed&quot; is shown in
+  addition to the <a href="#untrusted_connection_page">Untrusted Connection
+  page</a>. That dialog includes a <strong>View Certificate</strong> button
+  that allows you to examine the website&apos;s certificate more closely.</p>
 
-<p>Du kan företa följande åtgärder via dialogrutan Servercertifikat har
-  förfallit:</p>
+<h3 id="certificate_expired">Certificate Expired</h3>
 
-<ul>
-  <li><strong>Visa certifikat</strong>: För att granska informationen om
-    certifikatet, inklusive dess giltighetstid, klicka på Visa certifikat.</li>
-  <li><strong>Verkställ</strong>: Om du tror att certifikatet har förfallit av
-    misstag, kan du klicka på Verkställ för att ändå acceptera certifikatet för 
-    sessionen, och sedan underrätta webbplatsens webbtekniker om problemet.
+<p>Like a credit card, a driver&apos;s license, and many other forms of
+  identification, a <a href="glossary.xhtml#certificate">certificate</a> is
+  valid for a specified period of time. When a certificate expires, the owner
+  of the certificate needs to get a new one.</p>
 
-    <p>Var aktsam på vad du gör när du besöker platsen.</p>
-  </li>
-  <li><strong>Avbryt</strong>: Om du misstänker att det kan vara ett allvarligare
-    fel, och du inte vill ta risken att ens besöka webbplatsen, klicka på
-    Avbryt (och Certifikathanteraren kommer inte att ansluta dig till platsen).</li>
-</ul>
+<p>&brandShortName; <a href="#untrusted_connection_page">warns</a> you when you
+  attempt to visit a website whose server certificate has expired. The first
+  thing you should do is make sure the time and date displayed by your computer
+  is correct. If your computer&apos;s clock is set to a date that is after the
+  expiration date, &brandShortName; treats the website&apos;s certificate as
+  expired.</p>
 
-<h3 id="server_certificate_not_yet_valid">Servercertifikat ännu inte giltigt</h3>
+<p>If your computer&apos;s clock is set correctly, you need to make a decision
+  about whether to trust the website. This decision depends on what you intend
+  to do at the website and what else you know about it. Most commercial sites
+  will make sure that they replace their certificates before they expire. If you
+  choose to continue you need to <a href="#add_security_exception">add a
+  security exception</a>.</p>
 
-<p>Liksom ett kreditkort, ett körkort eller många andra former av
-  identifikation, är ett <a href="glossary.xhtml#certificate">certifikat</a>
-  endast giltigt för en viss tid.</p>
+<h3 id="certificate_not_yet_valid">Certificate Not Yet Valid</h3>
 
-<p>Certifikathanteraren varnar dig om du försöker att besöka en webbplats vars
-  servercertifikats giltighetstid ännu inte har inletts. Det första du bör
-  göra är att kontrollera att din dator är inställd på rätt tid och datum. Om
-  din dators klocka är inställd på fel datum, kan Certifikathanteraren komma att
-  behandla servercertifikatet som ännu inte giltigt, trots att det inte är
-  fallet.</p>
+<p>Like a credit card, a driver&apos;s license, and many other forms of
+  identification, a <a href="glossary.xhtml#certificate">certificate</a> is
+  valid for a specified period of time.</p>
 
-<p>Om din dators klocka är korrekt inställd behöver du fatta ett beslut om du
-  kan lita på webbplatsen. Detta beslut beror på vad du tänker göra på
-  webbplatsen, och vilken annan information som du känner till om den. De
-  flesta kommersiella webbplatser är noga med att giltighetsperioden för deras 
-  certifikat har inletts innan de börjar använda dem.</p>
+<p>&brandShortName; <a href="#untrusted_connection_page">warns</a> you when you
+  attempt to visit a website whose server certificate&apos;s validity period has
+  not yet started. The first thing you should do is make sure the time and date
+  displayed by your own computer is correct. If your computer&apos;s clock is
+  set to the wrong date, &brandShortName; may treat the server certificate as
+  not yet valid even if this is not the case.</p>
 
-<p>Du kan företa följande åtgärder via dialogrutan Servercertifikat ännu
-  inte giltigt:</p>
+<p>If your computer&apos;s clock is set correctly, you need to make a decision
+  about whether to trust the website. This decision depends on what you intend
+  to do at the website and what else you know about it. Most commercial sites
+  will make sure that the validity period for their certificates has begun
+  before beginning to use them. If you choose to continue you need to
+  <a href="#add_security_exception">add a security exception</a>.</p>
 
-<ul>
-  <li><strong>Visa certifikat</strong>: För att granska informationen om
-    certifikatet, inklusive dess giltighetstid, klicka på Visa certifikat.</li>
-  <li><strong>OK</strong>: Om du tror att certifikatet har förfallit av
-    misstag, kan du klicka på OK för att ändå acceptera certifikatet för 
-    sessionen, och sedan underrätta webbplatsens webbtekniker om problemet.
+<h3 id="domain_name_mismatch">Domain Name Mismatch</h3>
 
-    <p>Var aktsam på vad du gör när du besöker platsen.</p>
-  </li>
-  <li><strong>Avbryt</strong>: Om du misstänker att det kan vara ett allvarligare
-    fel, och du inte vill ta risken att ens besöka webbplatsen, klicka på
-    Avbryt (och Certifikathanteraren kommer inte att ansluta dig till platsen).</li>
-</ul>
+<p>A server <a href="glossary.xhtml#certificate">certificate</a> specifies the
+  name of the server in the form of the website&apos;s domain name. For example,
+  the domain name for the Mozilla website is <tt>www.mozilla.org</tt>. If the
+  domain name in a server&apos;s certificate doesn&apos;t match the actual
+  domain name of the website, it may be a sign that someone is attempting to
+  intercept your communication with the website.</p>
 
-<h3 id="domain_name_mismatch">Domännamnet matchar inte</h3>
+<p>&brandShortName; <a href="#untrusted_connection_page">warns</a> you when you
+  attempt to visit a website whose server certificate&apos;s domain does not
+  match the domain of the website you are trying to visit. The decision whether
+  to trust the website anyway depends on what you intend to do at the site and
+  what else you know about it. Most commercial sites will make sure that the
+  host name for a website certificate matches the website&apos;s actual host
+  name. If you choose to continue you need to
+  <a href="#add_security_exception">add a security exception</a>.</p>
 
-<p>Ett server-<a href="glossary.xhtml#certificate">certifikat</a> specificerar
-  namnet på servern i formen av platsens domännamn. Till exempel är domännamnet
-  för Mozillas webbplats <tt>www.mozilla.org</tt>. Om domännamnet i ett
-  servercertifikat inte överensstämmer med webbplatsens egentliga domännamn, kan
-  det vara ett tecken på att någon försöker snappa upp din kommunikation med
-  webbplatsen.</p>
-
-<p>Beslutet huruvida du ändå kan lita på webbplatsen beror på vad du tänker 
-  göra på webbplatsen, och vad mer du vet om den. De flesta kommersiella 
-  webbplatser är noga med att värdnamnet i ett webbplatscertifikat matchar 
-  webbplatsens egentliga värdnamn.</p>
-
-<p>Du kan företa följande åtgärder via dialogrutan Domännamnet matchar inte:</p>
-
-<ul>
-  <li><strong>Visa certifikat</strong>: För att granska informationen om
-    certifikatet, klicka på Visa certifikat.</li>
-  <li><strong>OK</strong>: Om du har anledning att tro att problemet är ett 
-    misstag, kan du klicka på OK för att ändå acceptera certifikatet för 
-    sessionen, och sedan underrätta webbplatsens webbtekniker om problemet.
-
-    <p>Var aktsam på vad du gör när du besöker platsen, och behandla
-    information som du finner där med misstänksamhet.</p>
-  </li>
-  <li><strong>Avbryt</strong>: Om du misstänker att det kan vara ett allvarligare
-    fel, och du inte vill ta risken att ens besöka webbplatsen, klicka på
-    Avbryt (och Certifikathanteraren kommer inte att ansluta dig till platsen).</li>
-</ul>
-
-<p>Om du beslutar att ändå acceptera certifikatet för denna session bör du vara
-  aktsam på vad du gör när du besöker platsen och behandla information som du
-  finner där med misstänksamhet.</p>
+<p>If you decide to accept the certificate anyway (either for this session or
+  permanently), you should be cautious about what you do on the website, and you
+  should treat any information you find there as potentially suspect.</p>
 
 </body>
 </html>

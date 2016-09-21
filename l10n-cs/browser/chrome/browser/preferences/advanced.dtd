@@ -50,8 +50,8 @@
 <!ENTITY connection.label                "Připojení">
 
 <!ENTITY connectionDesc.label            "Konfigurovat připojení aplikace &brandShortName; k Internetu">
-<!ENTITY connectionSettings.label        "Nastavení připojení…">
-<!ENTITY connectionSettings.accesskey    "p">
+<!ENTITY connectionSettings.label        "Nastavení…">
+<!ENTITY connectionSettings.accesskey    "a">
 
 <!ENTITY httpCache.label                 "Mezipaměť webových stránek">
 
@@ -82,9 +82,6 @@
 <!ENTITY updateCheck.accesskey           "e">
 <!ENTITY updateManual.label              "Nikdy nevyhledávat aktualizace (nedoporučováno z důvodu rizika ohrožení)">
 <!ENTITY updateManual.accesskey          "N">
-
-<!ENTITY updateAutoAddonWarn.label       "Upozornit, pokud by aktualizace zakázala některé doplňky">
-<!ENTITY updateAutoAddonWarn.accesskey   "U">
 
 <!ENTITY updateHistory.label             "Zobrazit historii aktualizací">
 <!ENTITY updateHistory.accesskey         "b">

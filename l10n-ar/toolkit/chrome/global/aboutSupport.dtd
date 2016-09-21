@@ -52,6 +52,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "عميل المستخدم">
 
 <!ENTITY aboutSupport.appBasicsMemoryUse "استخدام الذاكرة">
+
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 
 
@@ -82,6 +83,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.graphicsTitle "الرسوميات">
 
+
+
+
 <!ENTITY aboutSupport.jsTitle "جافاسكربت">
 <!ENTITY aboutSupport.jsIncrementalGC "جامع القمامة التزايدي">
 
@@ -101,6 +105,9 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "جرّب الوضع الآمن">
 <!ENTITY aboutSupport.restartInSafeMode.label "أعِد التشغيل مع تعطيل الإضافات…">
+
+
+
 
 
 

@@ -11,6 +11,7 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "כישלון בהתחברות">
+<!ENTITY connectionFailure.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY deniedPortAccess.title "כתובת זו מוגבלת">
 <!ENTITY deniedPortAccess.longDesc "">
@@ -27,6 +28,7 @@
 </ul>
 ">
 
+<!ENTITY fileAccessDenied.title "הגישה לקובץ נדחתה">
 
 <!ENTITY generic.title "שגיאה כללית">
 <!ENTITY generic.longDesc "
@@ -36,8 +38,21 @@
 <!ENTITY malformedURI.title "כתובת לא חוקית">
 <!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
      or enabling wifi connections. The text inside the tags should be localized. Do not touch the ids. -->
+<!ENTITY malformedURI.longDesc2 "
+<ul>
+  <li>כתובות של אתרים הן בד״כ משהו בסגנון
+    <strong>http://www.example.com/</strong></li>
+    <div id='searchbox'>
+      <input id='searchtext' type='search'></input>
+      <button id='searchbutton'>חיפוש</button>
+    </div>
+  <li>נא לוודא שהשתמשת בלוכסנים בכיוון הנכון (למשל 
+    <strong>/</strong>).</li>
+</ul>
+">
 
 <!ENTITY netInterrupt.title "החיבור הופסק">
+<!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY notCached.title "תוקף המסמך פג">
 <!ENTITY notCached.longDesc "<p>המסמך המבוקש לא זמין במטמון של &brandShortName;.</p><ul><li>כאמצעי זהירות, &brandShortName; לא יבקש שוב אוטומטית מסמכים רגישים.</li><li>לחץ נסה שוב כדי לבקש מחדש את המסמך מאתר האינטרנט.</li></ul>">
@@ -60,9 +75,17 @@
 ">
 
 <!ENTITY netReset.title "החיבור הופסק">
+<!ENTITY netReset.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY netTimeout.title "תם הזמן המוקצב לחיבור">
+<!ENTITY netTimeout.longDesc2 "&sharedLongDesc3;">
 
+<!ENTITY unknownProtocolFound.title "כתובת זו אינה מובנת">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul>
+  <li>יתכן שיש צורך ביישומונים נוספים כדי לפתוח כתובת זו.</li>
+</ul>
+">
 
 <!ENTITY proxyConnectFailure.title "השרת המתווך דחה את ההתחברות">
 <!ENTITY proxyConnectFailure.longDesc "
@@ -103,9 +126,10 @@
 <!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 
+<!ENTITY cspBlocked.title "נחסם בהתאם למדיניות האבטחה של התוכן">
 
-<!ENTITY corruptedContentError.title "שגיאת תוכן פגום">
-<!ENTITY corruptedContentError.longDesc "<p>הדף שאתה מנסה לצפות בו אינו יכול להיות מוצג בגלל שהתגלתה שגיאה בהעברת הנתונים.</p><ul><li>אנא צור קשר עם בעלי האתר והודע על בעיה זו.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "שגיאת תוכן משובש">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>העמוד המבוקש אינו ניתן לצפייה עקב שגיאה שאותרה בתעבורת הנתונים.</p><ul><li>נא ליצור קשר עם מנהלי האתר וליידע אותם על תקלה זו.</li></ul>">
 
 <!ENTITY securityOverride.linkText "באפשרותך גם להוסיף חריגה…">
 <!ENTITY securityOverride.getMeOutOfHereButton "תוציא אותי מכאן!">
@@ -125,3 +149,16 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!ENTITY remoteXUL.title "XUL מרוחק">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>פנה אל בעלי האתר כדי ליידע אותם על בעיה זו.</li></ul></p>">
 
+<!ENTITY sslv3Used.title "לא ניתן להיכנס באופן מאובטח">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
+<!ENTITY sslv3Used.longDesc "פרטים מתקדמים: SSL_ERROR_UNSUPPORTED_VERSION">
+
+<!ENTITY weakCryptoUsed.title "החיבור שלך אינו בטוח">
+<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
+     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!ENTITY weakCryptoUsed.longDesc "פרטים מתקדמים: SSL_ERROR_NO_CYPHER_OVERLAP">
+
+<!ENTITY inadequateSecurityError.title "החיבור שלך אינו בטוח">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->

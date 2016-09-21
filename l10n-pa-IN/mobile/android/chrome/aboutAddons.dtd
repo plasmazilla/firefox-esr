@@ -10,3 +10,6 @@
 <!ENTITY addonAction.disable                    "ਬੰਦ">
 <!ENTITY addonAction.uninstall                  "ਅਣ-ਇੰਸਟਾਲ ਕਰੋ">
 <!ENTITY addonAction.undo                       "ਵਾਪਸ ਲਵੋ">
+
+<!ENTITY addonUnsigned.message                  "ਇਸ ਐਡ-ਆਨ ਨੂੰ &brandShortName; ਵਲੋਂ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।">
+<!ENTITY addonUnsigned.learnMore                "ਹੋਰ ਜਾਣੋ">

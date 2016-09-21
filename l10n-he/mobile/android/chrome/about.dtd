@@ -9,6 +9,9 @@
 <!ENTITY aboutPage.checkForUpdates.link         "בדיקת עדכונים »">
 <!ENTITY aboutPage.checkForUpdates.checking     "בודק עדכונים…">
 <!ENTITY aboutPage.checkForUpdates.none         "אין עדכונים זמינים">
+<!ENTITY aboutPage.checkForUpdates.available2   "הורדת עדכון">
+<!ENTITY aboutPage.checkForUpdates.downloading  "העדכון בהורדה…">
+<!ENTITY aboutPage.checkForUpdates.downloaded2  "התקנת עדכון">
 <!ENTITY aboutPage.faq.label                    "תשובות לשאלות נפוצות">
 <!ENTITY aboutPage.support.label                "תמיכה">
 <!ENTITY aboutPage.privacyPolicy.label          "מדיניות פרטיות">
@@ -18,3 +21,4 @@
 <!ENTITY aboutPage.license.label                "מידע רישוי">
 
 <!-- LOCALIZATION NOTE (aboutPage.logoTrademark): The message is explicitly about the word "Firefox" being trademarked, that's why we use it, instead of brandShortName. -->
+<!ENTITY aboutPage.logoTrademark                "Firefox והסמלים של Firefox הם סימנים מסחריים של Mozilla Foundation.">

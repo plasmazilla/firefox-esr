@@ -12,454 +12,452 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Signera och kryptera meddelanden</title>
+<title>Signing &amp; Encrypting Messages</title>
 <link rel="stylesheet" href="helpFileLayout.css"
   type="text/css"/>
 </head>
 <body>
 
-<h1 id="signing_and_encrypting_messages">Signera och kryptera meddelanden</h1>
+<h1 id="signing_and_encrypting_messages">Signing &amp; Encrypting Messages</h1>
 
-<div class="contentsBox">I detta avsnitt:
+<div class="contentsBox">In this section:
   <ul>
-    <li><a href="#about_digital_signatures_and_encryption">Om elektroniska 
-      signaturer och kryptering</a></li>
-    <li><a href="#getting_other_peoples_certificates">Få rätt på andra 
-      personers certifikat</a></li>
-    <li><a href="#configuring_security_settings">Konfigurera 
-      säkerhetsinställningar</a></li>
-    <li><a href="#signing_and_encrypting_a_new_message">Signera och kryptera 
-      ett nytt meddelande</a></li>
-    <li><a href="#reading_signed_and_encrypted_messages">Läsa signerade och 
-      krypterade meddelanden</a></li>
-    <li><a href="#message_security_compose_window">Meddelandesäkerhet - 
-      Skrivfönster</a></li>
-    <li><a href="#message_security_received_message">Meddelandesäkerhet - 
-      Mottaget meddelande</a></li>
+    <li><a href="#about_digital_signatures_and_encryption">About Digital
+      Signatures &amp; Encryption</a></li>
+    <li><a href="#getting_other_peoples_certificates">Getting Other
+      People&apos;s Certificates</a></li>
+    <li><a href="#configuring_security_settings">Configuring Security
+      Settings</a></li>
+    <li><a href="#signing_and_encrypting_a_new_message">Signing &amp;
+      Encrypting a New Message</a></li>
+    <li><a href="#reading_signed_and_encrypted_messages">Reading Signed &amp;
+      Encrypted Messages</a></li>
+    <li><a href="#message_security_compose_window">Message Security -
+      Compose Window</a></li>
+    <li><a href="#message_security_received_message">Message Security -
+      Received Message</a></li>
   </ul>
 </div>
 
-<h2 id="about_digital_signatures_and_encryption">Om elektroniska signaturer och 
-  kryptering</h2>
+<h2 id="about_digital_signatures_and_encryption">About Digital Signatures &amp;
+  Encryption </h2>
 
-<p>När du skriver ett e-postmeddelande kan du välja att bifoga din elektroniska
-  signatur till det. En <a href="glossary.xhtml#digital_signature">elektronisk
-  signatur</a> gör att mottagare av meddelandet kan verifiera att meddelandet
-  verkligen kommer ifrån dig och att det inte har manipulerats sedan du skickade
-  det.</p>
+<p>When you compose a mail message, you can choose to attach your digital
+  signature to it. A <a href="glossary.xhtml#digital_signature">digital
+  signature</a> allows recipients of the message to verify that the message
+  really comes from you and hasn&apos;t been tampered with since you sent
+  it.</p>
 
-<p>När du skriver ett e-postmeddelande kan du också välja att kryptera det.
-  <a href="glossary.xhtml#encryption">Kryptering</a> gör det väldigt svårt för
-  någon annan än den tilltänkte mottagaren att läsa meddelandet under tiden det
-  färdas över Internet.</p>
+<p>When you compose a mail message, you can also choose to encrypt it.
+  <a href="glossary.xhtml#encryption">Encryption</a> makes it very difficult
+  for anyone other than the intended recipient to read the message while it is
+  in transit over the Internet.</p>
 
-<p>Signering och kryptering är inte tillgängligt för diskussionsgruppmeddelanden.</p>
+<p>Signing and encryption are not available for newsgroup messages.</p>
 
-<p>Innan du kan signera eller kryptera ett meddelande måste du först göra
-  detta:</p>
+<p>Before you can sign or encrypt a message, you must take these preliminary
+  steps:</p>
 
 <ol>
-  <li>Skaffa ett eller flera <a href="glossary.xhtml#certificate">certifikat</a>
-    (den elektroniska motsvarigheten till ID-kort). För detaljer, se
-    <a href="using_certs_help.xhtml#getting_your_own_certificate">Skaffa ett eget
-     certifikat</a>.</li>
-  <li>Konfigurera säkerhetsinställningarna för ditt e-postkonto. För detaljer, se
-<!-- Staemmer inte med den laenken, Bug 459580 -->    <a href="mail_help.xhtml#security">Konfigurera dina säkerhetsinställningar</a>.
+  <li>Obtain one or more <a href="glossary.xhtml#certificate">certificates</a>
+    (the digital equivalents of ID cards). For details, see
+    <a href="using_certs_help.xhtml#getting_your_own_certificate">Getting Your
+    Own Certificate</a>.</li>
+  <li>Configure the security settings for your email account. For details, see
+    <a href="mailnews_account_settings.xhtml#security">Configuring Your
+    Security Settings</a>.
   </li>
 </ol>
 
-<p>När du har utfört dessa steg kan du slutföra instruktionerna i
-  <a href="#signing_and_encrypting_a_new_message">Signera och kryptera ett nytt 
-  meddelande</a>.</p>
+<p>Once you have completed these steps, you can complete the instructions in
+  <a href="#signing_and_encrypting_a_new_message">Signing &amp; Encrypting a 
+  New Message</a>.</p>
 
-<p>Följande avsnitt ger en kort översikt över hur elektroniska signaturer och
-  kryptering fungerar. För mer tekniska detaljer om detta ämne, se det
-  webbaserade dokumentet
-  <a href="http://developer.mozilla.org/en/docs/Introduction_to_Public-Key_Cryptography">Introduction
+<p>The sections that follow provide a brief overview of how digital signatures
+  and encryption work. For more technical details on this subject, see the
+  online document
+  <a href="http://developer.mozilla.org/en/Introduction_to_Public-Key_Cryptography">Introduction
   to Public-Key Cryptography</a>.</p>
 
-<h3 id="how_digital_signatures_work">Hur elektroniska signaturer fungerar</h3>
+<h3 id="how_digital_signatures_work">How Digital Signatures Work</h3>
 
-<p>En elektronisk signatur är en speciell kod, unik för varje meddelande, skapad
-  genom <a href="glossary.xhtml#public-key_cryptography">öppen
-  nyckel-kryptografi</a>.</p>
+<p>A digital signature is a special code, unique to each message, created by
+  means of <a href="glossary.xhtml#public-key_cryptography">public-key
+  cryptography</a>.</p>
 
-<p>En elektronisk signatur är något helt annat än en handskriven namnteckning,
-  även om den ibland kan användas för liknande legala syften, såsom
-  undertecknande av ett kontrakt.</p>
+<p>A digital signature is completely different from a handwritten signature,
+  although it can sometimes be used for similar legal purposes, such as signing
+  a contract.</p>
 
-<p>För att skapa en elektronisk signatur för ett e-postmeddelande som du skickar,
-  behöver du två saker:</p>
+<p>To create a digital signature for an email message that you are sending, you
+  need two things:</p>
 
 <ul>
-  <li>Ett <a href="glossary.xhtml#signing_certificate">signeringscertifikat</a>
-    som identifierar dig för detta ändamål. Varje gång du signerar ett
-    meddelande kommer ditt signeringscertifikat att infogas i meddelandet.
-    Certifikatet innehåller en <a href="glossary.xhtml#public_key">öppen
-    nyckel</a>. Närvaron av certifikatet i meddelandet gör att mottagaren kan
-    verifiera din elektroniska signatur.
+  <li>A <a href="glossary.xhtml#signing_certificate">signing certificate</a>
+    that identifies you for this purpose. Every time you sign a message, your
+    signing certificate is included with the message. The certificate includes
+    a <a href="glossary.xhtml#public_key">public key</a>. The presence of the
+    certificate in the message permits the recipient to verify your digital
+    signature.
 
-    <p>Ditt certifikat är ungefär som ditt namn och telefonnummer i
-      telefonkatalogen &mdash; det är offentlig information som hjälper andra att
-      kommunicera med dig.</p>
+    <p>Your certificate is a bit like your name and phone number in the
+      phonebook&mdash;it is public information that helps other people
+      communicate with you.</p>
   </li>
-  <li>En <a href="glossary.xhtml#private_key">hemlig nyckel</a>, som skapas och
-    lagras på din dator när du först skaffar ett certifikat.
+  <li>A <a href="glossary.xhtml#private_key">private key</a>, which is created
+    and stored on your computer when you first obtain a certificate.
 
-    <p>Din hemliga nyckel till ett signeringscertifikat skyddas av ditt
-      <a href="glossary.xhtml#master_password">huvudlösenord</a>, och
-      &brandShortName;-programmet avslöjar det inte för någon annan. Mjukvaran i
-      E-post &amp; Grupper använder din hemliga nyckel för att skapa en unik och
-      verifierbar elektronisk signatur för varje meddelande du väljer att
-      signera.</p>
+    <p>Your private key for a signing certificate is protected by your
+      <a href="glossary.xhtml#master_password">Master Password</a>, and the
+      &brandShortName; program does not disclose it to anyone else. The Mail
+      &amp; Newsgroup software uses your private key to create a unique,
+      verifiable digital signature for every message you choose to sign.</p>
   </li>
 </ul>
 
-<h3 id="how_encryption_works">Hur kryptering fungerar</h3>
+<h3 id="how_encryption_works">How Encryption Works</h3>
 
-<p>För att kryptera ett e-postmeddelande måste du ha ett
-  <a href="glossary.xhtml#encryption_certificate">krypteringscertifikat</a> för
-  var och en av meddelandets mottagare. Den öppna nyckeln i varje certifikat
-  används till att kryptera meddelandet för den mottagaren.</p>
+<p>To encrypt an email message, you must have an
+  <a href="glossary.xhtml#encryption_certificate">encryption certificate</a>
+  for each of the message&apos;s recipients. The public key in each certificate
+  is used to encrypt the message for that recipient.</p>
 
-<p>Om du inte har något certifikat för en av mottagarna kommer meddelandet inte
-  heller att kunna krypteras för de övriga.</p>
+<p>If you don&apos;t have a certificate for even a single recipient, the
+  message cannot be encrypted.</p>
 
-<p>Mottagarens programvara använder mottagarens hemliga nyckel, som finns på den
-  personens dator, för att dekryptera meddelandet.</p>
+<p>The recipient&apos;s software uses the recipient&apos;s private key, which
+  remains on that person&apos;s computer, to decrypt the message.</p>
   
-<p>[<a href="#signing_and_encrypting_messages">Återvänd till början av
-  avsnittet</a>]</p>
+<p>[<a href="#signing_and_encrypting_messages">Return to beginning of
+  section</a>]</p>
 
-<h2 id="getting_other_peoples_certificates">Få rätt på andra personers 
-  certifikat</h2>
+<h2 id="getting_other_peoples_certificates">Getting Other People&apos;s
+  Certificates</h2>
 
-<p>Varje gång du skickar ett elektroniskt signerat meddelande kommer ditt
-  krypteringscertifikat att automatiskt infogas i meddelandet. Ett av de
-  enklaste sätten att erhålla någon annans certifikat på, är därför om denna
-  person skickar ett elektroniskt signerat meddelande till dig.</p>
+<p>Every time you send a digitally signed message, your encryption certificate
+  is automatically included with the message. Therefore, one of the easiest
+  ways to obtain someone else&apos;s certificate is for that person to send you
+  a digitally signed message.</p>
 
-<p>När du mottar ett sådant meddelande kommer den personens certifikat att
-  automatiskt sparas av <a href="certs_help.xhtml">Certifikathanteraren</a>,
-  vilket är den del av webbläsaren som håller ordning på certifikaten. Detta är
-  praktiskt därför att du behöver ha ett certifikat för varje mottagare av ett
-  e-postmeddelande som du vill skicka i krypterad form.</p>
+<p>When you receive such a message, the person&apos;s certificate is
+  automatically stored by the <a href="certs_help.xhtml">Certificate
+  Manager</a>, which is the part of the browser that keeps track of
+  certificates. This is useful because you need to have a certificate for each
+  recipient of any email message that you want to send in encrypted form.</p>
 
-<p>Du kan också erhålla ett certifikat genom att söka rätt på det i en offentlig
-  katalog som <q>telefonkatalogerna</q> som tillhandahålls på många företag.</p>
+<p>Another way to obtain certificates is to look them up in a public directory,
+  such as the <q>phonebook</q> directories maintained by many companies.</p>
 
-<p>Du kan också söka efter certifikat automatiskt. Denna funktion
-  kontrolleras av <a href="mail_help.xhtml#addressing_preferences">
-  Inställningar för E-post &amp; Grupper - Adressera</a> eller
-  <a href="mail_help.xhtml#addressing">Kontoinställningar för E-post &amp;
-  Grupper - Adressera</a>, vilka kan konfigureras till att söka efter mottagares
-  adresser i en katalog.</p>
+<p>It&apos;s also possible to look up certificates automatically.  This feature
+  is controlled by
+  <a href="mailnews_preferences.xhtml#addressing_preferences">Mail &amp;
+  Newsgroups Preferences - Addressing</a> or
+  <a href="mailnews_account_settings.xhtml#addressing">Mail &amp; Newsgroups
+  Account Settings - Addressing</a>, which can be configured to look up
+  recipients&apos; email addresses in a directory.</p>
 
-<p>När du använder ett konto som konfigurerats till att söka efter adresser i
-  en katalog, kommer samma katalog att genomsökas efter matchande certifikat,
-  när du försöker skicka ett krypterat meddelande till mottagare som du inte
-  har något arkiverat certifikat för.</p>
+<p>When you are using any account that is configured to look up addresses in a
+  directory, the same directory will be searched for matching certificates when
+  you attempt to send an encrypted message to one or more recipients for whom
+  you don&apos;t have certificates on file.</p>
 
-<p>Katalogen kommer också att sökas igenom efter saknade certifikat när du
-  öppnar menyn under säkerhetsikonen i skrivfönstret och väljer
-  Meddelandesäkerhet.</p>
+<p>The directory will also be searched for missing certificates when you open
+  the drop-down menu below the Security icon in the Compose window and choose
+  View Security Info.</p>
 
-<p>[<a href="#signing_and_encrypting_messages">Återvänd till början av
-  avsnittet</a>]</p>
+<p>[<a href="#signing_and_encrypting_messages">Return to beginning of
+  section</a>]</p>
 
-<h2 id="configuring_security_settings">Konfigurera säkerhetsinställningar</h2>
+<h2 id="configuring_security_settings">Configuring Security Settings</h2>
 
-<p>När du har erhållit ett (eller flera) e-postcertifikat, måste du ange vilka
-  certifikat du vill använda för signering och kryptering av meddelanden.</p> 
+<p>Once you have obtained an email certificate (or certificates), you must
+  specify the certificates you want to use for signing and encrypting
+  messages.</p> 
 
-<p>För information om hur du skaffar e-postcertifikat, se
-  <a href="using_certs_help.xhtml#getting_your_own_certificate">Skaffa ett eget
-  certifikat</a>.</p>
+<p>For information about obtaining email certificates, see
+  <a href="using_certs_help.xhtml#getting_your_own_certificate">Getting Your
+  Own Certificate</a>.</p>
 
-<p>För att ange vilka signerings- och krypteringscertifikat att använda med ett
-  särskilt konto, börja i e-postklientfönstret:</p>
+<p>To specify which signing and encryption certificates to use with a
+  particular account, begin from the Mail window:</p>
 
 <ol>
-  <li>Öppna menyn Redigera och välj Kontoinställningar för E-post &amp; Grupper.</li>
-  <li>Klicka på Säkerhet under namnet på det konto vars säkerhetsinställningar
-    du vill konfigurera.</li>
-  <li>Under Elektronisk signering, klicka på Välj. (Du kan bli uppmanad att ange
-    ditt <a href="glossary.xhtml#master_password">huvudlösenord</a> innan du kan
-    fortsätta.)
+  <li>Open the Edit menu and choose Mail &amp; Newsgroups Account Settings.</li>
+  <li>Click Security under the name of the mail account whose security settings
+    you want to configure.</li>
+  <li>Under Digital Signing, click Select. (You may be asked to provide your
+    <a href="glossary.xhtml#master_password">Master Password</a> before you can
+    proceed further.)
 
-    <p>En dialogruta visas där du kan välja bland dina tillgängliga
-      signeringscertifikat.</p>
+    <p>A dialog box appears that allows you to select from among your available
+      signing certificates.</p>
   </li>
-  <li>Markera det signeringscertifikat du vill använda, klicka sedan på OK.</li>
-  <li>Följ samma steg under Kryptering; klicka på Välj, markera det
-    krypteringscertifikat du vill använda och klicka på OK.
+  <li>Choose the signing certificate you want to use, then click OK.</li>
+  <li>Follow the same steps under Encryption: click the Select button, select
+    the encryption certificate you want to use, and click OK.</li>
 
-  <p>I vissa fall kanske du kan använda samma certifikat under Kryptering som
-    det du angav under Elektronisk signering; hör med din systemadministratör om
-    det är så.</p></li>
+  <p>In some cases you may be able to specify the same certificate under
+    Encryption that you specified under Digital Signing; check with your system
+    administrator to find out for sure.</p>
 </ol>
 
-<p>Om du vill kan du också indikera att du normalt vill signera eller kryptera
-  alla meddelanden skickade från ett särskilt konto. Dessa kontospecifika
-  inställningar är endast till för att underlätta; du kan åsidosätta
-  förinställningarna för enskilda meddelanden.</p>
+<p>Optionally, you can also indicate that you normally want to sign or encrypt
+  all messages sent from a particular account. These account-specific settings
+  are for convenience only; you can override the default settings for
+  individual messages.</p>
 
-<p>För att konfigurera dina förinställningar för signering och kryptering,
-  börja i panelen Säkerhet för kontot (beskrivet ovan) och välj dina
-  inställningar enligt följande:</p>
+<p>To configure your default signing and encryption settings, start from the
+  Security panel for the account (described above) and select your settings as
+  follows:</p>
 
 <ul>
-  <li>Under Elektronisk signering:
+  <li>Under Digital Signing:
     <ul>
-      <li><strong>Signera meddelanden</strong>: När denna ruta är markerad
-        kommer alla meddelanden du skickar från detta konto att signeras
-        elektroniskt, såvida du inte indikerar något annat innan du skickar
-        meddelandet. För att inaktivera denna förinställning, avmarkera rutan.</li>
+      <li><strong>Digitally sign messages</strong>: When this checkbox is
+        selected, all the messages you send from this account will be digitally
+        signed unless you indicate otherwise before you send the message. To
+        turn off this default setting, deselect the checkbox.</li>
     </ul>
   </li>
-  <li>Under Kryptering (välj en):
+  <li>Under Encryption (choose one):
     <ul>
-      <li><strong>Aldrig</strong>: När detta alternativ är markerat
-        kommer meddelanden du skickar från detta konto inte att krypteras,
-        såvida du inte anger något annat innan du skickar dem.</li>
-      <li><strong>Erfordras</strong>: När detta alternativ är markerat
-        kommer alla meddelanden du skickar från detta konto att
-        krypteras &mdash; men endast om du har ett giltigt certifikat för var
-        och en av meddelandets mottagare. Om du inte har alla nödvändiga
-        certifikat kommer meddelandet inte att kunna skickas, såvida du inte
-        inaktiverar kryptering för det meddelandet.</li>
+      <li><strong>Never</strong>: When this option is selected, messages you
+        send from this account will be not be encrypted unless you indicate
+        otherwise before you send them.</li>
+      <li><strong>Required</strong>: When this option is selected, all the
+        messages you send from this account will be encrypted&mdash;but only if
+        you have valid certificates for each of the message&apos;s recipients.
+        If you don&apos;t have all the necessary certificates, the message
+        can&apos;t be sent unless you turn off encryption for that message.</li>
     </ul>
   </li>
 </ul>
 
-<p>När du är klar med konfigurationen av dina e-postsäkerhetsinställningar,
-  klicka på OK för att bekräfta dem.</p>
+<p>When you have finished configuring your mail security settings, click OK to
+  confirm them.</p>
  
-<p>[<a href="#signing_and_encrypting_messages">Återvänd till början av
-  avsnittet</a>]</p>
+<p>[<a href="#signing_and_encrypting_messages">Return to beginning of
+  section</a>]</p>
 
-<h2 id="signing_and_encrypting_a_new_message">Signera och kryptera ett nytt 
-  meddelande</h2>
+<h2 id="signing_and_encrypting_a_new_message">Signing &amp; Encrypting a New
+  Message</h2>
 
-<p>Innan du kan signera eller kryptera ett meddelande måste du först skaffa
-  minst ett e-postcertifikat och konfigurera dina säkerhetsinställningar. För
-  bakgrundsinformation om dessa moment, se
-  <a href="#about_digital_signatures_and_encryption">Om elektroniska signaturer 
-  och kryptering</a>.</p>
+<p>Before you can digitally sign or encrypt any message, you must obtain at
+  least one email certificate and configure your mail security settings
+  correctly. For background information on these tasks, see
+  <a href="#about_digital_signatures_and_encryption">About Digital Signatures
+  &amp; Encryption</a>.</p>
 
-<p>Inställningarna angivna i <a href="mail_help.xhtml#security">
-  Kontoinställningar för E-post &amp; Grupper - Säkerhet</a> avgör vad
-  förinställningen för varje nytt meddelande ska vara när du öppnar
-  skrivfönstret.</p>
+<p>The settings specified in
+  <a href="mailnews_account_settings.xhtml#security">Mail &amp; Newsgroups
+  Account Settings - Security</a> determine the default settings for each new
+  Compose window you open when you set out to write an email.</p>
 
-<p>För att öppna ett skrivfönster, börja i e-postklientfönstret och klicka
-  på Skriv nytt. Du kan genast identifiera de förinställda
-  säkerhetsinställningarna genom närvaron eller frånvaron av dessa ikoner vid det
-  nedre högra hörnet av fönstret:</p>
+<p>To open a Compose window, start from the Mail window and click Compose. You
+  can immediately identify the default security settings from the presence or
+  absence of these icons near the lower-right corner of the window:</p>
 
 <table>
   <tr>
     <td><img src="chrome://messenger/skin/smime/icons/hdrSignOk.gif"
-      alt="ikon för elektronisk signatur"/></td><td>Meddelandet kommer att
-      signeras elektroniskt (förutsatt att du har ett giltigt e-postcertifikat som
-      identifierar dig).</td>
+      alt="digital signature icon"/></td><td>The message will be digitally
+      signed (assuming you have a valid email certificate that
+      identifies you).</td>
   </tr>
   <tr>
     <td><img src="chrome://messenger/skin/smime/icons/hdrCryptoOk.gif"
-      alt="ikon för kryptering"/></td><td>Meddelandet kommer att krypteras
-      (förutsatt att du har giltiga certifikat för alla mottagare).</td>
+      alt="encryption icon"/></td><td>The message will be encrypted
+      (assuming you have valid certificates for all recipients).</td>
   </tr>
 </table>
 
-<p>För att inaktivera eller aktivera dessa inställningar, klicka på pilen precis
-  under säkerhetsikonen i e-postklientens verktygsfält nästan högst upp i
-  fönstret. Välj sedan det alternativ du vill använda i rullistan:</p>
+<p>To turn these settings off or on, click the arrow just below the Security
+  icon in the Mail toolbar near the top of the window. Then select the item you
+  want from the drop-down list:</p>
 
 <ul>
-  <li><strong>Kryptera inte detta meddelande</strong>: Välj detta för att
-    inaktivera kryptering av detta meddelande. Meddelandet kommer inte att
-    krypteras när det skickas över Internet.</li>
-  <li><strong>Kryptera detta meddelande</strong>: Välj detta för att aktivera
-    kryptering av detta meddelande. Meddelandet kommer att skickas i krypterad
-    form. Det kan dock inte skickas om du inte har giltiga certifikat för alla
-    mottagare.</li>
-  <li><strong>Signera elektroniskt</strong>: Välj detta för att inaktivera eller
-    aktivera elektronisk signering av detta meddelande. En markering indikerar
-    att meddelandet kommer att signeras.</li> 
-  <li><strong>Visa säkerhetsinfo</strong>: Välj detta för att visa detaljerad
-    information om säkerhetsstatusen för detta meddelande &mdash; detta för att
-    hjälpa dig att bestämma om du t.ex. behöver skaffa ett certifikat för någon
-    av mottagarna.</li>
+  <li><strong>Do Not Encrypt This Message</strong>: Choose this to turn off
+    encryption for this message. The message will not be encrypted when it is
+    sent over the Internet.</li>
+  <li><strong>Encrypt This Message</strong>: Choose this to turn on encryption
+    for this message. The message will be sent in encrypted form. However, it
+    can&apos;t be sent unless you have valid certificates for all
+    recipients.</li>
+  <li><strong>Digitally Sign This Message</strong>: Choose this to turn digital
+    signing on or off for this message. A checkmark indicates the message will
+    be signed.</li> 
+  <li><strong>View Security Info</strong>: Choose this to view detailed
+    information about the security status of this message&mdash;to help you
+    determine, for example, whether you need to obtain a certificate for one of
+    the recipients.</li>
 </ul>
 
-<p>För att se detaljerad information om meddelandets säkerhetsstatus, kan du
-  också klicka på nyckel- eller låsikonen, som beskrivet i
-  <a href="#message_security_compose_window">Meddelandesäkerhet - 
-  Skrivfönster</a>.</p>
+<p>To view detailed information about the message&apos;s security status, you
+  can also click the key or lock icon as described in
+  <a href="#message_security_compose_window">Message Security - Compose
+  Window</a>.</p>
 
-<p>[<a href="#signing_and_encrypting_messages">Återvänd till början av
-  avsnittet</a>]</p>
+<p>[<a href="#signing_and_encrypting_messages">Return to beginning of
+  section</a>]</p>
 
-<h2 id="reading_signed_and_encrypted_messages">Läsa signerade och krypterade 
-  meddelanden</h2>
+<h2 id="reading_signed_and_encrypted_messages">Reading Signed &amp; Encrypted
+  Messages</h2>
 
-<p>När du visar ett signerat eller krypterat meddelande i e-postklientfönstret,
-  kommer de ikoner som visas vid övre högra hörnet av meddelandehuvudet, att
-  indikera säkerhetsstatusen för meddelandet:</p>
+<p>When you view a signed or encrypted message in the Mail window, these icons
+  near the upper-right corner of the message header indicate the security
+  status of the message:</p>
   
 <table>
   <tr>
     <td><img src="chrome://messenger/skin/smime/icons/hdrSignOk.gif"
-      alt="ikon för elektronisk signatur"/></td><td>Meddelandet är elektroniskt
-      signerat och har validerats. Om det är något problem med signaturen
-      kommer pennan att vara trasig.</td>
+      alt="digital signature icon"/></td><td>The message is digitally
+      signed and has been validated. If there is a problem with the signature,
+      the pen is broken.</td>
   </tr>
   <tr>
     <td><img src="chrome://messenger/skin/smime/icons/hdrSignUnknown.gif"
-      alt="ikon för okänt"/></td><td>Meddelandet är signerat, men det har en
-      stor bilaga som ännu inte har hämtats från IMAP-servern. Signaturen kan
-      därför inte valideras. Klicka på ikonen för att hämta bilagan och validera
-      signaturen.</td>
+      alt="unknown icon"/></td><td>The message is signed, but it has a
+      large attachment that has not yet been downloaded from the IMAP server.
+      As a result, the signature cannot be validated. Click the icon to
+      download the attachment and validate the signature.</td>
   </tr>
   <tr>
     <td><img src="chrome://messenger/skin/smime/icons/hdrCryptoOk.gif"
-      alt="ikon för kryptering"/></td><td>Meddelandet är krypterat. Om det är
-      något problem med krypteringen kommer nyckeln att vara trasig.</td>
+      alt="encryption icon"/></td><td>The message is encrypted. If there
+      is a problem with the encryption, the key is broken.</td>
   </tr>
 </table>
 
-<p>För information om certifikatvalidering, se
-  <a href="using_certs_help.xhtml#controlling_validation">Ha kontroll över
-  validering</a>.</p>
+<p>For information about certificate validation, see
+  <a href="using_certs_help.xhtml#controlling_validation">Controlling
+  Validation</a>.</p>
 
-<p>För att se mer detaljerad information om meddelandets säkerhet, klicka på
-  nyckel- eller låsikonen, eller följ instruktionerna i
-  <a href="#message_security_received_message">Meddelandesäkerhet - Mottaget 
-  meddelande</a>.</p>
+<p>To see more detailed information about the message&apos;s security, click
+  the key or lock icon, or follow the instructions in
+  <a href="#message_security_received_message">Message Security - Received
+  Message</a>.</p>
 
-<p>[<a href="#signing_and_encrypting_messages">Återvänd till början av
-  avsnittet</a>]</p>
+<p>[<a href="#signing_and_encrypting_messages">Return to beginning of
+  section</a>]</p>
 
-<h2 id="message_security_compose_window">Meddelandesäkerhet - Skrivfönster</h2>
+<h2 id="message_security_compose_window">Message Security - Compose Window</h2>
 
-<p>Detta avsnitt beskriver fönstret Meddelandesäkerhet som du kan öppna för
-  varje meddelande som du skriver. Om du inte redan visar Meddelandesäkerhet,
-  klicka på säkerhetsikonen i verktygsfältet i skrivfönstret.</p>
+<p>This section describes the Message Security window that you can open for any
+  message you are composing. If you&apos;re not already viewing Message
+  Security, click the Security icon in the toolbar of the Compose window.</p>
 
-<p>Fönstret Meddelandesäkerhet beskriver hur ditt meddelande kommer att skickas:</p>
+<p>The Message Security window describes how your message will be sent:</p>
 
 <ul>
-  <li><strong>Elektronisk signatur</strong>: Denna rad talar om ifall ditt
-    meddelande kommer att signeras. Det finns tre möjligheter:
+  <li><strong>Digitally Signed</strong>: This line describes whether your
+    message will be signed. There are three possibilities:
     <ul>
-      <li><strong>Ja</strong>: Elektronisk signering har aktiverats för detta
-        meddelande. Du har ett giltigt certifikat som identifierar dig, och
-        meddelandet kan signeras.</li>
-      <li><strong>Nej</strong>: Elektronisk signering har inaktiverats för detta
-        meddelande.</li>
-      <li><strong>Inte möjligt</strong>: Elektronisk signering har aktiverats för
-        detta meddelande. Du har dock inte något tillgängligt giltigt
-        <a href="glossary.xhtml#certificate">certifikat</a> som identifierar
-        dig för detta ändamål, eller så är det något annat problem som gör
-        signering omöjligt.</li>
+      <li><strong>Yes</strong>: Digital signing has been enabled for this
+        message, you have a valid certificate identifying you, and the message
+        can be signed.</li>
+      <li><strong>No</strong>: Digital signing has been disabled for this
+        message.</li>
+      <li><strong>Not possible</strong>: Digital signing has been enabled for
+        this message. However, a valid
+        <a href="glossary.xhtml#certificate">certificate</a> identifying you
+        for this purpose is not available, or there is some other problem that
+        makes signing impossible.</li>
     </ul>
   </li>
-  <li><strong>Krypterat</strong>: Denna rad talar om ifall ditt meddelande
-    kommer att krypteras. Det finns tre möjligheter:
+  <li><strong>Encrypted</strong>: This line describes whether your message will
+    be encrypted. There are three possibilities:
     <ul>
-      <li><strong>Ja</strong>: Kryptering har aktiverats för detta meddelande.
-        Giltiga certifikat för alla listade mottagare finns tillgängliga och
-        meddelandet kan krypteras.</li>
-      <li><strong>Nej</strong>: Kryptering har inaktiverats eller är inte
-        möjligt av detta meddelande.</li>
-      <li><strong>Inte möjligt</strong>: Kryptering har aktiverats för detta
-        meddelande. Du saknar dock ett giltigt certifikat för åtminstone en av
-        de listade mottagarna eller inga mottagare är listade, eller så är det
-        något annat problem som gör kryptering omöjligt.</li>
+      <li><strong>Yes</strong>: Encryption has been enabled for this message,
+        valid certificates for all listed recipients are available, and the
+        message can be encrypted.</li>
+      <li><strong>No</strong>: Encryption has been disabled or is not possible
+        for this message.</li>
+      <li><strong>Not possible</strong>: Encryption has been enabled for this
+        message. However, a valid certificate for at least one of the listed
+        recipients is not available, or no recipients are listed, or there is
+        some other problem that makes encryption impossible.</li>
     </ul>
   </li>
 </ul>
 
-<p>Fönstret Meddelandesäkerhet listar även de tillgängliga certifikaten för
-  mottagarna av ditt meddelande:</p>
+<p>When you compose a message and select a different account, the signing
+  and encryption preferences are updated to reflect the settings of
+  the newly selected account.</p>
+
+<p>The Message Security window also lists the certificates available for the
+  recipients of your message:</p>
 
 <ul>
-  <li><strong>Visa</strong>: För att visa detaljer för något av certifikaten i
-    listan, markera dess namn och klicka på Visa.</li>
+  <li><strong>View</strong>: To view the details for any certificate in the
+    list, select its name, then click View.</li>
 </ul>
 
-<p>För mer information om hur du skaffar certifikat och konfigurerar
-  inställningarna för meddelandesäkerhet, se
-  <a href="#signing_and_encrypting_messages">Signera och kryptera
-  meddelanden</a>.</p>
+<p>For more information about obtaining certificates and configuring message
+  security settings, see <a href="#signing_and_encrypting_messages">Signing
+  &amp; Encrypting Messages</a>.</p>
 
-<p>För att indikera dina signerings- eller krypteringsval av ett enstaka
-  meddelande, klicka på pilen bredvid säkerhetsknappen i skrivfönstret, och välj
-  sedan de alternativ du vill använda.</p>
+<p>To indicate your signing or encryption choices for an individual message,
+  click the arrow beside the Security button in the Compose window, then select
+  the options you want.</p>
 
-<p>För att indikera dina förinställda signerings- och krypteringsval för alla
-  meddelanden, se <a href="mail_help.xhtml#security">Kontoinställningar för 
-  E-post &amp; Grupper - Säkerhet</a></p>
+<p>To indicate your default signing and encryption preferences for all
+  messages, see <a href="mailnews_account_settings.xhtml#security">Mail &amp;
+  Newsgroups Account Settings - Security</a></p>
 
-<p>[<a href="#signing_and_encrypting_messages">Återvänd till början av
-  avsnittet</a>]</p>
+<p>[<a href="#signing_and_encrypting_messages">Return to beginning of
+  section</a>]</p>
 
-<h2 id="message_security_received_message">Meddelandesäkerhet - Mottaget 
-  meddelande</h2>
+<h2 id="message_security_received_message">Message Security - Received
+  Message</h2>
 
-<p>Detta avsnitt beskriver fönstret Meddelandesäkerhet som du kan öppna för
-  varje meddelande du har mottagit. Om du inte redan tittar på Meddelandesäkerhet
-  för ett mottaget meddelande, följ dessa steg:</p>
+<p>This section describes the Message Security window that you can open for any
+  message you have received. If you&apos;re not already viewing Message
+  Security for a received message, follow these steps:</p>
 
 <ol>
-  <li>I e-postklientfönstret, markera det meddelande för vilket du vill se
-    säkerhetsinformation.</li>
-  <li>Öppna menyn Visa och välj Meddelandets säkerhetsinfo.</li>
+  <li>In the Mail window, select the message for which you want to view
+    security information.</li>
+  <li>Open the View menu and choose Message Security Info.</li>
 </ol>
 
-<p>Fönstret Meddelandesäkerhet visar följande information:</p>
+<p>The Message Security window displays the following information:</p>
 
 <ul>
-  <li><strong>Elektronisk signatur</strong>: Den övre sektionen talar om ifall
-    meddelandet är elektroniskt signerat och om signaturen i så fall är
-    giltig.
-
-  <p>Om valideringen misslyckades när OCSP var aktiverat, kontrollera
-    inställningarna för OCSP i
-    <a href="certs_prefs_help.xhtml#privacy_and_security_preferences_certificates">Integritets-
-    och säkerhetsinställningar - Validering</a>. Om du inte är bekant med OCSP,
-    stäm av dina inställningar med din systemadministratör. Om dina
-    inställningar är korrekta, kan det vara problem med OCSP-tjänsten eller
-    certifikatet som användes för att skapa signaturen är inte längre giltigt.</p>
+  <li><strong>Digital Signature</strong>: The top section describes whether the
+    message is digitally signed and if so, whether the signature is valid.</li>
   
-  <p>Om signaturen är ogiltig därför att det är problem med certifikatets
-    tillitsinställningar, kan du använda
-    <a href="certs_help.xhtml">Certifikathanteraren</a> för att visa eller
-    redigera de inställningarna.</p></li>
+  <p>If validation failed while OCSP was enabled, check the OCSP settings in
+    <a href="certs_prefs_help.xhtml#privacy_and_security_preferences_certificates">Privacy
+    &amp; Security Preferences - Certificates</a>. If you are not familiar with
+    OCSP, confirm the settings with your system administrator. If your settings
+    are correct, there may be a problem with the OCSP service or the
+    certificate used to create the signature is no longer valid.</p>
+  
+  <p>If the signature is invalid because of a problem with a certificate&apos;s
+    trust settings, you can use the <a href="certs_help.xhtml">Certificate
+    Manager</a> to view or edit those settings.</p>
 
-  <li><strong>Visa signeringscertifikat</strong>: Om meddelandet är signerat,
-    klicka på denna knapp för att visa certifikatet som användes för att
-    signera det.</li>
-  <li><strong>Kryptering</strong>: Den nedre sektionen talar om ifall
-    meddelandet är krypterat och om det finns några dekrypteringsproblem.
+  <li><strong>View Signature Certificate</strong>: If the message is signed,
+    click this button to view the certificate that was used to sign it.</li>
+  <li><strong>Encryption</strong>: The bottom section reports whether the
+    message is encrypted and any decrypting problems.
     <ul>
-      <li>Om meddelandets innehåll har manipulerats under överföringen bör du
-        be avsändaren att skicka det på nytt. Ändringarna kan ha orsakats av
-        nätverksproblem.</li>
-      <li>Om en kopia av ditt eget certifikat (använt av avsändaren för att
-        kryptera meddelandet) inte finns tillgängligt på din dator, kan den
-        hemliga nyckeln som krävs för att dekryptera meddelandet inte hämtas.
-        Den enda lösningen är att importera en säkerhetskopia av ditt
-        certifikat och dess hemliga nyckel (se
-        <a href="certs_help.xhtml#your_certificates">Dina certifikat</a> för
-        detaljer.) Om du inte har tillgång till någon säkerhetskopia av
-        certifikatet kommer du inte att kunna dekryptera meddelandet.</li>
+      <li>If the message&apos;s contents have been altered during transit, you
+        should ask the sender to resend it. The changes may have been caused by
+        network problems.</li>
+      <li>If a copy of your own certificate (used by the sender to encrypt the
+        message) is not available on your computer, the private key required to
+        decrypt the message cannot be retrieved. The only solution is to import
+        a backup copy of your certificate and its private key (see
+        <a href="certs_help.xhtml#your_certificates">Your Certificates</a> for
+        details.) If you don&apos;t have access to a backup certificate, you
+        will not be able to decrypt the message.</li>
     </ul>
   </li>
 </ul>
 
-<p>[<a href="#signing_and_encrypting_messages">Återvänd till början av
-  avsnittet</a>]</p>
+<p>[<a href="#signing_and_encrypting_messages">Return to beginning of
+  section</a>]</p>
 
 </body>
 </html>

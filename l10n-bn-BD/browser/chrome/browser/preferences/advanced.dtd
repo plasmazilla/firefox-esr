@@ -36,7 +36,7 @@
 <!ENTITY healthReportLearnMore.label     "আরও জানুন…">
 
 <!ENTITY telemetryDesc.label             "&brandShortName;-কে আরও ভাল করে তুলতে আমাদের সাহায্য করার জন্য আপনার ব্রাউজারের কর্মক্ষমতা, ব্যবহার, হার্ডওয়্যার এবং স্বনির্ধারণ সম্পর্কিত তথ্য &vendorShortName;-কে জানায়">
-<!ENTITY enableTelemetryData.label       "সহযোগী ডেটা শেয়ার করুন (i.e &amp; telemetry)">
+<!ENTITY enableTelemetryData.label       "বাড়তি ডাটা শেয়ার করুন (যেমন টেলিমেট্রি)">
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "আরও জানুন…">
 
@@ -82,9 +82,6 @@
 <!ENTITY updateCheck.accesskey           "C">
 <!ENTITY updateManual.label              "হালনাগাদকরণ কখনও পরীক্ষা করবেন না N (প্রস্তাবিত নয়: নিরাপত্তা ঝুঁকি রয়েছে)">
 <!ENTITY updateManual.accesskey          "N">
-
-<!ENTITY updateAutoAddonWarn.label       "আমাকে সতর্ক করুন যদি এটি আমার কোন অ্যাডঅনে নিষ্ক্রিয় থাকে W">
-<!ENTITY updateAutoAddonWarn.accesskey   "W">
 
 <!ENTITY updateHistory.label             "হালনাগাদের ইতিহাস প্রদর্শন P">
 <!ENTITY updateHistory.accesskey         "P">

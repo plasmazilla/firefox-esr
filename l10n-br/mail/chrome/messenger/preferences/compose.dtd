@@ -26,8 +26,8 @@
 <!ENTITY bgColor.accesskey                    "L">
 <!ENTITY restoreHTMLDefaults.label            "Assav ar re dre ziouer">
 <!ENTITY restoreHTMLDefaults.accesskey        "r">
-<!ENTITY enterKeyCreatesNewParagraph.label    "Pa vez arveret ar rizh rannbennad e vez krouet ur rannbennad nevez gant ar stokell enankañ">
-<!ENTITY enterKeyCreatesNewParagraph.accesskey "r">
+<!ENTITY defaultToParagraph.label             "Arverañ ar mentrezh Rannbennad e-lec'h ar C'horf Testenn dre ziouer">
+<!ENTITY defaultToParagraph.accesskey         "R">
 
 <!ENTITY spellCheck.label                     "Gwiriañ ar reizhskrivañ a-raok kas">
 <!ENTITY spellCheck.accesskey                 "w">

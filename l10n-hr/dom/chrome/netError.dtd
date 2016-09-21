@@ -19,6 +19,9 @@
 <!ENTITY fileNotFound.title "Datoteka nije pronađena">
 <!ENTITY fileNotFound.longDesc "<ul><li>Možda je uklonjena, premještena ili joj je ime promijenjeno?</li><li>Postoji li pravopisna ili nekakva tipografska greška?</li><li>Imate li dovoljna prava za pristup traženoj datoteci?</li></ul>">
 
+<!ENTITY fileAccessDenied.title "Pristup datoteci je odbijen">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>Možda je uklonjena, premještena ili dozvole za datoteku spriječavaju pristup.</li></ul>">
+
 <!ENTITY generic.title "Nije moguće dovršiti zahtjev">
 <!ENTITY generic.longDesc "<p>Dodatne informacije o ovom problemu ili grešci trenutno nisu dostupne.</p>">
 
@@ -73,8 +76,13 @@
 <!ENTITY cspBlocked.title "Blokirala sigurnosna politika sadržaja">
 <!ENTITY cspBlocked.longDesc "<p>Preglednik je zaustavio učitavanje ove stranice na ovaj način jer stranica ima sigurnosnu politiku sadržaja koja to zabranjuje.</p>">
 
-<!ENTITY corruptedContentError.title "Greška neispravnog sadržaja">
-<!ENTITY corruptedContentError.longDesc "<p>Stranicu kojoj pokušavate pristupiti nije moguće prikazati zbog greške u prijenosu podataka.</p><ul><li>Obavijestite vlasnike web stranice o ovom problemu.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Greška neispravnog sadržaja">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Stranicu kojoj pokušavate pristupiti nije moguće prikazati zbog greške u prijenosu podataka.</p><ul><li>Obavijestite vlasnike web stranice o ovom problemu.</li></ul>">
 
 <!ENTITY remoteXUL.title "Udaljeni XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Obavijestite vlasnike web stranice o ovom problemu.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Vaša veza nije sigurna">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> koristi sigurnosne tehnologije koje su zastarjele i podložne napadima. Napadač može jednostavno otkriti informacije za koje ste smatrali da su sigurne. Administrator web stranice će trebati popraviti poslužitelj prije nego možete posjetiti stranicu.</p><p>Kod greške: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

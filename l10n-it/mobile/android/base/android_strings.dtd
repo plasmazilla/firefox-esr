@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY firstrun_panel_title_welcome "Benvenuto">
-<!ENTITY onboard_start_message3 "Naviga con &brandShortName;">
-<!ENTITY onboard_start_subtext3 "Un’esperienza di navigazione che si adatta alle tue esigenze.">
 <!ENTITY firstrun_urlbar_message "Benvenuto in &brandShortName;">
 <!ENTITY firstrun_urlbar_subtext "Trova tutto ciò che ti serve più velocemente con suggerimenti e scorciatoie di ricerca.">
 <!ENTITY firstrun_bookmarks_title "Cronologia">
@@ -19,16 +17,22 @@
 <!ENTITY firstrun_signin_message "Connettiti e inizia">
 <!ENTITY firstrun_signin_button "Accedi a Sync">
 <!ENTITY onboard_start_button_browser "Inizia a navigare">
+<!ENTITY firstrun_button_notnow "Non adesso">
 <!ENTITY firstrun_button_next "Successivo">
+<!ENTITY firstrun_tabqueue_title "Link">
+<!ENTITY firstrun_tabqueue_message_off "Attiva accodamento schede">
+<!ENTITY firstrun_tabqueue_subtext_off "Non caricare immediatamente in &brandShortName; i link aperti da altre app.">
+<!ENTITY firstrun_tabqueue_message_on "Attivato!">
+<!ENTITY firstrun_tabqueue_subtext_on "È possibile disattivare questa funzione in qualunque momento nella sezione &pref_category_general; delle &settings;.">
+<!ENTITY firstrun_readerview_title "Articoli">
+<!ENTITY firstrun_readerview_message "Fai un po’ di ordine">
+<!ENTITY firstrun_readerview_subtext "Utilizza la Modalità lettura per rendere più piacevole la lettura di articoli \u2014 anche non in linea.">
+<!ENTITY firstrun_account_title "Tu">
+<!ENTITY firstrun_account_message "Utilizzi &brandShortName; su un altro dispositivo?">
 <!ENTITY onboard_start_restricted1 "Sicurezza e controllo garantiti grazie a questa versione semplificata di &brandShortName;.">
-<!ENTITY reading_list_migration_title "Aggiornamento Elenco lettura">
-<!ENTITY reading_list_migration_subtext "Gli elementi salvati in Elenco lettura verranno aggiunti ai segnalibri">
-<!ENTITY reading_list_migration_goto_bookmarks "Vai ai segnalibri">
-<!ENTITY reading_list_migration_bookmarks_hidden "Il pannello dei segnalibri è nascosto">
 <!ENTITY bookmarks_title "Segnalibri">
 <!ENTITY home_title "&brandShortName; Home">
 <!ENTITY history_title "Cronologia">
-<!ENTITY reading_list_title "Elenco lettura">
 <!ENTITY recent_tabs_title "Schede recenti">
 <!ENTITY switch_to_tab "Passa alla scheda">
 <!ENTITY crash_reporter_title "Crash Reporter &brandShortName;">
@@ -54,6 +58,8 @@
 <!ENTITY screenshot_added_to_bookmarks "Schermata aggiunta ai segnalibri">
 <!ENTITY screenshot_folder_label_in_bookmarks "Schermate">
 <!ENTITY readinglist_smartfolder_label_in_bookmarks "Elenco lettura">
+<!ENTITY bookmark_folder_items "&formatD; elementi">
+<!ENTITY bookmark_folder_one_item "1 elemento">
 <!ENTITY reader_saved_offline "Salvato">
 <!ENTITY reader_switch_to_bookmarks "Visualizza">
 <!ENTITY history_today_section "Oggi">
@@ -180,7 +186,8 @@
 <!ENTITY tab_queue_notification_settings "Per attivare la funzione “Apertura di più link” garantire a &brandShortName; il permesso “Consenti spostamento su altre app”">
 <!ENTITY content_notification_summary "&brandShortName;">
 <!ENTITY content_notification_title_plural "&formatD; siti aggiornati">
-<!ENTITY content_notification_action_settings "Impostazioni notifiche">
+<!ENTITY content_notification_action_settings2 "Impostazioni">
+<!ENTITY content_notification_action_read_now "Leggi adesso">
 <!ENTITY content_notification_updated_on "Aggiornato il &formatS;">
 <!ENTITY pref_char_encoding "Codifica caratteri">
 <!ENTITY pref_char_encoding_on "Visualizza menu">
@@ -352,6 +359,7 @@
 <!ENTITY home_history_title "Cronologia">
 <!ENTITY home_synced_devices_smartfolder "Dispositivi sincronizzati">
 <!ENTITY home_synced_devices_number "&formatD; dispositivi">
+<!ENTITY home_synced_devices_one "1 dispositivo">
 <!ENTITY home_history_back_to2 "Torna alla cronologia completa">
 <!ENTITY home_clear_history_button "Elimina cronologia">
 <!ENTITY home_clear_history_confirm "Eliminare la cronologia di navigazione?">
@@ -460,3 +468,6 @@
 <!ENTITY helper_first_offline_bookmark_title "Lettura non in linea">
 <!ENTITY helper_first_offline_bookmark_message "Gli elementi salvati in Elenco lettura sono disponibili nei segnalibri, anche non in linea.">
 <!ENTITY helper_first_offline_bookmark_button "Vai ai segnalibri">
+<!ENTITY helper_triple_readerview_open_title "Disponibile non in linea">
+<!ENTITY helper_triple_readerview_open_message "Aggiungi ai segnalibri articoli da Modalità lettura per leggerli anche senza connessione a Internet.">
+<!ENTITY helper_triple_readerview_open_button "Aggiungi ai segnalibri">

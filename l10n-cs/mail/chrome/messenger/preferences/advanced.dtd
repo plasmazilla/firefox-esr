@@ -31,7 +31,7 @@
 <!ENTITY searchIntegration.accesskey   "v">
 <!ENTITY checkDefaultsNow.label        "Zkontrolovat…">
 <!ENTITY checkDefaultsNow.accesskey    "Z">
-<!ENTITY configEditDesc.label          "Rozšířená konfigurace">
+<!ENTITY configEditDesc.label          "Rozšířené nastavení">
 <!ENTITY configEdit.label              "Editor předvoleb…">
 <!ENTITY configEdit.accesskey          "i">
 <!ENTITY returnReceiptsInfo.label      "Určuje, jak aplikace &brandShortName; zachází s potvrzením o přečtení">
@@ -59,8 +59,6 @@
 <!ENTITY updateCheck.accesskey           "C">
 <!ENTITY updateManual.label              "Nikdy nevyhledávat aktualizace (nedoporučováno z důvodu rizika ohrožení)">
 <!ENTITY updateManual.accesskey          "N">
-<!ENTITY updateAutoAddonWarn.label       "Upozornit, pokud by aktualizace zakázala některé doplňky">
-<!ENTITY updateAutoAddonWarn.accesskey   "U">
 <!ENTITY updateHistory.label             "Zobrazit historii aktualizací">
 <!ENTITY updateHistory.accesskey         "b">
 
@@ -68,8 +66,8 @@
 <!ENTITY useService.accesskey            "s">
 
 <!-- Networking and Disk Space -->
-<!ENTITY showSettings.label            "Nastavení">
-<!ENTITY showSettings.accesskey        "N">
+<!ENTITY showSettings.label            "Nastavení…">
+<!ENTITY showSettings.accesskey        "a">
 <!ENTITY proxiesConfigure.label        "Konfigurovat připojení aplikace &brandShortName; k Internetu">
 <!ENTITY connectionsInfo.caption       "Připojení">
 <!ENTITY offlineInfo.caption           "Režim offline">
@@ -88,7 +86,7 @@
 
   &useCacheBefore.label  [ textbox for cache size in MB ]   &useCacheAfter.label;
 -->
-<!ENTITY useCacheBefore.label            "Použít až">
+<!ENTITY useCacheBefore.label            "Použít maximálně">
 <!ENTITY useCacheBefore.accesskey        "P">
 <!ENTITY useCacheAfter.label             "MB diskové mezipaměti">
 <!ENTITY clearCacheNow.label             "Vymazat">
@@ -105,5 +103,5 @@
 
 <!ENTITY manageCertificates.label "Spravovat certifikáty">
 <!ENTITY manageCertificates.accesskey "f">
-<!ENTITY viewSecurityDevices.label "Bezpečnostní zařízení…">
+<!ENTITY viewSecurityDevices.label "Bezpečnostní zařízení">
 <!ENTITY viewSecurityDevices.accesskey "B">

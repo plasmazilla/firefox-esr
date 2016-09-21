@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY windowTitle.label "Vlastnosti výběrového seznamu">
-<!ENTITY Select.label "Seznam výběru">
+<!ENTITY Select.label "Výběr ze seznamu">
 <!ENTITY SelectName.label "Název seznamu:">
 <!ENTITY SelectName.accesskey "N">
 <!ENTITY SelectSize.label "Výška:">
@@ -24,8 +24,8 @@
 <!ENTITY OptionText.accesskey "T">
 <!ENTITY OptionValue.label "Hodnota:">
 <!ENTITY OptionValue.accesskey "H">
-<!ENTITY OptionSelected.label "Výchozí volba">
-<!ENTITY OptionSelected.accesskey "h">
+<!ENTITY OptionSelected.label "Výchozí výběr">
+<!ENTITY OptionSelected.accesskey "b">
 <!ENTITY OptionDisabled.label "Zakázáno">
 <!ENTITY OptionDisabled.accesskey "Z">
 <!ENTITY TextHeader.label "Text">
@@ -37,7 +37,7 @@
 <!ENTITY AddOptGroup.accesskey "s">
 <!ENTITY RemoveElement.label "Odebrat">
 <!ENTITY RemoveElement.accesskey "O">
-<!ENTITY MoveElementUp.label "Přesunout výše">
+<!ENTITY MoveElementUp.label "Posunout výše">
 <!ENTITY MoveElementUp.accesskey "v">
-<!ENTITY MoveElementDown.label "Přesunout níže">
+<!ENTITY MoveElementDown.label "Posunout níže">
 <!ENTITY MoveElementDown.accesskey "n">

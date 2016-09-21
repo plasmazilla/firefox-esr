@@ -83,8 +83,8 @@ was trying to connect. -->
 <!ENTITY cspBlocked.title "'Ga chasgadh le poileasaidh tèarainteachd susbainte">
 <!ENTITY cspBlocked.longDesc "<p>Chuir &brandShortName; casg air luchdadh na duilleige seo air an dòigh seo a chionn 's gu bheil poileasaidh tèarainteachd susbainte ann nach eil 'ga cheadachadh.</p>">
 
-<!ENTITY corruptedContentError.title "Mearachd air sgàth susbaint thruaillte">
-<!ENTITY corruptedContentError.longDesc "<p>Cha ghabh an duilleag a dh'iarr thu a shealltainn a chionn 's gun deach mearachd a lorg ann an tar-chur an dàta.</p><ul><li>Nach leig thu fios do sheilbheadairean na làraich-lìn mun duilgheadas seo?</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Mearachd air sgàth susbaint thruaillte">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Cha ghabh an duilleag a dh'iarr thu a shealltainn a chionn 's gun deach mearachd a lorg ann an tar-chur an dàta.</p><ul><li>Nach leig thu fios do sheilbheadairean na làraich-lìn mun duilgheadas seo?</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Cuir eisgeachd ris…">
@@ -107,6 +107,10 @@ was trying to connect. -->
 <!ENTITY weakCryptoAdvanced.title "Adhartach">
 <!ENTITY weakCryptoAdvanced.longDesc "Tha <span class='hostname'></span> a’ cleachdadh teicneolas tèarainteachd a tha ro aosta agus so-leònta. Bhitheadh e furasta do chuideigin briseadh a-steach air fiosrachadh a bhiodh sàbhailte ’nad bheachd.">
 <!ENTITY weakCryptoAdvanced.override "(Chan eil seo tèarainte) Feuch is luchdaich <span class='hostname'></span> a’ cleachdadh gleusan tèarainteachd a tha ro aosta.">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+
+<!ENTITY certerror.wrongSystemTime "<p>Chan urrainn dhuinn ceangal tèarainte a dhèanamh ri <span id='wrongSystemTime_URL'/> a chionn ’s gu bheil an cleoc agad a’ sealltainn an ama chearr.</p> <p>Tha an coimpiutair agad dhen bheachd gu bheil e <span id='wrongSystemTime_systemDate'/> ach tha e <span id='wrongSystemTime_actualDate'/>. Cuir ceart an t-àm is an ceann-là gus an duilgheadas seo a chàradh.</p>">
 
 <!ENTITY certerror.pagetitle1  "Ceangal nach eil tèarainte">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Tha an làrach seo a’ cleachdadh HTTP Strict Transport Security (HSTS) gus a chur an cèill nach urrainn dha &brandShortName; ceangal ris ach gu tèarainte. Ri linn sin, chan urrainnear eisgeachd a chur ris airson an teisteanais seo.">
@@ -116,3 +120,6 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p>Tha <span class='hostname'></span> a’ cleachdadh seann-teicneolas tèarainteachd a tha so-leònte. Cha bhiodh e doirbh do chuideigin dàta a leigeil ris a bha tèarainte ’nad bheachd. Bidh aig rianaire na làraich am frithealaiche a chàradh mus urrainn dhut tadhal air an làrach.</p><p>Còd na mearachd: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Tha coltas gur e roghainnean tèarainteachd an lìonraidh agad ag adhbharachadh seo. A bheil thu airson na roghainnean bunaiteach a thilleadh?">
+<!ENTITY prefReset.label "Aisig na roghainnean bunaiteach">

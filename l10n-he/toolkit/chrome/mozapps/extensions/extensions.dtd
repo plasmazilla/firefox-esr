@@ -25,6 +25,8 @@
 
 <!ENTITY showUnsignedExtensions.button.label  "אין אפשרות לאמת חלק מההרחבות">
 <!ENTITY showAllExtensions.button.label       "הצגת כל ההרחבות">
+<!ENTITY debugAddons.label                    "ניפוי שגיאות של תוספות">
+<!ENTITY debugAddons.accesskey                "נ">
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "כל התוספות נוטרלו במצב בטוח.">
@@ -61,9 +63,9 @@
      update checking behavior for all add-ons to the default global behavior
      (which itself is either "Automatically" or "Manually", controlled by the
      updates.updateAddonsAutomatically.label menu item). -->
-<!ENTITY updates.resetUpdatesToAutomatic.label       "אפס את כל התוספות לעדכון אוטומטי">
+<!ENTITY updates.resetUpdatesToAutomatic.label       "איפוס כל התוספות לעדכון אוטומטי">
 <!ENTITY updates.resetUpdatesToAutomatic.accesskey   "א">
-<!ENTITY updates.resetUpdatesToManual.label          "אפס את כל התוספות לעדכון ידני">
+<!ENTITY updates.resetUpdatesToManual.label          "איפוס כל התוספות לעדכון ידני">
 <!ENTITY updates.resetUpdatesToManual.accesskey      "א">
 <!ENTITY updates.updating.label               "מעדכן תוספות">
 <!ENTITY updates.installed.label              "התוספות שלך עודכנו.">
@@ -105,8 +107,6 @@
 <!ENTITY cmd.installAddon.accesskey           "ה">
 <!ENTITY cmd.uninstallAddon.label             "הסרה">
 <!ENTITY cmd.uninstallAddon.accesskey         "ה">
-<!ENTITY cmd.debugAddon.label                 "ניפוי שגיאות">
-<!ENTITY cmd.debugAddon.accesskey             "נ">
 <!ENTITY cmd.showPreferencesWin.label         "אפשרויות">
 <!ENTITY cmd.showPreferencesWin.tooltip       "שנה את האפשרויות של תוספת זו">
 <!ENTITY cmd.showPreferencesUnix.label        "העדפות">

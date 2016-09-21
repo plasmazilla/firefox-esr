@@ -92,9 +92,9 @@
 <!ENTITY undeleteMsgCmd.label "Recuperează mesajul șters">
 <!ENTITY undeleteMsgCmd.accesskey "j">
 <!ENTITY deleteMsgsCmd.label "Șterge mesajele selectate">
-<!ENTITY deleteMsgsCmd.accesskey "g">
+<!ENTITY deleteMsgsCmd.accesskey "D">
 <!ENTITY undeleteMsgsCmd.label "Recuperează mesajele selectate">
-<!ENTITY undeleteMsgsCmd.accesskey "j">
+<!ENTITY undeleteMsgsCmd.accesskey "d">
 <!ENTITY deleteFolderCmd.label "Șterge dosar">
 <!ENTITY deleteFolderCmd.accesskey "d">
 <!ENTITY unsubscribeNewsgroupCmd.label "Dezabonare">
@@ -164,6 +164,8 @@
 <!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Mod afișare compact">
 <!ENTITY compactVersion.accesskey "c">
+
+
 <!-- Sort Menu -->
 
 <!ENTITY sortMenu.label "Sortează după">
@@ -265,13 +267,13 @@
 <!ENTITY getAllNewMessagesCmd.key "Y">
 <!-- Search Menu -->
 
-<!ENTITY findMenu.label "Caută">
-<!ENTITY findMenu.accesskey "C">
-<!ENTITY findCmd.label "Caută în acest mesaj…">
-<!ENTITY findCmd.accesskey "C">
+<!ENTITY findMenu.label "Găsește">
+<!ENTITY findMenu.accesskey "G">
+<!ENTITY findCmd.label "Găsește în acest mesaj…">
+<!ENTITY findCmd.accesskey "G">
 <!ENTITY findCmd.key "F">
-<!ENTITY findAgainCmd.label "Caută din nou">
-<!ENTITY findAgainCmd.accesskey "d">
+<!ENTITY findAgainCmd.label "Găsește din nou">
+<!ENTITY findAgainCmd.accesskey "G">
 <!ENTITY findAgainCmd.key "G">
 <!ENTITY findAgainCmd.key2 "VK_F3">
 <!ENTITY findPrevCmd.key "G">
@@ -361,6 +363,8 @@
 <!ENTITY editAsNewMsgCmd.label "Editare ca mesaj nou">
 <!ENTITY editAsNewMsgCmd.accesskey "E">
 <!ENTITY editAsNewMsgCmd.key "e">
+<!ENTITY editDraftMsgCmd.label "Editează mesajele ciornă">
+<!ENTITY editDraftMsgCmd.accesskey "d">
 <!ENTITY createFilter.label "Creează filtru din mesaj…">
 <!ENTITY createFilter.accesskey "a">
 <!ENTITY moveMsgToMenu.label "Mută în">
@@ -482,8 +486,8 @@
 <!ENTITY errorConsoleCmd.label "Consolă de erori">
 <!ENTITY errorConsoleCmd.accesskey "e">
 <!ENTITY errorConsoleCmd.commandkey "j">
-<!ENTITY clearRecentHistory.label "Curăță istoricul recent…">
-<!ENTITY clearRecentHistory.accesskey "r">
+<!ENTITY clearRecentHistory.label "Șterge istoricul recent…">
+<!ENTITY clearRecentHistory.accesskey "i">
 <!ENTITY accountManagerCmd2.label "Setările conturilor">
 <!ENTITY accountManagerCmd2.accesskey "c">
 <!-- LOCALIZATION NOTE (accountManagerCmdUnix2.accesskey): belongs to accountManagerCmd2.label,
@@ -607,8 +611,8 @@
 <!ENTITY folderContextGetMessages.accesskey "A">
 <!ENTITY folderContextOpenInNewWindow.label "Deschide într-o fereastră nouă">
 <!ENTITY folderContextOpenInNewWindow.accesskey "o">
-<!ENTITY folderContextOpenNewTab.label "Deschide în filă nouă">
-<!ENTITY folderContextOpenNewTab.accesskey "D">
+<!ENTITY folderContextOpenNewTab.label "Deschide într-o filă nouă">
+<!ENTITY folderContextOpenNewTab.accesskey "t">
 <!ENTITY folderContextNew.label "Subdosar nou…">
 <!ENTITY folderContextNew.accesskey "n">
 <!ENTITY folderContextRename.label "Redenumește">
@@ -679,7 +683,7 @@
 <!ENTITY attachmentColumn.label "Atașamente">
 <!-- Thread Pane Tooltips -->
 
-<!ENTITY columnChooser2.tooltip "Selectați coloanele de afișat">
+<!ENTITY columnChooser2.tooltip "Selectează coloanele de afișat">
 <!ENTITY threadColumn2.tooltip "Afișează mesajele grupate">
 <!ENTITY fromColumn2.tooltip "Sortează după expeditor">
 <!ENTITY recipientColumn2.tooltip "Sortează după destinatar">
@@ -716,6 +720,7 @@
 <!ENTITY contextOpenContainingFolder.accesskey "n">
 <!ENTITY contextEditMsgAsNew.label "Editare ca mesaj nou">
 <!ENTITY contextEditMsgAsNew.accesskey "E">
+<!ENTITY contextEditDraftMsg.label "Editează mesajul ciornă">
 <!ENTITY contextArchive.label "Arhivează">
 <!ENTITY contextArchive.accesskey "h">
 <!ENTITY contextReplySender.label "Răspunde doar expeditorului">
@@ -743,9 +748,15 @@
 <!ENTITY contextCopyMsgMenu.label "Copiază în">
 <!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Ignoră conversația">
+
 <!ENTITY contextKillThreadMenu.accesskey "I">
-<!ENTITY contextKillSubthreadMenu.label "Ignoră conversația din interior">
+
 <!ENTITY contextWatchThreadMenu.label "Urmărește conversația">
+<!--LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
+   In the en-US locale we ran out of access keys, so there is an empty access key for
+   Watch Thread. Localizers can pick a suitable key
+  -->
+<!ENTITY contextWatchThreadMenu.accesskey "">
 <!ENTITY contextSaveAs.label "Salvează ca…">
 <!ENTITY contextSaveAs.accesskey "S">
 <!ENTITY contextPrint.label "Tipărește…">
@@ -854,8 +865,8 @@
 <!ENTITY SendMessageTo.accesskey "s">
 <!ENTITY CopyEmailAddress.label "Copiază adresa de e-mail">
 <!ENTITY CopyEmailAddress.accesskey "C">
-
-
+<!ENTITY CopyNameAndEmailAddress.label "Copiază numele și adresa de e-mail">
+<!ENTITY CopyNameAndEmailAddress.accesskey "n">
 <!ENTITY CopyNewsgroupName.label "Copiază numele grupului de discuții">
 <!ENTITY CopyNewsgroupName.accesskey "C">
 <!ENTITY CopyNewsgroupURL.label "Copiază URL-ul grupului de discuții">

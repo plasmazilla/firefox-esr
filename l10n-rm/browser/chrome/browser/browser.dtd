@@ -110,8 +110,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Avrir las preferenzas da &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Reconnectar cun &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Verifitgar tes conto">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; è activà">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; cumenza immediat a sincronisar.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Minimar">
@@ -168,8 +166,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Abunar questa pagina…">
 <!ENTITY addCurPagesCmd.label "Agiuntar segnapaginas per tut ils tabs…">
 <!ENTITY showAllBookmarks2.label "Mussar tut ils segnapaginas">
-<!ENTITY unsortedBookmarksCmd.label "Segnapaginas betg zavrads">
+<!ENTITY recentBookmarks.label "Tschernì dacurt sco segnapagina">
+<!ENTITY otherBookmarksCmd.label "Auters segnapaginas">
 <!ENTITY bookmarksToolbarChevron.tooltip "Mussar dapli segnapaginas">
+<!ENTITY showRecentlyBookmarked.label     "Mussar ils segnapaginas agiuntads dacurt">
+<!ENTITY showRecentlyBookmarked.accesskey "M">
+<!ENTITY hideRecentlyBookmarked.label     "Zuppentar ils segnapaginas agiuntads dacurt">
+<!ENTITY hideRecentlyBookmarked.accesskey "Z">
 
 <!ENTITY backCmd.label                "Enavos">
 <!ENTITY backButton.tooltip           "Ina pagina enavos">
@@ -196,7 +199,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.indexedDBNotificationAnchor.label       "Mussar il messadi da la memoria offline da questa app">
 <!ENTITY urlbar.loginFillNotificationAnchor.label       "Administrar tias infurmaziuns d'annunzia">
 <!ENTITY urlbar.passwordNotificationAnchor.label        "Controllar sche ti vuls memorisar tes pled-clav">
-<!ENTITY urlbar.webappsNotificationAnchor.label         "Mussar il messadi d'installaziun da l'app">
 <!ENTITY urlbar.pluginsNotificationAnchor.label         "Administrar l'utilisaziun da plug-ins sin questa pagina">
 <!ENTITY urlbar.webNotsNotificationAnchor3.label        "Definir sche ti vuls retschaiver notificaziuns da la pagina">
 
@@ -224,9 +226,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Segnapaginas">
-<!ENTITY bookmarksMenuButton.unsorted.label "Segnapaginas betg zavrads">
+<!ENTITY bookmarksMenuButton.other.label "Auters segnapaginas">
 <!ENTITY viewBookmarksSidebar2.label        "Mussar la trav laterala da segnapaginas">
 <!ENTITY viewBookmarksToolbar.label         "Mussar la trav d'utensils da segnapaginas">
+
+<!ENTITY containersMenu.label "Containers">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -254,92 +258,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Sviluppaders dal web">
 <!ENTITY webDeveloperMenu.accesskey   "w">
 
-<!ENTITY devToolsCmd.keycode          "VK_F12">
-<!ENTITY devToolsCmd.keytext          "F12">
-
-<!ENTITY devtoolsServiceWorkers.label      "Service Workers">
-<!ENTITY devtoolsServiceWorkers.accesskey  "k">
-
-<!ENTITY devtoolsConnect.label        "Connectar…">
-<!ENTITY devtoolsConnect.accesskey    "e">
-
-<!ENTITY errorConsoleCmd.label        "Consola d'errurs">
-<!ENTITY errorConsoleCmd.accesskey    "C">
-
-<!ENTITY remoteWebConsoleCmd.label    "Consola web a distanza">
-
-<!ENTITY browserConsoleCmd.label      "Consola dal navigatur">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "n">
-
 <!ENTITY inspectContextMenu.label     "Inspectar l'element">
 <!ENTITY inspectContextMenu.accesskey "I">
-
-<!ENTITY responsiveDesignTool.label   "Vista da design adaptiv">
-<!ENTITY responsiveDesignTool.accesskey "a">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Eyedropper">
-<!ENTITY eyedropper.accesskey "Y">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Bloc da notizias">
-<!ENTITY scratchpad.accesskey         "B">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (browserToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser toolbox UI in the Tools menu. -->
-<!ENTITY browserToolboxMenu.label     "Utensils dal navigatur">
-<!ENTITY browserToolboxMenu.accesskey "e">
-<!ENTITY browserToolboxCmd.commandkey "i">
-
-<!-- LOCALIZATION NOTE (browserContentToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser content toolbox UI in the Tools menu.
-  -  This toolbox allows to debug the chrome of the content process in multiprocess builds.  -->
-<!ENTITY browserContentToolboxMenu.label     "Utensils da cuntegn dal navigatur">
-<!ENTITY browserContentToolboxMenu.accesskey "g">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Serrar la trav d'utensils per sviluppaders">
-<!ENTITY devToolbarMenu.label              "Trav d'utensils per sviluppaders">
-<!ENTITY devToolbarMenu.accesskey          "v">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Mussar/zuppentar utensils">
-<!ENTITY devToolboxMenuItem.accesskey      "T">
-<!ENTITY devToolboxMenuItem.keytext        "I">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Mussar/zuppentar ils utensils per sviluppaders">
-<!ENTITY devToolbarOtherToolsButton.label  "Dapli utensils">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Dapli utensils">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "D">
 
 <!ENTITY fileMenu.label         "Datoteca"> 
 <!ENTITY fileMenu.accesskey       "D">
 <!ENTITY newUserContext.label             "Nov tab da container">
 <!ENTITY newUserContext.accesskey         "C">
-<!ENTITY userContextPersonal.label        "Privat">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Fatschenta">
-<!ENTITY userContextWork.accesskey        "t">
-<!ENTITY userContextBanking.label         "Banca">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Far cumpras">
-<!ENTITY userContextShopping.accesskey    "c">
 <!ENTITY newNavigatorCmd.label        "Nova fanestra">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -410,7 +335,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHelp.tooltip "Avrir il menu d'agid">
 
 <!ENTITY appMenuRemoteTabs.label "Tabs sincronisads">
-<!ENTITY appMenuRemoteTabs.fetching.label "Retschaiver ils tabs sincronisads…">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Nagins tabs averts">
@@ -420,7 +344,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
-<!ENTITY appMenuRemoteTabs.noclients.label "T'annunzia era sin tes auters apparats tar Firefox per vesair qua lur tabs.">
+<!ENTITY appMenuRemoteTabs.noclients.title "Nagins tabs sincronisads… anc!">
+<!ENTITY appMenuRemoteTabs.noclients.subtitle "Vuls ti vesair qua tes tabs dad auters apparats?">
 <!ENTITY appMenuRemoteTabs.openprefs.label "Preferenzas da la sincronisaziun">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "S'annunziar per vesair ina glista dals tabs da tes auters apparats.">
 <!ENTITY appMenuRemoteTabs.signin.label "S'annunziar tar Sync">
@@ -631,19 +556,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "S">
 <!ENTITY mediaUnmute.label           "Cun tun">
 <!ENTITY mediaUnmute.accesskey       "C">
-<!ENTITY mediaPlaybackRate.label     "Tempo da far ir">
-<!ENTITY mediaPlaybackRate.accesskey "m">
-<!ENTITY mediaPlaybackRate050x.label "Sveltezza bassa (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "p">
-<!ENTITY mediaPlaybackRate100x.label "Sveltezza normala">
-<!ENTITY mediaPlaybackRate100x.accesskey "n">
-<!ENTITY mediaPlaybackRate150x.label "Sveltezza auta (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "a">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+<!ENTITY mediaPlaybackRate2.label     "Sveltezza da reproducziun">
+<!ENTITY mediaPlaybackRate2.accesskey "v">
+<!ENTITY mediaPlaybackRate050x2.label "Plaun (0.5×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "P">
+<!ENTITY mediaPlaybackRate100x2.label "Normal">
+<!ENTITY mediaPlaybackRate100x2.accesskey "N">
+<!ENTITY mediaPlaybackRate125x2.label "Svelt (1.25×)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "S">
+<!ENTITY mediaPlaybackRate150x2.label "Pli svelt (1.5×)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "l">
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Sveltezza immensa (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "i">
+<!ENTITY mediaPlaybackRate200x2.label "Stravagà (2×)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "t">
+<!ENTITY mediaLoop.label             "Repeter">
+<!ENTITY mediaLoop.accesskey         "R">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -751,7 +680,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Connexiun segirada">
 <!ENTITY identity.connectionNotSecure "Questa connexiun n'è betg segirada">
 <!ENTITY identity.connectionFile "Questa pagina è memorisada sin tes computer.">
-<!ENTITY identity.connectionVerified1 "Ti es collià a moda segira cun questa pagina, administrada da:">
+<!ENTITY identity.connectionVerified2 "Ti es connectà a moda segira cun questa pagina che appartegna a:">
 <!ENTITY identity.connectionInternal "Quai è ina pagina segira da &brandShortName;.">
 <!ENTITY identity.insecureLoginForms2 "Infurmaziuns d'annunzia endatadas sin questa pagina èn eventualmain periclitadas.">
 
@@ -780,7 +709,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.learnMore "Ulteriuras infurmaziuns">
 
 <!ENTITY identity.removeCertException.label "Allontanar l'excepziun">
-<!ENTITY identity.removeCertException.accesskey "R">
+<!ENTITY identity.removeCertException.accesskey "r">
 
 <!ENTITY identity.moreInfoLinkText2 "Mussar detagls">
 
@@ -795,8 +724,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncTabsMenu3.label     "Tabs sincronisads">
 
 <!ENTITY syncedTabs.sidebar.label              "Tabs sincronisads">
-<!ENTITY syncedTabs.sidebar.fetching.label     "Retschaiver ils tabs sincronisads…">
 <!ENTITY syncedTabs.sidebar.noclients.label    "T'annunzia era sin tes auters apparats tar Firefox per vesair qua lur tabs.">
+<!ENTITY syncedTabs.sidebar.noclients.title    "Nagins tabs sincronisads… anc!">
+<!ENTITY syncedTabs.sidebar.noclients.subtitle "Vuls ti vesair qua tes tabs dad auters apparats?">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "T'annunzia per vesair ina glista dals tabs da tes auters apparats.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "Nagins tabs averts">
 <!ENTITY syncedTabs.sidebar.openprefs.label    "Avrir las preferenzas da &syncBrand.shortName.label;">
@@ -804,10 +734,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Activescha la sincronisaziun da tabs per vesair ina glista dals tabs da tes auters apparats.">
 
-<!ENTITY syncedTabs.context.openTab.label                   "Avrir quest tab">
-<!ENTITY syncedTabs.context.openTab.accesskey               "A">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.label         "Agiuntar in segnapagina per quest tab…">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey     "s">
+<!ENTITY syncedTabs.context.open.label                       "Avrir">
+<!ENTITY syncedTabs.context.open.accesskey                   "A">
+<!ENTITY syncedTabs.context.openInNewTab.label               "Avrir en in nov tab">
+<!ENTITY syncedTabs.context.openInNewTab.accesskey           "v">
+<!ENTITY syncedTabs.context.openInNewWindow.label            "Avrir en ina nova fanestra">
+<!ENTITY syncedTabs.context.openInNewWindow.accesskey        "n">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Avrir en ina nova fanestra privata">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "p">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.label          "Agiuntar in segnapagina per quest tab…">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "s">
+<!ENTITY syncedTabs.context.copy.label                       "Copiar">
+<!ENTITY syncedTabs.context.copy.accesskey                   "C">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">

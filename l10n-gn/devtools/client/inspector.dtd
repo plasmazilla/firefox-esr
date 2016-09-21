@@ -3,36 +3,36 @@
      (outer) HTML of the current node -->
 <!ENTITY inspectorHTMLEdit.label       "Embosako'i HTML-ramo">
 <!ENTITY inspectorHTMLEdit.accesskey   "E">
-<!-- LOCALIZATION NOTE (inspectorHTMLCopyInner.label): This is the label shown
+<!-- LOCALIZATION NOTE (inspectorCopyInnerHTML.label): This is the label shown
      in the inspector contextual-menu for the item that lets users copy the
      inner HTML of the current node -->
 
-<!ENTITY inspectorHTMLCopyInner.label       "HTML Pypegua mbohasarã">
-<!ENTITY inspectorHTMLCopyInner.accesskey   "P">
-<!-- LOCALIZATION NOTE (inspectorHTMLCopyOuter.label): This is the label shown
+<!ENTITY inspectorCopyInnerHTML.label       "Inner HTML">
+<!ENTITY inspectorCopyInnerHTML.accesskey   "I">
+<!-- LOCALIZATION NOTE (inspectorCopyOuterHTML.label): This is the label shown
      in the inspector contextual-menu for the item that lets users copy the
      outer HTML of the current node -->
 
-<!ENTITY inspectorHTMLCopyOuter.label       "HTML Okagua mbohasarã">
-<!ENTITY inspectorHTMLCopyOuter.accesskey   "O">
-<!-- LOCALIZATION NOTE (inspectorCopyUniqueSelector.label): This is the label
+<!ENTITY inspectorCopyOuterHTML.label       "HTML okaygua">
+<!ENTITY inspectorCopyOuterHTML.accesskey   "O">
+<!-- LOCALIZATION NOTE (inspectorCopyCSSSelector.label): This is the label
      shown in the inspector contextual-menu for the item that lets users copy
      the CSS Selector of the current node -->
 
-<!ENTITY inspectorCopyUniqueSelector.label       "Poravoha Ha'eñóva mbohasarã">
-<!ENTITY inspectorCopyUniqueSelector.accesskey   "H">
-<!-- LOCALIZATION NOTE (inspectorHTMLPasteOuter.label): This is the label shown
+<!ENTITY inspectorCopyCSSSelector.label "CSS Poravoha">
+<!ENTITY inspectorCopyCSSSelector.accesskey "S">
+<!-- LOCALIZATION NOTE (inspectorPasteOuterHTML.label): This is the label shown
      in the inspector contextual-menu for the item that lets users paste outer
      HTML in the current node -->
 
-<!ENTITY inspectorHTMLPasteOuter.label      "Emboja HTML oka gotyo">
-<!ENTITY inspectorHTMLPasteOuter.accesskey  "P">
-<!-- LOCALIZATION NOTE (inspectorHTMLPasteInner.label): This is the label shown
+<!ENTITY inspectorPasteOuterHTML.label      "HTML okaygua">
+<!ENTITY inspectorPasteOuterHTML.accesskey  "O">
+<!-- LOCALIZATION NOTE (inspectorPasteInnerHTML.label): This is the label shown
      in the inspector contextual-menu for the item that lets users paste inner
      HTML in the current node -->
 
-<!ENTITY inspectorHTMLPasteInner.label      "Emboja HTML hyepýpe">
-<!ENTITY inspectorHTMLPasteInner.accesskey  "n">
+<!ENTITY inspectorPasteInnerHTML.label      "Inner HTML">
+<!ENTITY inspectorPasteInnerHTML.accesskey  "I">
 <!-- LOCALIZATION NOTE (inspectorHTMLPasteExtraSubmenu.label): This is the label
      shown in the inspector contextual-menu for the sub-menu of the other Paste
      items, which allow to paste HTML:
@@ -77,16 +77,17 @@
      the inspector contextual-menu for the item that lets users delete the
      current node -->
 
-<!ENTITY inspectorHTMLDelete.label          "Mohendaha mboguete">
+<!ENTITY inspectorHTMLDelete.label          "Akytã mboguete">
 <!ENTITY inspectorHTMLDelete.accesskey      "m">
-<!-- LOCALIZATION NOTE (inspectorAttributeSubmenu.label): This is the label
+<!-- LOCALIZATION NOTE (inspectorAttributesSubmenu.label): This is the label
      shown in the inspector contextual-menu for the sub-menu of the other
      attribute items, which allow to:
      - add new attribute
      - edit attribute
      - remove attribute -->
-<!ENTITY inspectorAttributeSubmenu.label      "Tekome'ẽ">
-<!ENTITY inspectorAttributeSubmenu.accesskey  "A">
+
+<!ENTITY inspectorAttributesSubmenu.label      "Tekome'ẽ">
+<!ENTITY inspectorAttributesSubmenu.accesskey  "T">
 <!-- LOCALIZATION NOTE (inspectorAddAttribute.label): This is the label shown in
      the inspector contextual-menu for the item that lets users add attribute
      to current node -->
@@ -107,22 +108,17 @@
 <!ENTITY inspectorRemoveAttribute.accesskey    "R">
 
 <!ENTITY inspector.selectButton.tooltip     "Peteĩ mba'epuru hekaha rupi jeporavo">
-<!-- LOCALIZATION NOTE (inspectorSearchHTML.label2): This is the label shown as
-     the placeholder in inspector search box -->
-
-<!ENTITY inspectorSearchHTML.label2          "Eheka CSS poravoha ndive">
-<!ENTITY inspectorSearchHTML.key            "F">
 <!-- LOCALIZATION NOTE (inspectorSearchHTML.label3): This is the label that is
      shown as the placeholder for the markup view search in the inspector. -->
 
 <!ENTITY inspectorSearchHTML.label3 "HTML jeheka">
-<!-- LOCALIZATION NOTE (inspectorCopyImageDataUri.label): This is the label
+<!-- LOCALIZATION NOTE (inspectorImageDataUri.label): This is the label
      shown in the inspector contextual-menu for the item that lets users copy
      the URL embedding the image data encoded in Base 64 (what we name
      here Image Data URL). For more information:
      https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs -->
 
-<!ENTITY inspectorCopyImageDataUri.label       "Mba'ekuaarã URI mba'era'ãnga">
+<!ENTITY inspectorImageDataUri.label       "URL mba'ekuaarã ra'ãnga">
 <!-- LOCALIZATION NOTE (inspectorShowDOMProperties.label): This is the label
      shown in the inspector contextual-menu for the item that lets users see
      the DOM properties of the current node. When triggered, this item
@@ -155,3 +151,29 @@
      duplicate the currently selected node. -->
 
 <!ENTITY inspectorDuplicateNode.label       "Mohendaha momokõi">
+<!-- LOCALIZATION NOTE (inspectorAddNode.label): This is the label shown in
+     the inspector toolbar for the button that lets users add elements to the
+     DOM (as children of the currently selected element). -->
+
+<!ENTITY inspectorAddNode.label       "Emoheñói peteĩ mohendaha pyahu">
+<!ENTITY inspectorAddNode.accesskey   "C">
+<!-- LOCALIZATION NOTE (inspectorCopyHTMLSubmenu.label): This is the label
+     shown in the inspector contextual-menu for the sub-menu of the other
+     copy items, which allow to:
+     - Copy Inner HTML
+     - Copy Outer HTML
+     - Copy Unique selector
+     - Copy Image data URI -->
+
+<!ENTITY inspectorCopyHTMLSubmenu.label      "Emonguatia">
+<!-- LOCALIZATION NOTE (inspectorPasteHTMLSubmenu.label): This is the label
+     shown in the inspector contextual-menu for the sub-menu of the other
+     paste items, which allow to:
+     - Paste Inner HTML
+     - Paste Outer HTML
+     - Before
+     - After
+     - As First Child
+     - As Last Child -->
+
+<!ENTITY inspectorPasteHTMLSubmenu.label      "Mboja">

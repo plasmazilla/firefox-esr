@@ -110,8 +110,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Yab ter me &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Nwo kube bot &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Mok akaunt mamegi">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; ki ye">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; bi cako tic marom will begin syncing i cawa manok.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Kan piny">
@@ -168,8 +166,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Cone i pot buk man…">
 <!ENTITY addCurPagesCmd.label "Ket alama buk i dirica matino weng…">
 <!ENTITY showAllBookmarks2.label "Nyut alama buk weng">
-<!ENTITY unsortedBookmarksCmd.label "Alama buk ma pe ki yeko">
+
+
 <!ENTITY bookmarksToolbarChevron.tooltip "Nyut alama buk mukene">
+
+
+
+
 
 <!ENTITY backCmd.label                "Cen">
 <!ENTITY backButton.tooltip           "Dok cen pot buk acel">
@@ -196,7 +199,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.indexedDBNotificationAnchor.label       "Nen kwena me gwoko purugram mape iwiyamo">
 <!ENTITY urlbar.loginFillNotificationAnchor.label       "Lo ngec me dony iyie mamegi">
 <!ENTITY urlbar.passwordNotificationAnchor.label        "Gweti ka imito gwoko mung me donyo ni">
-<!ENTITY urlbar.webappsNotificationAnchor.label         "Nen kwena me keto purugram">
 <!ENTITY urlbar.pluginsNotificationAnchor.label         "Lo tic ki larwak i potbuk man">
 <!ENTITY urlbar.webNotsNotificationAnchor3.label        "Lok kono nyo itwero nongo jami angeya ki i kakube ne">
 
@@ -224,9 +226,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Alama buk">
-<!ENTITY bookmarksMenuButton.unsorted.label "Alama buk ma pe ki yeko">
+
 <!ENTITY viewBookmarksSidebar2.label        "Nen gintic alama buk ma inget">
 <!ENTITY viewBookmarksToolbar.label         "Nen gintic alama buk">
+
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -254,92 +257,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Layub Kakube">
 <!ENTITY webDeveloperMenu.accesskey   "L">
 
-<!ENTITY devToolsCmd.keycode          "VK_F12">
-<!ENTITY devToolsCmd.keytext          "F12">
-
-<!ENTITY devtoolsServiceWorkers.label      "Service Workers">
-<!ENTITY devtoolsServiceWorkers.accesskey  "k">
-
-<!ENTITY devtoolsConnect.label        "Kube…">
-<!ENTITY devtoolsConnect.accesskey    "b">
-
-<!ENTITY errorConsoleCmd.label        "Bal me kacoc">
-<!ENTITY errorConsoleCmd.accesskey    "k">
-
-<!ENTITY remoteWebConsoleCmd.label    "Kacoc me kakube ma tye kama bor">
-
-<!ENTITY browserConsoleCmd.label      "Kacoc me layeny">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "l">
-
 <!ENTITY inspectContextMenu.label     "Ngiyo gin ma i but">
 <!ENTITY inspectContextMenu.accesskey "Q">
-
-<!ENTITY responsiveDesignTool.label   "Neno me yub ma miyo lagam">
-<!ENTITY responsiveDesignTool.accesskey "l">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "La ton i wang">
-<!ENTITY eyedropper.accesskey "a">
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-
-<!ENTITY scratchpad.label             "Kacoc me tutunu">
-<!ENTITY scratchpad.accesskey         "K">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-<!-- LOCALIZATION NOTE (browserToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser toolbox UI in the Tools menu. -->
-
-<!ENTITY browserToolboxMenu.label     "Gintic me layeny">
-<!ENTITY browserToolboxMenu.accesskey "y">
-<!ENTITY browserToolboxCmd.commandkey "i">
-<!-- LOCALIZATION NOTE (browserContentToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser content toolbox UI in the Tools menu.
-  -  This toolbox allows to debug the chrome of the content process in multiprocess builds.  -->
-
-<!ENTITY browserContentToolboxMenu.label     "Bok gitic pi jami pa layeny">
-<!ENTITY browserContentToolboxMenu.accesskey "k">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Lor gintic pa Layub">
-<!ENTITY devToolbarMenu.label              "Gintic pa layub">
-<!ENTITY devToolbarMenu.accesskey          "n">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Lok jami tic">
-<!ENTITY devToolboxMenuItem.accesskey      "L">
-<!ENTITY devToolboxMenuItem.keytext        "I">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Lok gintic pa layub">
-<!ENTITY devToolbarOtherToolsButton.label  "Jami tic mukene">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Nong jami tic mukene">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "m">
 
 <!ENTITY fileMenu.label         "Pwail"> 
 <!ENTITY fileMenu.accesskey       "P">
 <!ENTITY newUserContext.label             "Dirica matidi manyen me mako jami">
 <!ENTITY newUserContext.accesskey         "m">
-<!ENTITY userContextPersonal.label        "Pa ngat moni">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Tic">
-<!ENTITY userContextWork.accesskey        "T">
-<!ENTITY userContextBanking.label         "Beng">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Wil">
-<!ENTITY userContextShopping.accesskey    "W">
 <!ENTITY newNavigatorCmd.label        "Dirica manyen">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "D">
@@ -358,9 +282,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY cutCmd.label           "Ngol">  
 <!ENTITY cutCmd.key             "X">  
 <!ENTITY cutCmd.accesskey         "o"> 
-<!ENTITY copyCmd.label            "Lok">  
+
 <!ENTITY copyCmd.key            "C">  
-<!ENTITY copyCmd.accesskey          "L"> 
+
 <!ENTITY pasteCmd.label           "Mwon">  
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "M"> 
@@ -410,7 +334,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHelp.tooltip "Yab lakony me nying gin ayera">
 
 <!ENTITY appMenuRemoteTabs.label "Dirica matino ma kitimo marom">
-
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
@@ -418,6 +341,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
+
 <!ENTITY appMenuRemoteTabs.openprefs.label "Ter me timo marom">
 
 <!ENTITY appMenuRemoteTabs.signin.label "Dony iyie me timo marom">
@@ -628,19 +552,22 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "N">
 <!ENTITY mediaUnmute.label           "Yab dwone">
 <!ENTITY mediaUnmute.accesskey       "d">
-<!ENTITY mediaPlaybackRate.label     "Dwiro me Tuko">
-<!ENTITY mediaPlaybackRate.accesskey "T">
-<!ENTITY mediaPlaybackRate050x.label "Wot Mot (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "M">
-<!ENTITY mediaPlaybackRate100x.label "Dwiro maber">
-<!ENTITY mediaPlaybackRate100x.accesskey "m">
-<!ENTITY mediaPlaybackRate150x.label "Dwiro ma lamal (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "m">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+
+
+
+
+
+
+
+
+
+
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Dwiro magwa (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "m">
+
+
+
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -749,7 +676,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Kube maber">
 <!ENTITY identity.connectionNotSecure "Kube pe tye ki ber bedo">
 <!ENTITY identity.connectionFile "Kigwoko potbuk man i kompiuta mamegi.">
-<!ENTITY identity.connectionVerified1 "Itye ki kube maber ki kakube man, ma lakelo ne aye:">
+
 <!ENTITY identity.connectionInternal "Man potbuk me &brandShortName; matye ki ber bedo.">
 
 <!-- Strings for connection state warnings. -->
@@ -795,9 +722,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 
 
+
 <!ENTITY syncedTabs.sidebar.openprefs.label    "Yab ter me &syncBrand.shortName.label;">
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
+
+
+
+
+
+
+
+
 
 
 

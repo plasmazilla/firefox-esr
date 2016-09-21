@@ -17,7 +17,7 @@
 <!ENTITY pasteAsQuotationCmd.accesskey "D">
 <!ENTITY pasteAsQuotationCmd.key "o">
 <!ENTITY findBarCmd.label "Canfod…">
-<!ENTITY findReplaceCmd.label "Canfod ac Amnewid…">
+<!ENTITY findReplaceCmd.label "Canfod a Newid…">
 <!ENTITY enableInlineSpellChecker.label "Gwirio Sillafu Wrth Deipio">
 <!ENTITY enableInlineSpellChecker.accesskey "S">
 <!ENTITY checkSpellingCmd2.label "Gwirio Sillafu…">
@@ -293,7 +293,7 @@
 <!ENTITY printToolbarCmd.label "Argraffu">
 <!ENTITY printToolbarCmd.tooltip "Argraffu'r dudalen">
 <!ENTITY findToolbarCmd.label "Canfod">
-<!ENTITY findToolbarCmd.tooltip "Canfod y testun yn y dudalen">
+<!ENTITY findToolbarCmd.tooltip "Canfod y testun ar y dudalen">
 <!ENTITY spellToolbarCmd.label "Sillafu">
 <!ENTITY spellToolbarCmd.tooltip "Gwirio sillafu o adran neu o'r dudalen gyfan">
 <!ENTITY imageToolbarCmd.label "Delwedd">

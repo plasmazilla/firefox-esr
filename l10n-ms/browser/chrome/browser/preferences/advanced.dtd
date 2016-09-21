@@ -15,6 +15,8 @@
 <!ENTITY blockAutoRefresh.label          "Ingatkan saya jika laman web cuba untuk mengalihkan atau mengulang muat laman">
 <!ENTITY blockAutoRefresh.accesskey      "b">
 
+
+
 <!ENTITY browsing.label                  "Melungsur">
 
 <!ENTITY useAutoScroll.label             "Guna autogulung">
@@ -34,8 +36,8 @@
 <!ENTITY healthReportLearnMore.label     "Pelajari Lagi">
 
 <!ENTITY telemetryDesc.label             "Kongsi data prestasi, penggunaan, perkakasan dan pelangganan berkaitan pelayar anda dengan &vendorShortName; untuk membantu kami menjadikan &brandShortName; lebih baik">
-<!ENTITY enableTelemetryData.label       "Kongsi data tambahan (i.e., Telemetri)">
-<!ENTITY enableTelemetryData.accesskey   "T">
+
+
 <!ENTITY telemetryLearnMore.label        "Pelajari Lagi">
 
 <!ENTITY crashReporterDesc.label         "&brandShortName; menghantar laporan ranap untuk membantu &vendorShortName; menjadikan pelayar anda lebih stabil dan selamat">
@@ -81,9 +83,6 @@
 <!ENTITY updateManual.label              "Jangan semak sebarang kemaskini (tidak digalakkan: risiko keselamatan)">
 <!ENTITY updateManual.accesskey          "n">
 
-<!ENTITY updateAutoAddonWarn.label       "Ingatkan saya jika ini boleh melumpuhkan sebarang addon saya">
-<!ENTITY updateAutoAddonWarn.accesskey   "I">
-
 <!ENTITY updateHistory.label             "Pamer Sejarah Kemaskini">
 <!ENTITY updateHistory.accesskey         "P">
 
@@ -106,7 +105,7 @@
 <!ENTITY offlineAppRemove.confirm        "Buang data luar talian">
 
 <!ENTITY certificateTab.label            "Sijil">
-<!ENTITY certSelection.label             "Permintaan">
+
 <!ENTITY certSelection.description       "Bila pelayan meminta sijil peribadi saya:">
 <!ENTITY certs.auto                      "Pilih satu automatik">
 <!ENTITY certs.auto.accesskey            "S">

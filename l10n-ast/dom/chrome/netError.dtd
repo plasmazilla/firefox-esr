@@ -36,7 +36,7 @@
 <!ENTITY netInterrupt.longDesc "<p>El restolador coneutóse correcho, pero interrumpióse la conexón mientres se tresfería información. Por favor, vuelve a intentalo.</p><ul><li>¿Nun puedes restolar per otros sitios? Comprueba la conexón de rede del ordenador.</li><li>¿Entá con problemes? Consulta col to alministrador de rede o fornidor d'Internet pa obtener asistencia téunica.</li></ul>">
 
 <!ENTITY notCached.title "Documentu caducáu">
-<!ENTITY notCached.longDesc "<p>El documentu solicitáu nun ta disponible na caché del navegador.</p><ul><li>Por seguridá, el navegador nun va solicitar automáticamente documentos con información sensible.</li><li>Calca en Intentar pa solicitar el documentu dende la web.</li></ul>">
+<!ENTITY notCached.longDesc "<p>El documentu solicitáu nun ta na caché del restolador.</p><ul><li>Como midida de seguranza, el restolador nun va volver a solicitar documentos sensibles.</li><li>Primi de nueves pa volver a solicitar el documentu dende'l sitiu web.</li></ul>">
 
 <!ENTITY netOffline.title "Mou ensin conexón">
 <!ENTITY netOffline.longDesc2 "<p>El restolador web ta en mou ensin conexón y nun puede coneutase al elementu solicitáu.</p><ul><li>¿Ta l'equipu coneutáu a una rede activa?</li><li>Calca &quot;Intentar otra vegada&quot; pa pasar a mou en llinia y recargar la páxina.</li></ul>">
@@ -89,8 +89,8 @@
 <!ENTITY cspBlocked.title "Bloquiáu por polítiques de seguridá de conteníu">
 <!ENTITY cspBlocked.longDesc "<p>El restolador torgó qu'esta páxina se cargue d'esti mou porque la páxina tien una política de seguridá de conteníu que lo impide.</p>">
 
-<!ENTITY corruptedContentError.title "Fallu de corrupción de conteníos">
-<!ENTITY corruptedContentError.longDesc "<p>Nun pue amosase la páxina que tas intentando ver, porque deteutóse un fallu na tresmisión de datos.</p><ul><li>Por favor, contauta col alministrador del sitiu pa informá-y d'esti problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Fallu de conteníu toyíu">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>La páxina que tas intentando ver nun pue amosase porque deteutóse un fallu na tresmisión de los datos.</p><ul><li>Contauta colos dueños del sitiu web pa informa-yos d'esti fallu.</li></ul>">
 
 <!ENTITY remoteXUL.title "XUL Remotu">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor, contauta col alministrador del sitiu web pa informalu d'esti problema.</li></ul></p>">

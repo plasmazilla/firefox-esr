@@ -3,8 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY firstrun_panel_title_welcome "Bienvenue">
-<!ENTITY  onboard_start_message3 "Naviguez avec &brandShortName;">
-<!ENTITY  onboard_start_subtext3 "Personnalisez facilement votre navigation web mobile.">
 
 <!ENTITY firstrun_urlbar_message "Bienvenue sur &brandShortName;">
 <!ENTITY firstrun_urlbar_subtext "Trouvez plus rapidement ce que vous recherchez grâce aux suggestions de recherche.">
@@ -20,21 +18,33 @@
 <!ENTITY firstrun_signin_message "Connectez-vous, lancez-vous">
 <!ENTITY firstrun_signin_button "Se connecter à Sync">
 <!ENTITY  onboard_start_button_browser "Commencer la navigation">
+<!ENTITY firstrun_button_notnow "Plus tard">
 <!ENTITY firstrun_button_next "Suivant">
 
-<!ENTITY  onboard_start_restricted1 "Restez en sécurité et aux commandes avec cette version simplifiée de &brandShortName;.">
+<!ENTITY firstrun_tabqueue_title "Liens">
+<!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "Activez la file d’onglets">
+<!ENTITY firstrun_tabqueue_subtext_off "Appuyez sur des liens depuis d’autres applications, ils s’ouvriront au lancement de &brandShortName;.">
 
-<!ENTITY  reading_list_migration_title "Liste de lecture connectée">
-<!ENTITY  reading_list_migration_subtext "Les éléments de votre liste de lecture vont être ajoutés à vos marque-pages.">
-<!ENTITY  reading_list_migration_goto_bookmarks "Ouvrir les marque-pages">
-<!ENTITY  reading_list_migration_bookmarks_hidden "Le panneau des marque-pages est masqué.">
+<!ENTITY firstrun_tabqueue_message_on "Bravo !">
+<!ENTITY firstrun_tabqueue_subtext_on "Vous pouvez désactiver cette fonctionnalité à tout moment depuis &settings; > &pref_category_general;.">
+
+<!ENTITY firstrun_readerview_title "Articles">
+<!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+<!ENTITY firstrun_readerview_message "Retirez le superflu">
+<!ENTITY firstrun_readerview_subtext "Utilisez le mode lecture pour rendre les articles faciles à lire, même hors connexion.">
+
+<!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+<!ENTITY firstrun_account_title "Vous">
+<!ENTITY firstrun_account_message "Vous utilisez &brandShortName; sur d’autres appareils ?">
+
+<!ENTITY  onboard_start_restricted1 "Restez en sécurité et aux commandes avec cette version simplifiée de &brandShortName;.">
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "Marque-pages">
 <!ENTITY bookmark_remove "Supprimer le marque-page">
 <!ENTITY  history_title "Historique">
-<!ENTITY  reading_list_title "Liste de lecture">
 <!ENTITY  recent_tabs_title "Onglets récents">
 
 <!ENTITY  switch_to_tab "Aller à l’onglet">
@@ -289,7 +299,12 @@
 
 <!ENTITY content_notification_summary "&brandShortName;">
 <!ENTITY content_notification_title_plural "&formatD; sites web mis à jour">
-<!ENTITY content_notification_action_settings "Paramètres des notifications">
+<!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
+     Clicking the action will jump to the notification settings of the app. -->
+<!ENTITY content_notification_action_settings2 "Paramètres">
+<!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
+     Clicking the action will open all new content in the browser. -->
+<!ENTITY content_notification_action_read_now "Lire">
 <!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
      date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
      documentation for DateFormat.getMediumDateFormat(). -->
@@ -787,3 +802,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_first_offline_bookmark_title "Lire hors connexion">
 <!ENTITY helper_first_offline_bookmark_message "Retrouvez les pages du mode lecture dans les marque-pages, même hors connexion.">
 <!ENTITY helper_first_offline_bookmark_button "Ouvrir les marque-pages">
+
+<!ENTITY helper_triple_readerview_open_title "Disponible hors connexion">
+<!ENTITY helper_triple_readerview_open_message "Marquez les pages du mode lecture pour pouvoir les lire hors connexion.">
+<!ENTITY helper_triple_readerview_open_button "Ajouter aux marque-pages">
+

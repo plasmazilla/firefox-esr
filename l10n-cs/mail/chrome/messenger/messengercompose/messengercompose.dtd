@@ -23,10 +23,10 @@
 <!ENTITY attachFileCmd.key "A">
 <!ENTITY attachCloudCmd.label "Soubor přes úložiště">
 <!ENTITY attachCloudCmd.accesskey "b">
-<!ENTITY attachPageCmd.label "WWW stránka…">
+<!ENTITY attachPageCmd.label "Webovou stránku…">
 <!ENTITY attachPageCmd.accesskey "W">
 <!--LOCALIZATION NOTE attachVCardCmd.label Don't translate the term 'vCard' -->
-<!ENTITY attachVCardCmd.label "Osobní vizitka (vCard)">
+<!ENTITY attachVCardCmd.label "Osobní vizitku (vCard)">
 <!ENTITY attachVCardCmd.accesskey "O">
 <!ENTITY remindLater.label "Upozornit mě později">
 <!ENTITY remindLater.accesskey "U">
@@ -116,8 +116,8 @@
 <!ENTITY showFormattingBarCmd.accesskey "y">
 <!ENTITY showTaskbarCmd.label "Stavový řádek">
 <!ENTITY showTaskbarCmd.accesskey "S">
-<!ENTITY customizeToolbar.label "Vlastní…">
-<!ENTITY customizeToolbar.accesskey "V">
+<!ENTITY customizeToolbar.label "Přizpůsobit…">
+<!ENTITY customizeToolbar.accesskey "z">
 
 <!ENTITY addressSidebar.label "Lišta adresáře">
 <!ENTITY addressSidebar.accesskey "a">
@@ -241,14 +241,14 @@
 <!ENTITY attachments.accesskey "P">
 
 <!-- Format Toolbar, imported from editorAppShell.xul -->
-<!ENTITY SmileButton.tooltip "Vloží smajlík">
+<!ENTITY SmileButton.tooltip "Vloží smajlíka">
 <!ENTITY smiley1Cmd.label "Úsměv">
 <!ENTITY smiley2Cmd.label "Zamračený">
 <!ENTITY smiley3Cmd.label "Mrknutí">
 <!ENTITY smiley4Cmd.label "Vyplazený jazyk">
 <!ENTITY smiley5Cmd.label "Smích">
 <!ENTITY smiley6Cmd.label "Rozpačitý">
-<!ENTITY smiley7Cmd.label "Nerozhodnutý">
+<!ENTITY smiley7Cmd.label "Nerozhodný">
 <!ENTITY smiley8Cmd.label "Překvapený">
 <!ENTITY smiley9Cmd.label "Polibek">
 <!ENTITY smiley10Cmd.label "Ječící">
@@ -300,7 +300,7 @@
 <!ENTITY attachPage.accesskey "w">
 
 <!-- Spell checker context menu items -->
-<!ENTITY spellAddDictionaries.label "Přidat slovníky…">
+<!ENTITY spellAddDictionaries.label "Přidat slovník…">
 <!ENTITY spellAddDictionaries.accesskey "P">
 
 <!-- Title for the address picker panel -->

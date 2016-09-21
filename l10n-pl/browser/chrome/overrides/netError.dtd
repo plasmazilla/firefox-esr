@@ -76,8 +76,8 @@
 <!ENTITY cspBlocked.title "Zablokowane przez politykę bezpieczeństwa treści">
 <!ENTITY cspBlocked.longDesc "<p>Program &brandShortName; uniemożliwił tej stronie wczytanie treści w ten sposób, ponieważ jej polityka bezpieczeństwa treści na to nie pozwala.</p>">
 
-<!ENTITY corruptedContentError.title "Błąd: treść uszkodzona">
-<!ENTITY corruptedContentError.longDesc "<p>Strona, którą próbujesz obejrzeć, nie może być wyświetlona, ponieważ wykryto błąd w transmisji danych.</p><ul><li>Prosimy poinformować właścicieli witryny o tym problemie.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Błąd: treść uszkodzona">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Strona, którą próbujesz obejrzeć, nie może być wyświetlona, ponieważ wykryto błąd w transmisji danych.</p><ul><li>Prosimy poinformować właścicieli witryny o tym problemie.</li></ul>">
 
 <!ENTITY securityOverride.exceptionButtonLabel "Dodaj wyjątek…">
 
@@ -96,9 +96,14 @@
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> używa przestarzałej i podatnej na ataki technologii bezpieczeństwa. Atakujący mógłby łatwo odszyfrować informacje, które miały być bezpieczne.">
 <!ENTITY weakCryptoAdvanced.override "(Odradzane) Wczytaj <span class='hostname'></span> używając przestarzałych zabezpieczeń">
 
+<!ENTITY certerror.wrongSystemTime "<p>Bezpieczne połączenie z <span id='wrongSystemTime_URL'/> nie jest możliwe, ponieważ zegar systemowy wydaje się wskazywać złą datę.</p><p>Komputer twierdzi, że mamy <span id='wrongSystemTime_systemDate'/>, gdy powinien wskazywać <span id='wrongSystemTime_actualDate'/>. Zmień ustawioną datę i czas na aktualne, aby rozwiązać ten problem.</p>">
+
 <!ENTITY certerror.pagetitle1 "Niezabezpieczone połączenie">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Ta strona określa poprzez HSTS (HTTP Strict Transport Security), że program &brandShortName; ma się z nią łączyć jedynie w sposób bezpieczny. W związku z tym, dodanie wyjątku dla tego certyfikatu jest niemożliwe.">
 <!ENTITY certerror.copyToClipboard.label "Kopiuj tekst do schowka">
 
 <!ENTITY inadequateSecurityError.title "Połączenie nie gwarantuje bezpieczeństwa">
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> używa przestarzałej i podatnej na ataki technologii bezpieczeństwa. Atakujący mógłby łatwo odszyfrować informacje, które miały być bezpieczne. Administrator strony musi naprawić serwer, zanim będzie można ją odwiedzić.</p><p>Kod błędu: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Może to być spowodowane zmienionymi ustawieniami przeglądarki dotyczącymi bezpieczeństwa sieci. Czy przywrócić domyślne ustawienia?">
+<!ENTITY prefReset.label "Przywróć">

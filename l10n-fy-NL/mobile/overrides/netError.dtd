@@ -6,7 +6,7 @@
 %brandDTD;
 
 <!ENTITY loadError.label "Probleem by it laden fan de side">
-<!ENTITY retry.label "Probearje it op 'e nij">
+<!ENTITY retry.label "Probearje it opnij">
 
 <!-- Specific error messages -->
 
@@ -74,8 +74,7 @@
 <!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY notCached.title "Dokumint ferrûn">
-<!ENTITY notCached.longDesc "<p>It fersochte dokumint is net beskikber yn de buffer fan &brandShortName;.</p><ul><li>Fanwege in feilichheidsfoarsoarchmaatregel sil &brandShortName; fertroulike dokuminten net automatysk opnij oanfreegje.</li><li>Klik om it dokumint opnij oan te freegjen fan it webstee.</li></ul>">
-
+<!ENTITY notCached.longDesc "<p>It opfrege dokumint is net beskikber yn de buffer fan &brandShortName;.</p><ul><li>As befeiligingsmaatregel freget &brandShortName; gefoelige dokuminten net automatysk opnij op.</li><li>Klik op Opnij probearje om it dokumint opnij fan de website op te freegjen.</li></ul>">
 <!ENTITY netOffline.title "Offline-moadus">
 <!ENTITY netOffline.longDesc3 "
 <ul>
@@ -88,18 +87,18 @@
 <!ENTITY contentEncodingError.title "Ynhâldkodearingsflater">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Nim kontakt op mei de webstee-eigners om se te ynformearjen oer dit probleem.</li>
+  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Unfeilich bestânstype">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Nim asjobleaft kontakt op mei de webstee-eigners om se te ynformearjen oer dit probleem.</li>
+  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
-<!ENTITY netReset.title "De ferbining waard op 'e nij inisjalisearre">
+<!ENTITY netReset.title "De ferbining waard opnij inisjalisearre">
 <!ENTITY netReset.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY netTimeout.title "De wachttiid foar de ferbining is ferstrutsen">
@@ -142,8 +141,8 @@
 <!ENTITY unknownSocketType.title "Unferwacht antwurd fan de server">
 <!ENTITY unknownSocketType.longDesc "
 <ul>
-  <li>Soargje derfoar dat de persoanlike befeiligingsbehearder op jo systeem
-    ynstallearre is.</li>
+  <li>Soargje derfoar dat de persoanlike befeiligingsbehearder op jo systeem 
+  ynstallearre is.</li>
   <li>Dit kin it gefolch wêze fan in net-standert konfiguraasje fan de server.</li>
 </ul>
 ">
@@ -151,8 +150,8 @@
 <!ENTITY nssFailure2.title "Befeilige ferbining mislearre">
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>De side dy't jo besjen wolle kin net toand wurde, omdat de werkomst fan de ûntfongen gegevens net ferifiearre wurde kin.</li>
-  <li>Nim kontakt op mei de webstee-eigners om se te ynformearjen oer dit probleem.</li>
+  <li>De side dy't jo besjen wolle kin net toand wurde, omdat de echtheid fan de ûntfongen gegevens net ferifiearre wurde kin.</li>
+  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
@@ -176,13 +175,12 @@
 <!ENTITY cspBlocked.title "Blokkearre troch ynhâldsbefeiligingsbelied">
 <!ENTITY cspBlocked.longDesc "<p>De browser hat opkeard dat de side op dizze manier laden wurd, omdat de side in ynhâldsbefeiligingsbelied hat dat dit net tastiet.</p>">
 
-<!ENTITY corruptedContentError.title "Korruptearre ynhâldsflater">
-<!ENTITY corruptedContentError.longDesc "<p>De side dy't jo probearje te besjen kin net toand wurde omdat der in flater yn de gegevensoerdracht ûntdekt waard.</p><ul><li>Nim kontakt op mei de webstee-eigners om se te ynformearjen oer dit probleem.</li></ul>">
-
+<!ENTITY corruptedContentErrorv2.title "Skansearre-ynhâldsflater">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>De side dy't jo besjen wolle kin net werjûn wurde, omdat der in flater yn de gegevensoerdracht detektearre is.</p><ul><li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Of jo kinne in útsûndering tafoegje...">
 <!ENTITY securityOverride.getMeOutOfHereButton "Helje My Hjir út!">
-<!ENTITY securityOverride.exceptionButtonLabel "Foech Utsûndering ta">
+<!ENTITY securityOverride.exceptionButtonLabel "Utsûndering tafoegje…">
 
 <!-- LOCALIZATION NOTE (securityOverride.warningText) - Do not translate the
 contents of the <xul:button> tags.  The only language content is the label= field,
@@ -197,7 +195,7 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 ">
 
 <!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Nim kontakt op mei de webstee-eigners om se te ynformearjen oer dit probleem.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li></ul></p>">
 
 <!ENTITY sslv3Used.title "Kin gjin befeilige ferbining meitsje">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate

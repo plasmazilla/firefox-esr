@@ -24,6 +24,8 @@
 <!ENTITY fileNotFound.title "پرونده پیدا نشد">
 <!ENTITY fileNotFound.longDesc "<ul> <li>صحتِ نام پرونده را برای احتمال وجود غلط املایی بررسی کنید. </li> <li>بررسی کنید که آیا پرونده جابه‌جا شده، تغییر نام یافته، یا پاک شده است.</li> </ul>">
 
+<!ENTITY fileAccessDenied.title "دسترسی به این پرونده رد می‌شود">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>ممکن است حذف،‌منتقل شده باشد یا مجوز‌های آن از دسترسی جلوگیری‌ می‌کند.</li></ul>">
 
 <!ENTITY generic.title "اوخ.">
 <!ENTITY generic.longDesc "<p>&brandShortName; به دلایلی نمی‌تواند این صفحه را نمایش دهد.</p>">
@@ -81,13 +83,13 @@
 <!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 
-<!ENTITY sharedLongDesc3 "<ul> <li>سایت می‌تواند موقتا در دسترس نباشد یا خیلی شلوغ باشد. چند لحظه دیگر مجددا تلاش کنید.</li> <li>اگر شما نمی‌توانید هیچ صفحه‌ای را باز کنید، اتصال داده یا وای-فای دستگاه خود را بررسی کنید. <button id='wifi'>فعال‌سازی وای-فای</button> </li> </ul>">
+<!ENTITY sharedLongDesc3 "<ul> <li>سایت می‌تواند موقتا در دسترس نباشد یا خیلی شلوغ باشد. چند لحظه دیگر مجددا تلاش کنید.</li> <li>اگر شما نمی‌توانید هیچ صفحه‌ای را باز کنید، اتصال داده یا Wi-Fi دستگاه خود را بررسی کنید. <button id='wifi'>فعال‌سازی Wi-Fi</button> </li> </ul>">
 
 <!ENTITY cspBlocked.title "بلوکه شده بنا بر سیاست امنیتی محتوا">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; از بارگذاری این صفحه به این شکل جلوگیری کرد، زیرا که صفحه محتوایی دارد که سیاست امنیتی مانع آن می‌شود</p>">
 
-<!ENTITY corruptedContentError.title "خطای خرابی محتوا">
-<!ENTITY corruptedContentError.longDesc "<p>صفحه‌ای که تلاش می‌کنید ببینید به دلیل وجود یک خطا در انتقال داده، نمی‌تواند نمایش داده شود.</p><ul><li> لطفا با مسئولین سایت تماس بگیرید و آنها را از این مشکل مطلع سازید.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "خطای خرابی محتوا">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>صفحه‌ای که تلاش می‌کنید ببینید به دلیل وجود یک خطا در انتقال داده، نمی‌تواند نمایش داده شود.</p><ul><li> لطفا با مسئولین سایت تماس بگیرید و آنها را از این مشکل مطلع سازید.</li></ul>">
 
 <!ENTITY securityOverride.linkText "یا می‌توانید یک استثنا اضافه کنید…">
 <!ENTITY securityOverride.getMeOutOfHereButton "ترک این مکان!">
@@ -112,3 +114,8 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc "اطلاعات پیشرفته: ssl_error_no_cypher_overlap">
+
+<!ENTITY inadequateSecurityError.title "اتصال شما امن نیست">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> استفاده از تکنولوژی های امنیتی که تاریخ‌ آن‌ها گذشته است در برابر حملات آسیب پذیراست. و حمله کننده می ‌تواند به راحتی اطلاعاتی که شما تصویر می‌کنید امن است را فاش کند. مدیریت پایگاه وب نیاز دارد تا نخست کارگزار را قبل از بازدید پایگاه وب درست کند.</p><p> کد خطا: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

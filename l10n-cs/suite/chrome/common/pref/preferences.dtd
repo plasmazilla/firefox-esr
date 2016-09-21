@@ -34,8 +34,8 @@
 
 <!ENTITY sync.label "Sync">
 
-<!ENTITY advance.label "Rozšířené nastavení">
-<!ENTITY scriptsAndWindows.label "Skripty a moduly">
+<!ENTITY advance.label "Rozšířené">
+<!ENTITY scriptsAndWindows.label "Skripty a zásuvné moduly">
 <!ENTITY keynav.label "Navigace klávesnicí">
 <!ENTITY findAsYouType.label "Najít přímo při psaní">
 <!ENTITY cache.label "Mezipaměť">

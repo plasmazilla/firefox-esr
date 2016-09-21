@@ -152,10 +152,10 @@
 <!ENTITY detail.checkForUpdates.tooltip       "Søker etter oppdateringar for denne utvidinga">
 <!ENTITY detail.showPreferencesWin.label      "Innstillingar">
 <!ENTITY detail.showPreferencesWin.accesskey  "I">
-<!ENTITY detail.showPreferencesWin.tooltip    "Endre innstillingane til denne utvidinga">
+<!ENTITY detail.showPreferencesWin.tooltip    "Endra innstillingane til denne utvidinga">
 <!ENTITY detail.showPreferencesUnix.label     "Innstillingar">
 <!ENTITY detail.showPreferencesUnix.accesskey "I">
-<!ENTITY detail.showPreferencesUnix.tooltip   "Endre innstillingane til denne utvidinga">
+<!ENTITY detail.showPreferencesUnix.tooltip   "Endra innstillingane til denne utvidinga">
 <!-- ratings -->
 
 

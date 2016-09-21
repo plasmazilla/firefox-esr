@@ -22,6 +22,8 @@
 <!ENTITY fileNotFound.title "Berkas tidak ditemukan">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Periksa penggunaan huruf besar/kecil pada nama berkas atau kesalahan pengetikan lain.</li> <li>Periksa apakah berkas sudah dipindah, diganti namanya, atau dihapus.</li> </ul>">
 
+
+
 <!ENTITY generic.title "Ups.">
 <!ENTITY generic.longDesc "<p>Untuk alasan tertentu &brandShortName; tidak dapat memuat laman ini.</p>">
 
@@ -71,20 +73,10 @@
 
 <!ENTITY sharedLongDesc "<ul> <li>Sementara ini mungkin situs terlalu sibuk atau tidak menyala. Cobalah beberapa saat lagi.</li> <li>Apabila Anda tidak dapat memuat laman apa pun, periksa sambungan jaringan komputer Anda.</li> <li>Apabila komputer atau jaringan Anda dilindungi firewall atau proxy, pastikan bahwa &brandShortName; diizinkan mengakses Web.</li> </ul>">
 
-<!ENTITY malwareBlocked.title "Tersangka Situs Penyerang!">
-<!ENTITY malwareBlocked.longDesc "<p>Situs penyerang mencoba memasang program yang dapat mencuri data pribadi, menggunakan komputer Anda untuk menyerang komputer lain, atau merusak sistem Anda.</p> <p>Pemilik situs web yang merasa situs yang bersangkutan bukan merupakan situs web penyerang dapat meminta <a href='http://www.stopbadware.org/home/reviewinfo' >peninjauan kembali</a>.</p>">
 
 
+<!ENTITY corruptedContentErrorv2.title "Galat Konten Rusak">
 
-<!ENTITY phishingBlocked.title "Tersangka Pemalsuan Web!">
-<!ENTITY phishingBlocked.longDesc "<p>Dengan memasukkan informasi pribadi pada laman ini, pencurian identitas atau kejahatan lainnya dapat terjadi.</p> <p>Jenis pemalsuan web yang digunakan untuk penipuan (scam) dikenal sebagai &quot;phishing attack&quot; yaitu penipuan dengan cara meniru laman web dan email yang mungkin Anda percayai.</p>">
-
-
-
-
-
-<!ENTITY corruptedContentError.title "Galat Konten Rusak">
-<!ENTITY corruptedContentError.longDesc "<p>Laman yang akan dibuka tidak dapat ditampilkan karena ada terdeteksi galat pada pengiriman data.</p><ul><li>Mohon hubungi pemilik situs web mengenai masalah ini.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Atau dapat ditambahkan pada pengecualian…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Kabur!">
@@ -99,3 +91,6 @@ functionality specific to thunderbird. -->
 
 <!ENTITY remoteXUL.title "XUL Daring">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Hubungi pemilik situs web untuk memberitahukan masalah ini.</li></ul></p>">
+
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->

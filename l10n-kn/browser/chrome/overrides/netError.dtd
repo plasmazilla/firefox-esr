@@ -24,6 +24,8 @@
 <!ENTITY fileNotFound.title "ಕಡತವು  ಕಂಡುಬಂದಿಲ್ಲ">
 <!ENTITY fileNotFound.longDesc "<ul> <li>ಕ್ಯಾಪಿಟಲೈಸೇಶನ್‍ಗಾಗಿ ಅಥವ ಇತರೆ ಬೆರಳಚ್ಚು ದೋಷಗಳಿಗಾಗಿ ಕಡತದ ಹೆಸರನ್ನು ಪರೀಕ್ಷಿಸಿ.</li> <li>ಕಡತವು ಸ್ಥಳಾಂತರಿಸಲ್ಪಟ್ಟಿದೆಯೆ, ಹೆಸರು ಬದಲಾಯಿಸಲ್ಪಟ್ಟಿದೆಯೆ ಅಥವ ಅಳಿಸಲ್ಪಟಿದೆಯೆ ಎಂದು ಪರೀಕ್ಷಿಸಿ.</li> </ul>">
 
+<!ENTITY fileAccessDenied.title "ಕಡತ ಪ್ರವೇಶವನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
+<!ENTITY fileAccessDenied.longDesc "<ul><li>ಅದನ್ನು ತೆಗೆದುಹಾಕಿರಬಹುದು, ಜರುಗಿಸಿರಬಹುದು, ಅಥವಾ ಕಡತದ ಅನುಮತಿಗಳು ಪ್ರವೇಶವನ್ನು ತಡೆಹಿಡಿಯುತ್ತಿರಬಹುದು.</li></ul>">
 
 <!ENTITY generic.title "ಓಹ್.">
 <!ENTITY generic.longDesc "<p>&brandShortName; ಕ್ಕೆ ಈ ಪುಟವನ್ನು ಕೆಲವೊಂದು ಕಾರಣದಿಂದಾಗಿ ಲೋಡ್‍ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</p>">
@@ -70,28 +72,22 @@
 <!ENTITY nssFailure2.title "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ">
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>ನೀವು ನೋಡಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಪಡೆಯಲಾದ ಮಾಹಿತಿಯ ವಿಶ್ವಾಸಾರ್ಹತೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ .</li> <li>ದಯವಿಟ್ಟು ಈ ತೊಂದರೆಯ ಬಗ್ಗೆ ಜಾಲತಾಣದ ಮಾಲಿಕರಿಗೆ ತಿಳಿಸಿ.</li> </ul>">
 
-<!ENTITY nssBadCert.title "ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ">
-<!ENTITY nssBadCert.longDesc2 "<ul> <li>ಇದು ಪರಿಚಾರಕದ ಸಂರಚನೆಯಲ್ಲಿನ ಒಂದು ತೊಂದರೆ ಇರಬಹುದು, ಅಥವ ಯಾರಾದರೂ ಪರಿಚಾರಕದಂತೆ ವರ್ತಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರಬಹುದು.</li> <li>ಈ ಮೊದಲು ನೀವು ಪರಿಚಾರಕಕ್ಕೆ ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕ ಹೊಂದಲು ಸಾಧ್ಯವಾಗಿದ್ದಲ್ಲಿ, ಈಗಿನ ದೋಷವು ತಾತ್ಕಾಲಿಕವಾಗಿರಬಹುದು, ಹಾಗು ನೀವು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li> </ul>">
+<!ENTITY certerror.longpagetitle1 "ನಿಮ್ಮ ಸಂಪರ್ಕವು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ‍">
+<!-- Localization note (certerror.introPara) - The text content of the span tag
+will be replaced at runtime with the name of the server to which the user
+was trying to connect. -->
+<!ENTITY certerror.introPara "ಈ ಜಾಲತಾಣದ ಮಾಲಿಕ <span class='hostname'/>  ಅದನ್ನು ‍ಸರಿಯಾಗಿ ಸಂರಚಿಸಿಲ್ಲ. ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಕಳ್ಳತನದಿಂದ ಸುರಕ್ಷಿತವಾಗಿರಿಸಲು, &brandShortName; ಈ ಜಾಲತಾಣದೊಂದಿಗೆ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿಲ್ಲ.">
 
 <!ENTITY sharedLongDesc "<ul> <li>ತಾಣವು ತಾತ್ಕಾಲಿಕವಾಗಿ ಅಲಭ್ಯವಾಗಿದೆ ಅಥವ ಬಹುವಾಗಿ ಬಳಸಲ್ಪಡುತ್ತಿದೆ. ಕೆಲವು ಕ್ಷಣಗಳನಂತರ ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</li> <li>ನಿಮಗೆ ಯಾವುದೆ ಪುಟವನ್ನು ಲೋಡ್‍ ಮಾಡಲುಆಗದೇ ಹೋದರೆ, ನಿಮ್ಮ ಗಣಕದ ಜಾಲ ಸಂಪರ್ಕವನ್ನು ಪರೀಕ್ಷಿಸಿ.</li> <li>ನಿಮ್ಮ ಗಣಕ ಅಥವ ಜಾಲಬಂಧವು ಒಂದು ಫೈರ್ವಾಲ್ ಅಥವ ಪ್ರಾಕ್ಸಿ ಇಂದ ಸಂರಕ್ಷಿತಗೊಂಡಿದ್ದೆ, &brandShortName; ವುಜಾಲವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಅನುಮತಿ ಇದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</li> </ul>">
 
 <!ENTITY cspBlocked.title "ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮದಿಂದ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ">
 <!ENTITY cspBlocked.longDesc "<p> ಈ ಪುಟವನ್ನು ಈ ರೀತಿಯಲ್ಲಿ ಲೋಡ್ ಮಾಡುದಂತೆ  &brandShortName; ತಡೆದಿದೆ ಏಕೆಂದರೆ ಈ ಪುಟದಲ್ಲಿನ ವಿಷಯ ಸುರಕ್ಷತಾ ನಿಯಮವು ಇದಕ್ಕೆ ಅನುಮತಿ ನೀಡುವುದಿಲ್ಲ.</p>">
 
-<!ENTITY corruptedContentError.title "ವಿಷಯ ಹಾಳಾದ ದೋಷ">
-<!ENTITY corruptedContentError.longDesc "<p>ನೀವು ನೋಡಲು ಬಯಸುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಮಾಹಿತಿ ವರ್ಗಾವಣೆಯಲ್ಲಿ ಒಂದು ದೋಷವು ಕಂಡು ಬಂದಿದೆ.</p><ul><li>ಈ ತೊಂದರೆಯನ್ನು ವರದಿ ಮಾಡಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "ವಿಷಯ ಹಾಳಾದ ದೋಷ">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>ನೀವು ನೋಡಲು ಬಯಸುವ ಪುಟವನ್ನು ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಮಾಹಿತಿ ವರ್ಗಾವಣೆಯಲ್ಲಿ ಒಂದು ದೋಷವು ಕಂಡು ಬಂದಿದೆ.</p><ul><li>ಈ ತೊಂದರೆಯನ್ನು ವರದಿ ಮಾಡಲು ಜಾಲತಾಣದ ಮಾಲಿಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.</li></ul>">
 
 
-<!ENTITY securityOverride.linkText "ಅಥವ ನೀವು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಬಹದು…">
-<!ENTITY securityOverride.getMeOutOfHereButton "ನನಗೆ ಇಲ್ಲಿಂದ ಹೊರಗೆ ಕೊಂಡೊಯ್ಯಿ!">
 <!ENTITY securityOverride.exceptionButtonLabel "ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸು…">
-<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
-contents of the <button> tags. It uses strings already defined above. The
-button is included here (instead of netError.xhtml) because it exposes
-functionality specific to firefox. -->
-
-
-<!ENTITY securityOverride.warningContent "<p>ನೀವು ಸಂಪೂರ್ಣವಾಗಿ ನಂಬದಿರುವ ಒಂದು ಅಂತರಜಾಲ ಸಂಪರ್ಕವನ್ನು ಬಳಸುತ್ತಿದ್ದಲ್ಲಿ ಅಥವಾ ಈ ಪರಿಚಾರಕದಿಂದ ಈ ಹಿಂದೆ ಯಾವುದೆ ಎಚ್ಚರಿಕಾ ಸಂದೇಶವು ಕಂಡು ಬಂದಿರದೆ ಇದ್ದಂತಹ ಸಂದರ್ಭದಲ್ಲಿ ನೀವು ಒಂದು ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಬಾರದು.</p>  <button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
 
 <!ENTITY errorReporting.automatic2 "ಈ ತರಹದ ದೋಷಗಳನ್ನು ವರದಿ ಮಾಡಿ Mozillaಗೆ ಅಪಾಯಕಾರಿ ತಾಣಗಳನ್ನು ಗುರುತು ಹಿಡಿಯಲು ಮತ್ತು ತಡೆಹಿಡಿಯಲು ಸಹಾಯ ಮಾಡಿ">
 <!ENTITY errorReporting.learnMore "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ...">
@@ -109,5 +105,21 @@ functionality specific to firefox. -->
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc2 "ಸುಧಾರಿತ ಮಾಹಿತಿ: SSL_ERROR_NO_CYPHER_OVERLAP">
 <!ENTITY weakCryptoAdvanced.title "ಸುಧಾರಿತ">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> ಎನ್ನುವುದು ಹಳೆಯದಾದ ಮತ್ತು ಧಾಳಿಗೆ ತುತ್ತಾಗಬಹುದಾದ ಸುರಕ್ಷತಾ ತಂತ್ರಜ್ಞಾನವನ್ನು ಬಳಸುತ್ತದೆ. ನೀವು ಸುರಕ್ಷಿತವಾಗಿ ಎಂದು ಭಾವಿಸುವ ಒಂದು ಮಾಹಿತಿಯನ್ನು ಒಬ್ಬ ಧಾಳಿಕೋರನು ಸುಲಭವಾಗಿ ಕದಿಯಬಹುದಾಗಿದೆ.">
+<!ENTITY weakCryptoAdvanced.override "(ಸುರಕ್ಷಿತವಲ್ಲ) ಹಳೆಯದಾದ ಸುರಕ್ಷತಾ ವ್ಯವಸ್ಥೆಯೊಂದಿಗೆ <span class='hostname'></span> ಅನ್ನು ತೆರೆಯಲು ಪ್ರಯತ್ನಿಸು">
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
 
+<!ENTITY certerror.wrongSystemTime "<p>ಇದಕ್ಕೆ <span id='wrongSystemTime_URL'/> ಸುರಕ್ಷಿತ ಸಂಪರ್ಕ ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ನಿಮ್ಮ ಗಡಿಯಾರ ಸರಿಯಾದ ಸಮಯ ತೋರಿಸುತ್ತಿರುವಂತಿಲ್ಲ.</p> <p>ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್ ನ ಪ್ರಕಾರ ಈಗ <span id='wrongSystemTime_systemDate'/>, ಆದರೆ ಸಮಯ ಇದಾಗಿರಬೇಕಿತ್ತು <span id='wrongSystemTime_actualDate'/>. ಈ ತೊಂದರೆಯನ್ನು ನಿವಾರಿಸಲು, ದಿನಾಂಕ ಮತ್ತು ಸಮಯದ ಸಿದ್ಧತೆಗಳನ್ನು ಸರಿಯಾದ ಸಮಯಕ್ಕೆ ಹೊಂದುವಂತೆ ಬದಲಾಯಿಸಿ.</p>">
 
+<!ENTITY certerror.pagetitle1  "ಅಸುರಕ್ಷಿತ ಸಂಪರ್ಕ">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "ಈ ತಾಣವು &brandShortName; ನೊಂದಿಗೆ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಪರ್ಕಹೊಂದು ಎಂದು ಸೂಚಿಸಲು HTTP ಸ್ಟ್ರಿಕ್ಟ್‌ ಟ್ರಾನ್ಸ್‌ಪೋರ್ಟ್ ಸೆಕ್ಯುರಿಟಿ (HSTS) ಅನ್ನು ಮಾತ್ರ ಬಳಸುತ್ತದೆ. ಈ ಕಾರಣದಿಂದಾಗಿ, ಈ ತಾಣದ ಪ್ರಮಾಣಪತ್ರಕ್ಕೆ ವಿನಾಯಿತಿಯನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.">
+<!ENTITY certerror.copyToClipboard.label "ಪಠ್ಯವನ್ನು ನಕಲುಫಲಕಕ್ಕೆ ಪ್ರತಿಮಾಡು">
+
+<!ENTITY inadequateSecurityError.title "ನಿಮ್ಮ ಸಂಪರ್ಕವು ಸುರಕ್ಷಿತವಾಗಿಲ್ಲ‍">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span>ಹಳತಾದ ಮತ್ತು ಆಕ್ರಮಣಕ್ಕೆ ಸಿಲುಕಬಹುದಾದ ಸುರಕ್ಷತಾ ತಂತ್ರಜ್ಞಾನವನ್ನು ಬಳಸುತ್ತಿದೆ. ಆಕ್ರಮಣಕಾರ ನಿಮಗೆ ಸುರಕ್ಷಿತ ಎನಿಸಬಹುದಾದ ಮಾಹಿತಿಯನ್ನು ಸುಲಭವಾಗಿ ಬಹಿರಂಗಪಡಿಸಬಲ್ಲ. ಜಾಲತಾಣದ ನಿರ್ವಾಹಕ ಈ ಸರ್ವರ್ ಅನ್ನು ನೀವು ಭೇಟಿ ನೀಡುವುದಕ್ಕಿಂತ ಮುಂಚೆ ಸರಿಪಡಿಸಬೇಕಿದೆ.</p><p>ದೋಷದ ಸಂಕೇತ: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "ನಿಮ್ಮ ನೆಟ್‍‍ವರ್ಕ್ ಸುರಕ್ಷತೆ ಸಿದ್ಧತೆಗಳಿಂದಾಗಿ ಇದು ಸಂಭವಿಸುತ್ತಿರಬೇಕು. ನೀವು ಪೂರ್ವನಿಯೋಜಿತ ಸಿದ್ಧತೆಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಬಯಸುವಿರಾ?">
+<!ENTITY prefReset.label "ಪೂರ್ವನಿಯೋಜಿತ ಸಿದ್ಧತೆಗಳನ್ನು ಮರಳಿ ಸ್ಥಾಪಿಸು">

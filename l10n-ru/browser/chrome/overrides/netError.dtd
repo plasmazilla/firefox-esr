@@ -134,8 +134,8 @@
 ">
 <!ENTITY cspBlocked.title "Заблокировано политикой защиты содержимого">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; заблокировал данный способ загрузки этой страницы, так как страница имеет политику защиты содержимого, которая это запрещает.</p>">
-<!ENTITY corruptedContentError.title "Ошибка искажения содержимого">
-<!ENTITY corruptedContentError.longDesc "<p>Страница, которую вы пытаетесь просмотреть, не может быть показана, так как была обнаружена ошибка при передаче данных.</p><ul><li>Пожалуйста, свяжитесь с владельцами веб-сайта и проинформируйте их об этой проблеме.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Ошибка искажения содержимого">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Страница, которую вы пытаетесь просмотреть, не может быть показана, так как была обнаружена ошибка при передаче данных.</p><ul><li>Пожалуйста, свяжитесь с владельцами веб-сайта и проинформируйте их об этой проблеме.</li></ul>">
 <!ENTITY securityOverride.exceptionButtonLabel "Добавить исключение…">
 <!ENTITY errorReporting.automatic2 "Отправка сообщений о подобных ошибках поможет Mozilla обнаружить и заблокировать вредоносные сайты">
 <!ENTITY errorReporting.learnMore "Подробнее…">
@@ -148,6 +148,11 @@
 <!ENTITY weakCryptoAdvanced.title "Дополнительно">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> использует защитную технологию, которая является устаревшей и уязвимой для атаки. Злоумышленник может легко выявить информацию, которая, как вы думали, находится в безопасности.">
 <!ENTITY weakCryptoAdvanced.override "(Не защищено) Попробуйте загрузить <span class='hostname'></span>, используя устаревшую защиту">
+
+<!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
+     please leave them unchanged. -->
+<!ENTITY certerror.wrongSystemTime "<p>Защищённое соединение с <span id='wrongSystemTime_URL'/> не представляется возможным, потому что похоже, что ваши часы показывают неправильное время.</p> <p>Ваш компьютер думает, что сейчас <span id='wrongSystemTime_systemDate'/>, тогда как на самом деле сейчас <span id='wrongSystemTime_actualDate'/>. Чтобы устранить эту проблему, измените ваши настройки даты и времени, чтобы установить правильное время.</p>">
+
 <!ENTITY certerror.pagetitle1 "Незащищённое соединение">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Этот сайт использует HTTP Strict Transport Security (HSTS), чтобы указать, что &brandShortName; должен подключаться к нему только через защищённое соединение. В результате, добавление исключения для этого сертификата невозможно.">
 <!ENTITY certerror.copyToClipboard.label "Копировать текст в буфер обмена">
@@ -156,3 +161,6 @@
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> использует защитную технологию, которая является устаревшей и уязвимой для атаки. Злоумышленник может легко выявить информацию, которая, как вы думали, находится в безопасности. Для того, чтобы вы смогли посетить веб-сайт, администратор веб-сайта должен сначала исправить его сервер.</p><p>Код ошибки: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+
+<!ENTITY prefReset.longDesc "Похоже, что причиной этого могут быть настройки безопасности вашей сети. Вы хотите восстановить настройки по умолчанию?">
+<!ENTITY prefReset.label "Восстановить настройки по умолчанию">

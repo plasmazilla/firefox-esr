@@ -17,16 +17,19 @@
 <!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "No s'ha trobat el servidor">
-<!ENTITY dnsNotFound.longDesc "<ul> <li>Comproveu que no s'hagin introduït errors en teclejar l'adreça, p. ex. <strong>ww</strong>.exemple.com en comptes de <strong>www</strong>.exemple.com</li> <li>Si no podeu carregar cap pàgina, comproveu la connexió de xarxa del vostre ordinador.</li> <li>Si el vostre ordinador o la vostra xarxa estan protegits amb un tallafocs o servidor intermediari, assegureu-vos que el &brandShortName; té permís per accedir al web.</li> </ul>">
+<!ENTITY dnsNotFound.longDesc "<ul> <li>Comproveu que no s'hagin introduït errors en teclejar l'adreça, p. ex. <strong>ww</strong>.example.com en comptes de <strong>www</strong>.example.com</li> <li>Si no podeu carregar cap pàgina, comproveu la connexió de xarxa del vostre ordinador.</li> <li>Si el vostre ordinador o la vostra xarxa estan protegits amb un tallafocs o servidor intermediari, assegureu-vos que el &brandShortName; té permís per accedir al web.</li> </ul>">
 
 <!ENTITY fileNotFound.title "No s'ha trobat el fitxer">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Comproveu que el nom del fitxer estigui ben escrit i que les majúscules i minúscules siguin correctes.</li> <li>Comproveu que el fitxer no s'hagi mogut o se li hagi canviat el nom o s'hagi esborrat.</li> </ul>">
+
+<!ENTITY fileAccessDenied.title "S'ha denegat l'accés al fitxer">
+<!ENTITY fileAccessDenied.longDesc "<ul> <li>Pot ser que s'hagi eliminat, que s'hagi traslladat o que els permisos del fitxer n'impedeixin l'accés.</li> </ul>">
 
 <!ENTITY generic.title "Ups.">
 <!ENTITY generic.longDesc "<p>El &brandShortName; no ha pogut carregar aquesta pàgina per algun motiu.</p>">
 
 <!ENTITY malformedURI.title "L'adreça no és vàlida">
-<!ENTITY malformedURI.longDesc "<ul> <li>Les adreces web normalment s'escriuen així: <strong>http://www.exemple.com/</strong></li> <li>Assegureu-vos que utilitzeu les barres inclinades (<strong>/</strong>).</li> </ul>">
+<!ENTITY malformedURI.longDesc "<ul> <li>Les adreces web normalment s'escriuen així: <strong>http://www.example.com/</strong></li> <li>Assegureu-vos que utilitzeu les barres inclinades (<strong>/</strong>).</li> </ul>">
 
 <!ENTITY netInterrupt.title "La connexió s'ha tallat">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
@@ -72,23 +75,11 @@
 
 <!ENTITY sharedLongDesc "<ul> <li>El lloc web podria estar temporalment no disponible o massa ocupat. Torneu-ho a provar d'aquí uns moments.</li> <li>Si no podeu carregar cap pàgina, comproveu la connexió a la xarxa del vostre ordinador.</li> <li>Si el vostre ordinador o la vostra xarxa estan protegits per un tallafocs o per un servidor intermediari, assegureu-vos que el &brandShortName; tingui permís per accedir al web.</li> </ul>">
 
-<!ENTITY malwareBlocked.title "Aquest lloc pot ser atacant!">
-<!ENTITY malwareBlocked.longDesc "<p>Els llocs atacants instal·len programari que roba informació privada, utilitzen el vostre ordinador per atacar-ne d'altres, o fan malbé el vostre sistema.</p> <p>Els propietaris que creguin que llurs llocs web s'han informat de forma errònia, poden <a href='http://www.stopbadware.org/home/reviewinfo'>demanar que es revisin</a>.</p>">
-
-<!ENTITY unwantedBlocked.title "Aquest lloc pot contenir programari indesitjable!">
-<!ENTITY unwantedBlocked.longDesc "<p>Les pàgines amb programari indesitjable intenten instal·lar programari que pot portar a enganys i afectar el vostre sistema de formes inesperades.</p>">
-
-<!ENTITY phishingBlocked.title "Aquest lloc pot ser una falsificació!">
-<!ENTITY phishingBlocked.longDesc "<p>La informació personal inserida en aquesta pàgina podria ser emprada per cometre frau o suplantació de la vostra identitat.</p> <p>Aquest tipus de falsificacions web s'utilitzen en enganys coneguts com a pesca electrònica (phishing), on es tracta suplantar la identitat de pàgines web i correus electrònics que són de la vostra confiança.</p>">
-
-<!ENTITY forbiddenBlocked.title "Lloc prohibit">
-
-
 <!ENTITY cspBlocked.title "Blocat per la política de seguretat del contingut">
 <!ENTITY cspBlocked.longDesc "<p>El &brandShortName; ha impedit que la pàgina es carregui d'aquesta manera perquè la pàgina té una política de seguretat del contingut que no ho permet.</p>">
 
-<!ENTITY corruptedContentError.title "Error de contingut malmès">
-<!ENTITY corruptedContentError.longDesc "<p>El contingut que intenteu visualitzar no es pot mostrar perquè s'ha detectat un error en la transmissió de dades.</p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Error de contingut malmès">
+
 
 <!ENTITY securityOverride.linkText "O bé, podeu afegir una excepció…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Treu-me d'aquí!">
@@ -103,3 +94,6 @@ functionality specific to thunderbird. -->
 
 <!ENTITY remoteXUL.title "XUL remot">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Poseu-vos en contacte amb els propietaris del lloc web per informar-los del problema.</li></ul></p>">
+
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->

@@ -71,12 +71,12 @@
 
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Výběr velikosti písma">
-<!ENTITY decreaseFontSize.label "Zmenšit">
+<!ENTITY decreaseFontSize.label "Menší">
 <!ENTITY decreaseFontSize.accesskey "n">
 <!ENTITY decrementFontSize.key "&lt;">
 <!ENTITY decrementFontSize.key2 ","> <!-- < is above this key on many keyboards -->
-<!ENTITY increaseFontSize.label "Zvětšit">
-<!ENTITY increaseFontSize.accesskey "v">
+<!ENTITY increaseFontSize.label "Větší">
+<!ENTITY increaseFontSize.accesskey "V">
 <!ENTITY incrementFontSize.key "&gt;">
 <!ENTITY incrementFontSize.key2 "."> <!-- > is above this key on many keyboards -->
 
@@ -88,8 +88,8 @@
 <!ENTITY size-smallCmd.accesskey "l">
 <!ENTITY size-mediumCmd.label "Střední">
 <!ENTITY size-mediumCmd.accesskey "d">
-<!ENTITY size-largeCmd.label "Větší">
-<!ENTITY size-largeCmd.accesskey "t">
+<!ENTITY size-largeCmd.label "Velké">
+<!ENTITY size-largeCmd.accesskey "k">
 <!ENTITY size-extraLargeCmd.label "Extra velké">
 <!ENTITY size-extraLargeCmd.accesskey "x">
 <!ENTITY size-hugeCmd.label "Obrovské">
@@ -285,12 +285,12 @@
 <!-- Toolbar-only items -->
 <!ENTITY menuBar.tooltip "Nabídka">
 <!ENTITY formatToolbar.tooltip "Lišta úprav">
-<!ENTITY cutToolbarCmd.tooltip "Vyjme">
-<!ENTITY copyToolbarCmd.tooltip "Zkopíruje">
-<!ENTITY pasteToolbarCmd.tooltip "Vloží">
+<!ENTITY cutToolbarCmd.tooltip "Vyjmout">
+<!ENTITY copyToolbarCmd.tooltip "Kopírovat">
+<!ENTITY pasteToolbarCmd.tooltip "Vložit">
 <!ENTITY printToolbarCmd.label "Tisknout">
 <!ENTITY printToolbarCmd.tooltip "Vytiskne tuto stránku">
-<!ENTITY findToolbarCmd.label "Hledat">
+<!ENTITY findToolbarCmd.label "Najít">
 <!ENTITY findToolbarCmd.tooltip "Vyhledání textu na stránce">
 <!ENTITY spellToolbarCmd.label "Pravopis">
 <!ENTITY spellToolbarCmd.tooltip "Zkontroluje pravopis v označeném textu nebo na celé stránce">

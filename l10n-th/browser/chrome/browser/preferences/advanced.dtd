@@ -6,24 +6,24 @@
 
 <!ENTITY generalTab.label                "ทั่วไป">
 
-<!ENTITY accessibility.label             "สิ่งอำนวยความสะดวก">
+<!ENTITY accessibility.label             "การช่วยเข้าถึง">
 
 <!ENTITY useCursorNavigation.label       "ใช้ปุ่มลูกศรนำทางภายในหน้าเสมอ">
 <!ENTITY useCursorNavigation.accesskey   "ป">
-<!ENTITY searchStartTyping.label         "ค้นหาข้อความเมื่อเริ่มต้นพิมพ์">
-<!ENTITY searchStartTyping.accesskey     "ข">
+<!ENTITY searchStartTyping.label         "ค้นหาข้อความเมื่อฉันเริ่มพิมพ์">
+<!ENTITY searchStartTyping.accesskey     "ค">
 <!ENTITY blockAutoRefresh.label          "เตือนทุกครั้งเมื่อเว็บไซต์จะทำการเปลี่ยนเส้นทางหรือเรียกหน้าเว็บใหม่">
 <!ENTITY blockAutoRefresh.accesskey      "ว">
 <!ENTITY useOnScreenKeyboard.label       "แสดงแป้นพิมพ์สัมผัสเมื่อต้องการ">
 <!ENTITY useOnScreenKeyboard.accesskey   "ป">
 
-<!ENTITY browsing.label                  "การดูหน้าเว็บ">
+<!ENTITY browsing.label                  "การท่องเว็บ">
 
 <!ENTITY useAutoScroll.label             "ใช้การเลื่อนหน้าอัตโนมัติ">
 <!ENTITY useAutoScroll.accesskey         "อ">
 <!ENTITY useSmoothScrolling.label        "ใช้การเลื่อนหน้าแบบลื่นไหล">
 <!ENTITY useSmoothScrolling.accesskey    "ล">
-<!ENTITY allowHWAccel.label              "ใช้การเร่งความเร็วด้วยฮาร์ดแวร์เมื่อมีให้ใช้">
+<!ENTITY allowHWAccel.label              "ใช้การเร่งความเร็วด้วยฮาร์ดแวร์เมื่อใช้งานได้">
 <!ENTITY allowHWAccel.accesskey          "ร">
 <!ENTITY checkSpelling.label             "ตรวจสอบตัวสะกดขณะพิมพ์">
 <!ENTITY checkSpelling.accesskey         "ส">
@@ -41,7 +41,7 @@
 <!ENTITY telemetryLearnMore.label        "เรียนรู้เพิ่มเติม">
 
 <!ENTITY crashReporterDesc.label         "&brandShortName; ส่งข้อมูลรายงานข้อขัดข้องเพื่อช่วย &vendorShortName; ทำเบราว์เซอร์ของคุณให้เสถียรและปลอดภัยมากขึ้น">
-<!ENTITY enableCrashReporter.label       "เปิดใช้ตัวรายงานข้อขัดข้อง">
+<!ENTITY enableCrashReporter.label       "เปิดใช้งานตัวรายงานข้อขัดข้อง">
 <!ENTITY enableCrashReporter.accesskey   "ต">
 <!ENTITY crashReporterLearnMore.label    "เรียนรู้เพิ่มเติม">
 
@@ -49,7 +49,7 @@
 
 <!ENTITY connection.label                "การเชื่อมต่อ">
 
-<!ENTITY connectionDesc.label            "ตั้งค่าการเชื่อมต่ออินเทอร์เน็ตของ &brandShortName;">
+<!ENTITY connectionDesc.label            "กำหนดค่าวิธีที่ &brandShortName; เชื่อมต่อกับอินเทอร์เน็ต">
 <!ENTITY connectionSettings.label        "ตั้งค่า…">
 <!ENTITY connectionSettings.accesskey    "ต">
 
@@ -83,9 +83,6 @@
 <!ENTITY updateManual.label              "ไม่ต้องตรวจสอบการปรับรุ่น (ไม่แนะนำ: เสี่ยงต่อความปลอดภัยของระบบ)">
 <!ENTITY updateManual.accesskey          "ม">
 
-<!ENTITY updateAutoAddonWarn.label       "เตือนฉันถ้าการปรับรุ่นจะส่งผลกระทบให้เกิดการปิดใช้งานส่วนเสริม">
-<!ENTITY updateAutoAddonWarn.accesskey   "น">
-
 <!ENTITY updateHistory.label             "แสดงประวัติการปรับรุ่น">
 <!ENTITY updateHistory.accesskey         "ป">
 
@@ -98,19 +95,19 @@
 
 <!ENTITY offlineNotify.label             "แจ้งเมื่อเว็บไซต์ต้องการเก็บข้อมูลไว้ใช้ตอนออฟไลน์">
 <!ENTITY offlineNotify.accesskey         "จ">
-<!ENTITY offlineNotifyExceptions.label   "ยกเว้น…">
-<!ENTITY offlineNotifyExceptions.accesskey "ย">
+<!ENTITY offlineNotifyExceptions.label   "ข้อยกเว้น…">
+<!ENTITY offlineNotifyExceptions.accesskey "อ">
 
-<!ENTITY offlineAppsList2.label          "เว็บไซต์เหล่านี้ได้รับอนุญาตให้เก็บข้อมูลไว้ใช้ตอนออฟไลน์:">
+<!ENTITY offlineAppsList2.label          "เว็บไซต์ดังต่อไปนี้ได้รับอนุญาตให้จัดเก็บข้อมูลสำหรับการใช้งานออฟไลน์:">
 <!ENTITY offlineAppsList.height          "7em">
-<!ENTITY offlineAppsListRemove.label     "ลบ…">
-<!ENTITY offlineAppsListRemove.accesskey "ล">
+<!ENTITY offlineAppsListRemove.label     "เอาออก…">
+<!ENTITY offlineAppsListRemove.accesskey "เ">
 <!ENTITY offlineAppRemove.confirm        "เอาข้อมูลออฟไลน์ออก">
 
 <!ENTITY certificateTab.label            "ใบรับรอง">
-<!ENTITY certSelection.label             "การร้องขอ">
-<!ENTITY certSelection.description       "เมื่อเซิร์ฟเวอร์ร้องขอใบรับรองส่วนตัว:">
-<!ENTITY certs.auto                      "เลือกอัตโนมัติ">
+<!ENTITY certSelection.label             "คำร้องขอ">
+<!ENTITY certSelection.description       "เมื่อเซิร์ฟเวอร์ร้องขอใบรับรองส่วนบุคคลของฉัน:">
+<!ENTITY certs.auto                      "เลือกมาหนึ่งโดยอัตโนมัติ">
 <!ENTITY certs.auto.accesskey            "S">
 <!ENTITY certs.ask                       "ถามฉันทุกครั้ง">
 <!ENTITY certs.ask.accesskey             "A">
@@ -118,5 +115,5 @@
 <!ENTITY enableOCSP.accesskey            "ข">
 <!ENTITY viewCerts.label                 "ดูใบรับรอง">
 <!ENTITY viewCerts.accesskey             "ด">
-<!ENTITY viewSecurityDevices.label       "กลไกความปลอดภัย">
-<!ENTITY viewSecurityDevices.accesskey   "ก">
+<!ENTITY viewSecurityDevices.label       "อุปกรณ์ความปลอดภัย">
+<!ENTITY viewSecurityDevices.accesskey   "อ">

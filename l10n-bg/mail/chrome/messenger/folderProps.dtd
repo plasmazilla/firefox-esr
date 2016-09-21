@@ -7,7 +7,7 @@
 <!ENTITY generalInfo.label                       "Основна информация">
 <!ENTITY folderCharsetFallback2.label            "Резервно кодиране на текст:">
 <!ENTITY folderCharsetFallback2.accesskey        "т">
-<!ENTITY folderCharsetEnforce2.label             "Прилагане на стандартното кодиране на текста за всички писма в папката (индивидуалните настройки и автоматичното разпознаване ще се пренебрегват).">
+<!ENTITY folderCharsetEnforce2.label             "Прилагане на стандартното кодиране на текста за всички писма в папката (индивидуалните настройки и автоматичното разпознаване ще се пренебрегват)">
 <!ENTITY folderCharsetEnforce2.accesskey         "П">
 <!ENTITY folderRebuildSummaryFileTip2.label      "Възстановяване индекса на файла резюме">
 <!ENTITY folderRebuildSummaryFile2.label         "Поправка на папка">
@@ -30,8 +30,6 @@
 <!ENTITY retentionKeepAll.accesskey "Н">
 <!ENTITY retentionKeepRecent.label "Изтриване на всички без най-новите">
 <!ENTITY retentionKeepRecent.accesskey "з">
-<!-- LOCALIZATION NOTE: Unhide with .keepUnreadOnly { display: -moz-box; } -->
-<!ENTITY retentionKeepUnreadHidden.label "Винаги се изтриват прочетените съобщения (въпреки другите настройки)">
 <!ENTITY retentionApplyToFlagged.label "Писмата със звезда винаги се запазват">
 <!ENTITY retentionApplyToFlagged.accesskey "е">
 

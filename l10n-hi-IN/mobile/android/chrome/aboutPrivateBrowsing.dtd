@@ -2,12 +2,24 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY privatebrowsingpage.title                  "निजी ब्राउज़िंग">
+<!ENTITY privatebrowsingpage.title "निजी ब्राउज़िंग">
+<!-- Localisation note: the plus sign here is a shorthand way of expressing the word "and". Contextually the privatebrowsingpage.title.private string
+                        is used as a title, with the privatebrowsingpage.title string preceding it but on a separate line.
+                        So the final line will say "Private Browsing + Tracking Protection". -->
 
-<!ENTITY privatebrowsingpage.issueDesc.private      "आपने एक नए निजी टैब खोला है.">
-<!ENTITY privatebrowsingpage.issueDesc.normal       "आप एक निजी टैब में नहीं कर रहे हैं.">
+<!ENTITY privatebrowsingpage.title.private "+ ट्रैकिंग संरक्षण">
+<!-- Localization note (privatebrowsingpage.title.normal1): "Private Browsing"
+     is capitalized in English to be consistent with our existing uses of the
+     term. -->
+<!ENTITY privatebrowsingpage.title.normal1 "आप निजी ब्राउज़िंग में नहीं हैं">
 
-<!ENTITY privatebrowsingpage.description            "किसी निजी टैब में, &brandShortName; किसी ब्राउज़र इतिहास, खोज इतिहास, डाउनलोड इतिहास, खोज इतिहास, डाउनलोड इतिहास, वेब फ़ॉर्म इतिहास, कुकी, या अस्थायी इंटरनेट  फ़ाइलों को नहीं रखेगा.  हालांकि, कोई भी फ़ाइलें जिसे आपने डाउनलोड किया है अथवा पुस्तचिह्न जिसे आपने बनाया है को संरक्षित रखा जाएगा.">
-<!ENTITY privatebrowsingpage.description.private    "&privatebrowsingpage.issueDesc.private; &privatebrowsingpage.description;">
+<!ENTITY privatebrowsingpage.description.trackingProtection "&brandShortName; पृष्ठ के उन हिस्सों को ब्लॉक करता है जो आपके ऑनलाइन गतिविधियों को ट्रैक कर सकते हैं.">
+<!ENTITY privatebrowsingpage.description.privateDetails "हम कोई इतिहास नही याद रखेंगे, परन्तु डाउनलोड की हुई फाइल्स और नए पुस्तकचिन्ह आपके यन्त्र पर सहेजे जाएंगे.">
+<!-- Localization note (privatebrowsingpage.description.normal2): "Private
+     Browsing is capitalized in English to be consistent with our existing uses
+     of the term. -->
 
-<!ENTITY privatebrowsingpage.moreInfo               "जहाँ इस युक्ति में आपके ब्राउज़िंग इतिहास का रिकार्ड नहीं है, आपके इंटरनेट सेवा प्रदाता या आपके नियोक्ता अभी भी उन पृष्ठों की ट्रैक रख सकते हैं जिसे आप देखते हैं.">
+<!ENTITY privatebrowsingpage.description.normal2 "निजी ब्राउजिंग में, हम आपका कोई भी ब्राउज़िंग इतिहास या कूकीज नही रखेंगे. पुस्तचिह्न आप जोड़े और फाइल जो आप डाउनलोड करते है आपके डिवाइस में सहेजा जायेगा.">
+
+<!ENTITY privatebrowsingpage.link.private "अधिक जानना चाहते है?">
+<!ENTITY privatebrowsingpage.link.normal "एक नया निजी टैब खोलें">

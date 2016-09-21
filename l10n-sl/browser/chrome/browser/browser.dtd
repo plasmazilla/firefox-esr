@@ -110,8 +110,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignedIn.tooltip "Odpri nastavitve &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Ponovna povezava s &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Potrdite svoj račun">
-<!ENTITY syncStartPanel2.heading "&syncBrand.shortName.label; omogočen">
-<!ENTITY syncStartPanel2.subTitle "&brandShortName; bo začel s sinhronizacijo.">
 
 
 <!ENTITY fullScreenMinimize.tooltip "Skrči">
@@ -168,8 +166,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY subscribeToPageMenuitem.label "Naroči se na to stran …">
 <!ENTITY addCurPagesCmd.label "Dodaj vse zavihke med zaznamke …">
 <!ENTITY showAllBookmarks2.label "Prikaži vse zaznamke">
-<!ENTITY unsortedBookmarksCmd.label "Nerazvrščeni zaznamki">
+<!ENTITY recentBookmarks.label "Nedavni zaznamki">
+<!ENTITY otherBookmarksCmd.label "Drugi zaznamki">
 <!ENTITY bookmarksToolbarChevron.tooltip "Prikaži več zaznamkov">
+<!ENTITY showRecentlyBookmarked.label     "Prikaži nedavne zaznamke">
+<!ENTITY showRecentlyBookmarked.accesskey "P">
+<!ENTITY hideRecentlyBookmarked.label     "Skrij nedavne zaznamke">
+<!ENTITY hideRecentlyBookmarked.accesskey "S">
 
 <!ENTITY backCmd.label                "Nazaj">
 <!ENTITY backButton.tooltip           "Pojdi na prejšnjo stran">
@@ -196,7 +199,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.indexedDBNotificationAnchor.label       "Poglejte sporočilo aplikacije shrambe brez povezave">
 <!ENTITY urlbar.loginFillNotificationAnchor.label       "Upravljajte svoje prijavne podatke">
 <!ENTITY urlbar.passwordNotificationAnchor.label        "Kliknite, če želite shraniti podatke">
-<!ENTITY urlbar.webappsNotificationAnchor.label         "Poglejte namestitveno sporočilo aplikacije">
 <!ENTITY urlbar.pluginsNotificationAnchor.label         "Upravljajte uporabo vtičnika na tej strani">
 <!ENTITY urlbar.webNotsNotificationAnchor3.label        "Spremenite, ali lahko prejemate obvestila te strani">
 
@@ -224,9 +226,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Zaznamki">
-<!ENTITY bookmarksMenuButton.unsorted.label "Nerazvrščeni zaznamki">
+<!ENTITY bookmarksMenuButton.other.label "Drugi zaznamki">
 <!ENTITY viewBookmarksSidebar2.label        "Prikaži stransko vrstico zaznamkov">
 <!ENTITY viewBookmarksToolbar.label         "Prikaži orodno vrstico zaznamkov">
+
+<!ENTITY containersMenu.label "Vsebniki">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -254,92 +258,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "Spletni razvoj">
 <!ENTITY webDeveloperMenu.accesskey   "S">
 
-<!ENTITY devToolsCmd.keycode          "VK_F12">
-<!ENTITY devToolsCmd.keytext          "F12">
-
-<!ENTITY devtoolsServiceWorkers.label      "Service Workerji">
-<!ENTITY devtoolsServiceWorkers.accesskey  "k">
-
-<!ENTITY devtoolsConnect.label        "Poveži …">
-<!ENTITY devtoolsConnect.accesskey    "e">
-
-<!ENTITY errorConsoleCmd.label        "Konzola napak">
-<!ENTITY errorConsoleCmd.accesskey    "N">
-
-<!ENTITY remoteWebConsoleCmd.label    "Oddaljena spletna konzola">
-
-<!ENTITY browserConsoleCmd.label      "Konzola brskalnika">
-<!ENTITY browserConsoleCmd.commandkey "j">
-<!ENTITY browserConsoleCmd.accesskey  "B">
-
 <!ENTITY inspectContextMenu.label     "Preglej element">
 <!ENTITY inspectContextMenu.accesskey "j">
-
-<!ENTITY responsiveDesignTool.label   "Odziven način">
-<!ENTITY responsiveDesignTool.accesskey "O">
-<!ENTITY responsiveDesignTool.commandkey "M">
-
-<!ENTITY eyedropper.label   "Kapalka">
-<!ENTITY eyedropper.accesskey "K">
-
-<!-- LOCALIZATION NOTE (scratchpad.label): This menu item label appears
-  -  in the Tools menu. See bug 653093.
-  -  The Scratchpad is intended to provide a simple text editor for creating
-  -  and evaluating bits of JavaScript code for the purposes of function
-  -  prototyping, experimentation and convenient scripting.
-  -
-  -  It's quite possible that you won't have a good analogue for the word
-  -  "Scratchpad" in your locale. You should feel free to find a close
-  -  approximation to it or choose a word (or words) that means
-  -  "simple discardable text editor". -->
-<!ENTITY scratchpad.label             "Beležnica">
-<!ENTITY scratchpad.accesskey         "B">
-<!ENTITY scratchpad.keycode           "VK_F4">
-<!ENTITY scratchpad.keytext           "F4">
-
-<!-- LOCALIZATION NOTE (browserToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser toolbox UI in the Tools menu. -->
-<!ENTITY browserToolboxMenu.label     "Razvojna orodja brskalnika">
-<!ENTITY browserToolboxMenu.accesskey "O">
-<!ENTITY browserToolboxCmd.commandkey "i">
-
-<!-- LOCALIZATION NOTE (browserContentToolboxMenu.label): This is the label for the
-  -  application menu item that opens the browser content toolbox UI in the Tools menu.
-  -  This toolbox allows to debug the chrome of the content process in multiprocess builds.  -->
-<!ENTITY browserContentToolboxMenu.label     "Razvojna orodja vsebine brskalnika">
-<!ENTITY browserContentToolboxMenu.accesskey "e">
-
-<!ENTITY devToolbarCloseButton.tooltiptext "Zapri orodno vrstico za razvoj">
-<!ENTITY devToolbarMenu.label              "Orodna vrstica za razvoj">
-<!ENTITY devToolbarMenu.accesskey          "t">
-<!ENTITY webide.label                      "WebIDE">
-<!ENTITY webide.accesskey                  "W">
-<!ENTITY webide.keycode                    "VK_F8">
-<!ENTITY webide.keytext                    "F8">
-<!ENTITY devToolbar.keycode                "VK_F2">
-<!ENTITY devToolbar.keytext                "F2">
-<!ENTITY devToolboxMenuItem.label          "Preklopi orodja">
-<!ENTITY devToolboxMenuItem.accesskey      "P">
-<!ENTITY devToolboxMenuItem.keytext        "I">
-
-<!ENTITY devToolbarToolsButton.tooltip     "Preklopi razvojna orodja">
-<!ENTITY devToolbarOtherToolsButton.label  "Več orodij">
-
-<!ENTITY getMoreDevtoolsCmd.label        "Prenesi več orodij">
-<!ENTITY getMoreDevtoolsCmd.accesskey    "r">
 
 <!ENTITY fileMenu.label         "Datoteka"> 
 <!ENTITY fileMenu.accesskey       "D">
 <!ENTITY newUserContext.label             "Nov vsebnik zavihka">
 <!ENTITY newUserContext.accesskey         "C">
-<!ENTITY userContextPersonal.label        "Osebno">
-<!ENTITY userContextPersonal.accesskey    "P">
-<!ENTITY userContextWork.label            "Služba">
-<!ENTITY userContextWork.accesskey        "S">
-<!ENTITY userContextBanking.label         "Bančništvo">
-<!ENTITY userContextBanking.accesskey     "B">
-<!ENTITY userContextShopping.label        "Nakupovanje">
-<!ENTITY userContextShopping.accesskey    "N">
 <!ENTITY newNavigatorCmd.label        "Novo okno">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -410,7 +335,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHelp.tooltip "Odpri meni Pomoč">
 
 <!ENTITY appMenuRemoteTabs.label "Sinhronizirani zavihki">
-<!ENTITY appMenuRemoteTabs.fetching.label "Pridobivanje sinhroniziranih zavihkov ...">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "Ni odprtih zavhkov">
@@ -420,7 +344,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
-<!ENTITY appMenuRemoteTabs.noclients.label "Prijavite se v Firefox iz drugih naprav in si oglejte njihove zavihke tam.">
+<!ENTITY appMenuRemoteTabs.noclients.title "Ni še sinhroniziranih zavihkov!">
+<!ENTITY appMenuRemoteTabs.noclients.subtitle "Želite tukaj videti zavihke drugih naprav?">
 <!ENTITY appMenuRemoteTabs.openprefs.label "Možnosti sinhronizacije">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Prijavite se za ogled seznama zavihkov drugih naprav.">
 <!ENTITY appMenuRemoteTabs.signin.label "Prijavite se v Sync">
@@ -631,19 +556,23 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "N">
 <!ENTITY mediaUnmute.label           "Glasno">
 <!ENTITY mediaUnmute.accesskey       "n">
-<!ENTITY mediaPlaybackRate.label     "Hitrost predvajanja">
-<!ENTITY mediaPlaybackRate.accesskey "H">
-<!ENTITY mediaPlaybackRate050x.label "Počasen posnetek (0.5×)">
-<!ENTITY mediaPlaybackRate050x.accesskey "S">
-<!ENTITY mediaPlaybackRate100x.label "Običajna hitrost">
-<!ENTITY mediaPlaybackRate100x.accesskey "N">
-<!ENTITY mediaPlaybackRate150x.label "Višja hitrost (1.5×)">
-<!ENTITY mediaPlaybackRate150x.accesskey "H">
-<!-- LOCALIZATION NOTE: "Ludicrous Speed" is a reference to the
+<!ENTITY mediaPlaybackRate2.label     "Hitrost predvajanja">
+<!ENTITY mediaPlaybackRate2.accesskey "r">
+<!ENTITY mediaPlaybackRate050x2.label "Počasno (0,5 ×)">
+<!ENTITY mediaPlaybackRate050x2.accesskey "P">
+<!ENTITY mediaPlaybackRate100x2.label "Običajno">
+<!ENTITY mediaPlaybackRate100x2.accesskey "O">
+<!ENTITY mediaPlaybackRate125x2.label "Hitro (1,25 x)">
+<!ENTITY mediaPlaybackRate125x2.accesskey "H">
+<!ENTITY mediaPlaybackRate150x2.label "Hitreje (1,5 x)">
+<!ENTITY mediaPlaybackRate150x2.accesskey "e">
+<!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
-<!ENTITY mediaPlaybackRate200x.label "Dvojna hitrost (2×)">
-<!ENTITY mediaPlaybackRate200x.accesskey "j">
+<!ENTITY mediaPlaybackRate200x2.label "Komično (2 x)">
+<!ENTITY mediaPlaybackRate200x2.accesskey "K">
+<!ENTITY mediaLoop.label             "Zanka">
+<!ENTITY mediaLoop.accesskey         "Z">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -751,7 +680,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionSecure "Varna povezava">
 <!ENTITY identity.connectionNotSecure "Povezava ni varna">
 <!ENTITY identity.connectionFile "Ta stran je shranjena na vašem računalniku.">
-<!ENTITY identity.connectionVerified1 "Varno ste povezani na to stran, ki jo upravlja:">
+<!ENTITY identity.connectionVerified2 "Varno ste povezani na to stran, ki jo upravlja:">
 <!ENTITY identity.connectionInternal "To je varna stran &brandShortName;a.">
 <!ENTITY identity.insecureLoginForms2 "Prijave, ki jih vnesete na tej strani, so lahko ogrožene.">
 
@@ -795,8 +724,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncTabsMenu3.label     "Sinhronizirani zavihki">
 
 <!ENTITY syncedTabs.sidebar.label              "Sinhronizirani zavihki">
-<!ENTITY syncedTabs.sidebar.fetching.label     "Pridobivanje sinhroniziranih zavihkov …">
 <!ENTITY syncedTabs.sidebar.noclients.label    "Prijavite se v Firefox iz drugih naprav in si oglejte njihove zavihke tukaj.">
+<!ENTITY syncedTabs.sidebar.noclients.title    "Ni še sinhroniziranih zavihkov!">
+<!ENTITY syncedTabs.sidebar.noclients.subtitle "Želite tukaj videti zavihke drugih naprav?">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "Prijavite se za ogled seznama zavihkov drugih naprav.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "Ni odprtih zavihkov">
 <!ENTITY syncedTabs.sidebar.openprefs.label    "Odpri nastavitve &syncBrand.shortName.label;">
@@ -804,10 +734,18 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      when Sync is configured but syncing tabs is disabled. -->
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "Vklopite sinhronizacijo zavihkov za ogled seznama zavihkov drugih naprav.">
 
-<!ENTITY syncedTabs.context.openTab.label                   "Odpri ta zavihek">
-<!ENTITY syncedTabs.context.openTab.accesskey               "O aplikaciji">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.label         "Dodaj zavihek med zaznamke …">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey     "D">
+<!ENTITY syncedTabs.context.open.label                       "Odpri">
+<!ENTITY syncedTabs.context.open.accesskey                   "O">
+<!ENTITY syncedTabs.context.openInNewTab.label               "Odpri v novem zavihku">
+<!ENTITY syncedTabs.context.openInNewTab.accesskey           "z">
+<!ENTITY syncedTabs.context.openInNewWindow.label            "Odpri v novem oknu">
+<!ENTITY syncedTabs.context.openInNewWindow.accesskey        "k">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Odpri v novem zasebnem oknu">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "a">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.label          "Dodaj zavihek med zaznamke …">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "D">
+<!ENTITY syncedTabs.context.copy.label                       "Kopiraj">
+<!ENTITY syncedTabs.context.copy.accesskey                   "K">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">

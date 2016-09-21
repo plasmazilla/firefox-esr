@@ -45,11 +45,11 @@
 <!ENTITY viewMenu_accesskey "V">
 
 <!ENTITY viewMenu_toggleEditor_accesskey "E">
-<!ENTITY viewMenu_zoomin_label "ขยาย">
+<!ENTITY viewMenu_zoomin_label "ขยายเข้า">
 
-<!ENTITY viewMenu_zoomout_label "ย่อ">
+<!ENTITY viewMenu_zoomout_label "ขยายออก">
 
-
+<!ENTITY viewMenu_resetzoom_label "กลับค่าเดิมของการขยาย">
 
 
 
@@ -73,14 +73,14 @@
 <!ENTITY runtimePanel_other "อื่น ๆ">
 
 
-
+<!ENTITY runtimePanel_nousbdevice "ไม่พบอุปกรณ์ของคุณ?">
 
 <!-- Lense -->
 
 <!ENTITY details_valid_header "ถูกต้อง">
 <!ENTITY details_warning_header "คำเตือน">
 
-
+<!ENTITY details_description "คำอธิบาย">
 <!ENTITY details_location "ที่ตั้ง">
 
 
@@ -88,7 +88,7 @@
 <!-- New App -->
 
 
-
+<!ENTITY newAppProjectName "ชื่อโครงการ:">
 <!-- Decks -->
 
 
@@ -111,7 +111,7 @@
 
 
 
-
+<!ENTITY prefs_options_tabsize "ขนาดแท็บ">
 
 
 
@@ -139,6 +139,8 @@
 <!ENTITY device_typeobject "วัตถุ">
 <!ENTITY device_typenone "เลือกชนิด">
 <!-- Device Preferences -->
+
+<!ENTITY devicepreference_title "การตั้งค่าอุปกรณ์">
 
 
 
@@ -168,7 +170,7 @@
 <!-- Logs panel -->
 <!-- Simulator Options -->
 
-
+<!ENTITY simulator_reset "เรียกคืนค่าปริยาย">
 
 
 <!ENTITY simulator_version "รุ่น">

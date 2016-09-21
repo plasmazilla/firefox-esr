@@ -98,8 +98,8 @@
 <!ENTITY  event.menu.view.toolbars.accesskey              "N">
 <!ENTITY  event.menu.view.toolbars.event.label            "Lišta událostí">
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "u">
-<!ENTITY  event.menu.view.toolbars.customize.label        "Vlastní…">
-<!ENTITY  event.menu.view.toolbars.customize.accesskey    "V">
+<!ENTITY  event.menu.view.toolbars.customize.label        "Přizpůsobit…">
+<!ENTITY  event.menu.view.toolbars.customize.accesskey    "z">
 <!ENTITY  event.menu.view.showlink.label                  "Zobrazit související odkazy">
 <!ENTITY  event.menu.view.showlink.accesskey              "s">
 
@@ -131,7 +131,7 @@
 <!ENTITY  event.menu.options.show.time.accesskey              "j">
 <!ENTITY  event.menu.options.show.time.busy.label             "Není volno">
 <!ENTITY  event.menu.options.show.time.busy.accesskey         "e">
-<!ENTITY  event.menu.options.show.time.free.label             "Volný">
+<!ENTITY  event.menu.options.show.time.free.label             "Volno">
 <!ENTITY  event.menu.options.show.time.free.accesskey         "l">
 
 <!ENTITY event.invite.attendees.label                     "Pozvat účastníky…">
@@ -152,7 +152,7 @@
 <!ENTITY  event.toolbar.privacy.label                     "Soukromí">
 
 <!ENTITY  event.toolbar.save.tooltip                      "Uloží a zavře">
-<!ENTITY  event.toolbar.delete.tooltip                    "Smaže">
+<!ENTITY  event.toolbar.delete.tooltip                    "Smazat">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Pozve účastníky">
 <!ENTITY  event.toolbar.attachments.tooltip               "Přidá přílohy">
 <!ENTITY  event.toolbar.privacy.tooltip                   "Změní soukromí">
@@ -198,11 +198,11 @@
 <!ENTITY event.attachments.menubutton.accesskey           "t">
 <!ENTITY event.attachments.url.label                      "Webová stránka…">
 <!ENTITY event.attachments.url.accesskey                  "W">
-<!ENTITY event.attachments.popup.remove.label             "Odstranit" >
+<!ENTITY event.attachments.popup.remove.label             "Odebrat" >
 <!ENTITY event.attachments.popup.remove.accesskey         "d" >
 <!ENTITY event.attachments.popup.open.label               "Otevřít" >
 <!ENTITY event.attachments.popup.open.accesskey           "O" >
-<!ENTITY event.attachments.popup.removeAll.label          "Odstranit vše" >
+<!ENTITY event.attachments.popup.removeAll.label          "Odebrat vše" >
 <!ENTITY event.attachments.popup.removeAll.accesskey      "v" >
 <!ENTITY event.attachments.popup.attachPage.label         "Připojit webovou stránku…" >
 <!ENTITY event.attachments.popup.attachPage.accesskey     "w" >
@@ -256,7 +256,7 @@
 
 <!ENTITY event.recurrence.pattern.monthly.every.label   "Každý" >
 <!ENTITY repeat.units.months.both                       "měsíc" >
-<!ENTITY event.recurrence.monthly.every.label           "každý" >
+<!ENTITY event.recurrence.monthly.every.label           "Každý" >
 <!ENTITY event.recurrence.monthly.first.label           "první">
 <!ENTITY event.recurrence.monthly.second.label          "druhý">
 <!ENTITY event.recurrence.monthly.third.label           "třetí">
@@ -298,7 +298,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "říjen" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "listopad" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "prosinec" >
-<!ENTITY event.recurrence.yearly.every.label                 "každý">
+<!ENTITY event.recurrence.yearly.every.label                 "Každý">
 <!ENTITY event.recurrence.yearly.first.label                 "první">
 <!ENTITY event.recurrence.yearly.second.label                "druhý">
 <!ENTITY event.recurrence.yearly.third.label                 "třetí">
@@ -329,13 +329,13 @@
 
 <!ENTITY event.recurrence.range.label                   "Rozsah opakování">
 <!ENTITY event.recurrence.forever.label                 "Žádné konečné datum" >
-<!ENTITY event.recurrence.repeat.for.label              "Naplánovat na" >
+<!ENTITY event.recurrence.repeat.for.label              "Vytvořit" >
 <!ENTITY event.recurrence.appointments.label            "opakování" >
 <!ENTITY event.repeat.until.label                       "Opakovat do" >
 <!ENTITY event.recurrence.preview.label                 "Náhled">
 
 <!-- Attendees dialog -->
-<!ENTITY invite.title.label                     "Pozvání účastníků">
+<!ENTITY invite.title.label                     "Pozvat účastníky">
 <!ENTITY event.organizer.label                  "Organizátor">
 <!ENTITY event.freebusy.suggest.slot            "Doporučit čas:">
 <!ENTITY event.freebusy.button.next.slot        "Následující místo">
@@ -361,13 +361,13 @@
 <!ENTITY event.timezone.custom.label     "Více časových zón…">
 
 <!-- Read-Only dialog -->
-<!ENTITY read.only.general.label         "Obecný">
+<!ENTITY read.only.general.label         "Obecné">
 <!ENTITY read.only.title.label           "Název:">
 <!ENTITY read.only.event.start.label     "Začátek:">
 <!ENTITY read.only.task.start.label      "Začátek:">
 <!ENTITY read.only.event.end.label       "Konec:">
 <!ENTITY read.only.task.due.label        "Splnit do:">
-<!ENTITY read.only.repeat.label          "Opakování:">
+<!ENTITY read.only.repeat.label          "Opakovat:">
 <!ENTITY read.only.location.label        "Místo:">
 <!ENTITY read.only.category.label        "Kategorie:">
 <!ENTITY read.only.organizer.label       "Organizátor:">

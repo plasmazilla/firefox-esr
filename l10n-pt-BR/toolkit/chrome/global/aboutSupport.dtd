@@ -54,6 +54,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Uso de memória">
+<!ENTITY aboutSupport.appBasicsPerformance "Desempenho">
 
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
 <!ENTITY aboutSupport.appBasicsServiceWorkers "Service Workers registrados">
@@ -68,7 +69,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Abrir no Finder">
+<!ENTITY aboutSupport.showMac.label "Mostrar no Finder">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.showWin.label "Abrir pasta">
@@ -86,6 +87,10 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.lockedPrefsValue "Valor">
 
 <!ENTITY aboutSupport.graphicsTitle "Gráficos">
+
+<!ENTITY aboutSupport.placeDatabaseTitle "Base de dados de lugares">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integridade">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verificar integridade">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "GC incremental">
@@ -106,3 +111,12 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.safeModeTitle "Usar o Modo Seguro">
 <!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar com extensões desativadas…">
+
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Recursos">
+<!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnósticos">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Log de falhas">
+<!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
+<!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Log de decisão">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Proteção contra travamentos desativada">
+<!ENTITY aboutSupport.graphicsWorkaroundsTitle "Soluções alternativas">

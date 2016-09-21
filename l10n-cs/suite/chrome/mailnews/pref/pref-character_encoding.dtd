@@ -4,7 +4,7 @@
 
 <!ENTITY pref.character.encoding2.title  "Znaková sada textu">
 <!ENTITY messageDisplay.caption "Zobrazení zpráv">
-<!ENTITY viewFallbackCharset2.label      "Výchozí znaková sada textu:">
+<!ENTITY viewFallbackCharset2.label      "Výchozí znaková sada:">
 <!ENTITY viewFallbackCharset2.accesskey  "z">
 <!ENTITY viewFallbackCharset.desc        "(Použita pro původní obsah, který neobsahuje definici o své znakové sadě.)">
 

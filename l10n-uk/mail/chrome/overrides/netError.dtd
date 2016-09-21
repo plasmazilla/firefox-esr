@@ -167,8 +167,8 @@
 <!ENTITY cspBlocked.title "Блоковано політикою безпеки вмісту">
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; не дозволив цій сторінці завантажитись цим чином, бо вона має політику безпеки вмісту котра це забороняє.</p>">
 
-<!ENTITY corruptedContentError.title "Пошкоджений вміст">
-<!ENTITY corruptedContentError.longDesc "<p>Вміст, котрий ви намагаєтесь переглянути, не може бути показаний — у передачі даних помічена помилка.</p><ul><li>Будь ласка, повідомте власникам вмісту про цю проблему.</li></ul>">
+<!ENTITY corruptedContentErrorv2.title "Помилка зіпсованого вмісту">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Сторінка, яку ви намагаєтесь переглянути, не може бути показана через те, що в передачі даних виявлено помилку.</p><ul><li>Будь ласка, зв'яжіться з власниками веб-сайту та повідомте їх про цю проблему.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Або ви можете зробити виняток…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Заберіть мене звідси">
@@ -188,3 +188,8 @@ functionality specific to thunderbird. -->
 
 <!ENTITY remoteXUL.title "Віддалений XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Будь ласка, зв’яжіться з власниками сайта та поінформуйте їх про цю проблему.</li></ul></p>">
+
+<!ENTITY inadequateSecurityError.title "Ваше з'єднання незахищене">
+<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
+     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> використовує технологію безпеки, яка є застарілою і вразливою до атак. Нападник може з легкістю розкрити інформацію, яка, на вашу думку, знаходиться в безпеці. Перед тим, як ви зможете відвідати сайт, його адміністратор повинен виправити це на сервері.</p><p>Код помилки: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

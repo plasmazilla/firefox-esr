@@ -32,7 +32,7 @@
 <!ENTITY printSetupCmd.accesskey                        "V">
 <!ENTITY printPreviewContactCmd.label                   "Náhled tisku kontaktu">
 <!ENTITY printPreviewContactCmd.accesskey               "h">
-<!ENTITY printPreviewAddressBook.label                  "Náhled tisku složky">
+<!ENTITY printPreviewAddressBook.label                  "Náhled tisku složky kontaktů">
 <!ENTITY printPreviewAddressBook.accesskey              "l">
 <!ENTITY printContactCmd.label                          "Tisk kontaktu…">
 <!ENTITY printContactCmd.accesskey                      "T">
@@ -90,9 +90,9 @@
 <!ENTITY showAbToolbarCmd.accesskey                     "d">
 <!ENTITY showTaskbarCmd.label                           "Stavový řádek">
 <!ENTITY showTaskbarCmd.accesskey                       "t">
-<!ENTITY customizeToolbar.label                         "Vlastní…">
-<!ENTITY customizeToolbar.accesskey                     "V">
-<!ENTITY layoutMenu.label                               "Rozmístění">
+<!ENTITY customizeToolbar.label                         "Přizpůsobit…">
+<!ENTITY customizeToolbar.accesskey                     "z">
+<!ENTITY layoutMenu.label                               "Rozložení">
 <!ENTITY layoutMenu.accesskey                           "R">
 <!ENTITY showDirectoryPane.label                        "Panel adresáře">
 <!ENTITY showDirectoryPane.accesskey                    "a">
@@ -106,7 +106,7 @@ because displayed names don't have the comma in between. -->
 <!ENTITY firstLastCmd2.accesskey                        "J">
 <!ENTITY lastFirstCmd.label                             "Příjmení, Jméno">
 <!ENTITY lastFirstCmd.accesskey                         "P">
-<!ENTITY displayNameCmd.label                           "Zobrazené jméno">
+<!ENTITY displayNameCmd.label                           "Zobrazované jméno">
 <!ENTITY displayNameCmd.accesskey                       "Z">
 <!ENTITY sortMenu.label                                 "Seřadit podle">
 <!ENTITY sortMenu.accesskey                             "d">
@@ -135,7 +135,7 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newlistButton.accesskey                        "s">
 <!ENTITY editButton2.label                              "Vlastnosti">
 <!ENTITY editButton2.accesskey                          "l">
-<!ENTITY newmsgButton.label                             "Nová zpráva">
+<!ENTITY newmsgButton.label                             "Napsat zprávu">
 <!ENTITY newmsgButton.accesskey                         "N">
 <!ENTITY newIM.label                                    "Zpráva přes IM">
 <!ENTITY newIM.accesskey                                "I">
@@ -153,7 +153,7 @@ because displayed names don't have the comma in between. -->
 <!ENTITY deleteButton2.tooltip                          "Smaže označenou položku">
 
 <!-- Dir Tree header -->
-<!ENTITY dirTreeHeader.label                            "Složky kontaktů">
+<!ENTITY dirTreeHeader.label                            "Kontakty">
 
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label                        "Jméno nebo e-mail">
