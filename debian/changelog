@@ -1,8 +1,21 @@
-firefox (49.0-1) UNRELEASED; urgency=medium
+firefox (49.0-1) unstable; urgency=medium
 
   * New upstream release.
+  * Fixes for mfsa-2016-85, also known as:
+    CVE-2016-2827, CVE-2016-5270, CVE-2016-5271, CVE-2016-5272,
+    CVE-2016-5273, CVE-2016-5276, CVE-2016-5274, CVE-2016-5277,
+    CVE-2016-5275, CVE-2016-5278, CVE-2016-5279, CVE-2016-5280,
+    CVE-2016-5281, CVE-2016-5282, CVE-2016-5283, CVE-2016-5284,
+    CVE-2016-5256, CVE-2016-5257.
 
- -- Mike Hommey <glandium@debian.org>  Wed, 21 Sep 2016 10:19:32 +0900
+  * debian/control*, debian/rules: Compile with GCC 5 on testing/unstable
+    on arm* because of crashes when building with GCC 6. (FTBFS)
+  * debian/control*: Force build against libnss3-dev >= 2:3.26-2~, which fixed
+    its symbols file. Closes: #833719.
+
+  * build/gyp.mozbuild: Disable libyuv assembly on mips64. (FTBFS)
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 21 Sep 2016 10:30:16 +0900
 
 firefox (48.0-2) unstable; urgency=medium
 
