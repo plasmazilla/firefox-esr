@@ -39,7 +39,7 @@ Build-Depends: autotools-dev,
 %if !LESS_SYSTEM_LIBS
                libnspr4-dev (>= 2:4.12~),
                libnss3-dev (>= 2:3.26-2~),
-               libsqlite3-dev (>= 3.12.2),
+               libsqlite3-dev (>= 3.13.0),
                libvpx-dev (>= 1.4.0),
 %endif
                libhunspell-dev (>= 1.2),
