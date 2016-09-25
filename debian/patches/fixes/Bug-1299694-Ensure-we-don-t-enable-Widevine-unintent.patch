@@ -1,0 +1,30 @@
+From: Chris Pearce <cpearce@mozilla.com>
+Date: Mon, 5 Sep 2016 13:54:37 +1200
+Subject: Bug 1299694 - Ensure we don't enable Widevine unintentionally.
+ r?glandium
+
+On FreeBSD the target.kernel etc checks in enable_eme are failing,
+but we're still falling through to |return value|, and so Widevine
+is being enabled. If we remove the |return value| from enable_eme
+we at least make Widevine disabled where it's not supposed to be
+enabled.
+
+MozReview-Commit-ID: D1h0IUidxhv
+---
+ toolkit/moz.configure | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/toolkit/moz.configure b/toolkit/moz.configure
+index 9ac17dd..6499e3c 100644
+--- a/toolkit/moz.configure
++++ b/toolkit/moz.configure
+@@ -354,7 +354,8 @@ def enable_eme(value, target):
+         return value
+     elif value and value.origin != 'default':
+         die('%s is not supported on %s' % (value.format('--enable-eme'), target.alias))
+-    return value
++    # Return the same type of OptionValue (Positive or Negative), with an empty tuple.
++    return value.__class__(())
+ 
+ @depends(enable_eme, fmp4)
+ def eme(value, fmp4):
