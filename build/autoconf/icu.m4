@@ -78,7 +78,9 @@ if test -n "$USE_ICU"; then
     # TODO: the l is actually endian-dependent
     # We could make this set as 'l' or 'b' for little or big, respectively,
     # but we'd need to check in a big-endian version of the file.
-    ICU_DATA_FILE="icudt${version}l.dat"
+    if test -z "$ICU_DATA_FILE"; then
+        ICU_DATA_FILE="icudt${version}l.dat"
+    fi
 
     dnl We won't build ICU data as a separate file when building
     dnl JS standalone so that embedders don't have to deal with it.
