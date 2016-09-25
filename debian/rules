@@ -12,6 +12,7 @@ $(call lazy,LDFLAGS,$$(call dpkg_buildflags,LDFLAGS))
 $(call lazy,DEB_HOST_GNU_TYPE,$$(shell dpkg-architecture -qDEB_HOST_GNU_TYPE))
 $(call lazy,DEB_BUILD_GNU_TYPE,$$(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE))
 $(call lazy,DEB_BUILD_ARCH,$$(shell dpkg-architecture -qDEB_BUILD_ARCH))
+$(call lazy,DEB_BUILD_ARCH_ENDIAN,$$(shell dpkg-architecture -qDEB_BUILD_ARCH_ENDIAN))
 
 PYTHON := python -B
 
@@ -140,7 +141,13 @@ endif
 
 CXXFLAGS = $(CFLAGS)
 
-EXPORTS := CC CXX CFLAGS CXXFLAGS CPPFLAGS LDFLAGS MOZILLA_OFFICIAL
+ifeq ($(DEB_BUILD_ARCH_ENDIAN),little)
+ICU_DATA_FILE = icudt56l.dat
+else
+ICU_DATA_FILE = icudt56b.dat
+endif
+
+EXPORTS := CC CXX CFLAGS CXXFLAGS CPPFLAGS LDFLAGS MOZILLA_OFFICIAL ICU_DATA_FILE
 $(call lazy,CONFIGURE_ENV,$$(foreach export,$(EXPORTS),$$(export)="$$($$(export))"))
 
 IN_FILES := $(wildcard debian/*.in)
@@ -165,7 +172,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX MOZ_EME
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX MOZ_EME ICU_DATA_FILE
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
@@ -220,6 +227,9 @@ stamps/configure-check-$(PRODUCT):: stamps/configure-$(PRODUCT)
 
 stamps/configure-$(PRODUCT):: stamps/prepare-configure debian/$($(PRODUCT)).mozconfig
 	$(if $(wildcard build-$(PRODUCT)),,mkdir build-$(PRODUCT))
+ifeq ($(DEB_BUILD_ARCH_ENDIAN),little)
+	python intl/icu_sources_data.py "$(CURDIR)"
+endif
 	cd build-$(PRODUCT) && \
 	MOZCONFIG=$(CURDIR)/debian/$($(PRODUCT)).mozconfig \
 	ASFLAGS="-g" \
@@ -268,6 +278,10 @@ override_dh_auto_clean::
 	rm -f configure js/src/configure
 	rm -rf stamps l10n
 	debian/rules debian/control TESTDIR=
+
+ifeq ($(DEB_BUILD_ARCH_ENDIAN),little)
+	rm -f config/external/icu/data/$(ICU_DATA_FILE)
+endif
 
 	dh_auto_clean --builddirectory=build-$(PRODUCT)
 	find . -name "*.pyc" -o -name "*.pyo" | xargs --no-run-if-empty rm -f

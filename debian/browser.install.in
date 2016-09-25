@@ -70,7 +70,7 @@ debian/firefox usr/bin
 
 usr/lib/@browser@/browser/chrome.manifest
 
-usr/lib/@browser@/icudt56l.dat
+usr/lib/@browser@/@ICU_DATA_FILE@
 
 %if MOZ_EME
 usr/lib/@browser@/gmp-clearkey/0.1/clearkey.info
