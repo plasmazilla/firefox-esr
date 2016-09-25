@@ -18,3 +18,4 @@ debian-hacks/Add-debian-extra-stuff-to-upstream-build-system-dire.patch
 debian-hacks/Make-upstream-build-system-create-debian-installer-M.patch
 debian-hacks/Work-around-binutils-assertion-on-mips.patch
 debian-hacks/Don-t-build-image-gtests.patch
+debian-hacks/Allow-to-override-ICU_DATA_FILE-from-the-environment.patch
