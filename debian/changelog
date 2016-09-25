@@ -1,3 +1,21 @@
+firefox (49.0-2) unstable; urgency=medium
+
+  * debian/rules, debian/control*: Only force GCC 5 on arm when building for
+    stretch+.
+  * debian/browser.mozconfig.in, debian/browser.install.in, debian/rules:
+    Do not disable EME. Closes: #838478.
+  * debian/rules, debian/browser.install.in: Build and use big-endian ICU data
+    on big-endian architectures. Fixes FTBFS on big-endian architectures.
+
+  * build/autoconf/icu.m4: Allow to override ICU_DATA_FILE from the
+    environment.
+  * js/src/jit/mips-shared/MacroAssembler-mips-shared.cpp: OdinMonkey: MIPS:
+    Fix nop-jump patching code. bz#1277478. Fixes FTBFS on mips*el.
+  * media/libjpeg/moz.build: Fix CPU_ARCH test for libjpeg on mips. Fixes
+    FTBFS on mips.
+
+ -- Mike Hommey <glandium@debian.org>  Sun, 25 Sep 2016 09:47:54 +0900
+
 firefox (49.0-1) unstable; urgency=medium
 
   * New upstream release.
