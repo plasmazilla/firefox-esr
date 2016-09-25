@@ -227,7 +227,7 @@ stamps/configure-check-$(PRODUCT):: stamps/configure-$(PRODUCT)
 
 stamps/configure-$(PRODUCT):: stamps/prepare-configure debian/$($(PRODUCT)).mozconfig
 	$(if $(wildcard build-$(PRODUCT)),,mkdir build-$(PRODUCT))
-ifeq ($(DEB_BUILD_ARCH_ENDIAN),little)
+ifeq ($(DEB_BUILD_ARCH_ENDIAN),big)
 	python intl/icu_sources_data.py "$(CURDIR)"
 endif
 	cd build-$(PRODUCT) && \
@@ -279,7 +279,7 @@ override_dh_auto_clean::
 	rm -rf stamps l10n
 	debian/rules debian/control TESTDIR=
 
-ifeq ($(DEB_BUILD_ARCH_ENDIAN),little)
+ifeq ($(DEB_BUILD_ARCH_ENDIAN),big)
 	rm -f config/external/icu/data/$(ICU_DATA_FILE)
 endif
 
