@@ -1,3 +1,13 @@
+firefox (49.0-3) unstable; urgency=medium
+
+  * debian/browser.desktop.in: Use the full path to the real Firefox
+    executable in the .desktop file. Closes: #832298
+
+  * toolkit/moz.configure: Ensure we don't enable Widevine unintentionally.
+    bz#1299694. Should fix FTBFSes on non-x86/x86-64.
+
+ -- Mike Hommey <glandium@debian.org>  Sun, 25 Sep 2016 17:34:05 +0900
+
 firefox (49.0-2) unstable; urgency=medium
 
   * debian/rules, debian/control*: Only force GCC 5 on arm when building for
