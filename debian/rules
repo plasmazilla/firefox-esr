@@ -52,7 +52,7 @@ endif
 endif
 endif
 
-#GTK3 ?= $(shell grep -q "platform_choices = .'cairo-gtk3'" toolkit/moz.configure && echo 1)
+GTK3 ?= $(shell grep -q "platform_choices = .'cairo-gtk3'" toolkit/moz.configure && echo 1)
 
 ifeq (firefox-esr,$(DEBIAN_SOURCE))
 TRANSITION = 1
