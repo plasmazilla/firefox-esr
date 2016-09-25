@@ -6,6 +6,7 @@ porting/NSS-GNU-kFreeBSD-support.patch
 porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
 porting/Disable-libyuv-assembly-on-mips64.patch
 porting/Bug-1277478-OdinMonkey-MIPS-Fix-nop-jump-patching-co.patch
+porting/Fix-CPU_ARCH-test-for-libjpeg-on-mips.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
