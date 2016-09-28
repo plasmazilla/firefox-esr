@@ -72,7 +72,5 @@ usr/lib/@browser@/browser/chrome.manifest
 
 usr/lib/@browser@/@ICU_DATA_FILE@
 
-%if MOZ_EME
 usr/lib/@browser@/gmp-clearkey/0.1/clearkey.info
 usr/lib/@browser@/gmp-clearkey/0.1/libclearkey.so
-%endif

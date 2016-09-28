@@ -123,7 +123,6 @@ ifeq (,$(filter debug noopt,$(DEB_BUILD_OPTIONS)))
 endif
 ifneq (,$(filter %i386 %amd64,$(DEB_BUILD_ARCH)))
 	MOZ_FFVPX = 1
-	MOZ_EME = 1
 endif
 
 ifeq (default,$(origin CC))
@@ -172,7 +171,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX MOZ_EME ICU_DATA_FILE
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX ICU_DATA_FILE
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
