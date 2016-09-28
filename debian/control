@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
 Build-Depends: autotools-dev,
-               debhelper (>= 7.2.3),
+               debhelper (>= 9),
                gcc-5 [armel armhf arm64],
                g++-5 [armel armhf arm64],
                autoconf2.13,

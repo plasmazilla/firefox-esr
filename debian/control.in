@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
 Build-Depends: autotools-dev,
-               debhelper (>= 7.2.3),
+               debhelper (>= 9),
 %if BACKPORT == wheezy
                gcc-4.7,
                g++-4.7,
