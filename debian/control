@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
 Build-Depends: autotools-dev,
-               debhelper (>= 9),
+               debhelper (>= 9.20160114),
                gcc-5 [armel armhf arm64],
                g++-5 [armel armhf arm64],
                autoconf2.13,
@@ -78,19 +78,6 @@ Description: Mozilla Firefox web browser
  Firefox is a powerful, extensible web browser with support for modern
  web application technologies.
 
-Package: firefox-dbg
-Architecture: any
-Priority: extra
-Section: debug
-Depends: firefox (= ${binary:Version}),
-         libnss3-dbg | libnss3-1d-dbg,
-         libnspr4-dbg | libnspr4-0d-dbg,
-         ${misc:Depends}
-Description: Debugging symbols for Firefox
- Firefox is a powerful, extensible web browser with support for modern
- web application technologies.
- .
- This package contains the debugging symbols for firefox.
 
 Package: firefox-dev
 Section: libdevel

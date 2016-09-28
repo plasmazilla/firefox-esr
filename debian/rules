@@ -371,7 +371,11 @@ CMP_AWK := '$$0 !~ /^\t/ { txt = txt ? txt "\n" $$0 : $$0 } END { if (txt != exp
 override_dh_install: stamps/dh_install
 
 override_dh_strip:
+ifneq (,$(filter wheezy jessie,$(BACKPORT)))
 	dh_strip -a --dbg-package=$($(PRODUCT))-dbg
+else
+	dh_strip --dbgsym-migration='$($(PRODUCT))-dbg (<< 49.0-4~)'
+endif
 
 override_dh_shlibdeps:
 	dh_shlibdeps -a -l$(CURDIR)/debian/tmp$(LIB_DIR)
