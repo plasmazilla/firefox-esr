@@ -124,7 +124,7 @@ endif
 ifneq (,$(filter %i386 %amd64,$(DEB_BUILD_ARCH)))
 	MOZ_FFVPX = 1
 endif
-ifneq (,$(filter i386 amd64 arm%,$(DEB_BUILD_ARCH)))
+ifneq (,$(filter i386 amd64 armel armhf,$(DEB_BUILD_ARCH)))
 	CRASH_REPORTER = 1
 endif
 
