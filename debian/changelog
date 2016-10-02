@@ -1,3 +1,17 @@
+firefox (49.0-4) unstable; urgency=medium
+
+  * debian/rules, dbeian/browser.install.in: Always install GMP clearkey.
+    Should fix FTBFSes on non-x86/x86-64, this time.
+  * debian/browser.js.in: Unset media.gmp-manager.url.override.
+    Closes: #838902.
+  * debian/compat, debian/control*: Bump debhelper compat and dependency to 9.
+  * debian/rules, debian/control*: Generate debug symbols debs when not
+    backporting.
+  * debian/browser.install.in, browser.mozconfig.in, debian/rules: Don't
+    disable the crash reporter.
+
+ -- Mike Hommey <glandium@debian.org>  Sun, 02 Oct 2016 13:28:11 +0900
+
 firefox (49.0-3) unstable; urgency=medium
 
   * debian/browser.desktop.in: Use the full path to the real Firefox
