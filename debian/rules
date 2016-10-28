@@ -368,6 +368,9 @@ stamps/dh_install:: debian/noinstall
 	install -d -m 755 debian/$($(PRODUCT))/usr/share/icons/hicolor/64x64/apps
 	install -m 644 $(call branding_icon,content/icon64.png) \
 		debian/$($(PRODUCT))/usr/share/icons/hicolor/64x64/apps/$($(PRODUCT)).png
+	install -d -m 755 debian/$($(PRODUCT))/usr/share/icons/hicolor/symbolic/apps
+	install -m 644 $(call branding_icon,content/silhouette-40.svg) \
+		debian/$($(PRODUCT))/usr/share/icons/hicolor/symbolic/apps/$($(PRODUCT))-symbolic.svg
 
 CMP_AWK := '$$0 !~ /^\t/ { txt = txt ? txt "\n" $$0 : $$0 } END { if (txt != expected) { print "Expected:\n" expected "\nGot:\n" txt; exit 1 }}'
 
