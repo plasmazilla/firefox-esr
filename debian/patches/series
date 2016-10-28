@@ -1,6 +1,7 @@
 fixes/Allow-.js-preference-files-to-set-locked-prefs-with-.patch
 fixes/Fix-build-error-in-MIPS-SIMD-when-compiling-with-mfp.patch
 fixes/Bug-1299694-Ensure-we-don-t-enable-Widevine-unintent.patch
+fixes/Bug-1303813-Allow-media-plugins-to-call-madvise-with.patch
 porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/NSS-GNU-kFreeBSD-support.patch
