@@ -52,6 +52,9 @@ Build-Depends: autotools-dev,
                mesa-common-dev,
                libpulse-dev,
                yasm (>= 1.1),
+%if RUST
+               rustc (>= 1.5) [amd64 arm64 i386],
+%endif
                zip,
                unzip,
                locales,

@@ -52,6 +52,16 @@ endif
 endif
 endif
 
+# Enable rust on non-release/esr
+ifeq (,$(filter release esr%,$(SHORT_SOURCE_CHANNEL)))
+ifndef BACKPORT
+RUST = 1
+ifneq (,$(filter amd64 arm64 i386,$(DEB_BUILD_ARCH)))
+BUILD_RUST = 1
+endif
+endif
+endif
+
 GTK3 ?= $(shell grep -q "platform_choices = .'cairo-gtk3'" toolkit/moz.configure && echo 1)
 
 ifeq (firefox-esr,$(DEBIAN_SOURCE))
@@ -148,7 +158,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER RUST BUILD_RUST
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
