@@ -103,9 +103,6 @@ endif
 ifneq (,$(filter debug,$(DEB_BUILD_OPTIONS)))
 	CONFIGURE_FLAGS += --enable-debug
 endif
-ifeq (,$(filter debug noopt,$(DEB_BUILD_OPTIONS)))
-	GENSYMBOLS_FLAGS := -c4
-endif
 ifneq (,$(filter %i386 %amd64,$(DEB_BUILD_ARCH)))
 	MOZ_FFVPX = 1
 endif
