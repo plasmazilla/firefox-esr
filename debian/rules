@@ -88,10 +88,6 @@ ifneq (,$(filter noopt,$(DEB_BUILD_OPTIONS)))
 	CONFIGURE_FLAGS += --disable-optimize
 endif
 
-ifeq ($(DEB_BUILD_ARCH),ppc64)
-	CFLAGS += -mminimal-toc
-endif
-
 ifneq (,$(filter kfreebsd-% hurd-%,$(DEB_BUILD_ARCH)))
 	CONFIGURE_FLAGS += --disable-necko-wifi
 endif
