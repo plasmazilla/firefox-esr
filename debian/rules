@@ -72,20 +72,13 @@ $(Product) := $(DISPLAY_NAME)
 LIB_DIR := /usr/lib/$($(PRODUCT))
 SHARE_DIR := /usr/share/$($(PRODUCT))
 
-LDFLAGS :=
-# ld crashes for some files because of --as-needed :(
-ifeq (,$(filter ia64,$(DEB_BUILD_ARCH)))
-LDFLAGS += -Wl,--as-needed
-endif
+LDFLAGS := -Wl,--as-needed
 
 # Reduce memory usage of the linker at the expense of processing time
 # This should help on lower-end architectures like arm and mips, which
 # spend an immense amount of time swapping.
 LDFLAGS += -Wl,--reduce-memory-overheads
-# Somehow, this breaks the build on ia64.
-ifeq (,$(filter ia64,$(DEB_BUILD_ARCH)))
 LDFLAGS += -Wl,--no-keep-memory
-endif
 # Also add execution time and memory usage stats in the logs
 LDFLAGS += -Wl,--stats
 
@@ -105,10 +98,6 @@ endif
 
 ifneq (,$(filter mips,$(DEB_BUILD_ARCH)))
 	CONFIGURE_FLAGS += --disable-ion
-endif
-
-ifneq (,$(filter ia64,$(DEB_BUILD_ARCH)))
-	CONFIGURE_FLAGS += --enable-optimize=-O2
 endif
 
 ifneq (,$(filter debug,$(DEB_BUILD_OPTIONS)))
