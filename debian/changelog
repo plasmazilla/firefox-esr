@@ -1,3 +1,29 @@
+firefox (49.0-5) unstable; urgency=medium
+
+  * debian/rules:
+    - Don't install crashreporter files on arm64, where it's not built. Should
+      fix FTBFS on arm64.
+    - Ship a symbolic icon from the silhouette icon from branding.
+      Closes: #832297.
+    - Remove old workaround for GCC 4.5 on armel.
+    - Remove old workarounds for ia64.
+    - Remove GENSYMBOLS_FLAGS, which hasn't been used for 5 years.
+    - Remove CMP_AWK, which hasn't been used since xulrunner packages were
+      removed.
+    - Remove dh_builddeb override forcing xz compression, which is the default
+      since dpkg 1.15.6.
+    - Remove old workaround for ppc64.
+    - Disable both baseline JIT and ion on mips via prefs.
+  * debian/rules, debian/control: Re-enable Gtk+3 to see how it goes.
+    Closes: #832301.
+
+  * security/sandbox/linux/SandboxFilter.cpp: Allow media plugins to call
+    madvise with MADV_FREE. bz#1303813. Closes: #838911.
+  * js/src/jit/AtomicOperations.h: Fix crashes in AtomicOperations-none on
+    s390x. Should fix FTBFS on s390x.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 29 Oct 2016 19:54:35 +0900
+
 firefox (49.0-4) unstable; urgency=medium
 
   * debian/rules, dbeian/browser.install.in: Always install GMP clearkey.
