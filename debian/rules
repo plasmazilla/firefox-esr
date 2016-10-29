@@ -92,10 +92,6 @@ ifneq (,$(filter kfreebsd-% hurd-%,$(DEB_BUILD_ARCH)))
 	CONFIGURE_FLAGS += --disable-necko-wifi
 endif
 
-ifneq (,$(filter mips,$(DEB_BUILD_ARCH)))
-	CONFIGURE_FLAGS += --disable-ion
-endif
-
 ifneq (,$(filter debug,$(DEB_BUILD_OPTIONS)))
 	CONFIGURE_FLAGS += --enable-debug
 endif
@@ -281,6 +277,9 @@ debian/mozilla-nspr.pc: stamps/build-$(PRODUCT)
 endif
 
 stamps/install-$(PRODUCT):: build-$(PRODUCT)/debian/installer/package-manifest
+ifneq (,$(filter mips,$(DEB_BUILD_ARCH)))
+	sed -i '/"javascript.options.\(baselinejit\|ion\)"/s/true/false/' build-$(PRODUCT)/dist/bin/greprefs.js
+endif
 	dh_auto_install --builddirectory=build-$(PRODUCT) -- installdir=$(LIB_DIR) \
 		MOZ_APP_BASE_VERSION=$(GRE_VERSION) \
 		MOZ_PKG_MANIFEST=$(CURDIR)/$< \
