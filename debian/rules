@@ -354,8 +354,6 @@ stamps/dh_install:: debian/noinstall
 	install -m 644 $(call branding_icon,content/silhouette-40.svg) \
 		debian/$($(PRODUCT))/usr/share/icons/hicolor/symbolic/apps/$($(PRODUCT))-symbolic.svg
 
-CMP_AWK := '$$0 !~ /^\t/ { txt = txt ? txt "\n" $$0 : $$0 } END { if (txt != expected) { print "Expected:\n" expected "\nGot:\n" txt; exit 1 }}'
-
 override_dh_install: stamps/dh_install
 
 override_dh_strip:
