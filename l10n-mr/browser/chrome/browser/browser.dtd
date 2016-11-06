@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "टॅबचे पिन अशक्य करा">
 <!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "टॅब उपकरणाला पाठवा">
+<!ENTITY  sendTabToDevice.accesskey          "D">
+<!ENTITY  sendPageToDevice.label             "पृष्ठ उपकरणाला पाठवा">
+<!ENTITY  sendPageToDevice.accesskey         "D">
+<!ENTITY  sendLinkToDevice.label             "दुवा उपकरणाला पाठवा">
+<!ENTITY  sendLinkToDevice.accesskey         "D">
 <!ENTITY  moveToNewWindow.label              "नवीन पटलाकडे हलवा">
 <!ENTITY  moveToNewWindow.accesskey          "W">
 <!ENTITY  bookmarkAllTabs.label              "सर्व टॅब्जना वाचनखूण लावा…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "सर्व ट्रॅक दाखवा">
 <!ENTITY showAllTabsCmd.accesskey "A">
+<!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "&syncBrand.shortName.label; मध्ये प्रवेश करा">
 <!ENTITY fxaSignedIn.tooltip "&syncBrand.shortName.label; प्राधान्यता उघडा">
@@ -131,10 +138,20 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
+
 <!ENTITY exitDOMFullscreen.button "पूर्ण स्क्रीनमधून बाहेर पडा (Esc)">
 <!ENTITY exitDOMFullscreenMac.button "पूर्ण स्क्रीनमधून बाहेर पडा (esc)">
 <!ENTITY leaveDOMFullScreen.label "पडदाभरपासून बाहेर पडा">
 <!ENTITY leaveDOMFullScreen.accesskey "u">
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "कडे आपल्या पॉईंटरचे नियंत्रण आहे. नियंत्रण परत घेण्यासाठी Esc दाबा.">
+<!ENTITY pointerlockWarning.generic.label "ह्या दस्तऐवजाकडे आपल्या पॉईंटरचे नियंत्रण आहे. नियंत्रण परत घेण्यासाठी Esc दाबा.">
 
 <!ENTITY closeWindow.label "चौकट बंद करा">
 <!ENTITY closeWindow.accesskey "d">
@@ -156,11 +173,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY shareLink.label "ही दुवा शेअर करा">
 <!ENTITY shareLink.accesskey "h">
 <!ENTITY shareImage.label "ही प्रतिमा शेअर करा">
-<!ENTITY shareImage.accesskey "श">
+<!ENTITY shareImage.accesskey "r">
 <!ENTITY shareSelect.label "निवड शेअर करा">
-<!ENTITY shareSelect.accesskey "श">
+<!ENTITY shareSelect.accesskey "r">
 <!ENTITY shareVideo.label "हा व्हिडीओ शेअर करा">
-<!ENTITY shareVideo.accesskey "श">
+<!ENTITY shareVideo.accesskey "r">
 <!ENTITY feedsMenu2.label "ह्या पृष्ठाचे सभासद व्हा">
 <!ENTITY subscribeToPageMenupopup.label "ह्या पृष्ठाचे सभासद व्हा">
 <!ENTITY subscribeToPageMenuitem.label "सेवा स्वीकारण्याकरता ह्या पृष्ठास भेट द्या...">
@@ -230,6 +247,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "वाचनखूणा साधनपट्टी दृष्य">
 <!ENTITY viewBookmarksToolbar.label         "वाचनखूणा साधनपट्टी दृष्य">
 
+<!ENTITY containersMenu.label "धारक">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -262,8 +280,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label         "फाइल"> 
 <!ENTITY fileMenu.accesskey       "F">
-<!ENTITY newUserContext.label             "नवीन Container टॅब">
-<!ENTITY newUserContext.accesskey         "C">
+<!ENTITY newUserContext.label             "नवीन कंटेनर टॅब">
+<!ENTITY newUserContext.accesskey         "b">
 <!ENTITY newNavigatorCmd.label        "नवीन पटल">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -367,7 +385,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.removeFromToolbar.accesskey "R">
 <!ENTITY customizeMenu.removeFromMenu.label "मेन्युतून काढून टाका">
 <!ENTITY customizeMenu.removeFromMenu.accesskey "R">
-<!ENTITY customizeMenu.addMoreItems.label "आणखी घटक समाविष्ट करा (A)…">
+<!ENTITY customizeMenu.addMoreItems.label "आणखी घटक समाविष्ट करा…">
 <!ENTITY customizeMenu.addMoreItems.accesskey "A">
 
 <!ENTITY openCmd.commandkey           "l">
@@ -455,8 +473,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "T">
 <!ENTITY openFrameCmd.label           "चौकटाला नवीन पटलात उघडा">
 <!ENTITY openFrameCmd.accesskey       "W">
-<!ENTITY openLinkCmdInContainerTab.label "दुवा नवीन  Container टॅब मध्ये उघडा">
-<!ENTITY openLinkCmdInContainerTab.accesskey "C">
+<!ENTITY openLinkCmdInContainerTab.label "दुवा नवीन कंटेनर टॅब मध्ये उघडा">
+<!ENTITY openLinkCmdInContainerTab.accesskey "z">
 <!ENTITY showOnlyThisFrameCmd.label     "फक्त ही चौकट दाखवा">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -570,8 +588,8 @@ movie "Space Balls" and is meant to say that this speed is very
 fast. -->
 <!ENTITY mediaPlaybackRate200x2.label "अतिशय जलद (2×)">
 <!ENTITY mediaPlaybackRate200x2.accesskey "L">
-
-
+<!ENTITY mediaLoop.label             "लूप">
+<!ENTITY mediaLoop.accesskey         "L">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -640,7 +658,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY pageStyleMenu.label "पृष्ठ शैली">
 <!ENTITY pageStyleMenu.accesskey "y">
-<!ENTITY pageStyleNoStyle.label "No Style">
+<!ENTITY pageStyleNoStyle.label "शैली नाही">
 <!ENTITY pageStyleNoStyle.accesskey "N">
 <!ENTITY pageStylePersistentOnly.label "मूळ पृष्ठ शैली">
 <!ENTITY pageStylePersistentOnly.accesskey "B">
@@ -709,7 +727,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.learnMore "आणखी शिका">
 
 <!ENTITY identity.removeCertException.label "अपवाद काढा">
-<!ENTITY identity.removeCertException.accesskey "क">
+<!ENTITY identity.removeCertException.accesskey "R">
 
 <!ENTITY identity.moreInfoLinkText2 "अधिक माहिती">
 
@@ -771,12 +789,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "डेस्कटॉप सूचना दाखवा">
 <!ENTITY social.toggleNotifications.accesskey "n">
 
-<!ENTITY social.activated.description "<label/> पासूनच्या सेवा सुरू केले आहेत. <label class='text-link'>ॲड-ऑन व्यवस्थापक</label> मधील सेवांच्या सेटिंग्ज बदलणे शक्य आहे.">
-<!ENTITY social.activated.undo.label "अरेच्छा, पूर्ववत् करा!">
-<!ENTITY social.activated.undo.accesskey "u">
 <!ENTITY social.learnMore.label "आणखी शिका…">
 <!ENTITY social.learnMore.accesskey "L">
-<!ENTITY social.closeNotificationItem.label "आत्ता नाही">
 
 <!ENTITY social.directory.label "सक्रीय केलेल्यांची सूची">
 <!ENTITY social.directory.text "आपण निर्देशिकेमधून Share सेवा सक्रिय करू शकता.">

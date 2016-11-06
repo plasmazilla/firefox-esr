@@ -19,7 +19,13 @@
 <!ENTITY pinTab.label "Закрепить вкладку">
 <!ENTITY pinTab.accesskey "к">
 <!ENTITY unpinTab.label "Открепить вкладку">
-<!ENTITY unpinTab.accesskey "п">
+<!ENTITY unpinTab.accesskey "л">
+<!ENTITY sendTabToDevice.label "Отправить вкладку на устройство">
+<!ENTITY sendTabToDevice.accesskey "й">
+<!ENTITY sendPageToDevice.label "Отправить страницу на устройство">
+<!ENTITY sendPageToDevice.accesskey "й">
+<!ENTITY sendLinkToDevice.label "Отправить ссылку на устройство">
+<!ENTITY sendLinkToDevice.accesskey "й">
 <!ENTITY moveToNewWindow.label "Переместить в новое окно">
 <!ENTITY moveToNewWindow.accesskey "е">
 <!ENTITY bookmarkAllTabs.label "Добавить все вкладки в закладки…">
@@ -74,6 +80,7 @@
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Показать все вкладки">
 <!ENTITY showAllTabsCmd.accesskey "в">
+<!ENTITY toggleReaderMode.key "R">
 <!ENTITY fxaSignIn.label "Войти в Синхронизацию">
 <!ENTITY fxaSignedIn.tooltip "Открыть настройки Синхронизации">
 <!ENTITY fxaSignInError.label "Снова подсоединиться к Синхронизации">
@@ -92,6 +99,9 @@
 <!ENTITY exitDOMFullscreenMac.button "Выйти из полноэкранного режима (esc)">
 <!ENTITY leaveDOMFullScreen.label "Выйти из полноэкранного режима">
 <!ENTITY leaveDOMFullScreen.accesskey "ы">
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "контролирует ваш указатель мыши. Нажмите Esc, чтобы вернуть себе контроль.">
+<!ENTITY pointerlockWarning.generic.label "Этот документ контролирует ваш указатель мыши. Нажмите Esc, чтобы вернуть себе контроль.">
 <!ENTITY closeWindow.label "Закрыть окно">
 <!ENTITY closeWindow.accesskey "а">
 <!ENTITY bookmarksMenu.label "Закладки">
@@ -303,17 +313,17 @@
 <!ENTITY openLinkCmdInTab.label "Открыть ссылку в новой вкладке">
 <!ENTITY openLinkCmdInTab.accesskey "в">
 <!ENTITY openLinkCmd.label "Открыть ссылку в новом окне">
-<!ENTITY openLinkCmd.accesskey "н">
+<!ENTITY openLinkCmd.accesskey "ь">
 <!ENTITY openLinkInPrivateWindowCmd.label "Открыть ссылку в новом приватном окне">
-<!ENTITY openLinkInPrivateWindowCmd.accesskey "ы">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey "п">
 <!ENTITY openLinkCmdInCurrent.label "Открыть ссылку">
 <!ENTITY openLinkCmdInCurrent.accesskey "к">
 <!ENTITY openFrameCmdInTab.label "Открыть фрейм в новой вкладке">
 <!ENTITY openFrameCmdInTab.accesskey "в">
 <!ENTITY openFrameCmd.label "Открыть фрейм в новом окне">
 <!ENTITY openFrameCmd.accesskey "н">
-<!ENTITY openLinkCmdInContainerTab.label "Открыть ссылку в новой вкладке контейнера">
-<!ENTITY openLinkCmdInContainerTab.accesskey "ы">
+<!ENTITY openLinkCmdInContainerTab.label "Открыть ссылку в новой вкладке в контейнере">
+<!ENTITY openLinkCmdInContainerTab.accesskey "е">
 <!ENTITY showOnlyThisFrameCmd.label "Показать только этот фрейм">
 <!ENTITY showOnlyThisFrameCmd.accesskey "П">
 <!ENTITY reloadCmd.commandkey "r">
@@ -555,12 +565,8 @@
 <!ENTITY social.addons.label "Управление службами…">
 <!ENTITY social.toggleNotifications.label "Отображать уведомления на десктопе">
 <!ENTITY social.toggleNotifications.accesskey "а">
-<!ENTITY social.activated.description "Были включены службы от <label/>. Вы можете изменить параметры служб в <label class='text-link'>окне управления дополнениями</label>.">
-<!ENTITY social.activated.undo.label "Ой, отменить это!">
-<!ENTITY social.activated.undo.accesskey "м">
 <!ENTITY social.learnMore.label "Подробнее…">
 <!ENTITY social.learnMore.accesskey "о">
-<!ENTITY social.closeNotificationItem.label "Не сейчас">
 <!ENTITY social.directory.label "Каталог Служб">
 <!ENTITY social.directory.text "Вы можете активировать службы Обмена из этого каталога.">
 <!ENTITY social.directory.button "Перенести меня туда!">

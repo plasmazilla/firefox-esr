@@ -36,10 +36,6 @@
 <!ENTITY warning.updatesecurity.label              "Verificarea securității actualizărilor de suplimente este dezactivată. Ați putea primi actualizări compromise.">
 <!ENTITY warning.updatesecurity.enable.label       "Activează">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Activează verificarea securității actualizărilor suplimentelor">
-<!-- global informations -->
-
-<!ENTITY info.plugincheck.label                 "Verifică dacă pluginurile sunt actualizate">
-<!ENTITY info.plugincheck.tooltip               "Verifică dacă pluginurile sunt actualizate">
 <!-- categories / views -->
 
 <!ENTITY view.search.label                    "Căutare">
@@ -79,8 +75,8 @@
 
 <!ENTITY cmd.showDetails.label                "Arată mai multe informații">
 <!ENTITY cmd.showDetails.accesskey            "A">
-<!ENTITY cmd.findUpdates.label                "Găsește actualizări">
-<!ENTITY cmd.findUpdates.accesskey            "G">
+<!ENTITY cmd.findUpdates.label                "Caută actualizări">
+<!ENTITY cmd.findUpdates.accesskey            "F">
 <!ENTITY cmd.preferencesWin.label             "Opțiuni">
 <!ENTITY cmd.preferencesWin.accesskey         "O">
 <!ENTITY cmd.preferencesUnix.label            "Preferințe">

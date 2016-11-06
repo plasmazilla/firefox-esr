@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "П">
 <!ENTITY  unpinTab.label                     "Відкріпити вкладку">
 <!ENTITY  unpinTab.accesskey                 "В">
+<!ENTITY  sendTabToDevice.label              "Відправити вкладку на пристрій">
+<!ENTITY  sendTabToDevice.accesskey          "т">
+<!ENTITY  sendPageToDevice.label             "Відправити сторінку на пристрій">
+<!ENTITY  sendPageToDevice.accesskey         "с">
+<!ENTITY  sendLinkToDevice.label             "Відправити посилання на пристрій">
+<!ENTITY  sendLinkToDevice.accesskey         "л">
 <!ENTITY  moveToNewWindow.label              "Перенести в нове вікно">
 <!ENTITY  moveToNewWindow.accesskey          "е">
 <!ENTITY  bookmarkAllTabs.label              "Закласти всі вкладки…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Показати всі вкладки">
 <!ENTITY showAllTabsCmd.accesskey "в">
+<!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "Увійти в Синхронізацію">
 <!ENTITY fxaSignedIn.tooltip "Відкрити налаштування Синхронізації">
@@ -128,6 +135,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenWarning.beforeDomain.label "">
 <!ENTITY fullscreenWarning.afterDomain.label "тепер у повноекранному режимі">
 <!ENTITY fullscreenWarning.generic.label "Цей документ тепер у повноекранному режимі">
+
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
@@ -135,6 +143,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button "Вийти з повноекранного режиму (esc)">
 <!ENTITY leaveDOMFullScreen.label "Вийти з повноекранного режиму">
 <!ENTITY leaveDOMFullScreen.accesskey "В">
+
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "отримав контроль над вашим вказівником. Натисніть Esc для повернення контролю.">
+<!ENTITY pointerlockWarning.generic.label "Цей документ отримав контроль над вашим вказівником. Натисніть Esc для повернення контролю.">
 
 <!ENTITY closeWindow.label "Закрити вікно">
 <!ENTITY closeWindow.accesskey "а">
@@ -685,7 +702,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.insecureLoginForms2 "Логіни введені на цій сторінці можуть бути скомпрометовані.">
 
 <!-- Strings for connection state warnings. -->
-<!ENTITY identity.activeBlocked "&brandShortName; заблокував незахищечні частини цієї сторінки.">
+<!ENTITY identity.activeBlocked "&brandShortName; заблокував небезпечні частини цієї сторінки.">
 <!ENTITY identity.passiveLoaded "Частини цієї сторінки (такі як зображення) незахищені.">
 <!ENTITY identity.activeLoaded "Ви вимкнули захист на цій сторінці.">
 <!ENTITY identity.weakEncryption "Ця сторінка використовує слабке шифрування.">
@@ -695,7 +712,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.insecureLoginForms "Інформація входу, яку ви вводите на цій сторінці не захищена і може бути скомпрометована.">
 <!ENTITY identity.description.weakCipher "Ваше з'єднання з цим веб-сайтом використовує слабке шифрування і не є приватним.">
 <!ENTITY identity.description.weakCipher2 "Інші люди можуть переглядати вашу інформацію чи змінювати поведінку веб-сайту.">
-<!ENTITY identity.description.activeBlocked "&brandShortName; заблокував незахищечні частини цієї сторінки.">
+<!ENTITY identity.description.activeBlocked "&brandShortName; заблокував небезпечні частини цієї сторінки.">
 <!ENTITY identity.description.passiveLoaded "Ваше з'єднання не є приватним й інформація, якою ви ділитесь з сайтом може бути переглянута іншими.">
 <!ENTITY identity.description.passiveLoaded2 "Цей веб-сайт має вміст, який не є безпечним (наприклад, зображення).">
 <!ENTITY identity.description.passiveLoaded3 "Хоча &brandShortName; заблокував деякий вміст, все ж на сторінці ще залишається вміст, який не є безпечним (наприклад, зображення).">
@@ -771,12 +788,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "Показувати сповіщення на робочому столі">
 <!ENTITY social.toggleNotifications.accesskey "с">
 
-<!ENTITY social.activated.description "Було увімкнено служби від <label/>. Ви можете змінити ваші налаштування служб у <label class='text-link'>Керівнику додатків</label>.">
-<!ENTITY social.activated.undo.label "Ой, відмінити це!">
-<!ENTITY social.activated.undo.accesskey "О">
 <!ENTITY social.learnMore.label "Подробиці…">
 <!ENTITY social.learnMore.accesskey "П">
-<!ENTITY social.closeNotificationItem.label "Не зараз">
 
 <!ENTITY social.directory.label "Каталог активації">
 <!ENTITY social.directory.text "Ви можете активувати засоби поширення з каталогу.">

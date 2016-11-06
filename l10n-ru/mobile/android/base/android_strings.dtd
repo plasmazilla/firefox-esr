@@ -32,8 +32,8 @@
 <!ENTITY onboard_start_restricted1 "Будьте в безопасности и установите свой контроль с этой упрощённой версией &brandShortName;.">
 <!ENTITY bookmarks_title "Закладки">
 <!ENTITY history_title "История">
-<!ENTITY recent_tabs_title "Последние вкладки">
 <!ENTITY switch_to_tab "Перейти на вкладку">
+<!ENTITY tab_offline_version "Показ автономной версии">
 <!ENTITY crash_reporter_title "Сообщение о падении &brandShortName;">
 <!ENTITY crash_message2 "&brandShortName; столкнулся с проблемой и упал. После перезапуска список ваших вкладок будет показан на начальной странице &brandShortName;.">
 <!ENTITY crash_send_report_message3 "Сообщить в &vendorShortName; об этом падении, чтобы они смогли это исправить">
@@ -133,7 +133,7 @@
 <!ENTITY pref_home_updates_wifi "Только через Wi-Fi">
 <!ENTITY pref_category_home_homepage "Домашняя страница">
 <!ENTITY home_homepage_title "Установка домашней страницы">
-<!ENTITY home_homepage_radio_default "Стартовая страница &brandShortName;">
+<!ENTITY home_homepage_radio_default "Домашняя страница &brandShortName;">
 <!ENTITY home_homepage_radio_user_address "Другая">
 <!ENTITY home_homepage_hint_user_address "Введите адрес или поисковый запрос">
 <!ENTITY pref_header_general "Основные">
@@ -166,6 +166,11 @@
 <!ENTITY pref_tracking_protection_disabled "Отключено">
 <!ENTITY pref_whats_new_notification "Что нового в &brandShortName;">
 <!ENTITY pref_whats_new_notification_summary "Узнавать о новых возможностях после обновления">
+<!ENTITY pref_category_experimental "Экспериментальные возможности">
+<!ENTITY pref_custom_tabs "Настраиваемые вкладки">
+<!ENTITY pref_custom_tabs_summary "Разрешить сторонним приложениям открывать вкладки с настроенным интерфейсом.">
+<!ENTITY pref_activity_stream "Лента активности">
+<!ENTITY pref_activity_stream_summary "Наглядная история действий и переосмысленная домашняя страница делают поиск в &brandShortName; именно того, что вы ищете, проще, чем когда-либо прежде.">
 <!ENTITY tracking_protection_prompt_title "Теперь с Защитой от отслеживания">
 <!ENTITY tracking_protection_prompt_text "Активно блокируйте элементы отслеживания, чтобы не беспокоиться о слежке.">
 <!ENTITY tracking_protection_prompt_tip_text "Чтобы узнать больше, посетите параметры Приватности">
@@ -238,6 +243,7 @@
 <!ENTITY pref_private_data_downloadFiles2 "Загрузки">
 <!ENTITY pref_private_data_syncedTabs "Облачные вкладки">
 <!ENTITY pref_default_browser "Сделать браузером по умолчанию">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Посетить Поддержку Mozilla">
 <!ENTITY pref_about_firefox "О &brandShortName;">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "Отправить отзыв">
@@ -355,7 +361,7 @@
 <!ENTITY button_copy "Копировать">
 <!ENTITY home_top_sites_title "Топ сайтов">
 <!ENTITY home_top_sites_add "Добавить сайт">
-<!ENTITY home_title "Стартовая страница &brandShortName;">
+<!ENTITY home_title "Домашняя страница &brandShortName;">
 <!ENTITY home_history_title "История">
 <!ENTITY home_synced_devices_smartfolder "Облачные устройства">
 <!ENTITY home_synced_devices_number "&formatD; устройств(а)">
@@ -364,10 +370,11 @@
 <!ENTITY home_clear_history_button "Удалить историю веб-сёрфинга">
 <!ENTITY home_clear_history_confirm "Вы уверены, что хотите удалить свою историю?">
 <!ENTITY home_bookmarks_empty "Сохраняемые вами закладки появятся здесь.">
-<!ENTITY home_closed_tabs_title "Недавно закрытые вкладки">
-<!ENTITY home_last_tabs_title "Вкладки с прошлого раза">
+<!ENTITY home_closed_tabs_title2 "Недавно закрытые">
 <!ENTITY home_last_tabs_empty "Ваши недавние вкладки появятся здесь.">
-<!ENTITY home_open_all "Открыть все">
+<!ENTITY home_restore_all "Восстановить все">
+<!ENTITY home_closed_tabs_number "&formatD; вкладок">
+<!ENTITY home_closed_tabs_one "1 вкладка">
 <!ENTITY home_most_recent_empty "Недавно посещённые вами веб-сайты появятся здесь.">
 <!ENTITY home_most_recent_emptyhint2 "Псс: при использовании &formatS1;Новой приватной вкладки&formatS2; ваша история сохраняться не будет.">
 <!ENTITY home_default_empty "Для этой панели не удалось найти содержимого.">
@@ -376,7 +383,7 @@
 <!ENTITY home_remote_tabs_hidden_devices_title "Скрытые устройства">
 <!ENTITY home_remote_tabs_unhide_selected_devices "Показать выбранные скрытые устройства">
 <!ENTITY remote_tabs_panel_moved_title "Куда делись мои вкладки?">
-<!ENTITY remote_tabs_panel_moved_desc "Мы переместили вкладки с других устройств на панель на вашей стартовой странице, которая легко доступна при каждом открытии вами новой вкладки.">
+<!ENTITY remote_tabs_panel_moved_desc "Мы переместили вкладки с других устройств на панель на вашей домашней странице, которая легко доступна при каждом открытии вами новой вкладки.">
 <!ENTITY remote_tabs_panel_moved_link "Перенести меня на мою новую панель.">
 <!ENTITY pin_site_dialog_hint "Введите поисковый запрос">
 <!ENTITY filepicker_title "Выбрать файл">
@@ -386,7 +393,6 @@
 <!ENTITY identity_connected_to "Вы соединены с">
 <!ENTITY identity_connection_secure "Защищённое соединение">
 <!ENTITY identity_connection_insecure "Незащищённое соединение">
-<!ENTITY identity_login_insecure "Эта страница не защищена и ваш логин может быть скомпрометирован.">
 <!ENTITY identity_connection_chromeui "Это защищённая страница &brandShortName;">
 <!ENTITY mixed_content_blocked_all1 "&brandShortName; заблокировал небезопасное содержимое на этой странице.">
 <!ENTITY mixed_content_blocked_some1 "&brandShortName; заблокировал некоторое небезопасное содержимое на этой странице.">

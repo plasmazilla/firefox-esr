@@ -34,7 +34,7 @@
 <!ENTITY  font.langGroup.other                    "Otros sistemas de escritura">
 <!ENTITY  font.langGroup.thai                     "Tailandés">
 <!ENTITY  font.langGroup.hebrew                   "Hebreo">
-<!ENTITY  font.langGroup.arabic                   "Árabe">
+<!ENTITY  font.langGroup.arabic                   "Arábico">
 <!ENTITY  font.langGroup.devanagari               "Devanagarí">
 <!ENTITY  font.langGroup.tamil                    "Tamil">
 <!ENTITY  font.langGroup.armenian                 "Armenio">
@@ -47,7 +47,7 @@
 <!ENTITY  font.langGroup.khmer                    "Camboyano">
 <!ENTITY  font.langGroup.malayalam                "Malayo">
 <!ENTITY  font.langGroup.math                     "Matemático">
-<!ENTITY  font.langGroup.oriya                    "Oriya">
+<!ENTITY  font.langGroup.odia                     "Oriya">
 <!ENTITY  font.langGroup.telugu                   "Telugú">
 <!ENTITY  font.langGroup.kannada                  "Canarés">
 <!ENTITY  font.langGroup.sinhala                  "Cingalés">

@@ -50,9 +50,9 @@
 
 <!ENTITY cmd.open.label                  "Отваряне">
 <!ENTITY cmd.open.accesskey              "О">
-<!ENTITY cmd.open_window.label           "Отваряне в нов прозорец">
+<!ENTITY cmd.open_window.label           "Отваряне в прозорец">
 <!ENTITY cmd.open_window.accesskey       "п">
-<!ENTITY cmd.open_private_window.label     "Отваряне в нов поверителен прозорец">
+<!ENTITY cmd.open_private_window.label     "Отваряне в поверителен прозорец">
 <!ENTITY cmd.open_private_window.accesskey "п">
 <!ENTITY cmd.open_tab.label              "Отваряне в раздел">
 <!ENTITY cmd.open_tab.accesskey          "д">
@@ -106,7 +106,7 @@
 <!ENTITY detailsPane.more.accesskey "в">
 <!ENTITY detailsPane.less.label "По-малко">
 <!ENTITY detailsPane.less.accesskey "м">
-<!ENTITY detailsPane.selectAnItemText.description "Маркирайте елемент, за да го разгледате и редактирате">
+<!ENTITY detailsPane.selectAnItemText.description "Изберете елемент, който да разгледате и редактирате">
 
 <!ENTITY find.label               "Търсене:">
 <!ENTITY find.accesskey           "Т">

@@ -5,7 +5,7 @@
 <!ENTITY  fontsDialog.title                       "แบบอักษร">
 
 <!ENTITY  language.label                          "แบบอักษรสำหรับ:">
-<!ENTITY  language.accesskey                      "F">
+<!ENTITY  language.accesskey                      "แ">
 
 <!ENTITY  size.label                              "ขนาด:">
 <!ENTITY  sizeProportional.accesskey              "z">
@@ -20,9 +20,9 @@
 <!ENTITY  sans-serif.accesskey                    "ม">
 <!ENTITY  monospace.label                         "ความกว้างคงที่:">
 <!ENTITY  monospace.accesskey                     "ค">
+
 <!-- LOCALIZATION NOTE (font.langGroup.latin) :
      Translate "Latin" as the name of Latin (Roman) script, not as the name of the Latin language. -->
-
 <!ENTITY  font.langGroup.latin                    "ละติน">
 <!ENTITY  font.langGroup.japanese                 "ญี่ปุ่น">
 <!ENTITY  font.langGroup.trad-chinese             "จีนตัวเต็ม (ไต้หวัน)">
@@ -47,7 +47,7 @@
 <!ENTITY  font.langGroup.khmer                    "เขมร">
 <!ENTITY  font.langGroup.malayalam                "มะละยาลัม">
 <!ENTITY  font.langGroup.math                     "คณิตศาสตร์">
-<!ENTITY  font.langGroup.oriya                    "โอริยา">
+<!ENTITY  font.langGroup.odia                     "โอริยา">
 <!ENTITY  font.langGroup.telugu                   "เตลูกู">
 <!ENTITY  font.langGroup.kannada                  "กัณณาท">
 <!ENTITY  font.langGroup.sinhala                  "สิงหล">
@@ -56,8 +56,8 @@
 <!ENTITY minSize.label                            "ขนาดอักษรต่ำสุด:">
 <!ENTITY minSize.accesskey                        "ก">
 <!ENTITY minSize.none                             "ไม่มี">
-<!-- default font type -->
 
+<!-- default font type -->
 <!ENTITY  useDefaultFontSerif.label               "มีเชิง">
 <!ENTITY  useDefaultFontSansSerif.label           "ไม่มีเชิง">
 
@@ -66,7 +66,7 @@
 
 <!ENTITY languages.customize.Fallback2.grouplabel "รหัสอักขระสำหรับเนื้อหาเก่า">
 <!ENTITY languages.customize.Fallback2.label      "รหัสอักขระตัวทางเลือก:">
-<!ENTITY languages.customize.Fallback2.accesskey  "T">
+<!ENTITY languages.customize.Fallback2.accesskey  "ร">
 <!ENTITY languages.customize.Fallback2.desc       "รหัสอักขระนี้ถูกใช้สำหรับเนื้อหาเก่าที่ขัดข้องจากการกำหนดอักขระ">
 
 <!ENTITY languages.customize.Fallback.auto        "ค่าปริยายสำหรับภาษาถิ่นปัจจุบัน">

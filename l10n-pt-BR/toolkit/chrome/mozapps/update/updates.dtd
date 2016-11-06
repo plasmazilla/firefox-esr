@@ -6,10 +6,6 @@
 <!ENTITY  checking.title                  "Verificando atualizações">
 <!ENTITY  updateCheck.label               "Localizando novas versões do &brandShortName;…">
 
-<!ENTITY  pluginupdatesfound.title        "Encontradas atualizações de plugins">
-<!ENTITY  pluginupdatesfound.label        "Foram encontradas novas versões de um ou mais de seus plugins.">
-<!ENTITY  pluginupdateslink.label         "Veja como atualizar seus plugins.">
-
 <!ENTITY  noupdatesfound.title            "Nenhuma atualização encontrada">
 <!ENTITY  noupdatesautoenabled.intro      "Não há atualizações disponíveis. O &brandShortName; verificará 
 periodicamente a disponibilidade de novas versões.">
@@ -29,7 +25,7 @@ não tem espaço disponível para a instalar.">
 <!ENTITY  unsupported.label               "O &brandShortName; está desatualizado mas o seu sistema operacional 
 não possui suporte à versão mais recente. Atualize o seu sistema e tente novamente. 
 Este aviso não será mostrado de novo, mas você pode">
-<!ENTITY  unsupportedLink.label           "obter mais informações.">
+<!ENTITY  unsupportedLink.label           "saber mais.">
 
 <!ENTITY  clickHere.label                 "Mais informações sobre esta atualização">
 

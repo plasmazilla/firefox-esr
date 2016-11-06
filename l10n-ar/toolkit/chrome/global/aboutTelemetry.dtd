@@ -7,14 +7,18 @@
 <!ENTITY aboutTelemetry.changeDataChoices "  غيّر">
 
 
+<!ENTITY aboutTelemetry.uploadDisabled "  رفع بيانات FHR <span>معطّل</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "  تسجيل القياس عن بعد الموسع <span>مفعل</span>.">
+
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "  تسجيل القياس عن بعد الموسع <span>معطل</span>.">
 
 
 
 
 
 
-
-
+<!ENTITY aboutTelemetry.raw "JSON خام">
 
 
 
@@ -35,6 +39,7 @@
 <!ENTITY aboutTelemetry.chromeHangsSection "  تعليقات المتصفح">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  تعليقات الخيوط">
+
 
 <!ENTITY aboutTelemetry.histogramsSection "  رسوم بيانية">
 

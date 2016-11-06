@@ -8,8 +8,8 @@
 # The button when displayed is located directly under the Firefox version in
 # the about dialog (see bug 596813 for screenshots).
 -->
-<!ENTITY update.checkForUpdatesButton.label       "Procurar atualizações">
-<!ENTITY update.checkForUpdatesButton.accesskey   "V">
+<!ENTITY update.checkForUpdatesButton.label       "Checar se há atualizações">
+<!ENTITY update.checkForUpdatesButton.accesskey   "C">
 <!ENTITY update.updateButton.label2                "Reiniciar o &brandShortName; para atualizar">
 <!ENTITY update.updateButton.accesskey            "R">
 <!ENTITY update.applyButtonBillboard.label        "Aplicar atualização…">
@@ -46,7 +46,7 @@
 <!ENTITY helpus.getInvolvedLink     "envolva-se!">
 <!ENTITY helpus.end                 "">
 
-<!ENTITY releaseNotes.link          "O que há de novo">
+<!ENTITY releaseNotes.link          "Novidades">
 
 <!-- LOCALIZATION NOTE (bottomLinks.license): This is a link title that links to about:license. -->
 <!ENTITY bottomLinks.license        "Informações de licenciamento">
@@ -65,6 +65,7 @@
 <!ENTITY update.adminDisabled       "Atualizações desativadas pelo administrador do sistema">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
 <!ENTITY update.otherInstanceHandlingUpdates "O &brandShortName; está sendo atualizado por outra instância">
+<!ENTITY update.restarting          "Reiniciando…">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
@@ -89,7 +90,7 @@
      why the system is no longer supported. As this is all in one line, try to
      make the localized text short (see bug 843497 for screenshots). -->
 <!ENTITY update.unsupported.start    "Não é possível efetuar mais atualizações neste sistema. ">
-<!ENTITY update.unsupported.linkText "Saiba mais">
+<!ENTITY update.unsupported.linkText "Saber mais">
 <!ENTITY update.unsupported.end      "">
 
 <!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 

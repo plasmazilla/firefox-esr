@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  pageInfoWindow.width  "600">
-<!ENTITY  pageInfoWindow.height "500">
+
 
 <!ENTITY  copy.key              "C">
 <!ENTITY  copy.label            "Natto">
@@ -22,7 +22,7 @@
 <!ENTITY  generalReferrer       "URL Ruttorde:">
 <!ENTITY  generalSource         "Iwdi Kaasol:">
 <!ENTITY  generalModified       "Baylaaɗo:">
-<!ENTITY  generalEncoding       "Dokkitol:">
+
 <!ENTITY  generalMetaName       "Innde">
 <!ENTITY  generalMetaContent    "Loowdi">
 
@@ -83,3 +83,5 @@
 <!ENTITY  securityView.privacy.viewPasswords.accessKey  "w">
 
 <!ENTITY  securityView.technical.header                 "Cariiɗo Karallaagal">
+
+<!ENTITY  helpButton.label                              "Ballal">

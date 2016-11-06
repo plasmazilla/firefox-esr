@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Stillingar…">
 <!ENTITY  clearOnCloseSettings.accesskey "t">
+
+<!ENTITY  browserContainersHeader.label         "Innihalds flipar">
+<!ENTITY  browserContainersLearnMore.label      "Fræðast meira">
+<!ENTITY  browserContainersEnabled.label        "Virkja innihalds flipa">
+<!ENTITY  browserContainersEnabled.accesskey    "n">

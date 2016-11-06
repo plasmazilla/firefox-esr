@@ -12,8 +12,8 @@
 
 <!ENTITY file.close.label               "Fechar">
 <!ENTITY file.close.accesskey           "F">
-<!ENTITY cmd.close.key                  "W">
-<!ENTITY views.label                    "Exibir">
+<!ENTITY cmd.close.key                  "w">
+<!ENTITY views.label                    "Visualizações">
 <!ENTITY views.accesskey                "x">
 <!ENTITY views.tooltip                  "Alterar o modo de exibição">
 <!ENTITY view.columns.label             "Colunas">

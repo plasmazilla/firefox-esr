@@ -19,7 +19,7 @@
 
 <!ENTITY warningDesc.version        "&brandShortName; eksperimentaldır və qərarsız ola bilər.">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
-<!ENTITY warningDesc.telemetryDesc  "Daha yaxşı bir &brandShortName; üçün, performans, təchizat, istifadə və şəxsiləşdirmə haqqında məlumatlar avtomatik olaraq &vendorShortName;ya göndərilir.">
+<!ENTITY warningDesc.telemetryDesc  "Daha yaxşı bir &brandShortName; üçün, performans, avadanlıq, istifadə və şəxsiləşdirmə haqqında məlumatlar avtomatik olaraq &vendorShortName;ya göndərilir.">
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 
 <!ENTITY community.exp.start        "Mozilla Azerbaijan Community tərəfindən Azərbaycan dilinin internetdə yayılması üçün pulsuz hazırlanıb.">
@@ -65,6 +65,7 @@
 <!ENTITY update.adminDisabled       "Yeniləmələr sistem idarəçiniz tərəfindən söndürülmüşdür">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
 <!ENTITY update.otherInstanceHandlingUpdates "&brandShortName; başqa nümunədən yenilənir">
+<!ENTITY update.restarting          "Yenidən başladılır…">
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
      one line with linkText being wrapped in an anchor that links to a site to download

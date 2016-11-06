@@ -52,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  İş Parçacığı Takılmaları">
 
+<!ENTITY aboutTelemetry.scalarsSection "  Değişkenler">
+
 <!ENTITY aboutTelemetry.histogramsSection "   Histogramlar ">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Anahtarlı Histogramlar">

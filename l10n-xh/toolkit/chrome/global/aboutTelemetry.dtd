@@ -20,6 +20,7 @@
 
 <!ENTITY aboutTelemetry.showArchivedPingData "Inkcukacha ye-ping elondoloziweyo">
 
+<!ENTITY aboutTelemetry.pingDataDisplay "Umboniso wedatha yeping:">
 
 <!ENTITY aboutTelemetry.structured "Yakhelwe">
 
@@ -51,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Ithredi iyajinga">
 
+<!ENTITY aboutTelemetry.scalarsSection "Iscalars">
+
 <!ENTITY aboutTelemetry.histogramsSection "  IiHistogrem">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "ii Histograms eziqhotyoshelweyo">
@@ -79,3 +82,4 @@
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "Payload">
 
+<!ENTITY aboutTelemetry.rawPayload "IRaw Payload">

@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "i">
 <!ENTITY  unpinTab.label                     "Anulează fixarea">
 <!ENTITY  unpinTab.accesskey                 "x">
+
+
+
+
+
+
 <!ENTITY  moveToNewWindow.label              "Mută într-o fereastră nouă">
 <!ENTITY  moveToNewWindow.accesskey          "M">
 <!ENTITY  bookmarkAllTabs.label              "Pune semne de carte la toate filele…">
@@ -52,14 +58,14 @@ can reach it easily. -->
 <!ENTITY  listAllTabs.label      "Listează toate filele">
 
 <!ENTITY tabCmd.label "Filă nouă">
-<!ENTITY tabCmd.accesskey "F">
+<!ENTITY tabCmd.accesskey "T">
 <!ENTITY tabCmd.commandkey "t">
 <!-- LOCALIZATION NOTE (openLocationCmd.label): "Open Location" is only
 displayed on OS X, and only on windows that aren't main browser windows, or
 when there are no windows but Firefox is still running. -->
 <!ENTITY openLocationCmd.label "Deschide o adresă…">
-<!ENTITY openFileCmd.label "Deschide un fișier…">
-<!ENTITY openFileCmd.accesskey "u">
+<!ENTITY openFileCmd.label "Deschide fișierul…">
+<!ENTITY openFileCmd.accesskey "O">
 <!ENTITY openFileCmd.commandkey "o">
 <!ENTITY printSetupCmd.label "Aranjare în pagină…">
 <!ENTITY printSetupCmd.accesskey "g">
@@ -98,13 +104,14 @@ when there are no windows but Firefox is still running. -->
 These should match what Safari and other Apple applications use on OS X Lion. -->
 <!ENTITY enterFullScreenCmd.label "Intrați în ecran complet">
 <!ENTITY enterFullScreenCmd.accesskey "r">
-<!ENTITY exitFullScreenCmd.label "Ieșiți din ecran complet">
+<!ENTITY exitFullScreenCmd.label "Ieși din ecranul complet">
 <!ENTITY exitFullScreenCmd.accesskey "r">
 <!ENTITY fullScreenCmd.label "Ecran complet">
 <!ENTITY fullScreenCmd.accesskey "r">
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Arată toate filele">
 <!ENTITY showAllTabsCmd.accesskey "A">
+
 
 <!ENTITY fxaSignIn.label "Autentifică-te la &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Deschide preferințele &syncBrand.shortName.label;">
@@ -117,8 +124,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenClose.tooltip "Închide">
 <!ENTITY fullScreenAutohide.label "Ascunde barele de unelte">
 <!ENTITY fullScreenAutohide.accesskey "A">
-<!ENTITY fullScreenExit.label "Ieșiți din modul ecran complet">
-<!ENTITY fullScreenExit.accesskey "r">
+<!ENTITY fullScreenExit.label "Ieși din modul ecran complet">
+<!ENTITY fullScreenExit.accesskey "F">
 <!-- LOCALIZATION NOTE (fullscreenWarning.beforeDomain.label,
      fullscreenWarning.afterDomain.label): these two strings are used
      respectively before and after the domain requiring fullscreen.
@@ -132,8 +139,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
 
-<!ENTITY leaveDOMFullScreen.label "Revenire la ecran normal">
-<!ENTITY leaveDOMFullScreen.accesskey "v">
+<!ENTITY exitDOMFullscreen.button "Ieși din ecran complet (Esc)">
+<!ENTITY exitDOMFullscreenMac.button "Ieși din ecran complet (esc)">
+<!ENTITY leaveDOMFullScreen.label "Ieși din ecranul complet">
+<!ENTITY leaveDOMFullScreen.accesskey "u">
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+
+
 
 <!ENTITY closeWindow.label "Închide fereastra">
 <!ENTITY closeWindow.accesskey "d">
@@ -166,7 +184,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addCurPagesCmd.label "Pune semne de carte la toate filele…">
 <!ENTITY showAllBookmarks2.label "Arată toate semnele de carte">
 <!ENTITY recentBookmarks.label "Recent însemnate">
-
+<!ENTITY otherBookmarksCmd.label "Alte semne de carte">
 <!ENTITY bookmarksToolbarChevron.tooltip "Arată mai multe semne de carte">
 
 
@@ -197,7 +215,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.addonsNotificationAnchor.label          "Vezi mesajul de instalare al suplimentului">
 <!ENTITY urlbar.indexedDBNotificationAnchor.label       "Vezi mesajul de stocare offline al aplicației">
 <!ENTITY urlbar.loginFillNotificationAnchor.label       "Gestionează informațiile de autentificare">
-
+<!ENTITY urlbar.passwordNotificationAnchor.label        "Bifează dacă dorești să salvezi parola">
 
 
 
@@ -223,7 +241,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Semne de carte">
-
+<!ENTITY bookmarksMenuButton.other.label "Alte semne de carte">
 <!ENTITY viewBookmarksSidebar2.label        "Arată bara cu semne de carte">
 <!ENTITY viewBookmarksToolbar.label         "Arată bara cu semne de carte">
 
@@ -279,9 +297,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY cutCmd.label           "Taie">  
 <!ENTITY cutCmd.key             "X">  
 <!ENTITY cutCmd.accesskey         "T"> 
-
+<!ENTITY copyCmd.label            "Copiază">  
 <!ENTITY copyCmd.key            "C">  
-
+<!ENTITY copyCmd.accesskey          "C"> 
 <!ENTITY pasteCmd.label           "Lipește">  
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "p"> 
@@ -669,7 +687,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.accesskey "A">
 
 <!ENTITY editBookmark.done.label                     "Gata">
-<!ENTITY editBookmark.removeBookmark.accessKey       "R">
+
 
 <!ENTITY identity.connectionSecure "Conexiune securizată">
 <!ENTITY identity.connectionNotSecure "Conexiunea nu este securizată">
@@ -721,7 +739,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY syncedTabs.sidebar.noclients.title    "Nicio filă sincronizată…încă!">
 
-
+<!ENTITY syncedTabs.sidebar.notsignedin.label  "Autentifică-te pentru a vedea o listă de file de pe celelalte dispozitive.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "Nicio filă deschisă">
 <!ENTITY syncedTabs.sidebar.openprefs.label    "Deschide preferințele &syncBrand.shortName.label;">
 <!-- LOCALIZATION NOTE (syncedTabs.sidebar.tabsnotsyncing.label): This is shown
@@ -736,8 +754,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "p">
 
 
-
-
+<!ENTITY syncedTabs.context.copy.label                       "Copiază">
+<!ENTITY syncedTabs.context.copy.accesskey                   "C">
 
 
 <!ENTITY syncBrand.shortName.label    "Sincronizare">
@@ -763,12 +781,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "Arată notificările pe ecran">
 <!ENTITY social.toggleNotifications.accesskey "n">
 
-<!ENTITY social.activated.description "Serviciile de la <label/> au fost activate. Puteți schimba setările pentru servicii în <label class='text-link'>Manager suplimente</label>.">
-<!ENTITY social.activated.undo.label "Upss, anulează asta!">
-<!ENTITY social.activated.undo.accesskey "U">
 <!ENTITY social.learnMore.label "Află mai multe…">
 <!ENTITY social.learnMore.accesskey "l">
-<!ENTITY social.closeNotificationItem.label "Nu acum">
 
 <!ENTITY social.directory.label "Dosar de activări">
 <!ENTITY social.directory.text "Puteți activa serviciile de partajare din dosar.">

@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "Neo-phrìnich an taba">
 <!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "Cuir an taba gu na h-uidheaman">
+<!ENTITY  sendTabToDevice.accesskey          "d">
+<!ENTITY  sendPageToDevice.label             "Cuir an taba gun uidheam">
+<!ENTITY  sendPageToDevice.accesskey         "d">
+<!ENTITY  sendLinkToDevice.label             "Cuir an ceangal gun uidheam">
+<!ENTITY  sendLinkToDevice.accesskey         "d">
 <!ENTITY  moveToNewWindow.label              "Gluais gu uinneag ùr">
 <!ENTITY  moveToNewWindow.accesskey          "G">
 <!ENTITY  bookmarkAllTabs.label              "Dèan comharra-lìn de gach taba…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Seall gach taba">
 <!ENTITY showAllTabsCmd.accesskey "a">
+<!ENTITY toggleReaderMode.key "A">
 
 <!ENTITY fxaSignIn.label "Clàraich a-steach gu &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Fosgail roghainnean &syncBrand.shortName.label;">
@@ -131,10 +138,20 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
+
 <!ENTITY exitDOMFullscreen.button "Fàg an làn-sgrìn (Esc)">
 <!ENTITY exitDOMFullscreenMac.button "Fàg an làn-sgrìn (esc)">
 <!ENTITY leaveDOMFullScreen.label "Fàg an làn-sgrìn">
 <!ENTITY leaveDOMFullScreen.accesskey "F">
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+
+<!ENTITY pointerlockWarning.beforeDomain.label "Tha smachd aig">
+<!ENTITY pointerlockWarning.afterDomain.label "air an tomhaire agad. Brùth Esc airson an smachd a thilleadh dhut fhèin.">
+<!ENTITY pointerlockWarning.generic.label "Tha smachd aig an sgrìobhainn seo air an tomhaire agad. Brùth Esc airson an smachd a thilleadh dhut fhèin.">
 
 <!ENTITY closeWindow.label "Dùin an uinneag">
 <!ENTITY closeWindow.accesskey "D">
@@ -264,7 +281,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fileMenu.label         "Faidhle"> 
 <!ENTITY fileMenu.accesskey       "F">
 <!ENTITY newUserContext.label             "Taba soithich ùr">
-<!ENTITY newUserContext.accesskey         "c">
+<!ENTITY newUserContext.accesskey         "b">
 <!ENTITY newNavigatorCmd.label        "Uinneag ùr">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "n">
@@ -457,7 +474,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmd.label           "Fosgail am frèam ann an uinneag ùr">
 <!ENTITY openFrameCmd.accesskey       "F">
 <!ENTITY openLinkCmdInContainerTab.label "Fosgail an ceangal ann an taba soithich ùr">
-<!ENTITY openLinkCmdInContainerTab.accesskey "c">
+<!ENTITY openLinkCmdInContainerTab.accesskey "z">
 <!ENTITY showOnlyThisFrameCmd.label     "Na seall ach am frèam seo">
 <!ENTITY showOnlyThisFrameCmd.accesskey "s">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -772,12 +789,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "Seall brathan an deasg">
 <!ENTITY social.toggleNotifications.accesskey "n">
 
-<!ENTITY social.activated.description "Chaidh na seirbheisean aig <label/> a chur an comas. 'S urrainn dhut roghainnean nan seirbheisean atharrachadh ann am <label class='text-link'>manaidsear nan tuilleadan</label>.">
-<!ENTITY social.activated.undo.label "Ìoc, neo-dhèan seo!">
-<!ENTITY social.activated.undo.accesskey "n">
 <!ENTITY social.learnMore.label "Barrachd fiosrachaidh…">
 <!ENTITY social.learnMore.accesskey "B">
-<!ENTITY social.closeNotificationItem.label "Chan ann an-dràsta">
 
 <!ENTITY social.directory.label "Clàr nan gnìomhachaidhean">
 <!ENTITY social.directory.text "'S urrainn dhut seirbheisean co-roinnidh a chur an gnìomh on chlàr.">

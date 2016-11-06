@@ -33,8 +33,8 @@
 <!ENTITY bookmarks_title "Segnalibri">
 <!ENTITY home_title "&brandShortName; Home">
 <!ENTITY history_title "Cronologia">
-<!ENTITY recent_tabs_title "Schede recenti">
 <!ENTITY switch_to_tab "Passa alla scheda">
+<!ENTITY tab_offline_version "Visualizzazione attuale: versione non in linea">
 <!ENTITY crash_reporter_title "Crash Reporter &brandShortName;">
 <!ENTITY crash_message2 "&brandShortName; ha riscontrato un problema e si è bloccato. Le schede aperte dovrebbero essere visibili nella pagina iniziale di &brandShortName; dopo il riavvio.">
 <!ENTITY crash_send_report_message3 "Segnala a &vendorShortName; questo problema">
@@ -167,6 +167,11 @@
 <!ENTITY pref_tracking_protection_disabled "Disattivata">
 <!ENTITY pref_whats_new_notification "Novità di &brandShortName;">
 <!ENTITY pref_whats_new_notification_summary "Visualizza informazioni sulle nuove caratteristiche dopo un aggiornamento">
+<!ENTITY pref_category_experimental "Caratteristiche sperimentali">
+<!ENTITY pref_custom_tabs "Schede personalizzate">
+<!ENTITY pref_custom_tabs_summary "Consenti alle app di terze parti di aprire URL con un aspetto personalizzato.">
+<!ENTITY pref_activity_stream "Flusso attività">
+<!ENTITY pref_activity_stream_summary "Una visualizzazione della cronologia ricca di informazioni e una pagina iniziale completamente ripensata rendono ancora più semplice trovare tutte ciò che serve in &brandShortName;.">
 <!ENTITY tracking_protection_prompt_title "Ora con protezione antitracciamento">
 <!ENTITY tracking_protection_prompt_text "Blocca in modo attivo gli elementi traccianti, rimuovendo ogni preoccupazione per l’utente.">
 <!ENTITY tracking_protection_prompt_tip_text "Per ulteriori informazioni visita la sezione Privacy delle impostazioni">
@@ -239,6 +244,7 @@
 <!ENTITY pref_private_data_downloadFiles2 "Download">
 <!ENTITY pref_private_data_syncedTabs "Schede sincronizzate">
 <!ENTITY pref_default_browser "Imposta come browser predefinito">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Visita il supporto Mozilla">
 <!ENTITY pref_about_firefox "Informazioni su &brandShortName;">
 <!ENTITY pref_vendor_faqs "FAQ">
 <!ENTITY pref_vendor_feedback "Invia feedback">
@@ -364,10 +370,11 @@
 <!ENTITY home_clear_history_button "Elimina cronologia">
 <!ENTITY home_clear_history_confirm "Eliminare la cronologia di navigazione?">
 <!ENTITY home_bookmarks_empty "In questa sezione verranno visualizzati i segnalibri salvati.">
-<!ENTITY home_closed_tabs_title "Schede chiuse di recente">
-<!ENTITY home_last_tabs_title "Schede dall’ultima esecuzione">
+<!ENTITY home_closed_tabs_title2 "Chiuse di recente">
 <!ENTITY home_last_tabs_empty "In questa sezione verranno visualizzate le schede recenti.">
-<!ENTITY home_open_all "Apri tutte">
+<!ENTITY home_restore_all "Ripristina tutte">
+<!ENTITY home_closed_tabs_number "&formatD; schede">
+<!ENTITY home_closed_tabs_one "1 scheda">
 <!ENTITY home_most_recent_empty "In questa sezione verranno visualizzati i siti web più recenti.">
 <!ENTITY home_most_recent_emptyhint2 "Psst: utilizzando una &formatS1;Nuova scheda anonima&formatS2; non verrà salvata alcuna cronologia.">
 <!ENTITY home_default_empty "Nessun contenuto disponibile per questo pannello.">
@@ -386,7 +393,6 @@
 <!ENTITY identity_connected_to "Si è connessi con">
 <!ENTITY identity_connection_secure "Connessione sicura">
 <!ENTITY identity_connection_insecure "Connessione non sicura">
-<!ENTITY identity_login_insecure "Questa pagina non è sicura e l’accesso potrebbe essere vulnerabile.">
 <!ENTITY identity_connection_chromeui "Questa è una pagina sicura di &brandShortName;.">
 <!ENTITY mixed_content_blocked_all1 "I contenuti non sicuri in questa pagina sono stati bloccati da &brandShortName;.">
 <!ENTITY mixed_content_blocked_some1 "Alcuni contenuti non sicuri in questa pagina sono stati bloccati da &brandShortName;.">

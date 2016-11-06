@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "Soltar pestaña">
 <!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "Enviar pestaña a dispositivo">
+<!ENTITY  sendTabToDevice.accesskey          "D">
+<!ENTITY  sendPageToDevice.label             "Enviar página a dispositivo">
+<!ENTITY  sendPageToDevice.accesskey         "D">
+<!ENTITY  sendLinkToDevice.label             "Enviar enlace a dispositivo">
+<!ENTITY  sendLinkToDevice.accesskey         "D">
 <!ENTITY  moveToNewWindow.label              "Mover a una nueva ventana">
 <!ENTITY  moveToNewWindow.accesskey          "v">
 <!ENTITY  bookmarkAllTabs.label              "Guardar todas las pestañas en marcadores…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Mostrar todas las pestañas">
 <!ENTITY showAllTabsCmd.accesskey "a">
+<!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "Conectarse a &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Abrir preferencias de &syncBrand.shortName.label;">
@@ -128,6 +135,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenWarning.beforeDomain.label "">
 <!ENTITY fullscreenWarning.afterDomain.label "está ahora a pantalla completa">
 <!ENTITY fullscreenWarning.generic.label "Este documento está ahora a pantalla completa">
+
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
@@ -135,6 +143,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button "Salir de pantalla completa (esc)">
 <!ENTITY leaveDOMFullScreen.label "Salir de pantalla completa">
 <!ENTITY leaveDOMFullScreen.accesskey "u">
+
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "tiene el control de tu puntero. Presiona Esc para recuperarlo.">
+<!ENTITY pointerlockWarning.generic.label "Este documento tiene el control de tu puntero. Presiona  Esc para recuperarlo.">
 
 <!ENTITY closeWindow.label "Cerrar ventana">
 <!ENTITY closeWindow.accesskey "C">
@@ -347,7 +364,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.noclients.title "No hay pestañas sincronizadas… ¡por el momento!">
 <!ENTITY appMenuRemoteTabs.noclients.subtitle "¿Te gustaría ver las pestañas de tus otros dispositivos aquí?">
 <!ENTITY appMenuRemoteTabs.openprefs.label "Preferencias de sincronización">
-<!ENTITY appMenuRemoteTabs.notsignedin.label "Conéctate para ver una lista de pestañas de tus otros dispositivos.">
+<!ENTITY appMenuRemoteTabs.notsignedin.label "Conéctate para ver una lista de las pestañas de tus otros dispositivos.">
 <!ENTITY appMenuRemoteTabs.signin.label "Conectarse a Sync">
 <!ENTITY appMenuRemoteTabs.sidebar.label "Ver barra lateral con las pestañas sincronizadas">
 
@@ -490,7 +507,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBGImageCmd.accesskey     "V">
 <!ENTITY setDesktopBackgroundCmd.label      "Colocar como fondo de escritorio…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "s">
-<!ENTITY bookmarkPageCmd2.label       "Guadar esta página en marcadores">
+<!ENTITY bookmarkPageCmd2.label       "Guardar esta página en marcadores">
 <!ENTITY bookmarkThisLinkCmd.label      "Guardar este enlace en marcadores">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "l">
 <!ENTITY bookmarkThisFrameCmd.label      "Guardar este marco en marcadores">
@@ -526,7 +543,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY playPluginCmd.accesskey      "c">
 <!ENTITY hidePluginCmd.label          "Ocultar este complemento">
 <!ENTITY hidePluginCmd.accesskey      "H">
-<!ENTITY copyLinkCmd.label            "Copiar ubicación de enlace">
+<!ENTITY copyLinkCmd.label            "Copiar ubicación del enlace">
 <!ENTITY copyLinkCmd.accesskey        "a">
 <!ENTITY copyImageCmd.label           "Copiar dirección de imagen">
 <!ENTITY copyImageCmd.accesskey       "o">
@@ -536,7 +553,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyVideoURLCmd.accesskey    "o">
 <!ENTITY copyAudioURLCmd.label        "Copiar dirección del audio">
 <!ENTITY copyAudioURLCmd.accesskey    "o">
-<!ENTITY copyEmailCmd.label           "Copiar dirección de email">
+<!ENTITY copyEmailCmd.label           "Copiar email">
 <!ENTITY copyEmailCmd.accesskey       "e">
 <!ENTITY thisFrameMenu.label              "Este marco">
 <!ENTITY thisFrameMenu.accesskey          "E">
@@ -771,12 +788,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "Mostrar notificaciones de escritorio">
 <!ENTITY social.toggleNotifications.accesskey "">
 
-<!ENTITY social.activated.description "Los servicios de <label/> han sido activados. Puedes cambiar tus ajustes para los servicios en el <label class='text-link'>Administrador de complementos</label>.">
-<!ENTITY social.activated.undo.label "Chuta, ¡deshacer esto!">
-<!ENTITY social.activated.undo.accesskey "U">
 <!ENTITY social.learnMore.label "Aprender más…">
 <!ENTITY social.learnMore.accesskey "l">
-<!ENTITY social.closeNotificationItem.label "Ahora no">
 
 <!ENTITY social.directory.label "Directorio de activaciones">
 <!ENTITY social.directory.text "Puedes activar los servicios para compartir desde el directorio.">
@@ -835,7 +848,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.moreinfo "Partes de esta página que siguen tu actividad en línea han sido bloqueadas.">
 <!ENTITY trackingContentBlocked.learnMore "Aprender más">
 <!ENTITY trackingContentBlocked.options "Opciones">
-<!ENTITY trackingContentBlocked.unblock2.label "Desactivar protección para este sitio">
+<!ENTITY trackingContentBlocked.unblock2.label "Desactivar la protección para este sitio">
 <!ENTITY trackingContentBlocked.unblock2.accesskey "D">
 <!ENTITY trackingContentBlocked.block.label "Activar protección">
 <!ENTITY trackingContentBlocked.block.accesskey "E">
@@ -880,7 +893,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY panicButton.view.deleteTabsAndWindows    "Cerrar todas las <html:strong>pestañas</html:strong> y <html:strong>ventanas</html:strong>">
 <!ENTITY panicButton.view.openNewWindow           "Abrir una nueva ventana en blanco">
 
-<!ENTITY panicButton.view.undoWarning             "Esta acción no puede ser deshecha.">
+<!ENTITY panicButton.view.undoWarning             "Esta acción no puede revertirse.">
 <!ENTITY panicButton.view.forgetButton            "¡Olvidar!">
 
 <!ENTITY panicButton.thankyou.msg1                "Tu historial reciente ha sido limpiado.">

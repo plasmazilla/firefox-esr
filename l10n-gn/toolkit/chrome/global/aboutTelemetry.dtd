@@ -52,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection " Emosãingo inimbo">
 
+<!ENTITY aboutTelemetry.scalarsSection " Jejupi">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Histograma">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection " Histograma ñemiguáva">
@@ -80,3 +82,4 @@
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "Ñemyenyhẽ oikóva">
 
+<!ENTITY aboutTelemetry.rawPayload "Marandu Jegua'ỹva">

@@ -2,8 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY ctrlTabRecentlyUsedOrder.label       "Ctrl+Tab เพื่อสลับเปลี่ยนแท็บตามลำดับที่ใช้ล่าสุด">
+<!ENTITY ctrlTabRecentlyUsedOrder.accesskey   "T">
+
 <!ENTITY newWindowsAsTabs.label       "เปิดหน้าต่างใหม่ในแท็บใหม่แทน">
-<!ENTITY newWindowsAsTabs.accesskey   "แ">
+<!ENTITY newWindowsAsTabs.accesskey   "ม">
 
 <!ENTITY warnCloseMultipleTabs.label  "เตือนฉันเมื่อจะปิดหลายแท็บ">
 <!ENTITY warnCloseMultipleTabs.accesskey  "น">
@@ -12,8 +15,8 @@
 <!ENTITY warnOpenManyTabs.accesskey   "ม">
 
 <!ENTITY switchToNewTabs.label        "เมื่อฉันเปิดลิงก์ในแท็บใหม่ สลับไปที่แท็บนั้นทันที">
-<!ENTITY switchToNewTabs.accesskey    "ม">
+<!ENTITY switchToNewTabs.accesskey    "h">
 
 <!ENTITY showTabsInTaskbar.label          "แสดงตัวอย่างแท็บในแถบงาน Windows">
-<!ENTITY showTabsInTaskbar.accesskey      "k">
+<!ENTITY showTabsInTaskbar.accesskey      "บ">
 <!ENTITY tabsGroup.label          "แท็บ">

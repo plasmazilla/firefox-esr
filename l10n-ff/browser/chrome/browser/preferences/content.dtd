@@ -6,6 +6,15 @@
 
 <!ENTITY  blockPopups.label           "Falo kenorɗe cuppitte">
 <!ENTITY  blockPopups.accesskey       "o">
+
+
+
+
+
+
+
+
+
 <!ENTITY  popupExceptions.label       "Paltooje…">
 <!ENTITY  popupExceptions.accesskey   "P">
 
@@ -45,4 +54,4 @@
 
 
 
-<!ENTITY  playDRMContent.learnMore.label "Ɓeydu humpito">
+

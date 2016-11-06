@@ -46,7 +46,7 @@
 
 # LOCALIZATION NOTE (seamonkey_dictionaries):
 # link title for https://en-US.add-ons.mozilla.org/en-US/seamonkey/dictionaries
-#define seamonkey_dictionaries Słowniki do sprawdzania pisownii
+#define seamonkey_dictionaries Słowniki do sprawdzania pisowni
 
 # LOCALIZATION NOTE (seamonkey_plugins):
 # link title for https://en-US.add-ons.mozilla.org/en-US/seamonkey/plugins
@@ -60,7 +60,7 @@
 # link title for http://www.mozdev.org/projects/applications/SeaMonkey.html
 #define mozdev_seamonkey Rozszerzenia dla programu SeaMonkey dostępne poprzez witrynę mozdev.org
 
-#define community_support Community &amp; Support
+#define community_support Społeczność i pomoc
 
 # LOCALIZATION NOTE (seamonkey_community):
 # link title for http://www.seamonkey-project.org/community

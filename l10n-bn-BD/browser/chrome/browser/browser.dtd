@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "ট্যাব আনপিন b">
 <!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "ডিভাইসে ট্যাব পাঠাও">
+<!ENTITY  sendTabToDevice.accesskey          "D">
+<!ENTITY  sendPageToDevice.label             "ডিভাইসে পাতা পাঠাও">
+<!ENTITY  sendPageToDevice.accesskey         "D">
+<!ENTITY  sendLinkToDevice.label             "ডিভাইসে লিঙ্ক পাঠাও">
+<!ENTITY  sendLinkToDevice.accesskey         "D">
 <!ENTITY  moveToNewWindow.label              "নতুন উইন্ডোতে স্থানান্তর W">
 <!ENTITY  moveToNewWindow.accesskey          "W">
 <!ENTITY  bookmarkAllTabs.label              "সকল ট্যাব বুকমার্ক করুন T…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "সব ট্যাব দেখানো হবে (A)">
 <!ENTITY showAllTabsCmd.accesskey "A">
+<!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "&syncBrand.shortName.label; এ সাইন ইন করুন">
 <!ENTITY fxaSignedIn.tooltip "পছন্দসমূহ &syncBrand.shortName.label; খুলুন">
@@ -131,10 +138,20 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
+
 <!ENTITY exitDOMFullscreen.button "পূর্ণ পর্দা বন্ধ করুন (Esc)">
 <!ENTITY exitDOMFullscreenMac.button "পূর্ণ পর্দা বন্ধ করুন (esc)">
 <!ENTITY leaveDOMFullScreen.label "পূর্ণ পর্দাজুড়ে প্রদর্শন মোড হতে প্রস্থান">
 <!ENTITY leaveDOMFullScreen.accesskey "u">
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "আপনার পয়েন্টারের নিয়ন্ত্রণ রয়েছে। পুনরায় নিয়ন্ত্রণ নিতে Esc চাপুন।">
+<!ENTITY pointerlockWarning.generic.label "এই নথিতে পয়েন্টারের নিয়ন্ত্রণ রয়েছে। পুনরায় নিয়ন্ত্রণ নিতে Esc চাপুন।">
 
 <!ENTITY closeWindow.label "উইন্ডো বন্ধ (d)">
 <!ENTITY closeWindow.accesskey "d">
@@ -155,8 +172,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (shareLink.accesskey): must be different than the following share access keys -->
 <!ENTITY shareLink.label "এই লিংক শেয়ার করুন h">
 <!ENTITY shareLink.accesskey "h">
-<!ENTITY shareImage.label "এই ছবি শেয়ার করুন s">
-<!ENTITY shareImage.accesskey "s">
+<!ENTITY shareImage.label "এই ছবি শেয়ার করুন">
+<!ENTITY shareImage.accesskey "r">
 <!ENTITY shareSelect.label "নির্বাচিত অংশ শেয়ার করুন S">
 <!ENTITY shareSelect.accesskey "S">
 <!ENTITY shareVideo.label "এই ভিডিওটি শেয়ার করুন s">
@@ -263,8 +280,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label         "ফাইল (F)"> 
 <!ENTITY fileMenu.accesskey       "F">
-<!ENTITY newUserContext.label             "নতুন কন্টেইনার ট্যাব C">
-<!ENTITY newUserContext.accesskey         "C">
+<!ENTITY newUserContext.label             "নতুন কন্টেইনার ট্যাব">
+<!ENTITY newUserContext.accesskey         "b">
 <!ENTITY newNavigatorCmd.label        "নতুন উইন্ডো (N)">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
@@ -456,8 +473,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "T">
 <!ENTITY openFrameCmd.label           "নতুন উইন্ডোতে ফ্রেম খোলা হবে (W)">
 <!ENTITY openFrameCmd.accesskey       "W">
-<!ENTITY openLinkCmdInContainerTab.label "নতুন কন্টেইনার ট্যাবে লিঙ্ক খুলুন">
-<!ENTITY openLinkCmdInContainerTab.accesskey "C">
+<!ENTITY openLinkCmdInContainerTab.label "লিংক নতুন কন্টেইনার ট্যাবে খুলুন">
+<!ENTITY openLinkCmdInContainerTab.accesskey "z">
 <!ENTITY showOnlyThisFrameCmd.label     "শুধুমাত্র এই ফ্রেমটি প্রদর্শন করা হবে (S)">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -476,13 +493,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewPageInfoCmd.accesskey    "I">
 <!ENTITY viewFrameInfoCmd.label       "ফ্রেম সংক্রান্ত তথ্য (I)">
 <!ENTITY viewFrameInfoCmd.accesskey   "I">
-<!ENTITY reloadImageCmd.label         "ছবি আবার লোড করা হবে (R)">
+<!ENTITY reloadImageCmd.label         "ছবি আবার লোড করা হবে">
 <!ENTITY reloadImageCmd.accesskey     "R">
-<!ENTITY viewImageCmd.label           "ছবি প্রদর্শন (I)">
+<!ENTITY viewImageCmd.label           "ছবি প্রদর্শন">
 <!ENTITY viewImageCmd.accesskey       "I">
-<!ENTITY viewImageInfoCmd.label       "ছবির তথ্য প্রদর্শন (f)">
+<!ENTITY viewImageInfoCmd.label       "ছবির তথ্য প্রদর্শন">
 <!ENTITY viewImageInfoCmd.accesskey   "f">
-<!ENTITY viewImageDescCmd.label       "বর্ণনা দেখুন D">
+<!ENTITY viewImageDescCmd.label       "বর্ণনা দেখুন">
 <!ENTITY viewImageDescCmd.accesskey   "D">
 <!ENTITY viewVideoCmd.label           "ভিডিও প্রদর্শন (i)">
 <!ENTITY viewVideoCmd.accesskey       "i">
@@ -772,12 +789,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "ডেস্কটপ বার্তা প্রদর্শন করুন">
 <!ENTITY social.toggleNotifications.accesskey "n">
 
-<!ENTITY social.activated.description "<label/> এর পরিসেবাগুলি চালু করে দেওয়া হয়েছে। <label class='text-link'>অ্যাড-অন ব্যবস্থাপক</label> ব্যবহার করে আপনি আপনার পরিসেবার জন্য সেটিংগুলি পরিবর্তন করতে পারেন।">
-<!ENTITY social.activated.undo.label "ওহ, পূর্বাবস্থায় ফিরুন! u">
-<!ENTITY social.activated.undo.accesskey "u">
 <!ENTITY social.learnMore.label "আরও জানুন… L">
 <!ENTITY social.learnMore.accesskey "L">
-<!ENTITY social.closeNotificationItem.label "এখন নয়">
 
 <!ENTITY social.directory.label "ডিরেক্টরির সক্রিয়করণব্যবস্থা">
 <!ENTITY social.directory.text "এই ডাইরেক্টরি থেকে আপনি শেয়ার পরিষেবা সক্রিয় করতে পারবেন।">

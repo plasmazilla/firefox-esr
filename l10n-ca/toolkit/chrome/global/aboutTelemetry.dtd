@@ -20,8 +20,11 @@
 
 <!ENTITY aboutTelemetry.showArchivedPingData "Dades de ping arxivades">
 
+<!ENTITY aboutTelemetry.pingDataDisplay "Visualització de dades de ping:">
 
+<!ENTITY aboutTelemetry.structured "Estructurat">
 
+<!ENTITY aboutTelemetry.raw "JSON sense processar">
 
 <!ENTITY aboutTelemetry.showSubsessionData "Mostra dades de la subsessió">
 
@@ -31,6 +34,7 @@
 
 <!ENTITY aboutTelemetry.showOlderPing "Ping més antic &gt;&gt;">
 
+<!ENTITY aboutTelemetry.rawPingData "Dades de ping sense processar…">
 
 <!ENTITY aboutTelemetry.archiveWeekHeader "Setmana">
 
@@ -47,6 +51,8 @@
 <!ENTITY aboutTelemetry.chromeHangsSection "  El navegador es penja">
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Bloquejos de fils">
+
+<!ENTITY aboutTelemetry.scalarsSection "  Escalars">
 
 <!ENTITY aboutTelemetry.histogramsSection "  Histogrames">
 
@@ -74,4 +80,6 @@
 
 <!ENTITY aboutTelemetry.filterText "  Filtra (cadenes o /regexp/)">
 
+<!ENTITY aboutTelemetry.payloadChoiceHeader "  Càrrega útil">
 
+<!ENTITY aboutTelemetry.rawPayload "  Càrrega útil sense processar">

@@ -44,9 +44,11 @@
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "书签">
 <!ENTITY  history_title "历史记录">
-<!ENTITY  recent_tabs_title "最近的标签页">
 
 <!ENTITY  switch_to_tab "切换到标签页">
+
+<!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
+<!ENTITY  tab_offline_version "显示离线版本">
 
 <!ENTITY  crash_reporter_title "&brandShortName; 崩溃报告器">
 <!ENTITY  crash_message2 "&brandShortName; 因某个问题而崩溃。下次启动 &brandShortName; 时，您的标签页将在开始页中列出。">
@@ -204,14 +206,14 @@
 <!ENTITY pref_manage_logins "管理登录信息">
 
 <!ENTITY pref_category_home "首页">
-<!ENTITY pref_category_home_summary "自定义您的首页">
+<!ENTITY pref_category_home_summary "自定义您的主页">
 <!ENTITY pref_category_home_panels "面板">
 <!ENTITY pref_category_home_add_ons "附加组件">
 <!ENTITY pref_home_updates2 "内容更新">
 <!ENTITY pref_home_updates_enabled "启用">
 <!ENTITY pref_home_updates_wifi "仅通过 Wi-Fi">
-<!ENTITY pref_category_home_homepage "首页">
-<!ENTITY home_homepage_title "设置首页">
+<!ENTITY pref_category_home_homepage "主页">
+<!ENTITY home_homepage_title "设置主页">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, they will use the built-in default Firefox homepage (about:home). -->
@@ -226,7 +228,7 @@
      particular radio button, a text field will appear below the radio button and allow the
      user to insert an address of their choice. This string is the hint text to that
      text field. -->
-<!ENTITY home_homepage_hint_user_address "输入网址或者搜索字段">
+<!ENTITY home_homepage_hint_user_address "输入网址或搜索关键词">
 
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 <!ENTITY pref_header_general "常规">
@@ -269,6 +271,20 @@
 
 <!ENTITY pref_whats_new_notification "&brandShortName; 中的新变化">
 <!ENTITY pref_whats_new_notification_summary "了解更新后有什么新功能">
+
+<!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
+     for experimental features. -->
+<!ENTITY pref_category_experimental "实验性功能">
+
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+     Instead of switching to the browser it appears as if the user stays in the third-party app.
+     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+<!ENTITY pref_custom_tabs "自定义标签页">
+<!ENTITY pref_custom_tabs_summary "允许第三方应用使用自定义的外观和体验打开网址。">
+
+<!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
+<!ENTITY pref_activity_stream "活动流">
+<!ENTITY pref_activity_stream_summary "历史信息与首页的一种变革新体验，愿您用它可以更方便地在 &brandShortName; 中找到想要的信息。">
 
 <!ENTITY tracking_protection_prompt_title "现在有了跟踪保护功能">
 <!ENTITY tracking_protection_prompt_text "主动拦截跟踪您的元素，让您不再需要担忧。">
@@ -382,6 +398,7 @@ size. -->
 <!ENTITY pref_private_data_syncedTabs "受同步的标签页">
 
 <!ENTITY pref_default_browser "设为默认浏览器">
+<!ENTITY pref_default_browser_mozilla_support_tablet "访问 Mozilla 支持">
 <!ENTITY pref_about_firefox "关于 &brandShortName;">
 <!ENTITY pref_vendor_faqs "常见问题">
 <!ENTITY pref_vendor_feedback "提供反馈">
@@ -570,10 +587,12 @@ size. -->
 <!ENTITY home_clear_history_button "清除浏览历史记录">
 <!ENTITY home_clear_history_confirm "您确定要清除您的历史记录吗？">
 <!ENTITY home_bookmarks_empty "这里显示了您添加的书签。">
-<!ENTITY home_closed_tabs_title "最近关闭的标签页">
-<!ENTITY home_last_tabs_title "上次的标签页">
+<!ENTITY home_closed_tabs_title2 "最近关闭">
 <!ENTITY home_last_tabs_empty "您最近的标签页将出现在这里。">
-<!ENTITY home_open_all "打开全部">
+<!ENTITY home_restore_all "全部恢复">
+<!ENTITY home_closed_tabs_number "&formatD; 个标签页">
+<!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "1 个标签页">
 <!ENTITY home_most_recent_empty "您最近常访问的网站将出现在这里。">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
@@ -625,7 +644,6 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "连接安全">
 <!ENTITY identity_connection_insecure "连接不安全">
-<!ENTITY identity_login_insecure "此页面不安全，您的登录信息可能会因此泄露。">
 <!ENTITY identity_connection_chromeui "这是一个安全的 &brandShortName; 页面">
 
 <!-- Mixed content notifications in site identity popup -->

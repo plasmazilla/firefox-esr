@@ -36,10 +36,16 @@ used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY  pinTab.label                       "Pegar pestaña">
+<!ENTITY  pinTab.label                       "Anclar pestaña">
 <!ENTITY  pinTab.accesskey                   "P">
-<!ENTITY  unpinTab.label                     "Despegar pestaña">
+<!ENTITY  unpinTab.label                     "Desanclar pestaña">
 <!ENTITY  unpinTab.accesskey                 "e">
+<!ENTITY  sendTabToDevice.label              "Enviar pestaña a dispositivo">
+<!ENTITY  sendTabToDevice.accesskey          "D">
+<!ENTITY  sendPageToDevice.label             "Enviar página a dispositivo">
+<!ENTITY  sendPageToDevice.accesskey         "D">
+<!ENTITY  sendLinkToDevice.label             "Enviar enlace a dispositivo">
+<!ENTITY  sendLinkToDevice.accesskey         "D">
 <!ENTITY  moveToNewWindow.label              "Mover a una nueva ventana">
 <!ENTITY  moveToNewWindow.accesskey          "v">
 <!ENTITY  bookmarkAllTabs.label              "Agregar pestañas a marcadores…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Mostrar todas las pestañas">
 <!ENTITY showAllTabsCmd.accesskey "t">
+<!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "Iniciar sesión con &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Abriendo preferencias de &syncBrand.shortName.label;">
@@ -128,6 +135,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenWarning.beforeDomain.label "">
 <!ENTITY fullscreenWarning.afterDomain.label "está ahora en pantalla completa">
 <!ENTITY fullscreenWarning.generic.label "Este documento está ahora en pantalla completa">
+
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
@@ -135,6 +143,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button "Salir de Pantalla Completa (esc)">
 <!ENTITY leaveDOMFullScreen.label "Salir de pantalla completa">
 <!ENTITY leaveDOMFullScreen.accesskey "a">
+
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "tiene el control de tu puntero. Presiona Esc para recuperarlo.">
+<!ENTITY pointerlockWarning.generic.label "Este documento tiene el control de tu puntero. Presiona Esc para recuperarlo.">
 
 <!ENTITY closeWindow.label "Cerrar ventana">
 <!ENTITY closeWindow.accesskey "v">
@@ -771,12 +788,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "Mostrar notificaciones de escritorio">
 <!ENTITY social.toggleNotifications.accesskey "n">
 
-<!ENTITY social.activated.description "Los servicios de <label/> han sido activados. Puedes cambiar tus preferencias de servicios en el <label class='text-link'>Administrador de complementos</label>.">
-<!ENTITY social.activated.undo.label "¡Ups, deshacer esto!">
-<!ENTITY social.activated.undo.accesskey "d">
 <!ENTITY social.learnMore.label "Conocer más...">
 <!ENTITY social.learnMore.accesskey "C">
-<!ENTITY social.closeNotificationItem.label "Ahora no">
 
 <!ENTITY social.directory.label "Directorio de activaciones">
 <!ENTITY social.directory.text "Puedes activar Servicios Compartidos desde el directorio.">

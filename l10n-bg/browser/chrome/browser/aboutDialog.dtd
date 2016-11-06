@@ -65,6 +65,7 @@
 <!ENTITY update.adminDisabled       "Обновяванията са изключени от вашия системен администратор">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
 <!ENTITY update.otherInstanceHandlingUpdates "Друг екземпляр на &brandShortName; е започнал обновяване">
+<!ENTITY update.restarting          "Рестартиране…">
 
 <!-- LOCALIZATION NOTE (update.failed.start,update.failed.linkText,update.failed.end):
      update.failed.start, update.failed.linkText, and update.failed.end all go into
@@ -100,10 +101,10 @@
 <!ENTITY update.downloading.start   "Изтегляне на обновяване – ">
 <!ENTITY update.downloading.end     "">
 
-<!ENTITY update.applying            "Прилагане на обновяване…">
+<!ENTITY update.applying            "Прилагане на обновяването…">
 
 <!-- LOCALIZATION NOTE (channel.description.start,channel.description.end): channel.description.start and
      channel.description.end create one sentence, with the current channel label inserted in between.
      example: You are currently on the _Stable_ update channel. -->
 <!ENTITY channel.description.start  "В момента сте в канал за обновяване ">
-<!ENTITY channel.description.end    ". ">
+<!ENTITY channel.description.end    ".">

@@ -44,9 +44,11 @@
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "Legosignoj">
 <!ENTITY  history_title "Historio">
-<!ENTITY  recent_tabs_title "Freŝaj langetoj">
 
 <!ENTITY  switch_to_tab "Iri al langeto">
+
+<!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
+<!ENTITY  tab_offline_version "Malkonektita versio montrata">
 
 <!ENTITY  crash_reporter_title "Raportado de paneoj de &brandShortName;">
 <!ENTITY  crash_message2 "&brandShortName; havis problemon kaj paneis. Post restarto, viaj langetoj devus esti listitaj en la eka paĝo de  &brandShortName;.">
@@ -270,6 +272,20 @@
 <!ENTITY pref_whats_new_notification "Novaĵoj en &brandShortName;">
 <!ENTITY pref_whats_new_notification_summary "Pli da informo pri novaj trajtoj post ĝisdatigo">
 
+<!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
+     for experimental features. -->
+<!ENTITY pref_category_experimental "Eksperimentaj trajtoj">
+
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+     Instead of switching to the browser it appears as if the user stays in the third-party app.
+     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+<!ENTITY pref_custom_tabs "Personecitigaj langetoj">
+<!ENTITY pref_custom_tabs_summary "Permesi al aliaj programoj malfermi URLs kun personecigita aspekto.">
+
+<!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
+<!ENTITY pref_activity_stream "Agadfluo">
+<!ENTITY pref_activity_stream_summary "Vide riĉa historio kaj repensita hejmpaĝo permesas al vi pli facile trovi kion vi volas en &brandShortName;.">
+
 <!ENTITY tracking_protection_prompt_title "Nun kun protekto kontraŭ spurado">
 <!ENTITY tracking_protection_prompt_text "Aktive bloki spurajn elementojn, tiel ke vi de bezonos zorgi.">
 <!ENTITY tracking_protection_prompt_tip_text "Vizitu la agordojn de privateco por havi pli da informo">
@@ -382,6 +398,7 @@ size. -->
 <!ENTITY pref_private_data_syncedTabs "Spegulitaj langetoj">
 
 <!ENTITY pref_default_browser "Igi retumilon norma">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Vizitu la helpan paĝon de Mozilla">
 <!ENTITY pref_about_firefox "Pri &brandShortName;">
 <!ENTITY pref_vendor_faqs "Oftaj demandoj">
 <!ENTITY pref_vendor_feedback "Sendi komentojn">
@@ -570,10 +587,12 @@ size. -->
 <!ENTITY home_clear_history_button "Viŝi retuman historion">
 <!ENTITY home_clear_history_confirm "Ĉu vi certe volas viŝi vian historion?">
 <!ENTITY home_bookmarks_empty "Konservitaj legosignoj videblos ĉi tie.">
-<!ENTITY home_closed_tabs_title "Antaŭ nelonge fermitaj langetoj">
-<!ENTITY home_last_tabs_title "Lastfojaj langetoj">
+<!ENTITY home_closed_tabs_title2 "Ĵuse fermitaj">
 <!ENTITY home_last_tabs_empty "Tie ĉi videblos viaj langetoj el antaŭ nelonge.">
-<!ENTITY home_open_all "Malfermi ĉiujn">
+<!ENTITY home_restore_all "Restarigi ĉiujn">
+<!ENTITY home_closed_tabs_number "&formatD; langetoj">
+<!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "unu langeto">
 <!ENTITY home_most_recent_empty "La laste vizititaj retejoj aperas ĉi tie.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
@@ -625,7 +644,6 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "Sekura konekto">
 <!ENTITY identity_connection_insecure "Nesekura konekto">
-<!ENTITY identity_login_insecure "Tiu ĉi paĝo ne estas sekura kaj viaj akreditiloj povus esti en danĝero.">
 <!ENTITY identity_connection_chromeui "Tiu ĉi estas sekura paĝo de &brandShortName;">
 
 <!-- Mixed content notifications in site identity popup -->

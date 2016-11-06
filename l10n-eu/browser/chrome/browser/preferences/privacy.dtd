@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Ezarpenak…">
 <!ENTITY  clearOnCloseSettings.accesskey "r">
+
+<!ENTITY  browserContainersHeader.label         "Edukiontzi-fitxak">
+<!ENTITY  browserContainersLearnMore.label      "Argibide gehiago">
+<!ENTITY  browserContainersEnabled.label        "Gaitu edukiontzi-fitxak">
+<!ENTITY  browserContainersEnabled.accesskey    "G">

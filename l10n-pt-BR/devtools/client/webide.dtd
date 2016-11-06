@@ -16,7 +16,7 @@
 <!ENTITY projectMenu_selectApp_accesskey "O">
 <!ENTITY projectMenu_play_label "Install and Run">
 <!ENTITY projectMenu_play_accesskey "I">
-<!ENTITY projectMenu_stop_label "Stop App">
+<!ENTITY projectMenu_stop_label "Parar aplicativo">
 <!ENTITY projectMenu_stop_accesskey "S">
 <!ENTITY projectMenu_debug_label "Debug App">
 <!ENTITY projectMenu_debug_accesskey "D">
@@ -26,11 +26,11 @@
 <!ENTITY projectMenu_showPrefs_accesskey "e">
 <!ENTITY projectMenu_manageComponents_label "Manage Extra Components">
 <!ENTITY projectMenu_manageComponents_accesskey "M">
-<!ENTITY projectMenu_refreshTabs_label "Refresh Tabs">
+<!ENTITY projectMenu_refreshTabs_label "Atualizar abas">
 
-<!ENTITY runtimeMenu_label "Runtime">
-<!ENTITY runtimeMenu_accesskey "R">
-<!ENTITY runtimeMenu_disconnect_label "Disconnect">
+<!ENTITY runtimeMenu_label "Ambiente de execução">
+<!ENTITY runtimeMenu_accesskey "m">
+<!ENTITY runtimeMenu_disconnect_label "Desconectar">
 <!ENTITY runtimeMenu_disconnect_accesskey "D">
 <!ENTITY runtimeMenu_showPermissionTable_label "Permissions Table">
 <!ENTITY runtimeMenu_showPermissionTable_accesskey "P">
@@ -38,76 +38,76 @@
 <!ENTITY runtimeMenu_takeScreenshot_accesskey "S">
 <!ENTITY runtimeMenu_showDetails_label "Runtime Info">
 <!ENTITY runtimeMenu_showDetails_accesskey "E">
-<!ENTITY runtimeMenu_showMonitor_label "Monitor">
+<!ENTITY runtimeMenu_showMonitor_label "Monitorar">
 <!ENTITY runtimeMenu_showMonitor_accesskey "M">
-<!ENTITY runtimeMenu_showDevicePrefs_label "Device Preferences">
+<!ENTITY runtimeMenu_showDevicePrefs_label "Preferência do dispositivo">
 <!ENTITY runtimeMenu_showDevicePrefs_accesskey "D">
-<!ENTITY runtimeMenu_showSettings_label "Device Settings">
+<!ENTITY runtimeMenu_showSettings_label "Configurações do dispositivo">
 <!ENTITY runtimeMenu_showSettings_accesskey "s">
 
-<!ENTITY viewMenu_label "View">
+<!ENTITY viewMenu_label "Exibir">
 <!ENTITY viewMenu_accesskey "V">
 <!ENTITY viewMenu_toggleEditor_label "Toggle Editor">
-<!ENTITY viewMenu_toggleEditor_accesskey "E">
-<!ENTITY viewMenu_zoomin_label "Zoom In">
+<!ENTITY viewMenu_toggleEditor_accesskey "A">
+<!ENTITY viewMenu_zoomin_label "Aumentar zoom">
 <!ENTITY viewMenu_zoomin_accesskey "I">
-<!ENTITY viewMenu_zoomout_label "Zoom Out">
+<!ENTITY viewMenu_zoomout_label "Diminuir zoom">
 <!ENTITY viewMenu_zoomout_accesskey "O">
-<!ENTITY viewMenu_resetzoom_label "Reset Zoom">
+<!ENTITY viewMenu_resetzoom_label "Redefinir zoom">
 <!ENTITY viewMenu_resetzoom_accesskey "R">
 
-<!ENTITY projectButton_label "Open App">
-<!ENTITY runtimeButton_label "Select Runtime">
+<!ENTITY projectButton_label "Abrir aplicativo">
+<!ENTITY runtimeButton_label "Selecionar ambiente de execução">
 
 <!-- We try to repicate Firefox' bindings: -->
 <!-- quit app -->
 <!ENTITY key_quit "W">
 <!-- open menu -->
-<!ENTITY key_showProjectPanel "O">
+<!ENTITY key_showProjectPanel "o">
 <!-- reload app -->
-<!ENTITY key_play "R">
+<!ENTITY key_play "r">
 <!-- show toolbox -->
 <!ENTITY key_toggleToolbox "VK_F12">
 <!-- toggle sidebar -->
-<!ENTITY key_toggleEditor "B">
+<!ENTITY key_toggleEditor "b">
 <!-- zoom -->
 <!ENTITY key_zoomin "+">
 <!ENTITY key_zoomin2 "=">
 <!ENTITY key_zoomout "-">
 <!ENTITY key_resetzoom "0">
 
-<!ENTITY projectPanel_myProjects "My Projects">
-<!ENTITY projectPanel_runtimeApps "Runtime Apps">
-<!ENTITY projectPanel_tabs "Tabs">
-<!ENTITY runtimePanel_usb "USB Devices">
-<!ENTITY runtimePanel_wifi "Wi-Fi Devices">
-<!ENTITY runtimePanel_simulator "Simulators">
-<!ENTITY runtimePanel_other "Other">
-<!ENTITY runtimePanel_installsimulator "Install Simulator">
-<!ENTITY runtimePanel_noadbhelper "Install ADB Helper">
-<!ENTITY runtimePanel_nousbdevice "Can’t see your device?">
-<!ENTITY runtimePanel_refreshDevices_label "Refresh Devices">
+<!ENTITY projectPanel_myProjects "Meus projetos">
+<!ENTITY projectPanel_runtimeApps "Aplicativos do ambiente de execução">
+<!ENTITY projectPanel_tabs "Abas">
+<!ENTITY runtimePanel_usb "Dispositivos USB">
+<!ENTITY runtimePanel_wifi "Dispositivos Wi-Fi">
+<!ENTITY runtimePanel_simulator "Simuladores">
+<!ENTITY runtimePanel_other "Outros">
+<!ENTITY runtimePanel_installsimulator "Instalar Simulator">
+<!ENTITY runtimePanel_noadbhelper "Instalar ADB Helper">
+<!ENTITY runtimePanel_nousbdevice "Não consegue ver seu dispositivo?">
+<!ENTITY runtimePanel_refreshDevices_label "Atualizar dispositivos">
 
 <!-- Lense -->
-<!ENTITY details_valid_header "valid">
-<!ENTITY details_warning_header "warnings">
-<!ENTITY details_error_header "errors">
-<!ENTITY details_description "Description">
-<!ENTITY details_location "Location">
-<!ENTITY details_manifestURL "App ID">
-<!ENTITY details_removeProject_button "Remove Project">
+<!ENTITY details_valid_header "válido">
+<!ENTITY details_warning_header "alertas">
+<!ENTITY details_error_header "erros">
+<!ENTITY details_description "Descrição">
+<!ENTITY details_location "Localização">
+<!ENTITY details_manifestURL "ID do aplicativo">
+<!ENTITY details_removeProject_button "Remover projeto">
 <!ENTITY details_showPrepackageLog_button "Show Pre-package Log">
 
 <!-- New App -->
 <!ENTITY newAppWindowTitle "Novo aplicativo">
 <!ENTITY newAppHeader "Selecionar modelo">
 <!ENTITY newAppLoadingTemplate "Carregando modelos…">
-<!ENTITY newAppProjectName "Nome do projeto:">
+<!ENTITY newAppProjectName "Project Name:">
 
 
 <!-- Decks -->
 
-<!ENTITY deck_close "Fechar">
+<!ENTITY deck_close "Close">
 
 <!-- Addons -->
 <!ENTITY addons_title "Componentes extras">
@@ -127,17 +127,17 @@
 <!ENTITY prefs_options_templatesurl_tooltip "Índice de modelos disponíveis">
 <!ENTITY prefs_options_showeditor "Show editor">
 <!ENTITY prefs_options_showeditor_tooltip "Show internal editor">
-<!ENTITY prefs_options_tabsize "Tamanho do tab">
-<!ENTITY prefs_options_expandtab "Tabs suaves">
-<!ENTITY prefs_options_expandtab_tooltip "Usar espaços em vez de tabs">
-<!ENTITY prefs_options_detectindentation "Indentação automática">
-<!ENTITY prefs_options_detectindentation_tooltip "Estimar indentação baseando-se no código-fonte">
-<!ENTITY prefs_options_autocomplete "Autocompletar">
-<!ENTITY prefs_options_autocomplete_tooltip "Completar código automaticamente">
-<!ENTITY prefs_options_autoclosebrackets "Autofechar parênteses e chaves">
-<!ENTITY prefs_options_autoclosebrackets_tooltip "Inserir automaticamente símbolos de fechamento de blocos">
-<!ENTITY prefs_options_keybindings "Combinação de teclas">
-<!ENTITY prefs_options_keybindings_default "Padrão">
+<!ENTITY prefs_options_tabsize "Tab size">
+<!ENTITY prefs_options_expandtab "Soft tabs">
+<!ENTITY prefs_options_expandtab_tooltip "Use spaces instead of the tab character">
+<!ENTITY prefs_options_detectindentation "Autoindent">
+<!ENTITY prefs_options_detectindentation_tooltip "Guess indentation based on source content">
+<!ENTITY prefs_options_autocomplete "Autocomplete">
+<!ENTITY prefs_options_autocomplete_tooltip "Enable code autocompletion">
+<!ENTITY prefs_options_autoclosebrackets "Autoclose brackets">
+<!ENTITY prefs_options_autoclosebrackets_tooltip "Automatically insert closing brackets">
+<!ENTITY prefs_options_keybindings "Keybindings">
+<!ENTITY prefs_options_keybindings_default "Default">
 <!ENTITY prefs_options_autosavefiles "Autosave files">
 <!ENTITY prefs_options_autosavefiles_tooltip "Automatically save edited files before running project">
 
@@ -203,16 +203,16 @@
 
 <!-- Simulator Options -->
 <!ENTITY simulator_title "Opções do simulador">
-<!ENTITY simulator_remove "Excluir simulador">
-<!ENTITY simulator_reset "Restaurar padrões">
-<!ENTITY simulator_name "Nome">
+<!ENTITY simulator_remove "Delete Simulator">
+<!ENTITY simulator_reset "Restore Defaults">
+<!ENTITY simulator_name "Name">
 <!ENTITY simulator_software "Software">
-<!ENTITY simulator_version "Versão">
-<!ENTITY simulator_profile "Perfil">
+<!ENTITY simulator_version "Version">
+<!ENTITY simulator_profile "Profile">
 <!ENTITY simulator_hardware "Hardware">
-<!ENTITY simulator_device "Dispositivo">
-<!ENTITY simulator_screenSize "Tela">
-<!ENTITY simulator_pixelRatio "Proporção do Pixel">
+<!ENTITY simulator_device "Device">
+<!ENTITY simulator_screenSize "Screen">
+<!ENTITY simulator_pixelRatio "Pixel Ratio">
 <!ENTITY simulator_tv_data "TV Simulation">
 <!ENTITY simulator_tv_data_open "Config Data">
 <!ENTITY simulator_tv_data_open_button "Open Config Directory…">

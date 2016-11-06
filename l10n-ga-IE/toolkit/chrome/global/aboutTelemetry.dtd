@@ -52,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection " Snáitheanna Reoite">
 
+<!ENTITY aboutTelemetry.scalarsSection "  Scálaigh">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Histeagraim">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection " Histeagraim Eochraithe">
