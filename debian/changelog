@@ -1,3 +1,12 @@
+firefox-esr (45.5.0esr-1~deb8u1) stable-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-90, also known as:
+    CVE-2016-5296, CVE-2016-5297, CVE-2016-9064, CVE-2016-9066,
+    CVE-2016-5291, CVE-2016-5290.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 16 Nov 2016 06:45:06 +0900
+
 firefox-esr (45.4.0esr-1~deb8u2) stable-security; urgency=medium
 
   * debian/rules, debian/control*: Only force GCC 5 on arm when building for

@@ -21,7 +21,7 @@ index 53e9781..8f6db46 100644
      return false;
    return true;
 diff --git a/toolkit/mozapps/extensions/internal/XPIProvider.jsm b/toolkit/mozapps/extensions/internal/XPIProvider.jsm
-index 7a58a7d..a5a4e10 100644
+index e68f8e6..02e7431 100644
 --- a/toolkit/mozapps/extensions/internal/XPIProvider.jsm
 +++ b/toolkit/mozapps/extensions/internal/XPIProvider.jsm
 @@ -682,7 +682,8 @@ function isUsableAddon(aAddon) {

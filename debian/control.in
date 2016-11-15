@@ -34,7 +34,7 @@ Build-Depends: autotools-dev,
                dpkg-dev (>= 1.16.1.1~),
 %if !LESS_SYSTEM_LIBS
                libnspr4-dev (>= 2:4.12~),
-               libnss3-dev (>= 2:3.21.1~),
+               libnss3-dev (>= 2:3.26-2~),
                libsqlite3-dev (>= 3.9.1),
                libvpx-dev (>= 1.4.0),
 %endif
