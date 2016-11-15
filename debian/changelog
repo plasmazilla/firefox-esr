@@ -1,3 +1,12 @@
+firefox-esr (45.5.0esr-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-90, also known as:
+    CVE-2016-5296, CVE-2016-5297, CVE-2016-9064, CVE-2016-9066,
+    CVE-2016-5291, CVE-2016-5290.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 16 Nov 2016 06:45:06 +0900
+
 firefox-esr (45.4.0esr-2) unstable; urgency=medium
 
   * debian/control*: Force build against libnss3-dev >= 2:3.26-2~, which fixed
