@@ -246,6 +246,13 @@ void PREF_ReaderCallback( void *closure,
                           bool        isStickyDefault,
                           bool        isLocked);
 
+
+/*
+ * Callback whenever we change a preference
+ */
+typedef void (*PrefsDirtyFunc) ();
+void PREF_SetDirtyCallback(PrefsDirtyFunc);
+
 #ifdef __cplusplus
 }
 #endif

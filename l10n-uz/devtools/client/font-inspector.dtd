@@ -5,10 +5,11 @@
   - The Font Inspector is the panel accessible in the Inspector sidebar. -->
 
 
-<!ENTITY fontInspectorTitle "Shriftlar">
 <!ENTITY showAllFonts "Ushbu sahifada foydalanilgan barcha shriftlarni ko‘rish">
 <!ENTITY usedAs "Quyidagicha foydalanildi:">
 <!ENTITY system "tizim">
 <!ENTITY remote "masofaviy">
 <!-- LOCALIZATION NOTE (previewHint): This is the label shown as the
      placeholder in font inspector preview text box. -->
+
+<!ENTITY previewHint "Matnni ko‘rish">

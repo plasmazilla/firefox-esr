@@ -88,7 +88,7 @@ index 56cf87c..893b1ea 100644
  
  #
 diff --git a/security/nss/coreconf/config.mk b/security/nss/coreconf/config.mk
-index bb87ad3..92c8596 100644
+index 6223742..7a0f932 100644
 --- a/security/nss/coreconf/config.mk
 +++ b/security/nss/coreconf/config.mk
 @@ -31,7 +31,7 @@ endif
@@ -128,7 +128,7 @@ index 6757a20..246f53d 100644
  #define CHECK_FORK_PTHREAD
  
 diff --git a/security/nss/lib/ssl/sslmutex.c b/security/nss/lib/ssl/sslmutex.c
-index 942c75c..f125e97 100644
+index 560a9e8..dc671a8 100644
 --- a/security/nss/lib/ssl/sslmutex.c
 +++ b/security/nss/lib/ssl/sslmutex.c
 @@ -60,7 +60,7 @@ single_process_sslMutex_Lock(sslMutex* pMutex)

@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Socruithe…">
 <!ENTITY  clearOnCloseSettings.accesskey "c">
+
+<!ENTITY  browserContainersHeader.label         "Cluaisíní Coimeádáin">
+<!ENTITY  browserContainersLearnMore.label      "Tuilleadh eolais">
+<!ENTITY  browserContainersEnabled.label        "Cumasaigh Cluaisíní Coimeádáin">
+<!ENTITY  browserContainersEnabled.accesskey    "n">

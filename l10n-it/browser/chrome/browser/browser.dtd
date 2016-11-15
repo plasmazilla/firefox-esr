@@ -20,6 +20,12 @@
 <!ENTITY pinTab.accesskey "h">
 <!ENTITY unpinTab.label "Sblocca scheda">
 <!ENTITY unpinTab.accesskey "h">
+<!ENTITY sendTabToDevice.label "Invia scheda a dispositivo">
+<!ENTITY sendTabToDevice.accesskey "d">
+<!ENTITY sendPageToDevice.label "Invia pagina a dispositivo">
+<!ENTITY sendPageToDevice.accesskey "d">
+<!ENTITY sendLinkToDevice.label "Invia link a dispositivo">
+<!ENTITY sendLinkToDevice.accesskey "d">
 <!ENTITY moveToNewWindow.label "Sposta in una nuova finestra">
 <!ENTITY moveToNewWindow.accesskey "f">
 <!ENTITY bookmarkAllTabs.label "Tutte le schede nei segnalibri…">
@@ -74,6 +80,7 @@
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Visualizza tutte le schede">
 <!ENTITY showAllTabsCmd.accesskey "h">
+<!ENTITY toggleReaderMode.key "R">
 <!ENTITY fxaSignIn.label "Accedi a &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Apri le impostazioni di &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Riconnetti a &syncBrand.shortName.label;">
@@ -88,6 +95,9 @@
 <!ENTITY fullscreenWarning.beforeDomain.label "">
 <!ENTITY fullscreenWarning.afterDomain.label "è ora visualizzato a schermo intero">
 <!ENTITY fullscreenWarning.generic.label "Questo documento è ora visualizzato a schermo intero">
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "sta controllando il puntatore del mouse. Premere Esc per riprenderne il controllo.">
+<!ENTITY pointerlockWarning.generic.label "sta controllando il puntatore del mouse. Premere Esc per riprenderne il controllo.">
 <!ENTITY exitDOMFullscreen.button "Esci da schermo intero (Esc)">
 <!ENTITY exitDOMFullscreenMac.button "Esci da schermo intero (esc)">
 <!ENTITY leaveDOMFullScreen.label "Esci da schermo intero">
@@ -496,10 +506,10 @@
 <!ENTITY identity.activeBlocked "Alcuni elementi non sicuri di questa pagina sono stati bloccati da &brandShortName;.">
 <!ENTITY identity.passiveLoaded "Alcuni elementi di questa pagina non sono sicuri (ad esempio immagini).">
 <!ENTITY identity.activeLoaded "La protezione è disattivata per questa pagina.">
-<!ENTITY identity.weakEncryption "Questa pagina utilizza una cifratura debole.">
+<!ENTITY identity.weakEncryption "Questa pagina utilizza una crittografia debole.">
 <!ENTITY identity.description.insecure "La connessione con questo sito non è privata. Le informazioni inviate, come ad esempio password, messaggi, dati delle carte di credito, ecc. potrebbero essere visibili ad altri soggetti.">
 <!ENTITY identity.description.insecureLoginForms "Le informazioni di accesso inserite in questa pagina non sono sicure e potrebbero essere vulnerabili.">
-<!ENTITY identity.description.weakCipher "La connessione con questo sito web utilizza una cifratura debole e non è privata.">
+<!ENTITY identity.description.weakCipher "La connessione con questo sito web utilizza una crittografia debole e non è privata.">
 <!ENTITY identity.description.weakCipher2 "Altri soggetti potrebbero visualizzare le informazioni trasmesse o modificare il comportamento del sito.">
 <!ENTITY identity.description.activeBlocked "Alcuni elementi non sicuri di questa pagina sono stati bloccati da &brandShortName;.">
 <!ENTITY identity.description.passiveLoaded "La connessione non è privata e le informazioni trasmesse al sito potrebbero essere visibili ad altri soggetti.">
@@ -556,12 +566,8 @@
 <!ENTITY social.addons.label "Gestione servizi…">
 <!ENTITY social.toggleNotifications.label "Visualizza notifiche desktop">
 <!ENTITY social.toggleNotifications.accesskey "k">
-<!ENTITY social.activated.description "Sono stati attivati i servizi da <label/>. È possibile modificare le impostazioni relative ai servizi nel <label class='text-link'>Gestore componenti aggiuntivi</label>.">
-<!ENTITY social.activated.undo.label "Oops, annulla">
-<!ENTITY social.activated.undo.accesskey "a">
 <!ENTITY social.learnMore.label "Ulteriori informazioni…">
 <!ENTITY social.learnMore.accesskey "U">
-<!ENTITY social.closeNotificationItem.label "Non adesso">
 <!ENTITY social.directory.label "Portale servizi">
 <!ENTITY social.directory.text "È possibile attivare nuovi servizi di condivisione dal portale dedicato.">
 <!ENTITY social.directory.button "Apri il portale">

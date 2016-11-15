@@ -19,7 +19,7 @@
 <!ENTITY navbarOverflow.label                "Още инструменти…">
 
 <!-- Tab context menu -->
-<!ENTITY  reloadTab.label                    "Презареждане на раздел">
+<!ENTITY  reloadTab.label                    "Презареждане на раздела">
 <!ENTITY  reloadTab.accesskey                "П">
 <!ENTITY  reloadAllTabs.label                "Презареждане на всички раздели">
 <!ENTITY  reloadAllTabs.accesskey            "в">
@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "ч">
 <!ENTITY  unpinTab.label                     "Премахване от леснодостъпните приложения">
 <!ENTITY  unpinTab.accesskey                 "П">
+<!ENTITY  sendTabToDevice.label              "Изпращане на раздела към устройство">
+<!ENTITY  sendTabToDevice.accesskey          "у">
+<!ENTITY  sendPageToDevice.label             "Изпращане на страницата към устройство">
+<!ENTITY  sendPageToDevice.accesskey         "у">
+<!ENTITY  sendLinkToDevice.label             "Изпращане на препратката към устройство">
+<!ENTITY  sendLinkToDevice.accesskey         "у">
 <!ENTITY  moveToNewWindow.label              "Преместване в нов прозорец">
 <!ENTITY  moveToNewWindow.accesskey          "н">
 <!ENTITY  bookmarkAllTabs.label              "Отмятане на всички раздели…">
@@ -92,7 +98,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY pageInfoCmd.label "Информация за страницата">
 <!ENTITY pageInfoCmd.accesskey "И">
 <!ENTITY pageInfoCmd.commandkey "i">
-<!ENTITY mirrorTabCmd.label "Изпращане на раздела">
+<!ENTITY mirrorTabCmd.label "Излъчване на раздела">
 <!ENTITY mirrorTabCmd.accesskey "И">
 <!-- LOCALIZATION NOTE (enterFullScreenCmd.label, exitFullScreenCmd.label):
 These should match what Safari and other Apple applications use on OS X Lion. -->
@@ -105,10 +111,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Показване на всички раздели">
 <!ENTITY showAllTabsCmd.accesskey "д">
+<!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "Вписване в &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Отваряне настройките на &syncBrand.shortName.label;">
-<!ENTITY fxaSignInError.label "Свържете се наново в &syncBrand.shortName.label;">
+<!ENTITY fxaSignInError.label "Свързване наново с &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Проверка на сметка">
 
 
@@ -128,6 +135,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenWarning.beforeDomain.label "">
 <!ENTITY fullscreenWarning.afterDomain.label "на цял екран">
 <!ENTITY fullscreenWarning.generic.label "Сега документът е на цял екран">
+
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
@@ -135,6 +143,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button "Излизане от режим на цял екран (esc)">
 <!ENTITY leaveDOMFullScreen.label "Излизане от режим на цял екран">
 <!ENTITY leaveDOMFullScreen.accesskey "ц">
+
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "контролира показалеца на мишката ви. Натиснете Esc, за да си възвърнете контрола.">
+<!ENTITY pointerlockWarning.generic.label "Този документ контролира показалеца на мишката ви. Натиснете Esc, за да си възвърнете контрола.">
 
 <!ENTITY closeWindow.label "Затваряне на прозореца">
 <!ENTITY closeWindow.accesskey "п">
@@ -161,9 +178,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY shareSelect.accesskey "С">
 <!ENTITY shareVideo.label "Споделяне на видеозапис">
 <!ENTITY shareVideo.accesskey "С">
-<!ENTITY feedsMenu2.label "Абониране за тази страница">
-<!ENTITY subscribeToPageMenupopup.label "Абониране за тази страница">
-<!ENTITY subscribeToPageMenuitem.label "Абониране за тази страница…">
+<!ENTITY feedsMenu2.label "Абониране за страницата">
+<!ENTITY subscribeToPageMenupopup.label "Абониране за страницата">
+<!ENTITY subscribeToPageMenuitem.label "Абониране за страницата…">
 <!ENTITY addCurPagesCmd.label "Отмятане на всички раздели…">
 <!ENTITY showAllBookmarks2.label "Показване на всички отметки">
 <!ENTITY recentBookmarks.label "Последни отметки">
@@ -187,7 +204,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY stopButton.tooltip           "Спиране зареждането на страницата">
 <!ENTITY goEndCap.tooltip             "Зареждане на адреса в полето">
 <!ENTITY printButton.label            "Отпечатване">
-<!ENTITY printButton.tooltip          "Отпечатване на тази страница">
+<!ENTITY printButton.tooltip          "Отпечатване на страницата">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "Показване информация за уебсайта">
 <!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
@@ -263,13 +280,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label         "Файл"> 
 <!ENTITY fileMenu.accesskey       "Ф">
-<!ENTITY newUserContext.label             "Нов изолатор на раздели">
+<!ENTITY newUserContext.label             "Нов изолиран раздел">
 <!ENTITY newUserContext.accesskey         "и">
 <!ENTITY newNavigatorCmd.label        "Нов прозорец">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "п">
-<!ENTITY newPrivateWindow.label     "Нов прозорец за поверително сърфиране">
-<!ENTITY newPrivateWindow.accesskey "с">
+<!ENTITY newPrivateWindow.label     "Нов поверителен прозорец">
+<!ENTITY newPrivateWindow.accesskey "в">
 <!ENTITY newNonRemoteWindow.label   "Нов еднопроцесен прозорец">
 
 <!ENTITY editMenu.label         "Редактиране"> 
@@ -340,7 +357,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.notabs.label "Няма отворени раздели">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
-<!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Включете синхронизирането на раздели, за да видите списък с разделите от други ваши устройства.">
+<!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Включете синхронизирането на раздели, за да видите списък с раздели от други ваши устройства.">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
@@ -349,7 +366,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuRemoteTabs.openprefs.label "Настройки на Sync">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "Впишете се, за да видите списък с раздели от други ваши устройства.">
 <!ENTITY appMenuRemoteTabs.signin.label "Вписване в Sync">
-<!ENTITY appMenuRemoteTabs.sidebar.label "Преглед на странична лента със синхронизирани раздели">
+<!ENTITY appMenuRemoteTabs.sidebar.label "Странична лента със синх. раздели">
 
 <!ENTITY customizeMenu.addToToolbar.label "Добавяне към лентата с инструменти">
 <!ENTITY customizeMenu.addToToolbar.accesskey "Д">
@@ -426,7 +443,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      intentionally left empty for en-US and can be used by other localizations to
      display a string after the search engine name.  This string will be displayed
      as:  "Search <selected engine name><searchAfter.label text>" -->
-<!ENTITY search.label                 "Търсене">
+<!ENTITY search.label                 "Търсене с ">
 <!ENTITY searchAfter.label            "">
 
 <!-- LOCALIZATION NOTE (searchWithHeader.label):
@@ -446,24 +463,24 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY openLinkCmdInTab.label       "Отваряне в раздел">
 <!ENTITY openLinkCmdInTab.accesskey   "д">
-<!ENTITY openLinkCmd.label            "Отваряне в нов прозорец">
+<!ENTITY openLinkCmd.label            "Отваряне в прозорец">
 <!ENTITY openLinkCmd.accesskey        "п">
-<!ENTITY openLinkInPrivateWindowCmd.label "Отваряне в прозорец за поверително сърфиране">
-<!ENTITY openLinkInPrivateWindowCmd.accesskey "с">
+<!ENTITY openLinkInPrivateWindowCmd.label "Отваряне в поверителен прозорец">
+<!ENTITY openLinkInPrivateWindowCmd.accesskey "в">
 <!ENTITY openLinkCmdInCurrent.label     "Отваряне на връзката">
 <!ENTITY openLinkCmdInCurrent.accesskey "ъ">
 <!ENTITY openFrameCmdInTab.label      "Отваряне в раздел">
 <!ENTITY openFrameCmdInTab.accesskey  "д">
-<!ENTITY openFrameCmd.label           "Отваряне в нов прозорец">
+<!ENTITY openFrameCmd.label           "Отваряне в прозорец">
 <!ENTITY openFrameCmd.accesskey       "п">
-<!ENTITY openLinkCmdInContainerTab.label "Отваряне в независим раздел">
-<!ENTITY openLinkCmdInContainerTab.accesskey "О">
+<!ENTITY openLinkCmdInContainerTab.label "Отваряне в изолиран раздел">
+<!ENTITY openLinkCmdInContainerTab.accesskey "и">
 <!ENTITY showOnlyThisFrameCmd.label     "Показване само на тази рамка">
 <!ENTITY showOnlyThisFrameCmd.accesskey "р">
 <!ENTITY reloadCmd.commandkey         "r">
 <!ENTITY reloadFrameCmd.label         "Презареждане на рамката">
 <!ENTITY reloadFrameCmd.accesskey     "з">
-<!ENTITY viewPartialSourceForSelectionCmd.label "Изходен код на маркираното">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Изходен код на избраното">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "MathML код">
 <!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
@@ -491,12 +508,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY setDesktopBackgroundCmd.label      "Поставяне като фон на работния плот…">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "П">
 <!ENTITY bookmarkPageCmd2.label       "Отмятане на страницата">
-<!ENTITY bookmarkThisLinkCmd.label      "Отмятане на връзката">
+<!ENTITY bookmarkThisLinkCmd.label      "Отмятане на препратката">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "О">
 <!ENTITY bookmarkThisFrameCmd.label      "Отмятане на рамката">
 <!ENTITY bookmarkThisFrameCmd.accesskey  "р">
 <!ENTITY emailPageCmd.label           "Препратка по ел. поща">
-<!ENTITY emailPageCmd.accesskey       "П">
+<!ENTITY emailPageCmd.accesskey       "е">
 <!ENTITY savePageCmd.label            "Запазване на страницата като…">
 <!ENTITY savePageCmd.accesskey        "З">
 <!-- alternate for content area context menu -->
@@ -538,7 +555,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyAudioURLCmd.accesskey    "т">
 <!ENTITY copyEmailCmd.label           "Копиране на електронния адрес">
 <!ENTITY copyEmailCmd.accesskey       "е">
-<!ENTITY thisFrameMenu.label              "Тази рамка">
+<!ENTITY thisFrameMenu.label              "Рамка">
 <!ENTITY thisFrameMenu.accesskey          "р">
 
 <!-- Media (video/audio) controls -->
@@ -686,7 +703,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "&brandShortName; блокира части от страницата, които не са шифрирани.">
-<!ENTITY identity.passiveLoaded "Части от страницата, като например изображения, не са шифрирани.">
+<!ENTITY identity.passiveLoaded "Части от страницата, например изображения, не са шифровани.">
 <!ENTITY identity.activeLoaded "Изключихте защитата за тази страница.">
 <!ENTITY identity.weakEncryption "Тази странница използва слабо шифриране.">
 
@@ -738,9 +755,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.open.accesskey                   "О">
 <!ENTITY syncedTabs.context.openInNewTab.label               "Отваряне в раздел">
 <!ENTITY syncedTabs.context.openInNewTab.accesskey           "д">
-<!ENTITY syncedTabs.context.openInNewWindow.label            "Отваряне в нов прозорец">
+<!ENTITY syncedTabs.context.openInNewWindow.label            "Отваряне в прозорец">
 <!ENTITY syncedTabs.context.openInNewWindow.accesskey        "п">
-<!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Отваряне в нов прозорец за поверително сърфиране">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Отваряне в поверителен прозорец">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "п">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.label          "Отмятане на страницата…">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "т">
@@ -771,12 +788,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "Показване на оповестявянията на работния плот">
 <!ENTITY social.toggleNotifications.accesskey "р">
 
-<!ENTITY social.activated.description "Услугите от <label/> бяха включени. Можете да промените настройките за услугите в <label class='text-link'>Управление на добавки</label>.">
-<!ENTITY social.activated.undo.label "Опа, отменете това!">
-<!ENTITY social.activated.undo.accesskey "о">
 <!ENTITY social.learnMore.label "Научете повече...">
 <!ENTITY social.learnMore.accesskey "Н">
-<!ENTITY social.closeNotificationItem.label "Не сега">
 
 <!ENTITY social.directory.label "Списък с услуги">
 <!ENTITY social.directory.text "Можете да включите Услугите за споделяне от този списък.">
@@ -803,9 +816,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.chatBar.accesskey "ц">
 
 <!ENTITY social.markpageMenu.accesskey "с">
-<!ENTITY social.markpageMenu.label "Запис на страницата…">
+<!ENTITY social.markpageMenu.label "Запазване на страницата в…">
 <!ENTITY social.marklinkMenu.accesskey "в">
-<!ENTITY social.marklinkMenu.label "Запазване на връзката…">
+<!ENTITY social.marklinkMenu.label "Запазване на препратката…">
 
 <!ENTITY getUserMedia.selectCamera.label "Камера за споделяне:">
 <!ENTITY getUserMedia.selectCamera.accesskey "К">
@@ -817,7 +830,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingProtection.title "Защита от проследяване">
 <!ENTITY trackingProtection.detectedBlocked3 "&brandShortName; блокира части от страницата, които биха могли да проследяват вашето браузване.">
 <!ENTITY trackingProtection.detectedNotBlocked3 "Този сайт включва елементи, които биха могли да проследяват вашето браузване. Защитата от проследяване е изключена.">
-<!ENTITY trackingProtection.notDetected3 "Не са открити проследяващи елементи в страницата.">
+<!ENTITY trackingProtection.notDetected3 "В тази страницата не са открити проследяващи елементи.">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in NON-private browsing mode. -->
@@ -826,8 +839,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate.label, trackingProtection.unblockPrivate.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in PRIVATE browsing mode. -->
-<!ENTITY trackingProtection.unblockPrivate.label "Изключване на защитата за страницата">
-<!ENTITY trackingProtection.unblockPrivate.accesskey "И">
+<!ENTITY trackingProtection.unblockPrivate.label "Изключване на защитата за сесията">
+<!ENTITY trackingProtection.unblockPrivate.accesskey "с">
 <!ENTITY trackingProtection.block2.label "Включване на защита">
 <!ENTITY trackingProtection.block2.accesskey "В">
 

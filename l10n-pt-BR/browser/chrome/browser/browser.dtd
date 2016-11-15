@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "x">
 <!ENTITY  unpinTab.label                     "Desafixar aba">
 <!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "Enviar aba para o dispositivo">
+<!ENTITY  sendTabToDevice.accesskey          "d">
+<!ENTITY  sendPageToDevice.label             "Enviar página para o dispositivo">
+<!ENTITY  sendPageToDevice.accesskey         "d">
+<!ENTITY  sendLinkToDevice.label             "Enviar Link para o dispositivo">
+<!ENTITY  sendLinkToDevice.accesskey         "d">
 <!ENTITY  moveToNewWindow.label              "Mover para nova janela">
 <!ENTITY  moveToNewWindow.accesskey          "v">
 <!ENTITY  bookmarkAllTabs.label              "Adicionar todas as abas…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "Mostrar todas as abas">
 <!ENTITY showAllTabsCmd.accesskey "x">
+<!ENTITY toggleReaderMode.key "">
 
 <!ENTITY fxaSignIn.label "Entrar no &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Abrir preferências &syncBrand.shortName.label;">
@@ -128,6 +135,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullscreenWarning.beforeDomain.label "">
 <!ENTITY fullscreenWarning.afterDomain.label "está em tela inteira">
 <!ENTITY fullscreenWarning.generic.label "Este documento está no modo de tela inteira">
+
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
@@ -135,6 +143,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button "Sair da tela inteira (esc)">
 <!ENTITY leaveDOMFullScreen.label "Sair da tela inteira">
 <!ENTITY leaveDOMFullScreen.accesskey "t">
+
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "tem controle de seu ponteiro. Pressione Esc para retomar o controle.">
+<!ENTITY pointerlockWarning.generic.label "Este documento tem o controle do seu ponteiro. Pressione Esc para retomar o controle.">
 
 <!ENTITY closeWindow.label "Fechar janela">
 <!ENTITY closeWindow.accesskey "h">
@@ -320,7 +337,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyUndoWindowMenu.label "Janelas fechadas recentemente">
 <!ENTITY historyRestoreLastSession.label "Restaurar sessão anterior">
 
-<!ENTITY showAllHistoryCmd2.label "Mostrar histórico">
+<!ENTITY showAllHistoryCmd2.label "Mostrar todo o histórico">
 <!ENTITY showAllHistoryCmd.commandkey "H">
 
 <!ENTITY appMenuCustomize.label "Personalizar">
@@ -377,7 +394,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.switchToTab.label     "Selecionar a aba:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Gostaria de melhorar a sua experiência de pesquisa com sugestões?">
-<!ENTITY urlbar.searchSuggestionsNotification.learnMore "Saiba mais…">
+<!ENTITY urlbar.searchSuggestionsNotification.learnMore "Saber mais…">
 <!ENTITY urlbar.searchSuggestionsNotification.learnMore.accesskey "l">
 <!ENTITY urlbar.searchSuggestionsNotification.disable "Não">
 <!ENTITY urlbar.searchSuggestionsNotification.disable.accesskey "n">
@@ -628,7 +645,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "Sair"> 
 <!ENTITY quitApplicationCmd.accesskey   "S">
-<!ENTITY quitApplicationCmdMac2.label   "Sair do &brandShorterName;">
+<!ENTITY quitApplicationCmdMac2.label   "Encerrar &brandShorterName;">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
@@ -691,12 +708,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.weakEncryption "Esta página usa criptografia fraca.">
 
 <!-- Strings for connection state warnings in the subview. -->
-<!ENTITY identity.description.insecure "A conexão com este site não é privada. As informações que você enviar (tais como senhas, mensagens, cartões de créditos, etc) podem ser vistas por outros.">
+<!ENTITY identity.description.insecure "A conexão com este site não é privativa. As informações que enviar (tais como senhas, mensagens, cartões de créditos, etc.) podem ser vistas por outros.">
 <!ENTITY identity.description.insecureLoginForms "As informações de login que você inserir nesta página não estão seguras e podem ser comprometidas.">
-<!ENTITY identity.description.weakCipher "A conexão com este website usa criptografia fraca e não é privada.">
+<!ENTITY identity.description.weakCipher "A conexão com este website usa criptografia fraca e não é privativa.">
 <!ENTITY identity.description.weakCipher2 "Outras pessoas podem ver a sua informação ou alterar o comportamento do site web.">
 <!ENTITY identity.description.activeBlocked "O &brandShortName; bloqueou partes desta página que não são seguras.">
-<!ENTITY identity.description.passiveLoaded "A sua conexão não é segura, as informações que você compartilhar com este site podem ser vistas por outros.">
+<!ENTITY identity.description.passiveLoaded "A sua coneção não é privativa e a informação que compartilha com o site pode ser vista por outros.">
 <!ENTITY identity.description.passiveLoaded2 "Este site web contém conteúdo que não é seguro (tal como imagens).">
 <!ENTITY identity.description.passiveLoaded3 "O &brandShortName; bloqueou alguns conteúdos, mas ainda tem elementos na página que não são seguros (como imagens).">
 <!ENTITY identity.description.activeLoaded "Este site contém conteúdo que não é seguro (tal como scripts) e a sua conexão com ele não é privada.">
@@ -706,7 +723,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.enableMixedContentBlocking.accesskey "e">
 <!ENTITY identity.disableMixedContentBlocking.label "Desativar proteção por enquanto">
 <!ENTITY identity.disableMixedContentBlocking.accesskey "D">
-<!ENTITY identity.learnMore "Saiba mais">
+<!ENTITY identity.learnMore "Saber mais">
 
 <!ENTITY identity.removeCertException.label "Remover exceção">
 <!ENTITY identity.removeCertException.accesskey "R">
@@ -771,12 +788,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "Mostrar notificações no desktop">
 <!ENTITY social.toggleNotifications.accesskey "E">
 
-<!ENTITY social.activated.description "Os serviços do <label/> foram ativados. Você pode alterar as configurações dos serviços no <label class='text-link'>Gerenciador de complementos</label>.">
-<!ENTITY social.activated.undo.label "Epa, desfazer isso!">
-<!ENTITY social.activated.undo.accesskey "E">
-<!ENTITY social.learnMore.label "Saiba mais…">
+<!ENTITY social.learnMore.label "Saber mais…">
 <!ENTITY social.learnMore.accesskey "S">
-<!ENTITY social.closeNotificationItem.label "Agora não">
 
 <!ENTITY social.directory.label "Diretório de ativações">
 <!ENTITY social.directory.text "Você pode ativar serviços de compartilhamento a partir do diretório.">
@@ -833,7 +846,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY trackingContentBlocked.message "Rastreamento">
 <!ENTITY trackingContentBlocked.moreinfo "Partes desta página que rastreiam sua atividade online foram bloqueadas.">
-<!ENTITY trackingContentBlocked.learnMore "Saiba mais">
+<!ENTITY trackingContentBlocked.learnMore "Saber mais">
 <!ENTITY trackingContentBlocked.options "Opções">
 <!ENTITY trackingContentBlocked.unblock2.label "Desativar proteção para este site">
 <!ENTITY trackingContentBlocked.unblock2.accesskey "D">
@@ -887,5 +900,5 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY panicButton.thankyou.msg2                "Navegação segura!">
 <!ENTITY panicButton.thankyou.buttonlabel         "Obrigado!">
 
-<!ENTITY emeLearnMoreContextMenu.label            "Saiba mais sobre DRM…">
+<!ENTITY emeLearnMoreContextMenu.label            "Saber mais sobre o DRM…">
 <!ENTITY emeLearnMoreContextMenu.accesskey        "D">

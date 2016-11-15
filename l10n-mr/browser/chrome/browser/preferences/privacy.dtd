@@ -47,7 +47,7 @@
 <!ENTITY  acceptCookies.accesskey       "A">
 
 <!ENTITY  acceptThirdParty.pre.label      "तिसरे-पक्षीय कूकिज स्वीकारा:">
-<!ENTITY  acceptThirdParty.pre.accesskey  "c">
+<!ENTITY  acceptThirdParty.pre.accesskey  "y">
 <!ENTITY  acceptThirdParty.always.label   "नेहमी">
 <!ENTITY  acceptThirdParty.never.label    "कधीच नाही">
 <!ENTITY  acceptThirdParty.visited.label  "भेट दिलेल्यांमधून">
@@ -64,7 +64,7 @@
 <!ENTITY  showCookies.label             "कुकीज दाखवा…">
 <!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; will:">
+<!ENTITY  historyHeader.pre.label          "&brandShortName; करेल:">
 <!ENTITY  historyHeader.pre.accesskey      "w">
 <!ENTITY  historyHeader.remember.label     "इतिहास लक्षात ठेवा">
 <!ENTITY  historyHeader.dontremember.label "इतिहास कधीच लक्षात ठेवु नका">
@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "सेटिंग्ज…">
 <!ENTITY  clearOnCloseSettings.accesskey "t">
+
+<!ENTITY  browserContainersHeader.label         "कंटेनर टॅब्स">
+<!ENTITY  browserContainersLearnMore.label      "आणखी शिका">
+<!ENTITY  browserContainersEnabled.label        "कंटेनर टॅब्स सक्रीय करा">
+<!ENTITY  browserContainersEnabled.accesskey    "n">

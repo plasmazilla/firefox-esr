@@ -2,92 +2,122 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY firstrun_panel_title_welcome "Добре дошли">
 
+<!ENTITY firstrun_urlbar_message "Добре дошли във &brandShortName;">
+<!ENTITY firstrun_urlbar_subtext "Намирайте нещата бързо с удобни подсказки при търсене.">
+<!ENTITY firstrun_bookmarks_title "История">
+<!ENTITY firstrun_bookmarks_message "Любимите ви неща най-напред">
+<!ENTITY firstrun_bookmarks_subtext "Показване на резултати от отметките и историята при търсене.">
+<!ENTITY firstrun_data_title "Данни">
+<!ENTITY firstrun_data_message "По-малко данни, повече спестявания">
+<!ENTITY firstrun_data_subtext2 "Изключете изображенията, за да пестите данни от всяка посетена страница.">
+<!ENTITY firstrun_sync_title "Sync">
+<!ENTITY firstrun_sync_message "&brandShortName;, винаги до вас">
+<!ENTITY firstrun_sync_subtext "Синхронизирайте разделите, паролите и всичко друго където и да сте.">
+<!ENTITY firstrun_signin_message "Свържете се, започнете">
+<!ENTITY firstrun_signin_button "Впишете се в Sync">
+<!ENTITY  onboard_start_button_browser "Започнете да сърфирате">
+<!ENTITY firstrun_button_notnow "Не сега">
+<!ENTITY firstrun_button_next "Напред">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY firstrun_tabqueue_title "Препратки">
 <!-- Localization note (firstrun_tabqueue_message): 'Tab queue' is a feature that allows users to queue up or save links from outside of Firefox (without switching apps) - these links will be loaded in Firefox the next time Firefox is opened. -->
+<!ENTITY firstrun_tabqueue_message_off "Включване на опашката от раздели">
+<!ENTITY firstrun_tabqueue_subtext_off "Запазване на препратки, които отваряте от други приложения във &brandShortName;.">
 
+<!ENTITY firstrun_tabqueue_message_on "Успяхме!">
+<!ENTITY firstrun_tabqueue_subtext_on "Винаги можете да го изключите в &settings; под &pref_category_general;.">
 
-
-
+<!ENTITY firstrun_readerview_title "Статии">
 <!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
+<!ENTITY firstrun_readerview_message "Премахнете ненужното">
+<!ENTITY firstrun_readerview_subtext "Използвайте изгледа за четене, за да направите статиите по-лесни за четене даже извън мрежа.">
 
 <!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
+<!ENTITY firstrun_account_title "Вие">
+<!ENTITY firstrun_account_message "Имате &brandShortName; на друго устройство?">
 
+<!ENTITY  onboard_start_restricted1 "Бъдете в безопасност и дръжте контрола с тази олекотена версия на &brandShortName;.">
 
 <!-- Localization note: These are used as the titles of different pages on the home screen.
      They are automatically converted to all caps by the Android platform. -->
+<!ENTITY  bookmarks_title "Отметки">
 <!ENTITY  history_title "История">
 
+<!ENTITY  switch_to_tab "Превключване към раздел">
 
+<!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
+<!ENTITY  tab_offline_version "Показване на версия извън мрежа">
 
+<!ENTITY  crash_reporter_title "&brandShortName; доклад за срив">
+<!ENTITY  crash_message2 "&brandShortName; се срина. След рестарта отворените раздели трябва да бъдат изброени на началната страница на &brandShortName;.">
+<!ENTITY  crash_send_report_message3 "Разкажете на &vendorShortName; за срива, така че нещата да бъдат поправени">
+<!ENTITY  crash_include_url2 "Включително адреса на посетената страница">
+<!ENTITY  crash_sorry "Съжаляваме">
+<!ENTITY  crash_comment "Добавяне на коментар (коментарите са общодостъпни)">
+<!ENTITY  crash_allow_contact2 "Разрешаване на &vendorShortName; да се свързва с мен по повод този доклад">
+<!ENTITY  crash_email "Вашият имейл">
+<!ENTITY  crash_closing_alert "Излизане без изпращане на доклад за срив?">
+<!ENTITY  sending_crash_report "Изпращане на доклад за срив\u2026">
+<!ENTITY  crash_close_label "Затваряне">
+<!ENTITY  crash_restart_label "Рестартиране на &brandShortName;">
 
+<!ENTITY url_bar_default_text2 "Търсене или въвеждане на адрес">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY bookmark "Отметка">
+<!ENTITY bookmark_remove "Премахване на отметка">
+<!ENTITY bookmark_added "Отметката е добавена">
 <!-- Localization note (bookmark_already_added) : This string is
      used as a label in a toast. It is the verb "to bookmark", not
      the noun "a bookmark". -->
-
-
-
-
+<!ENTITY bookmark_already_added "Съществуваща отметка">
+<!ENTITY bookmark_removed "Отметката е премахната">
+<!ENTITY bookmark_updated "Отметката е обновена">
+<!ENTITY bookmark_options "Настройки">
+<!ENTITY screenshot_added_to_bookmarks "Снимката на екрана е добавена към отметките">
 <!-- Localization note (screenshot_folder_label_in_bookmarks): We save links to screenshots
      the user takes. The folder we store these links in is located in the bookmarks list
      and is labeled by this String. -->
+<!ENTITY screenshot_folder_label_in_bookmarks "Снимки на екрана">
+<!ENTITY readinglist_smartfolder_label_in_bookmarks "Списък за четене">
 
 <!-- Localization note (bookmark_folder_items): The variable is replaced by the number of items
      in the folder. -->
+<!ENTITY bookmark_folder_items "&formatD; елемента">
+<!ENTITY bookmark_folder_one_item "1 елемент">
 
-
+<!ENTITY reader_saved_offline "Запазено за извън мрежа">
 <!-- Localization note (reader_switch_to_bookmarks) : This
      string is used as an action in a snackbar - it lets you
      "switch" to the bookmarks (saved items) panel. -->
+<!ENTITY reader_switch_to_bookmarks "Превключване">
 
+<!ENTITY history_today_section "Днес">
+<!ENTITY history_yesterday_section "Вчера">
+<!ENTITY history_week_section3 "Последните 7 дни">
+<!ENTITY history_older_section3 "По-стари от 6 месеца">
 
+<!ENTITY search "Търсене">
+<!ENTITY reload "Презареждане">
+<!ENTITY forward "Напред">
+<!ENTITY menu "Меню">
+<!ENTITY back "Назад">
+<!ENTITY stop "Спиране">
+<!ENTITY site_security "Сигурност на сайта">
+<!ENTITY edit_mode_cancel "Отказ">
 
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY close_tab "Затваряне на раздел">
+<!ENTITY one_tab "1 раздел">
 <!-- Localization note (num_tabs2) : Number of tabs is always more than one.
      We can't use android plural forms, sadly. See bug #753859. -->
-
-
+<!ENTITY num_tabs2 "&formatD; раздела">
+<!ENTITY new_tab_opened "Добавен е нов раздел">
+<!ENTITY new_private_tab_opened "Добавен е нов поверителен раздел">
 <!-- Localization note (switch_button_message): This string should be as short
      as possible because it's shown as a label in a toast.  Ideally, this string
      is upper-case, to match Google and Android's convention. -->
+<!ENTITY switch_button_message "ОТВАРЯНЕ">
 <!-- Localization note (tab_title_prefix_is_playing_audio): This string is not
      visible in the UI, but rather used as a text-to-speech content description
      for sight-impaired a11y users. The content description is set on a tab
@@ -95,389 +125,512 @@
      &formatS; will be replaced with the title of the tab, as received from the
      web page. When audio is not playing in a tab, &formatS; will be used as
      the content description. -->
+<!ENTITY tab_title_prefix_is_playing_audio "Възпроизвежда аудио – &formatS;">
 
-
-
+<!ENTITY settings "Настройки">
+<!ENTITY settings_title "Настройки">
+<!ENTITY pref_category_general "Основни">
+<!ENTITY pref_category_general_summary3 "Начало, език, опашка от раздели">
 
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
      UI. The locale includes both language and region concepts. -->
-
+<!ENTITY pref_category_language "Език">
+<!ENTITY pref_category_language_summary "Промяна на езика на браузъра">
+<!ENTITY pref_browser_locale "Език на браузъра">
 
 <!-- Localization note (locale_system_default) : This string indicates that
      Firefox will use the locale currently selected in Android's settings
      to display browser chrome. -->
+<!ENTITY locale_system_default "Стандартен за системата">
+
 <!-- Localization note (overlay_share_label) : This is the label that appears
      in Android's intent chooser when sending a link to Firefox to bookmark,
      send to another device, or add to Reading List. -->
+<!ENTITY overlay_share_label "Добавяне към &brandShortName;">
+
 <!-- Localization note (overlay_share_bookmark_btn_label) : This string is
      used in the share overlay menu to select an action. It is the verb
      "to bookmark", not the noun "a bookmark". -->
-
+<!ENTITY overlay_share_bookmark_btn_label "Отметка">
+<!ENTITY overlay_share_bookmark_btn_label_already "Съществуваща отметка">
+<!ENTITY overlay_share_send_other "Изпратете до друго устройство">
 
 <!-- Localization note (overlay_share_send_tab_btn_label) : Used on the
      share overlay menu to represent the "Send Tab" action when the user
      either has not set up Sync, or has no other devices to send a tab
      to. -->
-
-
+<!ENTITY overlay_share_send_tab_btn_label "Изпратете до друго устройство">
+<!ENTITY overlay_share_no_url "Няма препратка в този сайт">
+<!ENTITY overlay_share_select_device "Избор на устройство">
 <!-- Localization note (overlay_no_synced_devices) : Used when the menu option
      to send a tab to a synced device is pressed and no other synced devices
      are found. -->
+<!ENTITY overlay_no_synced_devices "Това устройство не е свързано с Firefox Account">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY pref_category_search3 "Търсене">
+<!ENTITY pref_category_search_summary2 "Добавяне, задаване на стандартни, показване на предложения">
+<!ENTITY pref_category_accessibility "Достъпност">
+<!ENTITY pref_category_accessibility_summary2 "Размер на текста, мащабиране, гласово въвеждане">
+<!ENTITY pref_category_privacy_short "Поверителност">
+<!ENTITY pref_category_privacy_summary4 "Проследяване, регистрации, избор на данни">
+<!ENTITY pref_category_vendor2 "&vendorShortName; &brandShortName;">
+<!ENTITY pref_category_vendor_summary2 "Относно &brandShortName;, ЧЗВ, обратна връзка">
+<!ENTITY pref_category_datareporting "Данни">
+<!ENTITY pref_category_logins "Регистрации">
+<!ENTITY pref_learn_more "Научете повече">
+<!ENTITY pref_category_installed_search_engines "Инсталирани машини за търсене">
+<!ENTITY pref_category_add_search_providers "Добавяне на търсещи машини">
+<!ENTITY pref_category_search_restore_defaults "Възстановяване търсещите машини">
+<!ENTITY pref_search_restore_defaults "Връщане на стандартни настройки">
+<!ENTITY pref_search_restore_defaults_summary "Връщане на стандартни настройки">
 <!-- Localization note (pref_search_hint) : "TIP" as in "hint", "clue" etc. Displayed as an
      advisory message on the customise search providers settings page explaining how to add new
      search providers.
      The &formatI; in the string will be replaced by a small image of the icon described, and can be moved to wherever
      it is applicable. -->
-
+<!ENTITY pref_search_hint2 "СЪВЕТ: Добавете всеки сайт към списъка с търсещи машини като докоснете и задържите полето му за търсене и докоснете пиктограмата &formatI;.">
+<!ENTITY pref_category_advanced "Разширени">
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
+<!ENTITY pref_category_advanced_summary3 "Възстановяване на раздели, икономия на данни, разработчици">
+<!ENTITY pref_category_notifications "Известия">
+<!ENTITY pref_category_notifications_summary "Нови възможности, обновяване на страницата">
+<!ENTITY pref_content_notifications "Обновяване на страницата">
+<!ENTITY pref_content_notifications_summary2 "Откриване на съдържание от сайтове със съответната поддръжка">
+<!ENTITY pref_developer_remotedebugging_usb "Отдалечено отстраняване на дефекти през USB">
+<!ENTITY pref_developer_remotedebugging_wifi "Отдалечено отстраняване на дефекти през Wi-Fi">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Отстраняване на дефекти през Wi-Fi изисква устройството ви да има приложение за разчитане на QR кодове.">
+<!ENTITY pref_remember_signons2 "Запазване на регистрации">
+<!ENTITY pref_manage_logins "Управление на регистрации">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY pref_category_home "Начало">
+<!ENTITY pref_category_home_summary "Персонализиране на началната страница">
+<!ENTITY pref_category_home_panels "Панели">
+<!ENTITY pref_category_home_add_ons "Добавки">
+<!ENTITY pref_home_updates2 "Обновяване на съдържанието">
+<!ENTITY pref_home_updates_enabled "Включено">
+<!ENTITY pref_home_updates_wifi "Само през Wi-Fi">
+<!ENTITY pref_category_home_homepage "Начална страница">
+<!ENTITY home_homepage_title "Задаване на начална страница">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, they will use the built-in default Firefox homepage (about:home). -->
+<!ENTITY home_homepage_radio_default "Начала страница на &brandShortName;">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, a text field will appear below the radio button and allow the
      user to insert an address of their choice. -->
+<!ENTITY home_homepage_radio_user_address "Потребителска">
 <!-- Localization note (home_homepage_hint_user_address): The user will see a series of
      radio buttons to choose the homepage they'd like to start on. When they click a
      particular radio button, a text field will appear below the radio button and allow the
      user to insert an address of their choice. This string is the hint text to that
      text field. -->
+<!ENTITY home_homepage_hint_user_address "Въведете адрес или дума за търсене">
+
 <!-- Localization note: These are shown in the left sidebar on tablets -->
+<!ENTITY pref_header_general "Основни">
+<!ENTITY pref_header_search "Търсене">
+<!ENTITY pref_header_privacy_short "Поверителност">
+<!ENTITY pref_header_accessibility "Достъпност">
+<!ENTITY pref_header_notifications "Известия">
+<!ENTITY pref_header_advanced "Разширени">
+<!ENTITY pref_header_help "Помощ">
+<!ENTITY pref_header_vendor "&vendorShortName;">
 
-
-
-
-
-
-
-
-
-
+<!ENTITY pref_cookies_menu "Бисквитки">
+<!ENTITY pref_cookies_accept_all "Разрешени">
+<!ENTITY pref_cookies_not_accept_foreign "Разрешени, с изключение на 3-ти страна">
+<!ENTITY pref_cookies_disabled "Забранени">
 
 <!-- Localization note (pref_category_data_saver): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
+<!ENTITY pref_category_data_saver "Икономия на данни">
+<!ENTITY pref_category_media "Медия">
+<!ENTITY pref_category_developer_tools "Развойни инструменти">
 
+<!ENTITY pref_tap_to_load_images_title2 "Показване на изображенията">
+<!ENTITY pref_tap_to_load_images_enabled "Винаги">
+<!ENTITY pref_tap_to_load_images_data "Само през Wi-Fi">
+<!ENTITY pref_tap_to_load_images_disabled2 "Блокиране">
 
+<!ENTITY pref_show_web_fonts "Показване на уебшрифтове">
+<!ENTITY pref_show_web_fonts_summary2 "Изтегляне на шрифтовете при отваряне на страницата">
 
+<!ENTITY pref_tracking_protection_title2 "Защита от проследяване">
+<!ENTITY pref_tracking_protection_summary3 "Включена при поверително сърфиране">
+<!ENTITY pref_donottrack_title "Без проследяване">
+<!ENTITY pref_donottrack_summary "&brandShortName; ще казва на сайтовете, че не желаете да бъдете проследявани">
 
+<!ENTITY pref_tracking_protection_enabled "Включено">
+<!ENTITY pref_tracking_protection_enabled_pb "Включено при поверително сърфиране">
+<!ENTITY pref_tracking_protection_disabled "Изключено">
 
+<!ENTITY pref_whats_new_notification "Какво е новото в &brandShortName;">
+<!ENTITY pref_whats_new_notification_summary "Научете за новите възможности след актуализация">
 
+<!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
+     for experimental features. -->
+<!ENTITY pref_category_experimental "Експериментални възможности">
 
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+     Instead of switching to the browser it appears as if the user stays in the third-party app.
+     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+<!ENTITY pref_custom_tabs "Потребителски раздели">
+<!ENTITY pref_custom_tabs_summary "Разрешаване на трети приложения да отварят страници в раздели с променен облик.">
 
+<!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
+<!ENTITY pref_activity_stream "Поток от дейности">
+<!ENTITY pref_activity_stream_summary "Богатият визуален списък на историята и изцяло новата начална страница правят търсенето неща от &brandShortName; изключително лесно.">
 
+<!ENTITY tracking_protection_prompt_title "Сега със Защитата от проследяване">
+<!ENTITY tracking_protection_prompt_text "Активно блокира проследяващи елементи за ваше спокойствие.">
+<!ENTITY tracking_protection_prompt_tip_text "Вижте настройките на поверителност, за да научите повече">
+<!ENTITY tracking_protection_prompt_action_button "Разбрах!">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY tab_queue_toast_message3 "Разделът е запазен в &brandShortName;">
+<!ENTITY tab_queue_toast_action "Отваряне">
+<!ENTITY tab_queue_prompt_title "Отваряте няколко препратки?">
+<!ENTITY tab_queue_prompt_text4 "Запазете ги за следващия път, когато отворите &brandShortName;.">
+<!ENTITY tab_queue_prompt_tip_text2 "Можете да промените това по всяко време в Настройки">
 <!-- Localization note (tab_queue_prompt_permit_drawing_over_apps): This additional text is shown if the
      user needs to enable an Android setting in order to enable tab queues. -->
-
-
+<!ENTITY tab_queue_prompt_permit_drawing_over_apps "Разрешете изчертаването отгоре на другите приложения">
+<!ENTITY tab_queue_prompt_positive_action_button "Разрешаване">
+<!ENTITY tab_queue_prompt_negative_action_button "Не сега">
 <!-- Localization note (tab_queue_prompt_settings_button): This button is shown if the user needs to
      enable a permission in Android's setting in order to enable tab queues. -->
-
+<!ENTITY tab_queue_prompt_settings_button "Към настройките">
+<!ENTITY tab_queue_notification_title "&brandShortName;">
 <!-- Localization note (tab_queue_notification_text_plural2) : The
      formatD is replaced with the number of tabs queued.  The
      number of tabs queued is always more than one.  We can't use
      Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY tab_queue_notification_text_plural2 "&formatD; чакащи раздела">
 <!-- Localization note (tab_queue_notification_text_singular2) : This is the
      text of a notification; we expect only one tab queued. -->
+<!ENTITY tab_queue_notification_text_singular2 "1 чакащ раздел">
+
 <!-- Localization note (tab_queue_notification_settings): This notification text is shown if a tab
      has been queued but we are missing the system permission to show an overlay. -->
+<!ENTITY tab_queue_notification_settings "За да използвате „Open multiple links“, моля разрешете на &brandShortName; правото „Draw over other apps“">
 
+<!ENTITY content_notification_summary "&brandShortName;">
 <!-- Localization note (content_notification_title_plural): &formatD; will be replaced with the number of websites that
      have been updated (new content is available). The number of websites is always more than one (>= 2). For a single
      update the website title is used instead of this string.
      We can't use Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY content_notification_title_plural "&formatD; актуализирани сайта">
 <!-- Localization note (content_notification_action_settings2): This label will be shown as an action in a content notification.
      Clicking the action will jump to the notification settings of the app. -->
+<!ENTITY content_notification_action_settings2 "Настройки">
 <!-- Localization note(content_notification_action_read_now): This label will be shown as an action in a content notification.
      Clicking the action will open all new content in the browser. -->
+<!ENTITY content_notification_action_read_now "Прочитане">
 <!-- Localization note (content_notification_updated_on): &formatS; will be replaced with a medium sized version of the
      date, depending on locale. For en_US this is for example: Feb 24, 2016. For more details see the Android developer
      documentation for DateFormat.getMediumDateFormat(). -->
+<!ENTITY content_notification_updated_on "Актуално към &formatS;">
 
-
-
-
+<!ENTITY pref_char_encoding "Кодиране на знаците">
+<!ENTITY pref_char_encoding_on "Показване на менюто">
+<!ENTITY pref_char_encoding_off "Скриване на менюто">
+<!ENTITY pref_clear_private_data2 "Изчистване на лични данни">
 <!-- Localization note (pref_clear_private_data_now_tablet): This action to clear private data is only shown on tablets.
      The action is shown below a header saying "Clear private data"; See pref_clear_private_data -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY pref_clear_private_data_now_tablet "Изчистване">
+<!ENTITY pref_clear_on_exit_title3 "Изчистване на лични данни при затваряне">
+<!ENTITY pref_clear_on_exit_summary2 "&brandShortName; автоматично ще изчисти ваши данни, когато изберете \u0022Изход\u0022 от главното меню">
+<!ENTITY pref_clear_on_exit_dialog_title "Изберете кои данни да бъдат изтривани">
+<!ENTITY pref_plugins "Приставки">
+<!ENTITY pref_plugins_enabled "Включени">
+<!ENTITY pref_plugins_tap_to_play2 "Докосване за включване">
+<!ENTITY pref_plugins_disabled "Изключени">
+<!ENTITY pref_text_size "Размер на текста">
+<!ENTITY pref_restore_tabs "Възстановяване на раздели">
+<!ENTITY pref_restore_always "Всеки път">
+<!ENTITY pref_restore_quit "Без възстановяване при изход от &brandShortName;">
+<!ENTITY pref_font_size_tiny "Миниатюрен">
+<!ENTITY pref_font_size_small "Малък">
+<!ENTITY pref_font_size_medium "Среден">
+<!ENTITY pref_font_size_large "Голям">
+<!ENTITY pref_font_size_xlarge "Много голям">
+<!ENTITY pref_font_size_set "Избиране">
 <!-- Localization note (pref_font_size_adjust_char): A button with a small version of this character
 (or combination of characters) is used to decrease the preview font size; a larger version of the
 same character/combination is used to increase the preview font size. It should be a concise
 representation of the language it is used in that will help show the text in the preview will change
 size. -->
+<!ENTITY pref_font_size_adjust_char "АаБбВв">
+
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
+<!ENTITY pref_font_size_preview_text "Бързата оранжева лисица надскача вашите очаквания с повече скорост, по-голяма гъвкавост и повече защита. Като организация с нестопанска цел сме свободни да изобретяваме сами за себе си без натиск отвън който да влияе на качеството. Това означава по-добро изживяване за вас и по-светло бъдеще за Мрежата.">
 
+<!ENTITY pref_media_autoplay_enabled "Автоматично изпълняване">
+<!ENTITY pref_media_autoplay_enabled_summary "Управлява дали сайтовете да изпълняват автоматично видео и друга медия">
+<!ENTITY pref_zoom_force_enabled "Мащабирането да е винаги включено">
+<!ENTITY pref_zoom_force_enabled_summary "Позволява ви да мащабирате всяка страница">
+<!ENTITY pref_voice_input "Въвеждане чрез глас">
+<!ENTITY pref_voice_input_summary2 "Позволява диктуване от адресната лента">
+<!ENTITY pref_qrcode_enabled "Четец за QR">
+<!ENTITY pref_qrcode_enabled_summary2 "Позволява скенер на QR в адресната лента">
 
+<!ENTITY pref_use_master_password "Използване на главна парола">
+<!ENTITY pref_sync2 "Вписване">
+<!ENTITY pref_sync_summary2 "Синхронизиране на раздели, отметки, регистрации, история">
+<!ENTITY pref_search_suggestions "Показване на подсказки">
+<!ENTITY pref_history_search_suggestions "Показване на историята">
+<!ENTITY pref_import_options "Настройки за внасяне">
+<!ENTITY pref_import_android_summary "Внасяне на отметки и история от фабричния браузър">
+<!ENTITY pref_private_data_history2 "История на сърфиране">
+<!ENTITY pref_private_data_searchHistory "История на търсения">
+<!ENTITY pref_private_data_formdata2 "История на формуляри">
+<!ENTITY pref_private_data_cookies2 "Бисквитки и текущи вписвания">
+<!ENTITY pref_private_data_passwords2 "Запазени регистрации">
+<!ENTITY pref_private_data_cache "Кеш">
+<!ENTITY pref_private_data_offlineApps "Данни за сайтове без мрежа">
+<!ENTITY pref_private_data_siteSettings2 "Настройки на сайтове">
+<!ENTITY pref_private_data_downloadFiles2 "Изтегляния">
+<!ENTITY pref_private_data_syncedTabs "Синхронизирани раздели">
 
+<!ENTITY pref_default_browser "Задаване като стандартен браузър">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Посетете Поддръжка на Mozilla">
+<!ENTITY pref_about_firefox "Относно &brandShortName;">
+<!ENTITY pref_vendor_faqs "Въпроси и отговори">
+<!ENTITY pref_vendor_feedback "Даване на обратна връзка">
 
+<!ENTITY pref_dialog_set_default "Задаване като стандартна">
+<!ENTITY pref_dialog_default "Стандартна">
+<!ENTITY pref_dialog_remove "Премахване">
 
+<!ENTITY pref_search_last_toast "Не можете да премахнете или изключите последната търсеща машина.">
 
+<!ENTITY pref_panels_show "Показване">
+<!ENTITY pref_panels_hide "Скриване">
+<!ENTITY pref_panels_reorder "Промяна на реда">
+<!ENTITY pref_panels_move_up "Нагоре">
+<!ENTITY pref_panels_move_down "Надолу">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY datareporting_notification_title "Статистика и данни за &brandShortName;">
+<!ENTITY datareporting_notification_action "Изберете какво споделяте">
 <!-- Used in datareporting_notification_ticket_text, but unused in strings.xml. -->
-
+<!ENTITY datareporting_notification_action_long "Изберете каква информация да споделяте">
+<!ENTITY datareporting_notification_summary "За да подобри изживяването ви &brandShortName; изпраща автоматично информация до &vendorShortName;.">
 <!-- When this item is removed, also remove datareporting_notification_action_long:
      it is unused in strings.xml. -->
+<!ENTITY datareporting_notification_ticker_text "&datareporting_notification_title;: &datareporting_notification_action_long;">
+
 <!-- Localization note (datareporting_fhr_title, datareporting_fhr_summary2,
      reporting_telemetry_title, datareporting_telemetry_summary,
      datareporting_crashreporter_summary) : These match the strings in
      en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
      healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
      crashReporterDesc.label). -->
-
-
-
-
-
+<!ENTITY datareporting_fhr_title "Доклад за изправност на &brandShortName;">
+<!ENTITY datareporting_fhr_summary2 "Споделя данни с &vendorShortName; за изправността на браузъра и ви помага да разберете производителността му">
+<!ENTITY datareporting_abouthr_title "Преглед на доклада за изправност">
+<!ENTITY datareporting_telemetry_title "Телеметрия">
+<!ENTITY datareporting_telemetry_summary "Споделя данни за използването, производителността, хардуера, настройките на браузъра ви с &vendorShortName; за да ни помогне да направим &brandShortName; по-добър">
+<!ENTITY datareporting_crashreporter_summary "&brandShortName; изпраща отчети за сривовете, за да помогне на &vendorShortName; да направи браузъра по-стабилен и по-сигурен">
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
-
-
+<!ENTITY datareporting_crashreporter_title_short "Отчети за сривове">
+<!ENTITY datareporting_wifi_title2 "Услуга за местоположение от &vendorShortName;">
+<!ENTITY datareporting_wifi_geolocation_summary4 "Помогнете на &vendorShortName; да картографира света! Споделете приблизителното си местоположение спрямо Wi-Fi и мобилната мрежа на устройството, за да подобрите нашата услуга за геолокация.">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
-
-
+<!ENTITY pref_update_autodownload3 "Автоматично обновяване">
+<!ENTITY pref_update_autodownload_wifi "Само през Wi-Fi">
+<!ENTITY pref_update_autodownload_never "Никога">
+<!ENTITY pref_update_autodownload_always "Винаги">
 
 <!-- Localization note (help_menu) : This string is used in the main menu-->
+<!ENTITY help_menu "Помощ">
 
+<!ENTITY quit "Изход">
 
+<!ENTITY addons "Добавки">
+<!ENTITY logins "Регистрации">
+<!ENTITY downloads "Изтегляния">
+<!ENTITY char_encoding "Кодиране на знаците">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY share "Споделяне">
+<!ENTITY share_title "Споделяне чрез">
+<!ENTITY share_image_failed "Изображението не може да бъде споделено">
+<!ENTITY save_as_pdf "Запис като PDF">
+<!ENTITY print "Отпечатване">
+<!ENTITY find_in_page "Търсене в страницата">
+<!ENTITY desktop_mode "Настолна версия на сайта">
+<!ENTITY page "Страница">
+<!ENTITY tools "Инструменти">
+<!ENTITY new_tab "Нов раздел">
+<!ENTITY new_private_tab "Нов поверителен раздел">
+<!ENTITY close_all_tabs "Затваряне на всички раздели">
+<!ENTITY close_private_tabs "Затваряне на поверителните раздели">
+<!ENTITY tabs_normal "Раздели">
+<!ENTITY tabs_private "Поверителни">
+<!ENTITY set_image_fail "Изображението не може да бъде зададено">
+<!ENTITY set_image_path_fail "Изображението не може да бъде запазено">
+<!ENTITY set_image_chooser_title "Задаване на изображението като">
 
 <!-- Localization note (find_text, find_prev, find_next, find_close) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
-
-
+<!ENTITY find_text "Търсене в страницата">
+<!ENTITY find_prev "Назад">
+<!ENTITY find_next "Напред">
+<!ENTITY find_close "Затваряне">
 
 <!-- Localization note (media_sending_to, media_play, media_pause, media_stop) : These strings are used
      as alternate text for accessibility. They are not visible in the UI. -->
+<!ENTITY media_sending_to "Изпращане към устройство">
+<!ENTITY media_play "Изпълнение">
+<!ENTITY media_pause "Пауза">
+<!ENTITY media_stop "Стоп">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY contextmenu_open_new_tab "Отваряне в раздел">
+<!ENTITY contextmenu_open_private_tab "Отваряне в поверителен раздел">
+<!ENTITY contextmenu_remove "Премахване">
+<!ENTITY contextmenu_add_to_launcher "Добавяне към началния екран">
+<!ENTITY contextmenu_share "Споделяне">
+<!ENTITY contextmenu_pasteandgo "Поставяне и посещаване">
+<!ENTITY contextmenu_paste "Поставяне">
+<!ENTITY contextmenu_copyurl "Копиране на адрес">
+<!ENTITY contextmenu_edit_bookmark "Редактиране">
+<!ENTITY contextmenu_subscribe "Абониране за страницата">
+<!ENTITY contextmenu_site_settings "Редактиране настройките на сайт">
+<!ENTITY contextmenu_top_sites_edit "Редактиране">
+<!ENTITY contextmenu_top_sites_pin "Закачане на сайта">
+<!ENTITY contextmenu_top_sites_unpin "Премахване от леснодостъпните сайтове">
+<!ENTITY contextmenu_add_search_engine "Добавяне на търсеща машина">
 
 <!-- Localization note (doorhanger_login_no_username): This string is used in the save-login doorhanger
      where normally a username would be displayed. In this case, no username was found, and this placeholder
      contains brackets to indicate this is not actually a username, but rather a placeholder -->
-
-
-
-
-
-
-
-
-
+<!ENTITY doorhanger_login_no_username "[без потребителско име]">
+<!ENTITY doorhanger_login_edit_title "Редактиране на регистрацията">
+<!ENTITY doorhanger_login_edit_username_hint "Потребителско име">
+<!ENTITY doorhanger_login_edit_password_hint "Парола">
+<!ENTITY doorhanger_login_edit_toggle "Показване на паролата">
+<!ENTITY doorhanger_login_edit_toast_error "Неуспешно запазване на регистрацията">
+<!ENTITY doorhanger_login_select_message "Копиране на паролата от &formatS;?">
+<!ENTITY doorhanger_login_select_toast_copy "Паролата е копирана в системния буфер">
+<!ENTITY doorhanger_login_select_toast_copy_error "Паролата не може да бъде копирана">
+<!ENTITY doorhanger_login_select_action_text "Изберете друга регистрация">
+<!ENTITY doorhanger_login_select_title "Копиране на паролата от">
 
 <!-- Localization note (pref_prevent_magnifying_glass): Label for setting that controls
      whether or not the magnifying glass is disabled. -->
+<!ENTITY pref_magnifying_glass_enabled "Увеличаване на малки площи">
+<!ENTITY pref_magnifying_glass_enabled_summary2 "Увеличаване на препратки и полета на формуляри при докосване около тях">
 
 <!-- Localization note (pref_scroll_title_bar2): Label for setting that controls
      whether or not the dynamic toolbar is enabled. -->
+<!ENTITY pref_scroll_title_bar2 "Преглеждане на цял екран">
+<!ENTITY pref_scroll_title_bar_summary2 "Скриване на лентата с инструменти на &brandShortName; при плъзване надолу по страницата">
 
-
+<!ENTITY pref_tab_queue_title3 "Опашка от раздели">
+<!ENTITY pref_tab_queue_summary4 "Запазете препратки за следващия път, когато отворите &brandShortName;">
 
 <!-- Localization note (page_removed): This string appears in a toast message when
      any page is removed frome about:home. This includes pages that are in history,
      bookmarks, or reading list. -->
+<!ENTITY page_removed "Страницата е премахната">
 
-
-
+<!ENTITY bookmark_edit_title "Редактиране на отметка">
+<!ENTITY bookmark_edit_name "Име">
+<!ENTITY bookmark_edit_location "Местоположение">
+<!ENTITY bookmark_edit_keyword "Ключова дума">
 
 <!-- Localization note (site_settings_*) : These strings are used in the "Site Settings"
      dialog that appears after selecting the "Edit Site Settings" context menu item. -->
-
+<!ENTITY site_settings_title3       "Настройки на сайта">
+<!ENTITY site_settings_cancel       "Отказ">
+<!ENTITY site_settings_clear        "Изчистване">
 
 <!-- Localization note : These strings are used as alternate text for accessibility.
      They are not visible in the UI. -->
+<!ENTITY page_action_dropmarker_description "Допълнителни действия">
 
+<!ENTITY masterpassword_create_title "Задаване на главна парола">
+<!ENTITY masterpassword_remove_title "Премахване на главна парола">
+<!ENTITY masterpassword_password "Парола">
+<!ENTITY masterpassword_confirm "Потвърждение на паролата">
 
+<!ENTITY button_ok "Добре">
+<!ENTITY button_cancel "Отказ">
+<!ENTITY button_yes "Да">
+<!ENTITY button_no "Не">
+<!ENTITY button_clear_data "Изчистване">
+<!ENTITY button_set "Задаване">
+<!ENTITY button_clear "Изчистване">
+<!ENTITY button_copy "Копиране">
 
-
-
-
-
-
-
-
-
-
-
+<!ENTITY home_top_sites_title "Най-посещавани">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
+<!ENTITY home_top_sites_add "Добавяне на сайт">
+
 <!-- Localization note (home_title): This string should be kept in sync
      with the page title defined in aboutHome.dtd -->
-
-
-
+<!ENTITY home_title "Начала страница на &brandShortName;">
+<!ENTITY home_history_title "История">
+<!ENTITY home_synced_devices_smartfolder "Синхронизирани устртойства">
+<!ENTITY home_synced_devices_number "&formatD; устройства">
 <!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
-
-
-
-
-
-
-
-
-
+<!ENTITY home_synced_devices_one "1 устройство">
+<!ENTITY home_history_back_to2 "Обратно към История">
+<!ENTITY home_clear_history_button "Изчистване история на сърфирането">
+<!ENTITY home_clear_history_confirm "Сигурни ли сте, че желаете да изтриете историята на сърфирането?">
+<!ENTITY home_bookmarks_empty "Направените отметки се показват тук.">
+<!ENTITY home_closed_tabs_title2 "Наскоро затворени">
+<!ENTITY home_last_tabs_empty "Скоро затворените раздели се показват тук.">
+<!ENTITY home_restore_all "Възстановяване на всички">
+<!ENTITY home_closed_tabs_number "&formatD; раздела">
+<!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "1 раздел">
+<!ENTITY home_most_recent_empty "Скоро посетените страници се показват тук.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
+<!ENTITY home_most_recent_emptyhint2 "Ехоо! Ако използване &formatS1;Нов поверителен раздел&formatS2; историята ви няма да бъде запазена.">
+
 <!-- Localization note (home_default_empty): This string is used as the default text when there
      is no data to show in an about:home panel that was created by an add-on. -->
+<!ENTITY home_default_empty "Няма съдържание за този панел.">
+
 <!-- Localization note (home_back_up_to_filter): The variable is replaced by the name of the
      previous location in the navigation, such as the previous folder -->
+<!ENTITY home_move_back_to_filter "Обратно към &formatS;">
+
 <!-- Localization note (home_remote_tabs_many_hidden_devices) : The
      formatD is replaced with the number of hidden devices.  The
      number of hidden devices is always more than one.  We can't use
      Android plural forms, sadly. See Bug #753859. -->
+<!ENTITY home_remote_tabs_many_hidden_devices "&formatD; скрити устройство">
 <!-- Localization note (home_remote_tabs_hidden_devices_title) : This is the
      title of a dialog; we expect more than one device. -->
+<!ENTITY home_remote_tabs_hidden_devices_title "Скрити устройства">
 <!-- Localization note (home_remote_tabs_unhide_selected_devices) : This is
      the text of a button; we expect more than one device. -->
+<!ENTITY home_remote_tabs_unhide_selected_devices "Показване на избраните">
 
+<!ENTITY remote_tabs_panel_moved_title "Къде изчезнаха моите раздели?">
+<!ENTITY remote_tabs_panel_moved_desc "Преместихме разделите ви от другите устройства в отделна секция на началната страница, така че да ги имате всеки път, когато отваряте нов раздел.">
+<!ENTITY remote_tabs_panel_moved_link "Към новата секция.">
 
+<!ENTITY pin_site_dialog_hint "Въведете търсене">
 
-
-
-
-
+<!ENTITY filepicker_title "Избор на файл">
+<!ENTITY filepicker_audio_title "Избиране или записване на звук">
+<!ENTITY filepicker_image_title "Избиране или правене на снимка">
+<!ENTITY filepicker_video_title "Избиране или правене на видео">
 
 <!-- Site identity popup -->
+<!ENTITY identity_connected_to "Свързани сте към">
 <!-- Localization note (identity_run_by) : This string appears between a
 domain name (above) and an organization name (below). E.g.
 
@@ -489,65 +642,95 @@ The layout of the identity dialog prevents combining this into a single string w
 substitution variables.  If it is difficult to translate the sense of the string
 with that structure, consider a translation which ignores the preceding domain and
 just addresses the organization to follow, e.g. "This site is run by " -->
-
-
+<!ENTITY identity_connection_secure "Защитена връзка">
+<!ENTITY identity_connection_insecure "Незащитена връзка">
+<!ENTITY identity_connection_chromeui "Това е защитена страница на &brandShortName;">
 
 <!-- Mixed content notifications in site identity popup -->
-
-
+<!ENTITY mixed_content_blocked_all1 "&brandShortName; е блокирал несигурно съдържание на тази страница.">
+<!ENTITY mixed_content_blocked_some1 "&brandShortName; е блокирал част от несигурното съдържание на тази страница.">
+<!ENTITY mixed_content_display_loaded1 "Части от страницата, например изображения, не са шифровани.">
+<!ENTITY mixed_content_protection_disabled1 "Изключихте защитата от несигурно съдържание за тази страница.">
 
 <!-- Tracking content notifications in site identity popup -->
-
-
-
+<!ENTITY doorhanger_tracking_title2 "Защита от проследяване">
+<!ENTITY doorhanger_tracking_state_enabled "Включено">
+<!ENTITY doorhanger_tracking_state_disabled "Изключено">
+<!ENTITY doorhanger_tracking_message_enabled1 "Бяха блокирани опити за проследяване на поведението ви онлайн.">
+<!ENTITY doorhanger_tracking_message_disabled2 "На страницата има елементи, които може да проследяват поведението ви онлайн.">
 
 <!-- Common mixed and tracking content strings in site identity popup -->
+<!ENTITY learn_more "Научете повече">
+<!ENTITY enable_protection "Включване на защита">
+<!ENTITY disable_protection "Изключване на защитата">
 
+<!ENTITY private_data_success "Личните данни са изтрити">
+<!ENTITY private_data_fail "Част от личните ви данни не могат да бъдат изтрити">
 
+<!ENTITY bookmarkhistory_button_import "Внасяне">
+<!ENTITY bookmarkhistory_import_both "Внасяне на отметки и история
+                                         от Android">
+<!ENTITY bookmarkhistory_import_bookmarks "Внасяне на отметки
+                                         от Android">
+<!ENTITY bookmarkhistory_import_history "Внасяне на история
+                                         от Android">
+<!ENTITY bookmarkhistory_import_wait "Моля, изчакайте...">
 
-
-
-
-
-
-
-
+<!ENTITY suggestions_prompt3 "Желаете ли да включите предложенията при търсене?">
 <!--  Localization note (search_bar_item_desc): When the user clicks the url bar
       and starts typing, a list of icons of search engines appears at the bottom
       of the screen. When a user clicks an icon, the entered text will be searched
       via the search engine that uses the icon they clicked. This text is used
       for screen reader users when they hover each icon - &formatS; will be
       replaced with the name of the currently highlighted icon. -->
+<!ENTITY search_bar_item_desc "Търсене с &formatS;">
+
 <!-- Localization note (suggestion_for_engine): The placeholder &formatS1; will be
      replaced with the name of the search engine. The placeholder &formatS2; will be
      replaced with the search query. -->
+<!ENTITY suggestion_for_engine "Търсене с &formatS1; за &formatS2;">
 
-<!-- Updater notifications -->
+<!ENTITY searchable_description "Отметки и история">
 
+ <!-- Updater notifications -->
+<!ENTITY updater_start_title2 "Има актуализация на &brandShortName;">
+<!ENTITY updater_start_select2 "За изтегляне докоснете">
 
+<!ENTITY updater_downloading_title2 "Изтегляне на &brandShortName;">
+<!ENTITY updater_downloading_title_failed2 "Грешка при изтегляне">
+<!ENTITY updater_downloading_select2 "Докоснете за инсталиране след изтеглянето">
+<!ENTITY updater_downloading_retry2 "Докоснете за нов опит">
 
-
-
-
+<!ENTITY updater_apply_title2 "Има актуализация на &brandShortName;">
+<!ENTITY updater_apply_select2 "Докоснете за актуализиране">
 
 <!-- Localization note (updater_permission_text): This text is shown in a notification and as a snackbar
      if the app requires a runtime permission to download updates. Currently, the updater only sees
      remotely advertised updates in the Nightly and Aurora channels. -->
+<!ENTITY updater_permission_text "За да изтегля файлове и актуализации разрешете на &brandShortName; правото за достъп до хранилището.">
 <!-- LOCALIZATION NOTE (updater_permission_allow): This action is shown in a snackbar along with updater_permission_text. -->
-<!-- Guest mode -->
+<!ENTITY updater_permission_allow "Разрешаване">
 
+    <!-- Guest mode -->
+<!ENTITY new_guest_session "Нова сесия за гост">
+<!ENTITY exit_guest_session "Изход от сесията на гост">
+<!ENTITY guest_session_dialog_continue "Продължаване">
+<!ENTITY guest_session_dialog_cancel "Отказ">
+<!ENTITY new_guest_session_title "&brandShortName; ще рестартира сега">
+<!ENTITY new_guest_session_text2 "Човекът, който го използва няма достъп до вашите данни за сърфиране като запазени регистрации, история или отметки.\n\nКогато гостът приключи неговите данни ще бъдат заличени, а вашата сесия – възстановена.">
+<!ENTITY guest_browsing_notification_title "Разглеждането като гост е включено">
+<!ENTITY guest_browsing_notification_text "Докоснете за изход">
 
-
-
-
-
-
-
+<!ENTITY exit_guest_session_title "&brandShortName; сега ще рестартира">
+<!ENTITY exit_guest_session_text "Данни за сърфирането от тази сесия ще бъде изтрити.">
 
 <!-- Miscellaneous -->
 <!-- LOCALIZATION NOTE (ellipsis): This text is appended to a piece of text that does not fit in the
      designated space. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit
      traditions in your locale. -->
+<!ENTITY ellipsis "…">
+
+<!ENTITY colon ":">
 
 <!-- LOCALIZATION NOTE (percent): The percent sign is appended after a number to
      display a percentage value. formatS is the number, #37 is the code to display a percent sign.
@@ -555,21 +738,31 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      is a reserved caracter. In order to display one percent sign in the result of getString,
      double percent signs must be inserted in the format string.
      This entity is used in the zoomed view to display the zoom factor-->
+<!ENTITY percent "&formatS;&#37;&#37;">
+
 <!-- These are only used for accessibility for the done and overflow-menu buttons in the actionbar.
      They are never shown to users -->
+<!ENTITY actionbar_menu "Меню">
+<!ENTITY actionbar_done "Готово">
 
 <!-- Voice search in the awesome bar -->
+<!ENTITY voicesearch_prompt "Говорете сега">
+
 <!-- Localization note (remote_tabs_last_synced): the variable is replaced by a
      "relative time span string" produced by Android.  This string describes the
      time the tabs were last synced relative to the current time; examples
      include "42 minutes ago", "4 days ago", "last week", etc. The subject of
      "Last synced" is one of the user's other Sync clients, typically Firefox on
      their desktop or laptop.-->
+<!ENTITY remote_tabs_last_synced "Последна синхронизация: &formatS;">
 <!-- Localization note: Used when the sync has not happend yet, showed in place of a date -->
+<!ENTITY remote_tabs_never_synced "Последна синхронизация: никога">
+
 <!-- LOCALIZATION NOTE (intent_uri_private_browsing_prompt): This string will
      appear in an alert when a user, who is currently in private browsing,
      clicks a link that will open an external Android application. "&formatS;"
      will be replaced with the name of the application that will be opened. -->
+<!ENTITY intent_uri_private_browsing_prompt "Тази препратка ще бъде отворена в &formatS;. Наистина ли желаете да напуснете поверителното сърфиране?">
 <!-- LOCALIZATION NOTE (intent_uri_private_browsing_multiple_match_title): This
      string will appear as the title of an alert when a user, who is currently
      in private browsing, clicks a link that will open an external Android
@@ -577,45 +770,64 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      We don't have control over the style of this dialog and it looks
      unpolished when this string is longer than one line so ideally keep it
      short! -->
+<!ENTITY intent_uri_private_browsing_multiple_match_title "Излизане от поверително сърфиране?">
+
 <!-- DevTools Authentication -->
 <!-- LOCALIZATION NOTE (devtools_auth_scan_header): This header text appears
      above a QR reader that is actively scanning for QR codes.  The expected QR
      code has already been displayed by the client trying to connect (such as
      desktop Firefox via WebIDE), so you just need to aim this device at the QR
      code. -->
+<!ENTITY devtools_auth_scan_header "Сканиране за QR-код от другото ви устройство">
+
 <!-- Restrictable features -->
 <!-- Localization note: These are features the device owner (e.g. parent) can enable or disable for
      a restricted profile (e.g. child). Used inside the Android settings UI. -->
-
-
-
-
-
-
-
-
-
-
+<!ENTITY restrictable_feature_addons_installation "Добавки">
+<!ENTITY restrictable_feature_addons_installation_description "Добавя възможности и функции към Firefox. Забележка: Добавки могат да отменят някои ограничения.">
+<!ENTITY restrictable_feature_private_browsing "Поверително сърфиране">
+<!ENTITY restrictable_feature_private_browsing_description "Позволява на близките ви да сърфират без запазване на информация за посетените от тях сайтове и страници.">
+<!ENTITY restrictable_feature_clear_history "Изчистване на историята">
+<!ENTITY restrictable_feature_clear_history_description "Позволява на близките ви да изтриват информация за посетените от тях сайтове и страници.">
+<!ENTITY restrictable_feature_advanced_settings "Разширени настройки">
+<!ENTITY restrictable_feature_advanced_settings_description "Включва внасяне на отметки, възстановяване на раздели и автоматични актуализации. Изключете, за да имате опростени настройки, подходящи за вашите близки.">
+<!ENTITY restrictable_feature_camera_microphone "Камера и микрофон">
+<!ENTITY restrictable_feature_camera_microphone_description "Позволява на близките ви да участват в разговори в реално време.">
+<!ENTITY restrictable_feature_block_list "Блокиращ списък">
+<!ENTITY restrictable_feature_block_list_description "Блокира сайтове, съдържащи чувствително съдържание.">
 
 <!-- Default Bookmarks titles-->
 <!-- LOCALIZATION NOTE (bookmarks_about_browser): link title for about:fennec -->
+<!ENTITY bookmarks_about_browser "Firefox: За вашия браузър">
 <!-- LOCALIZATION NOTE (bookmarks_addons): link title for https://addons.mozilla.org/en-US/mobile -->
+<!ENTITY bookmarks_addons "Firefox: Персонализиране с добавки">
 <!-- LOCALIZATION NOTE (bookmarks_support): link title for https://support.mozilla.org/ -->
+<!ENTITY bookmarks_support "Firefox: Поддръжка">
 <!-- LOCALIZATION NOTE (bookmarks_restricted_support): link title for https://support.mozilla.org/kb/controlledaccess -->
+<!ENTITY bookmarks_restricted_support2 "Помощ и поддръжка на Firefox за ограничените профили на таблети с Android">
 <!-- LOCALIZATION NOTE (bookmarks_restricted_webmaker):link title for https://webmaker.org -->
+<!ENTITY bookmarks_restricted_webmaker "Научете Мрежата: Mozilla Webmaker">
+
 <!-- LOCALIZATION NOTE (unsupported_sdk_version): The user installed a build of this app that does not support
      the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
      replaced by the Android OS version (e.g., 14)-->
+<!ENTITY unsupported_sdk_version "Съжаляваме! Тази версия на &brandShortName; не работи на това устройство (&formatS1;, &formatS2;). Моля, изтеглете правилната версия.">
 
+<!ENTITY eol_notification_title2 "&brandShortName; вече няма да се с актуализира">
+<!ENTITY eol_notification_summary "Докоснете, за да научите повече">
 
 <!-- LOCALIZATION NOTE (whatsnew_notification_title, whatsnew_notification_summary): These strings
      are used for a system notification that's shown to users after the app updates. -->
+<!ENTITY whatsnew_notification_title "&brandShortName; е с актуална версия">
+<!ENTITY whatsnew_notification_summary "Разберете какво е новото в тази версия">
 
+<!ENTITY promotion_add_to_homescreen "Добавяне към началния екран">
 
+<!ENTITY helper_first_offline_bookmark_title "Четене извън мрежа">
+<!ENTITY helper_first_offline_bookmark_message "Ще намерите статиите от изгледа за четене в отметките \u2014 даже и извън мрежа.">
+<!ENTITY helper_first_offline_bookmark_button "Към отметките">
 
-
-
-
-
-
+<!ENTITY helper_triple_readerview_open_title "Достъпно извън мрежа">
+<!ENTITY helper_triple_readerview_open_message "Отметнете статии в прегледа за четене, за да ги имате извън мрежа.">
+<!ENTITY helper_triple_readerview_open_button "Добавяне към отметките">
 

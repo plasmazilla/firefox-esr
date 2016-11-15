@@ -52,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Kitzeqeb'axik b'ätz'">
 
+<!ENTITY aboutTelemetry.scalarsSection "  Jotob'enïk">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Tem K'ulwäch">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Taq ruk'u'x Tem K'ulwäch">

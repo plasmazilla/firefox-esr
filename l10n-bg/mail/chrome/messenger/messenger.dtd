@@ -72,7 +72,7 @@
 <!ENTITY offlineGoOfflineCmd.accesskey "б">
 <!ENTITY synchronizeOfflineCmd.label "Изтегляне/Синхронизиране…">
 <!ENTITY synchronizeOfflineCmd.accesskey "х">
-<!ENTITY settingsOfflineCmd2.label "Настройки на работа без мрежа">
+<!ENTITY settingsOfflineCmd2.label "Настройки за работа извън мрежа">
 <!ENTITY settingsOfflineCmd2.accesskey "й">
 <!ENTITY downloadSelectedCmd.label "Изтегляне на маркирани писма">
 <!ENTITY downloadSelectedCmd.accesskey "И">
@@ -433,7 +433,7 @@
 <!ENTITY openConversationCmd.accesskey "г">
 <!ENTITY openConversationCmd.key "o">
 <!ENTITY openAttachmentListCmd.label "Притурки">
-<!ENTITY openAttachmentListCmd.accesskey "h">
+<!ENTITY openAttachmentListCmd.accesskey "т">
 <!ENTITY openFeedMessage1.label "При отваряне на съобщения от емисия">
 <!ENTITY openFeedMessage1.accesskey "о">
 <!ENTITY openFeedWebPage.label "Отваряне като уеб страница">
@@ -612,7 +612,7 @@
 <!ENTITY folderContextOpenInNewWindow.label "Отваряне в нов прозорец">
 <!ENTITY folderContextOpenInNewWindow.accesskey "О">
 <!ENTITY folderContextOpenNewTab.label "Отваряне в раздел">
-<!ENTITY folderContextOpenNewTab.accesskey "ц">
+<!ENTITY folderContextOpenNewTab.accesskey "р">
 <!ENTITY folderContextNew.label "Нова подпапка…">
 <!ENTITY folderContextNew.accesskey "Н">
 <!ENTITY folderContextRename.label "Преименуване">
@@ -713,7 +713,7 @@
      at the same time, but should someone enable copy/paste of message, this key
      would probably need to be changed. -->
 <!ENTITY contextOpenNewTab.label "Отваряне на писмото раздел">
-<!ENTITY contextOpenNewTab.accesskey "ц">
+<!ENTITY contextOpenNewTab.accesskey "р">
 <!ENTITY contextOpenConversation.label "Отваряне на писмото в диалога">
 <!ENTITY contextOpenConversation.accesskey "я">
 <!ENTITY contextOpenContainingFolder.label "Отваряне на съдържащата папка">
@@ -887,7 +887,7 @@
 <!ENTITY saveImageAsCmd.accesskey "ж">
 <!ENTITY copyLinkCmd.label "Копиране адреса на връзката">
 <!ENTITY copyLinkCmd.accesskey "К">
-<!ENTITY copyImageAllCmd.label "Копиране на изображение">
+<!ENTITY copyImageAllCmd.label "Копиране на изображението">
 <!ENTITY copyImageAllCmd.accesskey "и">
 <!ENTITY copyEmailCmd.label "Копиране на пощенския адрес">
 <!ENTITY copyEmailCmd.accesskey "К">

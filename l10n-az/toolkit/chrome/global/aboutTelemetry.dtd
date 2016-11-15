@@ -52,6 +52,8 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Əlaqənin donması">
 
+<!ENTITY aboutTelemetry.scalarsSection "  Skalyarlar">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Histoqram">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Açarlanmış Histogramlar">
@@ -80,3 +82,4 @@
 
 <!ENTITY aboutTelemetry.payloadChoiceHeader "  Yük">
 
+<!ENTITY aboutTelemetry.rawPayload "  Xam yük">

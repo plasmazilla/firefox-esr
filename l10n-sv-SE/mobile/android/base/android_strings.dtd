@@ -44,9 +44,11 @@
 
 <!ENTITY  bookmarks_title "Bokmärken">
 <!ENTITY  history_title "Historik">
-<!ENTITY  recent_tabs_title "Senaste flikarna">
 
 <!ENTITY  switch_to_tab "Byt till flik">
+<!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
+
+<!ENTITY  tab_offline_version "Visar offline version">
 
 <!ENTITY  crash_reporter_title "&brandShortName; kraschrapportör">
 <!ENTITY  crash_message2 "&brandShortName; fick ett problem och kraschade. Dina flikar kommer att listas på sidan &brandShortName; Start när du startat om.">
@@ -199,7 +201,7 @@
 <!ENTITY pref_content_notifications_summary2 "Upptäck nytt innehåll från webbplatser som stöds">
 <!ENTITY pref_developer_remotedebugging_usb "Fjärrfelsökning via USB">
 <!ENTITY pref_developer_remotedebugging_wifi "Fjärrfelsökning via Wi-Fi">
-<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi-felsökning kräver att din enhet har en QR kodsläsar app installerad.">
+<!ENTITY pref_developer_remotedebugging_wifi_disabled_summary "Wi-Fi-felsökning kräver att din enhet har en app för QR-kodläsning installerad.">
 <!ENTITY pref_remember_signons2 "Kom ihåg inloggningar">
 <!ENTITY pref_manage_logins "Hantera inloggningar">
 
@@ -269,6 +271,20 @@
 
 <!ENTITY pref_whats_new_notification "Flik sparad i &brandShortName;">
 <!ENTITY pref_whats_new_notification_summary "Läs mer om nya funktioner efter en uppdatering">
+<!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
+     for experimental features. -->
+
+<!ENTITY pref_category_experimental "Experimentella funktioner">
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+     Instead of switching to the browser it appears as if the user stays in the third-party app.
+     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+
+<!ENTITY pref_custom_tabs "Anpassade flikar">
+<!ENTITY pref_custom_tabs_summary "Tillåt appar från tredje part att öppna webbadresser med anpassat utseende och känsla.">
+<!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
+
+<!ENTITY pref_activity_stream "Aktivitetsflöde">
+<!ENTITY pref_activity_stream_summary "En rik visuell historik och en återskapad startsida gör det enklare än någonsin att hitta exakt vad du letar efter i &brandShortName;.">
 
 <!ENTITY tracking_protection_prompt_title "Nu med Spårningsskydd">
 <!ENTITY tracking_protection_prompt_text "Aktivt blockera spårningselement så att du inte behöver oroa dig.">
@@ -360,7 +376,7 @@ size. -->
 <!ENTITY pref_zoom_force_enabled_summary "Åsidosätt så att du kan zooma på vilken sida som helst">
 <!ENTITY pref_voice_input "Röstinmatning">
 <!ENTITY pref_voice_input_summary2 "Tillåt röstdiktering i adressfältet">
-<!ENTITY pref_qrcode_enabled "QR-Kods läsare">
+<!ENTITY pref_qrcode_enabled "QR-kodläsare">
 <!ENTITY pref_qrcode_enabled_summary2 "Tillåt QR skanner i adressfältet">
 
 <!ENTITY pref_use_master_password "Använd huvudlösenord">
@@ -382,6 +398,7 @@ size. -->
 <!ENTITY pref_private_data_syncedTabs "Synkade flikar">
 
 <!ENTITY pref_default_browser "Gör till standardwebbläsare">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Besök Mozilla Support">
 <!ENTITY pref_about_firefox "Om &brandShortName;">
 <!ENTITY pref_vendor_faqs "Vanliga frågor">
 <!ENTITY pref_vendor_feedback "Ge synpunkter">
@@ -570,10 +587,12 @@ size. -->
 <!ENTITY home_clear_history_button "Töm bläddringshistorik">
 <!ENTITY home_clear_history_confirm "Är du säker på att du vill rensa historiken?">
 <!ENTITY home_bookmarks_empty "Bokmärken som du sparat visas här.">
-<!ENTITY home_closed_tabs_title "Senaste stängda flikar">
-<!ENTITY home_last_tabs_title "Tidigare flikar">
+<!ENTITY home_closed_tabs_title2 "Nyligen stängda">
 <!ENTITY home_last_tabs_empty "Dina flikar från senast visas här.">
-<!ENTITY home_open_all "Öppna alla">
+<!ENTITY home_restore_all "Återställ alla">
+<!ENTITY home_closed_tabs_number "&formatD; flikar">
+<!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "1 flik">
 <!ENTITY home_most_recent_empty "Webbplatser du senast besökt visas här.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
@@ -625,7 +644,6 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "Säker anslutning">
 <!ENTITY identity_connection_insecure "Osäker anslutning">
-<!ENTITY identity_login_insecure "Denna sida är inte säker din inloggning kan vara sårbar.">
 <!ENTITY identity_connection_chromeui "Detta är en säker &brandShortName; sida">
 <!-- Mixed content notifications in site identity popup -->
 

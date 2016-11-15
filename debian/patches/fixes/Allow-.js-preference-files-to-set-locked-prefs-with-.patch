@@ -10,10 +10,10 @@ Subject: Allow .js preference files to set locked prefs with lockPref()
  4 files changed, 19 insertions(+), 7 deletions(-)
 
 diff --git a/modules/libpref/prefapi.cpp b/modules/libpref/prefapi.cpp
-index 964fea4a..c1f4116 100644
+index 046a694..6499650 100644
 --- a/modules/libpref/prefapi.cpp
 +++ b/modules/libpref/prefapi.cpp
-@@ -971,8 +971,8 @@ void PREF_ReaderCallback(void       *closure,
+@@ -997,8 +997,8 @@ void PREF_ReaderCallback(void       *closure,
                           PrefValue   value,
                           PrefType    type,
                           bool        isDefault,
@@ -24,7 +24,7 @@ index 964fea4a..c1f4116 100644
  {
      uint32_t flags = 0;
      if (isDefault) {
-@@ -984,4 +984,6 @@ void PREF_ReaderCallback(void       *closure,
+@@ -1010,4 +1010,6 @@ void PREF_ReaderCallback(void       *closure,
          flags |= kPrefForceSet;
      }
      pref_HashPref(pref, value, type, flags);
@@ -32,7 +32,7 @@ index 964fea4a..c1f4116 100644
 +        PREF_LockPref(pref, true);
  }
 diff --git a/modules/libpref/prefapi.h b/modules/libpref/prefapi.h
-index b18b5db..3a40cd5 100644
+index 9ef014a..1c74a70 100644
 --- a/modules/libpref/prefapi.h
 +++ b/modules/libpref/prefapi.h
 @@ -243,7 +243,8 @@ void PREF_ReaderCallback( void *closure,
@@ -43,8 +43,8 @@ index b18b5db..3a40cd5 100644
 +                          bool        isStickyDefault,
 +                          bool        isLocked);
  
- #ifdef __cplusplus
- }
+ 
+ /*
 diff --git a/modules/libpref/prefread.cpp b/modules/libpref/prefread.cpp
 index 605dcaa..421cc69 100644
 --- a/modules/libpref/prefread.cpp

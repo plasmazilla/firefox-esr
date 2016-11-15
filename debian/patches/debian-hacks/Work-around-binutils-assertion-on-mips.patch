@@ -7,7 +7,7 @@ Subject: Work around binutils assertion on mips
  1 file changed, 17 insertions(+), 16 deletions(-)
 
 diff --git a/media/libcubeb/tests/moz.build b/media/libcubeb/tests/moz.build
-index ec493f28..24dbf1b 100644
+index 1b17c7b..a292b63 100644
 --- a/media/libcubeb/tests/moz.build
 +++ b/media/libcubeb/tests/moz.build
 @@ -6,24 +6,25 @@

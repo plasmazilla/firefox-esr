@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Inställningar…">
 <!ENTITY  clearOnCloseSettings.accesskey "n">
+
+<!ENTITY  browserContainersHeader.label         "Innehållsflikar">
+<!ENTITY  browserContainersLearnMore.label      "Lär dig mer">
+<!ENTITY  browserContainersEnabled.label        "Aktivera innehållsflikar">
+<!ENTITY  browserContainersEnabled.accesskey    "k">

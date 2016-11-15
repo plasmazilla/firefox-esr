@@ -6,15 +6,11 @@
 <!ENTITY  checking.title                  "Aktualizacije pytaś">
 <!ENTITY  updateCheck.label               "Pytanje za nowymi wersijami &brandShortName;…">
 
-<!ENTITY  pluginupdatesfound.title        "Aktualizacije za tykace namakane">
-<!ENTITY  pluginupdatesfound.label        "Nowše wersije jadnogo tykaca abo někotarych tykacow namakane.">
-<!ENTITY  pluginupdateslink.label         "Glědaś, kak se tykace aktualizěruju.">
-
 <!ENTITY  noupdatesfound.title            "Žedne aktualizacije namakane">
 <!ENTITY  noupdatesautoenabled.intro      "Aktualizacije njestoje k dispoziciji. &brandShortName; buźo periodiski za aktualizacijami pytaś.">
 <!ENTITY  noupdatesautodisabled.intro     "Aktualizacije njestoje k dispoziciji. Pšosym pytajśo pózdźej hyšći raz abo zmóžniśo awtomatiske pytanje za aktualizacijami &brandShortName;.">
 
-<!ENTITY  manualUpdate.title              "Aktualizěrowanje njemóžno">
+<!ENTITY  manualUpdate.title              "Aktualizěrowanje njejo móžne">
 <!ENTITY  manualUpdate.desc               "Pśiraźona aktualizacija wěstoty a stabilnosći stoj k dispoziciji, ale njamaśo systemowe pšawa, kótarež su za jeje instalaciju trěbne. Pšosym stajśo se ze swójim systemowym administratorom do zwiska abo wopytajśo hyšći raz z konta, kótarež ma pšawo softwaru na toś tom licadle instalěrowaś.">
 <!ENTITY  manualUpdate.space.desc         "Pśiraźona wěstotna a stabilnostna aktualizacija stoj k dispoziciji, ale njamaśo dosć składowańskego městna za instalěrowanje.">
 <!ENTITY  manualUpdateGetMsg.label        "Móžośo pśecej nejnowšu wersiju &brandShortName; dostaś na:">

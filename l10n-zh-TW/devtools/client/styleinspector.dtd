@@ -36,8 +36,3 @@
   -  properties to display e.g. due to search criteria this message is
   -  displayed. -->
 <!ENTITY noPropertiesFound     "找不到 CSS 屬性。">
-
-<!-- FIXME: notes -->
-<!ENTITY computedViewTitle     "計算樣式">
-<!ENTITY ruleViewTitle         "規則">
-

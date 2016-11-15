@@ -37,10 +37,6 @@
 <!ENTITY warning.updatesecurity.enable.label       "启用">
 <!ENTITY warning.updatesecurity.enable.tooltip     "启用附加组件安全更新检查">
 
-<!-- global informations -->
-<!ENTITY info.plugincheck.label                 "检查你的插件是否都是最新版本">
-<!ENTITY info.plugincheck.tooltip               "来检查看看，了解你的插件是否都已是最新版本">
-
 <!-- categories / views -->
 <!ENTITY view.search.label                    "搜索">
 <!ENTITY view.discover.label                  "获取附加组件">
@@ -179,7 +175,7 @@
 <!ENTITY search.filter2.label                 "搜索：">
 <!ENTITY search.filter2.installed.label       "我的附加组件">
 <!ENTITY search.filter2.installed.tooltip     "显示已安装附加组件">
-<!ENTITY search.filter2.available.label       "可用附加组件">
+<!ENTITY search.filter2.available.label       "其他可用的附加组件">
 <!ENTITY search.filter2.available.tooltip     "显示可安装附加组件">
 
 <!ENTITY addon.homepage                       "主页">

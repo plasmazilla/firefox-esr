@@ -22,6 +22,10 @@
 
 <!ENTITY cmd.back.tooltip                     "Rutto hello wooto">
 <!ENTITY cmd.forward.tooltip                  "Yah yeeso hello wooto">
+
+
+
+
 <!-- global warnings -->
 
 <!ENTITY warning.safemode.label                    "Mbayka kisnal daaƴii ɓeyditte fof.">
@@ -31,10 +35,6 @@
 <!ENTITY warning.updatesecurity.label              "Ƴeewtagol kisnal ɓeyditte koko daaƴaa. Aɗa waawi heɓde caɗe e kesɗitine.">
 <!ENTITY warning.updatesecurity.enable.label       "Daaƴtu">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Daaƴtu ƴeewtagol kisnal ɓeyditte">
-<!-- global informations -->
-
-<!ENTITY info.plugincheck.label                 "Ƴeewto ngam yiyde so ceŋe maa ena kesɗiti">
-<!ENTITY info.plugincheck.tooltip               "Ƴeewto ngam yiyde so ceŋe maa ena kesɗiti">
 <!-- categories / views -->
 <!ENTITY view.discover.label                  "Ɗaɓɓu Ɓeyditte">
 <!ENTITY view.recentUpdates.label             "Kesɗitine Cakkitiiɗe">
@@ -100,7 +100,6 @@
 <!ENTITY cmd.installAddon.accesskey           "A">
 <!ENTITY cmd.uninstallAddon.label             "Ittu">
 <!ENTITY cmd.uninstallAddon.accesskey         "I">
-<!ENTITY cmd.debugAddon.label                 "Sellin">
 <!ENTITY cmd.showPreferencesWin.label         "Cuɓe">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Waylu cuɓe ngal ɓeydital">
 <!ENTITY cmd.showPreferencesUnix.label        "Cuɓoraaɗe">
@@ -118,11 +117,8 @@
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
 
 <!ENTITY discover.title                       "Ko woni ɓeyditte?">
-<!ENTITY discover.description2                "Ɓeyditte ko jaaɓnirɗe ballooje-ma heertinde &brandShortName; ɓeyda heen 
-gaatuleeje goɗɗe walla panni. Ƴeewndo palal kuutorɗe jaawnowal, tintinorde asamaan, walla mbaydi siŋkoore ɓeydowal &brandShortName; 
-nanndude e yiɗde maa.">
-<!ENTITY discover.footer                      "So a seŋiima e enternet, ngal alluwal maa hollu 
-ɓeyditte ɓurɗe ŋarɗude e lollude ngal ƴeewndo-ɗaa.">
+<!ENTITY discover.description2                "Ɓeyditte ko jaaɓnirɗe ballooje-ma heertinde &brandShortName; ɓeyda heen gaatuleeje goɗɗe walla panni. Ƴeewndo palal kuutorɗe jaawnowal, tintinorde asamaan, walla mbaydi siŋkoore ɓeydowal &brandShortName; nanndude e yiɗde maa.">
+<!ENTITY discover.footer                      "So a seŋiima e enternet, ngal alluwal maa hollu ɓeyditte ɓurɗe ŋarɗude e lollude ngal ƴeewndo-ɗaa.">
 <!-- detail view -->
 
 <!ENTITY detail.version.label                 "Yamre">
@@ -227,4 +223,16 @@ nanndude e yiɗde maa.">
 <!ENTITY experiment.info.learnmore.accesskey "Ɓ">
 <!ENTITY experiment.info.changetelemetry "Teelte Telemeetiri">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
+
+
+<!-- LOCALIZATION NOTE (disabledUnsigned.description.start, disabledUnsigned.description.findAddonsLink, disabledUnsigned.description.end):
+     These entities form a sentence, with
+     disabledUnsigned.description.findAddonsLink being a link to an external site. -->
+
+
+
+<!-- LOCALIZATION NOTE (disabledUnsigned.devInfo.start, disabledUnsigned.devInfo.linkToManual, disabledUnsigned.devInfo.end):
+     These entities form a sentence, with disabledUnsigned.devInfo.linkToManual
+     being a link to an external site. -->
+
 

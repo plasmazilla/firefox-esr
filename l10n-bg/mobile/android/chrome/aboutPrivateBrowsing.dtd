@@ -1,16 +1,25 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY privatebrowsingpage.title "Поверително сърфиране">
+
 <!-- Localisation note: the plus sign here is a shorthand way of expressing the word "and". Contextually the privatebrowsingpage.title.private string
                         is used as a title, with the privatebrowsingpage.title string preceding it but on a separate line.
                         So the final line will say "Private Browsing + Tracking Protection". -->
+<!ENTITY privatebrowsingpage.title.private "+ Защита от проследяване">
 <!-- Localization note (privatebrowsingpage.title.normal1): "Private Browsing"
      is capitalized in English to be consistent with our existing uses of the
      term. -->
+<!ENTITY privatebrowsingpage.title.normal1 "Не сте в Поверително сърфиране">
 
+<!ENTITY privatebrowsingpage.description.trackingProtection "&brandShortName; блокира части от страницата, които биха могли да проследяват вашето браузване.">
+<!ENTITY privatebrowsingpage.description.privateDetails "История няма да бъде съхранявана, но изтеглените файлове и отметките ще бъдат запазени на вашето устройство.">
 
 <!-- Localization note (privatebrowsingpage.description.normal2): "Private
      Browsing is capitalized in English to be consistent with our existing uses
      of the term. -->
+<!ENTITY privatebrowsingpage.description.normal2 "Докато сърфирате поверително историята и бисквитките няма да бъдат запазвани. Отметките и изтеглените файлове ще бъдат запазени на вашето устройство.">
 
-
+<!ENTITY privatebrowsingpage.link.private "Искате ли да научите повече?">
+<!ENTITY privatebrowsingpage.link.normal "Отваряне на поверителен раздел">

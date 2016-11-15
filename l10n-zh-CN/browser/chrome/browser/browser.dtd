@@ -40,6 +40,12 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "P">
 <!ENTITY  unpinTab.label                     "取消固定标签页">
 <!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "发送标签页到设备">
+<!ENTITY  sendTabToDevice.accesskey          "D">
+<!ENTITY  sendPageToDevice.label             "发送页面到设备">
+<!ENTITY  sendPageToDevice.accesskey         "D">
+<!ENTITY  sendLinkToDevice.label             "发送链接到设备">
+<!ENTITY  sendLinkToDevice.accesskey         "D">
 <!ENTITY  moveToNewWindow.label              "移动到新窗口">
 <!ENTITY  moveToNewWindow.accesskey          "W">
 <!ENTITY  bookmarkAllTabs.label              "为全部标签页添加书签…">
@@ -105,6 +111,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenCmd.macCommandKey "f">
 <!ENTITY showAllTabsCmd.label "显示所有标签页">
 <!ENTITY showAllTabsCmd.accesskey "A">
+<!ENTITY toggleReaderMode.key "R">
 
 <!ENTITY fxaSignIn.label "登录以&syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "打开 &syncBrand.shortName.label; 首选项">
@@ -126,8 +133,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
 <!ENTITY fullscreenWarning.beforeDomain.label "">
-<!ENTITY fullscreenWarning.afterDomain.label "已进入全屏显示">
-<!ENTITY fullscreenWarning.generic.label "此文档现已全屏显示">
+<!ENTITY fullscreenWarning.afterDomain.label "已进入全屏模式">
+<!ENTITY fullscreenWarning.generic.label "此文档已进入全屏模式">
+
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
@@ -135,6 +143,15 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY exitDOMFullscreenMac.button "退出全屏模式(Esc)">
 <!ENTITY leaveDOMFullScreen.label "退出全屏">
 <!ENTITY leaveDOMFullScreen.accesskey "u">
+
+<!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
+     pointerlockWarning.afterDomain.label): these two strings are used
+     respectively before and after the domain requiring pointerlock.
+     Localizers can use one of them, or both, to better adapt this
+     sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.afterDomain.label "已控制您的指针。按 Esc 键收回控制权。">
+<!ENTITY pointerlockWarning.generic.label "此文档已控制您的指针。按 Esc 键收回控制权。">
 
 <!ENTITY closeWindow.label "关闭窗口">
 <!ENTITY closeWindow.accesskey "d">
@@ -334,7 +351,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.viewSidebar.label "查看历史记录侧栏">
 <!ENTITY appMenuHelp.tooltip "打开帮助菜单">
 
-<!ENTITY appMenuRemoteTabs.label "同步的标签页">
+<!ENTITY appMenuRemoteTabs.label "受同步的标签页">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "没有打开的标签页">
@@ -344,12 +361,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
-<!ENTITY appMenuRemoteTabs.noclients.title "还没有已同步的标签页！">
+<!ENTITY appMenuRemoteTabs.noclients.title "还没有受同步的标签页！">
 <!ENTITY appMenuRemoteTabs.noclients.subtitle "想查看您在其他设备上的标签页吗？">
 <!ENTITY appMenuRemoteTabs.openprefs.label "同步服务首选项">
 <!ENTITY appMenuRemoteTabs.notsignedin.label "登录以查看来自您的其他设备的标签页列表。">
 <!ENTITY appMenuRemoteTabs.signin.label "登录同步服务">
-<!ENTITY appMenuRemoteTabs.sidebar.label "显示同步标签页侧栏">
+<!ENTITY appMenuRemoteTabs.sidebar.label "显示受同步的标签页侧栏">
 
 <!ENTITY customizeMenu.addToToolbar.label "添加到工具栏">
 <!ENTITY customizeMenu.addToToolbar.accesskey "A">
@@ -721,11 +738,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY tabsToolbar.label "浏览器标签页">
 
 <!-- LOCALIZATION NOTE (syncTabsMenu3.label): This appears in the history menu -->
-<!ENTITY syncTabsMenu3.label     "同步的标签页">
+<!ENTITY syncTabsMenu3.label     "受同步的标签页">
 
-<!ENTITY syncedTabs.sidebar.label              "同步的标签页">
+<!ENTITY syncedTabs.sidebar.label              "受同步的标签页">
 <!ENTITY syncedTabs.sidebar.noclients.label    "在这里查看您在其他设备上登录的 Firefox 的标签页。">
-<!ENTITY syncedTabs.sidebar.noclients.title    "还没有已同步的标签页！">
+<!ENTITY syncedTabs.sidebar.noclients.title    "还没有受同步的标签页！">
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "想查看您在其他设备上的标签页吗？">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "登录即可查看您的其他设备上的标签页列表。">
 <!ENTITY syncedTabs.sidebar.notabs.label       "没有已打开的标签页">
@@ -771,12 +788,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY social.toggleNotifications.label "显示桌面通知">
 <!ENTITY social.toggleNotifications.accesskey "n">
 
-<!ENTITY social.activated.description "来自 <label/> 的服务已启用。您可以在<label class='text-link'>附加组件管理器</label>中更改服务设置。">
-<!ENTITY social.activated.undo.label "啊哦，撤销这个操作！">
-<!ENTITY social.activated.undo.accesskey "u">
 <!ENTITY social.learnMore.label "详细了解…">
 <!ENTITY social.learnMore.accesskey "L">
-<!ENTITY social.closeNotificationItem.label "暂不操作">
 
 <!ENTITY social.directory.label "可用目录">
 <!ENTITY social.directory.text "您可以从目录激活“分享”服务。">

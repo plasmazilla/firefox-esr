@@ -13,7 +13,7 @@
 <!ENTITY firstrun_data_message "Menos datos, más aforru">
 <!ENTITY firstrun_data_subtext2 "Desactiva les imáxenes pa nun marafundiar datos en cada sitiu que visites.">
 <!ENTITY firstrun_sync_title "Sync">
-<!ENTITY firstrun_sync_message "&brandShortName;, siempres del to llau">
+<!ENTITY firstrun_sync_message "&brandShortName;, siempres al to llau">
 <!ENTITY firstrun_sync_subtext "Sincroniza les tos llingüetes, contraseñes y más en tolos llaos que lu uses.">
 <!ENTITY firstrun_signin_message "Conéutate, entama">
 <!ENTITY firstrun_signin_button "Aniciar sesión en Sync">
@@ -32,7 +32,7 @@
 <!ENTITY firstrun_readerview_title "Artículos">
 <!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
 <!ENTITY firstrun_readerview_message "Fina col desorde">
-<!ENTITY firstrun_readerview_subtext "Usa la Vista de Llectura pa facer más agradables de lleer los artículos \u2014 inclusu fuera de llinia.">
+<!ENTITY firstrun_readerview_subtext "Usa la Vista de Llectura pa facer más agradables de lleer los artículos \u2014 incluso ensin conexón.">
 
 <!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
 <!ENTITY firstrun_account_title "Tu">
@@ -44,12 +44,14 @@
      They are automatically converted to all caps by the Android platform. -->
 <!ENTITY  bookmarks_title "Marcadores">
 <!ENTITY  history_title "Historial">
-<!ENTITY  recent_tabs_title "Llingüetes recientes">
 
 <!ENTITY  switch_to_tab "Camudar de llingüeta">
 
+<!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
+<!ENTITY  tab_offline_version "Amosando versión ensin conexón">
+
 <!ENTITY  crash_reporter_title "Informador de casques de &brandShortName;">
-<!ENTITY  crash_message2 "&brandShortName; tuvo un problema y cascó. Les tos llingüetes deberíen llistase na páxina d\&apos;aniciu de &brandShortName; cuando reanicies.">
+<!ENTITY  crash_message2 "&brandShortName; tuvo un problema y cascó. Les llingüetes deberíen llistase na páxina d\&apos;aniciu de &brandShortName; cuando reanicies.">
 <!ENTITY  crash_send_report_message3 "Cúnta-y a &vendorShortName; tocante a esti casque pa qu\&apos;asina puean igualu">
 <!ENTITY  crash_include_url2 "Incluyir la direición de la páxina na que taba">
 <!ENTITY  crash_sorry "Sentímoslo">
@@ -134,7 +136,7 @@
      section in which the user picks the locale in which to display Firefox
      UI. The locale includes both language and region concepts. -->
 <!ENTITY pref_category_language "Llingua">
-<!ENTITY pref_category_language_summary "Camuda la llingua del to restolador">
+<!ENTITY pref_category_language_summary "Camuda la llingua del restolador">
 <!ENTITY pref_browser_locale "Llingua del restolador">
 
 <!-- Localization note (locale_system_default) : This string indicates that
@@ -176,7 +178,7 @@
 <!ENTITY pref_category_vendor_summary2 "Tocante a &brandShortName;, FAQs, feedback">
 <!ENTITY pref_category_datareporting "Escoyetes de datos">
 <!ENTITY pref_category_logins "Anicios de sesión">
-<!ENTITY pref_learn_more "Depriendi más">
+<!ENTITY pref_learn_more "Deprendi más">
 <!ENTITY pref_category_installed_search_engines "Motores de gueta instalaos">
 <!ENTITY pref_category_add_search_providers "Amestar más fornidores de gueta">
 <!ENTITY pref_category_search_restore_defaults "Restaurar motores de gueta">
@@ -204,14 +206,14 @@
 <!ENTITY pref_manage_logins "Xestión d\&apos;anicios de sesión">
 
 <!ENTITY pref_category_home "Aniciu">
-<!ENTITY pref_category_home_summary "Personaliza la to páxina d\&apos;aniciu">
+<!ENTITY pref_category_home_summary "Personaliza la páxina d\&apos;aniciu">
 <!ENTITY pref_category_home_panels "Paneles">
 <!ENTITY pref_category_home_add_ons "Estensiones">
 <!ENTITY pref_home_updates2 "Anovamientos de conteníu">
 <!ENTITY pref_home_updates_enabled "Habilitaos">
 <!ENTITY pref_home_updates_wifi "Namái na Wi-Fi">
 <!ENTITY pref_category_home_homepage "Páxina d\&apos;aniciu">
-<!ENTITY home_homepage_title "Afitar una páxina d\&apos;anciu">
+<!ENTITY home_homepage_title "Afitar una páxina d\&apos;aniciu">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, they will use the built-in default Firefox homepage (about:home). -->
@@ -261,14 +263,28 @@
 <!ENTITY pref_tracking_protection_title2 "Proteición de rastrexu">
 <!ENTITY pref_tracking_protection_summary3 "Habilitada al restolar en privao">
 <!ENTITY pref_donottrack_title "Nun rastrexar">
-<!ENTITY pref_donottrack_summary "&brandShortName; va dici-y a los sitios que nun quies ser rastrexáu">
+<!ENTITY pref_donottrack_summary "&brandShortName; va dici-y a los sitios que nun quies que te rastrexen">
 
 <!ENTITY pref_tracking_protection_enabled "Habilitada">
 <!ENTITY pref_tracking_protection_enabled_pb "Habilitada al restolar en privao">
 <!ENTITY pref_tracking_protection_disabled "Deshabilitada">
 
 <!ENTITY pref_whats_new_notification "Qué hai nuevo en &brandShortName;">
-<!ENTITY pref_whats_new_notification_summary "Depriendi más tocante a les carauterístiques nueves dempués d\&apos;anovar">
+<!ENTITY pref_whats_new_notification_summary "Deprendi más tocante a les carauterístiques nueves dempués d\&apos;anovar">
+
+<!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
+     for experimental features. -->
+<!ENTITY pref_category_experimental "Carauteurístiques esperimentales">
+
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+     Instead of switching to the browser it appears as if the user stays in the third-party app.
+     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+<!ENTITY pref_custom_tabs "Llingüetes personalizaes">
+<!ENTITY pref_custom_tabs_summary "Permite a aplicaciones de terceros qu\&apos;abran URLs con un aspeutu y sentir personalizáu.">
+
+<!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
+<!ENTITY pref_activity_stream "Fluxu d\&apos;actividá">
+<!ENTITY pref_activity_stream_summary "Un feed visual ricu del historial y una páxina d\&apos;aniciu reimaxinada que fai más cenciello qu\&apos;enxamás alcontrar exautamente lo que guetes en &brandShortName;.">
 
 <!ENTITY tracking_protection_prompt_title "Agora con proteición de rastrexu">
 <!ENTITY tracking_protection_prompt_text "Bloquia activamente los elementos de rastrexu pa que nun t\&apos;esmolezas.">
@@ -365,7 +381,7 @@ size. -->
 
 <!ENTITY pref_use_master_password "Usar contraseña maestra">
 <!ENTITY pref_sync2 "Aniciar sesión">
-<!ENTITY pref_sync_summary2 "Sincroniza les tos llingüetes, marcadores, anicios de sesión, historial">
+<!ENTITY pref_sync_summary2 "Sincroniza les llingüetes, marcadores, anicios de sesión, historial">
 <!ENTITY pref_search_suggestions "Amosar suxerencies de gueta">
 <!ENTITY pref_history_search_suggestions "Amosar historial de gueta">
 <!ENTITY pref_import_options "Importar opciones">
@@ -376,12 +392,13 @@ size. -->
 <!ENTITY pref_private_data_cookies2 "Cookies y anicios de sesión activos">
 <!ENTITY pref_private_data_passwords2 "Anicios de sesión guardaos">
 <!ENTITY pref_private_data_cache "Caché">
-<!ENTITY pref_private_data_offlineApps "Datos de sitiu web fuera de llinia">
+<!ENTITY pref_private_data_offlineApps "Datos de sitiu web ensin conexón">
 <!ENTITY pref_private_data_siteSettings2 "Axustes del sitiu">
 <!ENTITY pref_private_data_downloadFiles2 "Descargues">
 <!ENTITY pref_private_data_syncedTabs "Llingüetes sincronizaes">
 
 <!ENTITY pref_default_browser "Predeterminar restolador">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Visita\&apos;l sofitu de Mozilla">
 <!ENTITY pref_about_firefox "Tocante a &brandShortName;">
 <!ENTITY pref_vendor_faqs "FAQs">
 <!ENTITY pref_vendor_feedback "Dar feedback">
@@ -423,7 +440,7 @@ size. -->
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
 <!ENTITY datareporting_crashreporter_title_short "Informador de casques">
 <!ENTITY datareporting_wifi_title2 "Serviciu d\&apos;allugamientu de &vendorShortName;">
-<!ENTITY datareporting_wifi_geolocation_summary4 "¡Ayuda a &vendorShortName; a cartografiar el mundiu! Comparti l\&apos;allugamientu aproximáu de Wi-Fi y GPS del to preséu p\&apos;ameyorar el nuesu serviciu de xeollocalización.">
+<!ENTITY datareporting_wifi_geolocation_summary4 "¡Ayuda a &vendorShortName; a cartografiar el mundu! Comparti l\&apos;allugamientu aproximáu de Wi-Fi y GPS del to preséu p\&apos;ameyorar el nuesu serviciu de xeollocalización.">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
      specifically, since the pref only prevents automatic downloads and not the
      actual notification that an update is available. -->
@@ -570,11 +587,13 @@ size. -->
 <!ENTITY home_clear_history_button "Llimpiar historial de restolar">
 <!ENTITY home_clear_history_confirm "¿De xuru que quies llimpiar el to historial?">
 <!ENTITY home_bookmarks_empty "Equí amosaránse los tos marcadores.">
-<!ENTITY home_closed_tabs_title "Llingüetes zarraes apocayá">
-<!ENTITY home_last_tabs_title "Llingüetes de la cabera vegada">
-<!ENTITY home_last_tabs_empty "Equí amosaránse les tos llingüetes recientes.">
-<!ENTITY home_open_all "Abrir too">
-<!ENTITY home_most_recent_empty "Equí amosaránse los sitios web que más visitares.">
+<!ENTITY home_closed_tabs_title2 "Zarrao apocayá">
+<!ENTITY home_last_tabs_empty "Equí amosaránse les llingüetes recientes.">
+<!ENTITY home_restore_all "Restaurar too">
+<!ENTITY home_closed_tabs_number "&formatD; llingüetes">
+<!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "1 llingüeta">
+<!ENTITY home_most_recent_empty "Equí amosaránse los sitios web que más visites.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
 <!ENTITY home_most_recent_emptyhint2 "Oi... Usar una &formatS1;llingüeta privada nueva&formatS2; nun va guardar el to historial.">
@@ -600,7 +619,7 @@ size. -->
 <!ENTITY home_remote_tabs_unhide_selected_devices "Amosar preseos esbillaos">
 
 <!ENTITY remote_tabs_panel_moved_title "¿Ánde foron les mios llingüetes?">
-<!ENTITY remote_tabs_panel_moved_desc "Movimos les tos llingüetes d\&apos;otros preseos a un panel na to páxina d\&apos;aniciu que pue accedese cenciellamente cada vegada qu\&apos;abras una llingüeta nueva.">
+<!ENTITY remote_tabs_panel_moved_desc "Movimos les llingüetes d\&apos;otros preseos a un panel na to páxina d\&apos;aniciu, que pue accedese cenciellamente cada vegada qu\&apos;abras una llingüeta nueva.">
 <!ENTITY remote_tabs_panel_moved_link "Lleváime al mio panel nuevu.">
 
 <!ENTITY pin_site_dialog_hint "Introduz una pallabra clave de gueta">
@@ -625,7 +644,6 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "Conexón segura">
 <!ENTITY identity_connection_insecure "Conexón insegura">
-<!ENTITY identity_login_insecure "Esta páxina nun ye segura y el to aniciu de sesión quiciabes seya vulnerable.">
 <!ENTITY identity_connection_chromeui "Esta ye una páxina segura de &brandShortName;">
 
 <!-- Mixed content notifications in site identity popup -->
@@ -699,7 +717,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_session_dialog_continue "Siguir">
 <!ENTITY guest_session_dialog_cancel "Encaboxar">
 <!ENTITY new_guest_session_title "Agora &brandShortName; va reaniciase">
-<!ENTITY new_guest_session_text2 "La persona que la use nun va ser a ver datos personales de restolar de to (como anicios de sesión guardaos, historial o marcadores).\n\nCuando\&apos;l to convidáu/ada fine, van desaniciase los sos datos de restolar y va restaurase la to sesión.">
+<!ENTITY new_guest_session_text2 "La persona que la use nun va ser a ver datos personales de restolar de to (como anicios de sesión guardaos, historial o marcadores).\n\nCuando\&apos;l to convidáu/ada zarre sesión, van desaniciase los sos datos de restolar y va restaurase la to sesión.">
 <!ENTITY guest_browsing_notification_title "Habilitóse\&apos;l restolar de convidáu">
 <!ENTITY guest_browsing_notification_text "Calca pa colar">
 
@@ -806,7 +824,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY promotion_add_to_homescreen "Amestar a la pantalla d\&apos;aniciu">
 
 <!ENTITY helper_first_offline_bookmark_title "Lleer fuera de llinia">
-<!ENTITY helper_first_offline_bookmark_message "Alcuentra los elementos del to visor de llectura en Marcadores, inclusu fuera de llinia.">
+<!ENTITY helper_first_offline_bookmark_message "Alcuentra los elementos del to visor de llectura en Marcadores, incluso ensin conexón.">
 <!ENTITY helper_first_offline_bookmark_button "Dir a Marcadores">
 
 <!ENTITY helper_triple_readerview_open_title "Disponible fuera de llinia">

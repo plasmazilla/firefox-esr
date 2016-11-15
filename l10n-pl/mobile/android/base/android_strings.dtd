@@ -39,9 +39,10 @@
 
 <!ENTITY bookmarks_title "Zakładki">
 <!ENTITY history_title "Historia">
-<!ENTITY recent_tabs_title "Ostatnio otwarte karty">
 
 <!ENTITY switch_to_tab "Przełącz na kartę">
+
+<!ENTITY tab_offline_version "Wersja offline">
 
 <!ENTITY crash_reporter_title "&brandShortName; – Narzędzie zgłaszania awarii">
 <!ENTITY crash_message2 "&brandShortName; uległ awarii. Ostatnio otwarte karty powinny być dostępne na stronie startowej po ponownym uruchomieniu.">
@@ -200,6 +201,14 @@
 <!ENTITY pref_whats_new_notification "Nowości w przeglądarce &brandShortName;">
 <!ENTITY pref_whats_new_notification_summary "Powiadamianie o nowych funkcjach po aktualizacji">
 
+<!ENTITY pref_category_experimental "Funkcje eksperymentalne">
+
+<!ENTITY pref_custom_tabs "Niestandardowe karty">
+<!ENTITY pref_custom_tabs_summary "Zewnętrzne aplikacje mogą otwierać karty o niestandardowym wyglądzie.">
+
+<!ENTITY pref_activity_stream "Activity Stream">
+<!ENTITY pref_activity_stream_summary "Wizualna historia i nowa strona domowa, ułatwiające wyszukiwanie treści w przeglądarce &brandShortName;.">
+
 <!ENTITY tracking_protection_prompt_title "Nowa ochrona przed śledzeniem">
 <!ENTITY tracking_protection_prompt_text "Aktywne blokowanie elementów śledzących aktywność użytkownika.">
 <!ENTITY tracking_protection_prompt_tip_text "Więcej informacji w ustawieniach prywatności">
@@ -280,9 +289,10 @@
 <!ENTITY pref_private_data_syncedTabs "Zsynchronizowane karty">
 
 <!ENTITY pref_default_browser "Ustaw jako domyślną przeglądarkę">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Pomoc Mozilli">
 <!ENTITY pref_about_firefox "O programie &brandShortName;">
-<!ENTITY pref_vendor_faqs "FAQ">
-<!ENTITY pref_vendor_feedback "Przekaż informacje zwrotne">
+<!ENTITY pref_vendor_faqs "Najczęściej zadawane pytania">
+<!ENTITY pref_vendor_feedback "Wyślij opinię">
 <!ENTITY pref_dialog_set_default "Ustaw jako domyślną">
 <!ENTITY pref_dialog_default "Domyślna">
 <!ENTITY pref_dialog_remove "Usuń">
@@ -423,10 +433,11 @@
 <!ENTITY home_clear_history_button "Wyczyść historię przeglądania">
 <!ENTITY home_clear_history_confirm "Czy na pewno wyczyścić historię przeglądania?">
 <!ENTITY home_bookmarks_empty "Tutaj pojawiają się zachowane zakładki.">
-<!ENTITY home_closed_tabs_title "Niedawno zamknięte karty">
-<!ENTITY home_last_tabs_title "Karty z ostatniej sesji">
+<!ENTITY home_closed_tabs_title2 "Ostatnio zamknięte">
 <!ENTITY home_last_tabs_empty "Tutaj pojawiają się ostatnio otwarte karty.">
-<!ENTITY home_open_all "Otwórz wszystkie">
+<!ENTITY home_restore_all "Przywróć wszystkie">
+<!ENTITY home_closed_tabs_number "Karty: &formatD;">
+<!ENTITY home_closed_tabs_one "Karty: 1">
 <!ENTITY home_most_recent_empty "Tutaj pojawiają się ostatnio odwiedzone witryny.">
 <!ENTITY home_most_recent_emptyhint2 "Psst: W &formatS1;nowej karcie prywatnej&formatS2; historia nie jest zachowywana.">
 
@@ -463,7 +474,6 @@
 <!ENTITY identity_connected_to "Połączono z">
 <!ENTITY identity_connection_secure "Zabezpieczone połączenie">
 <!ENTITY identity_connection_insecure "Niezabezpieczone połączenie">
-<!ENTITY identity_login_insecure "Ta strona nie jest zabezpieczona. Dane logowania mogą być narażone na ataki.">
 <!ENTITY identity_connection_chromeui "To jest strona programu &brandShortName;">
 
 <!ENTITY mixed_content_blocked_all1 "&brandShortName; zablokował niezabezpieczoną treść na tej stronie.">

@@ -87,7 +87,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.tab.security): This is the label displayed
   -  in the network details pane identifying the security tab. -->
-<!ENTITY netmonitorUI.tab.security        "Сигурност">
+<!ENTITY netmonitorUI.tab.security        "Защита">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.filterAll): This is the label displayed
   -  in the network details footer for the "All" filtering button. -->
@@ -135,7 +135,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.filterFreetext): This is the label displayed
   -  in the network details footer for the url filtering textbox. -->
-<!ENTITY netmonitorUI.footer.filterFreetext.label  "Филтриране на URL-и">
+<!ENTITY netmonitorUI.footer.filterFreetext.label  "Филтриране на адреси">
 <!ENTITY netmonitorUI.footer.filterFreetext.key  "F">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.footer.clear): This is the label displayed

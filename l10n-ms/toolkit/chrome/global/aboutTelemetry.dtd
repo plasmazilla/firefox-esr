@@ -4,26 +4,71 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Data Telemetri">
 
+<!ENTITY aboutTelemetry.changeDataChoices "
+  
+  Ubah">
 
+<!ENTITY aboutTelemetry.uploadEnabled "Muat naik data FHR <span>dibolehkan</span>.">
 
+<!ENTITY aboutTelemetry.uploadDisabled "
+  
+  FHR memuat naik data <span> dinyahdaya</span>.">
 
+<!ENTITY aboutTelemetry.extendedRecordingEnabled "
+  Rakaman Telemetri Lanjutan <span>didayakan</span>.
+">
 
+<!ENTITY aboutTelemetry.extendedRecordingDisabled "
+  Rakaman Telemetri Lanjutan <span>dinyahdayakan</span>.
+">
 
+<!ENTITY aboutTelemetry.pingDataSource "Sumber data ping:">
 
+<!ENTITY aboutTelemetry.showCurrentPingData "Data ping semasa">
 
+<!ENTITY aboutTelemetry.showArchivedPingData "Data ping diarkibkan">
 
+<!ENTITY aboutTelemetry.pingDataDisplay "
+Paparan data ping:">
 
+<!ENTITY aboutTelemetry.structured "
+Berstruktur">
 
+<!ENTITY aboutTelemetry.raw "
+JSON Mentah
+">
 
+<!ENTITY aboutTelemetry.showSubsessionData "
+Papar data subsesi
+">
 
+<!ENTITY aboutTelemetry.choosePing "
+Pilih ping:">
 
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Ping lebih baru">
 
+<!ENTITY aboutTelemetry.showOlderPing "
+Ping lebih lama &gt;&gt;">
 
+<!ENTITY aboutTelemetry.rawPingData "
+Data ping mentah…">
 
+<!ENTITY aboutTelemetry.archiveWeekHeader "Minggu">
 
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  
+  Data Umum">
 
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Data Persekitaran">
 
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  
+  Log Telemetri">
 
 <!ENTITY aboutTelemetry.slowSqlSection "  Penyata SQL Lambat">
 
@@ -31,8 +76,15 @@
 
 <!ENTITY aboutTelemetry.threadHangStatsSection "  Bebenang Tergantung">
 
+<!ENTITY aboutTelemetry.scalarsSection "
+  Skala
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Histogram">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Keyed Histograms
+">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "  Pengukuran Mudah">
 
@@ -40,6 +92,8 @@
 
 <!ENTITY aboutTelemetry.lateWritesSection "  Tulis Lewat">
 
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Maklumat Sesi">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "  Histogram Dikumpul oleh Add-on">
 
@@ -47,12 +101,21 @@
 
 <!ENTITY aboutTelemetry.emptySection "  (Tiada data terkumpul)">
 
-<!ENTITY aboutTelemetry.fullSqlWarning "  NOTA: Slow SQL debugging telah digunakan. Full SQL strings boleh dipamerkan dibawah namun mereka tidak boleh dihantar kepada Telemetry.">
+<!ENTITY aboutTelemetry.fullSqlWarning "
+  NOTE: Slow SQL debugging is enabled. Full SQL strings may be displayed below but they will not be submitted to Telemetry.
+">
 
 <!ENTITY aboutTelemetry.fetchSymbols "  Dapatkan fungsi nama untuk hang stacks">
 
-<!ENTITY aboutTelemetry.hideSymbols "  Pamer data mentah daripada hangs">
+<!ENTITY aboutTelemetry.hideSymbols "
+  Papar data mentah dari hangs
+">
 
 <!ENTITY aboutTelemetry.filterText "  Penapis (rentetan atau /regexp/)">
 
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Muat beban">
 
+<!ENTITY aboutTelemetry.rawPayload "
+  Muatan Mentah
+">

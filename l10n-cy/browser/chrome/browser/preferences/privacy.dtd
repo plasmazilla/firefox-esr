@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Gosodiadau…">
 <!ENTITY  clearOnCloseSettings.accesskey "G">
+
+<!ENTITY  browserContainersHeader.label         "Tabiau Cynwysyddion">
+<!ENTITY  browserContainersLearnMore.label      "Dysgu rhagor">
+<!ENTITY  browserContainersEnabled.label        "Galluogi Tabiau Cynwysyddion">
+<!ENTITY  browserContainersEnabled.accesskey    "G">

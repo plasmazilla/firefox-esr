@@ -14,7 +14,6 @@
   be used for them. -->
 <!ENTITY safeb.palm.notdeceptive.accesskey "e">
 <!ENTITY safeb.palm.reportPage.label "Pertge è questa pagina vegnida bloccada?">
-<!ENTITY safeb.palm.whyForbidden.label "Pertge è questa pagina vegnida bloccada?">
 
 <!ENTITY safeb.blocked.malwarePage.title "Classifitgà sco pagina attatganta!">
 <!-- Localization note (safeb.blocked.malwarePage.shortDesc) - Please don't translate the contents of the <span id="malware_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
@@ -30,8 +29,4 @@
 <!-- Localization note (safeb.blocked.phishingPage.shortDesc2) - Please don't translate the contents of the <span id="phishing_sitename"/> tag. It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
 <!ENTITY safeb.blocked.phishingPage.shortDesc2 "La pagina d'internet <span id='phishing_sitename'/> è vegnida annunziada sco pagina che engiona ed è bloccada sin fundament da tias preferenzas da segirezza.">
 <!ENTITY safeb.blocked.phishingPage.longDesc2 "<p>Paginas che engionan vegnan creadas cun l'intent da ta surmanar da far insatge privlus, p.ex. installar software u tradir infurmaziuns persunalas sco pleds-clav, numers da telefon u da cartas da credit.</p><p>Cun endatar infurmaziuns sin questa pagina d'internet ristgas ti enguladitschs d'identitad ed autras furmas d'engion.</p>">
-
-<!ENTITY safeb.blocked.forbiddenPage.title2 "Pagina bloccada">
-<!-- Localization note (safeb.blocked.forbiddenPage.shortDesc2) - Please don't translate the contents of the <span id="forbidden_sitename"/> tag.  It will be replaced at runtime with a domain name (e.g. www.badsite.com) -->
-<!ENTITY safeb.blocked.forbiddenPage.shortDesc2 "La pagina <span id='forbidden_sitename'/> è vegnida bloccada da tes profil d'administratur.">
 

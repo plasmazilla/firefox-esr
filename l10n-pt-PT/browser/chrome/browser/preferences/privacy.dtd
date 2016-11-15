@@ -56,7 +56,7 @@
 <!ENTITY  keepUntil.accesskey           "G">
 
 <!ENTITY  expire.label                  "expirarem">
-<!ENTITY  close.label                   "o &brandShortName; ser fechado">
+<!ENTITY  close.label                   "Eu fechar o &brandShortName;">
 
 <!ENTITY  cookieExceptions.label        "Exceções…">
 <!ENTITY  cookieExceptions.accesskey    "E">
@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Definições…">
 <!ENTITY  clearOnCloseSettings.accesskey "e">
+
+<!ENTITY  browserContainersHeader.label         "Separadores contentores">
+<!ENTITY  browserContainersLearnMore.label      "Saber mais">
+<!ENTITY  browserContainersEnabled.label        "Ativar separadores contentores">
+<!ENTITY  browserContainersEnabled.accesskey    "n">

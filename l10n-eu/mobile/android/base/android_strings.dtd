@@ -44,9 +44,11 @@
 
 <!ENTITY  bookmarks_title "Laster-markak">
 <!ENTITY  history_title "Historia">
-<!ENTITY  recent_tabs_title "Azken fitxak">
 
 <!ENTITY  switch_to_tab "Aldatu fitxara">
+<!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
+
+<!ENTITY  tab_offline_version "Lineaz kanpoko bertsioa erakusten">
 
 <!ENTITY  crash_reporter_title "&brandShortName; hutsegite-berriemailea">
 <!ENTITY  crash_message2 "&brandShortName;(e)k arazo bat izan du eta huts egin du. Berrabiaraztean, &brandShortName;(r)en hasiera-orrian zerrendatuko dira zure fitxak.">
@@ -106,7 +108,7 @@
 <!ENTITY edit_mode_cancel "Utzi">
 
 <!ENTITY close_tab "Itxi fitxa">
-<!ENTITY one_tab "fitxa 1">
+<!ENTITY one_tab "Fitxa 1">
 <!-- Localization note (num_tabs2) : Number of tabs is always more than one.
      We can't use android plural forms, sadly. See bug #753859. -->
 <!ENTITY num_tabs2 "&formatD; fitxa">
@@ -269,6 +271,20 @@
 
 <!ENTITY pref_whats_new_notification "&brandShortName;(e)n berrikuntzak">
 <!ENTITY pref_whats_new_notification_summary "Jaso eginbide berriei buruzko argibideak eguneraketen ondoren">
+<!-- Localization note (pref_category_experimental): Title of a sub category in the 'advanced' category
+     for experimental features. -->
+
+<!ENTITY pref_category_experimental "Eginbide esperimentalak">
+<!-- Custom Tabs is an Android API for allowing third-party apps to open URLs in a customized UI.
+     Instead of switching to the browser it appears as if the user stays in the third-party app.
+     For more see: https://developer.chrome.com/multidevice/android/customtabs -->
+
+<!ENTITY pref_custom_tabs "Fitxa pertsonalizatuak">
+<!ENTITY pref_custom_tabs_summary "Baimendu hirugarren aplikazioei pertsonalizatutako itxura duten URLak irekitzea.">
+<!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
+
+<!ENTITY pref_activity_stream "Jardueren korrontea">
+<!ENTITY pref_activity_stream_summary "Historia modu ikusgarrian erakusten duen jarioak eta birpentsatutako hasiera-orriak &brandShortName;(e)n bila zabiltzana aurkitzea sekula baino errazagoa egiten dute.">
 
 <!ENTITY tracking_protection_prompt_title "Orain jarraipenaren babesarekin">
 <!ENTITY tracking_protection_prompt_text "Blokeatu modu aktiboan jarraipena egiten duten elementuak.">
@@ -382,6 +398,7 @@ size. -->
 <!ENTITY pref_private_data_syncedTabs "Sinkronizatutako fitxak">
 
 <!ENTITY pref_default_browser "Egin nabigatzaile lehenetsia">
+<!ENTITY pref_default_browser_mozilla_support_tablet "Bisitatu Mozillaren laguntza">
 <!ENTITY pref_about_firefox "&brandShortName;(r)i buruz">
 <!ENTITY pref_vendor_faqs "Ohiko galderak">
 <!ENTITY pref_vendor_feedback "Emaiguzu zure iritzia!">
@@ -570,10 +587,12 @@ size. -->
 <!ENTITY home_clear_history_button "Garbitu nabigatze-historia">
 <!ENTITY home_clear_history_confirm "Ziur zaude nabigatze-historia garbitu nahi duzula?">
 <!ENTITY home_bookmarks_empty "Gordetako laster-markak hemen agertzen dira.">
-<!ENTITY home_closed_tabs_title "Itxitako azken fitxak">
-<!ENTITY home_last_tabs_title "Azken saioko fitxak">
+<!ENTITY home_closed_tabs_title2 "Itxitako azkenak">
 <!ENTITY home_last_tabs_empty "Zure azken fitxak hemen agertzen dira.">
-<!ENTITY home_open_all "Ireki guztiak">
+<!ENTITY home_restore_all "Berreskuratu denak">
+<!ENTITY home_closed_tabs_number "&formatD; fitxa">
+<!-- Localization note (home_closed_tabs_one): This is the singular version of home_closed_tabs_number, referring to the number of recently closed tabs available. -->
+<!ENTITY home_closed_tabs_one "Fitxa 1">
 <!ENTITY home_most_recent_empty "Bisitatu dituzun azken webguneak hemen agertzen dira.">
 <!-- Localization note (home_most_recent_emptyhint2): "Psst" is a sound that might be used to attract someone's attention unobtrusively, and intended to hint at Private Browsing to the user.
      The placeholders &formatS1; and &formatS2; are used to mark the location of text underlining. -->
@@ -625,7 +644,6 @@ with that structure, consider a translation which ignores the preceding domain a
 just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY identity_connection_secure "Konexio segurua">
 <!ENTITY identity_connection_insecure "Konexio ez-segurua">
-<!ENTITY identity_login_insecure "Orri hau ez da segurua eta zure saio-hasiera arriskuan egon liteke.">
 <!ENTITY identity_connection_chromeui "&brandShortName; orri segurua da hau">
 <!-- Mixed content notifications in site identity popup -->
 

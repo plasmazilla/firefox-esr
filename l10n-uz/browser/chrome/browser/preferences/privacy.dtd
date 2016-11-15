@@ -104,3 +104,8 @@
 
 <!ENTITY  clearOnCloseSettings.label     "Sozlamalar…">
 <!ENTITY  clearOnCloseSettings.accesskey "l">
+
+<!ENTITY  browserContainersHeader.label         "Konteyner ichki oynalar">
+<!ENTITY  browserContainersLearnMore.label      "Batafsil ma’lumot">
+<!ENTITY  browserContainersEnabled.label        "Konteyner ichki oynalarni yoqib qo‘yish">
+<!ENTITY  browserContainersEnabled.accesskey    "y">
