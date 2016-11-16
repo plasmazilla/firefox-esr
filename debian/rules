@@ -214,7 +214,8 @@ stamps/configure-check-$(PRODUCT):: stamps/configure-$(PRODUCT)
 stamps/configure-$(PRODUCT):: stamps/prepare-configure debian/$($(PRODUCT)).mozconfig
 	$(if $(wildcard build-$(PRODUCT)),,mkdir build-$(PRODUCT))
 ifeq ($(DEB_BUILD_ARCH_ENDIAN),big)
-	python intl/icu_sources_data.py "$(CURDIR)"
+	echo mk_add_options MOZ_OBJDIR=build-$(PRODUCT) > build-$(PRODUCT)/mozconfig.icu
+	cd build-$(PRODUCT) && MOZCONFIG=mozconfig.icu ../mach python ../intl/icu_sources_data.py "$(CURDIR)"
 endif
 	cd build-$(PRODUCT) && \
 	MOZCONFIG=$(CURDIR)/debian/$($(PRODUCT)).mozconfig \
