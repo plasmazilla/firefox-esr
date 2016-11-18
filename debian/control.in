@@ -54,7 +54,8 @@ Build-Depends: autotools-dev,
                libpulse-dev,
                yasm (>= 1.1),
 %if RUST
-               rustc (>= 1.5) [amd64 arm64 i386],
+               rustc (>= 1.10) [amd64 i386],
+               cargo (>= 0.13) [amd64 i386],
 %endif
                zip,
                unzip,

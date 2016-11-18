@@ -56,7 +56,7 @@ endif
 ifeq (,$(filter release esr%,$(SHORT_SOURCE_CHANNEL)))
 ifndef BACKPORT
 RUST = 1
-ifneq (,$(filter amd64 arm64 i386,$(DEB_BUILD_ARCH)))
+ifneq (,$(filter amd64 i386,$(DEB_BUILD_ARCH)))
 BUILD_RUST = 1
 endif
 endif
