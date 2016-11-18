@@ -1,3 +1,13 @@
+firefox (50.0-2) unstable; urgency=medium
+
+  * debian/rules: Use mach to run icu_source_data.py. This should fix FTBFS
+    on big endian platforms.
+
+  * js/src/jit/mips64/CodeGenerator-mips64.cpp: Fix
+    CodeGenerator::visitAsmSelectI64. bz#1290811.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 19 Nov 2016 06:16:41 +0900
+
 firefox (50.0-1) unstable; urgency=medium
 
   * New upstream release.
