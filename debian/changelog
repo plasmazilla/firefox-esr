@@ -1,3 +1,11 @@
+firefox (50.0-3) unstable; urgency=medium
+
+  * media/libjpeg/simd/jsimd_mips.c: Pull libjpeg-turbo upstream fix for FTBFS
+    on mips.
+  * widget/gtk/mozgtk/gtk3/moz.build: Work around Debian bug #844357.
+
+ -- Mike Hommey <glandium@debian.org>  Mon, 21 Nov 2016 08:16:53 +0900
+
 firefox (50.0-2) unstable; urgency=medium
 
   * debian/rules: Use mach to run icu_source_data.py. This should fix FTBFS
