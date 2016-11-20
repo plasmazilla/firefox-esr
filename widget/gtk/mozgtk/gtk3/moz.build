@@ -36,3 +36,7 @@ OS_LIBS += [
     'gdk-3',
 ]
 OS_LIBS += as_needed
+
+# Work around Debian bug #844357
+if CONFIG['CPU_ARCH'].startswith('mips'):
+    OS_LIBS += ['-Wl,--no-gc-sections']
