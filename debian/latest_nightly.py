@@ -5,6 +5,7 @@ import re
 import sys
 import httplib
 import urllib2
+import urlparse
 
 
 def main():
@@ -21,19 +22,29 @@ def main():
     else:
         variant = ''
 
-    filename = os.path.basename(location)
-    assert filename.startswith(product + '-')
-    version = filename[len(product) + 1:]
-    m = re.match(r'([0-9]+(?:\.[0-9]+)*(?:[ab][0-9]+)?)\.', version)
-    assert m
-    version = m.group(1)
+    u = urlparse.urlparse(location)
+    p = u.path.split('/')
+    assert p[0] == ''
+    assert p[1] == 'pub'
+    assert p[2] == product
+    assert p[3] in ('releases', 'nightly')
+    if p[3] == 'nightly':
+        filename = os.path.basename(location)
+        assert filename.startswith(product + '-')
+        version = filename[len(product) + 1:]
+        m = re.match(r'([0-9]+(?:\.[0-9]+)*(?:[ab][0-9]+)?)\.', version)
+        assert m
+        version = m.group(1)
 
-    url = location.replace('.tar.bz2', '.txt')
-    assert url != location
+        url = location.replace('.tar.bz2', '.txt')
+        assert url != location
 
-    f = urllib2.urlopen(url)
-    print version, ' '.join(l.rstrip() for l in f.readlines())
-    f.close()
+        f = urllib2.urlopen(url)
+        print version, ' '.join(l.rstrip() for l in f.readlines())
+        f.close()
+    elif p[3] == 'releases':
+        version = p[4]
+        print version
 
 if __name__ == '__main__':
     main()
