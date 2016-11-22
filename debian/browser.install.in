@@ -42,11 +42,13 @@ usr/lib/@browser@/liblgpllibs.so
 usr/lib/@browser@/libmozavcodec.so
 usr/lib/@browser@/libmozavutil.so
 %endif
+%if DEB_BUILD_ARCH == i386 || DEB_BUILD_ARCH == amd64
+usr/lib/@browser@/libmozsandbox.so
+%endif
 
 usr/lib/@browser@/defaults/pref/channel-prefs.js
 
 usr/lib/@browser@/@browser@ usr/lib/@browser@
-usr/lib/@browser@/browser/components usr/lib/@browser@/browser
 
 usr/lib/@browser@/browser/defaults/preferences usr/share/@browser@/browser/defaults
 usr/lib/@browser@/browser/icons usr/share/@browser@/browser
@@ -72,6 +74,7 @@ usr/lib/@browser@/browser/features usr/lib/@browser@/browser
 debian/firefox usr/bin
 %endif
 
+usr/lib/@browser@/chrome.manifest
 usr/lib/@browser@/browser/chrome.manifest
 
 usr/lib/@browser@/@ICU_DATA_FILE@
