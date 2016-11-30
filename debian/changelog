@@ -1,3 +1,10 @@
+firefox-esr (45.5.1esr-1~deb8u1) stable-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-92, also known as CVE-2016-9079.
+
+ -- Mike Hommey <glandium@debian.org>  Thu, 01 Dec 2016 07:38:40 +0900
+
 firefox-esr (45.5.0esr-1~deb8u1) stable-security; urgency=medium
 
   * New upstream release.
