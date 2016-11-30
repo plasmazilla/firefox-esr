@@ -1,4 +1,5 @@
 fixes/Allow-.js-preference-files-to-set-locked-prefs-with-.patch
+fixes/Bug-1271100-work-around-race-in-system-Cairo-s-XShm-.patch
 porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/NSS-GNU-kFreeBSD-support.patch
