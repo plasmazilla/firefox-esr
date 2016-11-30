@@ -1,3 +1,14 @@
+firefox (50.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-{91-92}, also known as:
+    CVE-2016-9078, CVE-2016-9079.
+
+  * widget/gtk/mozgtk/mozgtk.c: work around race in system Cairo's XShm usage.
+    bz#1271100.
+
+ -- Mike Hommey <glandium@debian.org>  Thu, 01 Dec 2016 08:32:08 +0900
+
 firefox (50.0-3) unstable; urgency=medium
 
   * media/libjpeg/simd/jsimd_mips.c: Pull libjpeg-turbo upstream fix for FTBFS
