@@ -10,7 +10,7 @@ Subject: Allow .js preference files to set locked prefs with lockPref()
  4 files changed, 19 insertions(+), 7 deletions(-)
 
 diff --git a/modules/libpref/prefapi.cpp b/modules/libpref/prefapi.cpp
-index 046a694..6499650 100644
+index 046a6941903d..649965070df2 100644
 --- a/modules/libpref/prefapi.cpp
 +++ b/modules/libpref/prefapi.cpp
 @@ -997,8 +997,8 @@ void PREF_ReaderCallback(void       *closure,
@@ -32,7 +32,7 @@ index 046a694..6499650 100644
 +        PREF_LockPref(pref, true);
  }
 diff --git a/modules/libpref/prefapi.h b/modules/libpref/prefapi.h
-index 9ef014a..1c74a70 100644
+index 9ef014adaf13..1c74a7045b94 100644
 --- a/modules/libpref/prefapi.h
 +++ b/modules/libpref/prefapi.h
 @@ -243,7 +243,8 @@ void PREF_ReaderCallback( void *closure,
@@ -46,7 +46,7 @@ index 9ef014a..1c74a70 100644
  
  /*
 diff --git a/modules/libpref/prefread.cpp b/modules/libpref/prefread.cpp
-index 605dcaa..421cc69 100644
+index 605dcaac6308..421cc694bdef 100644
 --- a/modules/libpref/prefread.cpp
 +++ b/modules/libpref/prefread.cpp
 @@ -43,6 +43,7 @@ enum {
@@ -104,7 +104,7 @@ index 605dcaa..421cc69 100644
                  ps->nextstate = PREF_PARSE_UNTIL_COMMA; /* return here when done */
                  state = PREF_PARSE_QUOTED_STRING;
 diff --git a/modules/libpref/prefread.h b/modules/libpref/prefread.h
-index 2a09b30..a2dac02 100644
+index 2a09b30b6e31..a2dac02f8db9 100644
 --- a/modules/libpref/prefread.h
 +++ b/modules/libpref/prefread.h
 @@ -34,7 +34,8 @@ typedef void (*PrefReader)(void       *closure,

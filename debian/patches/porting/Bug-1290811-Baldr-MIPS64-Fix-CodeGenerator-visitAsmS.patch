@@ -8,7 +8,7 @@ Subject: Bug 1290811 - Baldr: MIPS64: Fix CodeGenerator::visitAsmSelectI64.
  1 file changed, 6 insertions(+), 6 deletions(-)
 
 diff --git a/js/src/jit/mips64/CodeGenerator-mips64.cpp b/js/src/jit/mips64/CodeGenerator-mips64.cpp
-index 27e414b..803ee16 100644
+index 27e414b7bd51..803ee167e94b 100644
 --- a/js/src/jit/mips64/CodeGenerator-mips64.cpp
 +++ b/js/src/jit/mips64/CodeGenerator-mips64.cpp
 @@ -338,17 +338,17 @@ CodeGeneratorMIPS64::visitAsmSelectI64(LAsmSelectI64* lir)

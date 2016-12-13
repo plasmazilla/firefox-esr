@@ -7,7 +7,7 @@ Subject: Work around Debian bug #844357
  1 file changed, 4 insertions(+)
 
 diff --git a/widget/gtk/mozgtk/gtk3/moz.build b/widget/gtk/mozgtk/gtk3/moz.build
-index 4e93795..538ef1a 100644
+index 4e9379565dd6..538ef1acfcc6 100644
 --- a/widget/gtk/mozgtk/gtk3/moz.build
 +++ b/widget/gtk/mozgtk/gtk3/moz.build
 @@ -36,3 +36,7 @@ OS_LIBS += [
