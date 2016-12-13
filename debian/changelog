@@ -1,3 +1,16 @@
+firefox-esr (45.6.0esr-1~deb8u1) stable-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-95, also known as:
+    CVE-2016-9899, CVE-2016-9895, CVE-2016-9897, CVE-2016-9898,
+    CVE-2016-9900, CVE-2016-9904, CVE-2016-9905, CVE-2016-9901,
+    CVE-2016-9902, CVE-2016-9893.
+
+  * debian/browser.install.in, browser.mozconfig.in, debian/rules: Don't
+    disable the crash reporter.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 14 Dec 2016 05:41:32 +0900
+
 firefox-esr (45.5.1esr-1~deb8u1) stable-security; urgency=medium
 
   * New upstream release.

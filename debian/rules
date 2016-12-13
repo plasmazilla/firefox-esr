@@ -122,6 +122,9 @@ endif
 ifeq (,$(filter debug noopt,$(DEB_BUILD_OPTIONS)))
 	GENSYMBOLS_FLAGS := -c4
 endif
+ifneq (,$(filter i386 amd64 armel armhf,$(DEB_BUILD_ARCH)))
+	CRASH_REPORTER = 1
+endif
 
 ifeq (default,$(origin CC))
 CC := gcc
@@ -163,7 +166,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS GSTREAMER_VERSION SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS GSTREAMER_VERSION SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION CRASH_REPORTER
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@

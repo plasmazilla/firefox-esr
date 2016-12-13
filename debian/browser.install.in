@@ -68,3 +68,10 @@ usr/lib/@browser@/browser/chrome.manifest
 
 usr/lib/@browser@/webapprt-stub
 usr/lib/@browser@/webapprt usr/share/@browser@
+
+%if CRASH_REPORTER
+usr/lib/@browser@/crashreporter
+usr/lib/@browser@/Throbber-small.gif
+usr/lib/@browser@/crashreporter.ini
+usr/lib/@browser@/browser/crashreporter-override.ini
+%endif
