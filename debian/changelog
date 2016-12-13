@@ -1,3 +1,14 @@
+firefox (50.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2016-95, also known as:
+    CVE-2016-9894, CVE-2016-9899, CVE-2016-9895, CVE-2016-9896,
+    CVE-2016-9897, CVE-2016-9898, CVE-2016-9900, CVE-2016-9904,
+    CVE-2016-9901, CVE-2016-9902, CVE-2016-9903, CVE-2016-9080,
+    CVE-2016-9893.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 14 Dec 2016 06:15:10 +0900
+
 firefox (50.0.2-1) unstable; urgency=medium
 
   * New upstream release.
