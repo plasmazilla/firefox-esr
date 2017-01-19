@@ -52,7 +52,7 @@
      the same access key (though the two access keys can also be different).
      -->
 <!ENTITY cmd.show.label                   "Otevřít složku">
-<!ENTITY cmd.show.accesskey               "s">
+<!ENTITY cmd.show.accesskey               "l">
 <!ENTITY cmd.showMac.label                "Zobrazit ve Finderu">
 <!ENTITY cmd.showMac.accesskey            "F">
 <!ENTITY cmd.retry.label                  "Opakovat">
@@ -62,8 +62,8 @@
 <!ENTITY cmd.copyDownloadLink.accesskey   "K">
 <!ENTITY cmd.removeFromHistory.label      "Odebrat z historie">
 <!ENTITY cmd.removeFromHistory.accesskey  "d">
-<!ENTITY cmd.clearList.label              "Smazat seznam">
-<!ENTITY cmd.clearList.accesskey          "m">
+<!ENTITY cmd.clearList2.label             "Smazat panel náhledu">
+<!ENTITY cmd.clearList2.accesskey         "m">
 <!ENTITY cmd.clearDownloads.label         "Smazat stahování">
 <!ENTITY cmd.clearDownloads.accesskey     "S">
 <!-- LOCALIZATION NOTE (cmd.unblock2.label):
@@ -108,6 +108,8 @@
      -->
 <!ENTITY downloadsHistory.label           "Zobrazit všechna stahování">
 <!ENTITY downloadsHistory.accesskey       "v">
+
+<!ENTITY openDownloadsFolder.label       "Otevřít složku se staženými soubory">
 
 <!ENTITY clearDownloadsButton.label       "Smazat stahování">
 <!ENTITY clearDownloadsButton.tooltip     "Smaže dokončená, zrušená či neúspěšná stahování">

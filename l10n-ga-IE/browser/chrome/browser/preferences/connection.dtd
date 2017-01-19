@@ -4,8 +4,8 @@
 
 
 <!ENTITY  connectionsDialog.title       "Socruithe Ceangail">
-<!ENTITY  window.width                  "50em">
-<!ENTITY  window.macWidth               "50em">
+<!ENTITY  window.width2                 "54em">
+<!ENTITY  window.macWidth2              "48em">
 
 <!ENTITY  proxyTitle.label              "Cumraigh Seachfhreastalaí Rochtana Idirlín">
 <!ENTITY  noProxyTypeRadio.label        "Gan seachfhreastalaí">

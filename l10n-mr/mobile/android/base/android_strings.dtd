@@ -207,7 +207,7 @@
 
 <!ENTITY pref_category_home "मुख्य पटल">
 <!ENTITY pref_category_home_summary "घरपानाची स्वपसंती करा">
-<!ENTITY pref_category_home_panels "पटले">
+<!ENTITY pref_category_home_panels "फलक">
 <!ENTITY pref_category_home_add_ons "ॲड-ऑन्स">
 <!ENTITY pref_home_updates2 "मजकूर सुधारणा">
 <!ENTITY pref_home_updates_enabled "चालु">
@@ -828,3 +828,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "वाचक पद्धत घटकांना ऑफलाइन वाचण्यासाठी वाचनखूण लावा.">
 <!ENTITY helper_triple_readerview_open_button "वाचणखूणा बघा">
 
+<!ENTITY activity_stream_topsites "खास साईट्स">
+<!ENTITY activity_stream_highlights "महत्त्वाचे">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "अधिक">

@@ -161,7 +161,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Amestar esta páxina a marcadores">
 <!ENTITY editThisBookmarkCmd.label "Editar esti marcador">
 <!ENTITY bookmarkThisPageCmd.commandkey "E">
-<!ENTITY markPageCmd.commandkey "l">
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
@@ -207,32 +206,34 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY printButton.tooltip          "Imprenta esta páxina">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "Ver información del sitiu">
-<!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
-     used to provide accessible labels to users of assistive technology like screenreaders.
-     It is not possible to see them visually in the UI. -->
-<!ENTITY urlbar.defaultNotificationAnchor.label         "Ver un avisu">
-<!ENTITY urlbar.geolocationNotificationAnchor.label     "Ver solicitú d'allugamientu">
-<!ENTITY urlbar.addonsNotificationAnchor.label          "Ver mensaxe d'instalación d'add-on">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label       "Ver mensaxe del almacenamientu d'aplicaciones fuera de llinia">
-<!ENTITY urlbar.loginFillNotificationAnchor.label       "Xestionar información d'aniciu de sesión">
-<!ENTITY urlbar.passwordNotificationAnchor.label        "Conseña si quies guardar la to contraseña">
-<!ENTITY urlbar.pluginsNotificationAnchor.label         "Xestionar usu de complementos nesta páxina">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label        "Camudar si pues recibir avisos del sitiu o non">
 
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label      "Xestionar compartición de la to cámara y/o micrófonu col sitiu">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label    "Tas compartiendo la to cámara y/o micrófonu col sitiu">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label   "Xestionar compartición del to micrófonu col sitiu">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Tas compartiendo'l to micrófonu col sitiu">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label       "Xestionar compartición de les tos ventanes col sitiu">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label     "Tas compartiendo una ventana o la to pantalla col sitiu">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "Abrir panel de mensaxes">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "Abrir panel de solicitú de llocalización">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "Abrir panel de mensaxes d'instalación de complementos">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "Abrir panel de mensaxes d'almacenamientu ensin conexón">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Abrir panel de mensaxes de contraseñes guardaes">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Remanar usu de plugins">
+<!ENTITY urlbar.webNotificationAnchor.tooltip             "Cambiar si se reciben notificaciones del sitiu">
 
-<!ENTITY urlbar.pointerLockNotificationAnchor.label     "Camudar si'l sitiu pue anubrir el punteru o non">
-<!ENTITY urlbar.servicesNotificationAnchor.label        "Ver el mensaxe d'instalación del serviciu">
-<!ENTITY urlbar.translateNotificationAnchor.label       "Traducir esta páxina">
-<!ENTITY urlbar.translatedNotificationAnchor.label      "Xestionar traducción de páxina">
-<!ENTITY urlbar.emeNotificationAnchor.label             "Xestionar usu de software DRM">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Remanar compartir cámara y/o micrófonu col sitiu">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Remanar compartir micrófonu col sitiu">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "Remanar compartir ventanes o pantalla col sitiu">
+
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "Abrir panel de mensaxe d'instalación">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip       "Traducir esta páxina">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Remanar la traducción de páxina">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip             "Remanar l'usu del software DRM">
+
+<!ENTITY urlbar.cameraBlocked.tooltip            "Bloquiesti la to cámara pa esti sitiu web.">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "Bloquiesti'l to micrófonu pa esti sitiu web.">
+<!ENTITY urlbar.screenBlocked.tooltip            "Bloquiesti la compartición de pantalla pa esti sitiu web.">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "Bloquiesti la to información d'allugamientu pa esti sitiu web.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "Bloquiesti l'almacenamientu de datos pa esti sitiu web.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Bloquiesti los avisos pa esti sitiu web.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Amosar historial">
+
+<!ENTITY urlbar.zoomReset.tooltip     "Restablecer nivel de zoom">
 
 <!ENTITY searchItem.title             "Guetar">
 
@@ -425,11 +426,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!-- LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
-     These are set as the aria-label attribute for the search input box and
-     submit button in the in-content search UI, to be used by screen readers. -->
+<!-- LOCALIZATION NOTE (contentSearchInput.label):
+     This is set as the aria-label attribute for the search input box in the
+     in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Guetar consulta">
-<!ENTITY contentSearchSubmit.label    "Unviar gueta">
+<!ENTITY contentSearchSubmit.tooltip  "Unviar busca">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -455,6 +456,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
 <!ENTITY changeSearchSettings.button  "Camudar axustes de gueta">
+<!ENTITY changeSearchSettings.tooltip "Camudar preferencies de busca">
 
 <!ENTITY searchInNewTab.label         "Guetar en llingüeta nueva">
 <!ENTITY searchInNewTab.accesskey     "L">
@@ -713,7 +715,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.weakCipher "La conexón con esti sitiu web usa cifráu feble y nun ye privada.">
 <!ENTITY identity.description.weakCipher2 "Otra xente pue ver la to información o midificar el comportamientu'l sitiu web.">
 <!ENTITY identity.description.activeBlocked "&brandShortName; bloquió partes d'esta páxina que nun son segures.">
-<!ENTITY identity.description.passiveLoaded "La conexón nun ye privada y la información que compartas col sitiu pue ser vista por otros.">
+<!ENTITY identity.description.passiveLoaded "La to conexón nun ye privada y la información que compartas col sitiu podríen vela otros.">
 <!ENTITY identity.description.passiveLoaded2 "Esti sitiu web contién conteníu que nun ye seguru (por exemplu: imáxenes).">
 <!ENTITY identity.description.passiveLoaded3 "Magar que &brandShortName; bloquiare daqué conteníu, entá hai conteníu na páxina que nun ye seguru (como imáxenes).">
 <!ENTITY identity.description.activeLoaded "Esti sitiu web contién conteníu que nun ye seguru (como scripts) y la to conexón a ella nun ye privada.">
@@ -732,6 +734,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions "Permisos">
 <!ENTITY identity.permissionsEmpty "Nun-y concediesti permisu especial dalu a esti sitiu.">
+<!ENTITY identity.permissionsReloadHint "Quiciabes precises recargar la páxina p'aplicar les camudancies.">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
@@ -775,21 +778,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncReAuthItem.accesskey     "R">
 <!ENTITY syncToolbarButton.label      "Sync">
 
-<!ENTITY socialToolbar.title        "Botón de la barra de ferramientes social">
-
-<!ENTITY social.ok.label       "Aceutar">
-<!ENTITY social.ok.accesskey   "A">
-
-<!ENTITY social.toggleSidebar.label "Amosar barra llateral">
-<!ENTITY social.toggleSidebar.accesskey "s">
-
 <!ENTITY social.addons.label "Xestionar servicios…">
-
-<!ENTITY social.toggleNotifications.label "Amosar avisos d'escritoriu">
-<!ENTITY social.toggleNotifications.accesskey "a">
-
-<!ENTITY social.learnMore.label "Depriendi más…">
-<!ENTITY social.learnMore.accesskey "m">
 
 <!ENTITY social.directory.label "Direutoriu d'activaciones">
 <!ENTITY social.directory.text "Pues activar servicios de compartición del direutoriu.">
@@ -810,15 +799,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "L">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Consiguir más temes">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "C">
-
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Enfocar charres">
-<!ENTITY social.chatBar.accesskey "c">
-
-<!ENTITY social.markpageMenu.accesskey "d">
-<!ENTITY social.markpageMenu.label "Guardar páxina en…">
-<!ENTITY social.marklinkMenu.accesskey "G">
-<!ENTITY social.marklinkMenu.label "Guardar enllaz en…">
 
 <!ENTITY getUserMedia.selectCamera.label "Cámara pa compartir:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
@@ -853,8 +833,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.block.label "Activar proteición">
 <!ENTITY trackingContentBlocked.block.accesskey "A">
 <!ENTITY trackingContentBlocked.disabled.message "La proteición de rastrexu ta deshabilitada">
-
-<!ENTITY pointerLock.notification.message "Primi ESC cuando quieras p'amosalu de nueves.">
 
 <!ENTITY pluginNotification.showAll.label "Amosar too">
 <!ENTITY pluginNotification.showAll.accesskey "M">

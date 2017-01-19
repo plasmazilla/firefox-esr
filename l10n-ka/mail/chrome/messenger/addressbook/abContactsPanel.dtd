@@ -1,0 +1,27 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY addressbookPicker.label            "წიგნაკი:">
+<!ENTITY addressbookPicker.accesskey        "k">
+<!ENTITY searchInput.label                  "ძიება:">
+<!ENTITY searchInput.accesskey              "o">
+<!ENTITY SearchNameOrEmail.label            "წერილის სახელი">
+
+<!ENTITY deleteAddrBookCard.label           "წაშლა">
+<!ENTITY deleteAddrBookCard.accesskey       "D">
+<!ENTITY addrBookCardProperties.label       "პარამეტრები">
+<!ENTITY addrBookCardProperties.accesskey   "P">
+<!ENTITY addtoToFieldMenu.label             "დამატება ველში">
+<!ENTITY addtoToFieldMenu.accesskey         "A">
+<!ENTITY addtoCcFieldMenu.label             "დამატება ასლის ველში">
+<!ENTITY addtoCcFieldMenu.accesskey         "C">
+<!ENTITY addtoBccFieldMenu.label            "დამატება ფარული ასლის ველში">
+<!ENTITY addtoBccFieldMenu.accesskey        "B">
+
+<!ENTITY toButton.label                     "დამატება ველში - ვის:">
+<!ENTITY toButton.accesskey                 "A">
+<!ENTITY ccButton.label                     "დამატება ველში - ასლი:">
+<!ENTITY ccButton.accesskey                 "C">
+<!ENTITY bccButton.label                    "ფარულ ასლებში დამატება:">
+<!ENTITY bccButton.accesskey                "B">

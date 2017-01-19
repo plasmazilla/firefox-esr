@@ -62,8 +62,8 @@
 <!ENTITY cmd.copyDownloadLink.accesskey   "L">
 <!ENTITY cmd.removeFromHistory.label      "Alih keluar Daripada Sejarah">
 <!ENTITY cmd.removeFromHistory.accesskey  "e">
-<!ENTITY cmd.clearList.label              "Kosongkan Senarai">
-<!ENTITY cmd.clearList.accesskey          "a">
+<!ENTITY cmd.clearList2.label             "Buang Panel Previu">
+<!ENTITY cmd.clearList2.accesskey         "a">
 <!ENTITY cmd.clearDownloads.label         "Padam Muat turun">
 <!ENTITY cmd.clearDownloads.accesskey     "D">
 <!-- LOCALIZATION NOTE (cmd.unblock2.label):
@@ -92,7 +92,7 @@
      Shown as a tag before the file name for some types of blocked downloads.
      Note: This string doesn't exist in the UI yet.  See bug 1053890.
      -->
-<!ENTITY blocked.label                    "HALANGAN">
+<!ENTITY blocked.label                    "BLOCKED">
 
 <!-- LOCALIZATION NOTE (learnMore.label):
      Shown as a text link for some types of blocked downloads, for example
@@ -108,6 +108,8 @@
      -->
 <!ENTITY downloadsHistory.label           "Papar Semua Muat turun">
 <!ENTITY downloadsHistory.accesskey       "S">
+
+<!ENTITY openDownloadsFolder.label       "Buka Folder Muat turun">
 
 <!ENTITY clearDownloadsButton.label       "Padam Muat turun">
 <!ENTITY clearDownloadsButton.tooltip     "Hapuskan yang telah selesai, batal dan gagalkan muat turun">

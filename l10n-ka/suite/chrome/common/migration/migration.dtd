@@ -1,0 +1,28 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY migrationWizard.title           "იმპორტის მეგზური">
+
+<!ENTITY importAllFrom.label             "ყველა ელემენტის იმპორტი პროგრამიდან:">
+<!ENTITY importBookmarksFrom.label       "სანიშნეების იმპორტი პროგრამიდან:">
+
+<!ENTITY importFromThunderbird.label     "Thunderbird">
+<!ENTITY importFromThunderbird.accesskey "T">
+<!ENTITY importFromFile.label            "ფაილი">
+<!ENTITY importFromFile.accesskey        "F">
+<!ENTITY importFromNothing.label         "იმპორტის გარეშე">
+<!ENTITY importFromNothing.accesskey    "D">
+
+<!ENTITY importSource.title              "იმპორტის პარამეტრები და თარიღი">
+<!ENTITY importItems.title               "საიმპორტო ელემენტები">
+<!ENTITY importItems.label               "საიმპორტო ელემენტების შერჩევა:">
+
+<!ENTITY selectProfile.title             "პროფილის შერჩევა">
+<!ENTITY selectProfile.label             "შესაძლებელია შემდეგი პროფილების იმპორტი პროგრამიდან:">
+
+<!ENTITY migrating.title                 "იმპორტი…">
+<!ENTITY migrating.label                 "მიმდინარეობს შემდეგი ელემენტების იმპორტი…">
+
+<!ENTITY done.title                      "იმპორტი დასრულდა">
+<!ENTITY done.label                      "წარმატებით დაიმპორტდა შემდეგი ელემენტები:">

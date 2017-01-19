@@ -25,7 +25,7 @@
       <input id='searchtext' type='search'></input>
       <button id='searchbutton'>Търсене</button>
     </div>
-  <li>Ако не можете да заредите друга страница, проверете връзката за мобилни данни или Wi-Fi.
+  <li>Ако не може да отворите друга страница, проверете връзката за мобилни данни или Wi-Fi.
     <button id='wifi'>Включване на Wi-Fi</button>
   </li>
 </ul>">
@@ -33,11 +33,11 @@
 <!ENTITY fileNotFound.title "Файлът не е намерен">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Проверете името на файла за големи/малки букви или други грешки при въвеждане.</li> <li>Проверете дали файлът не е преместен, преименуван или изтрит.</li> </ul>">
 
-<!ENTITY fileAccessDenied.title "Достъпът до файла беше отказан">
+<!ENTITY fileAccessDenied.title "Достъпът до файла е отказан">
 <!ENTITY fileAccessDenied.longDesc "<ul><li>Може да е премахнат, преместен или правата му да ограничават достъпа.</li></ul>">
 
 <!ENTITY generic.title "Ооох.">
-<!ENTITY generic.longDesc "<p>&brandShortName; не може да зареди тази страница.</p>">
+<!ENTITY generic.longDesc "<p>По някаква причина &brandShortName; не може да отвори страницата.</p>">
 
 <!ENTITY malformedURI.title "Адресът е невалиден">
 <!-- LOCALIZATION NOTE (malformedURI.longDesc2) This string contains markup including widgets for searching
@@ -86,7 +86,10 @@
 <!ENTITY unknownProtocolFound.longDesc "<ul> <li>Вероятно ще трябва да инсталирате друг софтуер, за да отворите този адрес.</li> </ul>">
 
 <!ENTITY proxyConnectFailure.title "Прокси сървърът отказва връзката">
-<!ENTITY proxyConnectFailure.longDesc "<ul> <li>Проверете настройките на проксито, за да уверите, че са правилни.</li> <li>Свържете се с мрежовия ви администратор, за да се уверите, че прокси сървъра работи.</li> </ul>">
+<!ENTITY proxyConnectFailure.longDesc "<ul>
+  <li>Уверете се, че настройките на прокси сървъра са правилни.</li>
+  <li>Свържете се с мрежовия администратор и проверете дали прокси сървърът работи.</li>
+</ul>">
 
 <!ENTITY proxyResolveFailure.title "Прокси сървърът не може да бъде открит">
 <!-- LOCALIZATION NOTE (proxyResolveFailure.longDesc3) This string contains markup including widgets for enabling wifi connections.
@@ -108,13 +111,13 @@
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>Страницата не може да бъде показана, защото достоверността на получените данни не може да бъде проверена.</li> <li>Моля, свържете се със собствениците на сайта, за да ги информирате за проблема.</li> </ul>">
 
 <!ENTITY nssBadCert.title "Неуспешно установяване на шифрована връзка">
-<!ENTITY nssBadCert.longDesc2 "<ul> <li>Това е или проблем с настройките на сървъра, или някой се опитва се представи за него.</li> <li>Ако и преди сте се свързвали успешно с него, има вероятност грешката да е временна и можете да опитате по-късно.</li> </ul>">
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>Това е или проблем с настройките на сървъра, или някой се опитва се представи за него.</li> <li>Ако и преди сте се свързвали успешно с него, има вероятност грешката да е временна и може да опитате по-късно.</li> </ul>">
 
 <!-- LOCALIZATION NOTE (sharedLongDesc3) This string contains markup including widgets for enabling wifi connections.
      The text inside the tags should be localized. Do not touch the ids. -->
 <!ENTITY sharedLongDesc3 "<ul>
   <li>Сайтът може да е временно недостъпен или натоварен. Опитайте отново след малко.</li>
-  <li>Ако не можете да заредите друга страница, проверете връзката за мобилни данни или Wi-Fi.
+  <li>Ако не може да заредите друга страница, проверете връзката за мобилни данни или Wi-Fi.
     <button id='wifi'>Включване на Wi-Fi</button>
   </li>
 </ul>">
@@ -125,7 +128,7 @@
 <!ENTITY corruptedContentErrorv2.title "Грешка поради развалено съдържание">
 <!ENTITY corruptedContentErrorv2.longDesc "<p>Страницата не може да бъде показана поради грешка при прехвърлянето на данните.</p><ul><li>Моля, свържете се със собствениците на сайта, за да ги информирате за проблема.</li></ul>">
 
-<!ENTITY securityOverride.linkText "Или можете да добавите изключение…">
+<!ENTITY securityOverride.linkText "Или може да добавите изключение…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Махнете ме от тук!">
 <!ENTITY securityOverride.exceptionButtonLabel "Добавяне на изключение…">
 

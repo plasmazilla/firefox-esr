@@ -13,7 +13,7 @@
 
 
 <!ENTITY  manualUpdate.title		"更新できません">
-<!ENTITY  manualUpdate.desc		"セキュリティと安定性を向上する更新が見つかりましたが、ソフトウェアをインストールする権限がありません。管理者に問い合わせるか、このコンピュータにソフトウェアをインストールする権限を持つアカウントで再度試してください。">
+<!ENTITY  manualUpdate.desc		"セキュリティと安定性を向上する更新が見つかりましたが、ソフトウェアをインストールする権限がありません。管理者に問い合わせるか、このコンピューターにソフトウェアをインストールする権限を持つアカウントで再度試してください。">
 
 
 
@@ -33,7 +33,7 @@
 
 <!ENTITY  downloadPage.title		"&brandShortName; をダウンロードしています">
 <!ENTITY  downloading.intro		"更新をダウンロードしています...">
-<!ENTITY  connecting.label		"更新サーバに接続しています...">
+<!ENTITY  connecting.label		"更新サーバーに接続しています...">
 <!ENTITY  verificationFailedText.label	"ダウンロードした差分更新の完全性を確認できなかったため、完全更新パッケージをダウンロードしています。">
 
 <!ENTITY  viewDetails.tooltip		"この更新についての詳細を表示します">
@@ -52,11 +52,6 @@
 
 <!-- (^m^) Bug 595455 -->
 <!ENTITY  genericBackgroundError.label	"&brandShortName; の更新を確認できません。&brandShortName; の最新バージョンを次のサイトからダウンロードしてください:">
-<!-- (^m^) Bug 583408#c3 -->
-<!ENTITY  errorCertAttrNoUpdate2.label	"更新経路上で &brandShortName; の安全な更新が妨げられています。&brandShortName; の最新バージョンを次のサイトからダウンロードしてください:">
-
-<!ENTITY  errorCertAttrHasUpdate.label	"何者かが悪意のある更新を &brandShortName; にダウンロードさせようとしています。ネットワーク管理者またはプロバイダに連絡を取り、助けを求めてください。">
-
 
 <!ENTITY  finishedPage.title		"更新をインストールする準備ができました">
 <!ENTITY  finishedPage.text		"この更新は次の &brandShortName; 起動時にインストールされます。&brandShortName; を今すぐ再起動するか、作業を続けてから後で再起動してください。">

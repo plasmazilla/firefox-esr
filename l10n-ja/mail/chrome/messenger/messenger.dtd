@@ -198,7 +198,7 @@
 <!ENTITY sortByRecipientCmd.label		"受信者">
 <!ENTITY sortByRecipientCmd.accesskey		"c">
 <!ENTITY sortByCorrespondentCmd.label		"通信相手">
-<!ENTITY sortByCorrespondentCmd.accesskey	"e">
+<!ENTITY sortByCorrespondentCmd.accesskey	"n">
 <!ENTITY sortByUnreadCmd.label			"既読">
 <!ENTITY sortByUnreadCmd.accesskey		"R">
 <!ENTITY sortByOrderReceivedCmd.label		"受信順">
@@ -253,7 +253,7 @@
 
 <!ENTITY bodyMenuFeed.label			"フィードの表示形式">
 <!ENTITY bodyMenuFeed.accesskey			"B">
-<!ENTITY viewFeedWebPage.label			"Web ページ">
+<!ENTITY viewFeedWebPage.label			"ウェブページ">
 <!ENTITY viewFeedWebPage.accesskey		"W">
 <!ENTITY viewFeedSummary.label			"要約">
 <!ENTITY viewFeedSummary.accesskey		"m">
@@ -369,7 +369,7 @@
 <!ENTITY editAsNewMsgCmd.key		"e">
 <!ENTITY editDraftMsgCmd.label		"下書きメッセージを編集">
 <!ENTITY editDraftMsgCmd.accesskey	"D">
-<!ENTITY createFilter.label		"メッセージからフィルタを作成...">
+<!ENTITY createFilter.label		"メッセージからフィルターを作成...">
 <!ENTITY createFilter.accesskey		"a">
 <!ENTITY moveMsgToMenu.label		"別のフォルダに移動"><!-- contextMoveMsgMenu.label と同じ動作 -->
 <!ENTITY moveMsgToMenu.accesskey	"M">
@@ -428,7 +428,7 @@
 <!ENTITY markAsNotJunkCmd.label		"迷惑メールマークを解除">
 <!ENTITY markAsNotJunkCmd.accesskey	"N">
 <!ENTITY markAsNotJunkCmd.key		"j">
-<!ENTITY recalculateJunkScoreCmd.label	"迷惑メールフィルタを実行">
+<!ENTITY recalculateJunkScoreCmd.label	"迷惑メールフィルターを実行">
 <!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label	"メッセージを開く">
 <!ENTITY openMessageWindowCmd.accesskey	"O">
@@ -440,7 +440,7 @@
 <!ENTITY openAttachmentListCmd.accesskey "h">
 <!ENTITY openFeedMessage1.label		"フィードメッセージを開く">
 <!ENTITY openFeedMessage1.accesskey	"O">
-<!ENTITY openFeedWebPage.label		"Web ページ形式で開く">
+<!ENTITY openFeedWebPage.label		"ウェブページ形式で開く">
 <!ENTITY openFeedWebPage.accesskey	"W">
 <!ENTITY openFeedSummary.label		"要約形式で開く">
 <!ENTITY openFeedSummary.accesskey	"S">
@@ -472,15 +472,15 @@
 <!ENTITY savedFiles.label		"保存したファイル">
 <!ENTITY savedFiles.accesskey		"l">
 <!ENTITY savedFiles.key			"j">
-<!ENTITY filtersCmd2.label		"メッセージフィルタ">
+<!ENTITY filtersCmd2.label		"メッセージフィルター">
 <!ENTITY filtersCmd2.accesskey		"F">
-<!ENTITY filtersApply.label		"フォルダにフィルタを適用">
+<!ENTITY filtersApply.label		"フォルダにフィルターを適用">
 <!ENTITY filtersApply.accesskey		"R">
-<!ENTITY filtersApplyToSelection.label	"選択しているメッセージにフィルタを適用">
+<!ENTITY filtersApplyToSelection.label	"選択しているメッセージにフィルターを適用">
 <!ENTITY filtersApplyToSelection.accesskey	"u">
-<!ENTITY filtersApplyToMessage.label	"メッセージにフィルタを適用">
+<!ENTITY filtersApplyToMessage.label	"メッセージにフィルターを適用">
 <!ENTITY filtersApplyToMessage.accesskey	"u">
-<!ENTITY runJunkControls.label		"迷惑メールフィルタを実行"><!-- (^^; "フォルダに" 削除 -->
+<!ENTITY runJunkControls.label		"迷惑メールフィルターを実行"><!-- (^^; "フォルダに" 削除 -->
 <!ENTITY runJunkControls.accesskey	"C">
 <!ENTITY deleteJunk.label		"迷惑メールとマークされたメールを削除">
 <!ENTITY deleteJunk.accesskey		"D">
@@ -508,6 +508,7 @@
 <!ENTITY forwardButton.label		"転送">
 <!ENTITY fileButton.label		"移動"><!-- (^^; en-US: File -->
 <!ENTITY archiveButton.label		"アーカイブ">
+<!ENTITY openConversationButton.label	"スレッド">
 <!ENTITY nextButton.label		"次へ">
 <!ENTITY nextButtonToolbarItem.label	"次の未読へ">
 <!ENTITY nextMsgButton.label		"次へ">
@@ -550,6 +551,7 @@
 <!ENTITY forwardAsAttachment.tooltip	"選択したメッセージを添付ファイルとして転送します">
 <!ENTITY fileButton.tooltip		"メッセージを別のフォルダに移します">
 <!ENTITY archiveButton.tooltip		"選択したメッセージをアーカイブに移動します">
+<!ENTITY openConversationButton.tooltip	"選択したメッセージのスレッドを表示します">
 <!ENTITY nextButton.tooltip		"次の未読メッセージに移動します">
 <!ENTITY nextMsgButton.tooltip		"次のメッセージに移動します">
 <!ENTITY previousButton.tooltip		"前の未読メッセージに移動します">
@@ -874,7 +876,7 @@
 <!ENTITY CopyNewsgroupName.accesskey	"C">
 <!ENTITY CopyNewsgroupURL.label		"ニュースグループの URL をコピー">
 <!ENTITY CopyNewsgroupURL.accesskey	"U">
-<!ENTITY CreateFilterFrom.label		"フィルタを作成...">
+<!ENTITY CreateFilterFrom.label		"フィルターを作成...">
 <!ENTITY CreateFilterFrom.accesskey	"F">
 <!ENTITY reportPhishingURL.label	"偽装サイトの URL を報告"><!-- en-US: Report E-mail Scam -->
 <!ENTITY reportPhishingURL.accesskey	"o">
@@ -898,9 +900,9 @@
 <!ENTITY stopCmd.accesskey		"S">
 <!ENTITY reloadCmd.label		"更新">
 <!ENTITY reloadCmd.accesskey		"R">
-<!ENTITY openInBrowser.label		"ブラウザで開く">
+<!ENTITY openInBrowser.label		"ブラウザーで開く">
 <!ENTITY openInBrowser.accesskey	"O">
-<!ENTITY openLinkInBrowser.label	"リンクをブラウザで開く">
+<!ENTITY openLinkInBrowser.label	"リンクをブラウザーで開く">
 <!ENTITY openLinkInBrowser.accesskey	"O">
 
 <!-- Statusbar -->

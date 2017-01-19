@@ -1,0 +1,126 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Don't localize these. They're here until they have
+     a better place to live. -->
+<!ENTITY syncBrand.fullName.label "Firefox სინქრონიზაცია">
+<!ENTITY syncBrand.shortName.label "სინქრონიზაცია">
+
+<!-- Main titles. -->
+<!ENTITY sync.title.connect.label 'დაკავშირება - &syncBrand.shortName.label;'>
+
+<!-- J-PAKE Key Screen -->
+<!ENTITY sync.subtitle.connect.label 'თქვენი ახალი მოწყობილობის გასააქტივებლად, მოწყობილობაზე შეარჩიეთ «&syncBrand.shortName.label;-ის გამართვა».'>
+<!ENTITY sync.subtitle.pair.label 'გასააქტივებლად შეარჩიეთ «შეწყვილება» თქვენს სხვა მოწყობილობაში.'>
+<!ENTITY sync.pin.default.label '...\n...\n...\n'>
+<!ENTITY sync.link.nodevice.label 'I don\&apos;t have the device with me…'>
+
+<!-- Configure Engines -->
+<!ENTITY sync.configure.engines.title.passwords2 'შესვლები'>
+<!ENTITY sync.configure.engines.title.history 'ისტორია'>
+<!ENTITY sync.configure.engines.title.tabs 'დაფები'>
+
+<!-- Localization note (sync.default.client.name): Default string of the "Device
+     name" menu item upon setting up Firefox Sync.  The placeholder &formatS1
+     will be replaced by the name of the Firefox release channel and &formatS2
+     by the model name of the Android device. Examples look like "Aurora on
+     GT-I1950" and "Fennec on MI 2S". -->
+<!ENTITY sync.default.client.name '&formatS1; &formatS2; მოწყობილობაზე '>
+
+<!-- Bookmark folder strings -->
+<!ENTITY bookmarks.folder.menu.label 'სანიშნეთა მენიუ'>
+<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.tags.label 'ჭდეები'>
+<!ENTITY bookmarks.folder.toolbar.label 'სანიშნეთა პულტი'>
+<!ENTITY bookmarks.folder.other.label 'სხვა სანიშნეები'>
+<!ENTITY bookmarks.folder.desktop.label 'კომპიუტერის სანიშნეები'>
+<!ENTITY bookmarks.folder.mobile.label 'მობილურის სანიშნეები'>
+<!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
+<!ENTITY bookmarks.folder.pinned.label 'დამაგრებული'>
+
+<!-- Firefox Account strings. -->
+
+<!-- Localization note: these are shown in screens after the user has
+     created or signed in to an account, and take the user back to
+     Firefox. -->
+<!ENTITY fxaccount_back_to_browsing 'დათვალიერებაზე დაბრუნება'>
+
+<!ENTITY fxaccount_getting_started_welcome_to_sync 'მოგესალმებათ &syncBrand.shortName.label;'>
+<!ENTITY fxaccount_getting_started_description2 'შედით სისტემაში თქვენი ჩანართების, სანიშნეების, პაროლების და მეტის სინქრონიზაციისთვის.'>
+<!ENTITY fxaccount_getting_started_get_started 'დაიწყეთ'>
+<!ENTITY fxaccount_getting_started_old_firefox '&syncBrand.shortName.label;-ის ძველ ვერსიას იყენებთ?'>
+
+<!ENTITY fxaccount_status_signed_in_as 'შესული ხართ, როგორც'>
+<!ENTITY fxaccount_status_manage_account 'ანგარიშის მართვა'>
+<!ENTITY fxaccount_status_auth_server 'ანგარიშის სერვერი'>
+<!ENTITY fxaccount_status_sync_now 'სინქრონიზაცია ახლა'>
+<!ENTITY fxaccount_status_syncing2 'სინქრონირდება...'>
+<!ENTITY fxaccount_status_device_name 'მოწყობილობის სახელი'>
+<!ENTITY fxaccount_status_sync_server 'სინქრონიზციის სერვერი'>
+<!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
+<!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label; ჩართულია'>
+<!ENTITY fxaccount_status_needs_verification2 'თქვენს ანგარიშს გადამოწმება სჭირდება. შეეხეთ გადამოწმების ელ-ფოსტის ხელახლა გამოსაგზავნად.'>
+<!ENTITY fxaccount_status_needs_credentials 'დაკავშირება ვერ მოხერხდა. შეეხეთ შესასვლელად.'>
+<!ENTITY fxaccount_status_needs_upgrade 'შესასვლელად უნდა განაახლოთ &brandShortName;.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '&syncBrand.shortName.label; გამართულია, მაგრამ ავტომატურად არ სინქრონირდება. შეამოწმეთ \&quot;ავტომატური სინქრონიზაცია\&quot; მისამართზე Android-ის პარამეტრები &gt; მონაცემების გამოყენება.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '&syncBrand.shortName.label; გამართულია, მაგრამ ავტომატურად არ სინქრონირდება. შეამოწმეთ \&quot;ავტომატური სინქრონიზაცია\&quot; მისამართზე Android-ის პარამეტრები &gt; ანგარიშები.'>
+<!ENTITY fxaccount_status_needs_finish_migrating 'შეეხეთ თქვენს Firefox ანგარიშში შესასვლელად.'>
+<!ENTITY fxaccount_status_bookmarks 'სანიშნეები'>
+<!ENTITY fxaccount_status_history 'ისტორია'>
+<!ENTITY fxaccount_status_passwords2 'შესვლები'>
+<!ENTITY fxaccount_status_tabs 'გახსნილი ჩანართები'>
+<!ENTITY fxaccount_status_legal 'იურიდიული ინფორმაცია' >
+<!-- Localization note: when tapped, the following two strings link to
+     external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
+     these strings are separated to accommodate languages that decline
+     the two uses differently. -->
+<!ENTITY fxaccount_status_linktos2 'მომსახურების პირობები'>
+<!ENTITY fxaccount_status_linkprivacy2 'პირადულობის ცნობება'>
+<!ENTITY fxaccount_status_more 'მეტი&ellipsis;'>
+<!ENTITY fxaccount_remove_account 'გამოთიშვა&ellipsis;'>
+
+<!ENTITY fxaccount_remove_account_dialog_title 'წაიშალოს Firefox ანგარიში?'>
+<!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; შეწყვეტს ამ ანგარიშის სინრქრონიზაციას, მაგრამ ამ მოწყობილობიდან დათვალიერების მონაცემები არ წაიშლება.'>
+<!-- Localization note: format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_remove_account_toast 'Firefox ანგარიში &formatS; წაიშალა.'>
+
+<!ENTITY fxaccount_enable_debug_mode 'გამართვის რეჟიმის ჩართვა'>
+
+<!-- Localization note: this is the name shown by the Android system
+     itself for a Firefox Account. Don't localize this. -->
+<!ENTITY fxaccount_account_type_label 'Firefox'>
+
+<!-- Localization note: these are shown by the Android system itself,
+     when the user navigates to the Android > Accounts > {Firefox
+     Account} Screen. The link takes the user to the Firefox Account
+     status activity, which lets them manage their Firefox
+     Account. -->
+<!ENTITY fxaccount_options_title '&syncBrand.shortName.label; პარამეტრები'>
+<!ENTITY fxaccount_options_configure_title 'Configure &syncBrand.shortName.label; კონფიგურაცია'>
+
+<!-- Localization note: these error messages are shown after a request
+     has been made to the remote server, and an error of some type has
+     been returned. -->
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED 'თქვენ გჭირდებად Firefox-ის განახლება'>
+
+<!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 'ანგარიში უკვე არსებობს. &formatS1;'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST 'არასწორი ელ-ფოსტა ან პაროლი'>
+<!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD 'არასწორი ელ-ფოსტა ან პაროლი'>
+<!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT 'ანგარიში არაა გადამოწმებული'>
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS 'სერვერი დაკავებულია, სცადეთ ხელახლა მალე'>
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD 'სერვერი დაკავებულია, სცადეთ ხელახლა მალე'>
+<!ENTITY fxaccount_remote_error_UNKNOWN_ERROR 'დაფიქსირდა შეცდომა'>
+<!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'ანგარიში ჩაკეტილია. &formatS1;'>
+
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; დაკავშირებული არაა'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_sign_in_error_notification_text2 'შეეხეთ, რათა შეხვიდეთ როგორც &formatS;'>
+
+<!ENTITY fxaccount_sync_finish_migrating_notification_title 'დასრულდეს &syncBrand.shortName.label; განახლება?'>
+<!-- Localization note: the format string below will be replaced
+     with the Firefox Account's email address. -->
+<!ENTITY fxaccount_sync_finish_migrating_notification_text 'შეეხეთ, რათა შეხვიდეთ როგორც &formatS;'>

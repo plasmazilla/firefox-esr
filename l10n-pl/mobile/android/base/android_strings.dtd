@@ -47,10 +47,10 @@
 <!ENTITY crash_reporter_title "&brandShortName; – Narzędzie zgłaszania awarii">
 <!ENTITY crash_message2 "&brandShortName; uległ awarii. Ostatnio otwarte karty powinny być dostępne na stronie startowej po ponownym uruchomieniu.">
 <!ENTITY crash_send_report_message3 "Prześlij zgłoszenie problemu do organizacji &vendorShortName;, aby mogła go rozwiązać">
-<!ENTITY crash_include_url2 "Załącz adres strony, na której wystąpił problem">
-<!ENTITY crash_sorry "Przykro nam">
+<!ENTITY crash_include_url2 "Dołącz adres strony, na której wystąpił problem">
+<!ENTITY crash_sorry "Przepraszamy">
 <!ENTITY crash_comment "Dodaj komentarz (komentarze są publicznie dostępne)">
-<!ENTITY crash_allow_contact2 "Organizacja &vendorShortName; może skontaktować się ze mną w sprawie tego zgłoszenia">
+<!ENTITY crash_allow_contact2 "&vendorShortName; może kontaktować się ze mną w sprawie tego zgłoszenia">
 <!ENTITY crash_email "Twój adres e-mail">
 <!ENTITY crash_closing_alert "Czy wyjść bez wysłania zgłoszenia?">
 <!ENTITY crash_close_label "Zamknij">
@@ -362,7 +362,7 @@
 <!ENTITY contextmenu_add_to_launcher "Dodaj do ekranu głównego">
 <!ENTITY contextmenu_share "Udostępnij">
 <!ENTITY contextmenu_pasteandgo "Wklej i przejdź do strony">
-<!ENTITY contextmenu_paste "Kopiuj">
+<!ENTITY contextmenu_paste "Wklej">
 <!ENTITY contextmenu_copyurl "Kopiuj adres">
 <!ENTITY contextmenu_edit_bookmark "Zmień">
 <!ENTITY contextmenu_open_private_tab "Otwórz w trybie prywatnym">
@@ -507,15 +507,15 @@
 
 <!ENTITY searchable_description "Zakładki i historia">
 
-<!ENTITY updater_start_title2 "&brandShortName;: dostępne są nowe aktualizacje">
-<!ENTITY updater_start_select2 "Dotknij, aby zaktualizować">
+<!ENTITY updater_start_title2 "&brandShortName;: dostępna jest aktualizacja">
+<!ENTITY updater_start_select2 "Dotknij, aby pobrać">
 
-<!ENTITY updater_downloading_title2 "Pobieranie: &brandShortName;">
-<!ENTITY updater_downloading_title_failed2 "Pobieranie się nie udało">
-<!ENTITY updater_downloading_select2 "Zainstaluj aktualizację po jej pobraniu">
+<!ENTITY updater_downloading_title2 "&brandShortName;: pobieranie">
+<!ENTITY updater_downloading_title_failed2 "Pobranie się nie udało">
+<!ENTITY updater_downloading_select2 "Dotknij, aby zainstalować po pobraniu">
 <!ENTITY updater_downloading_retry2 "Dotknij, aby spróbować ponownie">
 
-<!ENTITY updater_apply_title2 "&brandShortName;: dostępne są nowe aktualizacje">
+<!ENTITY updater_apply_title2 "&brandShortName;: dostępna jest aktualizacja">
 <!ENTITY updater_apply_select2 "Dotknij, aby zaktualizować">
 
 <!ENTITY updater_permission_text "Należy zezwolić aplikacji &brandShortName; na dostęp do dysku, aby móc pobierać pliki i aktualizacje.">
@@ -586,3 +586,7 @@
 <!ENTITY helper_triple_readerview_open_title "Czytanie w trybie offline">
 <!ENTITY helper_triple_readerview_open_message "Dodanie zakładki umożliwia czytanie strony bez Internetu.">
 <!ENTITY helper_triple_readerview_open_button "Dodaj zakładkę">
+
+<!ENTITY activity_stream_topsites "Popularne">
+<!ENTITY activity_stream_highlights "Wyróżnione">
+<!ENTITY activity_stream_more "Więcej">

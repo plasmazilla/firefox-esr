@@ -4,9 +4,9 @@
 
 <!-- Note: each tab panel must contain unique accesskeys -->
 
-<!ENTITY generalTab.label               "Algemien">
+<!ENTITY generalTab.label                "Algemien">
 
-<!ENTITY accessibility.label            "Tagonklikheid">
+<!ENTITY accessibility.label             "Tagonklikheid">
 
 <!ENTITY useCursorNavigation.label       "Hieltyd de pylktoetsen brûke om te navigearjen yn siden">
 <!ENTITY useCursorNavigation.accesskey   "p">
@@ -17,12 +17,12 @@
 <!ENTITY useOnScreenKeyboard.label       "In skermtoetseboerd toane wannear nedich">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
 
-<!ENTITY browsing.label                 "Navigearje">
+<!ENTITY browsing.label                  "Navigearje">
 
-<!ENTITY useAutoScroll.label         	"Automatysk skowe brûke">
-<!ENTITY useAutoScroll.accesskey     	"m">
-<!ENTITY useSmoothScrolling.label       "Floeiend skowe brûke">
-<!ENTITY useSmoothScrolling.accesskey   "l">
+<!ENTITY useAutoScroll.label             "Automatysk skowe brûke">
+<!ENTITY useAutoScroll.accesskey         "m">
+<!ENTITY useSmoothScrolling.label        "Floeiend skowe brûke">
+<!ENTITY useSmoothScrolling.accesskey    "l">
 <!ENTITY allowHWAccel.label              "Brûk hardware-acceleratie as it beskikber is">
 <!ENTITY allowHWAccel.accesskey          "B">
 <!ENTITY checkSpelling.label             "Kontrolearje myn stavering as ik typ">
@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Mear ynfo">
 
-<!ENTITY crashReporterDesc.label         "&brandShortName; ferstjoert ûngelokrapporten om &vendorShortName; te helpen jo browser stabiler en feiliger te meitsjen">
-<!ENTITY enableCrashReporter.label       "Ungelokrapportearder ynskeakelje">
-<!ENTITY enableCrashReporter.accesskey   "U">
-<!ENTITY crashReporterLearnMore.label    "Mear ynfo">
+<!ENTITY crashReporterDesc2.label         "Ungelokrapporten helpe &vendorShortName; problemen op te lossen en jo browser stabiler en feiliger te meitsjen">
+<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; tastean om út jo namme sammele ûngelokrapporten te ferstjoeren">
+<!ENTITY alwaysSubmitCrashReports.accesskey "s">
+<!ENTITY crashReporterLearnMore.label     "Mear ynfo">
 
 <!ENTITY networkTab.label                "Netwurk">
 
@@ -73,24 +73,24 @@
 <!ENTITY overrideSmartCacheSize.label    "Automatysk bufferbehear net brûke">
 <!ENTITY overrideSmartCacheSize.accesskey "A">
 
-<!ENTITY updateTab.label                "Fernijing">
+<!ENTITY updateTab.label                 "Fernijing">
 
 <!ENTITY updateApp.label                 "&brandShortName;-fernijingen:">
-<!ENTITY updateAuto1.label                "Fernijingen automatysk ynstallearje (oanrikkemandearre: ferbettere feilichheid)">
-<!ENTITY updateAuto1.accesskey            "F">
+<!ENTITY updateAuto1.label               "Fernijingen automatysk ynstallearje (oanrekommandearre: ferbettere feilichheid)">
+<!ENTITY updateAuto1.accesskey           "F">
 <!ENTITY updateCheck.label               "Kontrolearje op fernijingen mar lit my kieze oft ik se ynstallearje wol">
 <!ENTITY updateCheck.accesskey           "K">
-<!ENTITY updateManual.label              "Noait kontrolearje op fernijingen (net oanrikkemandearre: feilichheidsrisiko)">
+<!ENTITY updateManual.label              "Nea kontrolearje op fernijingen (net oanrekommandearre: feilichheidsrisiko)">
 <!ENTITY updateManual.accesskey          "N">
 
 <!ENTITY updateHistory.label             "Fernijingsskiednis toane">
 <!ENTITY updateHistory.accesskey         "t">
 
-<!ENTITY useService.label                "Brûk in achtergrûntsjinst om fernijingen te ynstallearjen">
+<!ENTITY useService.label                "Brûk in eftergrûntsjinst om fernijingen te ynstallearjen">
 <!ENTITY useService.accesskey            "a">
 
-<!ENTITY updateOthers.label              "Automatysk fernijing:">
-<!ENTITY enableSearchUpdate.label        "Sykmasines">
+<!ENTITY updateOthers.label              "Automatysk fernije:">
+<!ENTITY enableSearchUpdate.label        "Sykmasinen">
 <!ENTITY enableSearchUpdate.accesskey    "S">
 
 <!ENTITY offlineNotify.label             "My fertelle as in website freget om gegevens te bewarjen foar offline gebrûk">
@@ -98,7 +98,7 @@
 <!ENTITY offlineNotifyExceptions.label   "Utsûnderingen…">
 <!ENTITY offlineNotifyExceptions.accesskey "u">
 
-<!ENTITY offlineAppsList2.label          "De folgjende websteeën hawwe tastimming om gegevens te bewarjen foar offlinegebrûk:">
+<!ENTITY offlineAppsList2.label          "De folgjende websites hawwe tastimming om gegevens te bewarjen foar offlinegebrûk:">
 <!ENTITY offlineAppsList.height          "7em">
 <!ENTITY offlineAppsListRemove.label     "Fuortsmite…">
 <!ENTITY offlineAppsListRemove.accesskey "F">
@@ -107,13 +107,13 @@
 <!ENTITY certificateTab.label            "Sertifikaten">
 <!ENTITY certSelection.label             "Oanfragen">
 <!ENTITY certSelection.description       "As in website in sertifikaat fereasket:">
-<!ENTITY certs.auto              		 "Automatysk ien selektearje">
-<!ENTITY certs.auto.accesskey     		 "A">
-<!ENTITY certs.ask               		 "My eltse kear freegje">
-<!ENTITY certs.ask.accesskey       		 "e">
+<!ENTITY certs.auto                      "Automatysk ien selektearje">
+<!ENTITY certs.auto.accesskey            "A">
+<!ENTITY certs.ask                       "My elke kear freegje">
+<!ENTITY certs.ask.accesskey             "e">
 <!ENTITY enableOCSP.label                "Freegje OCSP-responderservers om de aktuele faliditeit fan sertifikaten te befêstigjen">
 <!ENTITY enableOCSP.accesskey            "F">
-<!ENTITY viewCerts.label         		 "Sertifikaten besjen">
-<!ENTITY viewCerts.accesskey     		 "S">
+<!ENTITY viewCerts.label                 "Sertifikaten besjen">
+<!ENTITY viewCerts.accesskey             "S">
 <!ENTITY viewSecurityDevices.label       "Feilichheidsapparaten">
 <!ENTITY viewSecurityDevices.accesskey   "p">

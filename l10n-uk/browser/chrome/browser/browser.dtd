@@ -161,7 +161,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Закласти цю сторінку">
 <!ENTITY editThisBookmarkCmd.label "Редагувати цю закладку">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY markPageCmd.commandkey "l">
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
@@ -207,37 +206,39 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY printButton.tooltip          "Надрукувати поточну сторінку">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "Перегляд інформації про сайт">
-<!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
-     used to provide accessible labels to users of assistive technology like screenreaders.
-     It is not possible to see them visually in the UI. -->
-<!ENTITY urlbar.defaultNotificationAnchor.label         "Перегляд сповіщення">
-<!ENTITY urlbar.geolocationNotificationAnchor.label     "Перегляд запиту розташування">
-<!ENTITY urlbar.addonsNotificationAnchor.label          "Перегляд повідомлення про встановлення додатку">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label       "Перегляд повідомлення про автономне зберігання програми">
-<!ENTITY urlbar.loginFillNotificationAnchor.label       "Керування інформацією вашого логіну">
-<!ENTITY urlbar.passwordNotificationAnchor.label        "Запит на збереження вашого пароля">
-<!ENTITY urlbar.pluginsNotificationAnchor.label         "Керування використанням плагінів на цій сторінці">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label        "Зміна налаштувань отримання сповіщень від цього сайту">
 
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label      "Керування доступом сайту до вашої камери та/або мікрофону">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label    "Сайт має доступ до вашої камери та/або мікрофону">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label   "Керування доступом сайту до вашого мікрофону">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Сайт має доступ до вашого мікрофону">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label       "Керування доступом сайту до ваших вікон чи екрану">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label     "Сайт має доступ до вашого вікна чи екрану">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "Відкрити панель повідомлень">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "Відкрити панель запитів розташування">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "Відкрити панель повідомлень встановлення додатків">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "Відкрити панель повідомлень автономного сховища">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Відкрити панель повідомлень збереження паролів">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Керувати використанням плагінів">
+<!ENTITY urlbar.webNotificationAnchor.tooltip             "Налаштувати отримання сповіщень від сайту">
 
-<!ENTITY urlbar.pointerLockNotificationAnchor.label     "Керування можливістю сайту приховувати вказівник">
-<!ENTITY urlbar.servicesNotificationAnchor.label        "Перегляд повідомлення про встановлення служби">
-<!ENTITY urlbar.translateNotificationAnchor.label       "Перекласти цю сторінку">
-<!ENTITY urlbar.translatedNotificationAnchor.label      "Керування перекладом сторінки">
-<!ENTITY urlbar.emeNotificationAnchor.label             "Керування використанням програми DRM">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Керувати доступом сайту до ваших камери та/або мікрофону">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Керувати доступом сайту до вашого мікрофону">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "Керувати доступом сайту до ваших вікон чи екрану">
+
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "Відкрити панель повідомлень встановлення">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip       "Перекласти цю сторінку">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Керувати перекладом сторінок">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip             "Керувати використанням програмного забезпечення DRM">
+
+<!ENTITY urlbar.cameraBlocked.tooltip            "Ви заблокували камеру для цього веб-сайту.">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "Ви заблокували мікрофон для цього веб-сайту.">
+<!ENTITY urlbar.screenBlocked.tooltip            "Ви заблокували доступ до екрану для цього веб-сайту.">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "Ви заблокували інформацію розташування для цього веб-сайту.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "Ви заблокували сховище даних для цього веб-сайту.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Ви заблокували сповіщення для цього веб-сайту.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Показати історію">
+
+<!ENTITY urlbar.zoomReset.tooltip     "Скинути рівень масштабу">
 
 <!ENTITY searchItem.title             "Пошук">
 
 <!-- Toolbar items --> 
-<!ENTITY homeButton.label             "Домашня сторінка">
+<!ENTITY homeButton.label             "Домівка">
 
 <!ENTITY bookmarksButton.label          "Закладки">
 <!ENTITY bookmarksCmd.commandkey "b">
@@ -425,11 +426,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!-- LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
-     These are set as the aria-label attribute for the search input box and
-     submit button in the in-content search UI, to be used by screen readers. -->
+<!-- LOCALIZATION NOTE (contentSearchInput.label):
+     This is set as the aria-label attribute for the search input box in the
+     in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Черга пошуку">
-<!ENTITY contentSearchSubmit.label    "Почати пошук">
+<!ENTITY contentSearchSubmit.tooltip  "Відправити пошуковий запит">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -455,6 +456,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
 <!ENTITY changeSearchSettings.button  "Налаштувати пошук">
+<!ENTITY changeSearchSettings.tooltip "Змінити налаштування пошуку">
 
 <!ENTITY searchInNewTab.label         "Пошук в новій вкладці">
 <!ENTITY searchInNewTab.accesskey     "в">
@@ -662,7 +664,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label "Основний стиль сторінки">
 <!ENTITY pageStylePersistentOnly.accesskey "О">
 
-<!ENTITY pageReportIcon.tooltip            "Змінити параметри блокування виринаючих вікон для цього сайта">
+<!ENTITY pageReportIcon.tooltip            "Змінити параметри блокування виринаючих вікон для цього сайту">
 
 <!ENTITY allowPopups.accesskey "о">
 <!-- On Windows we use the term "Options" to describe settings, but
@@ -732,6 +734,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions "Дозволи">
 <!ENTITY identity.permissionsEmpty "Ви не надали цьому сайту жодних спеціальних дозволів.">
+<!ENTITY identity.permissionsReloadHint "Можливо, вам знадобиться перезавантажити сторінку для застосування змін.">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
@@ -775,21 +778,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncReAuthItem.accesskey     "П">
 <!ENTITY syncToolbarButton.label      "Синхронізація">
 
-<!ENTITY socialToolbar.title        "Соціальна панель">
-
-<!ENTITY social.ok.label       "OK">
-<!ENTITY social.ok.accesskey   "O">
-
-<!ENTITY social.toggleSidebar.label "Показати бічну панель">
-<!ENTITY social.toggleSidebar.accesskey "б">
-
 <!ENTITY social.addons.label "Керування службами…">
-
-<!ENTITY social.toggleNotifications.label "Показувати сповіщення на робочому столі">
-<!ENTITY social.toggleNotifications.accesskey "с">
-
-<!ENTITY social.learnMore.label "Подробиці…">
-<!ENTITY social.learnMore.accesskey "П">
 
 <!ENTITY social.directory.label "Каталог активації">
 <!ENTITY social.directory.text "Ви можете активувати засоби поширення з каталогу.">
@@ -810,15 +799,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "К">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Отримати більше тем">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "б">
-
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Перемикатись на чати">
-<!ENTITY social.chatBar.accesskey "ч">
-
-<!ENTITY social.markpageMenu.accesskey "б">
-<!ENTITY social.markpageMenu.label "Зберегти сторінку у…">
-<!ENTITY social.marklinkMenu.accesskey "п">
-<!ENTITY social.marklinkMenu.label "Зберегти посилання у…">
 
 <!ENTITY getUserMedia.selectCamera.label "Доступ до камери:">
 <!ENTITY getUserMedia.selectCamera.accesskey "к">
@@ -853,8 +833,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.block.label "Увімкнути захист">
 <!ENTITY trackingContentBlocked.block.accesskey "У">
 <!ENTITY trackingContentBlocked.disabled.message "Захист від стеження вимкнено">
-
-<!ENTITY pointerLock.notification.message "Натисніть ESC будь-коли, щоб показати його знову.">
 
 <!ENTITY pluginNotification.showAll.label "Показати всі">
 <!ENTITY pluginNotification.showAll.accesskey "в">

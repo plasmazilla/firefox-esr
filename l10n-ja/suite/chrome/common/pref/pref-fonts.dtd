@@ -40,7 +40,7 @@
 <!ENTITY  font.langGroup.el                       "ギリシャ語">
 <!ENTITY  font.langGroup.turkish                  "トルコ語">
 <!ENTITY  font.langGroup.unicode1                 "Unicode">
-<!ENTITY  font.langGroup.user-def                 "ユーザ定義">
+<!ENTITY  font.langGroup.user-def                 "ユーザー定義">
 <!ENTITY  font.langGroup.thai                     "タイ語">
 <!ENTITY  font.langGroup.hebrew                   "ヘブライ語">
 <!ENTITY  font.langGroup.arabic                   "アラビア語">
@@ -65,11 +65,11 @@
 <!ENTITY  useDefaultFontSerif.label               "明朝体 (Serif)">
 <!ENTITY  useDefaultFontSansSerif.label           "ゴシック体 (Sans-serif)">
 
-<!ENTITY  useDocumentFonts.label                  "Web ページが指定したフォントを優先する">
+<!ENTITY  useDocumentFonts.label                  "ウェブページが指定したフォントを優先する">
 <!ENTITY  useDocumentFonts.accesskey              "o">
 
 <!-- leaving this stuff in for now -->
 
-<!ENTITY  header2                                 "Web ページによってはフォントが指定されていることがあります。">
+<!ENTITY  header2                                 "ウェブページによってはフォントが指定されていることがあります。">
 <!ENTITY  useDefaultFont.label                    "ページで指定されたフォントを無視して既定のフォントを使用する">
 <!ENTITY  useDefaultFont.accesskey                "u">

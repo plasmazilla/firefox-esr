@@ -1,0 +1,75 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from content/navigator.xul -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items --> 
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
+
+<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE --> 
+<!ENTITY mainWindow.title "&brandShortName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
+<!ENTITY mainWindow.titlemodifier "&brandShortName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
+<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
+
+<!ENTITY mainWindow.titleprivate "პირადი სეანსი">
+
+<!ENTITY editPageCmd.label "გვერდის რედაქცია">
+<!ENTITY editPageCmd.accesskey "E">
+<!ENTITY editPageCmd.commandkey "e">
+
+<!ENTITY navbarCmd.label "ნავიგაციის პულტი">
+<!ENTITY navbarCmd.accesskey "N">
+<!ENTITY bookmarksToolbarCmd.label     "სანიშნეთა პულტი">
+<!ENTITY bookmarksToolbarCmd.accesskey "m">
+
+<!ENTITY closeWindow.label "სარკმლის დახურვა">
+<!ENTITY closeWindow.accesskey "W">
+
+<!ENTITY minimizeButton.tooltip       "მინიმიზება">
+<!ENTITY restoreButton.tooltip        "აღდგენა">
+
+<!ENTITY feedsMenu.label "ხელმოწერა ამ გვერდზე">
+<!ENTITY feedsMenu.accesskey "S">
+
+<!ENTITY menuBar.tooltip                  "მენიუს პანელი">
+<!ENTITY bookmarksToolbar.tooltip         "სანიშნეთა პულტი">
+<!ENTITY navigationToolbar.tooltip        "ნავიგაციის პულტი">
+
+<!-- Toolbar items --> 
+<!ENTITY backButton.label             "უკან">
+<!ENTITY backButton.tooltip           "უკან ერთი გვერდით">
+<!ENTITY forwardButton.label          "წინ">
+<!ENTITY forwardButton.tooltip        "წინ ერთი გვერდით">
+<!ENTITY reloadButton.label           "განახლება">
+<!ENTITY reloadButton.tooltip         "აქტიური გვერდის განახლება">
+<!ENTITY stopButton.label             "შეჩერება">
+<!ENTITY stopButton.tooltip           "გვერდის ჩატვირთვის შეჩერება">
+<!ENTITY searchButton.label           "ძიება">
+<!ENTITY searchButton.tooltip         "მიუთითეთ სიტყვა მარცხენა ველში და დაწკაპეთ &quot;ძიება&quot;">
+<!ENTITY goButton.label               "გადასვლა">
+<!ENTITY goButton.tooltip             "მიუთითეთ სიტყვა მარცხენა ველში და დაწკაპეთ &quot;გადასვლა&quot;-ს">
+<!ENTITY printButton.label            "ბეჭდვა">
+<!ENTITY printButton.tooltip          "გვერდის ბეჭდვა">
+
+<!ENTITY throbber.tooltip             "გადასვლა &vendorShortName;-ს სათაო გვერდზე">
+
+<!ENTITY locationBar.tooltip          "საძიებო ტერმინის, საკვანძო სიტყვის ან მისამართის მითითება">
+<!ENTITY locationBar.accesskey        "d">
+<!ENTITY locationBar.title            "მისამართი">
+<!ENTITY proxyIcon.tooltip            "ხატულას გადათრევა ამ გვერდის ბმის შესაქმნელად">
+
+<!ENTITY searchItem.title             "ძიება">
+
+<!ENTITY  bookmarksButton.label       "სანიშნეები">
+<!ENTITY  bookmarksButton.tooltip     "სანიშნეების სია">
+<!ENTITY  homeButton.label            "სათაო გვერდი">
+<!ENTITY  bookmarksToolbarItem.label  "სანიშნეთა პულტის ელემენტები">
+<!ENTITY bookmarksToolbarChevron.tooltip "სხვა სანიშნეების ჩვენება">
+
+<!-- Statusbar -->
+<!ENTITY  statusText.label            "მზადაა">
+
+<!ENTITY popupIcon.tooltiptext      "ფირნიშების დაშვება ამ გვერდისთვის">

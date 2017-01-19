@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY newDirectoryTitle.label	"LDAP サーバのプロパティ">
+<!ENTITY newDirectoryTitle.label	"LDAP サーバーのプロパティ">
 <!ENTITY directoryName.label		"名前:">
 <!ENTITY directoryName.accesskey	"n">
 <!ENTITY directoryHostname.label	"ホスト名:">
@@ -20,7 +20,7 @@
 <!ENTITY Advanced.tab			"詳細">
 <!ENTITY portNumber.label		"ポート番号:">
 <!ENTITY portNumber.accesskey		"p">
-<!ENTITY searchFilter.label		"検索フィルタ:">
+<!ENTITY searchFilter.label		"検索フィルター:">
 <!ENTITY searchFilter.accesskey		"f">
 <!ENTITY scope.label			"スコープ:">
 <!ENTITY scope.accesskey		"c">

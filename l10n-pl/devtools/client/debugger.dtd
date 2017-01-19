@@ -5,7 +5,7 @@
 <!ENTITY debuggerUI.closeButton.tooltip "Zamknij">
 <!ENTITY debuggerUI.panesButton.tooltip "Pokaż lub ukryj panele">
 
-<!ENTITY debuggerUI.blackBoxMessage.label "Źródło ukryte w czarnej skrzynce - punkty wstrzymań są wyłączone a polecenia przechodzenia pomijają je.">
+<!ENTITY debuggerUI.blackBoxMessage.label "Źródło ukryte w czarnej skrzynce - punkty wstrzymań są wyłączone, a polecenia przechodzenia pomijają je.">
 <!ENTITY debuggerUI.blackBoxMessage.unBlackBoxButton "Zaprzestań ukrywania tego źródła w czarnej skrzynce">
 
 <!ENTITY debuggerUI.optsButton.tooltip "Opcje debugera">
@@ -15,7 +15,6 @@
 <!ENTITY debuggerUI.autoPrettyPrint.accesskey "A">
 <!ENTITY debuggerUI.sources.toggleBreakpoints "Włącza/wyłącza wszystkie punkty wstrzymania">
 <!ENTITY debuggerUI.sources.togglePromiseDebugger "Przełącza debugowanie obiektów Promise">
-<!ENTITY debuggerUI.startTracing "Rozpocznij śledzenie">
 <!ENTITY debuggerUI.clearButton "Wyczyść">
 <!ENTITY debuggerUI.clearButton.tooltip "Wyczyści zebrane ślady">
 <!ENTITY debuggerUI.pauseExceptions "Zatrzymuj na wyjątkach">

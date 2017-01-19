@@ -2,10 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY ctrlTabRecentlyUsedOrder.label       "Pusingan Ctrl+Tab melalui tab dalam turutan yang baru digunaka">
+<!ENTITY ctrlTabRecentlyUsedOrder.label       "Pusingan Ctrl+Tab mengikut tertib tab yang baru digunakan">
 <!ENTITY ctrlTabRecentlyUsedOrder.accesskey   "T">
 
-<!ENTITY newWindowsAsTabs.label       "Buka tingkap dalam tab baru">
+<!ENTITY newWindowsAsTabs.label       "Buka tetingkap dalam tab baru">
 <!ENTITY newWindowsAsTabs.accesskey   "a">
 
 <!ENTITY warnCloseMultipleTabs.label  "Ingatkan saya apabila menutup beberapa tab">
@@ -19,4 +19,4 @@
 
 <!ENTITY showTabsInTaskbar.label          "Papar previu tab dalam Tetingkap taskbar">
 <!ENTITY showTabsInTaskbar.accesskey      "k">
-<!ENTITY tabsGroup.label          "Tab-tab">
+<!ENTITY tabsGroup.label          "Tab">

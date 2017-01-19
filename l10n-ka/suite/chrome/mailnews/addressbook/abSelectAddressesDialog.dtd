@@ -1,0 +1,31 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Title -->
+<!ENTITY selectAddressWindow.title           "მისამართების შერჩევა">
+
+<!-- Buttons -->
+<!ENTITY toButton.label                      "ვის->"> 
+<!ENTITY toButton.accesskey                  "T"> 
+<!ENTITY ccButton.label                      "ასლი->"> 
+<!ENTITY ccButton.accesskey                  "C"> 
+<!ENTITY bccButton.label                     "მეორე ასლი->">  
+<!ENTITY bccButton.accesskey                 "B">  
+<!ENTITY newButton.label                     "ახალი…"> 
+<!ENTITY newButton.accesskey                 "N"> 
+<!ENTITY editButton.label                    "რედაქტირება…"> 
+<!ENTITY editButton.accesskey                "E">
+<!ENTITY removeButton.label                  "ამოღება"> 
+<!ENTITY removeButton.accesskey              "R"> 
+<!ENTITY lookIn.label                        "ძებნა:"> 
+<!ENTITY lookIn.accesskey                    "L"> 
+<!ENTITY for.label                           "ტექსტი:"> 
+<!ENTITY for.accesskey                       "f"> 
+<!ENTITY for.placeholder                     "სახელი ან ელფოსტა">
+<!ENTITY addressMessageTo.label              "წერილის მისამართი:"> 
+
+<!-- Tooltips items -->  
+<!ENTITY addressPickerNewButton.tooltip      "წიგნაკის ახალი ბარათის შექმნა"> 
+<!ENTITY addressPickerEditButton.tooltip     "მონიშნული ბარათის რედაქტირება"> 
+

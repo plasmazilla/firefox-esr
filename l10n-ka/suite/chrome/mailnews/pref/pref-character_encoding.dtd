@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.character.encoding.title   "სიმბოლოთა კოდირება">
+<!ENTITY messageDisplay.caption          "წერილის სარკმელი">
+<!ENTITY viewDefaultCharset.label        "ნაგულისხმები კოდირება:">
+<!ENTITY viewDefaultCharset.accesskey    "D">
+
+<!ENTITY composingMessages.caption       "წერილების შექმნა">
+<!ENTITY useMIME.label                   "წერილებისთვის, რომლებიც 8-ბიტიან სიმბოლოებს შეიცავენ, 'ბეჭდვად ბრჭყალებიანი' MIME კოდირების გამოყენება. წერილების უცვლელად გაგზავნისთის დატოვეთ როგორც არის.">
+<!ENTITY useMIME.accesskey               "F">
+<!ENTITY sendDefaultCharset.label        "ნაგულისხმები კოდირება:">
+<!ENTITY sendDefaultCharset.accesskey    "C">
+<!ENTITY replyInDefaultCharset2.label     "როცა შესაძლებელია, პასუხისას ამ ნაგულისხმები კოდირების გამოყენება. (როცა ამორთულია ნაგულისხმები მხოლოდ ახალი წერილებისთვის გამოიყენება.)">
+<!ENTITY replyInDefaultCharset2.accesskey "W">

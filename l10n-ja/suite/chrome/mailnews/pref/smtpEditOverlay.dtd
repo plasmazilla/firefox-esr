@@ -4,13 +4,13 @@
 
 <!ENTITY settings.caption		"設定">
 <!ENTITY security.caption		"セキュリティと認証">
-<!ENTITY serverName.label		"サーバ名:">
+<!ENTITY serverName.label		"サーバー名:">
 <!ENTITY serverName.accesskey		"S">
 <!ENTITY serverDescription.label	"説明:">
 <!ENTITY serverDescription.accesskey	"D">
 <!ENTITY serverPort.label		"ポート番号:">
 <!ENTITY serverPort.accesskey		"P">
-<!ENTITY userName.label			"ユーザ名:">
+<!ENTITY userName.label			"ユーザー名:">
 <!ENTITY userName.accesskey		"m">
 <!ENTITY connectionSecurity.label	"接続の保護:">
 <!ENTITY connectionSecurity.accesskey	"n">
@@ -18,7 +18,7 @@
 <!ENTITY connectionSecurityType-1.label	"STARTTLS (可能な場合)">
 <!ENTITY connectionSecurityType-2.label	"STARTTLS">
 <!ENTITY connectionSecurityType-3.label	"SSL/TLS">
-<!ENTITY smtpEditTitle.label		"送信 (SMTP) サーバ">
+<!ENTITY smtpEditTitle.label		"送信 (SMTP) サーバー">
 <!ENTITY serverPortDefault.label	"既定値:">
 <!ENTITY authMethod.label		"認証方式:">
 <!ENTITY authMethod.accesskey		"i">

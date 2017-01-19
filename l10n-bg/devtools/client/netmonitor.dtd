@@ -41,7 +41,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.cause): This is the label displayed
   -  in the network table toolbar, above the "cause" column. -->
-<!ENTITY netmonitorUI.toolbar.cause        "Причина">
+<!ENTITY netmonitorUI.toolbar.cause        "Основание">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.toolbar.type): This is the label displayed
   -  in the network table toolbar, above the "type" column. -->
@@ -189,12 +189,12 @@
 <!-- LOCALIZATION NOTE (netmonitorUI.timings.blocked): This is the label displayed
   -  in the network details timings tab identifying the amount of time spent
   -  in a "blocked" state. -->
-<!ENTITY netmonitorUI.timings.blocked     "Блокирано ли е:">
+<!ENTITY netmonitorUI.timings.blocked     "На опашката за свързване:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.timings.dns): This is the label displayed
   -  in the network details timings tab identifying the amount of time spent
   -  in a "dns" state. -->
-<!ENTITY netmonitorUI.timings.dns         "DNS откриване:">
+<!ENTITY netmonitorUI.timings.dns         "Откриване в DNS:">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.timings.connect): This is the label displayed
   -  in the network details timings tab identifying the amount of time spent
@@ -325,7 +325,7 @@
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.saveAllAsHar): This is the label displayed
   -  on the context menu that saves all as HAR format -->
-<!ENTITY netmonitorUI.context.saveAllAsHar "Запис на всичко като HAR">
+<!ENTITY netmonitorUI.context.saveAllAsHar "Запазване на всичко като HAR">
 
 <!-- LOCALIZATION NOTE (netmonitorUI.context.saveAllAsHar.accesskey): This is the access key
   -  for the Save All As HAR menu item displayed in the context menu for a network panel -->

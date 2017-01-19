@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY wizard.title             "ახალი კალენდრის შექმნა" >
+<!ENTITY wizard.label             "ახალი კალენდრის შექმნა" >
+<!ENTITY wizard.description       "კალენდრის განთავსება" >
+
+<!ENTITY initialpage.description    "თქვენი კალენდრის შენახვა შესაძლებელია როგორც თქვენს კომპიუტერზე ისე სერვერზე რათა გარედან იყოს მისაწვდომი და მისი მეგობრებთან და თანამშრომლებთან გაზიარება შეძლოთ." >
+<!ENTITY initialpage.computer.label  "ჩემს კომპიუტერში">
+<!ENTITY initialpage.network.label  "ქსელში">
+
+<!ENTITY locationpage.description         "მიუთითეთ ინფორმაცია თუ რაა საჭირო გარე კალენდრის წვდომისთვის" >
+<!ENTITY locationpage.login.description   "დამხმარე: მიუთითეთ სახელი და პაროლი" >
+<!ENTITY locationpage.username.label      "სახელი:" >
+<!ENTITY locationpage.password.label      "პაროლი:" >
+
+<!ENTITY custompage.shortdescription  "კალენდრის მორგება" >
+<!ENTITY custompage.longdescription   "შეგიძლიათ ამ კალენდრის მეტსახელის მითითება და მოვლენების შეფერადება." >
+
+<!ENTITY finishpage.shortdescription  "კალენდარი შეიქმნა" >
+<!ENTITY finishpage.longdescription   "თქვენი კალენდარი შეიქმნა." >

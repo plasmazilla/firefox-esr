@@ -24,7 +24,7 @@
   <li>Kontrolearje it adres op typflaters lykas
     <strong>ww</strong>.example.com yn stee fan
     <strong>www</strong>.example.com</li>
-  <li>Kontrolearje jo netwurkferbining as jo gjin inkele side lade
+  <li>Kontrolearje jo netwurkferbining as jo gjin inkelde side lade
     kinne.</li>
   <li>Gean nei oft &brandShortName; tagong hat ta it web of jo 
     kompjûter of netwurk befeilige is troch in brânmuorre of proxyserver.</li>
@@ -67,24 +67,24 @@
 <!ENTITY notCached.title "Dokumint ferrûn">
 <!ENTITY notCached.longDesc "<p>It opfrege dokumint is net beskikber yn de buffer fan &brandShortName;.</p><ul><li>As befeiligingsmaatregel freget &brandShortName; gefoelige dokuminten net automatysk opnij op.</li><li>Klik op Opnij probearje om it dokumint opnij fan de website op te freegjen.</li></ul>">
 
-<!ENTITY netOffline.title "Offline-moadus">
+<!ENTITY netOffline.title "Offline-modus">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Klik ‘Opnij probearje’ om nei online moadus te gean en fernij de side.</li>
+  <li>Klik ‘Opnij probearje’ om nei online modus te gean en fernij de side.</li>
 </ul>
 ">
 
-<!ENTITY contentEncodingError.title "Ynhâldkodearingsflater">
+<!ENTITY contentEncodingError.title "Ynhâldkodearringsflater">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
+  <li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Unfeilich bestânstype">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
+  <li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
@@ -105,7 +105,7 @@
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
   <li>Kontrolearje oft jo proxy-ynstellingen goed binne.</li>
-  <li>Nim kontakt op mei jo netwurkbeheerder om te kontrolearjen oft de proxyserver
+  <li>Nim kontakt op mei jo netwurkbehearder om te kontrolearjen oft de proxyserver
     wurket.</li>
 </ul>
 ">
@@ -141,7 +141,7 @@
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
   <li>De side dy't jo besjen wolle kin net toand wurde, omdat de echtheid fan de ûntfongen gegevens net ferifiearre wurde kin.</li>
-  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
+  <li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
@@ -149,13 +149,13 @@
 <!-- Localization note (certerror.introPara) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
-<!ENTITY certerror.introPara "De eigner fan <span class='hostname'/> hat syn of har website net krekt konfigurearre. Om jo gegevens tsjin stellerij te beskermjen, hat &brandShortName; gjin ferbining mei dizze website makke.">
+<!ENTITY certerror.introPara "De eigener fan <span class='hostname'/> hat syn of har website net krekt konfigurearre. Om jo gegevens tsjin stellerij te beskermjen, hat &brandShortName; gjin ferbining mei dizze website makke.">
 
 <!ENTITY sharedLongDesc "
 <ul>
   <li>Miskien is de website tydlik net beskikber. Probearje it letter 
     nochris.</li>
-  <li>As jo gjin inkele side lade kinne, kontrolearje dan de netwurkferbining
+  <li>As jo gjin inkelde side lade kinne, kontrolearje dan de netwurkferbining
     fan jo kompjûter.</li>
   <li>As jo kompjûter of netwurk befeilige wurdt troch in firewall of proxy,
     soargje der dan foar dat &brandShortName; tagong hat ta it web.</li>
@@ -166,8 +166,7 @@ was trying to connect. -->
 <!ENTITY cspBlocked.longDesc "<p>De browser hat opkeard dat de side op dizze manier laden wurd, omdat de side in ynhâldsbefeiligingsbelied hat dat dit net tastiet.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "Skansearre-ynhâldsflater">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>De side dy't jo besjen wolle kin net werjûn wurde, omdat der in flater yn de gegevensoerdracht detektearre is.</p><ul><li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li></ul>">
-
+<!ENTITY corruptedContentErrorv2.longDesc "<p>De side dy't jo besjen wolle kin net werjûn wurde, omdat der in flater yn de gegevensoerdracht detektearre is.</p><ul><li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Utsûndering tafoegje…">
@@ -176,11 +175,11 @@ was trying to connect. -->
 <!ENTITY errorReporting.learnMore "Mear ynfo…">
 
 <!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li></ul></p>">
 
 <!ENTITY sslv3Used.title "Kin gjin befeilige ferbining meitsje">
-<!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
-     "SSL_ERROR_NO_CYPHER_OVERLAP". -->
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
+     "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "Avansearre ynfo: SSL_ERROR_UNSUPPORTED_VERSION">
 
 <!ENTITY weakCryptoUsed.title "Jo ferbining is net befeilige">
@@ -188,13 +187,12 @@ was trying to connect. -->
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc2 "Avansearre ynfo: SSL_ERROR_NO_CYPHER_OVERLAP">
 <!ENTITY weakCryptoAdvanced.title "Avansearre">
-<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> brûkt ferâldere befeiligingstechnology dy't kwetsber is foar oanfallen. In oanfaller kin ienfâldichwei gegevens ûntdekke wêrfan jo tochten dat dizze feilich wienen.">
+<!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> brûkt ferâldere befeiligingstechnology dy't kwetsber is foar oanfallen. In oanfaller kin ienfâldichwei gegevens ûntdekke wêrfan jo tochten dat dizze feilich wiene.">
 <!ENTITY weakCryptoAdvanced.override "(Net befeilige) <span class='hostname'></span> probearje te laden fia ferâldere befeiliging">
 
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
      please leave them unchanged. -->
 <!ENTITY certerror.wrongSystemTime "<p>In befeilige ferbining mei <span id='wrongSystemTime_URL'/> is net mooglik, omdat jo klok de ferkearde tiid liket oan te jaan.</p> <p>Jo kompjûter tinkt dat it <span id='wrongSystemTime_systemDate'/> is, wylst it <span id='wrongSystemTime_actualDate'/> wêze moatte soe. Wizigje jo datum- en tiidynstellingen nei de krekte tiid om dit probleem te ferhelpen.</p>">
-
 
 <!ENTITY certerror.pagetitle1  "Net-befeilige ferbining">
 <!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Dizze website makket gebrûk
@@ -206,7 +204,7 @@ allinnich in befeilige ferbining meitsje mei. Hjirtroch is it net mooglik om in
 <!ENTITY inadequateSecurityError.title "Jo ferbining is net befeilige">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> brûkt ferâldere befeiligingstechnology dy't kwetsber is foar oanfallen. In oanfaller kin ienfâldichwei gegevens ûnthulle wêrfan jo tochten dat dizze feilich wienen. De websitebehearder moat earst de server yn oarder meitsje eardat jo de website besykje kinne.</p><p>Flaterkoade: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> brûkt ferâldere befeiligingstechnology dy't kwetsber is foar oanfallen. In oanfaller kin ienfâldichwei gegevens ûntdekke wêrfan jo tochten dat dizze feilich wiene. De websitebehearder moat earst de server yn oarder meitsje eardat jo de website besykje kinne.</p><p>Flaterkoade: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
-<!ENTITY prefReset.longDesc "It liket derop dat dit troch jo netwurkbefeiligingsynstellingen feroarsake wurdt. Wolle jo de standertynstellingen werstelle?">
-<!ENTITY prefReset.label "Standertynstellingen werstelle">
+<!ENTITY prefReset.longDesc "It liket derop dat dit troch jo netwurkbefeiligingsynstellingen feroarsake wurdt. Wolle jo de standertynstellingen werom bringe?">
+<!ENTITY prefReset.label "Standertynstellingen werom bringe">

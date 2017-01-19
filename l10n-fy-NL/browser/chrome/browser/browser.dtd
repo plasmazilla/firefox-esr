@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
-<!-- LOCALIZATION NOTE : FILE Do not translate accesskey and commandkey --> 
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
 <!ENTITY mainWindow.title "&brandFullName;">
@@ -19,43 +19,43 @@
 <!ENTITY navbarOverflow.label                "Mear helpmiddelen…">
 
 <!-- Tab context menu -->
-<!ENTITY reloadTab.label        		"Ljepblêd fernije">
-<!ENTITY reloadTab.accesskey       		"n">
-<!ENTITY reloadAllTabs.label    		"Alle ljepblêden fernije">
-<!ENTITY reloadAllTabs.accesskey   		"A">
+<!ENTITY  reloadTab.label                    "Ljepblêd fernije">
+<!ENTITY  reloadTab.accesskey                "n">
+<!ENTITY  reloadAllTabs.label                "Alle ljepblêden fernije">
+<!ENTITY  reloadAllTabs.accesskey            "A">
 <!-- LOCALIZATION NOTE (closeTabsToTheEnd.label): This should indicate the
 direction in which tabs are closed, i.e. locales that use RTL mode should say
 left instead of right. -->
-<!ENTITY closeTabsToTheEnd.label        "Slút ljepblêden oan de rjochterkant">
-<!ENTITY closeTabsToTheEnd.accesskey    "j">
-<!ENTITY closeOtherTabs.label   		"Oare ljepblêden slute">
-<!ENTITY closeOtherTabs.accesskey  		"S">
+<!ENTITY  closeTabsToTheEnd.label            "Ljepblêden oan de rjochterkant slute">
+<!ENTITY  closeTabsToTheEnd.accesskey        "j">
+<!ENTITY  closeOtherTabs.label               "Oare ljepblêden slute">
+<!ENTITY  closeOtherTabs.accesskey           "S">
 
-<!-- LOCALIZATION NOTE (pinAppTab.label, unpinAppTab.label): "Pin" is being
+<!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
 left edge of the tabstrip. Really we just want the string to express the idea
 that this is a lightweight and reversible action that keeps your tab where you
 can reach it easily. -->
-<!ENTITY pinTab.label                   "Ljepblêd fêstsette">
-<!ENTITY pinTab.accesskey               "L">
-<!ENTITY unpinTab.label                 "Ljepblêd losmeitsje">
-<!ENTITY unpinTab.accesskey             "b">
-<!ENTITY sendTabToDevice.label         "Ljepblêd nei apparaat ferstjoere">
-<!ENTITY sendTabToDevice.accesskey     "p">
-<!ENTITY sendPageToDevice.label        "Side nei apparaat ferstjoere">
-<!ENTITY sendPageToDevice.accesskey    "p">
-<!ENTITY sendLinkToDevice.label        "Keppeling nei apparaat ferstjoere">
-<!ENTITY sendLinkToDevice.accesskey    "p">
-<!ENTITY moveToNewWindow.label          "Ferpleatse nei nij finster">
-<!ENTITY moveToNewWindow.accesskey      "f">
-<!ENTITY bookmarkAllTabs.label       	  "Blêdwizer foar alle ljepblêden meitsje…">
-<!ENTITY bookmarkAllTabs.accesskey   	  "B">
-<!ENTITY undoCloseTab.label          	  "Ljepblêd slute ûngedien meitsje">
-<!ENTITY undoCloseTab.accesskey        	"m">
-<!ENTITY closeTab.label         		    "Ljepblêd slute">
-<!ENTITY closeTab.accesskey        	  	"s">
+<!ENTITY  pinTab.label                       "Ljepblêd fêstsette">
+<!ENTITY  pinTab.accesskey                   "L">
+<!ENTITY  unpinTab.label                     "Ljepblêd losmeitsje">
+<!ENTITY  unpinTab.accesskey                 "b">
+<!ENTITY  sendTabToDevice.label              "Ljepblêd nei apparaat ferstjoere">
+<!ENTITY  sendTabToDevice.accesskey          "p">
+<!ENTITY  sendPageToDevice.label             "Side nei apparaat ferstjoere">
+<!ENTITY  sendPageToDevice.accesskey         "p">
+<!ENTITY  sendLinkToDevice.label             "Keppeling nei apparaat ferstjoere">
+<!ENTITY  sendLinkToDevice.accesskey         "p">
+<!ENTITY  moveToNewWindow.label              "Ferpleatse nei nij finster">
+<!ENTITY  moveToNewWindow.accesskey          "f">
+<!ENTITY  bookmarkAllTabs.label              "Blêdwizer foar alle ljepblêden meitsje…">
+<!ENTITY  bookmarkAllTabs.accesskey          "B">
+<!ENTITY  undoCloseTab.label                 "Ljepblêd slute ûngedien meitsje">
+<!ENTITY  undoCloseTab.accesskey             "m">
+<!ENTITY  closeTab.label                     "Ljepblêd slute">
+<!ENTITY  closeTab.accesskey                 "s">
 
-<!ENTITY listAllTabs.label				      "Alle ljepblêdtitels werjaan">
+<!ENTITY  listAllTabs.label      "Alle ljepblêdtitels werjaan">
 
 <!ENTITY tabCmd.label "Nij ljepblêd">
 <!ENTITY tabCmd.accesskey "L">
@@ -76,7 +76,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY printCmd.commandkey "P">
 
 <!ENTITY goOfflineCmd.label "Offline wurkje">
-<!ENTITY goOfflineCmd.accesskey "f">
+<!ENTITY goOfflineCmd.accesskey "w">
 
 <!ENTITY menubarCmd.label "Menubalke">
 <!ENTITY menubarCmd.accesskey "M">
@@ -96,7 +96,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY pageSourceCmd.accesskey "r">
 <!ENTITY pageSourceCmd.commandkey "u">
 <!ENTITY pageInfoCmd.label "Side-ynfo">
-<!ENTITY pageInfoCmd.accesskey "y">
+<!ENTITY pageInfoCmd.accesskey "f">
 <!ENTITY pageInfoCmd.commandkey "y">
 <!ENTITY mirrorTabCmd.label "Ljepblêd spegelje">
 <!ENTITY mirrorTabCmd.accesskey "s">
@@ -120,11 +120,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 
 <!ENTITY fullScreenMinimize.tooltip "Minimalisearje ">
-<!ENTITY fullScreenRestore.tooltip "Werstelle">
+<!ENTITY fullScreenRestore.tooltip "Werom bringe">
 <!ENTITY fullScreenClose.tooltip "Slute">
 <!ENTITY fullScreenAutohide.label "Arkbalken ferstopje ">
 <!ENTITY fullScreenAutohide.accesskey "A">
-<!ENTITY fullScreenExit.label "Folsleinskermmoadus ôfslute">
+<!ENTITY fullScreenExit.label "Folsleinskermmodus ôfslute">
 <!ENTITY fullScreenExit.accesskey "F">
 
 <!-- LOCALIZATION NOTE (fullscreenWarning.beforeDomain.label,
@@ -156,12 +156,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY closeWindow.label "Finster slute">
 <!ENTITY closeWindow.accesskey "s">
 
-<!ENTITY bookmarksMenu.label          "Blêdwizers">
-<!ENTITY bookmarksMenu.accesskey      "D">
-<!ENTITY bookmarkThisPageCmd.label        "Blêdwizer foar dizze side meitsje">
+<!ENTITY bookmarksMenu.label "Blêdwizers">
+<!ENTITY bookmarksMenu.accesskey "D">
+<!ENTITY bookmarkThisPageCmd.label "Blêdwizer foar dizze side meitsje">
 <!ENTITY editThisBookmarkCmd.label "Dizze blêdwizer bewurkje">
-<!ENTITY bookmarkThisPageCmd.commandkey   "d">
-<!ENTITY markPageCmd.commandkey "l">
+<!ENTITY bookmarkThisPageCmd.commandkey "d">
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
@@ -181,8 +180,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY feedsMenu2.label "Abonnearje op dizze side">
 <!ENTITY subscribeToPageMenupopup.label "Abonnearje op dizze side">
 <!ENTITY subscribeToPageMenuitem.label "Abonnearje op dizze side…">
-<!ENTITY addCurPagesCmd.label         "Blêdwizer foar alle ljepblêden meitsje…">
-<!ENTITY showAllBookmarks2.label 	  "Alle blêdwizers toane">
+<!ENTITY addCurPagesCmd.label "Blêdwizer foar alle ljepblêden meitsje…">
+<!ENTITY showAllBookmarks2.label "Alle blêdwizers toane">
 <!ENTITY recentBookmarks.label "Resint oanmakke blêdwizers">
 <!ENTITY otherBookmarksCmd.label "Oare blêdwizers">
 <!ENTITY bookmarksToolbarChevron.tooltip "Mear blêdwizers toane">
@@ -207,32 +206,34 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY printButton.tooltip          "Dizze side ôfdrukke">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "Website-ynformaasje werjaan">
-<!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
-     used to provide accessible labels to users of assistive technology like screenreaders.
-     It is not possible to see them visually in the UI. -->
-<!ENTITY urlbar.defaultNotificationAnchor.label         "In notifikaasje werjaan">
-<!ENTITY urlbar.geolocationNotificationAnchor.label     "De lokaasjeoanfraach werjaan">
-<!ENTITY urlbar.addonsNotificationAnchor.label          "It add-on-ynstallaasjeberjocht werjaan">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label       "It app-offlinebewarberjocht werjaan">
-<!ENTITY urlbar.loginFillNotificationAnchor.label       "Jo oanmeldingsgegevens beheare">
-<!ENTITY urlbar.passwordNotificationAnchor.label        "Kontrolearje oft jo jo wachtwurd bewarje wolle">
-<!ENTITY urlbar.pluginsNotificationAnchor.label         "Ynstekker-gebrûk op dizze side beheare">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label         "Wizigje oft jo notifikaasjes fan de website ûntfange kinne">
 
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label      "Dielen fan jo kamera en/of mikrofoan mei de website beheare">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label    "Jo diele jo kamera en/of mikrofoan mei de website">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label   "Dielen fan jo mikrofoan mei de website beheare">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Jo diele jo mikrofoan mei de website">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label       "Dielen fan jo finsters of skerm mei de website beheare">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label     "Jo diele in finster of jo skerm mei de website">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "Berjochtpaniel iepenje">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "Lokaasjefersyk-paniel iepenje">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "Add-on-ynstallaasjebejocht-paniel iepenje">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "Offline ûnthâldberjochtpaniel iepenje">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Bewarre oanmeldingenberjochtpaniel iepenje">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Gebrûk ynstekker beheare">
+<!ENTITY urlbar.webNotificationAnchor.tooltip             "Wizigje oft jo notifikaasjes fan de website ûntfange kinne">
 
-<!ENTITY urlbar.pointerLockNotificationAnchor.label     "Wizigjen oft de website de oanwizer ferstopje kin">
-<!ENTITY urlbar.servicesNotificationAnchor.label        "It service-ynstallaasjeberjocht werjaan">
-<!ENTITY urlbar.translateNotificationAnchor.label       "Dizze side oersette">
-<!ENTITY urlbar.translatedNotificationAnchor.label      "Sideoersetting beheare">
-<!ENTITY urlbar.emeNotificationAnchor.label             "Gebrûk fan DRM-software beheare">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Dielen fan jo kamera en/of mikrofoan mei de website beheare">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Dielen fan jo mikrofoan mei de website beheare">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "Dielen fan jo finsters of skerm mei de website beheare">
+
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "Ynstallaasjeberjochtpaniel iepenje">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip       "Dizze side oersette">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Sideoersetting beheare">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip             "Gebrûk fan DRM-software beheare">
+
+<!ENTITY urlbar.cameraBlocked.tooltip            "Jo hawwe jo kamera foar dizze website blokkearre.">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "Jo hawwe jo mikrofoan foar dizze website blokkearre.">
+<!ENTITY urlbar.screenBlocked.tooltip            "Jo hawwe jo it dielen fan jo skerm foar dizze website blokkearre.">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "Jo hawwe jo lokaasjeynformaasje foar dizze website blokkearre.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "Jo hawwe gegevensûnthâld foar dizze website blokkearre.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Jo hawwe notifikaasjes foar dizze website blokkearre.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Skiednis toane">
+
+<!ENTITY urlbar.zoomReset.tooltip     "Zoomnivo weromsette">
 
 <!ENTITY searchItem.title             "Sykje">
 
@@ -243,7 +244,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Blêdwizers">
-<!ENTITY bookmarksMenuButton.other.label 	"Oare blêdwizers">
+<!ENTITY bookmarksMenuButton.other.label "Oare blêdwizers">
 <!ENTITY viewBookmarksSidebar2.label        "Blêdwizersydbalke werjaan">
 <!ENTITY viewBookmarksToolbar.label         "Blêdwizerarkbalke werjaan">
 
@@ -259,7 +260,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historySidebarCmd.commandKey   "h">
 
 <!ENTITY toolsMenu.label              "Ekstra">
-<!ENTITY toolsMenu.accesskey          "E">
+<!ENTITY toolsMenu.accesskey          "E"> 
 
 <!ENTITY keywordfield.label           "Kaaiwurd foar dizze sykopdracht tafoegje…">
 <!ENTITY keywordfield.accesskey       "K">
@@ -268,7 +269,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY downloads.accesskey          "D">
 <!ENTITY downloads.commandkey         "j">
 <!ENTITY downloadsUnix.commandkey     "Y">
-<!ENTITY addons.label 	              "Add-ons">
+<!ENTITY addons.label                 "Add-ons">
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 
@@ -278,64 +279,64 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY inspectContextMenu.label     "Elemint ynspektearje">
 <!ENTITY inspectContextMenu.accesskey "E">
 
-<!ENTITY fileMenu.label               	  "Bestân"> 
-<!ENTITY fileMenu.accesskey               "B">
+<!ENTITY fileMenu.label         "Bestân"> 
+<!ENTITY fileMenu.accesskey       "B">
 <!ENTITY newUserContext.label             "Nij kontenerljepblêd">
 <!ENTITY newUserContext.accesskey         "k">
-<!ENTITY newNavigatorCmd.label            "Nij finster">
-<!ENTITY newNavigatorCmd.key              "N">
-<!ENTITY newNavigatorCmd.accesskey        "N">
-<!ENTITY newPrivateWindow.label           "Nij priveefinster">
-<!ENTITY newPrivateWindow.accesskey       "p">
-<!ENTITY newNonRemoteWindow.label         "Nij net-e10s-finster">
+<!ENTITY newNavigatorCmd.label        "Nij finster">
+<!ENTITY newNavigatorCmd.key        "N">
+<!ENTITY newNavigatorCmd.accesskey      "N">
+<!ENTITY newPrivateWindow.label     "Nij priveefinster">
+<!ENTITY newPrivateWindow.accesskey "p">
+<!ENTITY newNonRemoteWindow.label   "Nij net-e10s-finster">
 
-<!ENTITY editMenu.label               "Bewurkje"> 
-<!ENTITY editMenu.accesskey           "W"> 
-<!ENTITY undoCmd.label                "Ungedien meitsje">  
-<!ENTITY undoCmd.key                  "Z">  
-<!ENTITY undoCmd.accesskey            "U"> 
-<!ENTITY redoCmd.label                "Opnij útfiere">  
-<!ENTITY redoCmd.key                  "Y">  
-<!ENTITY redoCmd.accesskey            "O"> 
-<!ENTITY cutCmd.label                 "Knippe">  
-<!ENTITY cutCmd.key                   "X">  
-<!ENTITY cutCmd.accesskey             "N"> 
-<!ENTITY copyCmd.label                "Kopiearje">  
-<!ENTITY copyCmd.key                  "C">  
-<!ENTITY copyCmd.accesskey            "K"> 
-<!ENTITY pasteCmd.label               "Plakke">  
-<!ENTITY pasteCmd.key                 "V">  
-<!ENTITY pasteCmd.accesskey           "P"> 
-<!ENTITY deleteCmd.label              "Fuortsmite">  
-<!ENTITY deleteCmd.key                "D">  
-<!ENTITY deleteCmd.accesskey          "F"> 
-<!ENTITY selectAllCmd.label           "Alles selektearje">  
-<!ENTITY selectAllCmd.key             "A">  
+<!ENTITY editMenu.label         "Bewurkje"> 
+<!ENTITY editMenu.accesskey       "W"> 
+<!ENTITY undoCmd.label            "Ungedien meitsje">  
+<!ENTITY undoCmd.key            "Z">  
+<!ENTITY undoCmd.accesskey          "U"> 
+<!ENTITY redoCmd.label            "Opnij útfiere">  
+<!ENTITY redoCmd.key            "Y">  
+<!ENTITY redoCmd.accesskey          "O"> 
+<!ENTITY cutCmd.label           "Knippe">  
+<!ENTITY cutCmd.key             "X">  
+<!ENTITY cutCmd.accesskey         "N"> 
+<!ENTITY copyCmd.label            "Kopiearje">  
+<!ENTITY copyCmd.key            "C">  
+<!ENTITY copyCmd.accesskey          "K"> 
+<!ENTITY pasteCmd.label           "Plakke">  
+<!ENTITY pasteCmd.key           "V">  
+<!ENTITY pasteCmd.accesskey         "P"> 
+<!ENTITY deleteCmd.label          "Fuortsmite">  
+<!ENTITY deleteCmd.key            "D">  
+<!ENTITY deleteCmd.accesskey        "F"> 
+<!ENTITY selectAllCmd.label         "Alles selektearje">  
+<!ENTITY selectAllCmd.key         "A">  
 <!ENTITY selectAllCmd.accesskey       "A"> 
-<!ENTITY preferencesCmd2.label        "Opsjes">
-<!ENTITY preferencesCmd2.accesskey    "O"> 
-<!ENTITY preferencesCmdUnix.label     "Foarkarren…">
-<!ENTITY preferencesCmdUnix.accesskey "F">
+<!ENTITY preferencesCmd2.label       "Opsjes">
+<!ENTITY preferencesCmd2.accesskey     "O">
+<!ENTITY preferencesCmdUnix.label       "Foarkarren…">
+<!ENTITY preferencesCmdUnix.accesskey     "F"> 
 
-<!ENTITY clearRecentHistory.label      "Resinte skiednis wiskje…">
+<!ENTITY clearRecentHistory.label               "Resinte skiednis wiskje…">
 
-<!ENTITY privateBrowsingCmd.commandkey "P">
+<!ENTITY privateBrowsingCmd.commandkey          "P">
 
-<!ENTITY viewMenu.label               "Byld"> 
-<!ENTITY viewMenu.accesskey           "B"> 
+<!ENTITY viewMenu.label         "Byld"> 
+<!ENTITY viewMenu.accesskey       "y"> 
 <!ENTITY viewToolbarsMenu.label       "Arkbalken"> 
-<!ENTITY viewToolbarsMenu.accesskey   "A"> 
-<!ENTITY viewSidebarMenu.label        "Sidebalke">
-<!ENTITY viewSidebarMenu.accesskey    "S">
-<!ENTITY viewCustomizeToolbar.label   "Oanpasse…"> 
-<!ENTITY viewCustomizeToolbar.accesskey     "O"> 
+<!ENTITY viewToolbarsMenu.accesskey     "A"> 
+<!ENTITY viewSidebarMenu.label "Sidebalke">
+<!ENTITY viewSidebarMenu.accesskey "S">
+<!ENTITY viewCustomizeToolbar.label       "Oanpasse…"> 
+<!ENTITY viewCustomizeToolbar.accesskey     "O">
 
 <!ENTITY historyMenu.label "Skiednis">
 <!ENTITY historyMenu.accesskey "S">
 <!ENTITY historyUndoMenu.label "Koartlyn sluten ljepblêden">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "Koartlyn sluten skermen">
-<!ENTITY historyRestoreLastSession.label "Foargeande sesje werstelle">
+<!ENTITY historyRestoreLastSession.label "Foargeande sesje werom bringe">
 
 <!ENTITY showAllHistoryCmd2.label "Alle skiednis toane">
 <!ENTITY showAllHistoryCmd.commandkey "s">
@@ -347,7 +348,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuHistory.label "Skiednis">
 <!ENTITY appMenuHistory.showAll.label "Alle skiednis toane">
 <!ENTITY appMenuHistory.clearRecent.label "Resinte skiednis wiskje…">
-<!ENTITY appMenuHistory.restoreSession.label "Foarige sesje werstelle">
+<!ENTITY appMenuHistory.restoreSession.label "Foarige sesje werom bringe">
 <!ENTITY appMenuHistory.viewSidebar.label "Skiednissydbalke werjaaan">
 <!ENTITY appMenuHelp.tooltip "Menu Help iepenje">
 
@@ -411,7 +412,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
   Mac:  Cmd+K (cross platform binding)
         Cmd+Opt+F (platform convention)
   Win:  Ctrl+K (cross platform binding)
-	Ctrl+E (IE compat)
+        Ctrl+E (IE compat)
 
   We support Ctrl+K on all platforms now and advertise it in the menu since it is
   our standard - it is a "safe" choice since it is near no harmful keys like "W" as
@@ -425,11 +426,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!-- LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
-     These are set as the aria-label attribute for the search input box and
-     submit button in the in-content search UI, to be used by screen readers. -->
+<!-- LOCALIZATION NOTE (contentSearchInput.label):
+     This is set as the aria-label attribute for the search input box in the
+     in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Sykterm">
-<!ENTITY contentSearchSubmit.label    "Sykopdracht ferstjoere">
+<!ENTITY contentSearchSubmit.tooltip  "Sykopdracht ferstjoere">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -455,6 +456,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
 <!ENTITY changeSearchSettings.button  "Sykynstellingen wizigje">
+<!ENTITY changeSearchSettings.tooltip "Sykynstellingen wizigje">
 
 <!ENTITY searchInNewTab.label         "Sykje yn Nij ljepblêd">
 <!ENTITY searchInNewTab.accesskey     "t">
@@ -478,7 +480,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showOnlyThisFrameCmd.label     "Allinnich dit dielfinster toane">
 <!ENTITY showOnlyThisFrameCmd.accesskey "d">
 <!ENTITY reloadCmd.commandkey         "r">
-<!ENTITY reloadFrameCmd.label         "Dielfinster op 'e nij lade">
+<!ENTITY reloadFrameCmd.label         "Dielfinster opnij lade">
 <!ENTITY reloadFrameCmd.accesskey     "n">
 <!ENTITY viewPartialSourceForSelectionCmd.label "Boarne fan seleksje besjen">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "MathML-boarne besjen">
@@ -493,7 +495,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewPageInfoCmd.accesskey    "y">
 <!ENTITY viewFrameInfoCmd.label       "Dielfinsterynfo besjen">
 <!ENTITY viewFrameInfoCmd.accesskey   "y">
-<!ENTITY reloadImageCmd.label         "Ofbylding op 'e nij lade">
+<!ENTITY reloadImageCmd.label         "Ofbylding opnij lade">
 <!ENTITY reloadImageCmd.accesskey     "l">
 <!ENTITY viewImageCmd.label           "Ofbylding besjen">
 <!ENTITY viewImageCmd.accesskey       "f">
@@ -507,18 +509,18 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBGImageCmd.accesskey     "g">
 <!ENTITY setDesktopBackgroundCmd.label      "As eftergrûn ynstelle">
 <!ENTITY setDesktopBackgroundCmd.accesskey  "e">
-<!ENTITY bookmarkPageCmd2.label        "Blêdwizer foar dizze side meitsje">
-<!ENTITY bookmarkThisLinkCmd.label        "Blêdwizer foar dizze keppeling meitsje">
-<!ENTITY bookmarkThisLinkCmd.accesskey    "m">
-<!ENTITY bookmarkThisFrameCmd.label       "Blêdwizer foar dit dielfinster meitsje">
-<!ENTITY bookmarkThisFrameCmd.accesskey   "m">
+<!ENTITY bookmarkPageCmd2.label       "Blêdwizer foar dizze side meitsje">
+<!ENTITY bookmarkThisLinkCmd.label      "Blêdwizer foar dizze keppeling meitsje">
+<!ENTITY bookmarkThisLinkCmd.accesskey  "m">
+<!ENTITY bookmarkThisFrameCmd.label      "Blêdwizer foar dit dielfinster meitsje">
+<!ENTITY bookmarkThisFrameCmd.accesskey  "m">
 <!ENTITY emailPageCmd.label           "Keppeling e-maile…">
 <!ENTITY emailPageCmd.accesskey       "e">
 <!ENTITY savePageCmd.label            "Side bewarje as…">
 <!ENTITY savePageCmd.accesskey        "a">
 <!-- alternate for content area context menu -->
-<!ENTITY savePageCmd.commandkey       "s">
 <!ENTITY savePageCmd.accesskey2       "b">
+<!ENTITY savePageCmd.commandkey       "s">
 <!ENTITY saveFrameCmd.label           "Dielfinster bewarje as…">
 <!ENTITY saveFrameCmd.accesskey       "l">
 <!ENTITY printFrameCmd.label          "Dielfinster ôfdrukke…">
@@ -548,7 +550,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyImageCmd.label           "Ofbyldingslokaasje kopiearje">
 <!ENTITY copyImageCmd.accesskey       "o">
 <!ENTITY copyImageContentsCmd.label   "Ofbylding kopiearje">
-<!ENTITY copyImageContentsCmd.accesskey  "k">
+<!ENTITY copyImageContentsCmd.accesskey  "k"> 
 <!ENTITY copyVideoURLCmd.label        "Fideolokaasje kopiearje">
 <!ENTITY copyVideoURLCmd.accesskey    "o">
 <!ENTITY copyAudioURLCmd.label        "Audiolokaasje kopiearje">
@@ -564,7 +566,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 items are mutually exclusive. -->
 <!ENTITY mediaPlay.label             "Ofspylje">
 <!ENTITY mediaPlay.accesskey         "O">
-<!ENTITY mediaPause.label            "Pausearje">
+<!ENTITY mediaPause.label            "Pauzearje">
 <!ENTITY mediaPause.accesskey        "P">
 <!-- LOCALIZATION NOTE: The access keys for "Mute" and
 "Unmute" are the same because the two context-menu
@@ -627,7 +629,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
 <!ENTITY fullZoomResetCmd.label         "Tebeksette">
-<!ENTITY fullZoomResetCmd.accesskey     "T">
+<!ENTITY fullZoomResetCmd.accesskey     "b">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
@@ -645,7 +647,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY quitApplicationCmd.label       "Ofslute"> 
 <!ENTITY quitApplicationCmd.accesskey   "O">
-<!ENTITY quitApplicationCmdMac2.label    "&brandShorterName; ôfslute">
+<!ENTITY quitApplicationCmdMac2.label   "&brandShorterName; ôfslute">
 <!-- LOCALIZATION NOTE(quitApplicationCmdUnix.key): This keyboard shortcut is used by both Linux and OSX builds. -->
 <!ENTITY quitApplicationCmdUnix.key     "Q">
 
@@ -656,13 +658,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY toggleMuteCmd.key              "M">
 
 <!ENTITY pageStyleMenu.label "Sidestyl">
-<!ENTITY pageStyleMenu.accesskey "S">
+<!ENTITY pageStyleMenu.accesskey "d">
 <!ENTITY pageStyleNoStyle.label "Gjin styl">
 <!ENTITY pageStyleNoStyle.accesskey "G">
 <!ENTITY pageStylePersistentOnly.label "Basisstyl">
 <!ENTITY pageStylePersistentOnly.accesskey "B">
 
-<!ENTITY pageReportIcon.tooltip            "Pop-upynstellingen foar dizze webstee feroarje">
+<!ENTITY pageReportIcon.tooltip            "Pop-upynstellingen foar dizze website wizigje">
 
 <!ENTITY allowPopups.accesskey "P">
 <!-- On Windows we use the term "Options" to describe settings, but
@@ -679,10 +681,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY bidiSwitchTextDirectionItem.accesskey    "t">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
 
-<!ENTITY findOnCmd.label "Sykje op dizze side…">
+<!ENTITY findOnCmd.label     "Sykje op dizze side…">
 <!ENTITY findOnCmd.accesskey "S">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label "Opnij sykje">
+<!ENTITY findAgainCmd.label  "Opnij sykje">
 <!ENTITY findAgainCmd.accesskey "s">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
@@ -691,7 +693,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.label "Wurdboeken tafoegje…">
 <!ENTITY spellAddDictionaries.accesskey "W">
 
-<!ENTITY editBookmark.done.label                      "Klear">
+<!ENTITY editBookmark.done.label                     "Klear">
 <!ENTITY editBookmark.removeBookmark.accessKey       "F">
 
 <!ENTITY identity.connectionSecure "Befeilige ferbining">
@@ -699,7 +701,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "Dizze side is op jo kompjûter bewarre.">
 <!ENTITY identity.connectionVerified2 "Jo hawwe in befeilige ferbining mei dizze website, hokker beheard wurdt troch:">
 <!ENTITY identity.connectionInternal "Dit is in befeilige &brandShortName;-side.">
-<!ENTITY identity.insecureLoginForms2 "Ynfierde oanmeldingen op dizze side soenen oernommen wurde kinne.">
+<!ENTITY identity.insecureLoginForms2 "Ynfierde oanmeldingen op dizze side soene oernommen wurde kinne.">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "&brandShortName; hat ûnderdielen fan dizze side dy't net befeilige binne blokkearre.">
@@ -708,16 +710,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.weakEncryption "Dizze side brûkt swakke befeiliging.">
 
 <!-- Strings for connection state warnings in the subview. -->
-<!ENTITY identity.description.insecure "Jo ferbining mei dizze website is net privee. Gegevens dy't jo ferstjoere soenen troch oaren besjoen wurde kinne (lykas wachtwurden, berjochten, creditcardgegevens, ensfh.).">
+<!ENTITY identity.description.insecure "Jo ferbining mei dizze website is net privee. Gegevens dy't jo ferstjoere, soene troch oaren besjoen wurde kinne (lykas wachtwurden, berjochten, creditcardgegevens, ensfh.).">
 <!ENTITY identity.description.insecureLoginForms "De oanmeldingsgegevens dy't jo op dizze side ynfiere binne net feilich en kinne oernommen wurde.">
 <!ENTITY identity.description.weakCipher "Jo ferbining mei dizze website brûkt swakke fersifering en is net privee.">
 <!ENTITY identity.description.weakCipher2 "Oare persoanen kinne jo gegevens besjen of it gedrach fan de website oanpasse.">
 <!ENTITY identity.description.activeBlocked "&brandShortName; hat ûnderdielen fan dizze side dy't net befeilige binne blokkearre.">
-<!ENTITY identity.description.passiveLoaded "Jo ferbining is net privee en gegevens dy't jo mei de website diele soenen troch oaren besjoen wurde kinne.">
-<!ENTITY identity.description.passiveLoaded2 "Dizze website befettet ynhâld dy't net befeilige is (lekas ôfbyldingen).">
+<!ENTITY identity.description.passiveLoaded "Jo ferbining is net privee en gegevens dy't jo mei de website diele soene troch oaren besjoen wurde kinne.">
+<!ENTITY identity.description.passiveLoaded2 "Dizze website befettet ynhâld dy't net befeilige is (lykas ôfbyldingen).">
 <!ENTITY identity.description.passiveLoaded3 "Hoewol &brandShortName; bepaalde ynhâld blokkearre hat, is der noch hieltyd ynhâld op de side dy't net befeilige is (lykas ôfbyldingen).">
 <!ENTITY identity.description.activeLoaded "Dizze website befettet ynhâld dy't net befeilige is (lykas scripts) en jo ferbining dêrmei is net privee.">
-<!ENTITY identity.description.activeLoaded2 "Gegevens dy't jo mei dizze website diele soenen troch oaren besjoen wurde kinne (lykas wachtwurden, berjochten, creditcardgegevens, ensfh.).">
+<!ENTITY identity.description.activeLoaded2 "Gegevens dy't jo mei dizze website diele, soene troch oaren besjoen wurde kinne (lykas wachtwurden, berjochten, creditcardgegevens, ensfh.).">
 
 <!ENTITY identity.enableMixedContentBlocking.label "Beskerming ynskeakelje">
 <!ENTITY identity.enableMixedContentBlocking.accesskey "s">
@@ -732,6 +734,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions "Tastimmingen">
 <!ENTITY identity.permissionsEmpty "Jo hawwe dizze website gjin spesjale tastimmingen jûn.">
+<!ENTITY identity.permissionsReloadHint "It is mooglik dat jo de side opnij lade moatte om de wizigingen aktyf te meitsjen.">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
@@ -741,9 +744,9 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncTabsMenu3.label     "Syngronisearre ljepblêden">
 
 <!ENTITY syncedTabs.sidebar.label              "Syngronisearre ljepblêden">
+<!ENTITY syncedTabs.sidebar.noclients.label    "Meld jo oan by Firefox fan jo oare apparaten ôf om harren ljepblêden hjir wer te jaan.">
 <!ENTITY syncedTabs.sidebar.noclients.title    "Noch gjin syngronisearre ljepblêden…">
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "Wolle jo hjir jo ljepblêden fan oare apparaten sjen?">
-<!ENTITY syncedTabs.sidebar.noclients.label    "Meld jo oan by Firefox fan jo oare apparaten ôf om harren ljepblêden hjir wer te jaan.">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "Meld jo oan om in list fan ljepblêden fan jo oare apparaten wer te jaan.">
 <!ENTITY syncedTabs.sidebar.notabs.label       "Gjin iepen ljepblêden">
 <!ENTITY syncedTabs.sidebar.openprefs.label    "&syncBrand.shortName.label;-foarkarren iepenje">
@@ -775,22 +778,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncReAuthItem.accesskey     "O">
 <!ENTITY syncToolbarButton.label      "Syngronisearje">
 
-<!ENTITY socialToolbar.title        "Sosjale-arkbalkeknop">
-
-<!ENTITY social.ok.label       "OK">
-<!ENTITY social.ok.accesskey   "O">
-
-<!ENTITY social.toggleSidebar.label "Sidebalke toane">
-<!ENTITY social.toggleSidebar.accesskey "S">
-
 <!ENTITY social.addons.label "Tsjinsten behearje…">
-
-<!ENTITY social.toggleNotifications.label "Desktopnotifikaasjes toane">
-<!ENTITY social.toggleNotifications.accesskey "n">
-
-<!ENTITY social.learnMore.label "Lês mear…">
-<!ENTITY social.learnMore.accesskey "L">
-
 
 <!ENTITY social.directory.label "Aktivaasjemap">
 <!ENTITY social.directory.text "Jo kinne dieltsjinsten aktivearje út de map.">
@@ -801,25 +789,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.header2 "Ekstra helpmiddelen en funksjes">
 <!ENTITY customizeMode.menuAndToolbars.empty "Wolle jo mear helpmiddelen?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Kies út tûzenen add-ons">
-<!ENTITY customizeMode.restoreDefaults "Standertynstellingen werstelle">
+<!ENTITY customizeMode.restoreDefaults "Standertynstellingen werom bringe">
 <!ENTITY customizeMode.toolbars "Arkbalken toane/ferstopje">
 <!ENTITY customizeMode.titlebar "Titelbalke">
 <!ENTITY customizeMode.lwthemes "Tema's">
 <!ENTITY customizeMode.lwthemes.myThemes "Myn tema's">
-<!ENTITY customizeMode.lwthemes.recommended "Oanrikkemandearre">
+<!ENTITY customizeMode.lwthemes.recommended "Oanrekommandearre">
 <!ENTITY customizeMode.lwthemes.menuManage "Beheare">
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "B">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Krij mear tema's">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "K">
-
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Chats op foargrûn">
-<!ENTITY social.chatBar.accesskey "C">
-
-<!ENTITY social.markpageMenu.accesskey "S">
-<!ENTITY social.markpageMenu.label "Side bewarje nei…">
-<!ENTITY social.marklinkMenu.accesskey "K">
-<!ENTITY social.marklinkMenu.label "Keppeling bewarje nei…">
 
 <!ENTITY getUserMedia.selectCamera.label "Kamera om te dielen:">
 <!ENTITY getUserMedia.selectCamera.accesskey "K">
@@ -829,8 +808,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getUserMedia.allWindowsShared.message "Alle sichtbere finsters op jo skerm sille dield wurde.">
 
 <!ENTITY trackingProtection.title "Beskerming tsjin folgjen">
-<!ENTITY trackingProtection.detectedBlocked3 "&brandShortName; blokkearret ûnderdielen fan de side dy't jo sneupgedrach folgje soenen kinne.">
-<!ENTITY trackingProtection.detectedNotBlocked3 "Dizze website befettet eleminten dy't jo sneupgedrach folgje soenen kinne. Jo hawwe beskerming útskeakele.">
+<!ENTITY trackingProtection.detectedBlocked3 "&brandShortName; blokkearret ûnderdielen fan de side dy't jo sneupgedrach folgje kinne soe.">
+<!ENTITY trackingProtection.detectedNotBlocked3 "Dizze website befettet eleminten dy't jo sneupgedrach folgje kinne soe. Jo hawwe beskerming útskeakele.">
 <!ENTITY trackingProtection.notDetected3 "Gjin folcheleminten op dizze side detektearre.">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
@@ -854,8 +833,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.block.label "Beskerming ynskeakelje">
 <!ENTITY trackingContentBlocked.block.accesskey "B">
 <!ENTITY trackingContentBlocked.disabled.message "Beskerming tsjin folgje is útskeakele">
-
-<!ENTITY pointerLock.notification.message "Druk op ESC om it nochris te toanen.">
 
 <!ENTITY pluginNotification.showAll.label "Alles toane">
 <!ENTITY pluginNotification.showAll.accesskey "A">

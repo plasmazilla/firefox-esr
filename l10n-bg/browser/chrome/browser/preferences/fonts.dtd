@@ -39,7 +39,7 @@
 <!ENTITY  font.langGroup.tamil                    "Тамилски">
 <!ENTITY  font.langGroup.armenian                 "Арменски">
 <!ENTITY  font.langGroup.bengali                  "Бенгалски">
-<!ENTITY  font.langGroup.canadian                 "Обединена канадска сричкова писменост">
+<!ENTITY  font.langGroup.canadian                 "Единна канадска сричкова писменост">
 <!ENTITY  font.langGroup.ethiopic                 "Етиопски">
 <!ENTITY  font.langGroup.georgian                 "Грузински">
 <!ENTITY  font.langGroup.gujarati                 "Гуджаратски">
@@ -47,7 +47,7 @@
 <!ENTITY  font.langGroup.khmer                    "Кхмерски">
 <!ENTITY  font.langGroup.malayalam                "Малаяламски">
 <!ENTITY  font.langGroup.math                     "Математически">
-<!ENTITY  font.langGroup.odia                     "Орийски">
+<!ENTITY  font.langGroup.odia                     "Одийски">
 <!ENTITY  font.langGroup.telugu                   "Телугу">
 <!ENTITY  font.langGroup.kannada                  "Каннада">
 <!ENTITY  font.langGroup.sinhala                  "Синхала">
@@ -61,13 +61,13 @@
 <!ENTITY  useDefaultFontSerif.label               "Серифен">
 <!ENTITY  useDefaultFontSansSerif.label           "Безсерифен">
 
-<!ENTITY  allowPagesToUse.label                   "Позволяване на страниците да избират собствен шрифт вместо горните">
-<!ENTITY  allowPagesToUse.accesskey               "П">
+<!ENTITY  allowPagesToUse.label                   "Страниците могат да избират собствен шрифт вместо избраните по-горе">
+<!ENTITY  allowPagesToUse.accesskey               "т">
 
 <!ENTITY languages.customize.Fallback2.grouplabel "Кодиране на остаряло съдържание">
-<!ENTITY languages.customize.Fallback2.label      "Резервна кодировка:">
+<!ENTITY languages.customize.Fallback2.label      "Резервно кодиране:">
 <!ENTITY languages.customize.Fallback2.accesskey  "к">
-<!ENTITY languages.customize.Fallback2.desc       "Това кодиране ще се използва за съдържание, което не предоставя информация за своята кодировка.">
+<!ENTITY languages.customize.Fallback2.desc       "Това кодиране на знаците ще бъде използвано за съдържание, което не предостави информация за своята кодировка.">
 
 <!ENTITY languages.customize.Fallback.auto        "Текущият локал да стане стандартен">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.arabic):
@@ -75,10 +75,10 @@
 <!ENTITY languages.customize.Fallback.arabic      "Арабско">
 <!ENTITY languages.customize.Fallback.baltic      "Балтийско">
 <!ENTITY languages.customize.Fallback.ceiso       "Централно-европейски езици, ISO">
-<!ENTITY languages.customize.Fallback.cewindows   "Централноевропейски, Microsoft">
+<!ENTITY languages.customize.Fallback.cewindows   "Централно-европейски езици, Microsoft">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.simplified):
      Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
-<!ENTITY languages.customize.Fallback.simplified  "Китайско, упростено">
+<!ENTITY languages.customize.Fallback.simplified  "Китайско, опростено">
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.traditional):
      Translate "Chinese" as an adjective for an encoding, not as the name of the language. -->
 <!ENTITY languages.customize.Fallback.traditional "Китайско, традиционно">
@@ -104,4 +104,4 @@
 <!-- LOCALIZATION NOTE (languages.customize.Fallback.vietnamese):
      Translate "Vietnamese" as an adjective for an encoding, not as the name of the language. -->
 <!ENTITY languages.customize.Fallback.vietnamese  "Виетнамско">
-<!ENTITY languages.customize.Fallback.other       "Друг (вкл. западноевропейски)">
+<!ENTITY languages.customize.Fallback.other       "Друго (вкл. западно-европейско)">

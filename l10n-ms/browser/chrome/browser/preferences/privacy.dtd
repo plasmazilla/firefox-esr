@@ -5,7 +5,7 @@
 <!ENTITY  trackingProtectionHeader.label       "Gunakan Pelindungan Penjejakan">
 <!ENTITY  trackingProtectionAlways.label       "Sentiasa">
 <!ENTITY  trackingProtectionAlways.accesskey   "n">
-<!ENTITY  trackingProtectionPrivate.label      "Cuma didalam tertingkap persendirian">
+<!ENTITY  trackingProtectionPrivate.label      "Hanya dalam tertingkap persendirian">
 <!ENTITY  trackingProtectionPrivate.accesskey  "l">
 <!ENTITY  trackingProtectionNever.label        "Tidak sekali">
 <!ENTITY  trackingProtectionNever.accesskey    "k">
@@ -17,7 +17,7 @@
 <!ENTITY trackingProtectionPBM5.label         "Guna Perlindungan Penjejakan dalam Tetingkap Persendirian">
 <!ENTITY trackingProtectionPBM5.accesskey     "k">
 <!ENTITY trackingProtectionPBMLearnMore.label "Ketahui selanjutnya">
-<!ENTITY changeBlockList.label          "Tukar Senarai Halangan">
+<!ENTITY changeBlockList.label          "Tukar Senarai Sekatan">
 <!ENTITY changeBlockList.accesskey      "a">
 
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
@@ -33,7 +33,7 @@
 <!ENTITY  locbar.suggest.label          "Semasa menggunakan bar lokasi, cadang:">
 <!ENTITY  locbar.history.label          "Sejarah">
 <!ENTITY  locbar.history.accesskey      "H">
-<!ENTITY  locbar.bookmarks.label        "Tanda buku">
+<!ENTITY  locbar.bookmarks.label        "Tandabuku">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
 <!ENTITY  locbar.openpage.label         "Buka tab">
 <!ENTITY  locbar.openpage.accesskey     "b">
@@ -90,7 +90,7 @@
 <!ENTITY  dontrememberActions.clearHistory.label "hapuskan semua sejarah layaran semasa">
 <!ENTITY  dontrememberActions.post.label         ".">
 
-<!ENTITY  privateBrowsingPermanent2.label "Sentiasa gunakan mod pelayaran persendirian">
+<!ENTITY  privateBrowsingPermanent2.label "Sentiasa gunakan mod pelayaran peribadi">
 <!ENTITY  privateBrowsingPermanent2.accesskey "p">
 
 <!ENTITY  rememberHistory2.label      "Ingat semua lawan sesawang yang telah dikunjungi dan segala benda yang telah dimuat turun">

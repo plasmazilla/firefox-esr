@@ -11,7 +11,7 @@
 <!ENTITY connectionFailure.title "Nie udało się nawiązać połączenia">
 <!ENTITY connectionFailure.longDesc2 "&sharedLongDesc3;">
 
-<!ENTITY deniedPortAccess.title "Port zastrzeżony z przyczyn bezpieczeństwa">
+<!ENTITY deniedPortAccess.title "Zastrzeżony adres">
 <!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Nie odnaleziono adresu">
@@ -29,11 +29,11 @@
 <!ENTITY malformedURI.title "Nieprawidłowy adres">
 <!ENTITY malformedURI.longDesc2 "<ul><li>Adresy internetowe są zwykle postaci <strong>http://www.example.com/</strong></li><div id='searchbox'><input id='searchtext' type='search'></input> <button id='searchbutton'>Wyszukaj</button></div><li>Należy sprawdzić, czy adres zawiera prawidłowe ukośniki (tzn. <strong>/</strong>).</li></ul>">
 
-<!ENTITY netInterrupt.title "Przerwano przesyłanie danych">
+<!ENTITY netInterrupt.title "Przerwane połączenie">
 <!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY notCached.title "Dokument wygasł">
-<!ENTITY notCached.longDesc "<p>Żądany dokument nie jest dostępny w pamięci podręcznej programu &brandShortName;.</p><ul><li>Ze względów bezpieczeństwa &brandShortName; nie pobiera ponownie wrażliwych dokumentów automatycznie.</li><li>Kliknij przycisk Spróbuj ponownie, aby jeszcze raz pobrać dokument z witryny.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Żądany dokument nie jest dostępny w pamięci podręcznej.</p><ul><li>Ze względów bezpieczeństwa, &brandShortName; automatycznie nie pobiera ponownie wrażliwych dokumentów.</li><li>Kliknij przycisk „Spróbuj ponownie”, aby jeszcze raz pobrać dokument z witryny.</li></ul>">
 
 <!ENTITY netOffline.title "Tryb offline">
 <!ENTITY netOffline.longDesc3 "<ul><li>Spróbuj ponownie. &brandShortName; powtórzy próbę otwarcia połączenia i przeładuje stronę. <button id='wifi'>Włącz Wi-Fi</button></li></ul>">
@@ -53,13 +53,13 @@
 <!ENTITY unknownProtocolFound.title "Nieznany protokół">
 <!ENTITY unknownProtocolFound.longDesc "<ul><li>Aby otworzyć ten adres, może być konieczna instalacja innego programu.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "Serwer proxy odrzucił połączenie">
+<!ENTITY proxyConnectFailure.title "Serwer proxy odrzuca połączenia">
 <!ENTITY proxyConnectFailure.longDesc "<ul><li>Należy sprawdzić, czy ustawienia serwerów proxy są prawidłowe.</li><li>Należy zapytać administratora sieci, czy serwer proxy funkcjonuje prawidłowo.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "Nie odnaleziono serwera proxy">
 <!ENTITY proxyResolveFailure.longDesc3 "<ul><li>Upewnij się, że ustawienia serwera proxy są poprawne.</li><li>Upewnij się, że połączenie sieciowe działa poprawnie. <button id='wifi'>Włącz Wi-Fi</button></li></ul>">
 
-<!ENTITY redirectLoop.title "Ta strona nie przekierowuje poprawnie">
+<!ENTITY redirectLoop.title "Pętla przekierowań">
 <!ENTITY redirectLoop.longDesc "<ul><li>Problem ten może się pojawić w wyniku zablokowania lub odrzucenia ciasteczek.</li></ul>">
 
 <!ENTITY unknownSocketType.title "Nieoczekiwana odpowiedź serwera">
@@ -71,7 +71,7 @@
 <!ENTITY nssBadCert.title "Nie udało się nawiązać bezpiecznego połączenia">
 <!ENTITY nssBadCert.longDesc2 "<ul><li>Powodem tego może być nieprawidłowa konfiguracja serwera albo próba podania się za ten serwer przez podmiot nieuprawniony.</li><li>Jeśli użytkownik łączył się wcześniej z tym serwerem, błąd może być tymczasowy – w tej sytuacji należy spróbować ponownie później.</li></ul>">
 
-<!ENTITY sharedLongDesc3 "<ul><li>Strona może być tymczasowo niedostępna lub przeciążona. Spróbuj ponownie za pewien czas.</li><li>Jeśli nie udaje się otworzyć żadnej strony, sprawdź połączenie sieciowe. <button id='wifi'>Włącz Wi-Fi</button></li></ul>">
+<!ENTITY sharedLongDesc3 "<ul><li>Witryna może być tymczasowo niedostępna lub przeciążona. Spróbuj ponownie za pewien czas.</li><li>Jeśli nie możesz otworzyć żadnej strony, sprawdź swoje połączenie sieciowe. <button id='wifi'>Włącz Wi-Fi</button></li></ul>">
 
 <!ENTITY cspBlocked.title "Zablokowane przez politykę bezpieczeństwa treści">
 <!ENTITY cspBlocked.longDesc "<p>Program &brandShortName; uniemożliwił tej stronie wczytanie treści w ten sposób, ponieważ jej polityka bezpieczeństwa treści na to nie pozwala.</p>">

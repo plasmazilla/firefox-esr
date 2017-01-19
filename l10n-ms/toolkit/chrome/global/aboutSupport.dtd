@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY aboutSupport.pageTitle "Maklumat Menyelesaikan masalah">
+<!ENTITY aboutSupport.pageTitle "Maklumat Pencarisilapan">
 
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "
@@ -19,7 +19,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.allReports "Semua Laporan Ranap">
 <!ENTITY aboutSupport.crashes.noConfig "APlikasi ini tidak dikonfigurkan untuk memaparkan laporan nahas.">
 
-<!ENTITY aboutSupport.extensionsTitle "Sambungan">
+<!ENTITY aboutSupport.extensionsTitle "Ekstensi">
 <!ENTITY aboutSupport.extensionName "Nama">
 <!ENTITY aboutSupport.extensionEnabled "Didayakan">
 <!ENTITY aboutSupport.extensionVersion "Versi">
@@ -41,7 +41,7 @@ This is likely the same like id.heading in crashes.dtd. -->
 
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
-<!ENTITY aboutSupport.appBasicsUpdateChannel "Saluran Pengemaskinian">
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Saluran Kemaskini">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Sejarah Kemaskini">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Papar Sejarah Kemaskini">
 
@@ -72,9 +72,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "Papar dalam Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Papar Folder">
+<!ENTITY aboutSupport.showWin2.label "Buka Folder">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Pengubahan rujukan pilihan yang penting">
 <!ENTITY aboutSupport.modifiedPrefsName "Nama">
@@ -97,14 +97,14 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.jsTitle "JavaSkrip">
 <!ENTITY aboutSupport.jsIncrementalGC "Penambahan GC">
 
-<!ENTITY aboutSupport.a11yTitle "Kebolehcapaian">
+<!ENTITY aboutSupport.a11yTitle "Aksesibiliti">
 <!ENTITY aboutSupport.a11yActivated "Diaktifkan">
-<!ENTITY aboutSupport.a11yForceDisabled "Halang Kebolehcapaian">
+<!ENTITY aboutSupport.a11yForceDisabled "Halang Aksesibiliti">
 
 <!ENTITY aboutSupport.libraryVersionsTitle "Pustaka Versi">
 
 <!ENTITY aboutSupport.installationHistoryTitle "Sejarah Pemasangan">
-<!ENTITY aboutSupport.updateHistoryTitle "Sejarah Kemaskini">
+<!ENTITY aboutSupport.updateHistoryTitle "Kemaskini Sejarah">
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Salin teks ke clipboard">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Salin data mentah kepada clipboard">

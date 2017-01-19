@@ -1,0 +1,45 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.cookies.title             "ნაჭდევები">
+
+<!-- cookies -->
+
+<!ENTITY cookiePolicy.label             "ნაჭდევების მიღების წესები">
+
+<!ENTITY disableCookies.label           "ნაჭდევების დაბლოკვა">
+<!ENTITY disableCookies.accesskey       "B">
+
+<!ENTITY accNo3rdPartyCookies.label     "ნაჭდევების მიღება მხოლოდ პირველწყარო საიტიდან (არა მესამე მხარის ნაჭდევები)">
+<!ENTITY accNo3rdPartyCookies.accesskey "o">
+
+<!ENTITY acc3rdPartyVisited.label       "მესამე მხარი სნაჭდევების მიღება მხოლოდ უკვე მონახულებული ვებსაიტებიდან">
+<!ENTITY acc3rdPartyVisited.accesskey   "v">
+
+<!ENTITY accAllCookies.label            "ყველა ნაჭდევის მიღება">
+<!ENTITY accAllCookies.accesskey        "c">
+
+<!ENTITY cookieRetentionPolicy.label    "ნაჭდევების შენახვის ვადა">
+
+<!ENTITY acceptNormally.label           "მიღება ჩვეულებრივად">
+<!ENTITY acceptNormally.accesskey       "n">
+
+<!ENTITY acceptForSession.label         "მიღება მხოლოდ მიმდინარე სეანსზე">
+<!ENTITY acceptForSession.accesskey     "s">
+
+<!ENTITY acceptforNDays.label           "ნაჭდევების მიღების ვადა">
+<!ENTITY acceptforNDays.accesskey       "f">
+<!ENTITY days.label                     "დღე">
+
+<!ENTITY warnAboutCookies.label         "თანხმობის მოთხოვნა თითოეულ ნაჭდევზე">
+<!ENTITY warnAboutCookies.accesskey     "A">
+<!ENTITY forCurrentSession.label        "გარდა სეანსის ნაჭდევებისა">
+<!ENTITY forCurrentSession.accesskey    "e">
+
+<!ENTITY manageCookies.label            "ნაჭდევებისა და საიტების მართვა">
+<!ENTITY manageCookiesDescription.label "საშუალებას გაძლევთ ნახოთ და მიუთითოთ ნაჭდევების მიღებისა და აკრძალვის პარამეტრები სხვადასხვა საიტისთვის.  ეს პარამეტრები გადაფარავს არსებულებს.">
+
+<!ENTITY viewCookies.label              "ნაჭდევების მმართველი">
+<!ENTITY viewCookies.accesskey          "M">
+

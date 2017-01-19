@@ -109,7 +109,6 @@
 <!ENTITY bookmarkThisPageCmd.label "Добавить страницу">
 <!ENTITY editThisBookmarkCmd.label "Редактировать эту закладку">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY markPageCmd.commandkey "l">
 <!ENTITY findShareServices.label "Найти другие службы Обмена…">
 <!ENTITY sharePageCmd.label "Поделиться этой страницей">
 <!ENTITY sharePageCmd.commandkey "S">
@@ -149,26 +148,28 @@
 <!ENTITY printButton.label "Печать">
 <!ENTITY printButton.tooltip "Распечатать эту страницу">
 <!ENTITY urlbar.viewSiteInfo.label "Просмотреть информацию о сайте">
-<!ENTITY urlbar.defaultNotificationAnchor.label "Просмотреть уведомление">
-<!ENTITY urlbar.geolocationNotificationAnchor.label "Просмотреть запрос на местоположение">
-<!ENTITY urlbar.addonsNotificationAnchor.label "Просмотреть сообщение об установке дополнения">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label "Просмотреть сообщение об автономном хранении приложения">
-<!ENTITY urlbar.loginFillNotificationAnchor.label "Управление данными вашего логина">
-<!ENTITY urlbar.passwordNotificationAnchor.label "Запрос на сохранение вашего пароля">
-<!ENTITY urlbar.pluginsNotificationAnchor.label "Управление запуском плагина на этой странице">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label "Изменение того, можете ли вы получать уведомления с сайта">
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label "Управление доступом сайта к вашей камере и/или микрофону">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label "Сайт имеет доступ к вашей камере и/или микрофону">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label "Управление доступом сайта к вашему микрофону">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Сайт имеет доступ к вашему микрофону">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label "Управление доступом сайта к вашим окнам или экрану">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label "Сайт имеет доступ к окну или вашему экрану">
-<!ENTITY urlbar.pointerLockNotificationAnchor.label "Изменение того, может ли сайт скрывать указатель">
-<!ENTITY urlbar.servicesNotificationAnchor.label "Просмотреть сообщение об установке службы">
-<!ENTITY urlbar.translateNotificationAnchor.label "Перевод этой страницы">
-<!ENTITY urlbar.translatedNotificationAnchor.label "Управление переводом страницы">
-<!ENTITY urlbar.emeNotificationAnchor.label "Управление запуском программы DRM">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip "Открыть панель сообщений">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip "Открыть панель запроса местоположения">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip "Открыть панель сообщения об установке дополнения">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip "Открыть панель сообщения об автономном хранилище">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip "Открыть панель запроса на сохранение пароля">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip "Управление запуском плагина">
+<!ENTITY urlbar.webNotificationAnchor.tooltip "Изменение того, можете ли вы получать уведомления с сайта">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip "Управление доступом сайта к вашей камере и/или микрофону">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip "Управление доступом сайта к вашему микрофону">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip "Управление доступом сайта к вашим окнам или экрану">
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip "Открыть панель сообщения об установке">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip "Перевод этой страницы">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip "Управление переводом страницы">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip "Управление запуском программы DRM">
+<!ENTITY urlbar.cameraBlocked.tooltip "Вы заблокировали доступ этого веб-сайта к вашей камере.">
+<!ENTITY urlbar.microphoneBlocked.tooltip "Вы заблокировали доступ этого веб-сайта к вашему микрофону.">
+<!ENTITY urlbar.screenBlocked.tooltip "Вы заблокировали доступ этого веб-сайта к вашему экрану.">
+<!ENTITY urlbar.geolocationBlocked.tooltip "Вы заблокировали доступ этого веб-сайта к информации о местоположении.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip "Вы заблокировали доступ этого веб-сайта к хранилищу данных.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip "Вы заблокировали уведомления с этого веб-сайта.">
 <!ENTITY urlbar.openHistoryPopup.tooltip "Показать историю">
+<!ENTITY urlbar.zoomReset.tooltip "Сбросить масштаб">
 <!ENTITY searchItem.title "Поиск">
 <!ENTITY homeButton.label "Домой">
 <!ENTITY bookmarksButton.label "Закладки">
@@ -299,13 +300,14 @@
 <!ENTITY searchFocus.commandkey2 "e">
 <!ENTITY searchFocusUnix.commandkey "j">
 <!ENTITY contentSearchInput.label "Поисковый запрос">
-<!ENTITY contentSearchSubmit.label "Произвести поиск">
+<!ENTITY contentSearchSubmit.tooltip "Произвести поиск">
 <!ENTITY searchFor.label "Искать ">
 <!ENTITY searchWith.label " в:">
 <!ENTITY search.label "Искать в ">
 <!ENTITY searchAfter.label "">
 <!ENTITY searchWithHeader.label "Искать в:">
 <!ENTITY changeSearchSettings.button "Изменить настройки поиска">
+<!ENTITY changeSearchSettings.tooltip "Изменить параметры поиска">
 <!ENTITY searchInNewTab.label "Искать в новой вкладке">
 <!ENTITY searchInNewTab.accesskey "а">
 <!ENTITY searchSetAsDefault.label "Установить как поисковую систему по умолчанию">
@@ -527,6 +529,7 @@
 <!ENTITY identity.moreInfoLinkText2 "Подробнее">
 <!ENTITY identity.permissions "Разрешения">
 <!ENTITY identity.permissionsEmpty "Вы не давали этому сайту каких-либо специальных разрешений.">
+<!ENTITY identity.permissionsReloadHint "Чтобы изменения возымели действие, вам, возможно, потребуется перезагрузить страницу.">
 <!ENTITY tabsToolbar.label "Вкладки браузера">
 <!ENTITY syncTabsMenu3.label "Облачные вкладки">
 <!ENTITY syncedTabs.sidebar.label "Облачные вкладки">
@@ -557,16 +560,7 @@
 <!ENTITY syncReAuthItem.label "Присоединиться заново к Синхронизации…">
 <!ENTITY syncReAuthItem.accesskey "и">
 <!ENTITY syncToolbarButton.label "Синхро­низация">
-<!ENTITY socialToolbar.title "Кнопка социальной панели">
-<!ENTITY social.ok.label "OK">
-<!ENTITY social.ok.accesskey "O">
-<!ENTITY social.toggleSidebar.label "Показать боковую панель">
-<!ENTITY social.toggleSidebar.accesskey "з">
 <!ENTITY social.addons.label "Управление службами…">
-<!ENTITY social.toggleNotifications.label "Отображать уведомления на десктопе">
-<!ENTITY social.toggleNotifications.accesskey "а">
-<!ENTITY social.learnMore.label "Подробнее…">
-<!ENTITY social.learnMore.accesskey "о">
 <!ENTITY social.directory.label "Каталог Служб">
 <!ENTITY social.directory.text "Вы можете активировать службы Обмена из этого каталога.">
 <!ENTITY social.directory.button "Перенести меня туда!">
@@ -585,13 +579,6 @@
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "п">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Получить больше тем">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "о">
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Переключаться на чаты">
-<!ENTITY social.chatBar.accesskey "ч">
-<!ENTITY social.markpageMenu.accesskey "о">
-<!ENTITY social.markpageMenu.label "Сохранить страницу в…">
-<!ENTITY social.marklinkMenu.accesskey "а">
-<!ENTITY social.marklinkMenu.label "Сохранить ссылку в…">
 <!ENTITY getUserMedia.selectCamera.label "Доступ к камере:">
 <!ENTITY getUserMedia.selectCamera.accesskey "к">
 <!ENTITY getUserMedia.selectMicrophone.label "Доступ к микрофону:">
@@ -617,7 +604,6 @@
 <!ENTITY trackingContentBlocked.block.label "Включить защиту">
 <!ENTITY trackingContentBlocked.block.accesskey "к">
 <!ENTITY trackingContentBlocked.disabled.message "Защита от отслеживания отключена">
-<!ENTITY pointerLock.notification.message "Нажмите в любой момент кнопку Esc, чтобы показать его снова.">
 <!ENTITY pluginNotification.showAll.label "Показать все">
 <!ENTITY pluginNotification.showAll.accesskey "о">
 <!ENTITY pluginActivateNow.label "Временно разрешить">

@@ -30,8 +30,8 @@
 
 <!ENTITY dataChoicesTab.label            "ডাটা পছন্দ">
 
-<!ENTITY healthReportDesc.label          "আপনার ব্রাউজারের-হেলথ্ সম্পর্কে আপনাকে ব্রাউজারের কার্যকারিতা বুঝতে সহায়তা করে এবং &vendorShortName; এর সাথে তথ্যাদি শেয়ার করে  ">
-<!ENTITY enableHealthReport.label        "&brandShortName; হেলথ্ প্রতিবেদন সক্রিয় করা হবে R">
+<!ENTITY healthReportDesc.label          "আপনার ব্রাউজারের স্বাস্থ্য সম্পর্কে আপনাকে ব্রাউজারের কার্যকারিতা বুঝতে সহায়তা করে এবং &vendorShortName; এর সাথে তথ্যাদি শেয়ার করে  ">
+<!ENTITY enableHealthReport.label        "&brandShortName; স্বাস্থ্য প্রতিবেদন সক্রিয় করা হবে">
 <!ENTITY enableHealthReport.accesskey    "R">
 <!ENTITY healthReportLearnMore.label     "আরও জানুন…">
 
@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "আরও জানুন…">
 
-<!ENTITY crashReporterDesc.label         "&brandShortName; ক্র্যাশ প্রতিবেদন জমা দিয়ে &vendorShortName; কে সাহায্য করে, এতে আপনার ব্রাউজারে আরো স্থিতিশীল ও নিরাপদ হয়">
-<!ENTITY enableCrashReporter.label       "ক্র্যাশ প্রতিবেদক সক্রিয় করা হবে C">
-<!ENTITY enableCrashReporter.accesskey   "C">
-<!ENTITY crashReporterLearnMore.label    "আরও জানুন…">
+<!ENTITY crashReporterDesc2.label         "ক্র্যাশ প্রতিবেদনগুলি &vendorShortName; কে সাহায্য করে; সমস্যাগুলি ঠিক করুন এবং আপনার ব্রাউজার আরো স্থিতিশীল এবং নিরাপদ করুন">
+<!ENTITY alwaysSubmitCrashReports.label   "আপনার backlogged জমে থাকা ক্র্যাশ রিপোর্ট প্রেরণ করার জন্যে &brandShortName; কে অনুমতি দিন">
+<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+<!ENTITY crashReporterLearnMore.label     "আরও জানুন…">
 
 <!ENTITY networkTab.label                "নেটওয়ার্ক">
 

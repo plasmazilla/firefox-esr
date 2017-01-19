@@ -85,7 +85,7 @@
 <!ENTITY runtimePanel_other "Друго">
 <!ENTITY runtimePanel_installsimulator "Инсталиране на симулатор">
 <!ENTITY runtimePanel_noadbhelper "Инсталиране на помощник за ADB">
-<!ENTITY runtimePanel_nousbdevice "Не можете да видите вашето устройство?">
+<!ENTITY runtimePanel_nousbdevice "Не виждате своето устройство?">
 <!ENTITY runtimePanel_refreshDevices_label "Опресняване на списъка с устройства">
 
 <!-- Lense -->
@@ -117,7 +117,7 @@
 <!ENTITY prefs_title "Настройки">
 <!ENTITY prefs_editor_title "Редактор">
 <!ENTITY prefs_general_title "Основни">
-<!ENTITY prefs_restore "Връщане до стандартни настройки">
+<!ENTITY prefs_restore "Връщане на стандартни настройки">
 <!ENTITY prefs_manage_components "Управление на допълнителни компоненти">
 <!ENTITY prefs_options_autoconnectruntime "Ново свързване към предишната среда за приложения">
 <!ENTITY prefs_options_autoconnectruntime_tooltip "Ново свързване към предишната среда за приложения при пускане на WebIDE">
@@ -138,8 +138,8 @@
 <!ENTITY prefs_options_autoclosebrackets_tooltip "Автоматично вмъкване на затваряща скоба">
 <!ENTITY prefs_options_keybindings "Клавишни комбинации">
 <!ENTITY prefs_options_keybindings_default "Стандартно">
-<!ENTITY prefs_options_autosavefiles "Автоматично записване на файловете">
-<!ENTITY prefs_options_autosavefiles_tooltip "Автоматично записване на редактираните файлове преди да се пусне проект">
+<!ENTITY prefs_options_autosavefiles "Автоматично запазване на файловете">
+<!ENTITY prefs_options_autosavefiles_tooltip "Автоматично запазване на редактираните файлове преди изпълнение">
 
 <!-- Permissions Table -->
 <!ENTITY permissionstable_title "Таблица на правата">
@@ -204,7 +204,7 @@
 <!-- Simulator Options -->
 <!ENTITY simulator_title "Настройки на симулатора">
 <!ENTITY simulator_remove "Изтриване на симулатора">
-<!ENTITY simulator_reset "Връщане до стандартни настройки">
+<!ENTITY simulator_reset "Връщане на стандартни настройки">
 <!ENTITY simulator_name "Име">
 <!ENTITY simulator_software "Софтуер">
 <!ENTITY simulator_version "Версия">

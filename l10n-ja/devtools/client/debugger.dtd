@@ -54,10 +54,6 @@
   -  tooltip for the button that toggles the promise debugger. -->
 <!ENTITY debuggerUI.sources.togglePromiseDebugger	"Promise デバッガを切り替え">
 
-<!-- LOCALIZATION NOTE (debuggerUI.startTracing): This is the text displayed in
-  - the button to start execution tracing. -->
-<!ENTITY debuggerUI.startTracing		"トレースを開始">
-
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
 <!ENTITY debuggerUI.clearButton			"消去">
@@ -83,7 +79,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.showVarsFilter): This is the label for the
   -  checkbox that toggles visibility of a designated variables filter box. -->
-<!ENTITY debuggerUI.showVarsFilter		"変数フィルタボックスを表示">
+<!ENTITY debuggerUI.showVarsFilter		"変数フィルターボックスを表示">
 <!ENTITY debuggerUI.showVarsFilter.accesskey	"V">
 
 <!-- LOCALIZATION NOTE (debuggerUI.showOnlyEnum): This is the label for the

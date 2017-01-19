@@ -15,7 +15,7 @@
 <!ENTITY connectionFailure.title "Get ekki tengst">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
-<!ENTITY deniedPortAccess.title "Aðgangur að þessari gátt er ekki leyfður">
+<!ENTITY deniedPortAccess.title "Aðgangur að gátt er ekki leyfður">
 <!ENTITY deniedPortAccess.longDesc "">
 
 <!ENTITY dnsNotFound.title "Netþjónn fannst ekki">
@@ -51,7 +51,7 @@
 <!ENTITY netReset.title "Tenging slitnaði">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Tengitími rann út">
+<!ENTITY netTimeout.title "Tengingin svaraði ekki tímanlega">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Óþekkt samskiptaregla">

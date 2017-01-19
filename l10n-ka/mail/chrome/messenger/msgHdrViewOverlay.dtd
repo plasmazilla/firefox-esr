@@ -1,0 +1,110 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY toField4.label "ვის: ">
+<!ENTITY fromField4.label "ვისგან: ">
+<!ENTITY senderField4.label "გამგზავნი: ">
+<!ENTITY organizationField4.label "ორგანიზაცია: ">
+<!ENTITY replyToField4.label "პასუხი: ">
+
+<!ENTITY subjectField4.label "თემა: ">
+<!ENTITY ccField4.label "ასლი ">
+<!ENTITY bccField4.label "ფარული ასლი ">
+<!ENTITY newsgroupsField4.label "ჯგუფები ">
+<!ENTITY followupToField4.label "კონფერენცია ">
+<!ENTITY tagsHdr4.label "ჭდეები ">
+<!ENTITY dateField4.label "თარიღი ">
+<!ENTITY userAgentField4.label "პროგრამა ">
+<!ENTITY referencesField4.label "დამოწმებები ">
+<!ENTITY messageIdField4.label "გზავნილის კოდი ">
+<!ENTITY inReplyToField4.label "პასუხად ">
+<!ENTITY originalWebsite4.label "ვებსაიტი ">
+
+<!ENTITY editMessageDescription.label "ეს გხავნილის ესკიზია">
+<!ENTITY editMessageButton.label "რედაქცია…">
+<!ENTITY hdrArchiveButton1.label "არქივი">
+<!ENTITY hdrArchiveButton1.tooltip "ამ წერილის დაარქივება">
+<!ENTITY hdrSmartReplyButton1.label "სხარტი პასუხი">
+<!ENTITY hdrReplyButton1.label "პასუხი">
+<!ENTITY hdrReplyButton2.tooltip "პასუხი ამ წერილის გამომგზავნს">
+<!ENTITY hdrReplyAllButton1.label "პასუხი ყველას">
+<!ENTITY hdrReplyAllButton1.tooltip "პასუხი გამომგზავნს და ყველა ადრესატს">
+<!ENTITY hdrReplyListButton1.label "პასუხი ჯგუფს">
+<!ENTITY hdrReplyListButton1.tooltip "პასუხი დაგზავნის სიაზე">
+<!ENTITY hdrFollowupButton1.label "ადევნება">
+<!ENTITY hdrFollowupButton1.tooltip "გამოხმაურება სიახლეთა ამ ჯგუფს">
+<!ENTITY hdrMenuForwardButton.label "გადაგზავნა როგორც">
+<!ENTITY hdrForwardButton1.label "გადაგზავნა">
+<!ENTITY hdrForwardButton1.tooltip "ამ წერილის გადაგზავნა">
+<!ENTITY hdrJunkButton1.label "ჯართი">
+<!ENTITY hdrJunkButton1.tooltip "Mark this message as junk">
+<!ENTITY hdrTrashButton1.label "წაშლა">
+<!ENTITY hdrTrashButton1.tooltip "ამ წერილის წაშლა">
+
+<!ENTITY hdrViewToolbarShowFull.label "ხატულების და ტექსტის ჩვენება">
+<!ENTITY hdrViewToolbarShowFull.accesskey "a">
+<!ENTITY hdrViewToolbarShowIcons.label "მხოლოდ ხატულების ჩვენება">
+<!ENTITY hdrViewToolbarShowIcons.accesskey "I">
+<!ENTITY hdrViewToolbarShowText.label "მხოლოდ ტექსტის ჩვენება">
+<!ENTITY hdrViewToolbarShowText.accesskey "T">
+<!ENTITY hdrViewToolbarAlwaysReplySender.label "პასუხის ყოველთვის ჩვენება გამომგზავნისთვის">
+<!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "R">
+
+<!ENTITY otherActionsButton1.label "სხვა ქმედებები">
+<!ENTITY otherActionsOpenConversation1.label "გახსნა განხილვაში">
+<!ENTITY otherActionsOpenConversation1.accesskey "C">
+<!ENTITY otherActionsOpenInNewWindow1.label "გახსნა ახალ სარკმელში">
+<!ENTITY otherActionsOpenInNewWindow1.accesskey "W">
+<!ENTITY otherActionsOpenInNewTab1.label "გახსნა ახალ დაფაზე">
+<!ENTITY otherActionsOpenInNewTab1.accesskey "T">
+<!ENTITY markAsReadMenuItem1.label "მონიშვნა წაკითხულად">
+<!ENTITY markAsReadMenuItem1.accesskey "R">
+<!ENTITY markAsUnreadMenuItem1.label "მონიშვნა წასაკითხად">
+<!ENTITY markAsUnreadMenuItem1.accesskey "r">
+<!ENTITY saveAsMenuItem1.label "შენახვა როგორც…">
+<!ENTITY saveAsMenuItem1.accesskey "S">
+<!ENTITY viewSourceMenuItem1.label "წყაროს ჩვენება">
+<!ENTITY viewSourceMenuItem1.accesskey "V">
+<!ENTITY otherActionsPrint1.label "ამობეჭდვა…">
+<!ENTITY otherActionsPrint1.accesskey "P">
+
+<!-- Attachment bar context menu items -->
+<!ENTITY startExpandedCmd.label    "თავიდანვე ჩანართების პანელის ჩვენება">
+<!ENTITY startExpandedCmd.accesskey    "S">
+
+<!-- Attachment context menu items -->
+<!ENTITY openAttachmentCmd.label    "გახსნა">
+<!ENTITY openAttachmentCmd.accesskey		"O">  
+<!ENTITY saveAsAttachmentCmd.label    "შენახვა როგორც…">
+<!ENTITY saveAsAttachmentCmd.accesskey    "S">
+<!ENTITY detachAttachmentCmd.label    "განცალკევება…">
+<!ENTITY detachAttachmentCmd.accesskey    "D">
+<!ENTITY deleteAttachmentCmd.label    "წაშლა">
+<!ENTITY deleteAttachmentCmd.accesskey    "e">
+<!ENTITY openAllAttachmentsCmd.label    "ყველას გახსნა…">
+<!ENTITY openAllAttachmentsCmd.accesskey    "O">
+<!ENTITY saveAllAttachmentsCmd.label    "ტველას შენახვა…">
+<!ENTITY saveAllAttachmentsCmd.accesskey		"S">  
+<!ENTITY detachAllAttachmentsCmd.label    "ყველას განცალკევება…">  
+<!ENTITY detachAllAttachmentsCmd.accesskey    "D">  
+<!ENTITY deleteAllAttachmentsCmd.label    "ყველას წაშლა…">  
+<!ENTITY deleteAllAttachmentsCmd.accesskey    "E">  
+
+<!ENTITY openAttachment.tooltip "ჩანართი ფაილის გახსნა">
+
+<!-- Attachment toolbar items -->
+<!ENTITY saveAttachmentButton1.label       "შენახვა">
+<!ENTITY saveAttachmentButton1.tooltip     "ჩანართი ფაილის შენახვა">
+<!ENTITY saveAllAttachmentsButton1.label   "ყველას შენახვა">
+<!ENTITY saveAllAttachmentsButton1.tooltip "ყველა ჩანართი ფაილის შენახვა">
+
+<!ENTITY copyLinkCmd.label        "ბმის მისამართის ასლი">
+<!ENTITY copyLinkCmd.accesskey		"C">  
+
+<!ENTITY CopyMessageId.label "წერილის კოდის კოპირება">
+<!ENTITY CopyMessageId.accesskey "C">
+<!ENTITY OpenMessageForMsgId.label "წერილის გახსნა კოდისთვის">
+<!ENTITY OpenMessageForMsgId.accesskey "O">
+<!ENTITY OpenBrowserWithMsgId.label "წერილის გახსნა კოდით">
+<!ENTITY OpenBrowserWithMsgId.accesskey "B">

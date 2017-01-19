@@ -69,7 +69,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY openFileCmd.commandkey "o">
 <!ENTITY printSetupCmd.label "ตั้งค่าหน้ากระดาษ…">
 <!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printPreviewCmd.label "แสดงตัวอย่างการพิมพ์">
+<!ENTITY printPreviewCmd.label "ตัวอย่างก่อนพิมพ์">
 <!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "พิมพ์…">
 <!ENTITY printCmd.accesskey "P">
@@ -116,7 +116,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fxaSignIn.label "ลงชื่อเข้า &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "เปิดการตั้งค่า &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "เชื่อมต่อกับ &syncBrand.shortName.label; ใหม่">
-<!ENTITY fxaUnverified.label "ยืนยันความถูกต้องบัญชีของคุณ">
+<!ENTITY fxaUnverified.label "ตรวจสอบบัญชีของคุณ">
 
 
 <!ENTITY fullScreenMinimize.tooltip "ย่อ">
@@ -161,7 +161,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "คั่นหน้านี้">
 <!ENTITY editThisBookmarkCmd.label "แก้ไขที่คั่นหน้านี้">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY markPageCmd.commandkey "l">
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
@@ -207,32 +206,34 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY printButton.tooltip          "พิมพ์หน้านี้">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "ดูข้อมูลไซต์">
-<!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
-     used to provide accessible labels to users of assistive technology like screenreaders.
-     It is not possible to see them visually in the UI. -->
-<!ENTITY urlbar.defaultNotificationAnchor.label         "ดูการแจ้งเตือน">
-<!ENTITY urlbar.geolocationNotificationAnchor.label     "ดูคำร้องขอตำแหน่งที่ตั้ง">
-<!ENTITY urlbar.addonsNotificationAnchor.label          "ดูข้อความการติดตั้งส่วนเสริม">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label       "ดูข้อความการจัดเก็บข้อมูลออฟไลน์ของแอป">
-<!ENTITY urlbar.loginFillNotificationAnchor.label       "จัดการข้อมูลการเข้าสู่ระบบของคุณ">
-<!ENTITY urlbar.passwordNotificationAnchor.label        "ทำเครื่องหมายหากคุณต้องการบันทึกรหัสผ่านของคุณ">
-<!ENTITY urlbar.pluginsNotificationAnchor.label         "จัดการการใช้งานโปรแกรมเสริมบนหน้านี้">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label        "เปลี่ยนแปลงเพื่อให้คุณสามารถรับการแจ้งเตือนจากไซต์นี้">
 
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label      "จัดการการแบ่งปันกล้องและ/หรือไมโครโฟนของคุณกับไซต์">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label    "คุณกำลังแบ่งปันกล้องและ/หรือไมโครโฟนของคุณกับไซต์">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label   "จัดการการแบ่งปันไมโครโฟนของคุณกับไซต์">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "คุณกำลังแบ่งปันไมโครโฟนของคุณกับไซต์">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label       "จัดการการแบ่งปันหน้าต่างหรือหน้าจอของคุณกับไซต์">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label     "คุณกำลังแบ่งปันหน้าต่างหรือหน้าจอของคุณกับไซต์">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "เปิดแผงข้อความ">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "เปิดแผงการร้องขอตำแหน่งที่ตั้ง">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "เปิดแผงข้อความการติดตั้งส่วนเสริม">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "เปิดแผงข้อความที่เก็บข้อมูลออฟไลน์">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip        "เปิดแผงข้อความบันทึกรหัสผ่าน">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "จัดการการใช้ปลั๊กอิน">
+<!ENTITY urlbar.webNotificationAnchor.tooltip             "เลือกว่าคุณสามารถรับการแจ้งเตือนจากไซต์ได้หรือไม่">
 
-<!ENTITY urlbar.pointerLockNotificationAnchor.label     "เปลี่ยนไม่ว่าเว็บไซต์จะสามารถซ่อนตัวชี้เมาส์ได้">
-<!ENTITY urlbar.servicesNotificationAnchor.label        "ดูข้อความการติดตั้งบริการ">
-<!ENTITY urlbar.translateNotificationAnchor.label       "แปลหน้านี้">
-<!ENTITY urlbar.translatedNotificationAnchor.label      "จัดการการแปลหน้า">
-<!ENTITY urlbar.emeNotificationAnchor.label             "จัดการการใช้ซอฟต์แวร์ DRM">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "จัดการการแบ่งปันกล้องและ/หรือไมโครโฟนของคุณกับไซต์">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "จัดการการแบ่งปันไมโครโฟนของคุณกับไซต์">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "จัดการการแบ่งปันหน้าต่างหรือหน้าจอของคุณกับไซต์">
+
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "เปิดแผงข้อความการติดตั้ง">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip       "แปลหน้านี้">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip      "จัดการการแปลหน้านี้">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip             "จัดการการใช้ซอฟต์แวร์ DRM">
+
+<!ENTITY urlbar.cameraBlocked.tooltip            "คุณได้ปิดกั้นกล้องของคุณสำหรับเว็บไซต์นี้">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "คุณได้ปิดกั้นไมโครโฟนของคุณสำหรับเว็บไซต์นี้">
+<!ENTITY urlbar.screenBlocked.tooltip            "คุณได้ปิดกั้นเว็บไซต์นี้จากการแบ่งปันหน้าจอของคุณ">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "คุณได้ปิดกั้นข้อมูลตำแหน่งที่ตั้งสำหรับเว็บไซต์นี้">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "คุณได้ปิดกั้นที่เก็บข้อมูลสำหรับเว็บไซต์นี้">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "คุณได้ปิดกั้นการแจ้งเตือนสำหรับเว็บไซต์นี้">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "แสดงประวัติ">
+
+<!ENTITY urlbar.zoomReset.tooltip     "กลับสู่ระดับการซูมเดิม">
 
 <!ENTITY searchItem.title             "ค้นหา">
 
@@ -425,11 +426,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!-- LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
-     These are set as the aria-label attribute for the search input box and
-     submit button in the in-content search UI, to be used by screen readers. -->
+<!-- LOCALIZATION NOTE (contentSearchInput.label):
+     This is set as the aria-label attribute for the search input box in the
+     in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "คำค้นหา">
-<!ENTITY contentSearchSubmit.label    "ค้นหา">
+<!ENTITY contentSearchSubmit.tooltip  "ค้นหา">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -455,6 +456,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
 <!ENTITY changeSearchSettings.button  "เปลี่ยนการตั้งค่าการค้นหา">
+<!ENTITY changeSearchSettings.tooltip "เปลี่ยนการตั้งค่าการค้นหา">
 
 <!ENTITY searchInNewTab.label         "ค้นหาในแท็บใหม่">
 <!ENTITY searchInNewTab.accesskey     "T">
@@ -506,7 +508,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBGImageCmd.label         "ดูภาพพื้นหลัง">
 <!ENTITY viewBGImageCmd.accesskey     "พ">
 <!ENTITY setDesktopBackgroundCmd.label      "ตั้งเป็นพื้นหลังเดสก์ท็อป…">
-<!ENTITY setDesktopBackgroundCmd.accesskey  "ต">
+<!ENTITY setDesktopBackgroundCmd.accesskey  "S">
 <!ENTITY bookmarkPageCmd2.label       "คั่นหน้านี้">
 <!ENTITY bookmarkThisLinkCmd.label      "คั่นลิงก์นี้">
 <!ENTITY bookmarkThisLinkCmd.accesskey  "ล">
@@ -539,9 +541,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY castVideoCmd.accesskey       "ส">
 <!ENTITY emailAudioCmd.label          "ส่งอีเมลเสียง…">
 <!ENTITY emailAudioCmd.accesskey      "ม">
-<!ENTITY playPluginCmd.label          "เปิดใช้งานโปรแกรมเสริมนี้">
+<!ENTITY playPluginCmd.label          "เปิดใช้งานปลั๊กอินนี้">
 <!ENTITY playPluginCmd.accesskey      "ป">
-<!ENTITY hidePluginCmd.label          "ซ่อนโปรแกรมเสริมนี้">
+<!ENTITY hidePluginCmd.label          "ซ่อนปลั๊กอินนี้">
 <!ENTITY hidePluginCmd.accesskey      "ซ">
 <!ENTITY copyLinkCmd.label            "คัดลอกที่ตั้งลิงก์">
 <!ENTITY copyLinkCmd.accesskey        "ต">
@@ -599,7 +601,6 @@ items are mutually exclusive. -->
 <!ENTITY mediaHideControls.accesskey "น">
 <!ENTITY videoFullScreen.label       "เต็มจอ">
 <!ENTITY videoFullScreen.accesskey   "ต">
-<!ENTITY videoSaveImage.label        "จับหน้าจอเป็น…">
 <!ENTITY videoSaveImage.accesskey    "า">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
@@ -615,26 +616,26 @@ fullZoomResetCmd.commandkey2 are alternative acceleration keys for zoom.
 If shift key is needed with your locale popular keyboard for them,
 you can use these alternative items. Otherwise, their values should be empty.  -->
 
-<!ENTITY fullZoomEnlargeCmd.label       "ขยายเข้า">
-<!ENTITY fullZoomEnlargeCmd.accesskey   "เ">
+<!ENTITY fullZoomEnlargeCmd.label       "ซูมเข้า">
+<!ENTITY fullZoomEnlargeCmd.accesskey   "I">
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
 
-<!ENTITY fullZoomReduceCmd.label        "ขยายออก">
-<!ENTITY fullZoomReduceCmd.accesskey    "อ">
+<!ENTITY fullZoomReduceCmd.label        "ซูมออก">
+<!ENTITY fullZoomReduceCmd.accesskey    "O">
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
 <!ENTITY fullZoomReduceCmd.commandkey2  "">
 
 <!ENTITY fullZoomResetCmd.label         "กลับค่าเดิม">
-<!ENTITY fullZoomResetCmd.accesskey     "ก">
+<!ENTITY fullZoomResetCmd.accesskey     "R">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY fullZoomToggleCmd.label        "ขยายเฉพาะตัวอักษร">
-<!ENTITY fullZoomToggleCmd.accesskey    "ต">
-<!ENTITY fullZoom.label                 "ขยาย">
-<!ENTITY fullZoom.accesskey             "ข">
+<!ENTITY fullZoomToggleCmd.label        "ซูมเฉพาะตัวอักษร">
+<!ENTITY fullZoomToggleCmd.accesskey    "T">
+<!ENTITY fullZoom.label                 "ซูม">
+<!ENTITY fullZoom.accesskey             "Z">
 
 <!ENTITY sidebarCloseButton.tooltip     "ปิดแถบข้าง">
 
@@ -651,16 +652,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY closeCmd.label                 "ปิด">  
 <!ENTITY closeCmd.key                   "W">  
-<!ENTITY closeCmd.accesskey             "ป">
+<!ENTITY closeCmd.accesskey             "C">
 
 <!ENTITY toggleMuteCmd.key              "M">
 
 <!ENTITY pageStyleMenu.label "ลักษณะหน้า">
-<!ENTITY pageStyleMenu.accesskey "ษ">
+<!ENTITY pageStyleMenu.accesskey "y">
 <!ENTITY pageStyleNoStyle.label "ไม่มีลักษณะ">
-<!ENTITY pageStyleNoStyle.accesskey "ไ">
+<!ENTITY pageStyleNoStyle.accesskey "n">
 <!ENTITY pageStylePersistentOnly.label "ลักษณะหน้าพื้นฐาน">
-<!ENTITY pageStylePersistentOnly.accesskey "พ">
+<!ENTITY pageStylePersistentOnly.accesskey "b">
 
 <!ENTITY pageReportIcon.tooltip            "เปลี่ยนการตั้งค่าการปิดกั้นป๊อปอัปสำหรับเว็บไซต์นี้">
 
@@ -670,7 +671,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
      over into this string, which is used in the "popup blocked" info bar . -->
 <!ENTITY editPopupSettingsUnix.label "แก้ไขการตั้งค่าตัวปิดกั้นป๊อปอัป…">
 <!ENTITY editPopupSettings.label "แก้ไขตัวเลือกตัวปิดกั้นป๊อปอัป…">
-<!ENTITY editPopupSettings.accesskey "แ">
+<!ENTITY editPopupSettings.accesskey "E">
 <!ENTITY dontShowMessage.accesskey "D">
 
 <!ENTITY bidiSwitchPageDirectionItem.label        "สลับทิศทางหน้ากระดาษ">
@@ -689,7 +690,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY findSelectionCmd.commandkey "e">
 
 <!ENTITY spellAddDictionaries.label "เพิ่มพจนานุกรม…">
-<!ENTITY spellAddDictionaries.accesskey "พ">
+<!ENTITY spellAddDictionaries.accesskey "A">
 
 <!ENTITY editBookmark.done.label                     "เสร็จสิ้น">
 <!ENTITY editBookmark.removeBookmark.accessKey       "R">
@@ -704,24 +705,24 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "&brandShortName; ได้ปิดกั้นบางส่วนของหน้านี้ที่ไม่ปลอดภัย">
 <!ENTITY identity.passiveLoaded "บางส่วนของหน้านี้ไม่ปลอดภัย (อย่างเช่น ภาพ)">
-<!ENTITY identity.activeLoaded "คุณได้ปิดใช้งานการปกป้องในหน้านี้">
+<!ENTITY identity.activeLoaded "คุณได้ปิดใช้งานการป้องกันในหน้านี้">
 <!ENTITY identity.weakEncryption "หน้านี้ใช้การเข้ารหัสที่อ่อนแอ">
 
 <!-- Strings for connection state warnings in the subview. -->
-<!ENTITY identity.description.insecure "การเชื่อมต่อของคุณไปยังไซต์นี้ไม่เป็นส่วนตัว ข้อมูลที่คุณส่งไปบนเว็บไซต์คนอื่นสามารถดูได้ (เช่น รหัสผ่าน ข้อความ บัตรเครดิต)">
+<!ENTITY identity.description.insecure "การเชื่อมต่อของคุณไปยังไซต์นี้ไม่เป็นส่วนตัว ข้อมูลที่คุณแบ่งปันกับไซต์นี้สามารถดูได้โดยผู้อื่น (เช่น รหัสผ่าน, ข้อความ, บัตรเครดิต ฯลฯ)">
 <!ENTITY identity.description.insecureLoginForms "ข้อมูลการเข้าระบบที่คุณป้อนบนหน้านี้นั้นไม่ปลอดภัยและอาจตกอยู่ในอันตรายได้">
 <!ENTITY identity.description.weakCipher "การเชื่อมต่อของคุณไปยังเว็บไซต์นี้ใช้การเข้ารหัสที่อ่อนแอและไม่เป็นส่วนตัว">
 <!ENTITY identity.description.weakCipher2 "คนอื่นสามารถดูข้อมูลของคุณหรือแก้ไขพฤติกรรมของเว็บไซต์ได้">
 <!ENTITY identity.description.activeBlocked "&brandShortName; ได้ปิดกั้นบางส่วนของหน้านี้ที่ไม่ปลอดภัย">
 <!ENTITY identity.description.passiveLoaded "การเชื่อมต่อของคุณไม่เป็นส่วนตัวและข้อมูลที่คุณแบ่งปันกับเว็บไซต์คนอื่นสามารถดูได้">
 <!ENTITY identity.description.passiveLoaded2 "เว็บไซต์นี้มีเนื้อหาที่ไม่ปลอดภัย (อย่างเช่น ภาพ)">
-<!ENTITY identity.description.passiveLoaded3 "ถึงแม้ว่า &brandShortName; ทำการปิดกั้นเนื้อหาบางส่วน แต่ก็ยังมีเนื้อหาบนเว็บที่เชื่อถือไม่ได้ (เช่น รูปภาพ)">
+<!ENTITY identity.description.passiveLoaded3 "ถึงแม้ว่า &brandShortName; ได้ปิดกั้นเนื้อหาบางส่วน แต่ก็ยังคงมีเนื้อหาในหน้าที่ไม่ปลอดภัย (อย่างเช่น ภาพ)">
 <!ENTITY identity.description.activeLoaded "เว็บไซต์นี้ประกอบด้วยเนื้อหาที่เชื่อถือไม่ได้ (เช่น สคริปต์) และการเชื่อมต่อไปยังไซต์ก็ไม่เป็นส่วนตัว">
-<!ENTITY identity.description.activeLoaded2 "ข้อมูลที่คุณแบ่งปันกับเว็บไซต์นี้คนอื่นสามารถดูได้ด้วย (เช่น รหัสผ่าน ข้อความ บัตรเครดิต)">
+<!ENTITY identity.description.activeLoaded2 "ข้อมูลที่คุณแบ่งปันกับไซต์นี้สามารถดูได้โดยผู้อื่น (เช่น รหัสผ่าน, ข้อความ, บัตรเครดิต ฯลฯ)">
 
-<!ENTITY identity.enableMixedContentBlocking.label "เปิดใช้งานการปกป้อง">
+<!ENTITY identity.enableMixedContentBlocking.label "เปิดใช้งานการป้องกัน">
 <!ENTITY identity.enableMixedContentBlocking.accesskey "เ">
-<!ENTITY identity.disableMixedContentBlocking.label "ปิดใช้งานการปกป้องสำหรับตอนนี้">
+<!ENTITY identity.disableMixedContentBlocking.label "ปิดใช้งานการป้องกันในตอนนี้">
 <!ENTITY identity.disableMixedContentBlocking.accesskey "ป">
 <!ENTITY identity.learnMore "เรียนรู้เพิ่มเติม">
 
@@ -732,6 +733,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions "การอนุญาต">
 <!ENTITY identity.permissionsEmpty "คุณไม่ได้อนุญาตไซต์นี้ด้วยสิทธิพิเศษใด ๆ">
+<!ENTITY identity.permissionsReloadHint "คุณอาจจำเป็นต้องโหลดหน้าใหม่เพื่อให้การเปลี่ยนแปลงมีผล">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
@@ -752,17 +754,17 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.sidebar.tabsnotsyncing.label       "เปิดการซิงค์แท็บเพื่อดูรายการแท็บจากอุปกรณ์อื่น ๆ ของคุณ">
 
 <!ENTITY syncedTabs.context.open.label                       "เปิด">
-<!ENTITY syncedTabs.context.open.accesskey                   "ป">
+<!ENTITY syncedTabs.context.open.accesskey                   "O">
 <!ENTITY syncedTabs.context.openInNewTab.label               "เปิดในแท็บใหม่">
-<!ENTITY syncedTabs.context.openInNewTab.accesskey           "ม">
+<!ENTITY syncedTabs.context.openInNewTab.accesskey           "w">
 <!ENTITY syncedTabs.context.openInNewWindow.label            "เปิดในหน้าต่างใหม่">
-<!ENTITY syncedTabs.context.openInNewWindow.accesskey        "ใ">
+<!ENTITY syncedTabs.context.openInNewWindow.accesskey        "N">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "เปิดในหน้าต่างส่วนตัวใหม่">
-<!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "ส">
+<!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "P">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.label          "คั่นแท็บนี้…">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "ค">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "B">
 <!ENTITY syncedTabs.context.copy.label                       "คัดลอก">
-<!ENTITY syncedTabs.context.copy.accesskey                   "ค">
+<!ENTITY syncedTabs.context.copy.accesskey                   "C">
 
 
 <!ENTITY syncBrand.shortName.label    "Sync">
@@ -770,26 +772,12 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncSignIn.label             "ลงชื่อเข้า &syncBrand.shortName.label;…">
 <!ENTITY syncSignIn.accesskey         "Y">
 <!ENTITY syncSyncNowItem.label        "ซิงค์ตอนนี้">
-<!ENTITY syncSyncNowItem.accesskey    "ซ">
-<!ENTITY syncReAuthItem.label         "เชื่อมต่อกับ &syncBrand.shortName.label; อีกครั้ง…">
-<!ENTITY syncReAuthItem.accesskey     "เ">
+<!ENTITY syncSyncNowItem.accesskey    "S">
+<!ENTITY syncReAuthItem.label         "เชื่อมต่อกับ &syncBrand.shortName.label; ใหม่…">
+<!ENTITY syncReAuthItem.accesskey     "R">
 <!ENTITY syncToolbarButton.label      "ซิงค์">
 
-<!ENTITY socialToolbar.title        "ปุ่มแถบเครื่องมือสังคม">
-
-<!ENTITY social.ok.label       "ตกลง">
-<!ENTITY social.ok.accesskey   "ต">
-
-<!ENTITY social.toggleSidebar.label "แสดงแถบข้าง">
-<!ENTITY social.toggleSidebar.accesskey "ถ">
-
 <!ENTITY social.addons.label "จัดการบริการ…">
-
-<!ENTITY social.toggleNotifications.label "แสดงการแจ้งเตือนเดสก์ท็อป">
-<!ENTITY social.toggleNotifications.accesskey "ต">
-
-<!ENTITY social.learnMore.label "เรียนรู้เพิ่มเติม…">
-<!ENTITY social.learnMore.accesskey "ร">
 
 <!ENTITY social.directory.label "ไดเรกทอรีการเปิดใช้งาน">
 <!ENTITY social.directory.text "คุณสามารถเปิดใช้งานบริการ Share จากไดเรกทอรี">
@@ -811,15 +799,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuGetMore "รับชุดตกแต่งเพิ่มเติม">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
 
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "มุ่งไปที่การพูดคุย">
-<!ENTITY social.chatBar.accesskey "ม">
-
-<!ENTITY social.markpageMenu.accesskey "ป">
-<!ENTITY social.markpageMenu.label "บันทึกหน้าเป็น…">
-<!ENTITY social.marklinkMenu.accesskey "ล">
-<!ENTITY social.marklinkMenu.label "บันทึกลิงก์เป็น…">
-
 <!ENTITY getUserMedia.selectCamera.label "กล้องที่แบ่งปัน:">
 <!ENTITY getUserMedia.selectCamera.accesskey "ก">
 <!ENTITY getUserMedia.selectMicrophone.label "ไมโครโฟนที่แบ่งปัน:">
@@ -828,33 +807,31 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY getUserMedia.allWindowsShared.message "หน้าต่างที่ปรากฏอยู่ทั้งหมดบนหน้าจอของคุณจะถูกแบ่งปัน">
 
 <!ENTITY trackingProtection.title "การป้องกันการตามรอย">
-<!ENTITY trackingProtection.detectedBlocked3 "&brandShortName; กำลังปิดกั้นบางส่วนของหน้านี้ที่อาจจะติดตามการท่องเว็บของคุณ">
-<!ENTITY trackingProtection.detectedNotBlocked3 "ไซต์นี้มีองค์ประกอบที่อาจตามรอยการท่องเว็บของคุณ คุณได้ปิดใช้งานการปกป้อง">
-<!ENTITY trackingProtection.notDetected3 "ไม่พบองค์ประกอบที่ตามรอยในหน้านี้">
+<!ENTITY trackingProtection.detectedBlocked3 "&brandShortName; กำลังปิดกั้นบางส่วนของหน้าที่อาจตามรอยการท่องเว็บของคุณ">
+<!ENTITY trackingProtection.detectedNotBlocked3 "ไซต์นี้มีองค์ประกอบที่อาจตามรอยการท่องเว็บของคุณ คุณได้ปิดใช้งานการป้องกัน">
+<!ENTITY trackingProtection.notDetected3 "ไม่พบองค์ประกอบที่มีการตามรอยในหน้านี้">
 <!-- LOCALIZATION NOTE (trackingProtection.unblock.label, trackingProtection.unblock.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in NON-private browsing mode. -->
-<!ENTITY trackingProtection.unblock.label "ปิดใช้งานการปกป้องสำหรับไซต์นี้">
-<!ENTITY trackingProtection.unblock.accesskey "ป">
+<!ENTITY trackingProtection.unblock.label "ปิดใช้งานการป้องกันสำหรับไซต์นี้">
+<!ENTITY trackingProtection.unblock.accesskey "D">
 <!-- LOCALIZATION NOTE (trackingProtection.unblockPrivate.label, trackingProtection.unblockPrivate.accesskey):
      The associated button with this label and accesskey is only shown when opening the control
      center while looking at a site with trackers in PRIVATE browsing mode. -->
-<!ENTITY trackingProtection.unblockPrivate.label "ปิดใช้งานการปกป้องสำหรับวาระนี้">
-<!ENTITY trackingProtection.unblockPrivate.accesskey "ป">
-<!ENTITY trackingProtection.block2.label "เปิดใช้งานการปกป้อง">
-<!ENTITY trackingProtection.block2.accesskey "เ">
+<!ENTITY trackingProtection.unblockPrivate.label "ปิดใช้งานการป้องกันในวาระนี้">
+<!ENTITY trackingProtection.unblockPrivate.accesskey "D">
+<!ENTITY trackingProtection.block2.label "เปิดใช้งานการป้องกัน">
+<!ENTITY trackingProtection.block2.accesskey "E">
 
 <!ENTITY trackingContentBlocked.message "การตามรอย">
 <!ENTITY trackingContentBlocked.moreinfo "บางส่วนของหน้าที่ติดตามกิจกรรมออนไลน์ของคุณถูกปิดกั้น">
 <!ENTITY trackingContentBlocked.learnMore "เรียนรู้เพิ่มเติม">
 <!ENTITY trackingContentBlocked.options "ตัวเลือก">
-<!ENTITY trackingContentBlocked.unblock2.label "ปิดใช้งานการปกป้องสำหรับไซต์นี้">
+<!ENTITY trackingContentBlocked.unblock2.label "ปิดใช้งานการป้องกันสำหรับไซต์นี้">
 <!ENTITY trackingContentBlocked.unblock2.accesskey "ป">
-<!ENTITY trackingContentBlocked.block.label "เปิดใช้งานการปกป้อง">
+<!ENTITY trackingContentBlocked.block.label "เปิดใช้งานการป้องกัน">
 <!ENTITY trackingContentBlocked.block.accesskey "เ">
 <!ENTITY trackingContentBlocked.disabled.message "การป้องกันการติดตามถูกปิดใช้งาน">
-
-<!ENTITY pointerLock.notification.message "กด ESC ได้ตลอดเวลาเพื่อแสดงอีกครั้ง">
 
 <!ENTITY pluginNotification.showAll.label "แสดงทั้งหมด">
 <!ENTITY pluginNotification.showAll.accesskey "ม">
@@ -862,7 +839,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "อนุญาตตอนนี้">
 <!ENTITY pluginActivateAlways.label "อนุญาตและจดจำ">
-<!ENTITY pluginBlockNow.label "ปิดกั้นโปรแกรมเสริม">
+<!ENTITY pluginBlockNow.label "ปิดกั้นปลั๊กอิน">
 
 <!-- LOCALIZATION NOTE: (pluginNotification.width): This is used to determine the
      width of the plugin popup notification that can appear if a plugin has been

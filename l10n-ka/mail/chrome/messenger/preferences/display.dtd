@@ -1,0 +1,46 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY itemFormatting.label             "გაფორმება">
+<!ENTITY itemTags.label                   "ჭდეები">
+
+<!ENTITY style.label                      "სტილი:">
+<!ENTITY style.accesskey                  "y">
+<!ENTITY regularStyle.label               "ჩვეულებრივი">
+<!ENTITY bold.label                       "მუქი">
+<!ENTITY italic.label                     "კურსივი">
+<!ENTITY boldItalic.label                 "მუქი კურსივი">
+<!ENTITY size.label                       "ზომა:">
+<!ENTITY size.accesskey                   "z">
+<!ENTITY regularSize.label                "ჩვეულებრივი">
+<!ENTITY bigger.label                     "მოზრდილი">
+<!ENTITY smaller.label                    "მომცრო">
+<!ENTITY quotedTextColor.label            "ფერი:">
+<!ENTITY quotedTextColor.accesskey        "o">
+<!ENTITY displayWidth.label               "ტექსტური წერილები">
+<!ENTITY displayText.label				        "ციტირებული ტექსტური წერილების ჩვენებისას:">
+
+<!-- LOCALIZATION NOTE : (emoticonsAndStructs.label) 'Emoticons' are also known as 'Smileys', e.g. :-)   -->
+<!ENTITY convertEmoticons.label        "მიმიკების გრაფიკულად ჩვენება">
+<!ENTITY convertEmoticons.accesskey    "e">
+
+<!-- labels -->
+<!ENTITY displayTagsText.label    "ჭდეები გამოიყენება თქვენი წერილების კატეგორიზებისა და პრიორიტეტიზებისთვის.">
+<!ENTITY addTagButton.label       "დამატება">
+<!ENTITY addTagButton.accesskey   "A">
+<!ENTITY editTagButton.label      "რედაქტირება">
+<!ENTITY editTagButton.accesskey   "E">
+<!ENTITY removeTagButton.label    "წაშლა">
+<!ENTITY removeTagButton.accesskey "D">
+
+<!-- Fonts and Colors -->
+<!ENTITY fontsAndColors1.label   "შრიფტები და ფერები">
+<!ENTITY defaultFont.label       "ნაგულისხმები შრიფტი:">
+<!ENTITY defaultFont.accesskey   "D">
+<!ENTITY defaultSize.label       "ზომა:">
+<!ENTITY defaultSize.accesskey   "S">
+<!ENTITY fontOptions.accesskey   "A">
+<!ENTITY fontOptions.label       "დეტალურად…">
+<!ENTITY colorButton.label       "ფერები…">
+<!ENTITY colorButton.accesskey   "C">

@@ -5,10 +5,11 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the Font Inspector strings.
   - The Font Inspector is the panel accessible in the Inspector sidebar. -->
 
-<!ENTITY showAllFonts "Pamer semua fon yang digunakan dalam halaman ini">
+<!ENTITY showAllFonts "Papar semua fon yang digunakan dalam halaman ini">
+<!ENTITY showAllFontsUsed "Papar semua fon yang digunakan">
 <!ENTITY usedAs "Digunakan sebagai: ">
 <!ENTITY system "sistem">
-<!ENTITY remote "remote">
+<!ENTITY remote "jauh">
 
 <!-- LOCALIZATION NOTE (previewHint): This is the label shown as the
      placeholder in font inspector preview text box. -->

@@ -50,7 +50,7 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins	"有効なプラグイン">
 <!ENTITY aboutSupport.appBasicsBuildConfig	"ビルド設定">
-<!ENTITY aboutSupport.appBasicsUserAgent	"ユーザエージェント">
+<!ENTITY aboutSupport.appBasicsUserAgent	"ユーザーエージェント">
 <!ENTITY aboutSupport.appBasicsOS		"OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse	"メモリ使用量">
 <!ENTITY aboutSupport.appBasicsPerformance	"パフォーマンス">
@@ -69,9 +69,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label		"Finder に表示">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label		"フォルダを開く">
+<!ENTITY aboutSupport.showWin2.label		"フォルダを開く">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle	"変更された重要な設定">
 <!ENTITY aboutSupport.modifiedPrefsName		"名前">

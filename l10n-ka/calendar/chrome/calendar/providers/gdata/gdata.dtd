@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY gdata-provider.label "Google კალენდარი">
+
+<!ENTITY gdata.privacy.default.label "Google ნაგულისხმები">
+<!ENTITY gdata.privacy.default.accesskey "D">
+
+<!ENTITY gdata.migration.title "მხოლოდ კითხვადი კალენდრის მიგრაცია">
+<!ENTITY gdata.migration.description "Google კალენდრის მომწოდებელმა აღმოაჩინა, რომ რომ თქვენ გაგაჩნიათ კალენდრები, რომლებიც Google კალენდრის მიერ მხოლოდ წაკითხვად რეჟიმშია მისაწვდომი. თუ რომელიმეს განახლება გსურთ, შეარჩიეთ ქვემოთ">
+<!ENTITY gdata.migration.upgrade.label "განახლება">
+<!ENTITY gdata.migration.upgrade.accesskey "U">
+<!ENTITY gdata.migration.showagain.label "შემოწმება ყოველთვის ">
+
+<!ENTITY gdata.reminder.action.sms.label "ტექსტური გამოხმაურების გაგზავნა">

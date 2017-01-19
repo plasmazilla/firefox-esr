@@ -13,8 +13,8 @@
 <!ENTITY openButton.accesskey        "ш">
 <!ENTITY deleteButton.label          "Өшіру">
 <!ENTITY deleteButton.accesskey      "р">
-
-
+<!ENTITY searchDialogTitle.label     "Хабарламалардан іздеу">
+<!ENTITY results.label               "Нәтижелер">
 
 
 
@@ -38,14 +38,14 @@
 <!ENTITY recipientColumn.label "Алушы">
 
 <!ENTITY subjectColumn.label "Тақырыбы">
-
-
+<!ENTITY dateColumn.label "Күні">
+<!ENTITY priorityColumn.label "Приоритеті">
 <!ENTITY tagsColumn.label "Тегтер">
 <!ENTITY accountColumn.label "Тіркелгі">
 <!ENTITY statusColumn.label "Күйі">
 <!ENTITY sizeColumn.label "Өлшемі">
 
-
+<!ENTITY unreadColumn.label "Оқылмаған">
 <!ENTITY totalColumn.label "Жалпы">
 <!ENTITY readColumn.label "Оқу">
 <!ENTITY receivedColumn.label "Алынған">
@@ -54,21 +54,21 @@
 
 <!-- Thread Pane Tooltips -->
 
+<!ENTITY fromColumn2.tooltip "Жіберуші бойынша сұрыптау">
+<!ENTITY recipientColumn2.tooltip "Алушы бойынша сұрыптау">
+
+<!ENTITY subjectColumn2.tooltip "Тақырыбы бойынша сұрыптау">
+<!ENTITY dateColumn2.tooltip "Күні бойынша сұрыптау">
+<!ENTITY priorityColumn2.tooltip "Приоритеті бойынша сұрыптау">
+<!ENTITY tagsColumn2.tooltip "Тегтер бойынша сұрыптау">
+<!ENTITY accountColumn2.tooltip "Тіркелгі бойынша сұрыптау">
+<!ENTITY statusColumn2.tooltip "Қалып-күйі бойынша сұрыптау">
+<!ENTITY sizeColumn2.tooltip "Өлшемі бойынша сұрыптау">
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY readColumn2.tooltip "Оқылғаны бойынша сұрыптау">
+<!ENTITY receivedColumn2.tooltip "Алынған күні бойынша сұрыптау">
+<!ENTITY starredColumn2.tooltip "Жұлдызша бойынша сұрыптау">
+<!ENTITY locationColumn2.tooltip "Орналасуы бойынша сұрыптау">
+<!ENTITY idColumn2.tooltip "Алынған реті бойынша сұрыптау">

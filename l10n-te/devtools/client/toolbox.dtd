@@ -93,7 +93,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "రిమోట్ డీబగ్గింగ్ చేతనంచేయి">
-<!ENTITY options.enableRemote.tooltip   "ఈ ఐచ్చికం ఆన్ చేయుట వలన రిమోట్ ఫైర్‌ఫాక్స్ పై ఫైర్‌ఫాక్స్ OS వలె అభివృద్దికారి సాధనాలు డీబగ్ చేయుటకు అనుమతించును.">
+<!ENTITY options.enableRemote.tooltip2  "ఈ ఎంపిక ఆన్ చేయుట వలన రిమోట్ Firefox పై OS వలె అభివృద్దికారి సాధనాలు డీబగ్ చేయుటకు అనుమతించును">
 
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
   -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
@@ -105,24 +105,24 @@
   -  options.disableJavaScript.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles JavaScript on or off. -->
 <!ENTITY options.disableJavaScript.label     "JavaScript * అచేతనంచేయి">
-<!ENTITY options.disableJavaScript.tooltip   "ఈ ఐచ్చికం ఆన్ చేయుట వలన ఈ ప్రస్తుత టాబ్ కొరకు జావాస్క్రిప్ట్ అచేతనంచేయబడును. ఒకవేళ టాబ్ లేదా సాధనపెట్టె మూయబడితే అప్పుడు ఈ అమరిక మర్చిపోబడును.">
+<!ENTITY options.disableJavaScript.tooltip   "ఈ ఎంపిక ఆన్ చేయుట వలన ఈ ప్రస్తుత ట్యాబ్ కొరకు జావాస్క్రిప్ట్ అచేతనంచేయబడును. ఒకవేళ ట్యాబ్ లేదా సాధనపెట్టె మూయబడితే అప్పుడు ఈ అమరిక మర్చిపోబడును.">
 
 <!-- LOCALIZATION NOTE (options.disableHTTPCache.label,
   -  options.disableHTTPCache.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles the HTTP cache on or off. -->
 <!ENTITY options.disableHTTPCache.label     "ఆపివేయి HTTP కాష్ ని (టూల్ బాక్స్ తెరిచినప్పుడు)">
-<!ENTITY options.disableHTTPCache.tooltip   "ఈ ఎంపికను టర్నింగ్ టూల్ బాక్స్ తెరిచిన అన్ని టాబ్ల కోసం HTTP కాష్ ను ఆపివేస్తుంది. సేవా ఉద్యోగులు ఈ ఎంపిక ద్వారా ప్రభావితం కాదు.">
+<!ENTITY options.disableHTTPCache.tooltip   "ఈ ఎంపికను టర్నింగ్ టూల్ బాక్స్ తెరిచిన అన్ని ట్యాబ్ల కోసం HTTP కాష్ ను ఆపివేస్తుంది. సేవా ఉద్యోగులు ఈ ఎంపిక ద్వారా ప్రభావితం కాదు.">
 
 <!-- LOCALIZATION NOTE (options.enableServiceWorkersHTTP.label,
   -  options.enableServiceWorkersHTTP.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles the service workers testing features on or off. This option enables service workers over HTTP. -->
 <!ENTITY options.enableServiceWorkersHTTP.label     "సర్వీస్ వర్కర్స్ ప్రారంభించు HTTP పైగా (టూల్ బాక్స్ తెరిచినప్పుడు)">
-<!ENTITY options.enableServiceWorkersHTTP.tooltip   "ఈ ఎంపికను ఆన్ చేయడం వల్ల టూల్ బాక్స్ తెరిచిన అన్ని టాబ్ల కోసం HTTP పైగా సేవ కార్మికులు ఎనేబుల్ చేస్తుంది.">
+<!ENTITY options.enableServiceWorkersHTTP.tooltip   "ఈ ఎంపికను ఆన్ చేయడం వల్ల టూల్ బాక్స్ తెరిచిన అన్ని ట్యాబ్ల కోసం HTTP పైగా సేవ కార్మికులు ఎనేబుల్ చేస్తుంది.">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectDefaultTools.label2): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "అప్రమేయ ఫైర్‌పాక్స్ అభివృద్దికారి సాధనాలు">
+<!ENTITY options.selectDefaultTools.label2    "అన్ని డెవెలపర్ టూల్స్">
 
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
@@ -157,7 +157,7 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "టైమ్‌స్టాంప్స్ చేతనంచేయి">
-<!ENTITY options.timestampMessages.tooltip    "వెబ్ కన్సోల్ నందు మీరు ఆదేశాలు మరియు అవుట్పుట్ ఐచ్చికం చేతనం చేస్తే టైమ్‌స్టాంప్ ప్రదర్శించబడును">
+<!ENTITY options.timestampMessages.tooltip    "వెబ్ కన్సోల్ నందు మీరు ఆదేశాలు మరియు అవుట్పుట్ ఎంపిక చేతనం చేస్తే టైమ్‌స్టాంప్ ప్రదర్శించబడును">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
@@ -167,7 +167,7 @@
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 <!ENTITY options.stylesheetSourceMaps.label      "వాస్తవ మూలాలను చూపు">
-<!ENTITY options.stylesheetSourceMaps.tooltip    "శైలి సరికూర్పరి మరియు ఇన్‌స్టెక్టర్‌ నందు వాస్తవ మూలాలను (ఉ.దా. Sass దస్త్రాలు) చూపుము">
+<!ENTITY options.stylesheetSourceMaps.tooltip    "శైలి సరికూర్పరి మరియు ఇన్‌స్టెక్టర్‌ నందు వాస్తవ మూలాలను (ఉ.దా. Sass దస్త్రాలు) చూపు">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
@@ -184,14 +184,14 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label    "స్థిరమైన లాగ్‌లను చేతనంచేయును">
-<!ENTITY options.enablePersistentLogs.tooltip  "మీరు ఈ ఐచ్చికం చేతనంచేస్తే వెబ్ కన్సోల్ మరియు నెట్వర్క్ పర్యవేక్షకి అనునవి మీరు ప్రతిసారి కొత్త పేజీకు వెళ్ళినప్పుడు అవుట్పుట్‌ను శుభ్రంచేయవు">
+<!ENTITY options.enablePersistentLogs.tooltip  "మీరు ఈ ఎంపిక చేతనంచేస్తే వెబ్ కన్సోల్ మరియు నెట్వర్క్ పర్యవేక్షకి అనునవి మీరు ప్రతిసారి కొత్త పేజీకు వెళ్ళినప్పుడు అవుట్పుట్‌ను శుభ్రంచేయవు">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "గెకో ప్లాట్‌ఫాం దత్తాంశం చూపుము">
-<!ENTITY options.showPlatformData.tooltip  "మీరు ఈ ఐచ్చికం చేతనం చేస్తే జావాస్క్రిప్ట్ ప్రొఫైలర్ అనునదిగెకో ప్లాట్‌ఫాం చిహ్నాలు నివేదించును">
+<!ENTITY options.showPlatformData.label    "గెకో ప్లాట్‌ఫాం దత్తాంశం చూపు">
+<!ENTITY options.showPlatformData.tooltip  "మీరు ఈ ఎంపిక చేతనం చేస్తే జావాస్క్రిప్ట్ ప్రొఫైలర్ అనునదిగెకో ప్లాట్‌ఫాం చిహ్నాలు నివేదించును">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
@@ -202,8 +202,8 @@
 <!ENTITY options.sourceeditor.autoclosebrackets.label   "బ్రాకెట్లు స్వయంచాలకంగామూయి">
 <!ENTITY options.sourceeditor.autoclosebrackets.tooltip "మూసివేత బ్రాకెట్లు స్వయంచాలకంగా చొప్పించును">
 <!ENTITY options.sourceeditor.expandtab.label           "ఖాళీలు ఉపయోగిస్తూ ఇండెంట్">
-<!ENTITY options.sourceeditor.expandtab.tooltip         "టాబ్ కారెక్టర్ బదులు ఖాళీలు ఉపయోగించు">
-<!ENTITY options.sourceeditor.tabsize.label             "టాబ్ పరిమాణం">
+<!ENTITY options.sourceeditor.expandtab.tooltip         "ట్యాబ్ కారెక్టర్ బదులు ఖాళీలు ఉపయోగించు">
+<!ENTITY options.sourceeditor.tabsize.label             "ట్యాబ్ పరిమాణం">
 <!ENTITY options.sourceeditor.tabsize.accesskey         "T">
 <!ENTITY options.sourceeditor.keybinding.label          "కీబైండిగ్లు">
 <!ENTITY options.sourceeditor.keybinding.accesskey      "K">

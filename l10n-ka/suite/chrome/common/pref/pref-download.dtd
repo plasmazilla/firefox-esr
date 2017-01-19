@@ -1,0 +1,40 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.download.title            "ჩამოტვირთვები">
+
+<!ENTITY downloadBehavior.label         "ჩამოტვირთვის დაწყებისას">
+<!ENTITY doNothing.label                "რაიმეს გახსნის გარეშე">
+<!ENTITY doNothing.accesskey            "D">
+<!ENTITY openProgressDialog.label       "მიმდინარეობის დიალოგის გახსნა">
+<!ENTITY openProgressDialog.accesskey   "O">
+<!ENTITY openDM.label                   "ჩამოტვირთვის მმართველის გახსნა">
+<!ENTITY openDM.accesskey               "m">
+<!ENTITY flashWhenOpen.label            "ჩამოტვირთვის მმართველის გაელვება თუ უკვე გახსნილია">
+<!ENTITY flashWhenOpen.accesskey        "f">
+
+<!ENTITY downloadLocation.label         "ფაილის შენახვისას">
+<!ENTITY saveTo.label                   "Save files to">
+<!ENTITY saveTo.accesskey               "v">
+<!ENTITY chooseDownloadFolder.label     "დასტის არჩევა…">
+<!ENTITY chooseDownloadFolder.accesskey "C">
+<!ENTITY alwaysAsk.label                "ყოველთვის დამეკითხე ფაილის შენახვას">
+<!ENTITY alwaysAsk.accesskey            "A">
+
+<!ENTITY downloadHistory.label          "ჩამოტვირთვების ისტორია">
+<!ENTITY removeEntries.label            "ჩამოტვირთვების ჩანაწერთა ამოღება">
+<!ENTITY removeEntries.accesskey        "R">
+<!ENTITY whenCompleted.label            "მათი დასრულებისას">
+<!ENTITY whenQuittingApp.label          "&brandShortName; პროგრამის დახურვისას">
+<!ENTITY neverRemove.label              "არასოდეს">
+
+<!ENTITY finishedBehavior.label         "გამოტვირთვის დასრულებისას">
+<!ENTITY playSound.label                "გახმოვანება">
+<!ENTITY playSound.accesskey            "P">
+<!ENTITY showAlert.label                "გაფრთხილების ჩვენება">
+<!ENTITY showAlert.accesskey            "S">
+<!ENTITY browse.label                   "ნუსხა…">
+<!ENTITY browse.accesskey               "B">
+<!ENTITY playButton.label               "გახმოვანება">
+<!ENTITY playButton.accesskey           "l">

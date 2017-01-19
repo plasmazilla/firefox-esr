@@ -5,6 +5,7 @@
 <!ENTITY toField4.label "До">
 <!ENTITY fromField4.label "От">
 <!ENTITY senderField4.label "Подател">
+<!ENTITY author.label "Автор">
 <!ENTITY organizationField4.label "Организация">
 <!ENTITY replyToField4.label "Отговор-до">
 
@@ -22,10 +23,12 @@
 <!ENTITY originalWebsite4.label "Уебсайт">
 
 <!ENTITY hdrArchiveButton1.label "Архивиране">
-<!ENTITY hdrArchiveButton1.tooltip "Архивира това съобщение">
+<!ENTITY hdrArchiveButton1.tooltip "Архивира съобщението">
+<!ENTITY hdrOpenConversationButton1.label "Разговор">
+<!ENTITY hdrOpenConversationButton1.tooltip "Показване на разговора на това съобщение">
 <!ENTITY hdrSmartReplyButton1.label "Умен отговор">
-<!ENTITY hdrReplyButton1.label "Отговор">
-<!ENTITY hdrReplyButton2.tooltip "Отговаряне на подателя на това писмо">
+<!ENTITY hdrReplyButton1.label "Отговаряне">
+<!ENTITY hdrReplyButton2.tooltip "Изпращане на отговор до подателя на писмото">
 <!ENTITY hdrReplyAllButton1.label "Отговор до всички">
 <!ENTITY hdrReplyAllButton1.tooltip "Отговаря на подателя и всички получатели">
 <!ENTITY hdrReplyListButton1.label "Отговор до списък">
@@ -51,10 +54,10 @@
 
 <!ENTITY otherActionsButton2.label "Още">
 <!ENTITY otherActionsButton.tooltip "Още действия">
-<!ENTITY otherActionsOpenConversation1.label "Отваряне в диалога">
+<!ENTITY otherActionsOpenConversation1.label "Преглед на диалога">
 <!ENTITY otherActionsOpenConversation1.accesskey "д">
-<!ENTITY otherActionsOpenInNewWindow1.label "Отваряне в нов прозорец">
-<!ENTITY otherActionsOpenInNewWindow1.accesskey "н">
+<!ENTITY otherActionsOpenInNewWindow1.label "Отваряне в прозорец">
+<!ENTITY otherActionsOpenInNewWindow1.accesskey "п">
 <!ENTITY otherActionsOpenInNewTab1.label "Отваряне в раздел">
 <!ENTITY otherActionsOpenInNewTab1.accesskey "р">
 <!ENTITY markAsReadMenuItem1.label "Отбелязване като прочетено">
@@ -64,7 +67,7 @@
 <!ENTITY saveAsMenuItem1.label "Запис като…">
 <!ENTITY saveAsMenuItem1.accesskey "З">
 <!ENTITY viewSourceMenuItem1.label "Преглед на изходния код">
-<!ENTITY viewSourceMenuItem1.accesskey "П">
+<!ENTITY viewSourceMenuItem1.accesskey "и">
 <!ENTITY otherActionsPrint1.label "Печат…">
 <!ENTITY otherActionsPrint1.accesskey "П">
 

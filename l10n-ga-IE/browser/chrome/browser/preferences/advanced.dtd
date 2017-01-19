@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Tuilleadh Eolais">
 
-<!ENTITY crashReporterDesc.label         "Seolann &brandShortName; tuairiscí ar chlistí chuig &vendorShortName; chun cabhrú linn brabhsálaí níos cobhsaí níos sábháilte a fhorbairt">
-<!ENTITY enableCrashReporter.label       "Cumasaigh Tuairisceoir na gClistí">
-<!ENTITY enableCrashReporter.accesskey   "C">
-<!ENTITY crashReporterLearnMore.label    "Tuilleadh Eolais">
+<!ENTITY crashReporterDesc2.label         "Cabhraíonn tuairiscí ar thuairteálacha le &vendorShortName; fadhbanna a réiteach agus brabhsálaí níos cobhsaí níos sláine a dhéanamh ">
+<!ENTITY alwaysSubmitCrashReports.label   "Lig do &brandShortName; seantuairiscí ar thuairteálacha a sheoladh ar do shon">
+<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+<!ENTITY crashReporterLearnMore.label     "Tuilleadh Eolais">
 
 <!ENTITY networkTab.label                "Líonra">
 

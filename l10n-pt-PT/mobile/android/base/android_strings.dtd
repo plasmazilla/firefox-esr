@@ -32,10 +32,10 @@
 <!ENTITY firstrun_readerview_title "Artigos">
 <!-- Localization note (firstrun_readerview_message): This is a casual way of describing getting rid of unnecessary things, and is referring to simplifying websites so only the article text and images are visible, removing unnecessary headers or ads. -->
 <!ENTITY firstrun_readerview_message "Simplificar">
-<!ENTITY firstrun_readerview_subtext "Utilize a Vista de leitura para tornar a leitura dos artigos mais fácil \u2014 mesmo off-line.">
+<!ENTITY firstrun_readerview_subtext "Utilize a Vista de leitura para tornar a leitura dos artigos mais fácil \u2014 mesmo offline.">
 <!-- Localization note (firstrun_devices_title): This is a casual way of addressing the user, somewhat referring to their online identity (which would include other devices, Firefox usage, accounts, etc). -->
 
-<!ENTITY firstrun_account_title "Você">
+<!ENTITY firstrun_account_title "Eu">
 <!ENTITY firstrun_account_message "Instalou o &brandShortName; noutro dispositivo?">
 
 <!ENTITY  onboard_start_restricted1 "Mantenha-se seguro e em controlo com esta versão simplificada do &brandShortName;.">
@@ -48,7 +48,7 @@
 <!ENTITY  switch_to_tab "Mudar para o separador">
 <!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
 
-<!ENTITY  tab_offline_version "A mostrar a versão off-line">
+<!ENTITY  tab_offline_version "A mostrar a versão offline">
 
 <!ENTITY  crash_reporter_title "Relator de falhas do &brandShortName;">
 <!ENTITY  crash_message2 "O &brandShortName; teve um problema e falhou. Os seus separadores deverão estar listados na página Inicial do &brandShortName; quando reiniciar.">
@@ -828,3 +828,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "Adicione aos Marcadores itens da Lista de leitura para lê-los offline.">
 <!ENTITY helper_triple_readerview_open_button "Adicionar aos Marcadores">
 
+<!ENTITY activity_stream_topsites "Mais visitados">
+<!ENTITY activity_stream_highlights "Destaques">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "Mais">

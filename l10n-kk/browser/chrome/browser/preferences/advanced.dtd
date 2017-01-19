@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Көбірек білу">
 
-<!ENTITY crashReporterDesc.label         "&brandShortName; браузеріңіздің тұрақтылық және қауіпсіздігін арттыру үшін құлау жөніндегі хабарламаларды &vendorShortName; адресіне жібереді">
-<!ENTITY enableCrashReporter.label       "Құлаулар хабарлаушысын іске қосу">
-<!ENTITY enableCrashReporter.accesskey   "с">
-<!ENTITY crashReporterLearnMore.label    "Көбірек білу">
+<!ENTITY crashReporterDesc2.label         "Құлау жөнінде хабарламалар &vendorShortName; үшін мәселелерді шешу және браузеріңізді тұрақтылау және қауіпсіз қылуға көмектеседі">
+<!ENTITY alwaysSubmitCrashReports.label   "&brandShortName; үшін сіздің атыңыздан құлаулар жөнінде архивті хабарламаларды жіберуді рұқсат ету">
+<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+<!ENTITY crashReporterLearnMore.label     "Көбірек білу">
 
 <!ENTITY networkTab.label                "Желі">
 

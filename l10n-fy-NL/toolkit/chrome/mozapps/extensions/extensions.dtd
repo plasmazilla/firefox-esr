@@ -1,4 +1,4 @@
-<!-- This Source Code Form is subject to the terms of theMozilla Public
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY addons.windowTitle                   "Add-onbehearder">
@@ -23,17 +23,17 @@
 <!ENTITY cmd.back.tooltip                     "In side tebek gean">
 <!ENTITY cmd.forward.tooltip                  "In side foarút gean">
 
-<!ENTITY showUnsignedExtensions.button.label  "Guon útwreidingen koenen net ferifiearre wurde">
+<!ENTITY showUnsignedExtensions.button.label  "Guon útwreidingen koene net ferifiearre wurde">
 <!ENTITY showAllExtensions.button.label       "Alle útwreidingen toane">
 <!ENTITY debugAddons.label                    "Add-ons debugge">
 <!ENTITY debugAddons.accesskey                "b">
 
 <!-- global warnings -->
-<!ENTITY warning.safemode.label                    "Alle add-ons binne útskeakele troch feilige moadus.">
+<!ENTITY warning.safemode.label                    "Alle add-ons binne útskeakele troch feilige modus.">
 <!ENTITY warning.checkcompatibility.label          "Kontrole op kompatibileit foar add-ons is útskeakele. Jo kinne ynkompatibele add-ons hawwe.">
 <!ENTITY warning.checkcompatibility.enable.label   "Ynskeakelje">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Skeakelje kontrole fan kompatibileit foar add-ons yn">
-<!ENTITY warning.updatesecurity.label              "Feilichheidskontrole foar add-onsfernijingen is útskeakele. Jo kinne achterrinne mei fernijingen.">
+<!ENTITY warning.updatesecurity.label              "Feilichheidskontrole foar add-onsfernijingen is útskeakele. Jo kinne efterrinne mei fernijingen.">
 <!ENTITY warning.updatesecurity.enable.label       "Ynskeakelje">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Skeakelje feilichheidskontrole foar add-onsfernijingen yn">
 
@@ -51,7 +51,7 @@
 <!-- LOCALIZATION NOTE (updates.updateAddonsAutomatically.label): This menu item
      is a checkbox that toggles the default global behavior for add-on update
      checking. -->
-<!ENTITY updates.updateAddonsAutomatically.label     "Fernij Tafoegingen automatysk">
+<!ENTITY updates.updateAddonsAutomatically.label     "Add-ons automatysk fernije">
 <!ENTITY updates.updateAddonsAutomatically.accesskey "a">
 <!-- LOCALIZATION NOTE (updates.resetUpdatesToAutomatic.label, updates.resetUpdatesToManual.label):
      Specific addons can have custom update checking behaviors ("Manually",
@@ -65,7 +65,7 @@
 <!ENTITY updates.resetUpdatesToManual.accesskey      "S">
 <!ENTITY updates.updating.label               "Add-ons oan it bywurkjen">
 <!ENTITY updates.installed.label              "Jo add-ons binne bywurke.">
-<!ENTITY updates.downloaded.label             "Jo add-onsfernijingen binne ynladen.">
+<!ENTITY updates.downloaded.label             "Jo add-onsfernijingen binne download.">
 <!ENTITY updates.restart.label                "Werstart no om de ynstallaasje te foltôgjen.">
 <!ENTITY updates.noneFound.label              "Gjin fernijingen fûn">
 <!ENTITY updates.manualUpdatesFound.label     "Toan beskikbere fernijingen">
@@ -93,11 +93,11 @@
 <!ENTITY cmd.disableTheme.label               "Brûk tema net mear">
 <!ENTITY cmd.disableTheme.accesskey           "B">
 <!ENTITY cmd.askToActivate.label              "Freegje om te aktivearjen">
-<!ENTITY cmd.askToActivate.tooltip            "Gerûk fan dizze add-on eltse kear freegje">
+<!ENTITY cmd.askToActivate.tooltip            "Gebrûk fan dizze add-on elke kear freegje">
 <!ENTITY cmd.alwaysActivate.label             "Altyd aktivearje">
 <!ENTITY cmd.alwaysActivate.tooltip           "Dize add-on altyd brûke">
-<!ENTITY cmd.neverActivate.label              "Noait aktivearje">
-<!ENTITY cmd.neverActivate.tooltip            "Dizze add-on noait brûke">
+<!ENTITY cmd.neverActivate.label              "Nea aktivearje">
+<!ENTITY cmd.neverActivate.tooltip            "Dizze add-on nea brûke">
 <!ENTITY cmd.stateMenu.tooltip                "wizigje as dizze add-on brûkt wurdt">
 <!ENTITY cmd.installAddon.label               "Ynstallearje">
 <!ENTITY cmd.installAddon.accesskey           "Y">
@@ -115,7 +115,7 @@
 <!ENTITY cmd.showReleaseNotes.tooltip         "Toan de útjefte-opmerkingen foar dizze fernijing">
 <!ENTITY cmd.hideReleaseNotes.label           "Ferstopje útjefte-opmerkingen">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "Ferstopje de útjefte-opmerkingen foar dizze fernijing">
-  
+
 <!-- discovery view -->
 <!-- LOCALIZATION NOTE (discover.title,discover.description,discover.footer):
      Displayed in the center of the Get Add-ons view, see bug 601143 for mockups. -->
@@ -131,7 +131,7 @@
 <!ENTITY detail.lastupdated.label             "Lêst bywurke">
 <!ENTITY detail.creator.label                 "Untwikkeler">
 <!ENTITY detail.homepage.label                "Thússide">
-<!ENTITY detail.numberOfDownloads.label       "Oantal kear ynladen">
+<!ENTITY detail.numberOfDownloads.label       "Downloads">
 
 <!ENTITY detail.contributions.description     "De ûnwikkeler fan dizze add-on freget om stipe foar de trochgeande ûntwikkeling troch it meitsjen fan in lytse bydrage.">
 
@@ -158,10 +158,10 @@
 
 
 <!-- ratings -->
-<!ENTITY rating2.label              		      "Wurdearring:">
+<!ENTITY rating2.label                        "Wurdearring:">
 
 <!-- download/install progress -->
-<!ENTITY progress.pause.tooltip               "Pause">
+<!ENTITY progress.pause.tooltip               "Pauze">
 <!ENTITY progress.cancel.tooltip              "Annulearje">
 
 

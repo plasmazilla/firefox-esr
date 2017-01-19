@@ -26,7 +26,7 @@
 <!ENTITY newVirtualFolderCmd.accesskey "З">
 <!ENTITY newOtherAccountsCmd.label "Други регистрации…">
 <!ENTITY newOtherAccountsCmd.accesskey "Д">
-<!ENTITY newCreateEmailAccountCmd.label "Получаване на нова регистрация…">
+<!ENTITY newCreateEmailAccountCmd.label "Получаване на нова сметка…">
 <!ENTITY newCreateEmailAccountCmd.accesskey "П">
 <!ENTITY newExistingEmailAccountCmd.label "Съществуваща регистрация…">
 <!ENTITY newExistingEmailAccountCmd.accesskey "С">
@@ -429,8 +429,8 @@
 <!ENTITY openMessageWindowCmd.label "Отваряне на писмо">
 <!ENTITY openMessageWindowCmd.accesskey "я">
 <!ENTITY openMessageWindowCmd.key "o">
-<!ENTITY openConversationCmd.label "Отваряне в диалога">
-<!ENTITY openConversationCmd.accesskey "г">
+<!ENTITY openConversationCmd.label "Преглед на диалога">
+<!ENTITY openConversationCmd.accesskey "д">
 <!ENTITY openConversationCmd.key "o">
 <!ENTITY openAttachmentListCmd.label "Притурки">
 <!ENTITY openAttachmentListCmd.accesskey "т">
@@ -460,8 +460,8 @@
 <!ENTITY activitymanager.accesskey "в">
 <!ENTITY imAccountsStatus.label "Състояние на разговора">
 <!ENTITY imAccountsStatus.accesskey "С">
-<!ENTITY imStatus.available          "Наличен">
-<!ENTITY imStatus.unavailable        "Недостъпен">
+<!ENTITY imStatus.available          "На линия">
+<!ENTITY imStatus.unavailable        "Зает">
 <!ENTITY imStatus.offline            "Без връзка">
 <!ENTITY imStatus.showAccounts       "Показване на сметките…">
 <!ENTITY joinChatCmd.label "Присъединяване към разговор…">
@@ -505,6 +505,7 @@
 <!ENTITY forwardButton.label "Препращане">
 <!ENTITY fileButton.label "Файл">
 <!ENTITY archiveButton.label "Архивиране">
+<!ENTITY openConversationButton.label "Разговор">
 <!ENTITY nextButton.label "Следващо">
 <!ENTITY nextButtonToolbarItem.label "Следващо непрочетено">
 <!ENTITY nextMsgButton.label "Следващо">
@@ -547,6 +548,7 @@
 <!ENTITY forwardAsAttachment.tooltip "Препращане на избраното съобщение като притурка">
 <!ENTITY fileButton.tooltip "Записване като файл">
 <!ENTITY archiveButton.tooltip "Архивиране на избраните съобщения">
+<!ENTITY openConversationButton.tooltip "Показване на разговора на избраното съобщение">
 <!ENTITY nextButton.tooltip "Напред към следващото непрочетено писмо">
 <!ENTITY nextMsgButton.tooltip "Напред към следващото непрочетено писмо">
 <!ENTITY previousButton.tooltip "Назад към предишното непрочетено писмо">
@@ -861,7 +863,7 @@
 <!ENTITY ViewContact.accesskey "П">
 <!ENTITY SubscribeToNewsgroup.label "Абониране за дискусионна група">
 <!ENTITY SubscribeToNewsgroup.accesskey "д">
-<!ENTITY SendMessageTo.label "Писане на съобщение до">
+<!ENTITY SendMessageTo.label "Писане на писмо до">
 <!ENTITY SendMessageTo.accesskey "с">
 <!ENTITY CopyEmailAddress.label "Копиране на пощенския адрес">
 <!ENTITY CopyEmailAddress.accesskey "К">

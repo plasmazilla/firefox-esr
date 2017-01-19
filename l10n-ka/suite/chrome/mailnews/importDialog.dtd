@@ -1,0 +1,42 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY importDialog.windowTitle "იმპორტი">
+<!ENTITY importAll.label          "ყველას იმპორტი">
+<!ENTITY importAll.accesskey      "E">
+<!ENTITY importMail.label         "ფოსტა">
+<!ENTITY importMail.accesskey     "M">
+<!ENTITY importFeeds.label        "ხელმოწერები არხებზე">
+<!ENTITY importFeeds.accesskey    "d">
+<!ENTITY importAddressbook.label  "წიგნაკი">
+<!ENTITY importAddressbook.accesskey "A">
+<!ENTITY importSettings.label     "პარამეტრები">
+<!ENTITY importSettings.accesskey "S">
+<!ENTITY importFilters.label      "ფილტრები">
+<!ENTITY importFilters.accesskey  "F">
+
+<!ENTITY  window.width            "45em">
+<!ENTITY  window.macWidth         "50em">
+
+<!ENTITY importTitle.label        "&brandShortName; იმპორტის მეგზური">
+<!ENTITY importShortDesc.label         "ფოსტის, წიგნაკის, პარამეტრებისა და ფილტრების იმპორტი სხვა პროგრამებიდან">
+
+<!ENTITY importDescription1.label  "მეგზური სხვა საფოსტო პროგრამებიდან და წიგნაკებიდან &brandShortName; საფოსტო პროგრამაში წერილების, წიგნაკის ჩანაწერების, არხებზე ხელმოწერების, ფილტრებისა და/ან პარამეტრების იმპორტის საშუალებას მოგცემთ.">
+<!ENTITY importDescription2.label "იმპორტის შემდეგ მათი გამოყენება დაუყოვნებლივ შეგეძლებათ &brandShortName; პროგრამაში.">
+
+<!ENTITY selectDescription.label  "გთხოვთ მიუთითოთ ფაილის ტიპი, რომლიდანაც გსურთ მონაცემთა იმპორტი:">
+<!ENTITY selectDescriptionB.label "გთხოვთ შეარჩიოთ არსებული ან შექმნათ ახალი ანგარიში:">
+<!ENTITY selectDescription.accesskey "P">
+<!ENTITY acctName.label           "სახელი:">
+<!ENTITY acctName.accesskey       "N">
+
+<!ENTITY back.label               "&lt; უკან">
+<!ENTITY forward.label            "შემდეგი &gt;">
+<!ENTITY finish.label             "დასრულება">
+<!ENTITY cancel.label             "გაუქმება">
+
+<!ENTITY select.label             "ან საიმპორტო მონაცემების ტიპების მითითება:">
+
+<!ENTITY title.label              "სათაური">
+<!ENTITY processing.label         "იმპორტი…">

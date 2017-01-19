@@ -293,8 +293,8 @@
 <!ENTITY calendar.alarm.snoozefor.label             "Amână cu" >
 <!ENTITY calendar.alarm.snoozeallfor.label          "Amână toate cu" >
 <!ENTITY calendar.alarm.title.label                 "Alarmă calendar" >
-<!ENTITY calendar.alarm.dismiss.label               "Închide" >
-<!ENTITY calendar.alarm.dismissall.label            "Închide-le pe toate" >
+<!ENTITY calendar.alarm.dismiss.label               "Înlătură" >
+<!ENTITY calendar.alarm.dismissall.label            "Înlătură tot" >
 
 <!ENTITY calendar.alarm.snooze.5minutes.label       "5 minute" >
 <!ENTITY calendar.alarm.snooze.10minutes.label      "10 minute" >
@@ -363,7 +363,7 @@
 <!-- Error reporting -->
 
 <!ENTITY calendar.error.detail "Detalii…">
-<!ENTITY calendar.error.code "Cod de eroare:">
+<!ENTITY calendar.error.code "Codul erorii:">
 <!ENTITY calendar.error.description "Descriere:">
 <!ENTITY calendar.error.title "A apărut o eroare">
 <!-- Extract buttons in message header -->

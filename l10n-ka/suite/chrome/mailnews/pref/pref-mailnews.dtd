@@ -1,0 +1,30 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.mailnews.title              "ფოსტა და ჯგუფები">
+<!ENTITY generalSettings.caption          "ძირითადი პარამეტრები">
+<!ENTITY confirmMove.label                "თანხმობის მოთხოვნა დასტის ურნაში გადატანისას">
+<!ENTITY confirmMove.accesskey            "C">
+<!ENTITY preserveThreading.label          "საქაღალდეების შენარჩუნება წერილების დახარისხებისას">
+<!ENTITY preserveThreading.accesskey      "v">
+<!ENTITY mailBiffOnNewWindow.label        "ახალი ფოსტის შემოწმება მხოლოდ ფოსტისა და სიახლეთა ჯგუფების გახსნის შემდეგ">
+<!ENTITY mailBiffOnNewWindow.accesskey    "O">
+
+<!ENTITY defaultMailSettings.description  "&brandShortName; პროგრამის ნაგულისხმებად მითთება:">
+<!ENTITY setDefaultMail.label             "ფოსტისთვის">
+<!ENTITY setDefaultMail.accesskey         "M">
+<!ENTITY setDefaultNews.label             "სიახლეებისთვის">
+<!ENTITY setDefaultNews.accesskey         "N">
+<!ENTITY setDefaultFeed.label             "არხებისთვის">
+<!ENTITY setDefaultFeed.accesskey         "e">
+
+<!ENTITY messengerStartPage.caption       "ფოსტის საწყისი გვერდი">
+<!ENTITY enableStartPage.label            "საფოსტო სეანსის დაწყებისას სათაო გვერდის წერილების ველში ჩვენება">
+<!ENTITY enableStartPage.accesskey        "W">
+<!ENTITY location.label                   "მისამართი:">
+<!ENTITY location.accesskey               "L">
+<!ENTITY useDefault.label                 "ძირითადის აღდგენა">
+<!ENTITY useDefault.accesskey             "D">
+<!ENTITY rememberLastMsg.label            "ბოლო მონიშნული წერილის დამახსოვრება">
+<!ENTITY rememberLastMsg.accesskey        "R">

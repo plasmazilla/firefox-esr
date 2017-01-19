@@ -4,7 +4,7 @@
 <!-- Don't localize these. They're here until they have
      a better place to live. -->
 
-<!ENTITY syncBrand.fullName.label "ফায়ারফক্স সিঙ্ক">
+<!ENTITY syncBrand.fullName.label "Firefox Sync">
 <!ENTITY syncBrand.shortName.label "সিঙ্ক">
 <!-- Main titles. -->
 
@@ -30,10 +30,10 @@
 <!-- Bookmark folder strings -->
 
 <!ENTITY bookmarks.folder.menu.label "বুকমার্ক মেনু">
-<!ENTITY bookmarks.folder.places.label ''>
+<!ENTITY bookmarks.folder.places.label ".">
 <!ENTITY bookmarks.folder.tags.label "ট্যাগ">
 <!ENTITY bookmarks.folder.toolbar.label "বুকমার্ক টুলবার">
-<!ENTITY bookmarks.folder.other.label "অন্যান্য বুকমার্কসমূহ">
+<!ENTITY bookmarks.folder.other.label "অন্যান্য বুকমার্ক">
 <!ENTITY bookmarks.folder.desktop.label "ডেস্কটপ বুকমার্ক">
 <!ENTITY bookmarks.folder.mobile.label "মোবাইল বুকমার্ক">
 <!-- Pinned sites on about:home. This folder should never be shown to the user, but we have to give it a string name -->
@@ -63,13 +63,13 @@
 <!ENTITY fxaccount_status_needs_verification2 "আপনার অ্যাকাউন্ট যাচাইকরণ বাধ্যতামূলক। যাচাইকারী ইমেইল পুনরায় পাঠাতে এখানে টাচ করুন।">
 <!ENTITY fxaccount_status_needs_credentials "কানেক্ট করা যায়নি। সাইন ইন করতে ট্যাপ করুন।">
 <!ENTITY fxaccount_status_needs_upgrade "সাইন ইন করতে হলে আপনাকে &brandShortName; আপগ্রেড করতেই হবে।">
-<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled "&syncBrand.shortName.label; সেট আপ করা হয়েছে, কিন্তু স্বয়ংক্রিয়ভাবে সিঙ্ক হয়নি। অ্যান্ড্রয়েড সেটিংসে “Auto-sync data” টগল করুন &gt; একাউন্ট।">
-<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 "&syncBrand.shortName.label; সেট আপ করা হয়েছে, কিন্তু স্বয়ংক্রিয়ভাবে সিঙ্ক হয়নি। অ্যান্ড্রয়েড সেটিংসে “Auto-sync data” টগল করুন &gt; একাউন্ট।">
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled "&syncBrand.shortName.label; সেট আপ করা হয়েছে, কিন্তু স্বয়ংক্রিয়ভাবে সিঙ্ক হয়নি। Android সেটিং এ “Auto-sync data” টগল করুন &gt; একাউন্ট।">
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 "&syncBrand.shortName.label; সেট আপ করা হয়েছে, কিন্তু স্বয়ংক্রিয়ভাবে সিঙ্ক হয়নি। Android সেটিং এ “Auto-sync data” টগল করুন &gt; অ্যাকাউন্ট।">
 <!ENTITY fxaccount_status_needs_finish_migrating "আপনার নতুন Firefox অ্যাকাউন্টে সাইন ইন করবার জন্য ট্যাপ করুন।">
-<!ENTITY fxaccount_status_bookmarks "বুকমার্কসমূহ">
+<!ENTITY fxaccount_status_bookmarks "বুকমার্ক">
 <!ENTITY fxaccount_status_history "ইতিহাস">
 <!ENTITY fxaccount_status_passwords2 "লগইন">
-<!ENTITY fxaccount_status_tabs "উন্মুক্ত ট্যাবগুলি">
+<!ENTITY fxaccount_status_tabs "খোলা ট্যাব">
 <!ENTITY fxaccount_status_legal "আইনগত" >
 <!-- Localization note: when tapped, the following two strings link to
      external web pages.  Compare fxaccount_policy_{linktos,linkprivacy}:
@@ -80,38 +80,38 @@
 <!ENTITY fxaccount_status_more "More&ellipsis;">
 <!ENTITY fxaccount_remove_account "Disconnect&ellipsis;">
 
-<!ENTITY fxaccount_remove_account_dialog_title "ফায়ারফক্স অ্যাকাউন্ট মুছে ফেলবেন?">
-<!ENTITY fxaccount_remove_account_dialog_message "&brandShortName; আপনার অ্যাকাউন্টের সাথে সিঙ্ক করা বন্ধ করবে, কিন্তু এই ডিভাইসে আপনার ব্রাউজিং ডেটা মুছে ফেলবে না।">
+<!ENTITY fxaccount_remove_account_dialog_title "Firefox Account মুছে ফেলবেন?">
+<!ENTITY fxaccount_remove_account_dialog_message "&brandShortName; আপনার অ্যাকাউন্টের সাথে সিঙ্ক করা বন্ধ করবে, কিন্তু এই ডিভাইসে আপনার ব্রাউজিং ডাটা মুছে ফেলবে না।">
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast "ফায়ারফক্স অ্যাকাউন্ট &formatS; মুছে ফেলা হয়েছে।">
+<!ENTITY fxaccount_remove_account_toast "Firefox Account &formatS; মুছে ফেলা হয়েছে।">
 
 <!ENTITY fxaccount_enable_debug_mode "ডিবাগ মোড সক্রিয় করুন">
 <!-- Localization note: this is the name shown by the Android system
      itself for a Firefox Account. Don't localize this. -->
 
-<!ENTITY fxaccount_account_type_label "ফায়ারফক্স">
+<!ENTITY fxaccount_account_type_label "Firefox">
 <!-- Localization note: these are shown by the Android system itself,
      when the user navigates to the Android > Accounts > {Firefox
      Account} Screen. The link takes the user to the Firefox Account
      status activity, which lets them manage their Firefox
      Account. -->
 
-<!ENTITY fxaccount_options_title "&syncBrand.shortName.label; অপশনসমূহ">
+<!ENTITY fxaccount_options_title "&syncBrand.shortName.label; অপশন">
 <!ENTITY fxaccount_options_configure_title "&syncBrand.shortName.label; কনফিগার করুন">
 <!-- Localization note: these error messages are shown after a request
      has been made to the remote server, and an error of some type has
      been returned. -->
 
-<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED "আপনাকে ফায়ারফক্স আপগ্রেড করতে হবে">
+<!ENTITY fxaccount_remote_error_UPGRADE_REQUIRED "আপনাকে Firefox হালনাগাদ করতে হবে">
 <!-- Localization note: the format string will be fxaccount_sign_in_button_label, linkified. -->
 
 <!ENTITY fxaccount_remote_error_ATTEMPT_TO_CREATE_AN_ACCOUNT_THAT_ALREADY_EXISTS_2 "এই অ্যাকাউন্টটি আগে থেকেই আছে &formatS1;">
 <!ENTITY fxaccount_remote_error_ATTEMPT_TO_ACCESS_AN_ACCOUNT_THAT_DOES_NOT_EXIST "ইমেল অথবা পাসওয়ার্ড বৈধ নয়">
 <!ENTITY fxaccount_remote_error_INCORRECT_PASSWORD "ইমেল অথবা পাসওয়ার্ড বৈধ নয়">
 <!ENTITY fxaccount_remote_error_ATTEMPT_TO_OPERATE_ON_AN_UNVERIFIED_ACCOUNT "অ্যাকাউন্ট যাচাই করা হয়নি">
-<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS "সার্ভার ব্যস্ত, শীঘ্রই আবার চেস্টা করুন">
-<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD "সার্ভার ব্যস্ত, শীঘ্রই আবার চেস্টা করুন">
+<!ENTITY fxaccount_remote_error_CLIENT_HAS_SENT_TOO_MANY_REQUESTS "সার্ভার ব্যস্ত, শীঘ্রই আবার চেষ্টা করুন">
+<!ENTITY fxaccount_remote_error_SERVICE_TEMPORARILY_UNAVAILABLE_TO_DUE_HIGH_LOAD "সার্ভার ব্যস্ত, শীঘ্রই আবার চেষ্টা করুন">
 <!ENTITY fxaccount_remote_error_UNKNOWN_ERROR "একটি সমস্যা আছে">
 <!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED "অ্যাকাউন্ট লক হয়ে গেছে। &formatS1;">
 

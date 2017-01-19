@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+   
+<!-- Labels -->
+<!ENTITY newFolderDialog.title      "ახალი დასტა">
+<!ENTITY name.label                 "სახელი:">
+<!ENTITY name.accesskey             "n">
+<!ENTITY description.label          "ქვედასტის შექმნა აქ:">
+<!ENTITY description.accesskey      "c">
+<!ENTITY folderRestriction1.label   "ეს სერვერი იღებს მხოლოდ ორი ტიპის დასტებს.">
+<!ENTITY folderRestriction2.label   "ახალ დასტაში შეიძლება ინახებოდეს:">
+<!ENTITY foldersOnly.label          "მხოლოდ დასტები">
+<!ENTITY messagesOnly.label         "მხოლოდ წერილები">
+<!ENTITY accept.label               "დასტის შექმნა">
+<!ENTITY accept.accesskey           "r">

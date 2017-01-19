@@ -10,7 +10,7 @@
 <!ENTITY aboutSupport.crashes.title "Доклади за сривове">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
-<!ENTITY aboutSupport.crashes.id "ID на доклад">
+<!ENTITY aboutSupport.crashes.id "Идентификатор на доклад">
 <!ENTITY aboutSupport.crashes.sendDate "Изпратен">
 <!ENTITY aboutSupport.crashes.allReports "Всички доклади за сривове">
 <!ENTITY aboutSupport.crashes.noConfig "Приложението не е настроено да показва доклади за сривове.">
@@ -63,14 +63,14 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsSafeMode "Надежден режим">
 
-<!ENTITY aboutSupport.showDir.label "Отваряне на директория">
+<!ENTITY aboutSupport.showDir.label "Отваряне на папката">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
-<!ENTITY aboutSupport.showMac.label "Показване в търсачката">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!ENTITY aboutSupport.showMac.label "Показване във Finder">
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "Отваряне на папката">
+<!ENTITY aboutSupport.showWin2.label "Отваряне на папката">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "Важни променени настройки">
 <!ENTITY aboutSupport.modifiedPrefsName "Име">
@@ -107,7 +107,7 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.sandboxTitle "Виртуална среда">
 
-<!ENTITY aboutSupport.safeModeTitle "Пробвайте Надежден режим">
+<!ENTITY aboutSupport.safeModeTitle "Пробвайте надеждния режим">
 <!ENTITY aboutSupport.restartInSafeMode.label "Рестартиране с изключени добавки…">
 
 <!ENTITY aboutSupport.graphicsFeaturesTitle "Възможности">

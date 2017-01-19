@@ -50,16 +50,16 @@
 <!-- Localization note: Shown in a snackbar when tab is loaded from cache while device was offline. -->
 <!ENTITY  tab_offline_version "Показ автономної версії">
 
-<!ENTITY  crash_reporter_title "Звіти про падіння &brandShortName;">
-<!ENTITY  crash_message2 "&brandShortName; зіткнувся з проблемою та аварійно завершив роботу. Ваші вкладки повинні бути показані на початковій сторінці &brandShortName; після перезапуску.">
-<!ENTITY  crash_send_report_message3 "Повідомте &vendorShortName; про це падіння, щоб вони змогли його виправити">
-<!ENTITY  crash_include_url2 "Включно з адресою відвіданої сторінки">
+<!ENTITY  crash_reporter_title "Звіти про збої &brandShortName;">
+<!ENTITY  crash_message2 "&brandShortName; зіткнувся з проблемою та аварійно завершив роботу. Ваші вкладки повинні з\&apos;явитися на початковій сторінці &brandShortName; після перезапуску.">
+<!ENTITY  crash_send_report_message3 "Повідомте &vendorShortName; про цей збій, щоб вони змогли його виправити">
+<!ENTITY  crash_include_url2 "Включити адресу відвіданої сторінки">
 <!ENTITY  crash_sorry "Перепрошуємо">
-<!ENTITY  crash_comment "Додати коментар (коментарі публічно видимі)">
+<!ENTITY  crash_comment "Додати коментар (коментарі бачать всі)">
 <!ENTITY  crash_allow_contact2 "Дозволити &vendorShortName; зв’язатись з вами стосовно цього звіту">
-<!ENTITY  crash_email "Ваш email">
-<!ENTITY  crash_closing_alert "Вийти після відправки звіту про падіння?">
-<!ENTITY  sending_crash_report "Відправка звіту про падіння\u2026">
+<!ENTITY  crash_email "Ваша адреса е-пошти">
+<!ENTITY  crash_closing_alert "Вийти після надсилання звіту про збій?">
+<!ENTITY  sending_crash_report "Надсилання звіту про збій\u2026">
 <!ENTITY  crash_close_label "Закрити">
 <!ENTITY  crash_restart_label "Перезапустити &brandShortName;">
 
@@ -169,7 +169,7 @@
 <!ENTITY overlay_no_synced_devices "Не знайдено пристроїв, підключених до облікового запису Firefox">
 
 <!ENTITY pref_category_search3 "Пошук">
-<!ENTITY pref_category_search_summary2 "Додати, встановити типовим, пропозиції">
+<!ENTITY pref_category_search_summary2 "Додавання, встановлення типовим, пропозиції">
 <!ENTITY pref_category_accessibility "Доступність">
 <!ENTITY pref_category_accessibility_summary2 "Розмір тексту, масштабування, голосове введення">
 <!ENTITY pref_category_privacy_short "Приватність">
@@ -435,10 +435,10 @@ size. -->
 <!ENTITY datareporting_abouthr_title "Переглянути Звіт про справність">
 <!ENTITY datareporting_telemetry_title "Телеметрія">
 <!ENTITY datareporting_telemetry_summary "Надсилає в &vendorShortName; дані про використання, апаратне забезпечення та налаштування вашого браузера, щоб допомогти нам зробити &brandShortName; кращим">
-<!ENTITY datareporting_crashreporter_summary "&brandShortName; надсилає звіти про падіння в &vendorShortName;, щоб допомогти зробити ваш браузер більш стабільним та безпечним">
+<!ENTITY datareporting_crashreporter_summary "&brandShortName; надсилає звіти про збої в &vendorShortName;, щоб допомогти зробити браузер стабільнішим та безпечнішим">
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
-<!ENTITY datareporting_crashreporter_title_short "Звіти про падіння">
+<!ENTITY datareporting_crashreporter_title_short "Звіти про збої">
 <!ENTITY datareporting_wifi_title2 "Послуга розташування &vendorShortName;">
 <!ENTITY datareporting_wifi_geolocation_summary4 "Допоможіть &vendorShortName; створити карту світу! Поділіться приблизним розташуванням Wi-Fi та мобільної мережі вашого пристрою, щоб покращити нашу службу визначення місцезнаходження">
 <!-- Localization note (pref_update_autodownload2) : This should mention downloading
@@ -831,3 +831,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "Закласти елементи режиму читання для автономного доступу.">
 <!ENTITY helper_triple_readerview_open_button "Додати до закладок">
 
+<!ENTITY activity_stream_topsites "Популярні сайти">
+<!ENTITY activity_stream_highlights "Основні">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "Більше">
