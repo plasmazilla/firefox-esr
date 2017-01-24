@@ -116,12 +116,13 @@ L10N_FILTER = awk '(NF == 1 || /linux/) && $$1 != "en-US" { print $$1 }'
 $(call lazy,L10N_LANGS,$$(shell $$(L10N_FILTER) $(PRODUCT)/locales/shipped-locales))
 ifeq ($(SOURCE_TYPE),releases)
 SOURCE_URL = $(BASE_URL)/$(SOURCE_VERSION)/source/$(PRODUCT_DOWNLOAD_NAME)-$(SOURCE_VERSION).source.tar.$(SOURCE_TARBALL_EXT)
-SOURCE_REV = $(call uc,$(PRODUCT_DOWNLOAD_NAME))_$(subst .,_,$(SOURCE_VERSION))_RELEASE
 CANDIDATE_BASE_URL = http://archive.mozilla.org/pub/$(PRODUCT_DOWNLOAD_NAME)/candidates/$(SOURCE_VERSION)-candidates
 CANDIDATE = $(shell curl -s $(CANDIDATE_BASE_URL)/ | sed -n '/href.*build/s/.*>\(build[0-9]*\)\/<.*/\1/p' | tail -1)
 $(call lazy,L10N_CHANGESETS,$$(shell curl -s $(CANDIDATE_BASE_URL)/$$(CANDIDATE)/l10n_changesets.txt | sed 's/ /:/'))
 L10N_REV = $(subst $1:,,$(filter $1:%,$(L10N_CHANGESETS)))
-SOURCE_REPO = https://hg.mozilla.org/releases/$(SOURCE_CHANNEL)
+$(call lazy,SOURCE_REPO_URL,$$(shell curl -s $(CANDIDATE_BASE_URL)/$$(CANDIDATE)/linux-x86_64/en-US/$(PRODUCT_DOWNLOAD_NAME)-$(SOURCE_VERSION).txt | tail -1))
+SOURCE_REV = $(notdir $(SOURCE_REPO_URL))
+SOURCE_REPO = $(patsubst %/rev/,%,$(dir $(SOURCE_REPO_URL)))
 else
 ifeq ($(SOURCE_TYPE),nightly)
 SOURCE_TARBALL_EXT = bz2
