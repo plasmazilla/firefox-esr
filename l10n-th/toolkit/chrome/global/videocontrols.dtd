@@ -8,13 +8,13 @@
 <!ENTITY muteButton.unmuteLabel "เปิดเสียง">
 <!ENTITY fullscreenButton.enterfullscreenlabel "เต็มจอ">
 <!ENTITY fullscreenButton.exitfullscreenlabel "ออกจากภาพเต็มหน้าจอ">
-<!ENTITY castingButton.castingLabel "Cast to Screen">
+<!ENTITY castingButton.castingLabel "ฉายขึ้นหน้าจอ">
 <!ENTITY closedCaption.off "ปิด">
 
 <!ENTITY stats.media "สื่อ">
 <!ENTITY stats.size "ขนาด">
 <!ENTITY stats.activity "กิจกรรม">
-<!ENTITY stats.activityPaused "หยุด">
+<!ENTITY stats.activityPaused "ถูกหยุดชั่วคราว">
 <!ENTITY stats.activityPlaying "กำลังเล่น">
 <!ENTITY stats.activityEnded "จบแล้ว">
 <!ENTITY stats.activitySeeking "(กำลังค้นหา)">

@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Dysgu Rhagor">
 
-<!ENTITY crashReporterDesc.label         "Mae &brandShortName; yn cyflwyno adroddiadau chwalu i gynorthwyo &vendorShortName; i wneud eich porwr yn fwy sefydlog a diogel">
-<!ENTITY enableCrashReporter.label       "Galluogi Adroddwr Chwalu">
-<!ENTITY enableCrashReporter.accesskey   "A">
-<!ENTITY crashReporterLearnMore.label    "Dysgu Rhagor">
+<!ENTITY crashReporterDesc2.label         "Mae adroddiadau chwalu yn cynorthwyo &vendorShortName; i ddatrys problemau ac i wneud eich porwr yn fwy sefydlog a diogel">
+<!ENTITY alwaysSubmitCrashReports.label   "Caniatáu i &brandShortName; i anfon adroddiadau chwalu wedi eu cadw ar eich rhan">
+<!ENTITY alwaysSubmitCrashReports.accesskey "a">
+<!ENTITY crashReporterLearnMore.label     "Dysgu Rhagor">
 
 <!ENTITY networkTab.label                "Rhwydwaith">
 
@@ -111,7 +111,7 @@
 <!ENTITY certs.auto.accesskey            "D">
 <!ENTITY certs.ask                       "Gofyn i mi bob tro">
 <!ENTITY certs.ask.accesskey             "G">
-<!ENTITY enableOCSP.label                "Ymholwch â'r gweinyddion atebwr OCSP i gadarnhau dilysrwydd cyfredol y tystysgrifau">
+<!ENTITY enableOCSP.label                "Ymholi â gweinyddion atebwr OCSP i gadarnhau dilysrwydd cyfredol y tystysgrifau">
 <!ENTITY enableOCSP.accesskey            "Y">
 <!ENTITY viewCerts.label                 "Darllen Tystysgrifau">
 <!ENTITY viewCerts.accesskey             "D">

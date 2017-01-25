@@ -14,7 +14,7 @@
 <!ENTITY firstrun_data_subtext2 "ปิดภาพเพื่อลดการใช้ข้อมูลในทุกไซต์ที่คุณเยี่ยมชม">
 <!ENTITY firstrun_sync_title "Sync">
 <!ENTITY firstrun_sync_message "&brandShortName; อยู่เคียงข้างคุณเสมอ">
-<!ENTITY firstrun_sync_subtext "ซิงค์แท็บ รหัสผ่าน และอื่น ๆ ของคุณในทุกที่ที่คุณใช้งาน">
+<!ENTITY firstrun_sync_subtext "ซิงค์แท็บ, รหัสผ่าน และอื่น ๆ ของคุณในทุกที่ที่คุณใช้งาน">
 <!ENTITY firstrun_signin_message "รับการเชื่อมต่อ เริ่มต้นใช้งาน">
 <!ENTITY firstrun_signin_button "ลงชื่อเข้า Sync">
 <!ENTITY  onboard_start_button_browser "เริ่มการท่องเว็บ">
@@ -130,7 +130,7 @@
 <!ENTITY settings "การตั้งค่า">
 <!ENTITY settings_title "การตั้งค่า">
 <!ENTITY pref_category_general "ทั่วไป">
-<!ENTITY pref_category_general_summary3 "หน้าแรก ภาษา คิวแท็บ">
+<!ENTITY pref_category_general_summary3 "หน้าแรก, ภาษา, คิวแท็บ">
 
 <!-- Localization note (pref_category_language) : This is the preferences
      section in which the user picks the locale in which to display Firefox
@@ -169,13 +169,13 @@
 <!ENTITY overlay_no_synced_devices "ไม่พบอุปกรณ์ที่เชื่อมต่อกับบัญชี Firefox">
 
 <!ENTITY pref_category_search3 "ค้นหา">
-<!ENTITY pref_category_search_summary2 "เพิ่ม ตั้งค่าปริยาย แสดงคำแนะนำ">
+<!ENTITY pref_category_search_summary2 "เพิ่ม, ตั้งค่าปริยาย, แสดงคำแนะนำ">
 <!ENTITY pref_category_accessibility "การช่วยเข้าถึง">
-<!ENTITY pref_category_accessibility_summary2 "ขนาดตัวอักษร ขยาย การรับค่าด้วยเสียง">
+<!ENTITY pref_category_accessibility_summary2 "ขนาดตัวอักษร, ซูม, การรับค่าด้วยเสียง">
 <!ENTITY pref_category_privacy_short "ความเป็นส่วนตัว">
-<!ENTITY pref_category_privacy_summary4 "การตามรอย การเข้าสู่ระบบ ตัวเลือกข้อมูล">
+<!ENTITY pref_category_privacy_summary4 "การตามรอย, การเข้าสู่ระบบ, ตัวเลือกข้อมูล">
 <!ENTITY pref_category_vendor2 "&vendorShortName; &brandShortName;">
-<!ENTITY pref_category_vendor_summary2 "เกี่ยวกับ &brandShortName; คำถามที่พบบ่อย ข้อคิดเห็น">
+<!ENTITY pref_category_vendor_summary2 "เกี่ยวกับ &brandShortName;, คำถามที่พบบ่อย, ข้อคิดเห็น">
 <!ENTITY pref_category_datareporting "ตัวเลือกข้อมูล">
 <!ENTITY pref_category_logins "การเข้าสู่ระบบ">
 <!ENTITY pref_learn_more "เรียนรู้เพิ่มเติม">
@@ -194,9 +194,9 @@
 <!-- Localization note (pref_category_advanced_summary3): “data saver” in this
      context means consuming less data, e.g. by not loading images, not
      “storing data”. -->
-<!ENTITY pref_category_advanced_summary3 "การเรียกคืนแท็บ การประหยัดข้อมูล เครื่องมือนักพัฒนา">
+<!ENTITY pref_category_advanced_summary3 "การเรียกคืนแท็บ, การประหยัดข้อมูล, เครื่องมือนักพัฒนา">
 <!ENTITY pref_category_notifications "การแจ้งเตือน">
-<!ENTITY pref_category_notifications_summary "คุณลักษณะใหม่ การปรับปรุงเว็บไซต์">
+<!ENTITY pref_category_notifications_summary "คุณลักษณะใหม่, การปรับปรุงเว็บไซต์">
 <!ENTITY pref_content_notifications "การปรับปรุงเว็บไซต์">
 <!ENTITY pref_content_notifications_summary2 "ค้นพบเนื้อหาใหม่จากไซต์ที่รองรับ">
 <!ENTITY pref_developer_remotedebugging_usb "การดีบั๊กระยะไกลผ่าน USB">
@@ -316,7 +316,7 @@
 
 <!-- Localization note (tab_queue_notification_settings): This notification text is shown if a tab
      has been queued but we are missing the system permission to show an overlay. -->
-<!ENTITY tab_queue_notification_settings "เพื่อ \&quot;เปิดหลายลิงก์\&quot; โปรดเปิดใช้งานการอนุญาต \u0027วาดทับแอปอื่นๆ\u0027 สำหรับ &brandShortName;">
+<!ENTITY tab_queue_notification_settings "เพื่อ \&quot;เปิดหลายลิงก์\&quot; โปรดเปิดใช้งานการอนุญาต \&apos;วาดทับแอปอื่นๆ\&apos; สำหรับ &brandShortName;">
 
 <!ENTITY content_notification_summary "&brandShortName;">
 <!-- Localization note (content_notification_title_plural): &formatD; will be replaced with the number of websites that
@@ -345,7 +345,7 @@
 <!ENTITY pref_clear_on_exit_title3 "ล้างข้อมูลส่วนตัวเมื่อออก">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; จะล้างข้อมูลของคุณโดยอัตโนมัติเมื่อใดก็ตามที่คุณเลือก \u0022ออก\u0022 จากเมนูหลัก">
 <!ENTITY pref_clear_on_exit_dialog_title "เลือกข้อมูลที่จะล้าง">
-<!ENTITY pref_plugins "โปรแกรมเสริม">
+<!ENTITY pref_plugins "ปลั๊กอิน">
 <!ENTITY pref_plugins_enabled "ถูกเปิดใช้งาน">
 <!ENTITY pref_plugins_tap_to_play2 "สัมผัสเพื่อเล่น">
 <!ENTITY pref_plugins_disabled "ถูกปิดใช้งาน">
@@ -368,12 +368,12 @@ size. -->
 
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
-<!ENTITY pref_font_size_preview_text "จิ้งจอกว่องไวสีส้มกระโดดข้ามความคาดหมายของคุณ ด้วยความเร็วที่มากกว่า ยืดหยุ่นกว่า และปลอดภัยกว่า เพราะเราเป็นองค์กรไม่แสวงหาผลกำไร เราจึงมีอิสระในการพัฒนาตามเพื่อคุณ โดยไม่มีแรงกดดันใด ๆ ซึ่งนั่นหมายความว่าคุณจะได้รับประสบการณ์ที่ดีกว่า และสร้างอนาคตที่สดใสกว่าให้กับเว็บ">
+<!ENTITY pref_font_size_preview_text "จิ้งจอกว่องไวสีส้มกระโดดข้ามความคาดหมายของคุณ ด้วยความเร็วที่มากกว่า, ยืดหยุ่นกว่า และปลอดภัยกว่า เพราะเราเป็นองค์กรไม่แสวงหาผลกำไร เราจึงมีอิสระในการพัฒนาตามเพื่อคุณ โดยไม่มีแรงกดดันใด ๆ ซึ่งนั่นหมายความว่าคุณจะได้รับประสบการณ์ที่ดีกว่า และสร้างอนาคตที่สดใสกว่าให้กับเว็บ">
 
 <!ENTITY pref_media_autoplay_enabled "อนุญาตการเล่นอัตโนมัติ">
 <!ENTITY pref_media_autoplay_enabled_summary "ควบคุมการเล่นวิดีโอและเนื้อหาสื่ออื่นของเว็บไซต์โดยอัตโนมัติ">
-<!ENTITY pref_zoom_force_enabled "เปิดใช้งานการขยายเสมอ">
-<!ENTITY pref_zoom_force_enabled_summary "บังคับใช้ค่าเพื่อให้คุณสามารถขยายได้ทุกหน้า">
+<!ENTITY pref_zoom_force_enabled "เปิดใช้งานการซูมเสมอ">
+<!ENTITY pref_zoom_force_enabled_summary "บังคับใช้ค่าเพื่อให้คุณสามารถซูมได้ทุกหน้า">
 <!ENTITY pref_voice_input "การรับค่าด้วยเสียง">
 <!ENTITY pref_voice_input_summary2 "อนุญาตการเขียนตามคำบอกเสียงในแถบ URL">
 <!ENTITY pref_qrcode_enabled "ตัวอ่านรหัส QR">
@@ -381,7 +381,7 @@ size. -->
 
 <!ENTITY pref_use_master_password "ใช้รหัสผ่านหลัก">
 <!ENTITY pref_sync2 "ลงชื่อเข้า">
-<!ENTITY pref_sync_summary2 "ซิงค์แท็บ ที่คั่นหน้า การเข้าสู่ระบบ ประวัติของคุณ">
+<!ENTITY pref_sync_summary2 "ซิงค์แท็บ, ที่คั่นหน้า, การเข้าสู่ระบบ และประวัติของคุณ">
 <!ENTITY pref_search_suggestions "แสดงคำแนะนำการค้นหา">
 <!ENTITY pref_history_search_suggestions "แสดงประวัติการค้นหา">
 <!ENTITY pref_import_options "ตัวเลือกการนำเข้า">
@@ -434,7 +434,7 @@ size. -->
 <!ENTITY datareporting_fhr_summary2 "แบ่งปันข้อมูลเกี่ยวกับสุขภาพเบราว์เซอร์ของคุณให้กับ &vendorShortName; และช่วยให้คุณเข้าใจประสิทธิภาพเบราว์เซอร์ของคุณ">
 <!ENTITY datareporting_abouthr_title "ดูรายงานสุขภาพของฉัน">
 <!ENTITY datareporting_telemetry_title "การวัดและส่งข้อมูลทางไกล">
-<!ENTITY datareporting_telemetry_summary "แบ่งปันข้อมูลประสิทธิภาพ การใช้งาน ฮาร์ดแวร์ และการปรับแต่งให้กับ &vendorShortName; เพื่อช่วยให้เราทำ &brandShortName; ให้ดียิ่งขึ้น">
+<!ENTITY datareporting_telemetry_summary "แบ่งปันข้อมูลประสิทธิภาพ, การใช้งาน, ฮาร์ดแวร์ และการปรับแต่งเกี่ยวกับเบราว์เซอร์ของคุณกับ &vendorShortName; เพื่อช่วยเราทำ &brandShortName; ให้ดีขึ้น">
 <!ENTITY datareporting_crashreporter_summary "&brandShortName; ส่งรายงานข้อขัดข้องเพื่อช่วยให้ &vendorShortName; สร้างเบราว์เซอร์ของคุณให้เสถียรและปลอดภัยยิ่งขึ้น">
 <!-- Localization note (datareporting_crashreporter_title_short) : This string matches
      (crashReporterSection.label) in en-US/chrome/browser/preferences/advanced.dtd.-->
@@ -583,7 +583,7 @@ size. -->
 <!ENTITY home_synced_devices_number "&formatD; อุปกรณ์">
 <!-- Localization note (home_synced_devices_one_device): This is the singular version of home_synced_devices_number, referring to the number of devices a user has synced. -->
 <!ENTITY home_synced_devices_one "1 อุปกรณ์">
-<!ENTITY home_history_back_to2 "ย้อนกลับไปยังประวัติแบบเต็ม">
+<!ENTITY home_history_back_to2 "กลับสู่ประวัติแบบเต็ม">
 <!ENTITY home_clear_history_button "ล้างประวัติการท่องเว็บ">
 <!ENTITY home_clear_history_confirm "คุณแน่ใจหรือไม่ว่าต้องการล้างประวัติของคุณ?">
 <!ENTITY home_bookmarks_empty "ที่คั่นหน้าที่คุณบันทึกไว้จะแสดงที่นี่">
@@ -604,7 +604,7 @@ size. -->
 
 <!-- Localization note (home_back_up_to_filter): The variable is replaced by the name of the
      previous location in the navigation, such as the previous folder -->
-<!ENTITY home_move_back_to_filter "ย้อนกลับไปยัง &formatS;">
+<!ENTITY home_move_back_to_filter "กลับสู่ &formatS;">
 
 <!-- Localization note (home_remote_tabs_many_hidden_devices) : The
      formatD is replaced with the number of hidden devices.  The
@@ -714,7 +714,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY guest_session_dialog_continue "ดำเนินการต่อ">
 <!ENTITY guest_session_dialog_cancel "ยกเลิก">
 <!ENTITY new_guest_session_title "&brandShortName; จะเริ่มการทำงานใหม่">
-<!ENTITY new_guest_session_text2 "บุคคลที่ใช้งานจะไม่สามารถเห็นข้อมูลการท่องเว็บส่วนบุคคลใด ๆ ของคุณ (อย่างการเข้าสู่ระบบที่บันทึกไว้ ประวัติ หรือที่คั่นหน้า)\n\nเมื่อผู้มาเยือนของคุณใช้งานเสร็จ ข้อมูลการท่องเว็บของเขาจะถูกลบและวาระของคุณจะถูกเรียกคืน">
+<!ENTITY new_guest_session_text2 "บุคคลที่ใช้งานจะไม่สามารถเห็นข้อมูลการท่องเว็บส่วนบุคคลใด ๆ ของคุณ (อย่างการเข้าสู่ระบบที่บันทึกไว้, ประวัติ หรือที่คั่นหน้า)\n\nเมื่อผู้มาเยือนของคุณใช้งานเสร็จ ข้อมูลการท่องเว็บของเขาจะถูกลบและวาระของคุณจะถูกเรียกคืน">
 <!ENTITY guest_browsing_notification_title "การท่องเว็บสำหรับผู้มาเยือนถูกเปิดใช้งาน">
 <!ENTITY guest_browsing_notification_text "แตะเพื่อออก">
 
@@ -775,7 +775,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      code has already been displayed by the client trying to connect (such as
      desktop Firefox via WebIDE), so you just need to aim this device at the QR
      code. -->
-<!ENTITY devtools_auth_scan_header "กำลังสแกนรหัส QR ที่แสดงบนอุปกรณ์อื่นของคุณ">
+<!ENTITY devtools_auth_scan_header "กำลังสแกนรหัส QR ที่แสดงผลบนอุปกรณ์อื่นของคุณ">
 
 <!-- Restrictable features -->
 <!-- Localization note: These are features the device owner (e.g. parent) can enable or disable for
@@ -787,7 +787,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restrictable_feature_clear_history "ล้างประวัติ">
 <!ENTITY restrictable_feature_clear_history_description "อนุญาตให้สมาชิกในครอบครัวลบข้อมูลเกี่ยวกับไซต์และหน้าที่พวกเขาเยี่ยมชม">
 <!ENTITY restrictable_feature_advanced_settings "การตั้งค่าขั้นสูง">
-<!ENTITY restrictable_feature_advanced_settings_description "สิ่งนี้รวมถึงการนำเข้าที่คั่นหน้า การเรียกคืนแท็บ และการปรับปรุงอัตโนมัติ ปิดเพื่อใช้การตั้งค่าแบบเรียบง่ายที่เหมาะสมสำหรับสมาชิกทุกคนในครอบครัว">
+<!ENTITY restrictable_feature_advanced_settings_description "สิ่งนี้รวมถึงการนำเข้าที่คั่นหน้า, การเรียกคืนแท็บ และการปรับปรุงอัตโนมัติ ปิดเพื่อใช้การตั้งค่าแบบเรียบง่ายที่เหมาะสมสำหรับสมาชิกทุกคนในครอบครัว">
 <!ENTITY restrictable_feature_camera_microphone "กล้องและไมโครโฟน">
 <!ENTITY restrictable_feature_camera_microphone_description "อนุญาตให้สมาชิกในครอบครัวมีส่วนร่วมในการสื่อสารตามเวลาจริงบนเว็บไซต์">
 <!ENTITY restrictable_feature_block_list "รายการการปิดกั้น">
@@ -808,7 +808,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (unsupported_sdk_version): The user installed a build of this app that does not support
      the Android version of this device. the formatS1 is replaced by the CPU ABI (e.g., ARMv7); the formatS2 is
      replaced by the Android OS version (e.g., 14)-->
-<!ENTITY unsupported_sdk_version "ขออภัย! &brandShortName; ตัวนี้ไม่สามารถทำงานบนอุปกรณ์นี้ได้ (&formatS1; &formatS2;) โปรดดาวน์โหลดรุ่นที่ถูกต้อง">
+<!ENTITY unsupported_sdk_version "ขออภัย! &brandShortName; ตัวนี้ไม่สามารถทำงานบนอุปกรณ์นี้ได้ (&formatS1;, &formatS2;) โปรดดาวน์โหลดรุ่นที่ถูกต้อง">
 
 <!ENTITY eol_notification_title2 "&brandShortName; จะไม่ได้รับการปรับปรุงอีกต่อไป">
 <!ENTITY eol_notification_summary "แตะเพื่อเรียนรู้เพิ่มเติม">
@@ -828,3 +828,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "คั่นรายการมุมมองผู้อ่านเพื่ออ่านแบบออฟไลน์">
 <!ENTITY helper_triple_readerview_open_button "เพิ่มไปยังที่คั่นหน้า">
 
+<!ENTITY activity_stream_topsites "ไซต์เด่น">
+<!ENTITY activity_stream_highlights "เด่น">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "เพิ่มเติม">

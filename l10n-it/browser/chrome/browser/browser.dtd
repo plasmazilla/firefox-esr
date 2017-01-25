@@ -109,7 +109,6 @@
 <!ENTITY bookmarkThisPageCmd.label "Aggiungi pagina ai segnalibri">
 <!ENTITY editThisBookmarkCmd.label "Modifica segnalibro">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY markPageCmd.commandkey "l">
 <!ENTITY findShareServices.label "Trova altri servizi di condivisione…">
 <!ENTITY sharePageCmd.label "Condividi questa pagina">
 <!ENTITY sharePageCmd.commandkey "S">
@@ -149,26 +148,28 @@
 <!ENTITY printButton.label "Stampa">
 <!ENTITY printButton.tooltip "Stampa questa pagina">
 <!ENTITY urlbar.viewSiteInfo.label "Visualizza informazioni sul sito">
-<!ENTITY urlbar.defaultNotificationAnchor.label "Visualizza una notifica">
-<!ENTITY urlbar.geolocationNotificationAnchor.label "Visualizza l’indirizzo della richiesta">
-<!ENTITY urlbar.addonsNotificationAnchor.label "Visualizza il messaggio di installazione componente aggiuntivo">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label "Visualizza il messaggio relativo all’archiviazione non in linea per le app">
-<!ENTITY urlbar.loginFillNotificationAnchor.label "Gestisci le informazioni di accesso">
-<!ENTITY urlbar.passwordNotificationAnchor.label "Decidi se salvare la password">
-<!ENTITY urlbar.pluginsNotificationAnchor.label "Gestisci l’utilizzo dei plugin in questa pagina">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label "Decidi se ricevere notifiche da questo sito">
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label "Gestisci la condivisione di fotocamera e/o microfono con il sito">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label "La fotocamera e/o il microfono sono condivisi con il sito">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label "Gestisci la condivisione del microfono con il sito">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Il microfono è condiviso con il sito">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label "Gestisci la condivisione delle finestre o dello schermo con il sito">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label "Una finestra o lo schermo sono condivisi con il sito">
-<!ENTITY urlbar.pointerLockNotificationAnchor.label "Decidi se il sito può nascondere il puntatore">
-<!ENTITY urlbar.servicesNotificationAnchor.label "Visualizza il messaggio di installazione servizio">
-<!ENTITY urlbar.translateNotificationAnchor.label "Traduci questa pagina">
-<!ENTITY urlbar.translatedNotificationAnchor.label "Gestisci la traduzione della pagina">
-<!ENTITY urlbar.emeNotificationAnchor.label "Gestisci l’utilizzo del software DRM">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip "Apri il pannello dei messaggi">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip "Apri il pannello con l’indirizzo della richiesta">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip "Apri il pannello con il messaggio di installazione componente aggiuntivo">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip "Apri il pannello con il messaggio relativo all’archiviazione non in linea per le app">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip "Apri il pannello per il salvataggio delle password">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip "Gestisci l’utilizzo dei plugin">
+<!ENTITY urlbar.webNotificationAnchor.tooltip "Decidi se ricevere notifiche da questo sito">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip "Gestisci la condivisione di fotocamera e/o microfono con il sito">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip "Gestisci la condivisione del microfono con il sito">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip "Gestisci la condivisione delle finestre o dello schermo con il sito">
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip "Apri il pannello con il messaggio di installazione">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip "Traduci questa pagina">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip "Gestisci la traduzione della pagina">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip "Gestisci l’utilizzo del software DRM">
+<!ENTITY urlbar.cameraBlocked.tooltip "La fotocamera è bloccata per questo sito.">
+<!ENTITY urlbar.microphoneBlocked.tooltip "Il microfono è bloccato per questo sito.">
+<!ENTITY urlbar.screenBlocked.tooltip "La condivisione dello schermo è bloccata per questo sito.">
+<!ENTITY urlbar.geolocationBlocked.tooltip "Il rilevamento della posizione è bloccato per questo sito.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip "L’archiviazione non in linea dei dati è bloccata per questo sito.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip "Le notifiche sono bloccate per questo sito.">
 <!ENTITY urlbar.openHistoryPopup.tooltip "Visualizza cronologia">
+<!ENTITY urlbar.zoomReset.tooltip "Reimposta il livello di zoom">
 <!ENTITY searchItem.title "Cerca">
 <!ENTITY homeButton.label "Pagina iniziale&#173;">
 <!ENTITY bookmarksButton.label "Segnalibri">
@@ -299,13 +300,14 @@
 <!ENTITY searchFocus.commandkey2 "e">
 <!ENTITY searchFocusUnix.commandkey "j">
 <!ENTITY contentSearchInput.label "Chiave di ricerca">
-<!ENTITY contentSearchSubmit.label "Avvia ricerca">
+<!ENTITY contentSearchSubmit.tooltip "Avvia ricerca">
 <!ENTITY searchFor.label "Cerca ">
 <!ENTITY searchWith.label " con:">
 <!ENTITY searchWithHeader.label "Cerca con:">
 <!ENTITY search.label "Cerca con ">
 <!ENTITY searchAfter.label "">
 <!ENTITY changeSearchSettings.button "Impostazioni ricerca">
+<!ENTITY changeSearchSettings.tooltip "Modifica le impostazioni di ricerca">
 <!ENTITY searchInNewTab.label "Cerca in una nuova scheda">
 <!ENTITY searchInNewTab.accesskey "n">
 <!ENTITY searchSetAsDefault.label "Imposta come motore di ricerca predefinito">
@@ -508,7 +510,7 @@
 <!ENTITY identity.activeLoaded "La protezione è disattivata per questa pagina.">
 <!ENTITY identity.weakEncryption "Questa pagina utilizza una crittografia debole.">
 <!ENTITY identity.description.insecure "La connessione con questo sito non è privata. Le informazioni inviate, come ad esempio password, messaggi, dati delle carte di credito, ecc. potrebbero essere visibili ad altri soggetti.">
-<!ENTITY identity.description.insecureLoginForms "Le informazioni di accesso inserite in questa pagina non sono sicure e potrebbero essere vulnerabili.">
+<!ENTITY identity.description.insecureLoginForms "Le credenziali di accesso inserite in questa pagina non sono sicure e potrebbero essere vulnerabili.">
 <!ENTITY identity.description.weakCipher "La connessione con questo sito web utilizza una crittografia debole e non è privata.">
 <!ENTITY identity.description.weakCipher2 "Altri soggetti potrebbero visualizzare le informazioni trasmesse o modificare il comportamento del sito.">
 <!ENTITY identity.description.activeBlocked "Alcuni elementi non sicuri di questa pagina sono stati bloccati da &brandShortName;.">
@@ -527,6 +529,7 @@
 <!ENTITY identity.moreInfoLinkText2 "Ulteriori informazioni">
 <!ENTITY identity.permissions "Permessi">
 <!ENTITY identity.permissionsEmpty "Nessun permesso speciale associato a questo sito.">
+<!ENTITY identity.permissionsReloadHint "Potrebbe essere necessario ricaricare la pagina per rendere effettive le modifiche.">
 <!ENTITY tabsToolbar.label "Schede del browser">
 <!ENTITY syncTabsMenu3.label "Schede sincronizzate">
 <!ENTITY syncedTabs.sidebar.label "Schede sincronizzate">
@@ -558,16 +561,7 @@
 <!ENTITY syncReAuthItem.label "Riconnetti a &syncBrand.shortName.label;…">
 <!ENTITY syncReAuthItem.accesskey "R">
 <!ENTITY syncToolbarButton.label "Sync">
-<!ENTITY socialToolbar.title "Pulsante barra degli strumenti social">
-<!ENTITY social.ok.label "OK">
-<!ENTITY social.ok.accesskey "O">
-<!ENTITY social.toggleSidebar.label "Visualizza barra laterale">
-<!ENTITY social.toggleSidebar.accesskey "V">
 <!ENTITY social.addons.label "Gestione servizi…">
-<!ENTITY social.toggleNotifications.label "Visualizza notifiche desktop">
-<!ENTITY social.toggleNotifications.accesskey "k">
-<!ENTITY social.learnMore.label "Ulteriori informazioni…">
-<!ENTITY social.learnMore.accesskey "U">
 <!ENTITY social.directory.label "Portale servizi">
 <!ENTITY social.directory.text "È possibile attivare nuovi servizi di condivisione dal portale dedicato.">
 <!ENTITY social.directory.button "Apri il portale">
@@ -586,13 +580,6 @@
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "G">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Ottieni altri temi">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "O">
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Seleziona chat">
-<!ENTITY social.chatBar.accesskey "h">
-<!ENTITY social.markpageMenu.accesskey "a">
-<!ENTITY social.markpageMenu.label "Salva pagina in…">
-<!ENTITY social.marklinkMenu.accesskey "S">
-<!ENTITY social.marklinkMenu.label "Salva link in…">
 <!ENTITY getUserMedia.selectCamera.label "Fotocamera da condividere:">
 <!ENTITY getUserMedia.selectCamera.accesskey "F">
 <!ENTITY getUserMedia.selectMicrophone.label "Microfono da condividere:">
@@ -618,7 +605,6 @@
 <!ENTITY trackingContentBlocked.block.label "Attiva protezione">
 <!ENTITY trackingContentBlocked.block.accesskey "A">
 <!ENTITY trackingContentBlocked.disabled.message "La protezione antitracciamento è disattivata">
-<!ENTITY pointerLock.notification.message "Premere ESC in qualunque momento per visualizzarlo nuovamente.">
 <!ENTITY pluginNotification.showAll.label "Mostra tutti">
 <!ENTITY pluginNotification.showAll.accesskey "M">
 <!ENTITY pluginActivateNow.label "Consenti adesso">

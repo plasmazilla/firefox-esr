@@ -73,7 +73,7 @@
 #include "nsIDOMWindow.h"
 
 #include "nsNetCID.h"
-#include "mozilla/Snprintf.h"
+#include "mozilla/Sprintf.h"
 #include "nsThreadUtils.h"
 #include "nsIInputStreamTee.h"
 #include "nsQueryObject.h"
@@ -304,10 +304,8 @@ nsPluginHost::nsPluginHost()
     Preferences::GetBool("plugin.override_internal_types", false);
 
   mPluginsDisabled = Preferences::GetBool("plugin.disable", false);
-  mPluginsClickToPlay = Preferences::GetBool("plugins.click_to_play", false);
 
   Preferences::AddStrongObserver(this, "plugin.disable");
-  Preferences::AddStrongObserver(this, "plugins.click_to_play");
 
   const char *env = PR_GetEnv("MOZILLA_DISABLE_PLUGINS");
   if (env && env[0])
@@ -955,12 +953,10 @@ nsPluginHost::TrySetUpPluginInstance(const nsACString &aMimeType,
                                      nsPluginInstanceOwner *aOwner)
 {
 #ifdef PLUGIN_LOGGING
-  nsAutoCString urlSpec;
-  if (aURL != nullptr) aURL->GetSpec(urlSpec);
-
   MOZ_LOG(nsPluginLogging::gPluginLog, PLUGIN_LOG_NORMAL,
-        ("nsPluginHost::TrySetupPluginInstance Begin mime=%s, owner=%p, url=%s\n",
-         PromiseFlatCString(aMimeType).get(), aOwner, urlSpec.get()));
+          ("nsPluginHost::TrySetupPluginInstance Begin mime=%s, owner=%p, url=%s\n",
+           PromiseFlatCString(aMimeType).get(), aOwner,
+           aURL ? aURL->GetSpecOrDefault().get() : ""));
 
   PR_LogFlush();
 #endif
@@ -1019,13 +1015,10 @@ nsPluginHost::TrySetUpPluginInstance(const nsACString &aMimeType,
   }
 
 #ifdef PLUGIN_LOGGING
-  nsAutoCString urlSpec2;
-  if (aURL)
-    aURL->GetSpec(urlSpec2);
-
   MOZ_LOG(nsPluginLogging::gPluginLog, PLUGIN_LOG_BASIC,
         ("nsPluginHost::TrySetupPluginInstance Finished mime=%s, rv=%d, owner=%p, url=%s\n",
-         PromiseFlatCString(aMimeType).get(), rv, aOwner, urlSpec2.get()));
+         PromiseFlatCString(aMimeType).get(), rv, aOwner,
+         aURL ? aURL->GetSpecOrDefault().get() : ""));
 
   PR_LogFlush();
 #endif
@@ -1420,7 +1413,7 @@ class nsPluginUnloadRunnable : public Runnable
 public:
   explicit nsPluginUnloadRunnable(uint32_t aPluginId) : mPluginId(aPluginId) {}
 
-  NS_IMETHOD Run()
+  NS_IMETHOD Run() override
   {
     RefPtr<nsPluginHost> host = nsPluginHost::GetInst();
     if (!host) {
@@ -3628,7 +3621,6 @@ NS_IMETHODIMP nsPluginHost::Observe(nsISupports *aSubject,
   }
   if (!strcmp(NS_PREFBRANCH_PREFCHANGE_TOPIC_ID, aTopic)) {
     mPluginsDisabled = Preferences::GetBool("plugin.disable", false);
-    mPluginsClickToPlay = Preferences::GetBool("plugins.click_to_play", false);
     // Unload or load plugins as needed
     if (mPluginsDisabled) {
       UnloadPlugins();
@@ -4199,7 +4191,7 @@ public:
     PR_REMOVE_LINK(this);
   }
 
-  NS_IMETHOD Run()
+  NS_IMETHOD Run() override
   {
     RefPtr<nsNPAPIPluginInstance> instance;
 

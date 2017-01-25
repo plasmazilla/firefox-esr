@@ -93,7 +93,7 @@
   -  boolean preference in about:config, in the options panel. -->
 
 <!ENTITY options.enableRemote.label3    "Gaitu urruneko arazketa">
-<!ENTITY options.enableRemote.tooltip   "Ezarrita badago, garatzaile-tresnekin urruneko Firefox instantziak araztu ahal izango dira, adibidez Firefox OS">
+<!ENTITY options.enableRemote.tooltip2  "Ezarrita badago, garatzaile-tresnekin urruneko instantziak araztu ahal izango dira, adibidez Firefox OS">
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
   -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
   -  boolean preference in about:config, in the options panel. -->
@@ -118,11 +118,11 @@
 
 <!ENTITY options.enableServiceWorkersHTTP.label     "Gaitu zerbitzu-langileak HTTP bidez (tresna-kutxa irekita dagoenean)">
 <!ENTITY options.enableServiceWorkersHTTP.tooltip   "Ezarrita badago, zerbitzu-langileak HTTP bidez erabilgarri egongo dira tresna-kutxa zabalik duten fitxa guztietan.">
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectDefaultTools.label2): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
 
-<!ENTITY options.selectDefaultTools.label     "Firefoxen garatzaile-tresna lehenetsiak">
+<!ENTITY options.selectDefaultTools.label2    "Garatzaile-tresna lehenetsiak">
 <!-- LOCALIZATION NOTE (options.selectAdditionalTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools
   -  added by add-ons. This heading is hidden when there is no developer tool
@@ -143,12 +143,12 @@
   -  the heading of the radiobox corresponding to the theme of the developer
   -  tools. -->
 
-<!ENTITY options.selectDevToolsTheme.label2   "Gaiak">
+<!ENTITY options.selectDevToolsTheme.label2   "Itxurak">
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
 
-<!ENTITY options.usedeveditiontheme.label   "Erabili garatzaile-edizioko nabigatzailearen gaia">
-<!ENTITY options.usedeveditiontheme.tooltip "Garatzaile-edizioko nabigatzailearen gaia txandakatzen du.">
+<!ENTITY options.usedeveditiontheme.label   "Erabili garatzaile-edizioko nabigatzailearen itxura">
+<!ENTITY options.usedeveditiontheme.tooltip "Garatzaile-edizioko nabigatzailearen itxura txandakatzen du.">
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
 

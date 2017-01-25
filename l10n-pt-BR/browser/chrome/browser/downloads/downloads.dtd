@@ -62,8 +62,8 @@
 <!ENTITY cmd.copyDownloadLink.accesskey   "l">
 <!ENTITY cmd.removeFromHistory.label      "Remover do histórico">
 <!ENTITY cmd.removeFromHistory.accesskey  "E">
-<!ENTITY cmd.clearList.label              "Limpar lista">
-<!ENTITY cmd.clearList.accesskey          "a">
+<!ENTITY cmd.clearList2.label             "Limpar o painel de visualização">
+<!ENTITY cmd.clearList2.accesskey         "a">
 <!ENTITY cmd.clearDownloads.label         "Limpar downloads">
 <!ENTITY cmd.clearDownloads.accesskey     "d">
 <!-- LOCALIZATION NOTE (cmd.unblock2.label):
@@ -106,8 +106,10 @@
      downloads fit in the available space, or when there are no downloads in
      the panel at all.
      -->
-<!ENTITY downloadsHistory.label           "Mostrar todos os downloads">
+<!ENTITY downloadsHistory.label           "Mostrar downloads">
 <!ENTITY downloadsHistory.accesskey       "s">
+
+<!ENTITY openDownloadsFolder.label       "Abrir pasta de downloads">
 
 <!ENTITY clearDownloadsButton.label       "Limpar downloads">
 <!ENTITY clearDownloadsButton.tooltip     "Limpar os downloads concluídos, cancelados e que falharam">
@@ -127,4 +129,4 @@
      This string is shown when some search terms are specified, but there are no
      results in the Downloads view.
      -->
-<!ENTITY downloadsListNoMatch.label       "Nenhum donwload encontrado.">
+<!ENTITY downloadsListNoMatch.label       "Não foi possível localizar nenhum download coincidente.">

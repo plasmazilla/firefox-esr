@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  trackingProtectionHeader.label       "Usar a proteção contra rastreamento">
+<!ENTITY  trackingProtectionHeader.label       "Usar proteção contra rastreamento">
 <!ENTITY  trackingProtectionAlways.label       "Sempre">
 <!ENTITY  trackingProtectionAlways.accesskey   "y">
 <!ENTITY  trackingProtectionPrivate.label      "Somente em janelas privativas">
@@ -23,12 +23,12 @@
 <!-- LOCALIZATION NOTE (doNotTrack.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (doNotTrack.post.label): include a starting space as needed -->
 <!ENTITY  doNotTrack.pre.label          "Você também pode ">
-<!ENTITY  doNotTrack.settings.label     "gerenciar as configurações Não me rastreie">
+<!ENTITY  doNotTrack.settings.label     "gerenciar as configurações Não rastrear">
 <!ENTITY  doNotTrack.post.label         ".">
 
 <!ENTITY  history.label                 "Histórico">
 
-<!ENTITY  locationBar.label             "Barra de localização">
+<!ENTITY  locationBar.label             "Barra de endereço">
 
 <!ENTITY  locbar.suggest.label          "Ao digitar um endereço, sugerir:">
 <!ENTITY  locbar.history.label          "Histórico">
@@ -71,7 +71,7 @@
 <!ENTITY  historyHeader.custom.label       "Usar minhas configurações">
 <!ENTITY  historyHeader.post.label         "">
 
-<!ENTITY  rememberDescription.label      "O &brandShortName; irá memorizar o seu histórico de navegação, de downloads, de formulários e pesquisa e manter os cookies dos sites que visita.">
+<!ENTITY  rememberDescription.label      "O &brandShortName; memorizará o seu histórico de navegação, downloads, formulários, pesquisa e os cookies de sites visitados.">
 
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (rememberActions.middle.label): include a starting and trailing space as needed -->
@@ -86,17 +86,17 @@
 
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (dontrememberActions.post.label): include a starting space as needed -->
-<!ENTITY  dontrememberActions.pre.label          "Você pode querer também ">
+<!ENTITY  dontrememberActions.pre.label          "Você também pode querer ">
 <!ENTITY  dontrememberActions.clearHistory.label "limpar todo o histórico">
 <!ENTITY  dontrememberActions.post.label         ".">
 
 <!ENTITY  privateBrowsingPermanent2.label "Sempre usar o modo de navegação privativa">
 <!ENTITY  privateBrowsingPermanent2.accesskey "v">
 
-<!ENTITY  rememberHistory2.label      "Memorizar histórico e downloads efetuados">
+<!ENTITY  rememberHistory2.label      "Memorizar histórico de navegação e downloads">
 <!ENTITY  rememberHistory2.accesskey  "M">
 
-<!ENTITY  rememberSearchForm.label       "Memorizar dados fornecidos a páginas e à barra de pesquisa">
+<!ENTITY  rememberSearchForm.label       "Memorizar histórico de pesquisa e formulários">
 <!ENTITY  rememberSearchForm.accesskey   "z">
 
 <!ENTITY  clearOnClose.label             "Limpar histórico quando o &brandShortName; fechar">

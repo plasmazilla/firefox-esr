@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY AdvancedEditButton.label "დეტალური რედაქცია…">
+<!ENTITY AdvancedEditButton.accessKey "E">
+<!ENTITY AdvancedEditButton.tooltip "HTML ატრიბუტების, სტილის ატრიბუტებისა და JavaScript-ის დამატება ან შეცვლა">
+<!ENTITY chooseFileButton.label "ფაილის არჩევა...">
+<!ENTITY chooseFileButton.accessKey "F">
+<!ENTITY chooseFileLinkButton.label "ფაილის არჩევა...">
+<!ENTITY chooseFileLinkButton.accessKey "o">
+<!ENTITY makeUrlRelative.label "გვერდის ფარდობითი URL მისამართი">
+<!ENTITY makeUrlRelative.accessKey "r">
+<!ENTITY makeUrlRelative.tooltip "გადასვლა ფარდობით და აბსოლუტურ მისამართს შორის. ამისათვის ჯერ გვერდი უნდა დაიმახსოვროთ.">
+
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField.label "მიუთითეთ ვებგვერდის მისამართი, ლოკალური ფაილი, ან აირჩიეთ სახელობითი ღუზა ან თავსართი ჩამოშლადი სიიდან:">
+<!ENTITY LinkURLEditField.accessKey "w">

@@ -27,11 +27,11 @@
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Invoegen">
 <!ENTITY insertMenu.accesskey "I">
-<!ENTITY insertLinkCmd.label "Koppeling…">
-<!ENTITY insertLinkCmd.accesskey "K">
-<!ENTITY insertLinkCmd.key "l">
-<!ENTITY insertAnchorCmd.label "Ankerverwijzing…">
-<!ENTITY insertAnchorCmd.accesskey "n">
+<!ENTITY insertLinkCmd2.label "Koppeling…">
+<!ENTITY insertLinkCmd2.accesskey "K">
+<!ENTITY insertLinkCmd2.key "K">
+<!ENTITY insertAnchorCmd.label "Benoemd anker…">
+<!ENTITY insertAnchorCmd.accesskey "B">
 <!ENTITY insertImageCmd.label "Afbeelding…">
 <!ENTITY insertImageCmd.accesskey "A">
 <!ENTITY insertHLineCmd.label "Horizontale lijn">
@@ -139,8 +139,8 @@
 
 <!ENTITY formatRemoveStyles.key "y">
 <!ENTITY formatRemoveLinks.key "k">
-<!ENTITY formatRemoveNamedAnchors.label "Ankerverwijzingen verwijderen">
-<!ENTITY formatRemoveNamedAnchors.accesskey "w">
+<!ENTITY formatRemoveNamedAnchors.label "Benoemde ankers verwijderen">
+<!ENTITY formatRemoveNamedAnchors.accesskey "B">
 <!ENTITY formatRemoveNamedAnchors2.key "R">
 
 <!ENTITY paragraphMenu.label "Alinea">
@@ -268,7 +268,7 @@
 <!ENTITY tableDeleteMenu.label "Verwijderen">
 <!ENTITY tableDeleteMenu.accesskey "V">
 
-<!-- text for "Join Cells" is in editor.properties 
+<!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")
      the access key must exist in both of those strings
      But value must be set here for accesskey to draw properly
@@ -303,10 +303,10 @@
 <!ENTITY linkToolbarCmd.label "Koppeling">
 <!ENTITY linkToolbarCmd.tooltip "Nieuwe koppeling invoegen of eigenschappen van geselecteerde koppeling bewerken">
 <!ENTITY anchorToolbarCmd.label "Anker">
-<!ENTITY anchorToolbarCmd.tooltip "Nieuwe ankerverwijzing invoegen of eigenschappen van geselecteerde ankerverwijzing bewerken">
+<!ENTITY anchorToolbarCmd.tooltip "Nieuw benoemd anker invoegen of eigenschappen van geselecteerde anker bewerken">
 <!ENTITY TextColorButton.tooltip "Kleur voor tekst kiezen">
 <!ENTITY BackgroundColorButton.tooltip "Kleur voor achtergrond kiezen">
-<!ENTITY throbber.tooltip "Naar de &vendorShortName;-startpagina">
+<!ENTITY throbber.tooltip "Naar de &vendorShortName;-startpagina gaan">
 <!ENTITY HighlightColorButton.tooltip "Markeringskleur voor tekst kiezen">
 
 <!-- Editor toolbar -->
@@ -321,7 +321,7 @@
 <!ENTITY outdentToolbarCmd.tooltip "Tekst laten terugspringen (verplaatsen naar links)">
 <!ENTITY indentToolbarCmd.tooltip "Tekst laten inspringen (verplaatsen naar rechts)">
 <!ENTITY AlignPopupButton.tooltip "Tekstuitlijning kiezen">
-<!ENTITY InsertPopupButton.tooltip "Een koppeling, ankerverwijzing, afbeelding, horizontale lijn of tabel invoegen">
+<!ENTITY InsertPopupButton.tooltip "Een koppeling, anker, afbeelding, horizontale lijn of tabel invoegen">
 <!ENTITY alignLeftButton.tooltip "Tekst uitlijnen langs de linkermarge">
 <!ENTITY alignCenterButton.tooltip "Tekst gecentreerd uitlijnen">
 <!ENTITY alignRightButton.tooltip "Tekst uitlijnen langs de rechtermarge">

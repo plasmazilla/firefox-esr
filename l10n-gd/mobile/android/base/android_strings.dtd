@@ -206,14 +206,14 @@
 <!ENTITY pref_manage_logins "Stiùirich na clàraidhean a-steach">
 
 <!ENTITY pref_category_home "Dhachaigh">
-<!ENTITY pref_category_home_summary "Gnàthaich an duilleag-dhachaigh agad">
+<!ENTITY pref_category_home_summary "Gnàthaich an duilleag mhòr agad">
 <!ENTITY pref_category_home_panels "Panailean">
 <!ENTITY pref_category_home_add_ons "Tuilleadain">
 <!ENTITY pref_home_updates2 "Ùrachaidhean susbaint">
 <!ENTITY pref_home_updates_enabled "An comas">
 <!ENTITY pref_home_updates_wifi "Air WiFi a-mhàin">
-<!ENTITY pref_category_home_homepage "Duilleag-dhachaigh">
-<!ENTITY home_homepage_title "Suidhich duilleag-dhachaigh">
+<!ENTITY pref_category_home_homepage "An duilleag mhòr">
+<!ENTITY home_homepage_title "Suidhich an duilleag mhòr">
 <!-- Localization note (home_homepage_radio_user_address): The user will see a series of radio
      buttons to choose the homepage they'd like to start on. When they click the radio
      button for this string, they will use the built-in default Firefox homepage (about:home). -->
@@ -570,7 +570,7 @@ size. -->
 <!ENTITY button_clear "Falamhaich">
 <!ENTITY button_copy "Dèan lethbhreac">
 
-<!ENTITY home_top_sites_title "Sàr-làraichean">
+<!ENTITY home_top_sites_title "Brod nan làrach">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "Cuir làrach ris">
@@ -828,3 +828,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "Cruthaich comharran-leabhair san t-sealladh leughaidh is leugh iad far loidhne.">
 <!ENTITY helper_triple_readerview_open_button "Cuir ris na comharran-lìn">
 
+<!ENTITY activity_stream_topsites "Brod nan làrach">
+<!ENTITY activity_stream_highlights "Sàr-roghainn">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "Barrachd">

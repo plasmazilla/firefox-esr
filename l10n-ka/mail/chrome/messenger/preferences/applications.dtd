@@ -1,0 +1,38 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  typeColumn.label            "შიგთავსის ტიპი">
+<!ENTITY  typeColumn.accesskey        "T">
+
+<!ENTITY  actionColumn2.label         "ქმედება">
+<!ENTITY  actionColumn2.accesskey     "A">
+
+<!ENTITY  focusSearch1.key            "f">
+<!ENTITY  focusSearch2.key            "k">
+
+<!ENTITY  filter.placeholder          "ძიება">
+
+<!ENTITY saveTo.label                 "ფაილების შენახვა…">
+<!ENTITY saveTo.accesskey             "S">
+<!ENTITY alwaysAsk.label              "ყოველთვის დამეკითხე ფაილების შენახვისას">
+<!ENTITY alwaysAsk.accesskey          "A">
+<!ENTITY chooseFolderWin.label        "ნუსხა…">
+<!ENTITY chooseFolderWin.accesskey    "B">
+<!ENTITY chooseFolderMac.label        "შერჩევა…">
+<!ENTITY chooseFolderMac.accesskey    "C">
+
+<!ENTITY attachments.incoming.label   "შემოსული">
+<!ENTITY attachments.outgoing.label   "გასული">
+
+<!ENTITY addCloudFileAccount.label        "დამატება">
+<!ENTITY addCloudFileAccount.accesskey    "A">
+<!ENTITY addCloudFileAccount.description  "ფაილების ბმების საცავის ახალი მომსახურების დამატება">
+<!ENTITY removeCloudFileAccount.label     "ამოღება">
+<!ENTITY removeCloudFileAccount.accesskey "R">
+<!ENTITY authRequired.description         "თქვენი ავტორიზაცია აუცილებელია საცავის ამ მომსახურების პარამეტრების სანახავად.">
+<!ENTITY authRequired.button.label        "ავტორიზაცია">
+<!ENTITY authRequired.button.accesskey    "U">
+
+<!ENTITY enableCloudFileAccountOffer.label "შემოთავაზება ფაილებისთვის ზომით მეტი ვიდრე">
+<!ENTITY enableCloudFileAccountOffer.mb "მბ">

@@ -6,7 +6,7 @@
 %brandDTD;
 
 <!ENTITY loadError.label "Probleem by it laden fan de side">
-<!ENTITY retry.label "Probearje it op 'e nij">
+<!ENTITY retry.label "Probearje it opnij">
 
 <!-- Specific error messages -->
 
@@ -22,7 +22,7 @@
   <li>Kontrolearje it adres op typflaters as
     <strong>ww</strong>.example.com yn stee fan
     <strong>www</strong>.example.com</li>
-  <li>Kontrolearje jo netwurkferbining as jo gjin inkele side lade
+  <li>Kontrolearje jo netwurkferbining as jo gjin inkelde side lade
     kinne.</li>
   <li>Gean nei oft &brandShortName; tagong hat ta it web of jo 
     kompjûter of netwurk befeilige is troch in brânmuorre of proxyserver.</li>
@@ -63,26 +63,26 @@
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Dokumint ferrûn">
-<!ENTITY notCached.longDesc "<p>It fersochte dokumint is net beskikber yn &brandShortName;'s-buffer.</p><ul><li>Fanwege in feilichheidsfoarsoarchmaatregel sil &brandShortName; fertroulike dokuminten net automatysk opnij oanfreegje.</li><li>Klik om it dokumint opnij oan te freegjen fan de website.</li></ul>">
+<!ENTITY notCached.longDesc "<p>It fersochte dokumint is net beskikber yn &brandShortName;'s-buffer.</p><ul><li>Fanwegen in feilichheidsfoarsoarchmaatregel sil &brandShortName; fertroulike dokuminten net automatysk opnij oanfreegje.</li><li>Klik om it dokumint opnij oan te freegjen fan de website.</li></ul>">
 
-<!ENTITY netOffline.title "Offline-moadus">
+<!ENTITY netOffline.title "Offline-modus">
 <!ENTITY netOffline.longDesc2 "
 <ul>
-  <li>Klik &quot;Probearje opnij&quot; om nij online moadus te gean en laad de side opnij.</li>
+  <li>Klik &quot;Probearje opnij&quot; om nij online modus te gean en laad de side opnij.</li>
 </ul>
 ">
 
 <!ENTITY contentEncodingError.title "Ynhâldkodearingsflater">
 <!ENTITY contentEncodingError.longDesc "
 <ul>
-  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
+  <li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
 <!ENTITY unsafeContentType.title "Unfeilich bestânstype">
 <!ENTITY unsafeContentType.longDesc "
 <ul>
-  <li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li>
+  <li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li>
 </ul>
 ">
 
@@ -139,7 +139,7 @@
 <!ENTITY nssFailure2.longDesc2 "
 <ul>
   <li>De side dy't jo besjen wolle kin net toand wurde, omdat de werkomst fan de ûntfongen data net ferifiearre wurde kin.</li>
-  <li>Nim kontakt op mei de website-eigners om se te ynformearjen oer dit probleem.</li>
+  <li>Nim kontakt op mei de website-eigeners om se te ynformearjen oer dit probleem.</li>
 </ul>
 ">
 
@@ -155,7 +155,7 @@
 <ul>
   <li>Miskien is de website tydlik net beskikber. Probearje it letter 
     nochris.</li>
-  <li>Kontrolearje jo netwurkferbining as jo gjin inkele side lade kinne.</li>
+  <li>Kontrolearje jo netwurkferbining as jo gjin inkelde side lade kinne.</li>
   <li>Gean nei oft &brandShortName; tagong hat ta it web, of dat jo 
     kompjûter of netwurk befeilige is troch in brânmuorre of proxyserver.</li>
 </ul>
@@ -165,17 +165,16 @@
 <!ENTITY cspBlocked.longDesc "<p>De browser hat opkeard dat de side op dizze manier laden wurd, omdat de side in ynhâldsbefeiligingsbelied hat dat dit net tastiet.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "Skansearre-ynhâldsflater">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>De side dy't jo besjen wolle kin net werjûn wurde, omdat der in flater yn de gegevensoerdracht detektearre is.</p><ul><li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li></ul>">
-
+<!ENTITY corruptedContentErrorv2.longDesc "<p>De side dy't jo besjen wolle kin net werjûn wurde, omdat der in flater yn de gegevensoerdracht detektearre is.</p><ul><li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Of jo kinne in útsûndering tafoegje…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Helje My Hjir út!">
 <!ENTITY securityOverride.exceptionButtonLabel "Utsûndering tafoegje…">
 
-<!-- LOCALIZATION NOTE (securityOverride.warningText) - Do not translate the
-contents of the <xul:button> tags.  The only language content is the label= field,
-which uses strings already defined above. The button is included here (instead of
-netError.xhtml) because it exposes functionality specific to firefox. -->
+<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
+contents of the <button> tags. It uses strings already defined above. The
+button is included here (instead of netError.xhtml) because it exposes
+functionality specific to thunderbird. -->
 
 <!ENTITY securityOverride.warningContent "
 <p>Jo kinne better gjin útsûndering tafoegje as jo in ynternetferbining hawwe dy't jo net folslein fertrouwe, of as it net normaal is dat jo in warskôging sjogge foar dizze server.</p>
@@ -185,9 +184,9 @@ netError.xhtml) because it exposes functionality specific to firefox. -->
 ">
 
 <!ENTITY remoteXUL.title "Remote XUL">
-<!ENTITY remoteXUL.longDesc "<p><ul><li>Nim kontakt op mei de website-eigners om se oer dit probleem te ynformearjen.</li></ul></p>">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Nim kontakt op mei de website-eigeners om se oer dit probleem te ynformearjen.</li></ul></p>">
 
 <!ENTITY inadequateSecurityError.title "Jo ferbining is net feilich">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> brûkt ferâldere befeiligingstechnology dy't kwetsber is foar oanfallen. In oanfaller kin ienfâldichwei gegevens ûnthulle wêrfan jo tochten dat dizze feilich wienen. De websitebehearder moat earst de server yn oarder meitsje eardat jo de website besykje kinne.</p><p>Flaterkoade: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> brûkt ferâldere befeiligingstechnology dy't kwetsber is foar oanfallen. In oanfaller kin ienfâldichwei gegevens ûntdekke wêrfan jo tochten dat dizze feilich wiene. De websitebehearder moat earst de server yn oarder meitsje eardat jo de website besykje kinne.</p><p>Flaterkoade: NS_ERROR_NET_INADEQUATE_SECURITY</p>">

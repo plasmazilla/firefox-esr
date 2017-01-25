@@ -97,7 +97,7 @@
 <!ENTITY overlay_share_select_device "Seleccione dispositivo">
 <!ENTITY overlay_no_synced_devices "No se han encontrado dispositivos conectados a Firefox Accounts">
 <!ENTITY pref_category_search3 "Buscar">
-<!ENTITY pref_category_search_summary2 "Añadir, estabecer predet., mostrar sugerencias">
+<!ENTITY pref_category_search_summary2 "Añadir, establecer predet., mostrar sugerencias">
 <!ENTITY pref_category_accessibility "Accesibilidad">
 <!ENTITY pref_category_accessibility_summary2 "Tamaño, entrada por voz">
 <!ENTITY pref_category_privacy_short "Privacidad">
@@ -233,7 +233,7 @@
 <!ENTITY pref_import_options "Opciones de importación">
 <!ENTITY pref_import_android_summary "Importar marcadores e historial del navegador nativo">
 <!ENTITY pref_private_data_history2 "Historial de navegación">
-<!ENTITY pref_private_data_searchHistory "Buscar en historial">
+<!ENTITY pref_private_data_searchHistory "Historial de búsquedas">
 <!ENTITY pref_private_data_formdata2 "Historial de formularios">
 <!ENTITY pref_private_data_cookies2 "Cookies y sesiones activas">
 <!ENTITY pref_private_data_passwords2 "Credenciales guardadas">
@@ -480,3 +480,6 @@
 <!ENTITY helper_triple_readerview_open_title "Disponible sin conexión">
 <!ENTITY helper_triple_readerview_open_message "Añada a Marcadores elementos de la vista de lectura para leerlos sin conexión.">
 <!ENTITY helper_triple_readerview_open_button "Añadir a marcadores">
+<!ENTITY activity_stream_topsites "Frecuentes">
+<!ENTITY activity_stream_highlights "Destacados">
+<!ENTITY activity_stream_more "Más">

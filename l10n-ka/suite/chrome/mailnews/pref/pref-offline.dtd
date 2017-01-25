@@ -1,0 +1,38 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from content/pref-offline.xul -->
+
+<!--LOCALIZATION NOTE : FILE The 'Offline' preferences dialog -->
+<!ENTITY pref.network.title               "ავტონომიური რეჟიმი და ადგილი დისკზე">
+<!ENTITY pref.offline.caption             "ავტონომიური რეჟიმი ">
+<!ENTITY textStartUp                      "სეანსის დაწყებისას:">
+<!ENTITY textStartUp.accesskey            "W">
+<!ENTITY menuitemRememberPrevState        "წინა რეჟიმის სტატუსის შენახვა">
+<!ENTITY menuitemAskMe                    "დამეკითხე კავშირის რეჟიმზე გადასვლას დაწყებისას">
+<!ENTITY menuitemAlwaysOnline             "დაწყება ყოველთვის კავშირის რეჟიმში">
+<!ENTITY menuitemAlwaysOffline            "დაწყება ყოველთვის ავტონომიურ რეჟიმში">
+<!ENTITY menuitemAutomatic                "თვითამოცნობა (თუ შესაძლებელია)">
+<!ENTITY textGoingOnline                  "გაიგზავნოს გასაგზავნი წერილები კავშირის რეჟიმში შესვლისას?">
+<!ENTITY radioAutoSend                    "დიახ">
+<!ENTITY radioAutoSend.accesskey          "Y">
+<!ENTITY radioNotSend                     "არა">
+<!ENTITY radioNotSend.accesskey           "N">
+<!ENTITY radioAskUnsent                   "დამეკითხე">
+<!ENTITY radioAskUnsent.accesskey         "s">
+<!ENTITY textGoingOffline                 "ჩამოიტვირთოს წერილები ავტონომიურ რეჟიმში სამუშაოდ?">
+<!ENTITY radioAutoDownload                "დიახ">
+<!ENTITY radioAutoDownload.accesskey      "e">
+<!ENTITY radioNotDownload                 "არა">
+<!ENTITY radioNotDownload.accesskey       "o">
+<!ENTITY radioAskDownload                 "დამეკითხე">
+<!ENTITY radioAskDownload.accesskey       "k">
+<!ENTITY mailConnections.caption          "საფოსტო კავშირი">
+<!ENTITY mailnewsTimeout.label            "კავშირის ვადა:">
+<!ENTITY mailnewsTimeout.accesskey        "m">
+<!ENTITY mailnewsTimeoutSeconds.label     "წამი">
+<!ENTITY Diskspace                        "ადგილი დისკზე">
+<!ENTITY offlineCompactFolders.label      "ყველა დასტის შემჭიდროება თუ გამოთავისუფლდება">
+<!ENTITY offlineCompactFolders.accesskey  "C">
+<!ENTITY offlineCompactFoldersMB.label    "მბ მაინც">

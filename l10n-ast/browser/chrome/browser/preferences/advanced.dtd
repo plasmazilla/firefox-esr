@@ -10,7 +10,7 @@
 
 <!ENTITY useCursorNavigation.label       "Usar siempre les tecles del cursor pa restolar dientro de les páxines">
 <!ENTITY useCursorNavigation.accesskey   "c">
-<!ENTITY searchStartTyping.label         "Guetar testu mientres s'escribe">
+<!ENTITY searchStartTyping.label         "Guetar testu entrín teclexe">
 <!ENTITY searchStartTyping.accesskey     "G">
 <!ENTITY blockAutoRefresh.label          "Avisame de qué páxines intenten redireicionar o recargar">
 <!ENTITY blockAutoRefresh.accesskey      "v">
@@ -25,7 +25,7 @@
 <!ENTITY useSmoothScrolling.accesskey    "l">
 <!ENTITY allowHWAccel.label              "Usar aceleración de hardware cuando tea disponible">
 <!ENTITY allowHWAccel.accesskey          "h">
-<!ENTITY checkSpelling.label             "Comprobar la ortografía mientres s'escribe">
+<!ENTITY checkSpelling.label             "Comprobar ortografía entrín teclexo">
 <!ENTITY checkSpelling.accesskey         "t">
 
 <!ENTITY dataChoicesTab.label            "Eleición de datos">
@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "C">
 <!ENTITY telemetryLearnMore.label        "Deprender más">
 
-<!ENTITY crashReporterDesc.label         "&brandShortName; unvia informes de casques p'ayudar a &vendorShortName; a facer más estable y seguru'l to restolador">
-<!ENTITY enableCrashReporter.label       "Activar l'informe de fallos">
-<!ENTITY enableCrashReporter.accesskey   "C">
-<!ENTITY crashReporterLearnMore.label    "Deprender más">
+<!ENTITY crashReporterDesc2.label         "Los informes de fallu ayuden a &vendorShortName; a iguar problemes y facer más estable y seguru'l to restolador.">
+<!ENTITY alwaysSubmitCrashReports.label   "Permitir que &brandShortName; unvie casques atrasaos nel to nome">
+<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+<!ENTITY crashReporterLearnMore.label     "Deprender más">
 
 <!ENTITY networkTab.label                "Rede">
 

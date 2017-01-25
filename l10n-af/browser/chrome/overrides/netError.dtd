@@ -24,7 +24,8 @@
 <!ENTITY fileNotFound.title "Lêer nie gevind nie">
 <!ENTITY fileNotFound.longDesc "<ul> <li>Kontroleer die lêernaam vir bokas of onderkas of ander tikfoute.</li> <li>Kontroleer of die lêer verskuif, hernoem of geskrap is.</li> </ul>">
 
-
+<!ENTITY fileAccessDenied.title "Toegang tot die lêer is geweier">
+<!ENTITY fileAccessDenied.longDesc "<ul> <li>Dit is moontlik verwyder, geskuif, of dalk verbied lêertoegangsregte toegang.</li> </ul>">
 
 <!ENTITY generic.title "Oeps.">
 <!ENTITY generic.longDesc "<p>&brandShortName; kan vanweë 'n onbekende rede nie hierdie bladsy laai nie.</p>">
@@ -68,8 +69,10 @@
 <!ENTITY unknownSocketType.title "Onverwagse respons vanaf bediener">
 <!ENTITY unknownSocketType.longDesc "<ul> <li>Kontroleer of die persoonlike sekuriteitbestuurder op u rekenaar geïnstalleer is.</li> <li>Dit kan wees vanweë 'n niestandaard-opstelling op die bediener.</li> </ul>">
 
+<!ENTITY nssFailure2.title "Kon nie beveilig koppel nie">
 <!ENTITY nssFailure2.longDesc2 "<ul> <li>Die bladsy wat u probeer bekyk, kan nie gewys word nie omdat die egtheid van die ontvangde data nie geverifieer kon word nie.</li> <li>Kontak die webwerf se eienaars om hulle oor die probleem in te lig.</li> </ul>">
 
+<!ENTITY certerror.longpagetitle1 "Die verbinding is nie beveilig nie">
 <!-- Localization note (certerror.introPara) - The text content of the span tag
 will be replaced at runtime with the name of the server to which the user
 was trying to connect. -->
@@ -107,12 +110,16 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (certerror.wrongSystemTime) - The <span id='..' /> tags will be injected with actual values,
      please leave them unchanged. -->
 
-<!ENTITY certerror.pagetitle1  "Onveilige verbinding">
+<!ENTITY certerror.wrongSystemTime "<p>'n Beveiligde verbinding na <span id='wrongSystemTime_URL'/> is nie moontlik nie omdat dit lyk of die horlosie verkeerd is.</p> <p>Die rekenaar dink dit is <span id='wrongSystemTime_systemDate'/>, maar dit moet <span id='wrongSystemTime_actualDate'/> wees. Om dit reg te maak, stel die datum en tyd om reg te wees.</p>">
 
+<!ENTITY certerror.pagetitle1  "Onveilige verbinding">
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Dié werf gebruik HTTP Strict Transport Security (HSTS) om te spesifiseer dat &brandShortName; slegs beveiligd mag koppel. Gevolglik is dit nie moontlik om 'n uitsondering vir dié sertifikaat by te voeg nie.">
 <!ENTITY certerror.copyToClipboard.label "Kopieer teks na die knipbord">
 
 <!ENTITY inadequateSecurityError.title "Die verbinding is nie beveilig nie">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> gebruik verouderde sekuriteittegnologie en is kwesbaar vir aanvalle. 'n Aanvaller kan maklik inligting bekom wat mens sou dink veilig was. Die webwerfadministrateur sal die bediener eers moet regmaak voordat die werf besoek kan word.</p><p>Foutkode: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
-
+<!ENTITY prefReset.longDesc "Dit lyk of u instellings vir netwerksekuriteit dit dalk veroorsaak. Wil u die verstekinstellings herstel?">
+<!ENTITY prefReset.label "Herstel verstekinstellings">

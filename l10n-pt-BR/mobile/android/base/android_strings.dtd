@@ -15,7 +15,7 @@
 <!ENTITY firstrun_sync_title "Sync">
 <!ENTITY firstrun_sync_message "&brandShortName;, sempre ao seu lado">
 <!ENTITY firstrun_sync_subtext "Sincronize sua abas, senhas e muito mais em todos os lugares que usá-lo.">
-<!ENTITY firstrun_signin_message "Conecte-se à Internet para usar o Sync">
+<!ENTITY firstrun_signin_message "Conecte-se para começar">
 <!ENTITY firstrun_signin_button "Entrar no Sync">
 <!ENTITY  onboard_start_button_browser "Iniciar navegação">
 <!ENTITY firstrun_button_notnow "Agora não">
@@ -430,7 +430,7 @@ size. -->
      en-US/chrome/browser/preferences/advanced.dtd (healthReportSection.label,
      healthReportDesc.label, telemetrySection.label, telemetryDesc.label,
      crashReporterDesc.label). -->
-<!ENTITY datareporting_fhr_title "Relatório de integridade do &brandShortName;">
+<!ENTITY datareporting_fhr_title "&brandShortName; Health Report">
 <!ENTITY datareporting_fhr_summary2 "Compartilha dados com a &vendorShortName; sobre o estado do seu navegador e ajuda a entender o desempenho dele">
 <!ENTITY datareporting_abouthr_title "Ver relatório de integridade">
 <!ENTITY datareporting_telemetry_title "Telemetria">
@@ -831,3 +831,8 @@ do Android">
 <!ENTITY helper_triple_readerview_open_message "Marcar itens do leitor para lê-los offline.">
 <!ENTITY helper_triple_readerview_open_button "Adicionar aos favoritos">
 
+<!ENTITY activity_stream_topsites "Sites preferidos">
+<!ENTITY activity_stream_highlights "Destaques">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "Mais">

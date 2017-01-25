@@ -8,10 +8,10 @@ Closes: #763900
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/memory/mozjemalloc/jemalloc.c b/memory/mozjemalloc/jemalloc.c
-index f15b133b00ed..9b83bb48a052 100644
+index 816a76f39c57..749ce9ee4af6 100644
 --- a/memory/mozjemalloc/jemalloc.c
 +++ b/memory/mozjemalloc/jemalloc.c
-@@ -1090,7 +1090,7 @@ static const bool config_recycle = false;
+@@ -1096,7 +1096,7 @@ static const bool config_recycle = false;
   * controlling the malloc behavior are defined as compile-time constants
   * for best performance and cannot be altered at runtime.
   */

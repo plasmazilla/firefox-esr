@@ -5,7 +5,7 @@
 <!ENTITY minimizeWindow.key       "m">
 <!ENTITY minimizeWindow.label     "ย่อ">
 <!ENTITY bringAllToFront.label    "นำทั้งหมดมาข้างหน้า">
-<!ENTITY zoomWindow.label         "ขยาย">
+<!ENTITY zoomWindow.label         "ซูม">
 <!ENTITY windowMenu.label         "หน้าต่าง">
 
 <!ENTITY helpMenu.label           "ช่วยเหลือ"> 
@@ -15,7 +15,7 @@
 <!ENTITY helpMenuWin.label        "ช่วยเหลือ"> 
 <!ENTITY helpMenuWin.accesskey    "ช">
 <!ENTITY aboutProduct2.label      "เกี่ยวกับ &brandShorterName;">
-<!ENTITY aboutProduct2.accesskey  "ก">
+<!ENTITY aboutProduct2.accesskey  "A">
 <!ENTITY productHelp2.label       "การช่วยเหลือของ &brandShorterName;">
 <!ENTITY productHelp2.accesskey   "ช">
 <!ENTITY helpMac.commandkey       "?">

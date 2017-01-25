@@ -132,7 +132,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
 
-<!ENTITY fullscreenWarning.beforeDomain.label "">
+<!ENTITY fullscreenWarning.beforeDomain.label "‌">
 <!ENTITY fullscreenWarning.afterDomain.label "ngoku siskrini esipheleleyo">
 <!ENTITY fullscreenWarning.generic.label "Olu xwebhu ngoku lusiskrini esipheleleyo">
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
@@ -149,7 +149,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
 
-<!ENTITY pointerlockWarning.beforeDomain.label "">
+<!ENTITY pointerlockWarning.beforeDomain.label "‌">
 <!ENTITY pointerlockWarning.afterDomain.label "ilawula ipoyinta yakho. Cofa uEsc ukuze uphinde uthathe ulawulo.">
 <!ENTITY pointerlockWarning.generic.label "Olu xwebhu lulawula ipoyinta yakho. Cofa uEsc ukuze uphinde uthathe ulawulo.">
 
@@ -161,7 +161,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Faka ibhukhmakhi kweli khasi">
 <!ENTITY editThisBookmarkCmd.label "Hlela Le Bhukhmakhi">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY markPageCmd.commandkey "l">
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
@@ -207,32 +206,34 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY printButton.tooltip          "Printa eli phepha">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "Jonga inkcazelo yesayithi">
-<!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
-     used to provide accessible labels to users of assistive technology like screenreaders.
-     It is not possible to see them visually in the UI. -->
-<!ENTITY urlbar.defaultNotificationAnchor.label         "Jonga isaziso">
-<!ENTITY urlbar.geolocationNotificationAnchor.label     "Jonga isicelo sendawo">
-<!ENTITY urlbar.addonsNotificationAnchor.label          "Jonga umyalezo wokufakela isongezelelo">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label       "Jonga umyalezo wogcino lwe-app engekho kwinethwekhi">
-<!ENTITY urlbar.loginFillNotificationAnchor.label       "Lawula inkcazelo yakho yokuloga ungene">
-<!ENTITY urlbar.passwordNotificationAnchor.label        "Khangela enoba ufuna ukugcina iphaswedi yakho">
-<!ENTITY urlbar.pluginsNotificationAnchor.label         "Lawula ukusetyenziswa kwezifakelo kweli phepha">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label        "Tshintsha enoba ungafumana isaziso kule sayithi">
 
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label      "Lawula ukwabelana ngekhamera yakho kunye/okanye imayikhrofowuni yakho nesayithi">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label    "Wabelana ngekhamera yakho kunye/okanye imayikhrofowuni nesayithi">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label   "Lawula ukwabelana ngemayikhrofowuni yakho nesayithi">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Wabelana ngemayikhrofowuni yakho nesayithi">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label       "Lawula ukwabelana kwakho ngeefestile okanye iskrini nesayithi">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label     "Wabelana ngefestile okanye iskrini sakho kunye nesayithi">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "Iphanele yomyalezo ovulekileyo">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "Iphanele yesicelo yendawo evulekileyo">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "Vula iphanele yokongezelela umyalezo wokufakela">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "Vula iphanele yomyalezo wokugcina ngaphandle kwe-intanethi">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Vula iphanele yokulondoloza umyalezo wephasiwedi">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Lawula ukusetyenziswa kwezinto eziplagwayo">
+<!ENTITY urlbar.webNotificationAnchor.tooltip             "Tshintsha enoba ungafumana isaziso kule sayithi">
 
-<!ENTITY urlbar.pointerLockNotificationAnchor.label     "Tshintsha enoba isayithi inokusifihla isalathi">
-<!ENTITY urlbar.servicesNotificationAnchor.label        "Jonga umyalezo wokufakela inkonzo">
-<!ENTITY urlbar.translateNotificationAnchor.label       "Guqulela eli khasi">
-<!ENTITY urlbar.translatedNotificationAnchor.label      "Lawula ukuguqulelwa kwekhasi">
-<!ENTITY urlbar.emeNotificationAnchor.label             "Lawula ukusetyenziswa kwesoftwe ye-DRM">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Lawula ukwabelana ngekhamera yakho kunye/okanye imayikhrofowuni yakho nesayithi">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Lawula ukwabelana ngemayikhrofowuni yakho nesayithi">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "Lawula ukwabelana kwakho ngeefestile okanye iskrini nesayithi">
+
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "Vula iphanele yomyalezo wokufakela">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip       "Guqulela eli khasi">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Lawula ukuguqulelwa kwekhasi">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip             "Lawula ukusetyenziswa kwesoftwe ye-DRM">
+
+<!ENTITY urlbar.cameraBlocked.tooltip            "Uyibhlokile ikhamera yakho kule webhusayithi.">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "Uyibhlokile imayikhrofoni yakho kule webhusayithi.">
+<!ENTITY urlbar.screenBlocked.tooltip            "Uyibhlokile le webhusayithi ekwabelaneni ngesikrini sakho.">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "Uyibhlokile inkcazelo yendawo kule webhusayithi.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "Ukubhlokile ukugcinwa kwedatha kule webhusayithi.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Uzibhlokile izaziso kule webhusayithi.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Bonisa imbali">
+
+<!ENTITY urlbar.zoomReset.tooltip     "Seta ngokutsha umlinganiselo wokubona kude nakufutshane">
 
 <!ENTITY searchItem.title             "Khangela">
 <!-- Toolbar items --> 
@@ -280,8 +281,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label         "Ifayile"> 
 <!ENTITY fileMenu.accesskey       "I">
-
-
+<!ENTITY newUserContext.label             "Ithebhu Entsha Neyekhonteyina">
+<!ENTITY newUserContext.accesskey         "a">
 <!ENTITY newNavigatorCmd.label        "Ifestile entsha">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "I">
@@ -424,12 +425,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey       "k">
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
-<!-- LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
-     These are set as the aria-label attribute for the search input box and
-     submit button in the in-content search UI, to be used by screen readers. -->
+<!-- LOCALIZATION NOTE (contentSearchInput.label):
+     This is set as the aria-label attribute for the search input box in the
+     in-content search UI, to be used by screen readers. -->
 
 <!ENTITY contentSearchInput.label     "Umbuzo wokukhangela">
-<!ENTITY contentSearchSubmit.label    "Faka ukukhangela">
+<!ENTITY contentSearchSubmit.tooltip  "Faka ukukhangela">
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
      search providers:  "Search for <used typed keywords> with:" -->
@@ -444,7 +445,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      as:  "Search <selected engine name><searchAfter.label text>" -->
 
 <!ENTITY search.label                 "Khangela">
-<!ENTITY searchAfter.label            "">
+<!ENTITY searchAfter.label            "‌‌">
 <!-- LOCALIZATION NOTE (searchWithHeader.label):
      The wording of this string should be as close as possible to
      searchFor.label and searchWith.label. This string will be used instead of
@@ -455,6 +456,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
 <!ENTITY changeSearchSettings.button  "Tshintsha iisethingi zokukhangela">
+<!ENTITY changeSearchSettings.tooltip "Tshintsha iisethingi zokukhangela">
 
 <!ENTITY searchInNewTab.label         "Khangela KweNtsha Nethebhu">
 <!ENTITY searchInNewTab.accesskey     "T">
@@ -620,17 +622,17 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomEnlargeCmd.commandkey  "+">
 <!-- + is above this key on many keyboards -->
 <!ENTITY fullZoomEnlargeCmd.commandkey2 "="> 
-<!ENTITY fullZoomEnlargeCmd.commandkey3 "">
+<!ENTITY fullZoomEnlargeCmd.commandkey3 "‌‌">
 
 <!ENTITY fullZoomReduceCmd.label        "Bhekelisela Kudana">
 <!ENTITY fullZoomReduceCmd.accesskey    "K">
 <!ENTITY fullZoomReduceCmd.commandkey   "-">
-<!ENTITY fullZoomReduceCmd.commandkey2  "">
+<!ENTITY fullZoomReduceCmd.commandkey2  "‌‌">
 
 <!ENTITY fullZoomResetCmd.label         "Seta kwakhona">
 <!ENTITY fullZoomResetCmd.accesskey     "S">
 <!ENTITY fullZoomResetCmd.commandkey    "0">
-<!ENTITY fullZoomResetCmd.commandkey2   "">
+<!ENTITY fullZoomResetCmd.commandkey2   "‌‌‌">
 
 <!ENTITY fullZoomToggleCmd.label        "Yandisa/nciphisa umbhalo kuphela">
 <!ENTITY fullZoomToggleCmd.accesskey    "u">
@@ -733,6 +735,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions "Iimvume">
 <!ENTITY identity.permissionsEmpty "Akunikanga le sayithi nayiphi na imvume ekhethekileyo.">
+<!ENTITY identity.permissionsReloadHint "Kusenokufuneka uphinde ulifake eli phepha ukuze utshintsho lubonakale.">
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
 
@@ -776,21 +779,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncReAuthItem.accesskey     "Q">
 <!ENTITY syncToolbarButton.label      "Ungqamaniso">
 
-<!ENTITY socialToolbar.title        "Iqhosha lethulbha yokudlala">
-
-<!ENTITY social.ok.label       "Kulungile">
-<!ENTITY social.ok.accesskey   "K">
-
-<!ENTITY social.toggleSidebar.label "Bonisa ibha yasecaleni">
-<!ENTITY social.toggleSidebar.accesskey "i">
-
 <!ENTITY social.addons.label "Lawula Iinkonzo…">
-
-<!ENTITY social.toggleNotifications.label "Bonisa izaziso zedesktopu">
-<!ENTITY social.toggleNotifications.accesskey "i">
-
-<!ENTITY social.learnMore.label "Funda ngakumbi…">
-<!ENTITY social.learnMore.accesskey "F">
 
 <!ENTITY social.directory.label "Uluhlu lokwenza zisebenze">
 <!ENTITY social.directory.text "Ungazenza iinkonzo zoKwabelana zisebenze kuluhlu.">
@@ -811,15 +800,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Fumana Neminye Imixholo">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
-
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Incoko yengqwalaselo">
-<!ENTITY social.chatBar.accesskey "c">
-
-<!ENTITY social.markpageMenu.accesskey "U">
-<!ENTITY social.markpageMenu.label "Gcina Utyhile Iphepha…">
-<!ENTITY social.marklinkMenu.accesskey "U">
-<!ENTITY social.marklinkMenu.label "Gcina Ungene Kwikhonkco…">
 
 <!ENTITY getUserMedia.selectCamera.label "Ikhamera yokubolekisana:">
 <!ENTITY getUserMedia.selectCamera.accesskey "I">
@@ -854,8 +834,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.block.label "Vumela ukhuseleko">
 <!ENTITY trackingContentBlocked.block.accesskey "V">
 <!ENTITY trackingContentBlocked.disabled.message "Ukulandela ukhuselo akusebenzi">
-
-<!ENTITY pointerLock.notification.message "Cofa ESC nangaliphi na ixesha ukuze uphinde uyiveze.">
 
 <!ENTITY pluginNotification.showAll.label "Bonisa Konke">
 <!ENTITY pluginNotification.showAll.accesskey "B">

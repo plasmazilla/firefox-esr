@@ -6,14 +6,14 @@ Subject: [NSS] GNU/kFreeBSD support
  security/nss/coreconf/Linux.mk       | 17 +++++++++++++----
  security/nss/coreconf/arch.mk        |  8 ++++++++
  security/nss/coreconf/config.mk      |  2 +-
- security/nss/lib/freebl/unix_rand.c  |  3 ++-
+ security/nss/lib/freebl/unix_rand.c  |  2 +-
  security/nss/lib/softoken/softoken.h |  2 +-
  security/nss/lib/ssl/sslmutex.c      |  2 +-
  security/nss/lib/ssl/sslmutex.h      |  2 +-
- 7 files changed, 27 insertions(+), 9 deletions(-)
+ 7 files changed, 26 insertions(+), 9 deletions(-)
 
 diff --git a/security/nss/coreconf/Linux.mk b/security/nss/coreconf/Linux.mk
-index c3ae5b651d16..41dfb51ce845 100644
+index 438dab48afc0..36cd5218b160 100644
 --- a/security/nss/coreconf/Linux.mk
 +++ b/security/nss/coreconf/Linux.mk
 @@ -106,7 +106,7 @@ ifneq ($(OS_TARGET),Android)
@@ -69,10 +69,10 @@ index c3ae5b651d16..41dfb51ce845 100644
  
  ifdef MAPFILE
 diff --git a/security/nss/coreconf/arch.mk b/security/nss/coreconf/arch.mk
-index 56cf87c9387b..893b1ea2f356 100644
+index 06c276f80db7..b25eb0df07bd 100644
 --- a/security/nss/coreconf/arch.mk
 +++ b/security/nss/coreconf/arch.mk
-@@ -123,6 +123,14 @@ ifeq ($(OS_ARCH),Linux)
+@@ -115,6 +115,14 @@ ifeq ($(OS_ARCH),Linux)
      ifneq ($(words $(OS_RELEASE)),1)
  	OS_RELEASE := $(word 1,$(OS_RELEASE)).$(word 2,$(OS_RELEASE))
      endif
@@ -88,7 +88,7 @@ index 56cf87c9387b..893b1ea2f356 100644
  
  #
 diff --git a/security/nss/coreconf/config.mk b/security/nss/coreconf/config.mk
-index 62237425e2c7..7a0f93278131 100644
+index 09b733d5ca98..7af99c4da65e 100644
 --- a/security/nss/coreconf/config.mk
 +++ b/security/nss/coreconf/config.mk
 @@ -31,7 +31,7 @@ endif
@@ -101,24 +101,23 @@ index 62237425e2c7..7a0f93278131 100644
  ifeq (,$(filter-out $(TARGET_OSES),$(OS_TARGET)))
  include $(CORE_DEPTH)/coreconf/$(OS_TARGET).mk
 diff --git a/security/nss/lib/freebl/unix_rand.c b/security/nss/lib/freebl/unix_rand.c
-index e76c96aa71e5..230cf3a5e4bf 100644
+index 3f625bf979bd..eaa9fa7942e9 100644
 --- a/security/nss/lib/freebl/unix_rand.c
 +++ b/security/nss/lib/freebl/unix_rand.c
-@@ -159,7 +159,8 @@ static SECStatus RNG_kstat(PRUint32* fed)
+@@ -160,7 +160,7 @@ RNG_kstat(PRUint32 *fed)
  
- #if defined(SCO) || defined(UNIXWARE) || defined(BSDI) || defined(FREEBSD) \
-     || defined(NETBSD) || defined(DARWIN) || defined(OPENBSD) \
--    || defined(NTO) || defined(__riscos__)
-+    || defined(NTO) || defined(__riscos__) || defined(__GNU__) \
-+    || defined(__FreeBSD_kernel__) || defined(__NetBSD_kernel__)
+ #endif
+ 
+-#if defined(SCO) || defined(UNIXWARE) || defined(BSDI) || defined(FREEBSD) || defined(NETBSD) || defined(DARWIN) || defined(OPENBSD) || defined(NTO) || defined(__riscos__)
++#if defined(SCO) || defined(UNIXWARE) || defined(BSDI) || defined(FREEBSD) || defined(NETBSD) || defined(DARWIN) || defined(OPENBSD) || defined(NTO) || defined(__riscos__) || defined(__GNU__) || defined(__FreeBSD_kernel__) || defined(__NetBSD_kernel__)
  #include <sys/times.h>
  
  #define getdtablesize() sysconf(_SC_OPEN_MAX)
 diff --git a/security/nss/lib/softoken/softoken.h b/security/nss/lib/softoken/softoken.h
-index 6757a20d0ed4..246f53dd3453 100644
+index 0e943d3cbca1..9aad7d2ea93b 100644
 --- a/security/nss/lib/softoken/softoken.h
 +++ b/security/nss/lib/softoken/softoken.h
-@@ -184,7 +184,7 @@ extern PRBool sftk_fatalError;
+@@ -183,7 +183,7 @@ extern PRBool sftk_fatalError;
  
  #define CHECK_FORK_MIXED
  

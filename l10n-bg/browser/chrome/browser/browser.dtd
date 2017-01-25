@@ -29,7 +29,7 @@ left instead of right. -->
 <!ENTITY  closeTabsToTheEnd.label            "Затваряне на разделите отдясно">
 <!ENTITY  closeTabsToTheEnd.accesskey        "д">
 <!ENTITY  closeOtherTabs.label               "Затваряне на другите раздели">
-<!ENTITY  closeOtherTabs.accesskey           "З">
+<!ENTITY  closeOtherTabs.accesskey           "д">
 
 <!-- LOCALIZATION NOTE (pinTab.label, unpinTab.label): "Pin" is being
 used as a metaphor for expressing the fact that these tabs are "pinned" to the
@@ -50,7 +50,7 @@ can reach it easily. -->
 <!ENTITY  moveToNewWindow.accesskey          "н">
 <!ENTITY  bookmarkAllTabs.label              "Отмятане на всички раздели…">
 <!ENTITY  bookmarkAllTabs.accesskey          "О">
-<!ENTITY  undoCloseTab.label                 "Отмяна на затварянето на раздел">
+<!ENTITY  undoCloseTab.label                 "Отваряне на затворен раздел">
 <!ENTITY  undoCloseTab.accesskey             "О">
 <!ENTITY  closeTab.label                     "Затваряне на раздела">
 <!ENTITY  closeTab.accesskey                 "З">
@@ -89,7 +89,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY toolbarContextMenu.reloadAllTabs.accesskey "в">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.label "Отмятане на всички раздели…">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.accesskey "О">
-<!ENTITY toolbarContextMenu.undoCloseTab.label "Отмяна затварянето на раздел">
+<!ENTITY toolbarContextMenu.undoCloseTab.label "Отваряне на затворен раздел">
 <!ENTITY toolbarContextMenu.undoCloseTab.accesskey "О">
 
 <!ENTITY pageSourceCmd.label "Изходен код на страницата">
@@ -115,7 +115,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fxaSignIn.label "Вписване в &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Отваряне настройките на &syncBrand.shortName.label;">
-<!ENTITY fxaSignInError.label "Свързване наново с &syncBrand.shortName.label;">
+<!ENTITY fxaSignInError.label "Свързване наново със &syncBrand.shortName.label;">
 <!ENTITY fxaUnverified.label "Проверка на сметка">
 
 
@@ -161,7 +161,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label "Отмятане на страницата">
 <!ENTITY editThisBookmarkCmd.label "Редактиране на отметката">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY markPageCmd.commandkey "l">
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
@@ -207,32 +206,34 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY printButton.tooltip          "Отпечатване на страницата">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "Показване информация за уебсайта">
-<!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
-     used to provide accessible labels to users of assistive technology like screenreaders.
-     It is not possible to see them visually in the UI. -->
-<!ENTITY urlbar.defaultNotificationAnchor.label         "Показване на известие">
-<!ENTITY urlbar.geolocationNotificationAnchor.label     "Показване заявката за местоположение">
-<!ENTITY urlbar.addonsNotificationAnchor.label          "Показване инсталационното съобщение на добавката">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label       "Показване съобщение за хранилището на приложение">
-<!ENTITY urlbar.loginFillNotificationAnchor.label       "Управление на информацията за влизане">
-<!ENTITY urlbar.passwordNotificationAnchor.label        "Щракнете, ако искате паролата да се запомни">
-<!ENTITY urlbar.pluginsNotificationAnchor.label         "Управление използването на приставката в тази страница">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label        "Промяна на правото да получавате известия от сайта">
 
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label      "Управление споделянето на вашата камера и/или микрофон със сайта">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label    "Споделяте вашата камера и/или микрофон със сайта">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label   "Управление споделянето на вашия микрофон със сайта">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Споделяте вашия микрофон със сайта">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label       "Управление споделянето на вашите прозорци или екран със сайта">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label     "Споделяте прозорец или вашия екран със сайта">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "Отваряне на панел със съобщението">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "Отваряне на панел със заявката за местоположение">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "Отваряне на панел със съобщението за инсталиране на добавка">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "Отваряне на панел със съобщението за работа без мрежа">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Отваряне на панел със съобщението за запазване на парола">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Управление на използването на приставки">
+<!ENTITY urlbar.webNotificationAnchor.tooltip             "Промяна на правото да получавате известия от сайта">
 
-<!ENTITY urlbar.pointerLockNotificationAnchor.label     "Определяне дали сайтът може да скрива показалеца">
-<!ENTITY urlbar.servicesNotificationAnchor.label        "Показване съобщението за инсталиране на услуга">
-<!ENTITY urlbar.translateNotificationAnchor.label       "Превод на страницата">
-<!ENTITY urlbar.translatedNotificationAnchor.label      "Управление превеждането на страници">
-<!ENTITY urlbar.emeNotificationAnchor.label             "Управление използването на софтуер с DRM">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Управление споделянето на вашата камера и/или микрофон със сайта">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Управление споделянето на вашия микрофон със сайта">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "Управление споделянето на вашите прозорци или екран със сайта">
+
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "Отваряне на панел със съобщението за инсталиране">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip       "Превод на страницата">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Управление превеждането на страници">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip             "Управление използването на софтуер с DRM">
+
+<!ENTITY urlbar.cameraBlocked.tooltip            "Забранили сте на този сайт достъп до камерата ви.">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "Забранили сте на този сайт достъп до микрофона ви.">
+<!ENTITY urlbar.screenBlocked.tooltip            "Забранили сте на този сайт споделянето на екрана ви.">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "Забранили сте на този сайт достъп до местоположението ви.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "Забранили сте на този сайт достъп до хранилището.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "Забранили сте на този сайт да ви изпраща известия.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "Показване на историята">
+
+<!ENTITY urlbar.zoomReset.tooltip     "Нулиране на мащабирането">
 
 <!ENTITY searchItem.title             "Търсене">
 
@@ -425,11 +426,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!-- LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
-     These are set as the aria-label attribute for the search input box and
-     submit button in the in-content search UI, to be used by screen readers. -->
+<!-- LOCALIZATION NOTE (contentSearchInput.label):
+     This is set as the aria-label attribute for the search input box in the
+     in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label     "Заявка за търсене">
-<!ENTITY contentSearchSubmit.label    "Изпращане заявка за търсене">
+<!ENTITY contentSearchSubmit.tooltip  "Изпращане заявка за търсене">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -455,6 +456,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
 <!ENTITY changeSearchSettings.button  "Настройки на търсене">
+<!ENTITY changeSearchSettings.tooltip "Настройки на търсене">
 
 <!ENTITY searchInNewTab.label         "Търсене в нов раздел">
 <!ENTITY searchInNewTab.accesskey     "р">
@@ -529,7 +531,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY saveImageCmd.accesskey       "ж">
 <!ENTITY saveVideoCmd.label           "Запазване на видеото като…">
 <!ENTITY saveVideoCmd.accesskey       "в">
-<!ENTITY saveAudioCmd.label           "Запис на аудиото като…">
+<!ENTITY saveAudioCmd.label           "Запазване на аудиото като…">
 <!ENTITY saveAudioCmd.accesskey       "а">
 <!ENTITY emailImageCmd.label          "Изпращане на изображението като мейл…">
 <!ENTITY emailImageCmd.accesskey      "ж">
@@ -599,7 +601,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaHideControls.accesskey "к">
 <!ENTITY videoFullScreen.label       "Цял екран">
 <!ENTITY videoFullScreen.accesskey   "Ц">
-<!ENTITY videoSaveImage.label        "Запис на снимката като…">
+<!ENTITY videoSaveImage.label        "Запазване на снимката като…">
 <!ENTITY videoSaveImage.accesskey    "с">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
@@ -716,7 +718,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.passiveLoaded "Връзката не е поверителна и споделяната информация със сайта може да бъде видяна от други.">
 <!ENTITY identity.description.passiveLoaded2 "Уебсайтът има нешифрирано съдържание, като например изображения.">
 <!ENTITY identity.description.passiveLoaded3 "&brandShortName; блокира част от съдържанието, но все още има съдържание, което не е шифрирано, като например изображения.">
-<!ENTITY identity.description.activeLoaded "Уебсайтът има съдържание, като например скриптове, което не е шифрирано, и връзката със сайта не е поверителна.">
+<!ENTITY identity.description.activeLoaded "Уебсайтът има съдържание, например скриптове, което не е шифровано, и връзката със сайта не е поверителна.">
 <!ENTITY identity.description.activeLoaded2 "Споделяната със сайта информация, като например пароли, съобщения, кредитни карти и др., може да бъде виждана от други.">
 
 <!ENTITY identity.enableMixedContentBlocking.label "Включване на защита">
@@ -725,13 +727,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.disableMixedContentBlocking.accesskey "И">
 <!ENTITY identity.learnMore "Научете повече">
 
-<!ENTITY identity.removeCertException.label "Премахване на изключение">
-<!ENTITY identity.removeCertException.accesskey "х">
+<!ENTITY identity.removeCertException.label "Премахване на изключението">
+<!ENTITY identity.removeCertException.accesskey "П">
 
 <!ENTITY identity.moreInfoLinkText2 "Повече информация">
 
 <!ENTITY identity.permissions "Права">
 <!ENTITY identity.permissionsEmpty "Не сте дали специфични права на този сайт.">
+<!ENTITY identity.permissionsReloadHint "За да бъдат приложени промените може да се наложи да презаредите страницата.">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
@@ -771,28 +774,14 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncSignIn.accesskey         "В">
 <!ENTITY syncSyncNowItem.label        "Синхронизиране">
 <!ENTITY syncSyncNowItem.accesskey    "С">
-<!ENTITY syncReAuthItem.label         "Свързване наново с &syncBrand.shortName.label;…">
+<!ENTITY syncReAuthItem.label         "Свързване наново със &syncBrand.shortName.label;…">
 <!ENTITY syncReAuthItem.accesskey     "С">
 <!ENTITY syncToolbarButton.label      "Sync">
 
-<!ENTITY socialToolbar.title        "Бутон за социални мрежи">
-
-<!ENTITY social.ok.label       "Добре">
-<!ENTITY social.ok.accesskey   "о">
-
-<!ENTITY social.toggleSidebar.label "Показване на страничната лента">
-<!ENTITY social.toggleSidebar.accesskey "П">
-
 <!ENTITY social.addons.label "Управление на услуги…">
 
-<!ENTITY social.toggleNotifications.label "Показване на оповестявянията на работния плот">
-<!ENTITY social.toggleNotifications.accesskey "р">
-
-<!ENTITY social.learnMore.label "Научете повече...">
-<!ENTITY social.learnMore.accesskey "Н">
-
 <!ENTITY social.directory.label "Списък с услуги">
-<!ENTITY social.directory.text "Можете да включите Услугите за споделяне от този списък.">
+<!ENTITY social.directory.text "Може да включите Услугите за споделяне от този списък.">
 <!ENTITY social.directory.button "Натам!">
 <!ENTITY social.directory.introText "Щракнете на услуга, за да я добавите към &brandShortName;.">
 <!ENTITY social.directory.viewmore.text "Други услуги">
@@ -800,7 +789,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.menuAndToolbars.header2 "Допълнителни инструменти и възможности">
 <!ENTITY customizeMode.menuAndToolbars.empty "Искате още инструменти?">
 <!ENTITY customizeMode.menuAndToolbars.emptyLink "Изберете измежду хиляди добавки">
-<!ENTITY customizeMode.restoreDefaults "Връщане до стандартни настройки">
+<!ENTITY customizeMode.restoreDefaults "Връщане на стандартни настройки">
 <!ENTITY customizeMode.toolbars "Показване / скриване на ленти с инструменти">
 <!ENTITY customizeMode.titlebar "Лента със заглавието">
 <!ENTITY customizeMode.lwthemes "Теми">
@@ -810,15 +799,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "У">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Още теми">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "О">
-
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Акцентиране върху графиката">
-<!ENTITY social.chatBar.accesskey "ц">
-
-<!ENTITY social.markpageMenu.accesskey "с">
-<!ENTITY social.markpageMenu.label "Запазване на страницата в…">
-<!ENTITY social.marklinkMenu.accesskey "в">
-<!ENTITY social.marklinkMenu.label "Запазване на препратката…">
 
 <!ENTITY getUserMedia.selectCamera.label "Камера за споделяне:">
 <!ENTITY getUserMedia.selectCamera.accesskey "К">
@@ -853,8 +833,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.block.label "Включване на защита">
 <!ENTITY trackingContentBlocked.block.accesskey "В">
 <!ENTITY trackingContentBlocked.disabled.message "Защитата от проследяване е изключена">
-
-<!ENTITY pointerLock.notification.message "Натиснете ESC по всяко време за да се покаже отново.">
 
 <!ENTITY pluginNotification.showAll.label "Показване на всичко">
 <!ENTITY pluginNotification.showAll.accesskey "П">

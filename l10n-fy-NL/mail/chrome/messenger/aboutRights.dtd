@@ -1,16 +1,15 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 <!-- rights.locale-direction instead of the usual local.dir entity, so RTL can skip translating page. -->
 <!ENTITY rights.locale-direction "ltr">
-<!ENTITY rights.title       "Oer jo rjochten">
-<!ENTITY rights.intro-header    "Oer jo rjochten">
+<!ENTITY rights.title            "Oer jo rjochten">
+<!ENTITY rights.intro-header     "Oer jo rjochten">
 <!ENTITY rights.intro "&brandFullName; is fergees en iepen boarne software, makke troch in mienskip fan tûzenen fan oeral oer de wrâld. Der binne in pear dingen dy't jo witte moatte:">
 
 <!-- Note on pointa / pointb / pointc form:
      These points each have an embedded link in the HTML, so each point is
-     split into chunks for text before the link, the link test, and the text
+     split into chunks for text before the link, the link text, and the text
      after the link. If a localized grammar doesn't need the before or after
      chunk, it can be left blank.
 
@@ -20,7 +19,7 @@
 <!ENTITY rights.intro-point1b "Mozilla Publike Lisinsje">
 <!ENTITY rights.intro-point1c ". Dit betsjut dat jo &brandShortName; brûke meie, kopiearje en distribuearje nei oaren.  Jo binne ek wolkom om de boarnekoade te bewurkjen of &brandShortName; sa as jo dat wolle. De Mozilla Publike Lisinsje jout jo ek it rjocht om jo oanpaste ferzje te fersprieden.">
 
-<!ENTITY rights.intro-point2a "Mozilla jout jo gjin inkele rjochten om de Mozilla en Firefox hannelsmerken og logo's te brûken. Fierdere ynformaasje oer hannelsmerken kin ">
+<!ENTITY rights.intro-point2a "Mozilla jout jo gjin inkelde rjochten om de Mozilla en Firefox hannelsmerken of logo's te brûken. Fierdere ynformaasje oer hannelsmerken kin ">
 <!ENTITY rights.intro-point2b "hjir">
 <!ENTITY rights.intro-point2c " fûn wurde.">
 
@@ -30,7 +29,7 @@
 <!ENTITY rights.intro-point3c " fûn wurde.">
 
 <!-- point 3 text for unbranded builds -->
-<!ENTITY rights.intro-point3-unbranded "Tapaste privacy betingsten foar dit produkt soenen hjir toant wurde moatte.">
+<!ENTITY rights.intro-point3-unbranded "Tapaste privacybetingsten foar dit produkt soene hjir toand wurde moatte.">
 
 <!-- point 4 text for official branded builds -->
 <!ENTITY rights.intro-point4a "&brandShortName; biedt ek opsjonele tsjinsten, lykas de add-on-fernijingtsjinst; wy kinne echter net garandearje dat dizze 100&#37; nauwkeurig of flaterfrij binne. Mear details, wêrûnder ynformaasje oer it útskeakeljen fan de tsjinsten, binne te finen yn de ">
@@ -39,24 +38,24 @@
 
 <!-- point 4 text for unbranded builds -->
 <!ENTITY rights.intro-point4a-unbranded "As dit produkt webtsjinsten brûkt, moat elke tapaste tsjinsttermen foar de tsjinst(en) keppele nei de ">
-<!ENTITY rights.intro-point4b-unbranded "Webstee Tsjinsten">
+<!ENTITY rights.intro-point4b-unbranded "Websitetsjinsten">
 <!ENTITY rights.intro-point4c-unbranded " seksje.">
 
-<!ENTITY rights.webservices-header "&brandFullName; Webstee Tsjinsten">
+<!ENTITY rights.webservices-header "&brandFullName;-websitetsjinsten">
 
 <!-- Note that this paragraph references a couple of entities from
      preferences/security.dtd, so that we can refer to text the user sees in
      the UI, without this page being forgotten every time those strings are
      updated.  -->
 <!-- intro paragraph for branded builds -->
-<!ENTITY rights.webservices-a "&brandFullName; biedt opsjonele tsjinsten (&quot;Tsjinsten&quot;), lykas de fernijingstsjinst foar tafoegingen, dy't beskikber binne foar jo gebrûk mei dizze binêre ferzje fan &brandShortName; sa as hjirûnder beskreaun. As jo de Tsjinsten net brûke wolle of de betingsten hjiûnder net akseptabel fine, kinne jo de fernijingstsjinst foar tafoegingen útskeakelje troch by foarkarren ">
+<!ENTITY rights.webservices-a "&brandFullName; biedt opsjonele tsjinsten (&quot;Tsjinsten&quot;), lykas de fernijingstsjinst foar add-ons, dy't beskikber binne foar jo gebrûk mei dizze binêre ferzje fan &brandShortName; sa as hjirûnder beskreaun. As jo de Tsjinsten net brûke wolle of de betingsten hjirûnder net akseptabel fine, kinne jo de fernijingstsjinst foar add-ons útskeakelje troch by foarkarren ">
 <!ENTITY rights.webservices-b "Avansearre">
 <!ENTITY rights.webservices-c " te selektearjen, folge troch it ljepblêd">
 <!ENTITY rights.webservices-d "Fernijing">
 <!ENTITY rights.webservices-e " en de opsjes foar &quot;Automatysk kontrolearje op fernijingen&quot; te deselektearjen.">
 
 <!-- intro paragraph for unbranded builds -->
-<!ENTITY rights.webservices-unbranded "In oersicht fan de webstee tsjinsten dy't yn it produkt sitte, tegearre mei ynstruksjes oer hoe't jo se útskeakelje kinne, indien mooglik, soe hjir stean moatte.">
+<!ENTITY rights.webservices-unbranded "In oersicht fan de websitetsjinsten dy't yn it produkt sitte, tegearre mei ynstruksjes oer hoe't jo se útskeakelje kinne, wannear mooglik, soe hjir stean moatte.">
 
 <!-- point 1 text for unbranded builds -->
 <!ENTITY rights.webservices-term1-unbranded "Tapaste tsjinstbetingsten moatte hjir oanjûn wurde.">

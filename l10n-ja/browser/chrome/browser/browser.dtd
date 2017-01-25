@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
-<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys --> 
+<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
 
 <!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
 <!ENTITY mainWindow.title		"&brandFullName;">
@@ -161,7 +161,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarkThisPageCmd.label	"このページをブックマーク">
 <!ENTITY editThisBookmarkCmd.label	"このブックマークを編集">
 <!ENTITY bookmarkThisPageCmd.commandkey	"d">
-<!ENTITY markPageCmd.commandkey		"l">
 <!-- LOCALIZATION NOTE (findShareServices.label):
   -  Use the unicode ellipsis char, \u2026,
   -  or use "..." if \u2026 doesn't suit traditions in your locale. -->
@@ -207,36 +206,38 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY printButton.tooltip          "このページを印刷します">
 
 <!ENTITY urlbar.viewSiteInfo.label                      "サイトの情報を表示">
-<!-- LOCALIZATION NOTE: all of the following urlbar NotificationAnchor.label strings are
-     used to provide accessible labels to users of assistive technology like screenreaders.
-     It is not possible to see them visually in the UI. -->
-<!ENTITY urlbar.defaultNotificationAnchor.label         "通知を表示">
-<!ENTITY urlbar.geolocationNotificationAnchor.label     "位置情報の要求を表示">
-<!ENTITY urlbar.addonsNotificationAnchor.label          "アドオンのインストールのメッセージを表示">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label       "オフラインストレージのメッセージを表示">
-<!ENTITY urlbar.loginFillNotificationAnchor.label       "ログイン情報を管理">
-<!ENTITY urlbar.passwordNotificationAnchor.label        "パスワードを保存したいときは確認する">
-<!ENTITY urlbar.pluginsNotificationAnchor.label         "このページで使用するプラグインの管理">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label        "サイトからの通知の設定を変更">
 
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label      "カメラとマイクの共有を管理">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label    "カメラとマイクをサイトと共有中">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label   "マイクの共有を管理">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "マイクをサイトと共有中">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label       "ウィンドウとスクリーンの共有を管理">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label     "ウィンドウまたはスクリーンをサイトと共有中">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "メッセージパネルを開きます">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "位置情報の要求パネルを開きます">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "アドオンのインストールのメッセージパネルを開きます">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "オフラインストレージのメッセージパネルを開きます">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip        "パスワードの保存メッセージパネルを開きます">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "使用するプラグインを管理します">
+<!ENTITY urlbar.webNotificationAnchor.tooltip             "サイトからの通知の設定を変更します">
 
-<!ENTITY urlbar.pointerLockNotificationAnchor.label     "ポインタ非表示の設定を変更">
-<!ENTITY urlbar.servicesNotificationAnchor.label        "サービスのインストールのメッセージを表示">
-<!ENTITY urlbar.translateNotificationAnchor.label       "このページを翻訳">
-<!ENTITY urlbar.translatedNotificationAnchor.label      "ページ翻訳の管理">
-<!ENTITY urlbar.emeNotificationAnchor.label             "DRM ソフトウェアの管理">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "カメラとマイクの共有を管理します">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "マイクの共有を管理します">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "ウィンドウと画面の共有を管理します">
+
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "インストールメッセージパネルを開きます">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip       "このページを翻訳します">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip      "ページ翻訳を管理します">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip             "DRM ソフトウェアを管理します">
+
+<!ENTITY urlbar.cameraBlocked.tooltip            "このウェブサイトでのカメラの共有をブロックしました。">
+<!ENTITY urlbar.microphoneBlocked.tooltip        "このウェブサイトでのマイクの共有をブロックしました。">
+<!ENTITY urlbar.screenBlocked.tooltip            "このウェブサイトでの画面の共有をブロックしました。">
+<!ENTITY urlbar.geolocationBlocked.tooltip       "このウェブサイトでの位置情報の共有をブロックしました。">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "このウェブサイトでのデータストレージの使用をブロックしました。">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "このウェブサイトから通知をブロックしました。">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "履歴を表示します">
 
+<!ENTITY urlbar.zoomReset.tooltip     "拡大/縮小をリセットします">
+
 <!ENTITY searchItem.title             "検索">
 
-<!-- Toolbar items --> 
+<!-- Toolbar items -->
 <!ENTITY homeButton.label             "ホーム">
 
 <!ENTITY bookmarksButton.label		"ブックマーク">
@@ -247,7 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "ブックマークサイドバーを表示">
 <!ENTITY viewBookmarksToolbar.label         "ブックマークツールバーを表示">
 
-<!ENTITY containersMenu.label "コンテナ">
+<!ENTITY containersMenu.label "コンテナー">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -259,7 +260,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historySidebarCmd.commandKey   "h">
 
 <!ENTITY toolsMenu.label              "ツール">
-<!ENTITY toolsMenu.accesskey          "T"> 
+<!ENTITY toolsMenu.accesskey          "T">
 
 <!ENTITY keywordfield.label           "この検索にキーワードを設定...">
 <!ENTITY keywordfield.accesskey       "K">
@@ -272,7 +273,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY addons.accesskey             "A">
 <!ENTITY addons.commandkey            "A">
 
-<!ENTITY webDeveloperMenu.label		"Web 開発">
+<!ENTITY webDeveloperMenu.label		"ウェブ開発">
 <!ENTITY webDeveloperMenu.accesskey	"W">
 
 <!ENTITY inspectContextMenu.label	"要素を調査">
@@ -280,7 +281,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label			"ファイル">
 <!ENTITY fileMenu.accesskey		"F">
-<!ENTITY newUserContext.label		"新しいコンテナタブ">
+<!ENTITY newUserContext.label		"新しいコンテナータブ">
 <!ENTITY newUserContext.accesskey	"B">
 <!ENTITY newNavigatorCmd.label		"新しいウィンドウ">
 <!ENTITY newNavigatorCmd.key		"N">
@@ -376,7 +377,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY customizeMenu.moveToToolbar.accesskey	"o">
 <!-- LOCALIZATION NOTE (customizeMenu.moveToPanel.accesskey) can appear on the
      same context menu as menubarCmd and personalbarCmd, so they should have
-     different access keys. customizeMenu.moveToToolbar and 
+     different access keys. customizeMenu.moveToToolbar and
      customizeMenu.moveToPanel are mutually exclusive, so can share access
      keys.  -->
 <!ENTITY customizeMenu.moveToPanel.label	"メニューに移動">
@@ -401,7 +402,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.searchSuggestionsNotification.enable	"はい">
 <!ENTITY urlbar.searchSuggestionsNotification.enable.accesskey "y">
 
-<!-- 
+<!--
   Comment duplicated from browser-sets.inc:
 
   Search Command Key Logic works like this:
@@ -425,11 +426,11 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchFocus.commandkey2      "e">
 <!ENTITY searchFocusUnix.commandkey   "j">
 
-<!-- LOCALIZATION NOTE (contentSearchInput.label, contentSearchSubmit.label):
-     These are set as the aria-label attribute for the search input box and
-     submit button in the in-content search UI, to be used by screen readers. -->
+<!-- LOCALIZATION NOTE (contentSearchInput.label):
+     This is set as the aria-label attribute for the search input box in the
+     in-content search UI, to be used by screen readers. -->
 <!ENTITY contentSearchInput.label	"検索クエリ">
-<!ENTITY contentSearchSubmit.label	"検索を実行">
+<!ENTITY contentSearchSubmit.tooltip	"検索を実行します">
 
 <!-- LOCALIZATION NOTE (searchFor.label, searchWith.label):
      These two strings are used to build the header above the list of one-click
@@ -455,6 +456,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      This string won't wrap, so if the translated string is longer,
      consider translating it as if it said only "Search Settings". -->
 <!ENTITY changeSearchSettings.button  "検索設定を変更">
+<!ENTITY changeSearchSettings.tooltip "検索設定を変更します">
 
 <!ENTITY searchInNewTab.label         "新しいタブで検索">
 <!ENTITY searchInNewTab.accesskey     "T">
@@ -473,7 +475,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "T">
 <!ENTITY openFrameCmd.label           "フレームを新しいウィンドウで開く">
 <!ENTITY openFrameCmd.accesskey       "W">
-<!ENTITY openLinkCmdInContainerTab.label "リンクを新しいコンテナタブで開く">
+<!ENTITY openLinkCmdInContainerTab.label "リンクを新しいコンテナータブで開く">
 <!ENTITY openLinkCmdInContainerTab.accesskey "z">
 <!ENTITY showOnlyThisFrameCmd.label     "このフレームだけを表示">
 <!ENTITY showOnlyThisFrameCmd.accesskey "S">
@@ -482,7 +484,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY reloadFrameCmd.accesskey     "R">
 <!ENTITY viewPartialSourceForSelectionCmd.label "選択した部分のソースを表示">
 <!ENTITY viewPartialSourceForMathMLCmd.label    "MathML のソースを表示">
-<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both 
+<!-- LOCALIZATION NOTE (viewPartialSourceCmd.accesskey): This accesskey is used for both
          viewPartialSourceForSelectionCmd.label and viewPartialSourceForMathMLCmd.label -->
 <!ENTITY viewPartialSourceCmd.accesskey "e">
 <!ENTITY viewPageSourceCmd.label      "ページのソースを表示">
@@ -548,7 +550,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyImageCmd.label           "画像の URL をコピー">
 <!ENTITY copyImageCmd.accesskey       "o">
 <!ENTITY copyImageContentsCmd.label   "画像をコピー">
-<!ENTITY copyImageContentsCmd.accesskey  "y"> 
+<!ENTITY copyImageContentsCmd.accesskey  "y">
 <!ENTITY copyVideoURLCmd.label        "動画の URL をコピー">
 <!ENTITY copyVideoURLCmd.accesskey    "o">
 <!ENTITY copyAudioURLCmd.label        "オーディオの URL をコピー">
@@ -662,7 +664,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label		"標準スタイルシート">
 <!ENTITY pageStylePersistentOnly.accesskey	"b">
 
-<!ENTITY pageReportIcon.tooltip		"この Web サイトでのポップアップブロック設定を変更します">
+<!ENTITY pageReportIcon.tooltip		"このウェブサイトでのポップアップブロック設定を変更します">
 
 <!ENTITY allowPopups.accesskey		"p">
 <!-- On Windows we use the term "Options" to describe settings, but
@@ -696,7 +698,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.connectionSecure		"安全な接続">
 <!ENTITY identity.connectionNotSecure		"この接続は安全ではありません">
-<!ENTITY identity.connectionFile		"これはあなたのコンピュータに保存されているページです。">
+<!ENTITY identity.connectionFile		"これはあなたのコンピューターに保存されているページです。">
 <!ENTITY identity.connectionVerified2		"このサイトとの接続は安全です。このサイトの運営者:">
 <!ENTITY identity.connectionInternal		"このページは &brandShortName; の安全な内部ページです。">
 <!ENTITY identity.insecureLoginForms2		"このページのログインフォームは安全ではありません。">
@@ -710,13 +712,13 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Strings for connection state warnings in the subview. -->
 <!ENTITY identity.description.insecure		"このサイトへの接続は秘密が保たれません。このサイトに送信した情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。">
 <!ENTITY identity.description.insecureLoginForms "このページに入力したログイン情報は安全に送信されません。第三者に盗み見られる可能性があります。">
-<!ENTITY identity.description.weakCipher	"この Web サイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。">
-<!ENTITY identity.description.weakCipher2	"第三者にあなたの情報を盗み見られたり Web サイトの動作を改ざんされる可能性があります。">
+<!ENTITY identity.description.weakCipher	"このウェブサイトとの接続には脆弱な暗号が使用されており、秘密が保たれません。">
+<!ENTITY identity.description.weakCipher2	"第三者にあなたの情報を盗み見られたりウェブサイトの動作を改ざんされる可能性があります。">
 <!ENTITY identity.description.activeBlocked	"&brandShortName; がこのページ上の安全でないコンテンツをブロックしました。">
 <!ENTITY identity.description.passiveLoaded	"この接続は安全ではないため、サイトと共有したあなたの情報が第三者に盗み見られる可能性があります。">
-<!ENTITY identity.description.passiveLoaded2	"この Web サイトには安全でないコンテンツ (画像など) が含まれています。">
+<!ENTITY identity.description.passiveLoaded2	"このウェブサイトには安全でないコンテンツ (画像など) が含まれています。">
 <!ENTITY identity.description.passiveLoaded3	"&brandShortName; が一部のコンテンツをブロックしていますが、ページ上には安全でないコンテンツ (画像など) が含まれています。">
-<!ENTITY identity.description.activeLoaded	"この Web サイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。">
+<!ENTITY identity.description.activeLoaded	"このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、サイトとの接続は秘密が保たれません。">
 <!ENTITY identity.description.activeLoaded2	"このサイトと共有したあなたの情報 (パスワードやメッセージ、クレジットカード情報など) が第三者に盗み見られる可能性があります。">
 
 <!ENTITY identity.enableMixedContentBlocking.label	"保護を有効にする">
@@ -732,16 +734,17 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.permissions			"サイト別設定">
 <!ENTITY identity.permissionsEmpty		"このサイトに特別な権限は設定されていません。">
+<!ENTITY identity.permissionsReloadHint		"変更内容を適用するには、ページの再読み込みが必要です。">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
      The word "toolbar" is appended automatically and should not be contained below! -->
-<!ENTITY tabsToolbar.label			"ブラウザタブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
+<!ENTITY tabsToolbar.label			"ブラウザータブ"><!-- (^m^) Bug 565042  音声読み上げ用ラベル -->
 
 <!-- LOCALIZATION NOTE (syncTabsMenu3.label): This appears in the history menu -->
 <!ENTITY syncTabsMenu3.label			"同期タブ">
 
 <!ENTITY syncedTabs.sidebar.label              "同期タブ">
-<!ENTITY syncedTabs.sidebar.noclients.label    "他の端末から Firefox にログインすると、このブラウザでタブを表示できます。">
+<!ENTITY syncedTabs.sidebar.noclients.label    "他の端末から Firefox にログインすると、このブラウザーでタブを表示できます。">
 <!ENTITY syncedTabs.sidebar.noclients.title    "同期タブはまだありません">
 <!ENTITY syncedTabs.sidebar.noclients.subtitle "他の端末のタブを表示しますか？">
 <!ENTITY syncedTabs.sidebar.notsignedin.label  "ログインすると、他の端末のタブの一覧を表示できます。">
@@ -775,21 +778,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncReAuthItem.accesskey		"R">
 <!ENTITY syncToolbarButton.label		"Sync">
 
-<!ENTITY socialToolbar.title			"ソーシャルツールバーボタン">
-
-<!ENTITY social.ok.label			"OK">
-<!ENTITY social.ok.accesskey			"O">
-
-<!ENTITY social.toggleSidebar.label		"サイドバーを表示する">
-<!ENTITY social.toggleSidebar.accesskey		"s">
-
 <!ENTITY social.addons.label			"サービスを管理...">
-
-<!ENTITY social.toggleNotifications.label	"デスクトップ通知を表示する">
-<!ENTITY social.toggleNotifications.accesskey	"n">
-
-<!ENTITY social.learnMore.label			"詳細...">
-<!ENTITY social.learnMore.accesskey		"l">
 
 <!ENTITY social.directory.label			"共有サービス">
 <!ENTITY social.directory.text			"一覧から共有サービスを有効にできます。">
@@ -810,15 +799,6 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore	"その他のテーマを入手">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "G">
-
-<!ENTITY social.chatBar.commandkey		"c">
-<!ENTITY social.chatBar.label			"チャットを入力">
-<!ENTITY social.chatBar.accesskey		"c">
-
-<!ENTITY social.markpageMenu.accesskey		"P">
-<!ENTITY social.markpageMenu.label		"ページを保存する...">
-<!ENTITY social.marklinkMenu.accesskey		"L">
-<!ENTITY social.marklinkMenu.label		"リンクを保存する...">
 
 <!ENTITY getUserMedia.selectCamera.label		"共有するカメラ:">
 <!ENTITY getUserMedia.selectCamera.accesskey		"C">
@@ -848,13 +828,11 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY trackingContentBlocked.moreinfo		"あなたのオンライン行動をトラッキングしているページの一部分をブロックしました。">
 <!ENTITY trackingContentBlocked.learnMore		"詳細">
 <!ENTITY trackingContentBlocked.options			"オプション">
-<!ENTITY trackingContentBlocked.unblock2.label		"この Web サイトでは保護を無効にする">
+<!ENTITY trackingContentBlocked.unblock2.label		"このウェブサイトでは保護を無効にする">
 <!ENTITY trackingContentBlocked.unblock2.accesskey	"D">
 <!ENTITY trackingContentBlocked.block.label		"保護を有効にする">
 <!ENTITY trackingContentBlocked.block.accesskey		"E">
 <!ENTITY trackingContentBlocked.disabled.message	"トラッキングの保護は無効です">
-
-<!ENTITY pointerLock.notification.message	"ESC キーを押すと、毎回確認するようになります。">
 
 <!ENTITY pluginNotification.showAll.label	"すべて表示">
 <!ENTITY pluginNotification.showAll.accesskey	"S">

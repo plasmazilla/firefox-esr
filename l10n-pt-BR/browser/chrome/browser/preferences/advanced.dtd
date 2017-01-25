@@ -23,16 +23,16 @@
 <!ENTITY useAutoScroll.accesskey         "a">
 <!ENTITY useSmoothScrolling.label        "Rolagem suave">
 <!ENTITY useSmoothScrolling.accesskey    "R">
-<!ENTITY allowHWAccel.label              "Quando disponível, usar aceleração por hardware">
+<!ENTITY allowHWAccel.label              "Usar aceleração de hardware quando disponível">
 <!ENTITY allowHWAccel.accesskey          "Q">
 <!ENTITY checkSpelling.label             "Verificar ortografia ao digitar">
 <!ENTITY checkSpelling.accesskey         "e">
 
 <!ENTITY dataChoicesTab.label            "Escolha de dados">
 
-<!ENTITY healthReportDesc.label          "Ajuda você a entender o desempenho do navegador e compartilha dados com a &vendorShortName; sobre a integridade do navegador">
-<!ENTITY enableHealthReport.label        "Ativar Relatório de Integridade do &brandShortName;">
-<!ENTITY enableHealthReport.accesskey    "I">
+<!ENTITY healthReportDesc.label          "Ajuda a compreender o desempenho do navegador e compartilha dados com a &vendorShortName; sobre a saúde do navegador">
+<!ENTITY enableHealthReport.label        "Ativar o &brandShortName; Health Report">
+<!ENTITY enableHealthReport.accesskey    "R">
 <!ENTITY healthReportLearnMore.label     "Saber mais">
 
 <!ENTITY telemetryDesc.label             "Compartilha com a &vendorShortName; informações sobre o navegador que ajudarão a melhorar o &brandShortName;: dados sobre desempenho, padrões de uso, hardware e personalizações.">
@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Saber mais">
 
-<!ENTITY crashReporterDesc.label         "O &brandShortName; envia relatórios de travamento para ajudar a &vendorShortName; a tornar o seu navegador mais estável e seguro">
-<!ENTITY enableCrashReporter.label       "Ativar Crash Reporter">
-<!ENTITY enableCrashReporter.accesskey   "C">
-<!ENTITY crashReporterLearnMore.label    "Saber mais">
+<!ENTITY crashReporterDesc2.label         "O Crash reports ajuda a &vendorShortName; na solução de problemas e a tornar o seu navegador mais estável e seguro">
+<!ENTITY alwaysSubmitCrashReports.label   "Permitir ao &brandShortName; enviar relatórios de travamento em seu nome">
+<!ENTITY alwaysSubmitCrashReports.accesskey "c">
+<!ENTITY crashReporterLearnMore.label     "Saber mais">
 
 <!ENTITY networkTab.label                "Rede">
 

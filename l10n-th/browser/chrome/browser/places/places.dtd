@@ -27,21 +27,21 @@
 <!ENTITY view.sortDescending.label      "เรียงลำดับ ฮ > ก">
 <!ENTITY view.sortDescending.accesskey  "ฮ">
 
-<!ENTITY importBookmarksFromHTML.label     "นำเข้าคั่นหน้าเว็บจาก HTML…">
+<!ENTITY importBookmarksFromHTML.label     "นำเข้าที่คั่นหน้าจาก HTML…">
 <!ENTITY importBookmarksFromHTML.accesskey "ข">
-<!ENTITY exportBookmarksToHTML.label       "ส่งออกคั่นหน้าเว็บเป็น HTML…">
+<!ENTITY exportBookmarksToHTML.label       "ส่งออกที่คั่นหน้าเป็น HTML…">
 <!ENTITY exportBookmarksToHTML.accesskey   "ส">
 <!ENTITY importOtherBrowser.label          "นำเข้าข้อมูลจากเบราว์เซอร์อื่น…">
 <!ENTITY importOtherBrowser.accesskey      "น">
 
 <!ENTITY cmd.backup.label               "สำรองข้อมูล…">
 <!ENTITY cmd.backup.accesskey           "ส">
-<!ENTITY cmd.restore2.label             "คืนค่าเดิม">
+<!ENTITY cmd.restore2.label             "เรียกคืน">
 <!ENTITY cmd.restore2.accesskey         "ด">
 <!ENTITY cmd.restoreFromFile.label      "เลือกไฟล์…">
 <!ENTITY cmd.restoreFromFile.accesskey  "ล">
 
-<!ENTITY cmd.bookmarkLink.label         "คั่นหน้าเว็บนี้…">
+<!ENTITY cmd.bookmarkLink.label         "คั่นหน้านี้…">
 <!ENTITY cmd.bookmarkLink.accesskey     "ค">
 <!ENTITY cmd.delete.label               "ลบหน้าเว็บนี้">
 <!ENTITY cmd.delete.accesskey           "ล">

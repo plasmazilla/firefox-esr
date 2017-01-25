@@ -1,0 +1,17 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "გვერდის პარამეტრები">
+<!ENTITY location.label "მისამართი:">
+<!ENTITY lastModified.label "ბოლო რედაქცია:">
+<!ENTITY titleInput.label "სათაური:">
+<!ENTITY titleInput.accessKey "T">
+<!ENTITY authorInput.label "ავტორი:">
+<!ENTITY authorInput.accessKey "A">
+<!ENTITY descriptionInput.label "აღწერილობა:">
+<!ENTITY descriptionInput.accessKey "D">
+<!ENTITY locationNewPage.label "[ახალი გვერდი, ჯერ არ შენხულა]">
+<!ENTITY EditHEADSource1.label "სპეციალური პარამეტრები:">
+<!ENTITY EditHEADSource2.label "სექცია &lt;თავსართის&gt; სარედაქტირებლად, მენიუდან 'ჩვენება' ან 'რედაქტირების რეჟიმის პულტი გამოიყენეთ &quot;HTML წყარო&quot; '.">

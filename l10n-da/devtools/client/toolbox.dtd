@@ -93,7 +93,7 @@
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
 <!ENTITY options.enableRemote.label3    "Slå remote debugging til">
-<!ENTITY options.enableRemote.tooltip  "Tillader at udviklerværktøjerne kan debugge eksterne Firefox-instanser som fx Firefox OS">
+<!ENTITY options.enableRemote.tooltip2  "Tillader at udviklerværktøjerne kan debugge eksterne Firefox-instanser som fx Firefox OS">
 
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
   -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
@@ -111,7 +111,7 @@
   -  options.disableHTTPCache.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles the HTTP cache on or off. -->
 <!ENTITY options.disableHTTPCache.label     "Slå HTTP-cache fra (når Værktøj er åben)">
-<!ENTITY options.disableHTTPCache.tooltip   "Denne indstilling slår HTTP-cache fra for alle faneblade, der har Udviklerværktøjerne åbne. Service Workers er ikke påvirket af denne indstilling.">
+<!ENTITY options.disableHTTPCache.tooltip   "Denne indstilling slår HTTP-cache fra for alle faneblade, der har Udviklerværktøjerne åbne. Service workers er ikke påvirket af denne indstilling.">
 
 <!-- LOCALIZATION NOTE (options.enableServiceWorkersHTTP.label,
   -  options.enableServiceWorkersHTTP.tooltip): This is the options panel label and
@@ -119,10 +119,10 @@
 <!ENTITY options.enableServiceWorkersHTTP.label     "Aktiver service workers over HTTP (når værktøjerne er åbnet)">
 <!ENTITY options.enableServiceWorkersHTTP.tooltip   "Aktiverer du denne funktion, vil du aktivere service workers over HTTP i alle faneblade, hvor værktøjerne er åbnet.">
 
-<!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
+<!-- LOCALIZATION NOTE (options.selectDefaultTools.label2): This is the label for
   -  the heading of group of checkboxes corresponding to the default developer
   -  tools. -->
-<!ENTITY options.selectDefaultTools.label     "Indbyggede udviklerværktøjer i Firefox">
+<!ENTITY options.selectDefaultTools.label2    "Standard-udviklerværktøjer">
 
 <!-- LOCALIZATION NOTE (options.selectDefaultTools.label): This is the label for
   -  the heading of group of checkboxes corresponding to the developer tools

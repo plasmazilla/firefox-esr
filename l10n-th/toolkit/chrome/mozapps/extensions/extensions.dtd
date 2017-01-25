@@ -18,7 +18,7 @@
 <!ENTITY listEmpty.button.label               "เรียนรู้เพิ่มเติมเกี่ยวกับส่วนเสริม">
 <!ENTITY installAddonFromFile.label           "ติดตั้งส่วนเสริมจากไฟล์…">
 <!ENTITY installAddonFromFile.accesskey       "ต">
-<!ENTITY toolsMenu.tooltip                    "เครื่องมือสำหรับส่วนเสริม">
+<!ENTITY toolsMenu.tooltip                    "เครื่องมือสำหรับส่วนเสริมทั้งหมด">
 
 <!ENTITY cmd.back.tooltip                     "ย้อนกลับไปหนึ่งหน้า">
 <!ENTITY cmd.forward.tooltip                  "เดินหน้าไปหนึ่งหน้า">
@@ -26,7 +26,7 @@
 <!ENTITY showUnsignedExtensions.button.label  "ส่วนขยายบางส่วนไม่สามารถยืนยันความถูกต้องได้">
 <!ENTITY showAllExtensions.button.label       "แสดงส่วนขยายทั้งหมด">
 <!ENTITY debugAddons.label                    "ดีบั๊กส่วนเสริม">
-<!ENTITY debugAddons.accesskey                "บ">
+<!ENTITY debugAddons.accesskey                "B">
 
 <!-- global warnings -->
 <!ENTITY warning.safemode.label                    "ส่วนเสริมทั้งหมดถูกปิดใช้งานเมื่ออยู่ในโหมดปลอดภัย">
@@ -39,7 +39,7 @@
 
 <!-- categories / views -->
 <!ENTITY view.search.label                    "ค้นหา">
-<!ENTITY view.discover.label                  "ติดตั้งส่วนเสริม">
+<!ENTITY view.discover.label                  "รับส่วนเสริม">
 <!ENTITY view.recentUpdates.label             "การปรับรุ่นเมื่อเร็ว ๆ นี้">
 <!ENTITY view.availableUpdates.label          "การปรับรุ่นที่ตรวจพบ">
 
@@ -94,10 +94,10 @@
 <!ENTITY cmd.disableTheme.accesskey           "ก">
 <!ENTITY cmd.askToActivate.label              "ถามเพื่อเปิดใช้งาน">
 <!ENTITY cmd.askToActivate.tooltip            "ถามเพื่อใช้ส่วนเสริมนี้ในแต่ละครั้ง">
-<!ENTITY cmd.alwaysActivate.label             "เปิดใช้งานตลอด">
+<!ENTITY cmd.alwaysActivate.label             "เปิดใช้งานเสมอ">
 <!ENTITY cmd.alwaysActivate.tooltip           "เปิดใช้ส่วนเสริมนี้ตลอด">
-<!ENTITY cmd.neverActivate.label              "ไม่เปิดใช้งาน">
-<!ENTITY cmd.neverActivate.tooltip            "ไม่เปิดใช้ส่วนเสริมนี้">
+<!ENTITY cmd.neverActivate.label              "ไม่เปิดใช้งานเสมอ">
+<!ENTITY cmd.neverActivate.tooltip            "ไม่ใช้ส่วนเสริมนี้เสมอ">
 <!ENTITY cmd.stateMenu.tooltip                "เปลี่ยนเมื่อส่วนเสริมนี้ทำงาน">
 <!ENTITY cmd.installAddon.label               "ติดตั้ง">
 <!ENTITY cmd.installAddon.accesskey           "ต">
@@ -209,7 +209,7 @@
 
 <!ENTITY addon.createdBy.label                "โดย ">
 
-<!ENTITY eula.title                           "ข้อตกลงสัญญาอนุญาตสำหรับผู้ใช้">
+<!ENTITY eula.title                           "ข้อตกลงสัญญาอนุญาตผู้ใช้">
 <!ENTITY eula.width                           "560px">
 <!ENTITY eula.height                          "400px">
 <!ENTITY eula.accept                          "ยอมรับและติดตั้ง…">
@@ -242,4 +242,4 @@
      being a link to an external site. -->
 <!ENTITY disabledUnsigned.devInfo.start "นักพัฒนาที่สนใจที่จะทำให้ส่วนเสริมได้รับการยืนยันสามารถดำเนินการต่อได้จากการอ่านของเรา ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "ด้วยตนเอง">
-<!ENTITY disabledUnsigned.devInfo.end ".">
+<!ENTITY disabledUnsigned.devInfo.end "">

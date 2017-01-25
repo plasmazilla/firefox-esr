@@ -5,12 +5,12 @@
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
 %brandDTD;
 
-<!ENTITY loadError.label "Falha no carregamento da página">
+<!ENTITY loadError.label "Problema ao carregar a página">
 <!ENTITY retry.label "Tentar de novo">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Não é possível conectar-se">
+<!ENTITY connectionFailure.title "Não foi possível conectar">
 <!ENTITY connectionFailure.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY deniedPortAccess.title "Endereço restrito">
@@ -65,7 +65,7 @@
 <!ENTITY netInterrupt.title "Conexão interrompida">
 <!ENTITY netInterrupt.longDesc2 "&sharedLongDesc3;">
 
-<!ENTITY notCached.title "Documento fora de validade">
+<!ENTITY notCached.title "Documento expirado">
 <!ENTITY notCached.longDesc "<p>O documento solicitado não está mais no cache do &brandShortName;.</p><ul><li>Como precaução de segurança, o &brandShortName; não solicita automaticamente documentos contendo informações confidenciais.</li><li>Clique em Tentar de novo para solicitar mais uma vez o documento do site.</li></ul>">
 
 <!ENTITY netOffline.title "Modo offline">
@@ -87,7 +87,7 @@
 <li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li> 
 </ul>">
 
-<!ENTITY netReset.title "Conexão reiniciada">
+<!ENTITY netReset.title "A conexão foi resetada">
 <!ENTITY netReset.longDesc2 "&sharedLongDesc3;">
 
 <!ENTITY netTimeout.title "Tempo limite atingido">
@@ -130,7 +130,7 @@ cookies.</li>
 
 <!ENTITY nssFailure2.title "Falha na conexão segura">
 <!ENTITY nssFailure2.longDesc2 "<ul> 
-<li>A página que está tentando abrir não pode ser exibida porque a autenticidade dos dados recebidos não pôde ser comprovada.</li> 
+<li>A página que está tentando ver não pode ser mostrada porque a autenticidade dos dados recebidos não pôde ser comprovada.</li> 
 <li>Por favor, contate os responsáveis pelo site para informá-los sobre este problema.</li> 
 </ul>">
 
@@ -155,7 +155,7 @@ e pode tentar de novo mais tarde.</li>
 <!ENTITY cspBlocked.longDesc "<p>O &brandShortName; impediu esta página de carregar desta forma porque a política de segurança de conteúdo da página não permite.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "Conteúdo corrompido">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que está tentando ver não pode ser exibida porque foi detectado um erro na transmissão de dados.</p><ul><li>Entre em contato com os proprietários do site para informá-los sobre este problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que está tentando ver não pode ser mostrada porque foi detectado um erro na transmissão de dados.</p><ul><li>Entre em contato com os proprietários do site para informá-los sobre este problema.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Ou pode adicionar uma exceção…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Me tire daqui!">

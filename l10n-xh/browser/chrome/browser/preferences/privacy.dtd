@@ -46,7 +46,8 @@
 <!ENTITY  acceptCookies.label           "Yamkela iikhukhi kwisayithi">
 <!ENTITY  acceptCookies.accesskey       "Y">
 
-
+<!ENTITY  acceptThirdParty.pre.label      "Yamkela iikhukhi zeqela lesithathu:">
+<!ENTITY  acceptThirdParty.pre.accesskey  "m">
 <!ENTITY  acceptThirdParty.always.label   "Qho">
 <!ENTITY  acceptThirdParty.never.label    "Ungaze">
 <!ENTITY  acceptThirdParty.visited.label  "Isuka kwetyelelweyo">
@@ -68,7 +69,7 @@
 <!ENTITY  historyHeader.remember.label     "Khumbula imbali">
 <!ENTITY  historyHeader.dontremember.label "Ungaze ukhumbule imbali">
 <!ENTITY  historyHeader.custom.label       "Sebenzisa iisethingi zesiqhelo kwimbali">
-<!ENTITY  historyHeader.post.label         "​">
+<!ENTITY  historyHeader.post.label         "​‌">
 
 <!ENTITY  rememberDescription.label      "I-&brandShortName; iya kukhumbula imbali yokubhrawuza, yokukhutshelwayo, yefom neyokukhangela ize igcine iikhukhi kwiwebhusayithi oyityelelayo.">
 <!-- LOCALIZATION NOTE (rememberActions.pre.label): include a trailing space as needed -->

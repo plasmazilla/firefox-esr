@@ -109,7 +109,6 @@
 <!ENTITY bookmarkThisPageCmd.label "Añadir esta página a marcadores">
 <!ENTITY editThisBookmarkCmd.label "Editar este marcador">
 <!ENTITY bookmarkThisPageCmd.commandkey "d">
-<!ENTITY markPageCmd.commandkey "l">
 <!ENTITY findShareServices.label "Encontrar más servicios de compartición…">
 <!ENTITY sharePageCmd.label "Compartir esta página">
 <!ENTITY sharePageCmd.commandkey "S">
@@ -149,26 +148,28 @@
 <!ENTITY printButton.label "Imprimir">
 <!ENTITY printButton.tooltip "Imprimir esta página">
 <!ENTITY urlbar.viewSiteInfo.label "Ver información del sitio">
-<!ENTITY urlbar.defaultNotificationAnchor.label "Ver una notificación">
-<!ENTITY urlbar.geolocationNotificationAnchor.label "Ver la petición de ubicación">
-<!ENTITY urlbar.addonsNotificationAnchor.label "Ver el mensaje de instalación del complemento">
-<!ENTITY urlbar.indexedDBNotificationAnchor.label "Ver el mensaje de almacenamiento de aplicaciones sin conexión">
-<!ENTITY urlbar.loginFillNotificationAnchor.label "Administrar su información de inicio de sesión">
-<!ENTITY urlbar.passwordNotificationAnchor.label "Marque si quiere guardar su contraseña">
-<!ENTITY urlbar.pluginsNotificationAnchor.label "Administrar uso de plugins en esta página">
-<!ENTITY urlbar.webNotsNotificationAnchor3.label "Cambiar si puede recibir notificaciones del sitio">
-<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.label "Administrar compartición de su cámara o micrófono con el sitio">
-<!ENTITY urlbar.webRTCSharingDevicesNotificationAnchor.label "Está compartiendo su cámara o micrófono con el sitio">
-<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.label "Administrar compartición de su micrófono con el sitio">
-<!ENTITY urlbar.webRTCSharingMicrophoneNotificationAnchor.label "Está compartiendo su micrófono con el sitio">
-<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.label "Administrar compartición de sus ventanas o pantalla con el sitio">
-<!ENTITY urlbar.webRTCSharingScreenNotificationAnchor.label "Está compartiendo una ventana o su pantalla con el sitio">
-<!ENTITY urlbar.pointerLockNotificationAnchor.label "Cambiar si el sitio puede ocultar el puntero">
-<!ENTITY urlbar.servicesNotificationAnchor.label "Ver el mensaje de instalación de servicio">
-<!ENTITY urlbar.translateNotificationAnchor.label "Traducir esta página">
-<!ENTITY urlbar.translatedNotificationAnchor.label "Administrar traducción de la página">
-<!ENTITY urlbar.emeNotificationAnchor.label "Administrar uso del software DRM">
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip "Abrir panel de mensajes">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip "Abrir panel de peticiones de ubicación">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip "Abrir el panel de mensajes de instalación de complementos">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip "Abrir panel de mensajes de almacenamiento sin conexión">
+<!ENTITY urlbar.passwordNotificationAnchor.tooltip "Abrir el panel de mensajes de contraseñas">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip "Administrar uso de plugins">
+<!ENTITY urlbar.webNotificationAnchor.tooltip "Cambiar si puede recibir notificaciones del sitio">
+<!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip "Administrar la compartición de su cámara o micrófono con el sitio">
+<!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip "Administrar la compartición de su micrófono con el sitio">
+<!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip "Administrar la compartición de sus ventanas o pantalla con el sitio">
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip "Abrir panel de mensajes de instalación">
+<!ENTITY urlbar.translateNotificationAnchor.tooltip "Traducir esta página">
+<!ENTITY urlbar.translatedNotificationAnchor.tooltip "Administrar traducción de páginas">
+<!ENTITY urlbar.emeNotificationAnchor.tooltip "Administrar uso de software DRM">
+<!ENTITY urlbar.cameraBlocked.tooltip "Ha bloqueado su cámara para este sitio web.">
+<!ENTITY urlbar.microphoneBlocked.tooltip "Ha bloqueado su micrófono para este sitio web.">
+<!ENTITY urlbar.screenBlocked.tooltip "Ha impedido que este sitio web comparta su pantalla.">
+<!ENTITY urlbar.geolocationBlocked.tooltip "Ha bloqueado la información de ubicación para este sitio web.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip "Ha bloqueado el almacenamiento de datos para este sitio web.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip "Ha bloqueado las notificaciones para este sitio web.">
 <!ENTITY urlbar.openHistoryPopup.tooltip "Mostrar historial">
+<!ENTITY urlbar.zoomReset.tooltip "Restablecer nivel de aumento">
 <!ENTITY searchItem.title "Buscar">
 <!ENTITY homeButton.label "Inicio">
 <!ENTITY bookmarksButton.label "Marcadores">
@@ -199,8 +200,8 @@
 <!ENTITY inspectContextMenu.accesskey "l">
 <!ENTITY fileMenu.label "Archivo">
 <!ENTITY fileMenu.accesskey "A">
-<!ENTITY newUserContext.label "Nueva pestaña contenedor">
-<!ENTITY newUserContext.accesskey "C">
+<!ENTITY newUserContext.label "Nueva pestaña contenedora">
+<!ENTITY newUserContext.accesskey "v">
 <!ENTITY newNavigatorCmd.label "Nueva ventana">
 <!ENTITY newNavigatorCmd.key "N">
 <!ENTITY newNavigatorCmd.accesskey "N">
@@ -299,13 +300,14 @@
 <!ENTITY searchFocus.commandkey2 "e">
 <!ENTITY searchFocusUnix.commandkey "j">
 <!ENTITY contentSearchInput.label "Criterios de búsqueda">
-<!ENTITY contentSearchSubmit.label "Enviar búsqueda">
+<!ENTITY contentSearchSubmit.tooltip "Enviar búsqueda">
 <!ENTITY searchFor.label "Buscar ">
 <!ENTITY searchWith.label " con:">
 <!ENTITY search.label "Buscar ">
 <!ENTITY searchAfter.label "">
 <!ENTITY searchWithHeader.label "Buscar con:">
 <!ENTITY changeSearchSettings.button "Cambiar configuración de búsqueda">
+<!ENTITY changeSearchSettings.tooltip "Cambiar configuración de búsqueda">
 <!ENTITY searchInNewTab.label "Buscar en una pestaña nueva">
 <!ENTITY searchInNewTab.accesskey "B">
 <!ENTITY searchSetAsDefault.label "Establecer como buscador predeterminado">
@@ -527,6 +529,7 @@
 <!ENTITY identity.moreInfoLinkText2 "Más información">
 <!ENTITY identity.permissions "Permisos">
 <!ENTITY identity.permissionsEmpty "No ha concedido ningún permiso especial a este sitio.">
+<!ENTITY identity.permissionsReloadHint "Puede que necesite recargar la página para que se apliquen los cambios.">
 <!ENTITY tabsToolbar.label "Pestañas del navegador">
 <!ENTITY syncTabsMenu3.label "Pestañas sincronizadas">
 <!ENTITY syncedTabs.sidebar.label "Pestañas sincronizadas">
@@ -557,16 +560,7 @@
 <!ENTITY syncReAuthItem.label "Reconectar a &syncBrand.shortName.label;…">
 <!ENTITY syncReAuthItem.accesskey "R">
 <!ENTITY syncToolbarButton.label "Sync">
-<!ENTITY socialToolbar.title "Botón de la barra de herramientas social">
-<!ENTITY social.ok.label "Aceptar">
-<!ENTITY social.ok.accesskey "A">
-<!ENTITY social.toggleSidebar.label "Mostrar barra lateral">
-<!ENTITY social.toggleSidebar.accesskey "s">
 <!ENTITY social.addons.label "Administrar servicios…">
-<!ENTITY social.toggleNotifications.label "Mostrar notificaciones de escritorio">
-<!ENTITY social.toggleNotifications.accesskey "n">
-<!ENTITY social.learnMore.label "Saber más…">
-<!ENTITY social.learnMore.accesskey "m">
 <!ENTITY social.directory.label "Directorio de activaciones">
 <!ENTITY social.directory.text "Puede activar servicios de compartición del directorio.">
 <!ENTITY social.directory.button "¡Llévame allí!">
@@ -585,13 +579,6 @@
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">
 <!ENTITY customizeMode.lwthemes.menuGetMore "Conseguir más temas">
 <!ENTITY customizeMode.lwthemes.menuGetMore.accessKey "C">
-<!ENTITY social.chatBar.commandkey "c">
-<!ENTITY social.chatBar.label "Enfocar conversaciones">
-<!ENTITY social.chatBar.accesskey "c">
-<!ENTITY social.markpageMenu.accesskey "d">
-<!ENTITY social.markpageMenu.label "Guardar página en…">
-<!ENTITY social.marklinkMenu.accesskey "G">
-<!ENTITY social.marklinkMenu.label "Guardar enlace como">
 <!ENTITY getUserMedia.selectCamera.label "Cámara para compartir:">
 <!ENTITY getUserMedia.selectCamera.accesskey "C">
 <!ENTITY getUserMedia.selectMicrophone.label "Micrófono para compartir:">
@@ -617,7 +604,6 @@
 <!ENTITY trackingContentBlocked.block.label "Activar protección">
 <!ENTITY trackingContentBlocked.block.accesskey "A">
 <!ENTITY trackingContentBlocked.disabled.message "La protección contra rastreo está desactivada">
-<!ENTITY pointerLock.notification.message "Presiona ESC (Escape) en cualquier momento para mostrarlo de nuevo.">
 <!ENTITY pluginNotification.showAll.label "Mostrar todo">
 <!ENTITY pluginNotification.showAll.accesskey "M">
 <!ENTITY pluginActivateNow.label "Permitir ahora">

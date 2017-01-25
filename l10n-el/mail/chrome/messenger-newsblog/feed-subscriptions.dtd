@@ -4,18 +4,22 @@
 
 <!-- Subscription Dialog -->
 <!ENTITY feedSubscriptions.label     "Συνδρομές σε αρχεία ροής">
+<!ENTITY learnMore.label             "Μάθετε περισσότερα για τις ροές">
 
 <!ENTITY feedTitle.label             "Τίτλος:">
 <!ENTITY feedTitle.accesskey         "Τ">
 
+<!ENTITY locationValidate.label      "Επαλήθευση">
 
+<!ENTITY feedFolder.label            "Αποθήκευση άρθρων σε:">
 
+<!ENTITY quickMode.label             "Εμφάνιση της σύνοψης του άρθρου αντί για φόρτωση της ιστοσελίδας">
 
+<!ENTITY autotagUsePrefix.label      "Να μπει στις ετικέτες το πρόθεμα:">
 
 <!ENTITY button.addFeed.label        "Προσθήκη">
 <!ENTITY button.addFeed.accesskey    "θ">
-<!ENTITY button.editFeed.label       "Επεξεργασία">
-<!ENTITY button.editFeed.accesskey   "ξ">
+<!ENTITY button.updateFeed.label     "Ενημέρωση">
 <!ENTITY button.removeFeed.label     "Απομάκρυνση">
 <!ENTITY button.removeFeed.accesskey "ρ">
 <!ENTITY button.importOPML.label     "Εισαγωγή">
@@ -23,3 +27,4 @@
 <!ENTITY button.exportOPML.label     "Εξαγωγή">
 <!ENTITY button.exportOPML.accesskey "ξ">
 
+<!ENTITY button.close.label          "Κλείσιμο">

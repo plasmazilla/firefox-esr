@@ -171,7 +171,7 @@
 <!ENTITY pref_custom_tabs "Schede personalizzate">
 <!ENTITY pref_custom_tabs_summary "Consenti alle app di terze parti di aprire URL con un aspetto personalizzato.">
 <!ENTITY pref_activity_stream "Flusso attività">
-<!ENTITY pref_activity_stream_summary "Una visualizzazione della cronologia ricca di informazioni e una pagina iniziale completamente ripensata rendono ancora più semplice trovare tutte ciò che serve in &brandShortName;.">
+<!ENTITY pref_activity_stream_summary "Una visualizzazione della cronologia ricca di informazioni e una pagina iniziale completamente ripensata rendono ancora più semplice trovare tutto ciò che serve in &brandShortName;.">
 <!ENTITY tracking_protection_prompt_title "Ora con protezione antitracciamento">
 <!ENTITY tracking_protection_prompt_text "Blocca in modo attivo gli elementi traccianti, rimuovendo ogni preoccupazione per l’utente.">
 <!ENTITY tracking_protection_prompt_tip_text "Per ulteriori informazioni visita la sezione Privacy delle impostazioni">
@@ -477,3 +477,6 @@
 <!ENTITY helper_triple_readerview_open_title "Disponibile non in linea">
 <!ENTITY helper_triple_readerview_open_message "Aggiungi ai segnalibri articoli da Modalità lettura per leggerli anche senza connessione a Internet.">
 <!ENTITY helper_triple_readerview_open_button "Aggiungi ai segnalibri">
+<!ENTITY activity_stream_topsites "Siti principali">
+<!ENTITY activity_stream_highlights "In evidenza">
+<!ENTITY activity_stream_more "Altro">

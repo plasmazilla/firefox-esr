@@ -10,7 +10,7 @@
 <!ENTITY homepage.label         "ChatZilla ホームページ">
 
 <!ENTITY object.add.label       "追加...">
-<!ENTITY object.add.hint        "新しいネットワーク、チャンネル、またはユーザを追加して環境設定">
+<!ENTITY object.add.hint        "新しいネットワーク、チャンネル、またはユーザーを追加して環境設定">
 <!ENTITY object.add.accesskey   "A">
 
 <!ENTITY object.del.label       "削除">
@@ -25,7 +25,7 @@
 
 <!ENTITY network                "ネットワーク">
 <!ENTITY channel                "チャンネル">
-<!ENTITY user                   "ユーザ">
+<!ENTITY user                   "ユーザー">
 
 <!ENTITY config.add.title       "環境設定のオブジェクトの追加">
 
@@ -33,8 +33,8 @@
 <!ENTITY config.type.hint         "環境設定を追加するオブジェクトの種類">
 <!ENTITY config.type.accesskey    "T">
 <!ENTITY config.network.label     "ネットワーク:">
-<!ENTITY config.network.hint      "ネットワークの既知の名前、またはサーバ名">
+<!ENTITY config.network.hint      "ネットワークの既知の名前、またはサーバー名">
 <!ENTITY config.network.accesskey "N">
 <!ENTITY config.target.label      "対象:">
-<!ENTITY config.target.hint       "対象のチャンネルまたはユーザ名">
+<!ENTITY config.target.hint       "対象のチャンネルまたはユーザー名">
 <!ENTITY config.target.accesskey  "g">

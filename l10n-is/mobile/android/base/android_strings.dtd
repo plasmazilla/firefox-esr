@@ -828,3 +828,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "Vista Reader View greinar til að lesa án tengingar.">
 <!ENTITY helper_triple_readerview_open_button "Bæta í bókamerki">
 
+<!ENTITY activity_stream_topsites "Vinsælustu svæðin">
+<!ENTITY activity_stream_highlights "Úrdráttur">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "Meira">

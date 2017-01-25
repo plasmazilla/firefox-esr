@@ -1,3 +1,9 @@
+firefox (51.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 25 Jan 2017 10:58:18 +0900
+
 firefox (50.1.0-1) unstable; urgency=medium
 
   * New upstream release.

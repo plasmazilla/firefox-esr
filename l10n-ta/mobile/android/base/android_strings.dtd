@@ -284,7 +284,7 @@
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "செயல்பாட்டு ஓடை">
-
+<!ENTITY pref_activity_stream_summary "சிறந்த காட்சி வரலாற்றுத் தரவும் மறுகற்பனையிட்ட முகப்பு பக்கமும் &brandShortName; இல் நீங்கள் எதிர்பார்த்தவை எளிதாக கிடைக்கிறது.">
 
 <!ENTITY tracking_protection_prompt_title "தடமறியல் பாதுகாப்புடன் உள்ளது">
 <!ENTITY tracking_protection_prompt_text "நீங்கள் கவலை கொள்ள வேண்டாம் தடமறிதல் உடனடியாக முடக்கப்படுகிறது.">
@@ -570,7 +570,7 @@ size. -->
 <!ENTITY button_clear "துடை">
 <!ENTITY button_copy "நகலெடு">
 
-<!ENTITY home_top_sites_title "அடிக்கடி பார்த்தவை">
+<!ENTITY home_top_sites_title "பார்த்தவை">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "ஒரு இணையத்தளத்தை சேர்">
@@ -828,3 +828,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "இணைப்பின்றி படிக்க வாசிப்பு பார்வை உருப்படிகளை புத்தகக்குறியிடு.">
 <!ENTITY helper_triple_readerview_open_button "புத்தக்குறிகளில் சேர்">
 
+<!ENTITY activity_stream_topsites "பார்த்தவை">
+<!ENTITY activity_stream_highlights "மிளிர்ப்புகள்">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "மேலும்">

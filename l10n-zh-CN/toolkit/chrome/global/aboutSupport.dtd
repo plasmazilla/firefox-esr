@@ -22,11 +22,11 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionId "ID">
 
 <!ENTITY aboutSupport.experimentsTitle "实验性功能">
-<!ENTITY aboutSupport.experimentName "名字">
+<!ENTITY aboutSupport.experimentName "名称">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "描述">
 <!ENTITY aboutSupport.experimentActive "激活">
-<!ENTITY aboutSupport.experimentEndDate "结束日期">
+<!ENTITY aboutSupport.experimentEndDate "结束时间">
 <!ENTITY aboutSupport.experimentHomepage "主页">
 <!ENTITY aboutSupport.experimentBranch "分支">
 
@@ -68,9 +68,9 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label "显示于 Finder">
-<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+<!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin.label "显示文件夹">
+<!ENTITY aboutSupport.showWin2.label "打开文件夹">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle "修改过的重要首选项">
 <!ENTITY aboutSupport.modifiedPrefsName "名称">

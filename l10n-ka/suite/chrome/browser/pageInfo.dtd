@@ -1,0 +1,122 @@
+<!--
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<!-- Note to localizers, don't localize the strings 'width' or 'height' -->
+<!ENTITY  pageInfoWindow.dimensions  "width: 120ch; height: 40em;">
+
+<!ENTITY  copy.key              "C">
+<!ENTITY  copy.label            "კოპირება">
+<!ENTITY  copy.accesskey        "C">
+<!ENTITY  selectall.key         "A">
+<!ENTITY  selectall.label       "სრული მონიშვნა">
+<!ENTITY  selectall.accesskey   "A">
+<!ENTITY  openHelpMac.key       "?">
+<!ENTITY  closeWindow.key       "w">
+<!ENTITY  copyLinks.label           "ბმ(ებ)ის კოპირება">
+<!ENTITY  copyLinks.accesskey       "L">
+<!ENTITY  openInNewTab.label        "გახსნა ახალ დფაზე">
+<!ENTITY  openInNewTab.accesskey    "T">
+<!ENTITY  openInNewWindow.label     "გახსნა ახალ სარკმელში">
+<!ENTITY  openInNewWindow.accesskey "W">
+
+<!ENTITY  generalTab            "ძირითადი">
+<!ENTITY  generalTab.accesskey  "G">
+<!ENTITY  generalURL            "მისამართი:">
+<!ENTITY  generalType           "ტიპი:">
+<!ENTITY  generalMode           "ასახვის რეჟიმი:">
+<!ENTITY  generalSize           "ზომა:">
+<!ENTITY  generalReferrer       "დამოწმება:">
+<!ENTITY  generalSource         "წყარო:">
+<!ENTITY  generalModified       "შეიცვალა:">
+<!ENTITY  generalEncoding       "კოდირება:">
+<!ENTITY  generalMetaName       "სახელი">
+<!ENTITY  generalMetaContent    "შიგთავსი">
+<!ENTITY  generalSecurityDetails           "დაწვრილებით">
+<!ENTITY  generalSecurityDetails.accesskey "D">
+
+<!ENTITY  formsTab              "ფორმები">
+<!ENTITY  formsTab.accesskey    "F">
+<!ENTITY  formAction            "ფორმის ქმედება">
+<!ENTITY  formMethod            "მეთოდი">
+<!ENTITY  formName              "სახელი">
+<!ENTITY  formEncoding          "კოდირება:">
+<!ENTITY  formTarget            "სამიზნე:">
+<!ENTITY  formFields            "ველები:">
+<!ENTITY  formLabel             "წარწერა">
+<!ENTITY  formFName             "ველის სახელი">
+<!ENTITY  formType              "ტიპი">
+<!ENTITY  formCValue            "მნიშვნელობა">
+
+<!ENTITY  linksTab              "ბმები">
+<!ENTITY  linksTab.accesskey    "L">
+<!ENTITY  linkName              "სახელი">
+<!ENTITY  linkAddress           "მისამართი">
+<!ENTITY  linkType              "ტიპი">
+<!ENTITY  linkTarget            "სამიზნე">
+<!ENTITY  linkAccessKey         "წვდომის კლავიში">
+
+<!ENTITY  mediaTab              "მედია">
+<!ENTITY  mediaTab.accesskey        "M">
+<!ENTITY  mediaURL              "მისამართი:">
+<!ENTITY  mediaAlt              "ალტერნატული ტექსტი:">
+<!ENTITY  mediaAltHeader        "ალტერნატული ტექსტი">
+<!ENTITY  mediaAddress          "მისამართი">
+<!ENTITY  mediaType             "ტიპი">
+<!ENTITY  mediaSize             "ზომა">
+<!ENTITY  mediaCount            "რაოდენობა">
+<!ENTITY  mediaDimensions       "მითითებული ზომები:">
+<!ENTITY  mediaPhysDimensions   "მიმდინარე ზომები:">
+<!ENTITY  mediaTitle            "სათაური:">
+<!ENTITY  mediaLongdesc         "დეტალური აღწერა:">
+<!ENTITY  mediaBlockImage.accesskey "B">
+<!ENTITY  mediaSaveAs           "შენახვა როგორც…">
+<!ENTITY  mediaSaveAs.accesskey "A">
+<!ENTITY  mediaSaveAs2.accesskey "e">
+<!ENTITY  mediaPreview          "მედიის ესკიზი">
+
+<!ENTITY  feedTab               "არხები">
+<!ENTITY  feedTab.accesskey     "F">
+<!ENTITY  feedSubscribe         "ხელმოწერა">
+<!ENTITY  feedSubscribe.accesskey "u">
+
+<!ENTITY  permTab               "უფლებები">
+<!ENTITY  permTab.accesskey     "P">
+<!ENTITY  permUseDefault        "ნაგულისხმების გამოყენება">
+<!ENTITY  permAskAlways         "ყოველთვის დამეკითხე">
+<!ENTITY  permAllow             "დაშვება">
+<!ENTITY  permAllowSession      "დაშვება სეანსზე">
+<!ENTITY  permBlock             "დაბლოკვა">
+<!ENTITY  permissionsFor        "უფლებები:">
+<!ENTITY  permImage             "გამოსახულების ჩატვირთვა">
+<!ENTITY  permPopup             "ჩამოშლადი სარკმლების გახსნა">
+<!ENTITY  permCookie            "ნაჭდევების მითითება">
+<!ENTITY  permNotifications     "შეტყობინებათა ჩვენება">
+<!ENTITY  permInstall           "პაკეტების ან თემების ჩადგმა">
+<!ENTITY  permGeo               "მდებარეობის გაზიარება">
+
+<!ENTITY  securityTab           "უსაფრთხოება">
+<!ENTITY  securityTab.accesskey "S">
+<!ENTITY  securityHeader        "უსაფრთხოების მონაცემები ამ გვერდისთვის">
+<!ENTITY  securityView.certView "სერთიფიკატის ჩვენება">
+<!ENTITY  securityView.accesskey "V">
+<!ENTITY  securityView.unknown   "უცნობია">
+
+
+<!ENTITY  securityView.identity.header   "ვებ საიტის ამოცნობა">
+<!ENTITY  securityView.identity.owner    "მფლობელი: ">
+<!ENTITY  securityView.identity.domain   "ვებ საიტი: ">
+<!ENTITY  securityView.identity.verifier "შეამოწმა: ">
+
+<!ENTITY  securityView.privacy.header                   "კონფიდენციალობა და ისტორია">
+<!ENTITY  securityView.privacy.history                  "ეს საიტი დღემდე გამიხსნია?">
+<!ENTITY  securityView.privacy.cookies                  "ეს საიტი ინფორმაციას (ნაჭდევებს) ჩემს კომპიუტერში ინახავს?">
+<!ENTITY  securityView.privacy.viewCookies              "ნაჭდევების ჩვენება">
+<!ENTITY  securityView.privacy.viewCookies.accessKey    "k">
+<!ENTITY  securityView.privacy.passwords                "ამ საიტისთვის რაიმე პაროლი შენახული მაქვს?">
+<!ENTITY  securityView.privacy.viewPasswords            "შენახული პაროლების ჩვენება">
+<!ENTITY  securityView.privacy.viewPasswords.accessKey  "w">
+
+<!ENTITY  securityView.technical.header                 "ტექნიკური დეტალები">

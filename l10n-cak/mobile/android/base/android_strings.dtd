@@ -345,7 +345,7 @@
 <!ENTITY pref_clear_on_exit_title3 "Kejosq\u0027ïx ri ichinan taq tzij toq nib\u0027an elem">
 <!ENTITY pref_clear_on_exit_summary2 "&brandShortName; ruyonil xkeruyüj ri taq tzij junelïk toq xtacha\u0027 \u0022Tel\u0022 pa ri nimaläj k\u0027utüy samaj">
 <!ENTITY pref_clear_on_exit_dialog_title "Ke\u0027acha\u0027 ri taq tzij nawajo\u0027 ye\u0027ayüj el">
-<!ENTITY pref_plugins "Taq pluyin">
+<!ENTITY pref_plugins "Taq nak\u0027ab\u0027äl">
 <!ENTITY pref_plugins_enabled "Jaqon">
 <!ENTITY pref_plugins_tap_to_play2 "Tachapa\u0027 qa richin natzïj">
 <!ENTITY pref_plugins_disabled "Man jaqäl ta">
@@ -570,7 +570,7 @@ size. -->
 <!ENTITY button_clear "Tijosq\u0027ïx">
 <!ENTITY button_copy "Tiwachib\u0027ëx">
 
-<!ENTITY home_top_sites_title "Junelïk taq ruxaq">
+<!ENTITY home_top_sites_title "Utziläj taq ruxaq K\u0027amaya\u0027l">
 <!-- Localization note (home_top_sites_add): This string is used as placeholder
      text underneath empty thumbnails in the Top Sites page on about:home. -->
 <!ENTITY home_top_sites_add "Titz\u0027aqatisäx pa ruxaq">
@@ -828,3 +828,8 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY helper_triple_readerview_open_message "Yaketal sik\u0027inel Titz\u0027et taq cholna\u0027oj richin yesik\u0027ïx toq majun okem pa k\u0027amaya\u0027l.">
 <!ENTITY helper_triple_readerview_open_button "Tib\u0027an b\u0027enam pa taq Yaketal">
 
+<!ENTITY activity_stream_topsites "Utziläj taq ruxaq K\u0027amaya\u0027l">
+<!ENTITY activity_stream_highlights "Taq K\u0027ewachinïk">
+<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
+     when pressed. -->
+<!ENTITY activity_stream_more "Ch\u0027aqa\u0027 chik">

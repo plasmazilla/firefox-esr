@@ -46,9 +46,10 @@
 <!ENTITY  acceptCookies.label           "साइटों से कुकीज़ स्वीकारें">
 <!ENTITY  acceptCookies.accesskey       "A">
 
-
+<!ENTITY  acceptThirdParty.pre.label      "त्रिपक्षीय कुकीज़ स्वीकारें:">
+<!ENTITY  acceptThirdParty.pre.accesskey  "y">
 <!ENTITY  acceptThirdParty.always.label   "हमेशा">
-<!ENTITY  acceptThirdParty.never.label    "कभी न ">
+<!ENTITY  acceptThirdParty.never.label    "कभी नहीं">
 <!ENTITY  acceptThirdParty.visited.label  "भ्रमण किए हुए से">
 
 <!ENTITY  keepUntil.label               "बनाए रखें:">
@@ -79,7 +80,7 @@
 <!ENTITY  rememberActions.clearHistory.label  "अपने हालिया इतिहास साफ कर">
 <!ENTITY  rememberActions.middle.label        ", या ">
 <!ENTITY  rememberActions.removeCookies.label "अपने व्यक्तिगत कुकीज़ हटा">
-<!ENTITY  rememberActions.post.label          " सकते हैं.">
+<!ENTITY  rememberActions.post.label          ".">
 
 <!ENTITY  dontrememberDescription.label  "&brandShortName; बतौर निजी ब्राउज़िंग की तरह समान सेटिंग का उपयोग करेगा, और कोई इतिहास याद नहीं रखेगा जब आप वेब ब्राउज़ करते हैं.">
 <!-- LOCALIZATION NOTE (dontrememberActions.pre.label): include a trailing space as needed -->
@@ -104,6 +105,7 @@
 <!ENTITY  clearOnCloseSettings.label     "सेटिंग्स…">
 <!ENTITY  clearOnCloseSettings.accesskey "t">
 
-
-
-
+<!ENTITY  browserContainersHeader.label         "आधान टैब">
+<!ENTITY  browserContainersLearnMore.label      "और जानें">
+<!ENTITY  browserContainersEnabled.label        "आधान टैब चालू करें ">
+<!ENTITY  browserContainersEnabled.accesskey    "n">

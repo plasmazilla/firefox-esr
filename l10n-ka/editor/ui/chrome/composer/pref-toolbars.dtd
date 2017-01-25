@@ -1,0 +1,39 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY pref.toolbars.title    "პულტები">
+
+<!ENTITY composition.caption    "ამ ღილაკების ჩვენება რედაქტირების პულტზე:">
+
+<!ENTITY new.label              "ახალი">
+<!ENTITY open.label             "გახსნა">
+<!ENTITY save.label             "ჩაწერა">
+<!ENTITY publish.label          "გამოქვეყნება">
+<!ENTITY preview.label          "ნუსხა">
+<!ENTITY cut.label              "ამოჭრა">
+<!ENTITY copy.label             "კოპირება">
+<!ENTITY paste.label            "ჩასმა">
+<!ENTITY print.label            "ბეჭდვა">
+<!ENTITY find.label             "ძებნა">
+<!ENTITY image.label            "ნახატი">
+<!ENTITY hline.label            "ჰ.ხაზი">
+<!ENTITY table.label            "ცხრილი">
+<!ENTITY link.label             "ბმა">
+<!ENTITY anchor.label           "ღუზა">
+
+<!ENTITY formatting.caption     "ამ ღილაკების ჩვენება ფორმატირების პულტზე:">
+
+<!ENTITY smaller.label          "შემცირება">
+<!ENTITY larger.label           "გაზრდა">
+<!ENTITY bold.label             "მუქი">
+<!ENTITY bullets.label          "სიმბოლოები">
+<!ENTITY numbers.label          "ნუმერაცია">
+<!ENTITY italic.label           "კურსივი">
+<!ENTITY outdent.label          "უკუაბზაცი">
+<!ENTITY indent.label           "აბზაცი">
+<!ENTITY underline.label        "ხაზგასმა">
+
+<!ENTITY absolutePosition.label "აბსოლუტური პოზიცირება">
+<!ENTITY decreaseZIndex.label   "უკან გადატანა">
+<!ENTITY increaseZIndex.label   "წინ გადმოტანა">

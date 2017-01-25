@@ -53,10 +53,6 @@
 <!-- LOCALIZATION NOTE (debuggerUI.sources.togglePromiseDebugger): This is the
   -  tooltip for the button that toggles the promise debugger. -->
 
-<!-- LOCALIZATION NOTE (debuggerUI.startTracing): This is the text displayed in
-  - the button to start execution tracing. -->
-<!ENTITY debuggerUI.startTracing "התחלת מעקב">
-
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
 <!ENTITY debuggerUI.clearButton "ניקוי">
@@ -168,6 +164,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.seMenuBreak): This is the text that
   -  appears in the source editor context menu for editing a breakpoint. -->
+<!ENTITY debuggerUI.seEditMenuCondBreak     "עריכת נקודת עצירה מותנת">
 <!ENTITY debuggerUI.seEditMenuCondBreak.key "B">
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that

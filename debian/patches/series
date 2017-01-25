@@ -6,7 +6,6 @@ porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
 porting/Disable-libyuv-assembly-on-mips64.patch
 porting/Fix-CPU_ARCH-test-for-libjpeg-on-mips.patch
 porting/Fix-crashes-in-AtomicOperations-none-on-s390x.patch
-porting/Bug-1290811-Baldr-MIPS64-Fix-CodeGenerator-visitAsmS.patch
 porting/Fix-broken-MIPS-build.patch
 porting/Work-around-Debian-bug-844357.patch
 prefs/Set-javascript.options.showInConsole.patch

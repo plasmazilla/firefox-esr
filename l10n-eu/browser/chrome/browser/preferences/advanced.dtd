@@ -12,7 +12,7 @@
 <!ENTITY useCursorNavigation.accesskey   "k">
 <!ENTITY searchStartTyping.label         "Bilatu testua idazten hasi bezain laster">
 <!ENTITY searchStartTyping.accesskey     "B">
-<!ENTITY blockAutoRefresh.label          "Abisatu webguneek orria birkargatu edo beste norabait berbideratu nahi badute">
+<!ENTITY blockAutoRefresh.label          "Abisatu webguneek orria berritu edo beste norabait birbideratu nahi badute">
 <!ENTITY blockAutoRefresh.accesskey      "A">
 <!ENTITY useOnScreenKeyboard.label       "Beharrezkoa denean, erakutsi ukipen-teklatua">
 <!ENTITY useOnScreenKeyboard.accesskey   "k">
@@ -40,10 +40,10 @@
 <!ENTITY enableTelemetryData.accesskey   "T">
 <!ENTITY telemetryLearnMore.label        "Argibide gehiago">
 
-<!ENTITY crashReporterDesc.label         "&brandShortName;(e)k hutsegite-txostenak bidaltzen ditu &vendorShortName;(r)a nabigatzaile egonkorragoa eta seguruagoa egiten laguntzeko">
-<!ENTITY enableCrashReporter.label       "Gaitu hutsegite-txostenak">
-<!ENTITY enableCrashReporter.accesskey   "h">
-<!ENTITY crashReporterLearnMore.label    "Argibide gehiago">
+<!ENTITY crashReporterDesc2.label         "Hutsegite-txostenek arazoak konpondu eta zure nabigatzailea egonkor eta seguruagoa egiten laguntzen diote &vendorShortName;(r)i">
+<!ENTITY alwaysSubmitCrashReports.label   "Baimendu &brandShortName;(r)i atzeratutako hutsegite-txostenak zuregatik bidaltzea">
+<!ENTITY alwaysSubmitCrashReports.accesskey "B">
+<!ENTITY crashReporterLearnMore.label     "Argibide gehiago">
 
 <!ENTITY networkTab.label                "Sarea">
 
