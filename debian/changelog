@@ -1,8 +1,32 @@
-firefox (51.0-1) UNRELEASED; urgency=medium
+firefox (51.0-1) unstable; urgency=medium
 
   * New upstream release.
+  * Fixes for mfsa2017-01, also known as:
+    CVE-2017-5375, CVE-2017-5376, CVE-2017-5377, CVE-2017-5378,
+    CVE-2017-5379, CVE-2017-5380, CVE-2017-5390, CVE-2017-5389,
+    CVE-2017-5396, CVE-2017-5381, CVE-2017-5382, CVE-2017-5383,
+    CVE-2017-5384, CVE-2017-5385, CVE-2017-5386, CVE-2017-5391,
+    CVE-2017-5393, CVE-2017-5387, CVE-2017-5388, CVE-2017-5374,
+    CVE-2017-5373.
 
- -- Mike Hommey <glandium@debian.org>  Wed, 25 Jan 2017 10:58:18 +0900
+  * debian/upstream.mk: Don't rely on FIREFOX_*_RELEASE tags to pull some
+    files to determine all source urls.
+  * debian/browser.bug-presubj.in: Add a note about submitting crash reports
+    upstream and pasting the url to Debian bug reports.
+  * debian/rules, debian/control*: Adjust rust build configure to new
+    upstream. It requires rustc >= 1.10 and cargo, the latter of which is
+    not available on arm64. Also depend on cargo >= 0.13, that doesn't access
+    the network with the Cargo.toml files in the source. Note rust code is
+    still not enabled unless building a beta release.
+  * debian/control*: Bump nspr, nss and sqlite build dependencies.
+  * debian/rules, debian/control: Use more embedded libraries until the
+    required versions of NSPR and NSS can be in unstable.
+
+  * build/moz.configure/rust.configure: Force use the i686 rust target.
+  * gfx/skia/skia/include/core/SkPreConfig.h: Generically set
+    SK_CPU_[BL]ENDIAN based on __BYTE_ORDER__ when available. bz#1319389.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 25 Jan 2017 11:27:12 +0900
 
 firefox (50.1.0-1) unstable; urgency=medium
 
