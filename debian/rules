@@ -22,6 +22,8 @@ include debian/upstream.mk
 ifneq (,$(filter wheezy jessie,$(BACKPORT)))
 LESS_SYSTEM_LIBS = 1
 endif
+# Until the required versions of NSPR and NSS can be in unstable.
+LESS_SYSTEM_LIBS = 1
 
 ifeq ($(BACKPORT),wheezy)
 CC := gcc-4.7
