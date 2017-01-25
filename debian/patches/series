@@ -23,3 +23,4 @@ debian-hacks/Make-upstream-build-system-create-debian-installer-M.patch
 debian-hacks/Work-around-binutils-assertion-on-mips.patch
 debian-hacks/Don-t-build-image-gtests.patch
 debian-hacks/Allow-to-override-ICU_DATA_FILE-from-the-environment.patch
+debian-hacks/Force-use-the-i686-rust-target.patch
