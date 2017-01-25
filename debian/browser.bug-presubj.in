@@ -24,8 +24,12 @@ is the case before filing any bugs.
 If you get crashes and none of the above hints helped, please also
 try to run "MOZILLA_DISABLE_PLUGINS=1 @browser@".
 
-If @Browser@ still crashes, please install the @browser@-dbg package
-and run @Browser@ under gdb with:
+If @Browser@ still crashes, please submit the crash to Mozilla, then
+visit `about:crashes` and paste the url to the corresponding submitted
+crash report in your bug report.
+
+Alternatively, please install the @browser@-dbg package and run
+@Browser@ under gdb with:
 
     gdb --args @browser@ [command-line-arguments]
 
