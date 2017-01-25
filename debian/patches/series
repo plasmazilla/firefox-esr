@@ -8,6 +8,7 @@ porting/Fix-CPU_ARCH-test-for-libjpeg-on-mips.patch
 porting/Fix-crashes-in-AtomicOperations-none-on-s390x.patch
 porting/Fix-broken-MIPS-build.patch
 porting/Work-around-Debian-bug-844357.patch
+porting/Bug-1319389-Generically-set-SK_CPU_-BL-ENDIAN-based-.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
