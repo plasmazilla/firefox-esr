@@ -84,6 +84,7 @@ usr/lib/@browser@/gmp-clearkey/0.1/libclearkey.so
 
 %if CRASH_REPORTER
 usr/lib/@browser@/crashreporter
+usr/lib/@browser@/minidump-analyzer
 usr/lib/@browser@/Throbber-small.gif
 usr/lib/@browser@/crashreporter.ini
 usr/lib/@browser@/browser/crashreporter-override.ini
