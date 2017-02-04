@@ -7,7 +7,7 @@ Subject: Bug 1178266 - Link against libatomic when necessary
  1 file changed, 1 insertion(+)
 
 diff --git a/mfbt/moz.build b/mfbt/moz.build
-index a071040..45087fa 100644
+index a0710405aca3..45087fad9aac 100644
 --- a/mfbt/moz.build
 +++ b/mfbt/moz.build
 @@ -122,6 +122,7 @@ DISABLE_STL_WRAPPING = True

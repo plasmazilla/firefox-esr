@@ -10,7 +10,7 @@ Subject: Allow .js preference files to set locked prefs with lockPref()
  4 files changed, 18 insertions(+), 6 deletions(-)
 
 diff --git a/modules/libpref/prefapi.cpp b/modules/libpref/prefapi.cpp
-index dd27769..bd3f8ea 100644
+index dd2776987ef9..bd3f8eaaa9f7 100644
 --- a/modules/libpref/prefapi.cpp
 +++ b/modules/libpref/prefapi.cpp
 @@ -967,11 +967,14 @@ void PREF_ReaderCallback(void       *closure,
@@ -30,7 +30,7 @@ index dd27769..bd3f8ea 100644
 +        PREF_LockPref(pref, true);
  }
 diff --git a/modules/libpref/prefapi.h b/modules/libpref/prefapi.h
-index 5bd8c43..0ab0d7c 100644
+index 5bd8c43bb999..0ab0d7cdaa1d 100644
 --- a/modules/libpref/prefapi.h
 +++ b/modules/libpref/prefapi.h
 @@ -186,7 +186,8 @@ void PREF_ReaderCallback( void *closure,
@@ -44,7 +44,7 @@ index 5bd8c43..0ab0d7c 100644
  #ifdef __cplusplus
  }
 diff --git a/modules/libpref/prefread.cpp b/modules/libpref/prefread.cpp
-index 6c4d339..16c5057 100644
+index 6c4d339894f2..16c50573a491 100644
 --- a/modules/libpref/prefread.cpp
 +++ b/modules/libpref/prefread.cpp
 @@ -43,6 +43,7 @@ enum {
@@ -97,7 +97,7 @@ index 6c4d339..16c5057 100644
                  ps->nextstate = PREF_PARSE_UNTIL_COMMA; /* return here when done */
                  state = PREF_PARSE_QUOTED_STRING;
 diff --git a/modules/libpref/prefread.h b/modules/libpref/prefread.h
-index 3c317ff..0c13057 100644
+index 3c317ff044d0..0c13057d43c8 100644
 --- a/modules/libpref/prefread.h
 +++ b/modules/libpref/prefread.h
 @@ -34,7 +34,8 @@ typedef void (*PrefReader)(void       *closure,

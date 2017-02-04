@@ -8,7 +8,7 @@ MozReview-Commit-ID: 31otXvuDu4A
  1 file changed, 15 insertions(+), 15 deletions(-)
 
 diff --git a/memory/mozalloc/throw_gcc.h b/memory/mozalloc/throw_gcc.h
-index 2c04dd2..8e48b73 100644
+index 2c04dd24343b..8e48b7319888 100644
 --- a/memory/mozalloc/throw_gcc.h
 +++ b/memory/mozalloc/throw_gcc.h
 @@ -25,91 +25,91 @@ namespace std {

@@ -8,7 +8,7 @@ Subject: Allow unsigned addons in /usr/{lib,share}/mozilla/extensions
  2 files changed, 4 insertions(+), 1 deletion(-)
 
 diff --git a/toolkit/mozapps/extensions/content/extensions.js b/toolkit/mozapps/extensions/content/extensions.js
-index 53e9781..8f6db46 100644
+index 53e9781090d5..8f6db4688aa1 100644
 --- a/toolkit/mozapps/extensions/content/extensions.js
 +++ b/toolkit/mozapps/extensions/content/extensions.js
 @@ -211,6 +211,8 @@ function isCorrectlySigned(aAddon) {
@@ -21,7 +21,7 @@ index 53e9781..8f6db46 100644
      return false;
    return true;
 diff --git a/toolkit/mozapps/extensions/internal/XPIProvider.jsm b/toolkit/mozapps/extensions/internal/XPIProvider.jsm
-index e68f8e6..02e7431 100644
+index e68f8e6a3f8d..02e7431df623 100644
 --- a/toolkit/mozapps/extensions/internal/XPIProvider.jsm
 +++ b/toolkit/mozapps/extensions/internal/XPIProvider.jsm
 @@ -682,7 +682,8 @@ function isUsableAddon(aAddon) {

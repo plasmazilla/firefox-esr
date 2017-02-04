@@ -8,7 +8,7 @@ Subject: [NSS] Fix FTBFS on Hurd because of MAXPATHLEN
  2 files changed, 20 insertions(+), 5 deletions(-)
 
 diff --git a/security/nss/cmd/shlibsign/shlibsign.c b/security/nss/cmd/shlibsign/shlibsign.c
-index 7ddbf34..48e1aae 100644
+index 7ddbf343dfe6..48e1aae3172f 100644
 --- a/security/nss/cmd/shlibsign/shlibsign.c
 +++ b/security/nss/cmd/shlibsign/shlibsign.c
 @@ -716,7 +716,6 @@ int main(int argc, char **argv)
@@ -47,7 +47,7 @@ index 7ddbf34..48e1aae 100644
          link_buf[ret] = 0;
          link_file = mkoutput(input_file);
 diff --git a/security/nss/lib/freebl/unix_rand.c b/security/nss/lib/freebl/unix_rand.c
-index 579040ee..b4fef7a 100644
+index 579040eea8e2..b4fef7a08f9d 100644
 --- a/security/nss/lib/freebl/unix_rand.c
 +++ b/security/nss/lib/freebl/unix_rand.c
 @@ -1031,6 +1031,10 @@ void ReadSingleFile(const char *fileName)
