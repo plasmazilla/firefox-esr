@@ -1,3 +1,22 @@
+firefox-esr (45.7.0esr-2) unstable; urgency=medium
+
+  * debian/browser.desktop.in:
+    - Use the application name as StartupWMClass in the desktop file.
+      Along the change to nsAppRunner.cpp, this prevents e.g. GNOME Shell
+      from making Firefox appear as Firefox ESR when both are used.
+    - Remove Encoding key from desktop file. Closes: #812493
+  * debian/rules: Remove -fno-schedule-insns2 and add -fno-lifetime-dse
+    when building with GCC6.
+  * debian/rules, debian/control*: Build with GCC6 on arm*.
+    Closes: #852009. AFAIK, that will lead to FTBFS on at least armhf,
+    but let's already see how it goes.
+
+  * memory/mozjemalloc/jemalloc.c: Don't set 64KB page size on aarch64.
+    bz#1091515. Closes: #819059, #825355.
+  * toolkit/xre/nsAppRunner.cpp: Set program name from the remoting name.
+
+ -- Mike Hommey <glandium@debian.org>  Sun, 05 Feb 2017 09:03:36 +0900
+
 firefox-esr (45.7.0esr-1) unstable; urgency=medium
 
   * New upstream release.
