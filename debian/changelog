@@ -1,3 +1,44 @@
+firefox (51.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+  * debian/browser.desktop.in:
+    - Use the application name as StartupWMClass in the desktop file.
+      Along the change to nsAppRunner.cpp, this prevents e.g. GNOME Shell
+      from making Firefox appear as Firefox ESR when both are used.
+    - Remove Encoding key from desktop file. Closes: #812493
+  * debian/rules: Remove -fno-schedule-insns2 and add -fno-lifetime-dse
+    when building with GCC6.
+  * debian/rules, debian/control*: Build with GCC6 on arm*.
+    Closes: #852009. AFAIK, that will lead to FTBFS on at least armhf,
+    but let's already see how it goes.
+  * debian/upstream.mk: Use pkg-info.mk to figure out source name and version.
+    Closes: #850720.
+  * debian/control*:
+    - Remove build dependency and suggest on libgnome*. It hasn't actually
+      been used for a long time. Closes: #850265.
+    - Bump Standards-Version to 3.9.8. No changes required.
+    - Bump libvpx build dependency.
+  * debian/rules: Resize the symbolic icon.
+  * Move the -l10n-all package to the metapackages section. Closes: #824784.
+  * debian/browser.postrm.in, debian/browser.preinst.in, debian/rules: Don't
+    install preinst and postrm at all for the firefox package.
+  * debian/symbols.apt.conf, debian/symbols.mk, debian/symbols.sources.list:
+    Add scripts to create symbols archive to upload to Mozilla crash servers.
+  * debian/browser-dev.links.in, debian/browser.install.in,
+    debian/browser.mozconfig.in, debian/control*, debian/make.mk, debian/rules:
+    Add more granularity as to what system libraries are used
+    and only disable NSPR/NSS until we have the right versions in Debian.
+
+  * gfx/2d/BorrowedContext.h, gfx/layers/composite/LayerManagerComposite.*,
+    gfx/layers/moz.build: Fix --disable-skia builds. bz#1319374.
+  * gfx/skia/moz.build: Build Skia NEON code on arm64.
+  * toolkit/xre/nsAppRunner.cpp: Set program name from the remoting name.
+  * config/recurse.mk: Work around race condition between building NSPR and
+    NSS. bz#1115944, bz#1315882.
+
+ -- Mike Hommey <glandium@debian.org>  Sun, 05 Feb 2017 15:52:36 +0900
+
 firefox (51.0-1) unstable; urgency=medium
 
   * New upstream release.
