@@ -133,7 +133,7 @@ $(call lazy,CONFIGURE_ENV,$$(foreach export,$(EXPORTS),$$(export)="$$($$(export)
 
 IN_FILES := $(wildcard debian/*.in)
 ifeq ($(PRODUCT_NAME),firefox)
-IN_FILES := $(filter-out debian/$($(PRODUCT)).in,$(IN_FILES))
+IN_FILES := $(filter-out debian/browser.preinst.in debian/browser.postrm.in debian/$($(PRODUCT)).in,$(IN_FILES))
 endif
 preprocessed_filename = $(subst $(PRODUCT),$($(PRODUCT)),$(subst GRE_VERSION,$(GRE_VERSION),$(1:.in=)))
 define preprocess

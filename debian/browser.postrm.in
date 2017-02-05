@@ -1,9 +1,7 @@
 #!/bin/sh -e
 
-%if browser != firefox
 if [ "$1" = "remove" ]; then
     dpkg-divert --package @browser@ --rename --remove /usr/bin/firefox
 fi
-%endif
 
 #DEBHELPER#

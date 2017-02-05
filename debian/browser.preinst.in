@@ -1,6 +1,5 @@
 #!/bin/sh -e
 
-%if browser != firefox
 if [ "$1" = "upgrade" ] || [ "$1" = "install" ] ; then
 %if TRANSITION
     if [ "$(dpkg-divert --listpackage /usr/bin/firefox)" = "iceweasel" ] ; then
@@ -9,6 +8,5 @@ if [ "$1" = "upgrade" ] || [ "$1" = "install" ] ; then
 %endif
     dpkg-divert --package @browser@ --divert /usr/bin/firefox.real --rename /usr/bin/firefox
 fi
-%endif
 
 #DEBHELPER#
