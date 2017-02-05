@@ -19,13 +19,14 @@ PACKAGE_VERSION = $(DEBIAN_VERSION)
 
 define download_package
 $1_$2_$3.deb: PACKAGE=$1
+$1_$2_$3.deb: VERSION=$2
 $1_$2_$3.deb: ARCH=$3
 PACKAGES += $1_$2_$3.deb
 
 endef
 
 define define_package
-$(foreach arch,$(ARCHES),$(call download_package,$1,$(lastword $(subst :,%3a,$(PACKAGE_VERSION))),$(arch)))
+$(foreach arch,$(ARCHES),$(call download_package,$1,$(lastword $(subst :, ,$(PACKAGE_VERSION))),$(arch)))
 endef
 
 $(eval $(call define_package,$(PACKAGE_NAME)))
@@ -46,6 +47,7 @@ apt-tmp:
 
 $(PACKAGES): apt-tmp
 	apt-get download $(PACKAGE):$(ARCH)=$(PACKAGE_VERSION)
+	$(if $(filter-out $(VERSION),$(PACKAGE_VERSION)),mv $(PACKAGE)_$(subst :,%3a,$(PACKAGE_VERSION))_$(ARCH).deb $@)
 
 NON_DEBUG_PACKAGES := $(filter $(PACKAGE_NAME)_%,$(PACKAGES))
 
