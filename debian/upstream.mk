@@ -2,6 +2,8 @@
 # Define the following variables before including this file:
 # PRODUCT - product codename (e.g. browser)
 
+include /usr/share/dpkg/pkg-info.mk
+
 # The VERSION_FILTER transforms upstream version patterns to versions
 # used in debian/changelog. Versions are to be transformed as follows:
 # 4.0      -> 4.0
@@ -22,13 +24,12 @@ export JS_SO_VERSION := $(firstword $(GRE_VERSION))d
 export GRE_VERSION := $(firstword $(GRE_VERSION))
 
 # Last version in debian/changelog
-DEBIAN_SRC_VERSION := $(shell dpkg-parsechangelog | sed -n 's/^\(Source\|Version\): *// p')
-DEBIAN_SOURCE := $(firstword $(DEBIAN_SRC_VERSION))
-DEBIAN_VERSION := $(word 2, $(DEBIAN_SRC_VERSION))
+DEBIAN_SOURCE := $(DEB_SOURCE)
+DEBIAN_VERSION := $(DEB_VERSION)
 # Debian part of the above version (anything after the last dash)
 DEBIAN_RELEASE := $(lastword $(subst -, ,$(DEBIAN_VERSION)))
 # Upstream part of the debian/changelog version (anything before the last dash)
-UPSTREAM_RELEASE := $(DEBIAN_VERSION:%-$(DEBIAN_RELEASE)=%)
+UPSTREAM_RELEASE := $(DEB_VERSION_UPSTREAM)
 # Aurora builds have the build id in the upstream part of the debian/changelog version
 export MOZ_BUILD_DATE := $(word 2,$(subst +, ,$(UPSTREAM_RELEASE)))
 ifndef MOZ_BUILD_DATE
