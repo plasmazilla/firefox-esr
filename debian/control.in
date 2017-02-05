@@ -45,7 +45,7 @@ Build-Depends: autotools-dev,
                libsqlite3-dev (>= 3.14.1),
 %endif
 %if USE_SYSTEM_VPX
-               libvpx-dev (>= 1.4.0),
+               libvpx-dev (>= 1.5.0),
 %endif
 %if USE_SYSTEM_HUNSPELL
                libhunspell-dev (>= 1.2),
