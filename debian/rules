@@ -354,7 +354,7 @@ stamps/dh_install:: debian/noinstall
 	install -m 644 $(call branding_icon,content/icon64.png) \
 		debian/$($(PRODUCT))/usr/share/icons/hicolor/64x64/apps/$($(PRODUCT)).png
 	install -d -m 755 debian/$($(PRODUCT))/usr/share/icons/hicolor/symbolic/apps
-	install -m 644 $(call branding_icon,content/silhouette-40.svg) \
+	sed 's/viewBox="[^"]*"/viewBox="-41 35 32 32"/' $(call branding_icon,content/silhouette-40.svg) > \
 		debian/$($(PRODUCT))/usr/share/icons/hicolor/symbolic/apps/$($(PRODUCT))-symbolic.svg
 
 override_dh_install: stamps/dh_install
