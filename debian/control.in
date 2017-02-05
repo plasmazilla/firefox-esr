@@ -194,7 +194,7 @@ Description: Development files for the Gecko engine library - Transitional packa
 
 Package: @browser@-l10n-all
 Architecture: all
-Section: localization
+Section: metapackages
 Depends: ${misc:Depends}, @L10N_PACKAGES_DEPS@
 %if TRANSITION
 Breaks: iceweasel-l10n-all (<< 45)
