@@ -1,3 +1,9 @@
+firefox-esr (45.7.0esr-3) unstable; urgency=medium
+
+  * debian/rules: Add -fno-schedule-insns2 back. Closes: #854258.
+
+ -- Mike Hommey <glandium@debian.org>  Mon, 06 Feb 2017 07:25:15 +0900
+
 firefox-esr (45.7.0esr-2) unstable; urgency=medium
 
   * debian/browser.desktop.in:
