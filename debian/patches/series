@@ -9,6 +9,8 @@ porting/Fix-crashes-in-AtomicOperations-none-on-s390x.patch
 porting/Fix-broken-MIPS-build.patch
 porting/Work-around-Debian-bug-844357.patch
 porting/Bug-1319389-Generically-set-SK_CPU_-BL-ENDIAN-based-.patch
+porting/Bug-1319374.-Fix-disable-skia-builds.-r-lsalzman.patch
+porting/Build-Skia-NEON-code-on-arm64.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
@@ -24,3 +26,4 @@ debian-hacks/Work-around-binutils-assertion-on-mips.patch
 debian-hacks/Don-t-build-image-gtests.patch
 debian-hacks/Allow-to-override-ICU_DATA_FILE-from-the-environment.patch
 debian-hacks/Force-use-the-i686-rust-target.patch
+debian-hacks/Set-program-name-from-the-remoting-name.patch
