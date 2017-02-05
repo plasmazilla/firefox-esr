@@ -45,7 +45,7 @@ Build-Conflicts: graphicsmagick-imagemagick-compat,
                  liboss4-salsa-dev,
                  libhildonmime-dev,
                  libosso-dev
-Standards-Version: 3.9.7.0
+Standards-Version: 3.9.8.0
 Vcs-Git: https://anonscm.debian.org/git/pkg-mozilla/iceweasel.git -b release/master
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-mozilla/iceweasel.git?h=release/master
 
