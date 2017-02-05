@@ -24,26 +24,42 @@ Build-Depends: autotools-dev,
                libglib2.0-dev (>= 2.16.0),
                libstartup-notification0-dev,
                libjpeg-dev,
+%if USE_SYSTEM_ZLIB
                zlib1g-dev,
+%endif
+%if USE_SYSTEM_BZ2
                libbz2-dev,
+%endif
                libreadline-dev,
                python2.7,
                python-minimal (>= 2.6.6-13~),
                python-ply,
                dpkg-dev (>= 1.16.1.1~),
-%if !LESS_SYSTEM_LIBS
+%if USE_SYSTEM_NSPR
                libnspr4-dev (>= 2:4.13.1~),
+%endif
+%if USE_SYSTEM_NSS
                libnss3-dev (>= 2:3.28.1~),
+%endif
+%if USE_SYSTEM_SQLITE
                libsqlite3-dev (>= 3.14.1),
+%endif
+%if USE_SYSTEM_VPX
                libvpx-dev (>= 1.4.0),
 %endif
+%if USE_SYSTEM_HUNSPELL
                libhunspell-dev (>= 1.2),
+%endif
                libdbus-glib-1-dev,
                libasound2-dev [linux-any],
                libiw-dev [linux-any],
                libnotify-dev,
+%if USE_SYSTEM_FFI
                libffi-dev,
+%endif
+%if USE_SYSTEM_LIBEVENT
                libevent-dev (>= 1.4.1),
+%endif
                mesa-common-dev,
                libpulse-dev,
                yasm (>= 1.1),
@@ -119,8 +135,10 @@ Architecture: any
 Priority: extra
 Section: debug
 Depends: @browser@ (= ${binary:Version}),
-%if !LESS_SYSTEM_LIBS
+%if USE_SYSTEM_NSS
          libnss3-dbg | libnss3-1d-dbg,
+%endif
+%if USE_SYSTEM_NSPR
          libnspr4-dbg | libnspr4-0d-dbg,
 %endif
          ${misc:Depends}
@@ -152,8 +170,10 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          python-ply,
-%if !LESS_SYSTEM_LIBS
+%if USE_SYSTEM_NSS
          libnss3-dev,
+%endif
+%if USE_SYSTEM_NSPR
          libnspr4-dev,
 %endif
          @browser@ (= ${binary:Version})

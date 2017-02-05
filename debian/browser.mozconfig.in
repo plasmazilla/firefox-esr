@@ -9,20 +9,36 @@ ac_add_options --enable-default-toolkit=cairo-gtk3
 %else
 ac_add_options --enable-default-toolkit=cairo-gtk2
 %endif
+%if USE_SYSTEM_ZLIB
 ac_add_options --with-system-zlib # MOZ_SYSTEM_ZLIB=1
+%endif
+%if USE_SYSTEM_BZ2
 ac_add_options --with-system-bz2 # MOZ_SYSTEM_BZ2=1
+%endif
 ac_add_options --disable-gconf
 ac_add_options --enable-readline
+%if USE_SYSTEM_HUNSPELL
 ac_add_options --enable-system-hunspell # MOZ_SYSTEM_HUNSPELL=1
+%endif
 ac_add_options --disable-strip
 ac_add_options --disable-install-strip
 ac_add_options --enable-startup-notification
+%if USE_SYSTEM_FFI
 ac_add_options --enable-system-ffi # MOZ_SYSTEM_FFI=1
+%endif
+%if USE_SYSTEM_LIBEVENT
 ac_add_options --with-system-libevent # MOZ_SYSTEM_LIBEVENT=1
-%if !LESS_SYSTEM_LIBS
+%endif
+%if USE_SYSTEM_NSPR
 ac_add_options --with-system-nspr # MOZ_SYSTEM_NSPR=1
+%endif
+%if USE_SYSTEM_NSS
 ac_add_options --with-system-nss # MOZ_SYSTEM_NSS=1
+%endif
+%if USE_SYSTEM_SQLITE
 ac_add_options --enable-system-sqlite # MOZ_SYSTEM_SQLITE=1
+%endif
+%if USE_SYSTEM_VPX
 ac_add_options --with-system-libvpx # MOZ_SYSTEM_LIBVPX=1
 %endif
 ac_add_options --disable-updater

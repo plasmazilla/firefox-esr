@@ -19,11 +19,18 @@ PYTHON := python -B
 PRODUCT := browser
 include debian/upstream.mk
 
-ifneq (,$(filter wheezy jessie,$(BACKPORT)))
-LESS_SYSTEM_LIBS = 1
+SYSTEM_LIBS = zlib bz2 hunspell ffi libevent
+ifeq (,$(filter wheezy jessie,$(BACKPORT)))
+SYSTEM_LIBS += nspr nss sqlite vpx
 endif
 # Until the required versions of NSPR and NSS can be in unstable.
-LESS_SYSTEM_LIBS = 1
+SYSTEM_LIBS := $(filter-out nspr nss, $(SYSTEM_LIBS))
+
+define system_lib
+USE_SYSTEM_$(1) = 1
+SYSTEM_LIBS_VARS += USE_SYSTEM_$(1)
+endef
+$(foreach lib,$(sort $(call uc,$(SYSTEM_LIBS))),$(eval $(call system_lib,$(lib))))
 
 ifeq ($(BACKPORT),wheezy)
 CC := gcc-4.7
@@ -153,7 +160,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER RUST BUILD_RUST
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) $(SYSTEM_LIBS_VARS) SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION MOZ_FFVPX ICU_DATA_FILE CRASH_REPORTER RUST BUILD_RUST
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
@@ -278,7 +285,7 @@ endif
 
 override_dh_auto_install: stamps/install-$(PRODUCT)
 
-ifdef LESS_SYSTEM_LIBS
+ifndef USE_SYSTEM_NSPR
 NSPR_VERSION = $(shell awk -F' *= *' '/MOD_[A-Z]*_VERSION/ {v[$$1] = $$2} END {print v["MOD_MAJOR_VERSION"] "." v["MOD_MINOR_VERSION"] "." v["MOD_PATCH_VERSION"]}' build-$(PRODUCT)/nsprpub/config/autoconf.mk)
 debian/mozilla-nspr.pc: VARS += NSPR_VERSION
 debian/mozilla-nspr.pc: stamps/build-$(PRODUCT)
@@ -310,8 +317,8 @@ endif
 		done; \
 	done
 
-ifndef LESS_SYSTEM_LIBS
-	for f in /usr/include/nspr/* /usr/include/nss/*; do \
+ifneq (,$(USE_SYSTEM_NSPR)$(USE_SYSTEM_NSS))
+	for f in $(if $(USE_SYSTEM_NSPR),/usr/include/nspr/*) $(if $(USE_SYSTEM_NSS),/usr/include/nss/*); do \
 		ln -s $$f debian/tmp/usr/include/$($(PRODUCT))-$(GRE_VERSION)/$$(basename $$f); \
 	done
 endif

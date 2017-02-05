@@ -7,18 +7,22 @@ usr/lib/@browser@/plugin-container
 
 usr/lib/@browser@/omni.ja
 
-%if LESS_SYSTEM_LIBS
+%ifndef USE_SYSTEM_SQLITE
+usr/lib/@browser@/libmozsqlite3.so
+%endif
+%ifndef USE_SYSTEM_NSPR
+usr/lib/@browser@/libnspr4.so
+usr/lib/@browser@/libplc4.so
+usr/lib/@browser@/libplds4.so
+%endif
+%ifndef USE_SYSTEM_NSS
 usr/lib/@browser@/libfreeblpriv3.chk
 usr/lib/@browser@/libfreeblpriv3.so
-usr/lib/@browser@/libmozsqlite3.so
-usr/lib/@browser@/libnspr4.so
 usr/lib/@browser@/libnss3.so
 usr/lib/@browser@/libnssckbi.so
 usr/lib/@browser@/libnssdbm3.so
 usr/lib/@browser@/libnssutil3.so
 usr/lib/@browser@/libnssdbm3.chk
-usr/lib/@browser@/libplc4.so
-usr/lib/@browser@/libplds4.so
 usr/lib/@browser@/libsmime3.so
 usr/lib/@browser@/libsoftokn3.chk
 usr/lib/@browser@/libsoftokn3.so
