@@ -5,5 +5,6 @@ deb http://deb.debian.org/debian/ experimental main
 deb http://deb.debian.org/debian-debug/ unstable-debug main
 deb http://deb.debian.org/debian-debug/ experimental-debug main
 deb http://incoming.debian.org/debian-buildd buildd-unstable main
+deb http://incoming.debian.org/debian-buildd buildd-experimental main
 deb http://mozilla.debian.net/ jessie-backports firefox-release
 deb http://mozilla.debian.net/ jessie-backports firefox-beta
