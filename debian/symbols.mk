@@ -48,6 +48,7 @@ apt-tmp:
 $(PACKAGES): apt-tmp
 	apt-get download $(PACKAGE):$(ARCH)=$(PACKAGE_VERSION)
 	$(if $(filter-out $(VERSION),$(PACKAGE_VERSION)),mv $(PACKAGE)_$(subst :,%3a,$(PACKAGE_VERSION))_$(ARCH).deb $@)
+	[ -f "$@" ] && touch $@
 
 NON_DEBUG_PACKAGES := $(filter $(PACKAGE_NAME)_%,$(PACKAGES))
 
