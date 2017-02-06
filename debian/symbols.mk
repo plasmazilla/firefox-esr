@@ -32,9 +32,12 @@ endef
 $(eval $(call define_package,$(PACKAGE_NAME)))
 ifeq (,$(filter $(BACKPORT),wheezy jessie))
 DBG=dbgsym
-DBGTYPE=buildid
 else
 DBG=dbg
+endif
+ifeq (,$(filter 45.%,$(PACKAGE_VERSION)))
+DBGTYPE=buildid
+else
 DBGTYPE=dbg
 endif
 $(eval $(call define_package,$(PACKAGE_NAME)-$(DBG)))
