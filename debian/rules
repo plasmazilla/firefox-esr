@@ -63,6 +63,8 @@ $(call uc,$(PRODUCT)) := $(call uc,$(DISPLAY_NAME))
 Product := $(call uc_first,$(PRODUCT))
 $(Product) := $(DISPLAY_NAME)
 
+MOZ_APP_REMOTINGNAME := $(call uc_first,$($(PRODUCT)))
+
 LIB_DIR := /usr/lib/$($(PRODUCT))
 SHARE_DIR := /usr/share/$($(PRODUCT))
 
@@ -162,7 +164,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS GSTREAMER_VERSION SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION CRASH_REPORTER
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) MOZ_APP_REMOTINGNAME LESS_SYSTEM_LIBS GSTREAMER_VERSION SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION CRASH_REPORTER
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
@@ -224,6 +226,7 @@ stamps/configure-$(PRODUCT):: stamps/prepare-configure debian/$($(PRODUCT)).mozc
 	../configure --target=$(DEB_HOST_GNU_TYPE) --host=$(DEB_BUILD_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) --prefix=/usr $(CONFIGURE_FLAGS) \
 		--with-default-mozilla-five-home=$(LIB_DIR) \
 		$(BRANDING_CONFIGURE_FLAG)
+	sed -i "/MOZ_APP_REMOTINGNAME/s/r''' [^']* '''/r''' $(MOZ_APP_REMOTINGNAME) '''/" build-$(PRODUCT)/config.status
 
 stamps/build-$(PRODUCT):: stamps/configure-check-$(PRODUCT)
 	dh_auto_build --parallel --builddirectory=build-$(PRODUCT) -- \
