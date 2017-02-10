@@ -12,6 +12,7 @@ porting/NSS-GNU-kFreeBSD-support.patch
 porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
 porting/Disable-libyuv-assembly-on-mips64.patch
 porting/Bug-1091515-Don-t-set-64KB-page-size-on-aarch64.-r-g.patch
+porting/Bug-1257055-Use-jit-arm64-Architecture-arm64.h-on-no.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
