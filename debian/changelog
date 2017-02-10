@@ -1,3 +1,17 @@
+firefox-esr (45.7.0esr-4) unstable; urgency=medium
+
+  * debian/rules: Build with -fno-schedule-insns on armel and armhf when
+    building with GCC6. Hopefully closes: #854640.
+  * debian/browser.desktop.in, debian/rules: Followup for the StartupWMClass
+    changes in 45.7.0esr-2: Use the same name in desktop file and
+    application.ini RemotingName. Closes: #854397.
+
+  * js/src/jit/AtomicOperations.h, js/src/jit/arm64/AtomicOperations-arm64.h:
+    Use jit/arm64/Architecture-arm64.h on non-JIT aarch64. bz#1257055.
+    Closes: #854079.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 11 Feb 2017 07:34:43 +0900
+
 firefox-esr (45.7.0esr-3) unstable; urgency=medium
 
   * debian/rules: Add -fno-schedule-insns2 back. Closes: #854258.
