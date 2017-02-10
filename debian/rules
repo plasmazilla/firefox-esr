@@ -124,6 +124,9 @@ endif
 ifneq (,$(findstring gcc,$(CC)))
 ifeq (,$(filter 4.% 5.%,$(shell $(CC) -dumpversion)))
 CFLAGS += -fno-schedule-insns2 -fno-lifetime-dse -fno-delete-null-pointer-checks
+ifneq (,$(filter armel armhf,$(DEB_BUILD_ARCH)))
+CFLAGS += -fno-schedule-insns
+endif
 endif
 endif
 
