@@ -106,7 +106,7 @@ symbols: $(SYMBOL_FILES:%=dump-%.dbg)
 
 else
 symbols: $(NON_DEBUG_PACKAGES:%=%.x)
-	$(MAKE) -f $(firstword $(MAKEFILE_LIST)) symbols SYMBOL_FILES="$(shell find $(^:%=%/usr/lib) -path '*/usr/lib/debug' -prune -o \( -type f -exec sh -c "file -b --mime-type {} | grep -q application/" \; -print \))"
+	$(MAKE) -f $(firstword $(MAKEFILE_LIST)) symbols SYMBOL_FILES="$(shell find $(^:%=%/usr/lib) -path '*/usr/lib/debug' -prune -o \( -type f -exec sh -c "file -b --mime-type {} | grep -q application/x-sharedlib" \; -print \))"
 endif
 
 syms.zip:
