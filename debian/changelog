@@ -1,3 +1,27 @@
+firefox (51.0.1-2) unstable; urgency=medium
+
+  * debian/symbols.mk:
+    - Better handle downloading symbols from packages with epochs.
+    - Don't filter file names when getting symbols.
+    - Add experimental buildd apt source for symbols download.
+    - Avoid apt-get download being re-run when the file is already there.
+    - Adjust DBGTYPE depending on package version, not whether it's a
+      backport.
+    - Only dump symbols for files of type application/x-sharedlib.
+      This covers binary executables too because they are PIE and
+      undistinguishable from shared libraries as a consequence.
+  * debian/rules:
+    - Add -fno-schedule-insns2 back. Closes: #854258.
+    - Build with -fno-schedule-insns on armel and armhf when building with
+      GCC6. Closes: #854640.
+    - Hack to disable --gc-sections when building NSS, working around bug
+      #844357 again. Should fix FTBFS on mips*.
+  * debian/browser.desktop.in, debian/rules: Followup for the StartupWMClass
+    changes in 51.0.1-1: Use the same name in desktop file and
+    application.ini RemotingName. Closes: #854397.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 18 Feb 2017 08:17:22 +0900
+
 firefox (51.0.1-1) unstable; urgency=medium
 
   * New upstream release.
