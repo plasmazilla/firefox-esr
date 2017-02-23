@@ -23,8 +23,8 @@ SYSTEM_LIBS = zlib bz2 hunspell ffi libevent
 ifeq (,$(filter wheezy jessie,$(BACKPORT)))
 SYSTEM_LIBS += nspr nss sqlite vpx
 endif
-# Until the required versions of NSPR and NSS can be in unstable.
-SYSTEM_LIBS := $(filter-out nspr nss, $(SYSTEM_LIBS))
+# Until the required versions of NSPR, NSS and sqlite can be in unstable.
+SYSTEM_LIBS := $(filter-out nspr nss sqlite, $(SYSTEM_LIBS))
 
 define system_lib
 USE_SYSTEM_$(1) = 1
