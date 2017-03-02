@@ -25,8 +25,8 @@
 
 <!ENTITY showUnsignedExtensions.button.label  "Pe onongo kiromo moko ada pa lamed mogo">
 <!ENTITY showAllExtensions.button.label       "Nyut lamed weng">
-
-
+<!ENTITY debugAddons.label                    "Nong bal i Med-ikome">
+<!ENTITY debugAddons.accesskey                "o">
 <!-- global warnings -->
 
 <!ENTITY warning.safemode.label                    "Kit maber ojuko woko med-ikome weng.">
@@ -243,3 +243,5 @@
 <!ENTITY disabledUnsigned.devInfo.start "Luyub ma mito moko ada pa med-ikome gi twero mede ki kwano ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "ki cing">
 
+
+<!ENTITY pluginDeprecation.learnMore "Nong ngec mapol.">

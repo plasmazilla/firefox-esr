@@ -4,7 +4,7 @@
 
 <!ENTITY itemFormatting.label             "Форматиране">
 <!ENTITY itemTags.label                   "Етикети">
-<!ENTITY itemAdvanced.label               "Допълнителни">
+<!ENTITY itemAdvanced.label               "Разширени">
 
 <!ENTITY style.label                      "Стил:">
 <!ENTITY style.accesskey                  "С">
@@ -28,10 +28,10 @@
 
 <!-- labels -->
 <!ENTITY displayTagsText.label     "Етикетите могат да се използват за подреждане и оценяване на вашите писма.">
-<!ENTITY addTagButton.label        "Добавяне">
-<!ENTITY addTagButton.accesskey    "Д">
-<!ENTITY editTagButton.label       "Редактиране">
-<!ENTITY editTagButton.accesskey   "Р">
+<!ENTITY newTagButton.label        "Добавяне…">
+<!ENTITY newTagButton.accesskey    "Д">
+<!ENTITY editTagButton1.label      "Редактиране…">
+<!ENTITY editTagButton1.accesskey  "Р">
 <!ENTITY removeTagButton.label     "Изтриване">
 <!ENTITY removeTagButton.accesskey "И">
 
@@ -39,10 +39,10 @@
 <!ENTITY fontsAndColors1.label   "Шрифтове и цветове">
 <!ENTITY defaultFont.label       "Шрифт по подразбиране:">
 <!ENTITY defaultFont.accesskey   "Ш">
-<!ENTITY defaultSize.label       "Размер:">
+<!ENTITY defaultSize.label       "Големина:">
 <!ENTITY defaultSize.accesskey   "е">
 <!ENTITY fontOptions.accesskey   "Д">
-<!ENTITY fontOptions.label       "Допълнителни…">
+<!ENTITY fontOptions.label       "Разширени…">
 <!ENTITY colorButton.label       "Цветове…">
 <!ENTITY colorButton.accesskey   "Ц">
 

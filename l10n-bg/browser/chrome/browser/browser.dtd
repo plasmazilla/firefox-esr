@@ -67,7 +67,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY openFileCmd.label "Отваряне на файл…">
 <!ENTITY openFileCmd.accesskey "ф">
 <!ENTITY openFileCmd.commandkey "o">
-<!ENTITY printSetupCmd.label "Настройка на страницата…">
+<!ENTITY printSetupCmd.label "Настройки на отпечатване…">
 <!ENTITY printSetupCmd.accesskey "Н">
 <!ENTITY printPreviewCmd.label "Преглед преди отпечатване">
 <!ENTITY printPreviewCmd.accesskey "р">
@@ -85,7 +85,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY personalbarCmd.accesskey "о">
 <!ENTITY bookmarksToolbarItem.label "Елементи на лентата с отметките">
 
-<!ENTITY toolbarContextMenu.reloadAllTabs.label "Презареждане всички раздели">
+<!ENTITY toolbarContextMenu.reloadAllTabs.label "Презареждане на всички раздели">
 <!ENTITY toolbarContextMenu.reloadAllTabs.accesskey "в">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.label "Отмятане на всички раздели…">
 <!ENTITY toolbarContextMenu.bookmarkAllTabs.accesskey "О">
@@ -104,7 +104,7 @@ when there are no windows but Firefox is still running. -->
 These should match what Safari and other Apple applications use on OS X Lion. -->
 <!ENTITY enterFullScreenCmd.label "Влизане в режим на цял екран">
 <!ENTITY enterFullScreenCmd.accesskey "ц">
-<!ENTITY exitFullScreenCmd.label "Излизане от режим на цял екран">
+<!ENTITY exitFullScreenCmd.label "Излизане от цял екран">
 <!ENTITY exitFullScreenCmd.accesskey "ц">
 <!ENTITY fullScreenCmd.label "Цял екран">
 <!ENTITY fullScreenCmd.accesskey "Ц">
@@ -124,7 +124,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY fullScreenClose.tooltip "Затваряне">
 <!ENTITY fullScreenAutohide.label "Скриване на лентите">
 <!ENTITY fullScreenAutohide.accesskey "л">
-<!ENTITY fullScreenExit.label "Изход от цял екран">
+<!ENTITY fullScreenExit.label "Излизане от цял екран">
 <!ENTITY fullScreenExit.accesskey "ц">
 
 <!-- LOCALIZATION NOTE (fullscreenWarning.beforeDomain.label,
@@ -139,9 +139,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- LOCALIZATION NOTE (exitDOMFullscreen.button,
      exitDOMFullscreenMac.button): the "escape" button on PC keyboards
      is uppercase, while on Mac keyboards it is lowercase -->
-<!ENTITY exitDOMFullscreen.button "Излизане от режим на цял екран (Esc)">
-<!ENTITY exitDOMFullscreenMac.button "Излизане от режим на цял екран (esc)">
-<!ENTITY leaveDOMFullScreen.label "Излизане от режим на цял екран">
+<!ENTITY exitDOMFullscreen.button "Излизане от цял екран (Esc)">
+<!ENTITY exitDOMFullscreenMac.button "Излизане от цял екран (esc)">
+<!ENTITY leaveDOMFullScreen.label "Излизане от цял екран">
 <!ENTITY leaveDOMFullScreen.accesskey "ц">
 
 <!-- LOCALIZATION NOTE (pointerlockWarning.beforeDomain.label,
@@ -191,9 +191,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY hideRecentlyBookmarked.accesskey "С">
 
 <!ENTITY backCmd.label                "Назад">
-<!ENTITY backButton.tooltip           "Назад една страница">
+<!ENTITY backButton.tooltip           "Връщане една страница назад">
 <!ENTITY forwardCmd.label             "Напред">
-<!ENTITY forwardButton.tooltip        "Напред една страница">
+<!ENTITY forwardButton.tooltip        "Отиване една страница напред">
 <!ENTITY backForwardButtonMenu.tooltip "Натиснете с десния бутон или дръпнете надолу, за да се покаже историята">
 <!ENTITY backForwardButtonMenuMac.tooltip "Дръпнете надолу, за да се покаже историята">
 <!ENTITY reloadCmd.label              "Презареждане">
@@ -238,7 +238,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchItem.title             "Търсене">
 
 <!-- Toolbar items --> 
-<!ENTITY homeButton.label             "Начална страница">
+<!ENTITY homeButton.label             "Начало">
 
 <!ENTITY bookmarksButton.label          "Отметки">
 <!ENTITY bookmarksCmd.commandkey "b">
@@ -286,7 +286,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label        "Нов прозорец">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "п">
-<!ENTITY newPrivateWindow.label     "Нов поверителен прозорец">
+<!ENTITY newPrivateWindow.label     "Поверителен прозорец">
 <!ENTITY newPrivateWindow.accesskey "в">
 <!ENTITY newNonRemoteWindow.label   "Нов еднопроцесен прозорец">
 
@@ -392,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Търсене или въвеждане на адрес">
 <!ENTITY urlbar.accesskey             "d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "Разширение:">
 <!ENTITY urlbar.switchToTab.label     "Превключване към раздел:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Искате ли да се показват подсказки при въвеждане на думи за търсене?">
@@ -545,7 +547,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY playPluginCmd.accesskey      "т">
 <!ENTITY hidePluginCmd.label          "Скриване на тази приставка">
 <!ENTITY hidePluginCmd.accesskey      "С">
-<!ENTITY copyLinkCmd.label            "Копиране на адреса">
+<!ENTITY copyLinkCmd.label            "Копиране на препратката">
 <!ENTITY copyLinkCmd.accesskey        "а">
 <!ENTITY copyImageCmd.label           "Копиране адреса на изображението">
 <!ENTITY copyImageCmd.accesskey       "п">
@@ -762,7 +764,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncedTabs.context.openInNewWindow.accesskey        "п">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.label     "Отваряне в поверителен прозорец">
 <!ENTITY syncedTabs.context.openInNewPrivateWindow.accesskey "п">
-<!ENTITY syncedTabs.context.bookmarkSingleTab.label          "Отмятане на страницата…">
+<!ENTITY syncedTabs.context.bookmarkSingleTab.label          "Отмятане на раздела…">
 <!ENTITY syncedTabs.context.bookmarkSingleTab.accesskey      "т">
 <!ENTITY syncedTabs.context.copy.label                       "Копиране">
 <!ENTITY syncedTabs.context.copy.accesskey                   "К">

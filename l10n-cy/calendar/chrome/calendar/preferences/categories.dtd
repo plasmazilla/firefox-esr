@@ -7,9 +7,9 @@
   -->
 
 
-<!ENTITY pref.categories.add.title "Ychwanegu Categori">
-<!ENTITY pref.categories.addButton.label "Ychwanegu…">
-<!ENTITY pref.categories.addButton.accesskey "Y">
+<!ENTITY pref.categories.new.title "Categori Newydd">
+<!ENTITY pref.categories.newButton.label "Newydd…">
+<!ENTITY pref.categories.newButton.accesskey "N">
 <!ENTITY pref.categories.edit.title "Golygu Categori">
 <!ENTITY pref.categories.editButton.label "Golygu…">
 <!ENTITY pref.categories.editButton.accesskey "G">

@@ -9,21 +9,21 @@
 tentando solucionar um problema. Se estiver procurando respostas para as dúvidas mais comuns 
 do &brandShortName;, confira o <a id='supportLink'>site de suporte</a>.">
 
-<!ENTITY aboutSupport.crashes.title "Relatórios de travamento">
+<!ENTITY aboutSupport.crashes.title "Relatórios de travamentos">
 <!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
 This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.crashes.id "ID do relatório">
 <!ENTITY aboutSupport.crashes.sendDate "Envio">
-<!ENTITY aboutSupport.crashes.allReports "Todos os relatórios de travamento">
+<!ENTITY aboutSupport.crashes.allReports "Todos os relatórios de travamentos">
 <!ENTITY aboutSupport.crashes.noConfig "Este aplicativo não foi configurado para exibir relatórios de travamento.">
 
 <!ENTITY aboutSupport.extensionsTitle "Extensões">
 <!ENTITY aboutSupport.extensionName "Nome">
-<!ENTITY aboutSupport.extensionEnabled "Ativa">
+<!ENTITY aboutSupport.extensionEnabled "Habilitado">
 <!ENTITY aboutSupport.extensionVersion "Versão">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "Recursos experimentais">
+<!ENTITY aboutSupport.experimentsTitle "Funcionalidades experimentais">
 <!ENTITY aboutSupport.experimentName "Nome">
 <!ENTITY aboutSupport.experimentId "ID">
 <!ENTITY aboutSupport.experimentDescription "Descrição">
@@ -49,7 +49,7 @@ This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDi
 Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsProfileDirWinMac "Pasta do perfil">
 
-<!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins ativos">
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "Plugins habilitados">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Configuração da compilação">
 <!ENTITY aboutSupport.appBasicsUserAgent "User Agent">
 <!ENTITY aboutSupport.appBasicsOS "OS">
@@ -112,11 +112,11 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.safeModeTitle "Usar o Modo Seguro">
 <!ENTITY aboutSupport.restartInSafeMode.label "Reiniciar com extensões desativadas…">
 
-<!ENTITY aboutSupport.graphicsFeaturesTitle "Recursos">
+<!ENTITY aboutSupport.graphicsFeaturesTitle "Funcionalidades">
 <!ENTITY aboutSupport.graphicsDiagnosticsTitle "Diagnósticos">
-<!ENTITY aboutSupport.graphicsFailureLogTitle "Log de falhas">
+<!ENTITY aboutSupport.graphicsFailureLogTitle "Registro de falhas">
 <!ENTITY aboutSupport.graphicsGPU1Title "GPU #1">
 <!ENTITY aboutSupport.graphicsGPU2Title "GPU #2">
-<!ENTITY aboutSupport.graphicsDecisionLogTitle "Log de decisão">
-<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Proteção contra travamentos desativada">
+<!ENTITY aboutSupport.graphicsDecisionLogTitle "Registro de decisões">
+<!ENTITY aboutSupport.graphicsCrashGuardsTitle "Proteção contra travamentos desabilitada">
 <!ENTITY aboutSupport.graphicsWorkaroundsTitle "Soluções alternativas">

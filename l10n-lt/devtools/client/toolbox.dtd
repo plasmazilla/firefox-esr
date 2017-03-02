@@ -86,7 +86,7 @@
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
 
-<!ENTITY options.enableChrome.label5    "Įjungti naršyklės „chrome“ bei priedų derinimo įrankines">
+<!ENTITY options.enableChrome.label5    "Įjungti naršyklės sąsajos bei priedų derinimo įrankines">
 <!ENTITY options.enableChrome.tooltip3  "Įjungę šia parinktį galėsite naudotis įvairiomis saityno kūrėjų priemonėmis naršyklėje (per Priemonės > Saityno kūrėjams > Naršyklės įrankinė) bei derinti priedus per priedų tvarkytuvę.">
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
@@ -158,6 +158,15 @@
 
 <!ENTITY options.timestampMessages.label      "Įgalinti laiko žymas">
 <!ENTITY options.timestampMessages.tooltip    "Pažymėjus šią parinktį, Saityno pulto išvestis bus rodoma su laiko žymomis">
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+
+<!ENTITY options.debugger.label            "Derintuvė">
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+
+<!ENTITY options.sourceMaps.label      "Įgalinti ištekliaus žemėlapius">
+<!ENTITY options.sourceMaps.tooltip    "Įjungus šią parinktį, ištekliai bus atvaizduoti derintuvėje bei pulte.">
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->

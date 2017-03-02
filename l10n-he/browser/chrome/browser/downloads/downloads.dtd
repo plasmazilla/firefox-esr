@@ -61,13 +61,16 @@
 <!ENTITY cmd.copyDownloadLink.label       "העתקת כתובת הורדה">
 <!ENTITY cmd.copyDownloadLink.accesskey   "ע">
 <!ENTITY cmd.removeFromHistory.label      "הסרה מההיסטוריה">
-<!ENTITY cmd.removeFromHistory.accesskey  "e">
+<!ENTITY cmd.removeFromHistory.accesskey  "ט">
+<!ENTITY cmd.clearList2.label             "ניקוי חלונית תצוגה מקדימה">
+<!ENTITY cmd.clearList2.accesskey         "ח">
 <!ENTITY cmd.clearDownloads.label         "ניקוי רשימת ההורדות">
 <!ENTITY cmd.clearDownloads.accesskey     "ה">
 <!-- LOCALIZATION NOTE (cmd.unblock2.label):
      This command is shown in the context menu when downloads are blocked.
      -->
 <!ENTITY cmd.unblock2.label               "אפשר הורדה">
+<!ENTITY cmd.unblock2.accesskey           "א">
 <!-- LOCALIZATION NOTE (cmd.removeFile.label):
      This is the tooltip of the action button shown when malware is blocked.
      -->
@@ -103,7 +106,7 @@
      downloads fit in the available space, or when there are no downloads in
      the panel at all.
      -->
-<!ENTITY downloadsHistory.label           "הצגת כול ההורדות">
+<!ENTITY downloadsHistory.label           "הצגת כל ההורדות">
 <!ENTITY downloadsHistory.accesskey       "ה">
 
 <!ENTITY openDownloadsFolder.label       "פתיחת תיקיית ההורדות">

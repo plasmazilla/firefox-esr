@@ -59,7 +59,7 @@
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.authored): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
-<!ENTITY options.defaultColorUnit.authored "同原始单元">
+<!ENTITY options.defaultColorUnit.authored "按原单位">
 
 <!-- LOCALIZATION NOTE (options.defaultColorUnit.hex): This is used in the
   -  'Default color unit' dropdown list and is visible in the options panel. -->
@@ -147,8 +147,8 @@
 
 <!-- LOCALIZATION NOTE (options.usedeveditiontheme.*) Options under the
   -  toolbox for enabling and disabling the Developer Edition browser theme. -->
-<!ENTITY options.usedeveditiontheme.label   "使用开发者版本的浏览器主题">
-<!ENTITY options.usedeveditiontheme.tooltip "切换使用开发者版本的浏览器主题。">
+<!ENTITY options.usedeveditiontheme.label   "使用开发者版的浏览器主题">
+<!ENTITY options.usedeveditiontheme.tooltip "切换使用开发者版的浏览器主题。">
 
 <!-- LOCALIZATION NOTE (options.webconsole.label): This is the label for the
   -  heading of the group of Web Console preferences in the options panel. -->
@@ -158,6 +158,15 @@
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "启用时间戳">
 <!ENTITY options.timestampMessages.tooltip    "如果启用此选项，Web 控制台中的命令和输出将显示时间戳">
+
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+<!ENTITY options.debugger.label            "调试器">
+
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+<!ENTITY options.sourceMaps.label      "启用源映射">
+<!ENTITY options.sourceMaps.tooltip    "如果您启用此选项，来源将在调试器和控制台中映射。">
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options

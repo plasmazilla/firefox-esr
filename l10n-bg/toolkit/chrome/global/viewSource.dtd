@@ -17,7 +17,7 @@
 <!ENTITY savePageCmd.label "Запазване на страницата като…">
 <!ENTITY savePageCmd.accesskey "к">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Настройка на страницата…">
+<!ENTITY pageSetupCmd.label "Настройки на отпечатване…">
 <!ENTITY pageSetupCmd.accesskey "Н">
 <!ENTITY printPreviewCmd.label "Преглед преди отпечатване">
 <!ENTITY printPreviewCmd.accesskey "г">
@@ -64,7 +64,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY menu_textReset.label "Нормална">
 <!ENTITY menu_textReset.accesskey "Н">
 
-<!ENTITY findOnCmd.label     "Намиране в страницата…">
+<!ENTITY findOnCmd.label     "Търсене в страницата…">
 <!ENTITY findOnCmd.accesskey "Н">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Търсене отново">
@@ -80,7 +80,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
 
-<!ENTITY copyLinkCmd.label "Копиране адреса на връзката">
+<!ENTITY copyLinkCmd.label "Копиране на препратката">
 <!ENTITY copyLinkCmd.accesskey "К">
 <!ENTITY copyEmailCmd.label "Копиране на пощенския адрес">
 <!ENTITY copyEmailCmd.accesskey "К">

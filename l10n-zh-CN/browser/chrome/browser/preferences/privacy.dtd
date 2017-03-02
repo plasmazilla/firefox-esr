@@ -13,7 +13,7 @@
 <!ENTITY  trackingProtectionExceptions.label   "例外…">
 <!ENTITY  trackingProtectionExceptions.accesskey "x">
 
-<!ENTITY tracking.label                 "请勿跟踪（DNT）">
+<!ENTITY tracking.label                 "跟踪防护">
 <!ENTITY trackingProtectionPBM5.label         "在隐私浏览窗口中使用跟踪保护">
 <!ENTITY trackingProtectionPBM5.accesskey     "v">
 <!ENTITY trackingProtectionPBMLearnMore.label "详细了解">
@@ -109,3 +109,5 @@
 <!ENTITY  browserContainersLearnMore.label      "详细了解">
 <!ENTITY  browserContainersEnabled.label        "启用身份标签页">
 <!ENTITY  browserContainersEnabled.accesskey    "n">
+<!ENTITY  browserContainersSettings.label        "设置…">
+<!ENTITY  browserContainersSettings.accesskey    "i">

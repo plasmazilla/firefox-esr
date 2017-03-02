@@ -7,9 +7,9 @@
   -->
 
 
-<!ENTITY pref.categories.add.title "Kategória hozzáadása">
-<!ENTITY pref.categories.addButton.label "Hozzáadás…">
-<!ENTITY pref.categories.addButton.accesskey "H">
+<!ENTITY pref.categories.new.title "Új kategória">
+<!ENTITY pref.categories.newButton.label "Új…">
+<!ENTITY pref.categories.newButton.accesskey "j">
 <!ENTITY pref.categories.edit.title "Kategória szerkesztése">
 <!ENTITY pref.categories.editButton.label "Szerkesztés…">
 <!ENTITY pref.categories.editButton.accesskey "S">

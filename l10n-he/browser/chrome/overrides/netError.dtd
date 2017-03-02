@@ -33,16 +33,31 @@
 </ul>">
 
 <!ENTITY fileAccessDenied.title "הגישה לקובץ נדחתה">
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>יתכן שהקובץ הוסר, הועבר או שההרשאות מונעות את הגישה אליו.</li>
+</ul>
+">
 
 <!ENTITY generic.title "שגיאה כללית">
 <!ENTITY generic.longDesc "<p>&brandShortName; אינו יכול לטעון דף זה מסיבה לא ידועה.</p>">
 
+<!ENTITY captivePortal.title "כניסה לרשת">
+<!ENTITY captivePortal.longDesc "
+<p>יתכן שיהיה עליך לבצע כניסה כדי להתחבר לאינטרנט.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "פתיחת עמוד הכניסה">
+
 <!ENTITY malformedURI.title "כתובת לא חוקית">
-<!ENTITY malformedURI.longDesc "<ul> 
-<li>כתובות אתרים מכתבות בדרך־כלל בתבנית של 
-<strong>http://www.example.com/</strong></li> 
-<li>ודא שאתה משתמש בלוכסן קדמי (&quot;<strong>/</strong>&quot;).</li> 
-</ul>">
+<!ENTITY malformedURI.longDesc "
+<ul>
+  <li>כתובות אתרים נכתבות בדרך־כלל בתבנית
+    <strong>http://www.example.com/‎</strong></li>
+  <li>נא לוודא שהלוכסנים הם קדמיים (למשל
+    <strong>/</strong>).</li>
+</ul>
+">
 
 <!ENTITY netInterrupt.title "החיבור הופסק">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
@@ -135,7 +150,7 @@ was trying to connect. -->
 <!ENTITY corruptedContentErrorv2.longDesc "<p>לא ניתן להציג דף זה מכיון שאותרה שגיאה בתעבורת הנתונים.</p><ul><li>נא ליצור קשר עם בעלי האתר כדי לדווח להם על בעיה זו.</li></ul>">
 
 
-<!ENTITY securityOverride.exceptionButtonLabel "הוסף חריגה…">
+<!ENTITY securityOverride.exceptionButtonLabel "הוספת חריגה…">
 
 <!ENTITY errorReporting.automatic2 "דיווח על תקלות מסוג זה מסייע ל־Mozilla לזהות ולחסום אתרים מסוכנים">
 <!ENTITY errorReporting.learnMore "מידע נוסף…">

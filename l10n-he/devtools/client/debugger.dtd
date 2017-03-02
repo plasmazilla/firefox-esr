@@ -50,9 +50,6 @@
   -  button that toggles all breakpoints for all sources. -->
 <!ENTITY debuggerUI.sources.toggleBreakpoints "Enable/disable all breakpoints">
 
-<!-- LOCALIZATION NOTE (debuggerUI.sources.togglePromiseDebugger): This is the
-  -  tooltip for the button that toggles the promise debugger. -->
-
 <!-- LOCALIZATION NOTE (debuggerUI.clearButton): This is the label for
   -  the button that clears the collected tracing data in the tracing tab. -->
 <!ENTITY debuggerUI.clearButton "ניקוי">
@@ -169,6 +166,7 @@
 
 <!-- LOCALIZATION NOTE (debuggerUI.tabs.*): This is the text that
   -  appears in the debugger's side pane tabs. -->
+<!ENTITY debuggerUI.tabs.workers        "Workers">
 <!ENTITY debuggerUI.tabs.sources        "מקורות">
 <!ENTITY debuggerUI.tabs.traces         "עקבות">
 <!ENTITY debuggerUI.tabs.callstack      "מחסנית קריאות">
@@ -195,19 +193,16 @@
   -  control the stepping commands in the debugger (continue, step over,
   -  step in and step out). -->
 <!ENTITY debuggerUI.stepping.resume1    "VK_F8">
-<!ENTITY debuggerUI.stepping.resume2    "VK_SLASH">
 <!ENTITY debuggerUI.stepping.stepOver1  "VK_F10">
-<!ENTITY debuggerUI.stepping.stepOver2  "VK_QUOTE">
 <!ENTITY debuggerUI.stepping.stepIn1    "VK_F11">
-<!ENTITY debuggerUI.stepping.stepIn2    "VK_SEMICOLON">
 <!ENTITY debuggerUI.stepping.stepOut1   "VK_F11">
-<!ENTITY debuggerUI.stepping.stepOut2   "VK_SEMICOLON">
 
 <!-- LOCALIZATION NOTE (debuggerUI.context.newTab):  This is the label
   -  for the Open in New Tab menu item displayed in the context menu of the
   -  debugger sources side menu. This should be the same as
   -  netmonitorUI.context.newTab  -->
 <!ENTITY debuggerUI.context.newTab           "פתיחה בלשונית חדשה">
+<!ENTITY debuggerUI.context.newTab.accesskey "ח">
 
 <!-- LOCALIZATION NOTE (debuggerUI.context.copyUrl): This is the label displayed
   -  on the context menu that copies the selected request's url. This should be

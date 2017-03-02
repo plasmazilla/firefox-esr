@@ -9,7 +9,7 @@
 # the about dialog (see bug 596813 for screenshots).
 -->
 <!ENTITY update.checkForUpdatesButton.label       "Verificar se há atualizações">
-<!ENTITY update.checkForUpdatesButton.accesskey   "C">
+<!ENTITY update.checkForUpdatesButton.accesskey   "V">
 <!ENTITY update.updateButton.label2               "Reiniciar o &brandShortName; para atualizar">
 <!ENTITY update.updateButton.accesskey            "R">
 
@@ -17,7 +17,7 @@
 <!-- LOCALIZATION NOTE (warningDesc.version): This is a warning about the experimental nature of Nightly and Aurora builds. It is only shown in those versions. -->
 <!ENTITY warningDesc.version        "O &brandShortName; é experimental e pode ser instável.">
 <!-- LOCALIZATION NOTE (warningDesc.telemetryDesc): This is a notification that Nightly/Aurora builds automatically send Telemetry data back to Mozilla. It is only shown in those versions. "It" refers to brandShortName. -->
-<!ENTITY warningDesc.telemetryDesc  "Ele automaticamente envia dados sobre desempenho, hardware, uso e personalizações para a &vendorShortName; para ajudar a torna o &brandShortName; melhor.">
+<!ENTITY warningDesc.telemetryDesc  "Informações de desempenho, hardware, uso e personalizações são enviadas automaticamente de volta a &vendorShortName; para ajudar a fazer o &brandShortName; melhor.">
 
 <!-- LOCALIZATION NOTE (community.exp.*) This paragraph is shown in "experimental" builds, i.e. Nightly and Aurora builds, instead of the other "community.*" strings below. -->
 <!ENTITY community.exp.start        "">
@@ -26,7 +26,7 @@
 <!ENTITY community.exp.middle       " é uma ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "comunidade global">
-<!ENTITY community.exp.end          " que trabalha em conjunto para manter a web aberta, pública e acessível a todos.">
+<!ENTITY community.exp.end          " que trabalha unida para manter a web aberta, pública e acessível a todos.">
 
 <!ENTITY community.start2           "O &brandShortName; é desenvolvido pela ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
@@ -34,7 +34,7 @@
 <!ENTITY community.middle2          ", uma ">
 <!-- LOCALIZATION NOTE (community.creditsLink): This is a link title that links to about:credits. -->
 <!ENTITY community.creditsLink      "comunidade global">
-<!ENTITY community.end3             " que trabalha em conjunto para manter a web aberta, pública e acessível a todos.">
+<!ENTITY community.end3             " que trabalha unida para manter a web aberta, pública e acessível a todos.">
 
 <!ENTITY helpus.start               "Quer ajudar? ">
 <!-- LOCALIZATION NOTE (helpus.donateLink): This is a link title that links to https://sendto.mozilla.org/page/contribute/Give-Now?source=mozillaorg_default_footer&ref=firefox_about&utm_campaign=firefox_about&utm_source=firefox&utm_medium=referral&utm_content=20140929_FireFoxAbout. -->
@@ -56,11 +56,11 @@
 <!ENTITY bottomLinks.privacy        "Política de privacidade">
 
 <!-- LOCALIZATION NOTE (update.checkingForUpdates): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.checkingForUpdates  "Procurando atualizações…">
+<!ENTITY update.checkingForUpdates  "Verificando se há atualizações…">
 <!-- LOCALIZATION NOTE (update.noUpdatesFound): try to make the localized text short (see bug 596813 for screenshots). -->
 <!ENTITY update.noUpdatesFound      "O &brandShortName; está atualizado">
 <!-- LOCALIZATION NOTE (update.adminDisabled): try to make the localized text short (see bug 596813 for screenshots). -->
-<!ENTITY update.adminDisabled       "Atualizações desativadas pelo administrador do sistema">
+<!ENTITY update.adminDisabled       "Atualizações desabilitadas pelo administrador do sistema">
 <!-- LOCALIZATION NOTE (update.otherInstanceHandlingUpdates): try to make the localized text short -->
 <!ENTITY update.otherInstanceHandlingUpdates "O &brandShortName; está sendo atualizado por outra instância">
 <!ENTITY update.restarting          "Reiniciando…">
@@ -87,8 +87,8 @@
      an anchor that links to a site to provide additional information regarding
      why the system is no longer supported. As this is all in one line, try to
      make the localized text short (see bug 843497 for screenshots). -->
-<!ENTITY update.unsupported.start    "Não é possível efetuar mais atualizações neste sistema. ">
-<!ENTITY update.unsupported.linkText "Saber mais">
+<!ENTITY update.unsupported.start    "Não é mais possível realizar atualizações neste sistema. ">
+<!ENTITY update.unsupported.linkText "Saiba mais">
 <!ENTITY update.unsupported.end      "">
 
 <!-- LOCALIZATION NOTE (update.downloading.start,update.downloading.end): update.downloading.start and 

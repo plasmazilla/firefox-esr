@@ -38,11 +38,13 @@
 <!-- Device Settings -->
 
 <!ENTITY syncDeviceName.label       "Құрылғы аты:">
-<!ENTITY syncDeviceName.accesskey   "а">
 <!ENTITY fxaSyncDeviceName.label       "Құрылғы аты">
 <!ENTITY changeSyncDeviceName.label "Құрылғы атын өзгерту…">
+<!ENTITY changeSyncDeviceName.accesskey "з">
 <!ENTITY cancelChangeSyncDeviceName.label "Бас тарту">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "т">
 <!ENTITY saveChangeSyncDeviceName.label "Сақтау">
+<!ENTITY saveChangeSyncDeviceName.accesskey "а">
 <!ENTITY unlinkDevice.label           "Бұл құрылғыны өшіру">
 <!-- Footer stuff -->
 
@@ -71,11 +73,16 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY notSignedIn.label           "Сіз кірген жоқсыз.">
 <!ENTITY signIn.label                "Кіру">
+<!ENTITY signIn.accesskey            "К">
 <!ENTITY profilePicture.tooltip      "Профиль суретін ауыстыру">
 <!ENTITY verifiedManage.label        "Тіркелгіні басқару">
+<!ENTITY verifiedManage.accesskey    "к">
 <!ENTITY disconnect.label            "Байланысты үзу…">
+<!ENTITY disconnect.accesskey        "з">
 <!ENTITY verify.label                "Эл. поштаны растау">
+<!ENTITY verify.accesskey            "р">
 <!ENTITY forget.label                "Бұл эл. поштаны алып тастау">
+<!ENTITY forget.accesskey            "у">
 
 <!ENTITY welcome.description "&brandShortName; қолданатын барлық жерлеріңізде де өз беттер, бетбелгілер және парольдерге қатынаңыз.">
 <!ENTITY welcome.signIn.label "Кіру">
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "Өзіңіздің бетбелгілер, тарих, беттер, парольдер және қосымшаларыңызды барлық құрылғыларыңыз арасында синхрондаңыз.">
 <!ENTITY signedOut.accountBox.title   "&syncBrand.fxAccount.label; көмегімен байланысу">
 <!ENTITY signedOut.accountBox.create  "Тіркелгіні жасау">
+<!ENTITY signedOut.accountBox.create.accesskey  "с">
 <!ENTITY signedOut.accountBox.signin  "Кіру">
+<!ENTITY signedOut.accountBox.signin.accesskey  "к">
 
 <!ENTITY signedIn.engines.label       "Барлық құрылғылар арасында синхрондау">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to

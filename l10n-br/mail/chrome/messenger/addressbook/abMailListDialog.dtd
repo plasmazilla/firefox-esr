@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- Title -->
 
-<!ENTITY mailListWindow.title           "Roll skignañ">
+<!ENTITY mailListWindowAdd.title        "Roll skignañ nevez">
 <!-- Labels -->
 <!ENTITY addToAddressBook.label         "Ouzhpennañ da :">
 

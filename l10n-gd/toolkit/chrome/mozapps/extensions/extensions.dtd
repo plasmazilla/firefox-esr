@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Mas e neach-leasachaidh a tha annad ’s tu a’ beachdachadh air dearbhadh nan tuilleadan agad, nach leugh thu">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "an stiùireadh againn">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Dad a dhìth ort? Chan eil &brandShortName; a’ cur taic ri cuid a phlugain tuilleadh.">
+<!ENTITY pluginDeprecation.learnMore "Barrachd fiosrachaidh.">

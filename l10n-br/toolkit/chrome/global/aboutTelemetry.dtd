@@ -54,6 +54,8 @@
 
 <!ENTITY aboutTelemetry.scalarsSection "  Skeuliadoù">
 
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Skeuliadelloù alc'hwez">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Tellunioù">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Tellunioù gant alc'hwezioù">

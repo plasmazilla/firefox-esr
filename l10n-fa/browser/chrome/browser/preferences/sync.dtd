@@ -38,11 +38,13 @@
 <!-- Device Settings -->
 
 <!ENTITY syncDeviceName.label       "نام دستگاه:">
-<!ENTITY syncDeviceName.accesskey   "c">
 <!ENTITY fxaSyncDeviceName.label       "نام دستگاه">
 <!ENTITY changeSyncDeviceName.label "تغییر نام دستگاه…">
+<!ENTITY changeSyncDeviceName.accesskey "ت">
 <!ENTITY cancelChangeSyncDeviceName.label "انصراف">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "ا">
 <!ENTITY saveChangeSyncDeviceName.label "ذخیره">
+<!ENTITY saveChangeSyncDeviceName.accesskey "ذ">
 <!ENTITY unlinkDevice.label           "جدا کردن دستگاه">
 <!-- Footer stuff -->
 
@@ -71,11 +73,16 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY notSignedIn.label           "شما وارد نشده‌اید.">
 <!ENTITY signIn.label                "ورود">
+<!ENTITY signIn.accesskey            "و">
 <!ENTITY profilePicture.tooltip      "تغییرتصویر نمایه">
 <!ENTITY verifiedManage.label        "مدیریت حساب">
+<!ENTITY verifiedManage.accesskey    "ح">
 <!ENTITY disconnect.label            "قطع ارتباط…">
+<!ENTITY disconnect.accesskey        "ق">
 <!ENTITY verify.label                "تایید پست‌الکترونیکی">
+<!ENTITY verify.accesskey            "ت">
 <!ENTITY forget.label                "این پست‌الکترونیکی را فراموش کن">
+<!ENTITY forget.accesskey            "ا">
 
 <!ENTITY welcome.description "به زبانه‌ها، نشانک‌ها و گذرواژه‌های خود هنگام استفاده از &brandShortName; دسترسی داشته باشید.">
 <!ENTITY welcome.signIn.label "ورود">
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "نشانک‌ها، تاریخچه، زبانه‌ها، گذرواژه‌ها، افزونه‌ها و ترجیحات خود را در تمام دستگاه‌هایتان همگام کنید.">
 <!ENTITY signedOut.accountBox.title   "اتصال به یک &syncBrand.fxAccount.label;">
 <!ENTITY signedOut.accountBox.create  "ساخت حساب">
+<!ENTITY signedOut.accountBox.create.accesskey  "C">
 <!ENTITY signedOut.accountBox.signin  "ورود">
+<!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
 <!ENTITY signedIn.engines.label       "همگام‌سازی در بین تمام دستگاه‌ها">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to

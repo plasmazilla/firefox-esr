@@ -30,6 +30,11 @@
 <!ENTITY generic.title "Hoppsan.">
 <!ENTITY generic.longDesc "<p>&brandShortName; kan av någon anledning inte visa sidan.</p>">
 
+<!ENTITY captivePortal.title "Logga in till nätverk">
+<!ENTITY captivePortal.longDesc "<p>Detta nätverk kan kräva att du loggar in för att få tillgång till internet.</p>">
+
+<!ENTITY openPortalLoginPage.label "Öppna Login Sida">
+
 <!ENTITY malformedURI.title "Adressen är inte giltig">
 <!ENTITY malformedURI.longDesc "<ul> <li>Webbadresser skrivs vanligen som <strong>http://www.example.com/</strong></li> <li>Kontrollera att du använder framåtlutande snedstreck (dvs <strong>/</strong>).</li> </ul>">
 

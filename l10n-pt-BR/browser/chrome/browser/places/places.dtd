@@ -15,8 +15,8 @@
 <!ENTITY cmd.close.key                  "w">
 <!ENTITY views.label                    "Visualizações">
 <!ENTITY views.accesskey                "x">
-<!ENTITY views.tooltip                  "Alterar o modo de exibição">
-<!ENTITY view.columns.label             "Colunas">
+<!ENTITY views.tooltip                  "Alterar visualização">
+<!ENTITY view.columns.label             "Mostrar colunas">
 <!ENTITY view.columns.accesskey         "C">
 <!ENTITY view.sort.label                "Ordenar por">
 <!ENTITY view.sort.accesskey            "O">

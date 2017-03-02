@@ -54,6 +54,8 @@
 
 <!ENTITY aboutTelemetry.scalarsSection "Iscalars">
 
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Ii-Scalars eziNekhi">
+
 <!ENTITY aboutTelemetry.histogramsSection "  IiHistogrem">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "ii Histograms eziqhotyoshelweyo">

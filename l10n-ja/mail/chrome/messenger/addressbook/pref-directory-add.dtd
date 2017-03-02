@@ -2,7 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY newDirectoryTitle.label	"LDAP サーバーのプロパティ">
 <!ENTITY directoryName.label		"名前:">
 <!ENTITY directoryName.accesskey	"n">
 <!ENTITY directoryHostname.label	"ホスト名:">
@@ -31,7 +30,7 @@
 <!ENTITY return.label			"検索結果を">
 <!ENTITY return.accesskey		"r">
 <!ENTITY results.label			"件以上は表示しない">
-<!ENTITY offlineText.label		"オフラインでも利用できるようにディレクトリのコピーをローカルにダウンロードしておくことができます。">
+<!ENTITY offlineText.label		"オフラインでも利用できるようにディレクトリーのコピーをローカルにダウンロードしておくことができます。">
 <!ENTITY saslMechanism.label		"認証方法:">
 <!ENTITY saslMechanism.accesskey	"m">
 <!ENTITY saslOff.label			"簡易">

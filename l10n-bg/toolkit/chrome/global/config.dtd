@@ -17,7 +17,7 @@
 <!ENTITY focusSearch2.key "f">
 
 <!-- Columns -->
-<!ENTITY prefColumn.label "Референтна стойност">
+<!ENTITY prefColumn.label "Име на настройката">
 <!ENTITY lockColumn.label "Състояние">
 <!ENTITY typeColumn.label "Вид">
 <!ENTITY valueColumn.label "Стойност">
@@ -38,7 +38,7 @@
 <!ENTITY modify.accesskey "м">
 <!ENTITY toggle.label "Превключване">
 <!ENTITY toggle.accesskey "П">
-<!ENTITY reset.label "Нулиране на промените">
+<!ENTITY reset.label "Нулиране">
 <!ENTITY reset.accesskey "Н">
 <!ENTITY new.label "Нов">
 <!ENTITY new.accesskey "в">

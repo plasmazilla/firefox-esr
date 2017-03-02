@@ -76,4 +76,76 @@
 #define firefox_about Մեր Մասին
 
 
+# LOCALIZATION NOTE (nightly_heading):
+
+
+# Firefox Nightly links folder name
+
+
+#define nightly_heading Firefox Nightly ռեսուրսներ
+
+
+# LOCALIZATION NOTE (nightly_blog):
+
+
+# Nightly builds only, link title for https://blog.nightly.mozilla.org/
+
+
+#define nightly_blog Firefox Nightly բլոգ
+
+
+# LOCALIZATION NOTE (bugzilla):
+
+
+# Nightly builds only, link title for https://bugzilla.mozilla.org/
+
+
+#define bugzilla Mozilla սխալի հետևող
+
+
+# LOCALIZATION NOTE (mdn):
+
+
+# Nightly builds only, link title for https://developer.mozilla.org/
+
+
+#define mdn Mozilla մշակողի ցանց
+
+
+# LOCALIZATION NOTE (nightly_tester_tools):
+
+
+# Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
+
+
+#define nightly_tester_tools Nightly փորձարկող գործիքներ
+
+
+# LOCALIZATION NOTE (crashes):
+
+
+# Nightly builds only, link title for about:crashes
+
+
+#define crashes Ձեր բոլոր վթարները
+
+
+# LOCALIZATION NOTE (irc):
+
+
+# Nightly builds only, link title for ircs://irc.mozilla.org/nightly
+
+
+#define irc Քննարկել Nightly-ն IRC-ում
+
+
+# LOCALIZATION NOTE (planet):
+
+
+# Nightly builds only, link title for https://planet.mozilla.org/
+
+
+#define planet Mozilla մոլորակ
+
+
 #unfilter emptyLines

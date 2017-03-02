@@ -11,7 +11,7 @@
 #define bookmarks_heading סימניות
 
 #define bookmarks_toolbarfolder סרגל כלים סימניות
-#define bookmarks_toolbarfolder_description הוסף סימניות לתיקייה זה כדי להציגן בסרגל הכלים סימניות
+#define bookmarks_toolbarfolder_description ניתן להוסיף סימניות לתיקייה זו כדי להציגן בסרגל הכלים סימניות
 
 # LOCALIZATION NOTE (getting_started):
 # link title for https://www.mozilla.org/en-US/firefox/central/
@@ -36,5 +36,37 @@
 # LOCALIZATION NOTE (firefox_about):
 # link title for https://www.mozilla.org/en-US/about/
 #define firefox_about אודותינו
+
+# LOCALIZATION NOTE (nightly_heading):
+# Firefox Nightly links folder name
+#define nightly_heading משאבים עבור Firefox Nightly
+
+# LOCALIZATION NOTE (nightly_blog):
+# Nightly builds only, link title for https://blog.nightly.mozilla.org/
+#define nightly_blog הבלוג של Firefox Nightly
+
+# LOCALIZATION NOTE (bugzilla):
+# Nightly builds only, link title for https://bugzilla.mozilla.org/
+#define bugzilla כלי המעקב אחר באגים של Mozilla
+
+# LOCALIZATION NOTE (mdn):
+# Nightly builds only, link title for https://developer.mozilla.org/
+#define mdn Mozilla Developer Network
+
+# LOCALIZATION NOTE (nightly_tester_tools):
+# Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
+#define nightly_tester_tools Nightly Tester Tools
+
+# LOCALIZATION NOTE (crashes):
+# Nightly builds only, link title for about:crashes
+#define crashes כל דיווחי הקריסה שלך
+
+# LOCALIZATION NOTE (irc):
+# Nightly builds only, link title for ircs://irc.mozilla.org/nightly
+#define irc דיונים על Firefox Nightly ב־IRC
+
+# LOCALIZATION NOTE (planet):
+# Nightly builds only, link title for https://planet.mozilla.org/
+#define planet Planet Mozilla
 
 #unfilter emptyLines

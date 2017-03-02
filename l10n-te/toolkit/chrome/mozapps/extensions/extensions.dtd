@@ -10,7 +10,7 @@
 <!ENTITY search.commandkey                    "f">
 
 <!ENTITY loading.label                        "లోడుచేయుచున్నది…">
-<!ENTITY listEmpty.installed.label            "ఈ రకమైన పొడిగింతలు మీరు సంస్థాపించి కలిగిలేరు">
+<!ENTITY listEmpty.installed.label            "మీ వద్ద ఈ రకమైన పొడిగింతలేమీ స్థాపించి లేవు">
 <!ENTITY listEmpty.availableUpdates.label     "ఏ నవీకరణలు కనుగొనలేదు">
 <!ENTITY listEmpty.recentUpdates.label        "మీరు యిటీవల యే పొడిగింతలు నవీకరించలేదు">
 <!ENTITY listEmpty.findUpdates.label          "నవీకరణల కొరకు పరిశీలించు">
@@ -133,8 +133,8 @@
 <!ENTITY detail.contributions.description     "ఈ పొడిగింతను అభివృద్ది పరచినవారు దాని తదుపరి అభివృద్ది కొనసాగింపు కొరకు మీ నుండి కొద్ది మొత్తంలో సహాయంను కోరుచున్నారు.">
 
 <!ENTITY detail.updateType                    "స్వయంచాలక నవీకరణలు">
-<!ENTITY detail.updateDefault.label           "అప్రమేయ">
-<!ENTITY detail.updateDefault.tooltip         "అదే నవీకరణ అప్రమేయ మైనప్పుడు వాటిని స్వయంచాలకంగా సంస్థాపించు">
+<!ENTITY detail.updateDefault.label           "అప్రమేయం">
+<!ENTITY detail.updateDefault.tooltip         "తాజాకరణలను స్థాపిచడం అప్రమేయమైతే వాటిని స్వయంచాలంకగా స్థాపించు">
 <!ENTITY detail.updateAutomatic.label         "ఆన్">
 <!ENTITY detail.updateAutomatic.tooltip       "నవీకరణలను స్వయంచాలకంగా సంస్థాపించు">
 <!ENTITY detail.updateManual.label            "ఆఫ్">
@@ -205,7 +205,7 @@
 <!ENTITY addon.checkingForUpdates.label       "నవీకరణల కొరకు పరిశీలించుచున్నది…">
 <!ENTITY addon.releaseNotes.label             "విడుదల నోట్స్:">
 <!ENTITY addon.loadingReleaseNotes.label      "లోడవుచున్నది…">
-<!ENTITY addon.errorLoadingReleaseNotes.label "మన్నించాలి, విడుదల నోట్స్ లోడవ్వుటలో దోషము వుంది.">
+<!ENTITY addon.errorLoadingReleaseNotes.label "మన్నించాలి, విడుదల నోట్స్ లోడవ్వుటలో దోషము ఉంది.">
 
 <!ENTITY addon.createdBy.label                "చేత ">
 
@@ -227,7 +227,7 @@
 <!ENTITY experiment.info.changetelemetry "టెలీమెట్రీ అమరికలు">
 <!ENTITY experiment.info.changetelemetry.accesskey "T">
 
-<!ENTITY setting.learnmore "మరింత తెలుసుకోండి…">
+<!ENTITY setting.learnmore "ఇంకా తెలుసుకోండి…">
 
 <!ENTITY disabledUnsigned.heading "కొన్ని పొడిగింతలు అచేతనించబడ్డాయి">
 <!-- LOCALIZATION NOTE (disabledUnsigned.description.start, disabledUnsigned.description.findAddonsLink, disabledUnsigned.description.end):
@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "తమ పొడిగింతలను తనిఖీ చేయించుకోవాలనుకునే డెవలపర్లు మా ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "మాన్యువల్">
 <!ENTITY disabledUnsigned.devInfo.end "లో చెప్పినట్టు కొనసాగవచ్చు.">
+
+<!ENTITY pluginDeprecation.description "ఏదైనా లేదా? కొన్ని ప్లగిన్లకు &brandShortName; ఇకపై తోడ్పాటు లేదు.">
+<!ENTITY pluginDeprecation.learnMore "మరింత తెలుసుకోండి.">

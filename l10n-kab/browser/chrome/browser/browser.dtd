@@ -67,7 +67,7 @@ when there are no windows but Firefox is still running. -->
 <!ENTITY openFileCmd.label "Ldi afaylu…">
 <!ENTITY openFileCmd.accesskey "L">
 <!ENTITY openFileCmd.commandkey "o">
-<!ENTITY printSetupCmd.label "Tarusi n isebtaren…">
+<!ENTITY printSetupCmd.label "Tarusi n isebtar…">
 <!ENTITY printSetupCmd.accesskey "a">
 <!ENTITY printPreviewCmd.label "Awali send asiggez">
 <!ENTITY printPreviewCmd.accesskey "s">
@@ -392,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Nadi neɣ sekcem tansa">
 <!ENTITY urlbar.accesskey             "d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "Asiɣzef:">
 <!ENTITY urlbar.switchToTab.label     "Ddu ɣer yiccer:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Tebɣiḍ aɣ-d-fkeḍ tallalt i wenerni n tarmit n unadi s usumer?">
@@ -521,13 +523,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!-- alternate for content area context menu -->
 <!ENTITY savePageCmd.accesskey2       "P">
 <!ENTITY savePageCmd.commandkey       "s">
-<!ENTITY saveFrameCmd.label           "Kles akatar s yisem...">
-<!ENTITY saveFrameCmd.accesskey       "K">
+<!ENTITY saveFrameCmd.label           "Sekles akatar s yisem...">
+<!ENTITY saveFrameCmd.accesskey       "S">
 <!ENTITY printFrameCmd.label          "Siggez akatar...">
 <!ENTITY printFrameCmd.accesskey      "g">
-<!ENTITY saveLinkCmd.label            "Kles aseɣwen daw…">
-<!ENTITY saveLinkCmd.accesskey        "k">
-<!ENTITY saveImageCmd.label           "Kles tugna s yisem…">
+<!ENTITY saveLinkCmd.label            "Sekles aseɣwen s yisem…">
+<!ENTITY saveLinkCmd.accesskey        "S">
+<!ENTITY saveImageCmd.label           "Sekles tugna s yisem…">
 <!ENTITY saveImageCmd.accesskey       "u">
 <!ENTITY saveVideoCmd.label           "Kles tamwalit s yisem…">
 <!ENTITY saveVideoCmd.accesskey       "l">
@@ -601,8 +603,8 @@ items are mutually exclusive. -->
 <!ENTITY mediaHideControls.accesskey "F">
 <!ENTITY videoFullScreen.label       "Agdil aččuran">
 <!ENTITY videoFullScreen.accesskey   "A">
-<!ENTITY videoSaveImage.label        "Kles anɣel n wegdil s yisem…">
-<!ENTITY videoSaveImage.accesskey    "K">
+<!ENTITY videoSaveImage.label        "Sekles anɣel n wegdil s yisem…">
+<!ENTITY videoSaveImage.accesskey    "S">
 <!-- LOCALIZATION NOTE: The access keys for "Show Statistics" and
 "Hide Statistics" are the same because the two context-menu
 items are mutually exclusive. -->

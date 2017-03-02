@@ -247,7 +247,7 @@
 <!ENTITY tableRowBelow.label "Riga sotto">
 <!ENTITY tableRowBelow.accesskey "o">
 <!ENTITY tableColumn.label "Colonna">
-<!ENTITY tableColumns.label "Colonna(Colonne)">
+<!ENTITY tableColumns.label "Colonne">
 <!ENTITY tableColumn.accesskey "o">
 <!ENTITY tableColumnBefore.label "Colonna precedente">
 <!ENTITY tableColumnBefore.accesskey "C">
@@ -306,7 +306,7 @@
 <!ENTITY anchorToolbarCmd.tooltip "Modifica ancora selezionata o inseriscine una nuova">
 <!ENTITY TextColorButton.tooltip "Scegli il colore del testo">
 <!ENTITY BackgroundColorButton.tooltip "Scegli il colore dello sfondo">
-<!ENTITY throbber.tooltip "Vai alla pagina home di &vendorShortName;">
+<!ENTITY throbber.tooltip "Vai alla pagina iniziale di &vendorShortName;">
 <!ENTITY HighlightColorButton.tooltip "Scegli il colore di selezione testo">
 
 <!-- Editor toolbar -->

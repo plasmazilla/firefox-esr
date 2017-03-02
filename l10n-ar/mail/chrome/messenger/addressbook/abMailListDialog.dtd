@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- Title -->
 
-<!ENTITY mailListWindow.title           "قائمة بريدية">
+<!ENTITY mailListWindowAdd.title        "قائمة بريدية جديدة">
 <!-- Labels -->
 <!ENTITY addToAddressBook.label         "أضِف إلى: ">
 

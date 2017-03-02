@@ -42,17 +42,17 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.appBasicsUpdateHistory		"更新履歴">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory	"更新履歴を表示">
 
-<!ENTITY aboutSupport.appBasicsProfileDir	"プロファイルフォルダ">
+<!ENTITY aboutSupport.appBasicsProfileDir	"プロファイルフォルダー">
 <!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
 This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
 Windows/Mac use the term "Folder" instead of "Directory" -->
-<!ENTITY aboutSupport.appBasicsProfileDirWinMac	"プロファイルフォルダ">
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac	"プロファイルフォルダー">
 
 <!ENTITY aboutSupport.appBasicsEnabledPlugins	"有効なプラグイン">
 <!ENTITY aboutSupport.appBasicsBuildConfig	"ビルド設定">
 <!ENTITY aboutSupport.appBasicsUserAgent	"ユーザーエージェント">
 <!ENTITY aboutSupport.appBasicsOS		"OS">
-<!ENTITY aboutSupport.appBasicsMemoryUse	"メモリ使用量">
+<!ENTITY aboutSupport.appBasicsMemoryUse	"メモリー使用量">
 <!ENTITY aboutSupport.appBasicsPerformance	"パフォーマンス">
 
 <!-- LOCALIZATION NOTE the term "Service Workers" should not be translated. -->
@@ -64,14 +64,14 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 
 <!ENTITY aboutSupport.appBasicsSafeMode		"セーフモード">
 
-<!ENTITY aboutSupport.showDir.label		"ディレクトリを開く"><!-- Win/Mac 以外 -->
+<!ENTITY aboutSupport.showDir.label		"ディレクトリーを開く"><!-- Win/Mac 以外 -->
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
 variant of aboutSupport.showDir.label.  This allows us to use the preferred
 "Finder" terminology on Mac. -->
 <!ENTITY aboutSupport.showMac.label		"Finder に表示">
 <!-- LOCALIZATION NOTE (aboutSupport.showWin2.label): This is the Windows-specific
 variant of aboutSupport.showDir.label. -->
-<!ENTITY aboutSupport.showWin2.label		"フォルダを開く">
+<!ENTITY aboutSupport.showWin2.label		"フォルダーを開く">
 
 <!ENTITY aboutSupport.modifiedKeyPrefsTitle	"変更された重要な設定">
 <!ENTITY aboutSupport.modifiedPrefsName		"名前">
@@ -85,7 +85,7 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.lockedPrefsName		"名前">
 <!ENTITY aboutSupport.lockedPrefsValue		"値">
 
-<!ENTITY aboutSupport.graphicsTitle		"グラフィックス">
+<!ENTITY aboutSupport.graphicsTitle		"グラフィック">
 
 <!ENTITY aboutSupport.placeDatabaseTitle		"Places データベース">
 <!ENTITY aboutSupport.placeDatabaseIntegrity		"完全性">
