@@ -28,15 +28,19 @@
 <!-- The following entity is for New Task dialog only -->
 
 <!ENTITY newtodo.percentcomplete.label      "&#037; tamamlandı">
-<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
-   - These two labels are displayed side by side in the event dialog, make sure
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label,
+     event.attendees.disallowcounter.label)
+   - These three labels are displayed side by side in the event dialog, make sure
    - they still fit in. -->
 
-<!ENTITY event.attendees.notify.label               "Katılımcılara bildir">
-<!ENTITY event.attendees.notify.accesskey           "b">
-<!ENTITY event.attendees.notifyundisclosed.label    "Her katılımcı için ayrı davetiye">
-<!ENTITY event.attendees.notifyundisclosed.accesskey  "x">
-<!ENTITY event.attendees.notifyundisclosed.tooltip  "Bu seçenek katılımcı başına bir e-posta daveti gönderir. Her davet, diğer katılımcı kimliklerini ifşa etmeyecek şekilde alıcı katılımcıyı içerir.">
+<!ENTITY event.attendees.notify.label                "Katılımcılara bildir">
+<!ENTITY event.attendees.notify.accesskey            "b">
+<!ENTITY event.attendees.notifyundisclosed.label     "Her katılımcı için ayrı davetiye">
+<!ENTITY event.attendees.notifyundisclosed.accesskey "x">
+<!ENTITY event.attendees.notifyundisclosed.tooltip   "Bu seçenek katılımcı başına bir e-posta daveti gönderir. Her davet, diğer katılımcı kimliklerini ifşa etmeyecek şekilde alıcı katılımcıyı içerir.">
+
+
+
 <!-- Keyboard Shortcuts -->
 
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -66,10 +70,25 @@
 <!ENTITY  event.menu.item.new.contact.accesskey           "d">
 <!ENTITY  event.menu.item.close.label                     "Kapat">
 <!ENTITY  event.menu.item.close.accesskey                 "t">
+<!-- LOCALIZATION NOTE
+   - event.menu.item.save.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a dialog window.
+   - event.menu.item.save.tab.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a tab. -->
+
 <!ENTITY  event.menu.item.save.label                      "Kaydet">
 <!ENTITY  event.menu.item.save.accesskey                  "K">
+
+<!-- LOCALIZATION NOTE
+    - event.menu.item.saveandclose.accesskey is used for "Save and Close"
+    - menu item when editing events/tasks in a dialog window.
+    - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
+    - when editing events/tasks in a tab. -->
+
 <!ENTITY  event.menu.item.saveandclose.label              "Kaydet ve kapat">
 <!ENTITY  event.menu.item.saveandclose.accesskey          "a">
+
+
 <!ENTITY  event.menu.item.delete.label                    "Sil…">
 <!ENTITY  event.menu.item.delete.accesskey                "S">
 <!ENTITY  event.menu.item.page.setup.label                "Sayfa düzeni">
@@ -105,8 +124,8 @@
 
 <!ENTITY  event.menu.options.label                            "Seçenekler">
 <!ENTITY  event.menu.options.accesskey                        "S">
-
-
+<!ENTITY  event.menu.options.attendees.label                  "Katılımcıları davet et…">
+<!ENTITY  event.menu.options.attendees.accesskey              "K">
 <!ENTITY  event.menu.options.timezone2.label                  "Saat dilimlerini göster">
 <!ENTITY  event.menu.options.timezone2.accesskey              "S">
 <!ENTITY  event.menu.options.priority2.label                  "Öncelik">
@@ -142,16 +161,18 @@
 <!ENTITY event.email.tentative.attendees.accesskey        "K">
 <!ENTITY event.remove.attendees.label2                    "Tüm katılımcıları sil">
 <!ENTITY event.remove.attendees.accesskey                 "s">
-
-
+<!ENTITY event.remove.attendee.label                      "Katılımcıyı sil">
+<!ENTITY event.remove.attendee.accesskey                  "s">
 <!-- Toolbar -->
 
-<!ENTITY  event.toolbar.save.label                        "Kaydet ve kapat">
+<!ENTITY  event.toolbar.save.label2                       "Kaydet">
+<!ENTITY  event.toolbar.saveandclose.label                "Kaydet ve kapat">
 <!ENTITY  event.toolbar.delete.label                      "Sil">
 <!ENTITY  event.toolbar.attendees.label                   "Katılımcıları davet et">
 <!ENTITY  event.toolbar.privacy.label                     "Gizlilik">
 
-<!ENTITY  event.toolbar.save.tooltip                      "Kaydet ve kapat">
+<!ENTITY  event.toolbar.save.tooltip2                     "Kaydet">
+<!ENTITY  event.toolbar.saveandclose.tooltip              "Kaydet ve kapat">
 <!ENTITY  event.toolbar.delete.tooltip                    "Sil">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Katılımcıları Davet Et">
 <!ENTITY  event.toolbar.attachments.tooltip               "Dosya ekle">
@@ -159,6 +180,18 @@
 <!ENTITY  event.toolbar.priority.tooltip                  "Önceliği değiştir">
 <!ENTITY  event.toolbar.status.tooltip                    "Durumu değiştir">
 <!ENTITY  event.toolbar.freebusy.tooltip                  "Boşta/meşgul zamanını değiştir">
+<!-- Counter box -->
+<!-- LOCALIZATON NOTE(counter.button.*)
+   - This is only visible in the UI if you have received a counterproposal before and are going to
+   - reschedule the event from the imipbar in the email view. Clicking on the buttons will only
+   - populate the form fields in the dialog, there's no other immediate action on clicking like with
+   - the imip bar. Rescheduling will happen after clicking on save&close as usual. This screenshot
+   - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
+
+
+
+
+
 <!-- Main page -->
 
 <!ENTITY event.title.textbox.label                        "Başlık:" >
@@ -377,6 +410,7 @@
 <!ENTITY read.only.tentative.label       "Katılabilirim">
 <!ENTITY read.only.needs.action.label    "Daha sonra onaylayacağım">
 <!ENTITY read.only.reminder.label        "Anımsatıcı:">
+
 <!ENTITY read.only.attendees.label       "Katılımcılar">
 <!ENTITY read.only.description.label     "Açıklama">
 <!ENTITY read.only.link.label            "İlgili bağlantı">

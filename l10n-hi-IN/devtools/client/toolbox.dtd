@@ -110,8 +110,8 @@
   -  options.disableHTTPCache.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles the HTTP cache on or off. -->
 
-<!ENTITY options.disableHTTPCache.label     "एचटीटीपी कैश निष्क्रिय करें (जब औज़ारपेटी खुला हो)">
-<!ENTITY options.disableHTTPCache.tooltip   "इस विकल्प को चालू करना उन सारे टैब्स के लिए एचटीटीपी कैश को अक्षम कर देगा जिनके लिए औजारपेटी खुला है. सेवाकर्मी इस विकल्प द्वारा प्रभावित नहीं हैं.">
+<!ENTITY options.disableHTTPCache.label     "HTTP कैश निष्क्रिय करें (जब औज़ारपेटी खुला हो)">
+<!ENTITY options.disableHTTPCache.tooltip   "इस विकल्प को चालू करना उन सारे टैब्स के लिए HTTP कैश को अक्षम कर देगा जिनके लिए औजारपेटी खुला है. सेवाकर्मी इस विकल्प द्वारा प्रभावित नहीं हैं.">
 <!-- LOCALIZATION NOTE (options.enableServiceWorkersHTTP.label,
   -  options.enableServiceWorkersHTTP.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles the service workers testing features on or off. This option enables service workers over HTTP. -->
@@ -158,6 +158,15 @@
 
 <!ENTITY options.timestampMessages.label      "टाइमस्टैंप्स सक्षम करें">
 <!ENTITY options.timestampMessages.tooltip    "यदि आप इस विकल्प कमांड को सक्रिय करते हैं और वेब कंसोल में आउटपुट किसी टाइपस्टैंप को दिखाएगा">
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+
+<!ENTITY options.debugger.label            "डिबगर">
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+
+<!ENTITY options.sourceMaps.label      "स्रोत नक्शा सक्षम करें">
+<!ENTITY options.sourceMaps.tooltip    "यदि आप इस विकल्प को सक्षम करते हैं तो सूत्रों को डीबगर और कंसोल में मैप किया जाएगा.">
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->

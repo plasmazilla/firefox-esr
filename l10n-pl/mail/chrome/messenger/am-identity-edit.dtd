@@ -3,9 +3,13 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY identityDialog.style "min-width: 88ch;">
-<!ENTITY identityTitle.label "Ustawienia tożsamości">
 <!ENTITY identityListDesc.label "Konfiguruj ustawienia dla tej tożsamości:">
 
 <!ENTITY settingsTab.label "Ustawienia">
 <!ENTITY copiesFoldersTab.label "Kopie i foldery">
 <!ENTITY addressingTab.label "Tworzenie i adresowanie wiadomości">
+
+<!ENTITY publicData.label "Dane publiczne">
+<!ENTITY privateData.label "Dane prywatne">
+<!ENTITY identityAlias.label "Etykieta tożsamości:">
+<!ENTITY identityAlias.accesskey "E">

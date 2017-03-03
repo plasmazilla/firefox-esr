@@ -67,7 +67,7 @@
 <!ENTITY editMenu.label               "แก้ไข">
 <!ENTITY editMenu.accesskey           "ก">
 
-<!ENTITY run.label                    "รัน">
+<!ENTITY run.label                    "ทำงาน">
 <!ENTITY run.accesskey                "ร">
 <!ENTITY run.key                      "r">
 
@@ -105,9 +105,9 @@
 <!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"
   -  for the help button in the menubar but Gnome does not.
   -->
-<!ENTITY helpMenu.label               "วิธีใช้">
+<!ENTITY helpMenu.label               "ช่วยเหลือ">
 <!ENTITY helpMenu.accesskey           "ช">
-<!ENTITY helpMenuWin.label            "วิธีใช้">
+<!ENTITY helpMenuWin.label            "ช่วยเหลือ">
 <!ENTITY helpMenuWin.accesskey        "ช">
 
 <!ENTITY documentationLink.label      "วิธีใช้กระดานทดบน MDN">
@@ -120,7 +120,7 @@
 <!ENTITY resetContext2.label          "ตั้งค่าตัวแปรใหม่">
 <!ENTITY resetContext2.accesskey      "ค">
 
-<!ENTITY reloadAndRun.label           "โหลดใหม่แล้วรัน">
+<!ENTITY reloadAndRun.label           "โหลดใหม่แล้วทำงาน">
 <!ENTITY reloadAndRun.accesskey       "ม">
 <!ENTITY reloadAndRun.key             "r">
 

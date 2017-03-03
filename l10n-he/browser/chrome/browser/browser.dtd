@@ -41,13 +41,16 @@ can reach it easily. -->
 <!ENTITY  unpinTab.label                     "ביטול נעיצה של לשונית">
 <!ENTITY  unpinTab.accesskey                 "ב">
 <!ENTITY  sendTabToDevice.label              "שליחת לשונית להתקן">
+<!ENTITY  sendTabToDevice.accesskey          "ה">
 <!ENTITY  sendPageToDevice.label             "שליחת דף להתקן">
+<!ENTITY  sendPageToDevice.accesskey         "ה">
 <!ENTITY  sendLinkToDevice.label             "שליחת קישור להתקן">
-<!ENTITY  moveToNewWindow.label              "העבר לחלון חדש">
+<!ENTITY  sendLinkToDevice.accesskey         "ה">
+<!ENTITY  moveToNewWindow.label              "העברה לחלון חדש">
 <!ENTITY  moveToNewWindow.accesskey          "ה">
 <!ENTITY  bookmarkAllTabs.label              "צור סימנייה לכל הלשוניות…">
 <!ENTITY  bookmarkAllTabs.accesskey          "צ">
-<!ENTITY  undoCloseTab.label                 "בטל סגירת לשונית">
+<!ENTITY  undoCloseTab.label                 "ביטול סגירת לשונית">
 <!ENTITY  undoCloseTab.accesskey             "ב">
 <!ENTITY  closeTab.label                     "סגירת לשונית">
 <!ENTITY  closeTab.accesskey                 "ס">
@@ -146,6 +149,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      respectively before and after the domain requiring pointerlock.
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
+<!ENTITY pointerlockWarning.beforeDomain.label "לאתר בכתובת ">
+<!ENTITY pointerlockWarning.afterDomain.label "יש שליטה על הסמן שלך. לחיצה על ESC תחזיר את השליטה אליך.">
+<!ENTITY pointerlockWarning.generic.label "למסמך זה יש שליטה על הסמן שלך. לחיצה על ESC תחזיר את השליטה אליך.">
 
 <!ENTITY closeWindow.label "סגור חלון">
 <!ENTITY closeWindow.accesskey "ס">
@@ -180,7 +186,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY otherBookmarksCmd.label "סימניות אחרות">
 <!ENTITY bookmarksToolbarChevron.tooltip "הצגת סימניות נוספות">
 <!ENTITY showRecentlyBookmarked.label     "הצגת סימניות שנוספו לאחרונה">
+<!ENTITY showRecentlyBookmarked.accesskey "צ">
 <!ENTITY hideRecentlyBookmarked.label     "הסתרת סימניות שנוספו לאחרונה">
+<!ENTITY hideRecentlyBookmarked.accesskey "ס">
 
 <!ENTITY backCmd.label                "אחורה">
 <!ENTITY backButton.tooltip           "חזרה דף אחד אחורה">
@@ -201,9 +209,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY urlbar.defaultNotificationAnchor.tooltip         "פתיחת חלונית הודעות">
 <!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "פתיחת חלונית בקשת מיקום">
-<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "פתיחת חלונית אחסון הודעות בלתי מקוון">
+<!ENTITY urlbar.addonsNotificationAnchor.tooltip          "פתיחת חלונית ההודעות של התקנת תוספות">
+<!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "פתיחת חלונית הודעת אחסון לא מקוון">
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "פתיחת חלונית הודעת שמירת ססמה">
-<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "ניהול שיתוף תוספים חיצוניים">
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "ניהול שימוש בתוספים חיצוניים">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "החלפת מצב קבלת התרעות מהאתר">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "ניהול שיתוף המצלמה ו/או המיקרופון שלך עם האתר">
@@ -219,8 +228,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.microphoneBlocked.tooltip        "חסמת את המיקרופון שלך מפני אתר זה.">
 <!ENTITY urlbar.screenBlocked.tooltip            "חסמת מפני האתר הזה את האפשרות לשתף את המסך שלך.">
 <!ENTITY urlbar.geolocationBlocked.tooltip       "חסמת מפני האתר הזה לגשת לנתוני המיקום שלך.">
-<!ENTITY urlbar.indexedDBBlocked.tooltip         "חסמת מפני האתר הזה לאחסן נתונים.">
-<!ENTITY urlbar.webNotificationsBlocked.tooltip  "חסמת מפני האתר הזה להציג הודעות.">
+<!ENTITY urlbar.indexedDBBlocked.tooltip         "האפשרות לאחסן נתונים נחסמה מפני אתר זה.">
+<!ENTITY urlbar.webNotificationsBlocked.tooltip  "האפשרות להציג הודעות נחסמה מפני אתר זה.">
 
 <!ENTITY urlbar.openHistoryPopup.tooltip                "הצגת היסטוריה">
 
@@ -239,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "הצגת סרגל הצד">
 <!ENTITY viewBookmarksToolbar.label         "הצגת סרגל הכלים">
 
+<!ENTITY containersMenu.label "מגירות">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -266,11 +276,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY webDeveloperMenu.label       "כלי פיתוח">
 <!ENTITY webDeveloperMenu.accesskey   "כ">
 
-<!ENTITY inspectContextMenu.label     "חקירת אלמנט">
+<!ENTITY inspectContextMenu.label     "חקירת רכיב">
 <!ENTITY inspectContextMenu.accesskey "ח">
 
 <!ENTITY fileMenu.label         "קובץ"> 
 <!ENTITY fileMenu.accesskey       "ק">
+<!ENTITY newUserContext.label             "מגירת לשוניות חדשה">
+<!ENTITY newUserContext.accesskey         "ג">
 <!ENTITY newNavigatorCmd.label        "חלון חדש">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "ח">
@@ -324,7 +336,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY historyUndoMenu.label "לשוניות שנסגרו לאחרונה">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
 <!ENTITY historyUndoWindowMenu.label "חלונות שנסגרו לאחרונה">
-<!ENTITY historyRestoreLastSession.label "שחזר הפעלה קודמת">
+<!ENTITY historyRestoreLastSession.label "שחזור הפעלה קודמת">
 
 <!ENTITY showAllHistoryCmd2.label "הצגת כל ההיסטוריה">
 <!ENTITY showAllHistoryCmd.commandkey "H">
@@ -334,13 +346,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuCustomizeExit.label "יציאה ממצב ההתאמה האישית">
 <!ENTITY appMenuCustomizeExit.tooltip "סיום ההתאמה האישית">
 <!ENTITY appMenuHistory.label "היסטוריה">
-<!ENTITY appMenuHistory.showAll.label "הצגת כול ההיסטוריה">
+<!ENTITY appMenuHistory.showAll.label "הצגת כל ההיסטוריה">
 <!ENTITY appMenuHistory.clearRecent.label "מחיקת היסטוריה אחרונה…">
 <!ENTITY appMenuHistory.restoreSession.label "שחזור הפעלה קודמת">
 <!ENTITY appMenuHistory.viewSidebar.label "הצגת סרגל הצד היסטוריה">
 <!ENTITY appMenuHelp.tooltip "פתיחת תפריט העזרה">
 
-<!ENTITY appMenuRemoteTabs.label "לשוניות שסונכרנו">
+<!ENTITY appMenuRemoteTabs.label "לשוניות מסונכרנות">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
 <!ENTITY appMenuRemoteTabs.notabs.label "אין לשוניות פתוחות">
@@ -380,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "חפש או הכנס כתובת">
 <!ENTITY urlbar.accesskey             "ח">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "הרחבה:">
 <!ENTITY urlbar.switchToTab.label     "עבור ללשונית:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "האם לשפר את חוויית החיפוש שלך בעזרת הצעות?">
@@ -432,7 +446,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      intentionally left empty for en-US and can be used by other localizations to
      display a string after the search engine name.  This string will be displayed
      as:  "Search <selected engine name><searchAfter.label text>" -->
-<!ENTITY search.label                 "חיפוש ">
+<!ENTITY search.label                 "חיפוש באמצעות ">
 <!ENTITY searchAfter.label            "">
 
 <!-- LOCALIZATION NOTE (searchWithHeader.label):
@@ -463,6 +477,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "ל">
 <!ENTITY openFrameCmd.label           "פתיחת מסגרת בחלון חדש">
 <!ENTITY openFrameCmd.accesskey       "ח">
+<!ENTITY openLinkCmdInContainerTab.label "פתיחת קישור במגירת לשוניות חדשה">
+<!ENTITY openLinkCmdInContainerTab.accesskey "מ">
 <!ENTITY showOnlyThisFrameCmd.label     "הצגת מסגרת זו בלבד">
 <!ENTITY showOnlyThisFrameCmd.accesskey "ה">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -562,6 +578,7 @@ items are mutually exclusive. -->
 <!ENTITY mediaUnmute.label           "בטל השתקה">
 <!ENTITY mediaUnmute.accesskey       "ש">
 <!ENTITY mediaPlaybackRate2.label     "מהירות נגינה">
+<!ENTITY mediaPlaybackRate2.accesskey "נ">
 <!ENTITY mediaPlaybackRate050x2.label "אטית (0.5×)">
 <!ENTITY mediaPlaybackRate050x2.accesskey "א">
 <!ENTITY mediaPlaybackRate100x2.label "רגילה">
@@ -618,7 +635,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY fullZoomResetCmd.commandkey    "0">
 <!ENTITY fullZoomResetCmd.commandkey2   "">
 
-<!ENTITY fullZoomToggleCmd.label        "שנה גודל טקסט בלבד">
+<!ENTITY fullZoomToggleCmd.label        "שינוי גודל טקסט בלבד">
 <!ENTITY fullZoomToggleCmd.accesskey    "ט">
 <!ENTITY fullZoom.label                 "מרחק מתצוגה">
 <!ENTITY fullZoom.accesskey             "ת">
@@ -649,7 +666,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY pageStylePersistentOnly.label "סגנון דף בסיסי">
 <!ENTITY pageStylePersistentOnly.accesskey "ס">
 
-<!ENTITY pageReportIcon.tooltip            "שנה הגדרות חסימת חלונות קופצים עבור אתר זה">
+<!ENTITY pageReportIcon.tooltip            "שינוי הגדרות חסימת חלונות קופצים עבור אתר זה">
 
 <!ENTITY allowPopups.accesskey "ח">
 <!-- On Windows we use the term "Options" to describe settings, but
@@ -660,7 +677,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editPopupSettings.accesskey "ע">
 <!ENTITY dontShowMessage.accesskey "א">
 
-<!ENTITY bidiSwitchPageDirectionItem.label        "הפוך כיוון דף">
+<!ENTITY bidiSwitchPageDirectionItem.label        "הפיכת כיוון דף">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "פ">
 <!ENTITY bidiSwitchTextDirectionItem.label        "הפוך כיוון כתיבה">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey    "כ">
@@ -686,7 +703,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.connectionFile "העמוד הזה מאוחסן במחשב שלך.">
 <!ENTITY identity.connectionVerified2 "התחברת לאתר זה באופן מאובטח, בבעלות:">
 <!ENTITY identity.connectionInternal "דף זה הנו דף מאובטח של &brandShortName;.">
-<!ENTITY identity.insecureLoginForms2 "פרטי גישה שמוזנים שעמוד זה עשויים להיות חשופים בפני גורמי צד שלישי.">
+<!ENTITY identity.insecureLoginForms2 "פרטי ההתחברות המוזנים בעמוד זה עשויים להיות חשופים בפני גורמי צד שלישי.">
 
 <!-- Strings for connection state warnings. -->
 <!ENTITY identity.activeBlocked "&brandShortName; חסם חלקים שאינם בטוחים בדף זה.">

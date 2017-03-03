@@ -40,6 +40,9 @@ can reach it easily. -->
 <!ENTITY  pinTab.accesskey                   "З">
 <!ENTITY  unpinTab.label                     "Откачи јазиче">
 <!ENTITY  unpinTab.accesskey                 "т">
+<!ENTITY  sendTabToDevice.label              "Испрати јазиче на уред">
+<!ENTITY  sendPageToDevice.label             "Испрати страница на уред">
+<!ENTITY  sendLinkToDevice.label             "Испрати врска до уред">
 <!ENTITY  moveToNewWindow.label              "Премести во нов прозорец">
 <!ENTITY  moveToNewWindow.accesskey          "П">
 <!ENTITY  bookmarkAllTabs.label              "Обележи ги сите јазичиња…">
@@ -139,6 +142,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
      respectively before and after the domain requiring pointerlock.
      Localizers can use one of them, or both, to better adapt this
      sentence to their language. -->
+<!ENTITY pointerlockWarning.afterDomain.label "го контролира Вашиот покажувач. Притиснете Esc за да ја преземете контролата.">
 
 <!ENTITY closeWindow.label "Затвори го прозорецот">
 <!ENTITY closeWindow.accesskey "п">
@@ -198,7 +202,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 
 
+<!ENTITY urlbar.openHistoryPopup.tooltip                "Прикажи историја">
 
+<!ENTITY urlbar.zoomReset.tooltip     "Ресетирај ниво на зум">
 
 <!ENTITY searchItem.title             "Пребарување">
 
@@ -209,8 +215,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY bookmarksCmd.commandkey "b">
 
 <!ENTITY bookmarksMenuButton.label          "Обележувачи">
+<!ENTITY bookmarksMenuButton.other.label "Други обележувачи">
 <!ENTITY viewBookmarksToolbar.label         "Алатник со обележувачи">
 
+<!ENTITY containersMenu.label "Контејнери">
 
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
@@ -243,6 +251,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label         "Датотека"> 
 <!ENTITY fileMenu.accesskey       "Д">
+<!ENTITY newUserContext.label             "Ново контејнерско јазиче">
 <!ENTITY newNavigatorCmd.label        "Нов прозорец">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "Н">
@@ -304,14 +313,25 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuCustomize.tooltip "Прилагодете ги менијата и алатниците">
 <!ENTITY appMenuCustomizeExit.label "Готово">
 <!ENTITY appMenuCustomizeExit.tooltip "Завршете со прилагодувањето">
+<!ENTITY appMenuHistory.label "Историја">
+<!ENTITY appMenuHistory.showAll.label "Прикажи ја сета историја">
+<!ENTITY appMenuHistory.clearRecent.label "Исчисти ја скорешната историја…">
+<!ENTITY appMenuHistory.restoreSession.label "Врати ја претходната сесија">
 
+<!ENTITY appMenuRemoteTabs.label "Синхронизирани јазичиња">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.notabs.label): This is shown beneath
      the name of a device when that device has no open tabs -->
+<!ENTITY appMenuRemoteTabs.notabs.label "Нема отворени јазичиња">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.tabsnotsyncing.label): This is shown
      when Sync is configured but syncing tabs is disabled. -->
+<!ENTITY appMenuRemoteTabs.tabsnotsyncing.label "Вклучете синхронизација на јазичиња за да видите листа на јазичињата од Вашите други уреди.">
 <!-- LOCALIZATION NOTE (appMenuRemoteTabs.noclients.label): This is shown
      when Sync is configured but this appears to be the only device attached to
      the account. We also show links to download Firefox for android/ios. -->
+<!ENTITY appMenuRemoteTabs.noclients.title "Нема синхронизирани јазичиња… сѐ уште!">
+<!ENTITY appMenuRemoteTabs.openprefs.label "Преференци за Sync">
+<!ENTITY appMenuRemoteTabs.notsignedin.label "Најавете се за да видите листа на јазичињата од Вашите други уреди.">
+<!ENTITY appMenuRemoteTabs.signin.label "Најавете се на Sync">
 
 <!ENTITY customizeMenu.addToToolbar.label "Додај во алатник">
 <!ENTITY customizeMenu.addToPanel.label "Додај во мени">
@@ -329,9 +349,13 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Барај или внеси адреса">
 <!ENTITY urlbar.accesskey             "д">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
 <!ENTITY urlbar.switchToTab.label     "Оди до јазиче:">
 
+<!ENTITY urlbar.searchSuggestionsNotification.question "Би сакале да го подобрите Вашето искуство на пребарување со предлози?">
 <!ENTITY urlbar.searchSuggestionsNotification.learnMore "Дознајте повеќе…">
+<!ENTITY urlbar.searchSuggestionsNotification.disable "Не">
+<!ENTITY urlbar.searchSuggestionsNotification.enable "Да">
 
 <!-- 
   Comment duplicated from browser-sets.inc:
@@ -386,18 +410,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY searchInNewTab.label         "Пребарај во ново јазиче">
 <!ENTITY searchSetAsDefault.label     "Постави како основен пребарувач">
 
-<!ENTITY openLinkCmdInTab.label       "Отвори ја врската во ново јазиче">
+<!ENTITY openLinkCmdInTab.label       "Отвори во ново јазиче">
 <!ENTITY openLinkCmdInTab.accesskey   "ј">
-<!ENTITY openLinkCmd.label            "Отвори ја врската во нов прозорец">
+<!ENTITY openLinkCmd.label            "Отвори во нов прозорец">
 <!ENTITY openLinkCmd.accesskey        "п">
-<!ENTITY openLinkInPrivateWindowCmd.label "Отвори врска во нов приватен прозорец">
+<!ENTITY openLinkInPrivateWindowCmd.label "Отвори нов приватен прозорец">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "п">
-<!ENTITY openLinkCmdInCurrent.label     "Отвори врска">
+<!ENTITY openLinkCmdInCurrent.label     "Отвори ја врската">
 <!ENTITY openLinkCmdInCurrent.accesskey "О">
 <!ENTITY openFrameCmdInTab.label      "Отвори ја рамката во ново јазиче">
 <!ENTITY openFrameCmdInTab.accesskey  "ј">
 <!ENTITY openFrameCmd.label           "Отвори ја рамката во нов прозорец">
 <!ENTITY openFrameCmd.accesskey       "п">
+<!ENTITY openLinkCmdInContainerTab.label "Отвори во ново контејнерско јазиче">
 <!ENTITY showOnlyThisFrameCmd.label     "Покажи ја само оваа рамка">
 <!ENTITY showOnlyThisFrameCmd.accesskey "к">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -456,6 +481,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailImageCmd.accesskey      "а">
 <!ENTITY emailVideoCmd.label          "Испрати видео…">
 <!ENTITY emailVideoCmd.accesskey      "а">
+<!ENTITY castVideoCmd.label           "Испрати видео до уред">
 <!ENTITY emailAudioCmd.label          "Испрати аудио…">
 <!ENTITY emailAudioCmd.accesskey      "a">
 <!ENTITY playPluginCmd.label          "Активирај го овој приклучок">
@@ -492,9 +518,16 @@ items are mutually exclusive. -->
 <!ENTITY mediaMute.accesskey         "м">
 <!ENTITY mediaUnmute.label           "Пушти звук">
 <!ENTITY mediaUnmute.accesskey       "m">
+<!ENTITY mediaPlaybackRate2.label     "Брзина на репродуцирање">
+<!ENTITY mediaPlaybackRate050x2.label "Бавна (0.5×)">
+<!ENTITY mediaPlaybackRate100x2.label "Нормална">
+<!ENTITY mediaPlaybackRate125x2.label "Брза (1.25×)">
+<!ENTITY mediaPlaybackRate150x2.label "Побрза (1.5×)">
 <!-- LOCALIZATION NOTE: "Ludicrous" is a reference to the
 movie "Space Balls" and is meant to say that this speed is very
 fast. -->
+<!ENTITY mediaPlaybackRate200x2.label "Смешна (2×)">
+<!ENTITY mediaLoop.label             "Повторувај">
 <!-- LOCALIZATION NOTE: The access keys for "Show Controls" and
 "Hide Controls" are the same because the two context-menu
 items are mutually exclusive. -->
@@ -597,8 +630,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY editBookmark.done.label                     "Во ред">
 <!ENTITY editBookmark.removeBookmark.accessKey       "р">
 
+<!ENTITY identity.connectionSecure "Безбедна врска">
+<!ENTITY identity.connectionNotSecure "Врската не е безбедна">
+<!ENTITY identity.connectionFile "Оваа страница е складирана на Вашиот компјутер.">
+<!ENTITY identity.connectionVerified2 "Безбедно сте поврзани на овој веб-сајт, во сопственост на:">
+<!ENTITY identity.connectionInternal "Ова е безбедна страница на &brandShortName;.">
 
 <!-- Strings for connection state warnings. -->
+<!ENTITY identity.activeBlocked "&brandShortName; блокираше делови од оваа страница што не се безбедни.">
+<!ENTITY identity.passiveLoaded "Делови од оваа страница не се безбедни (како на пример, сликите).">
+<!ENTITY identity.weakEncryption "Оваа страница користи слаба енкрипција.">
 
 <!-- Strings for connection state warnings in the subview. -->
 

@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Umi mboguatahára oipotáva moimbaha jehechapyréva ikatu omoñe'ẽve ohóvo ko ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "popeguáva">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Oĩpa nderejuhúiva? Sapy'ánte oĩ mba'ejoajurã ndaikatuvéima ojepuru &brandShortName; ndive.">
+

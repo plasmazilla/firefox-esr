@@ -159,6 +159,15 @@
 <!ENTITY options.timestampMessages.label      "Aktivigi tempostampojn">
 <!ENTITY options.timestampMessages.tooltip    "Se vi aktivigas tiun ĉi elekteblon, ordonoj kaj eligo en la Teksaĵa konzolo montros tempostampon">
 
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+<!ENTITY options.debugger.label            "Sencimigilo">
+
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+<!ENTITY options.sourceMaps.label      "Aktivigi mapojn de fontoj">
+<!ENTITY options.sourceMaps.tooltip    "Se vi aktivigas tiun ĉi elekteblon, fontoj estos mapitaj en la sencimigilo kaj en la konzolo.">
+
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->

@@ -96,8 +96,8 @@
 <!ENTITY cmd.askToActivate.tooltip            "每次询问是否使用此附加组件">
 <!ENTITY cmd.alwaysActivate.label             "总是激活">
 <!ENTITY cmd.alwaysActivate.tooltip           "总是使用此附加组件">
-<!ENTITY cmd.neverActivate.label              "总不激活">
-<!ENTITY cmd.neverActivate.tooltip            "总不使用此附加组件">
+<!ENTITY cmd.neverActivate.label              "永不激活">
+<!ENTITY cmd.neverActivate.tooltip            "永不使用此附加组件">
 <!ENTITY cmd.stateMenu.tooltip                "更改需运行此附加组件时的反应">
 <!ENTITY cmd.installAddon.label               "安装">
 <!ENTITY cmd.installAddon.accesskey           "I">
@@ -179,8 +179,8 @@
 <!ENTITY search.filter2.available.tooltip     "显示可安装附加组件">
 
 <!ENTITY addon.homepage                       "主页">
-<!ENTITY addon.details.label                  "更多">
-<!ENTITY addon.details.tooltip                "显示此附加组件的更多细节">
+<!ENTITY addon.details.label                  "更多信息">
+<!ENTITY addon.details.tooltip                "显示关于此附加组件的详情">
 <!ENTITY addon.unknownDate                    "未知">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "想要自己的附加组件获得验证的开发者可继续阅读我们的">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "相关手册">
 <!ENTITY disabledUnsigned.devInfo.end "。">
+
+<!ENTITY pluginDeprecation.description "少些东西？某些插件已不再被 &brandShortName; 支持。">
+<!ENTITY pluginDeprecation.learnMore "详细了解。">

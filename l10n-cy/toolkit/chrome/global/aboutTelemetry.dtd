@@ -54,6 +54,8 @@
 
 <!ENTITY aboutTelemetry.scalarsSection "  Scalarau">
 
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Graddfeydd Allweddedig">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Histogramau">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Histogramau Allweddol">

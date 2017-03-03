@@ -3,6 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- New Tag Dialog -->
 
-<!ENTITY newTagDialog.title      "Nowu značku wutworić">
+<!ENTITY newTagDialog1.title     "Nowa značka">
 <!ENTITY name.label              "Mjeno znački:">
 <!ENTITY name.accesskey          "M">

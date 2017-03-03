@@ -4,7 +4,7 @@
 
 <!ENTITY  general.label                 "Geral">
 
-<!ENTITY  warnAddonInstall.label        "Alertar se sites tentarem instalar extensões ou temas">
+<!ENTITY  warnAddonInstall.label        "Avisar quando sites tentarem instalar extensões">
 <!ENTITY  warnAddonInstall.accesskey    "A">
 
 <!-- LOCALIZATION NOTE (enableSafeBrowsing.label, blockDownloads.label, blockUncommonUnwanted.label):
@@ -17,16 +17,16 @@
 <!ENTITY  blockDownloads.label            "Bloquear downloads perigosos">
 <!ENTITY  blockDownloads.accesskey        "d">
 
-<!ENTITY  blockUncommonUnwanted.label     "Quero receber avisos sobre software incomum e indesejado">
-<!ENTITY  blockUncommonUnwanted.accesskey "C">
+<!ENTITY  blockUncommonUnwanted.label     "Avisar sobre softwares indesejados e incomuns">
+<!ENTITY  blockUncommonUnwanted.accesskey "c">
 
 <!ENTITY  addonExceptions.label         "Exceções…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
 
-<!ENTITY  logins.label                  "Logins">
+<!ENTITY  logins.label                  "Contas de acesso">
 
-<!ENTITY  rememberLogins.label          "Memorizar logins de sites">
+<!ENTITY  rememberLogins.label          "Memorizar as contas de acesso de sites">
 <!ENTITY  rememberLogins.accesskey      "r">
 <!ENTITY  passwordExceptions.label      "Exceções…">
 <!ENTITY  passwordExceptions.accesskey  "x">
@@ -36,5 +36,5 @@
 <!ENTITY  changeMasterPassword.label     "Alterar senha mestra…">
 <!ENTITY  changeMasterPassword.accesskey "m">
 
-<!ENTITY  savedLogins.label              "Logins salvos…">
-<!ENTITY  savedLogins.accesskey          "L">
+<!ENTITY  savedLogins.label              "Contas de acesso salvas…">
+<!ENTITY  savedLogins.accesskey          "l">

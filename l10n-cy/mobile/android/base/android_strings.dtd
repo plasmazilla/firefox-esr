@@ -280,7 +280,7 @@
      For more see: https://developer.chrome.com/multidevice/android/customtabs -->
 
 <!ENTITY pref_custom_tabs "Tabiau Cyfaddas">
-<!ENTITY pref_custom_tabs_summary "Caniatáu i apiau trydydd parti agor URLau gyda golwg a theimlad cyfaddas.">
+<!ENTITY pref_custom_tabs_summary3 "Caniatewch i apiau agor gwefannau gan ddefnyddio fersiwn cyfaddasedig o &brandShortName;">
 <!-- Localization note (pref_activity_stream): Experimental feature, see https://testpilot.firefox.com/experiments/activity-stream  -->
 
 <!ENTITY pref_activity_stream "Ffrwd Gweithgaredd">
@@ -368,7 +368,7 @@ size. -->
 <!-- Localization note (pref_font_size_preview_text): This paragraph is used as an example to
     demonstrate the font size setting.  It is meant to be whimsical and fun. -->
 
-<!ENTITY pref_font_size_preview_text "Mae\u0027r llwynog oren cyflym yn neidio dros eich disgwyliadau gan fod yn fwy cyflym, mwy hyblyg a mwy diogel. Fel corff dim er elw rydym yn rhydd i fod yn ddyfeisgar ar eich rhan heb bwysau i gyfaddawdu. Mae hyn y golygu gwell profiad i chi a dyfodol mwy disglair i\u0027r We.">
+<!ENTITY pref_font_size_preview_text "Mae\u0027r llwynog oren cyflym yn neidio dros eich disgwyliadau gan fod yn fwy cyflym, mwy hyblyg a mwy diogel. Fel corff ddim-er-elw rydym yn rhydd i fod yn ddyfeisgar ar eich rhan heb bwysau i gyfaddawdu. Mae hyn y golygu gwell profiad i chi a dyfodol mwy disglair i\u0027r We.">
 
 <!ENTITY pref_media_autoplay_enabled "Caniatáu awtochwarae">
 <!ENTITY pref_media_autoplay_enabled_summary "Rheoli os yw gwefannau yn awtochwarae fideos neu gynnwys cyfrwng arall">
@@ -830,6 +830,16 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 
 <!ENTITY activity_stream_topsites "Hoff Wefannau">
 <!ENTITY activity_stream_highlights "Uchafbwyntiau">
-<!-- LOCALIZATION NOTE (activity_stream_more): Link that opens the detailed bookmark/history lists
-     when pressed. -->
-<!ENTITY activity_stream_more "Rhagor">
+<!-- LOCALIZATION NOTE (activity_stream_highlight_label_bookmarked): This label is shown in the Activity
+Stream list for highlights sourced from th user's bookmarks. -->
+
+<!ENTITY activity_stream_highlight_label_bookmarked "Nod Tudalen">
+<!-- LOCALIZATION NOTE (activity_stream_highlight_label_visited): This label is shown in the Activity
+Stream list for highlights sourced from th user's bookmarks. -->
+<!ENTITY activity_stream_highlight_label_visited "Ymwelwyd">
+<!-- LOCALIZATION NOTE (activity_stream_dismiss): This label is shown in the Activity Stream context menu,
+and allows hiding a URL/page from highlights or topsites. The page remains in history/bookmarks, but
+is simply hidden from the Activity Stream panel. -->
+
+<!ENTITY activity_stream_dismiss "Diffodd">
+<!ENTITY activity_stream_delete_history "Dileu o\u0027r Hanes">

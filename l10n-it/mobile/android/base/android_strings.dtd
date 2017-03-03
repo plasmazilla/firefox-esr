@@ -169,7 +169,7 @@
 <!ENTITY pref_whats_new_notification_summary "Visualizza informazioni sulle nuove caratteristiche dopo un aggiornamento">
 <!ENTITY pref_category_experimental "Caratteristiche sperimentali">
 <!ENTITY pref_custom_tabs "Schede personalizzate">
-<!ENTITY pref_custom_tabs_summary "Consenti alle app di terze parti di aprire URL con un aspetto personalizzato.">
+<!ENTITY pref_custom_tabs_summary3 "Consenti alle app di aprire siti web in una versione personalizzata di &brandShortName;.">
 <!ENTITY pref_activity_stream "Flusso attività">
 <!ENTITY pref_activity_stream_summary "Una visualizzazione della cronologia ricca di informazioni e una pagina iniziale completamente ripensata rendono ancora più semplice trovare tutto ciò che serve in &brandShortName;.">
 <!ENTITY tracking_protection_prompt_title "Ora con protezione antitracciamento">
@@ -479,4 +479,7 @@
 <!ENTITY helper_triple_readerview_open_button "Aggiungi ai segnalibri">
 <!ENTITY activity_stream_topsites "Siti principali">
 <!ENTITY activity_stream_highlights "In evidenza">
-<!ENTITY activity_stream_more "Altro">
+<!ENTITY activity_stream_highlight_label_bookmarked "Nei segnalibri">
+<!ENTITY activity_stream_highlight_label_visited "Visitato">
+<!ENTITY activity_stream_dismiss "Elimina">
+<!ENTITY activity_stream_delete_history "Elimina dalla cronologia">

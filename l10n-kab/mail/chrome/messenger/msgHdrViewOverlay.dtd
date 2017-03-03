@@ -5,12 +5,13 @@
 <!ENTITY toField4.label "I">
 <!ENTITY fromField4.label "Si">
 <!ENTITY senderField4.label "Amazan">
+<!ENTITY author.label "Ameskar">
 <!ENTITY organizationField4.label "Takebbanit">
 <!ENTITY replyToField4.label "Err i">
 
 <!ENTITY subjectField4.label "Asentel">
 <!ENTITY ccField4.label "Anɣ-i">
-<!ENTITY bccField4.label "Anɣ.Uff">
+<!ENTITY bccField4.label "Anɣ.Uff.I">
 <!ENTITY newsgroupsField4.label "Igrawen n isalen">
 <!ENTITY followupToField4.label "Seḍfer-I">
 <!ENTITY tagsHdr4.label "Tibzimin">
@@ -23,6 +24,8 @@
 
 <!ENTITY hdrArchiveButton1.label "Aɣbaṛ">
 <!ENTITY hdrArchiveButton1.tooltip "Ḥrez izen-agi">
+<!ENTITY hdrOpenConversationButton1.label "Adiwenni">
+<!ENTITY hdrOpenConversationButton1.tooltip "Sken adiwenni n yizen agi">
 <!ENTITY hdrSmartReplyButton1.label "Tiririt s tigzi">
 <!ENTITY hdrReplyButton1.label "Err">
 <!ENTITY hdrReplyButton2.tooltip "Err i umazan n yizen-agi">

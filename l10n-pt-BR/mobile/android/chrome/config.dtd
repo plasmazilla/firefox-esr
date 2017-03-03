@@ -7,12 +7,12 @@
 
 <!ENTITY newPref.namePlaceholder       "Nome">
 
-<!ENTITY newPref.valueBoolean          "Boolean">
+<!ENTITY newPref.valueBoolean          "Booleano">
 <!ENTITY newPref.valueString           "String">
 <!ENTITY newPref.valueInteger          "Inteiro">
 
-<!ENTITY newPref.stringPlaceholder     "Forneça uma string">
-<!ENTITY newPref.numberPlaceholder     "Digite um número">
+<!ENTITY newPref.stringPlaceholder     "Digitar uma string">
+<!ENTITY newPref.numberPlaceholder     "Digitar um número">
 
 <!ENTITY newPref.toggleButton          "Alternar">
 <!ENTITY newPref.cancelButton          "Cancelar">

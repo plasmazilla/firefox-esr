@@ -13,7 +13,7 @@
 
 <!ENTITY  filter.placeholder		"検索">
 
-<!ENTITY saveTo.label			"次のフォルダに保存する:">
+<!ENTITY saveTo.label			"次のフォルダーに保存する:">
 <!ENTITY saveTo.accesskey		"S">
 <!ENTITY alwaysAsk.label		"ファイルごとに保存先を指定する">
 <!ENTITY alwaysAsk.accesskey		"A">
@@ -25,8 +25,8 @@
 <!ENTITY attachments.incoming.label	"受信">
 <!ENTITY attachments.outgoing.label	"送信">
 
-<!ENTITY addCloudFileAccount.label		"追加">
-<!ENTITY addCloudFileAccount.accesskey		"A">
+<!ENTITY addCloudFileAccount1.label		"追加...">
+<!ENTITY addCloudFileAccount1.accesskey		"A">
 <!ENTITY addCloudFileAccount.description	"新しい Filelink ストレージサービスを追加してください。">
 <!ENTITY removeCloudFileAccount.label		"削除">
 <!ENTITY removeCloudFileAccount.accesskey	"R">

@@ -38,11 +38,13 @@
 <!-- Device Settings -->
 
 <!ENTITY syncDeviceName.label       "Gailuaren izena:">
-<!ENTITY syncDeviceName.accesskey   "G">
 <!ENTITY fxaSyncDeviceName.label       "Gailuaren izena">
 <!ENTITY changeSyncDeviceName.label "Aldatu gailuaren izena…">
+<!ENTITY changeSyncDeviceName.accesskey "d">
 <!ENTITY cancelChangeSyncDeviceName.label "Utzi">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "U">
 <!ENTITY saveChangeSyncDeviceName.label "Gorde">
+<!ENTITY saveChangeSyncDeviceName.accesskey "G">
 <!ENTITY unlinkDevice.label           "Deslotu gailu hau">
 <!-- Footer stuff -->
 
@@ -71,11 +73,16 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY notSignedIn.label           "Ez duzu saiorik hasi.">
 <!ENTITY signIn.label                "Hasi saioa">
+<!ENTITY signIn.accesskey            "H">
 <!ENTITY profilePicture.tooltip      "Aldatu profileko argazkia">
 <!ENTITY verifiedManage.label        "Kudeatu kontua">
+<!ENTITY verifiedManage.accesskey    "o">
 <!ENTITY disconnect.label            "Deskonektatu…">
+<!ENTITY disconnect.accesskey        "D">
 <!ENTITY verify.label                "Egiaztatu helbide elektronikoa">
+<!ENTITY verify.accesskey            "E">
 <!ENTITY forget.label                "Ahaztu helbide elektroniko hau">
+<!ENTITY forget.accesskey            "A">
 
 <!ENTITY welcome.description "Izan zure fitxen, laster-marken, pasahitzen eta gehiagoren sarbidea &brandShortName; erabiltzen duzun toki orotan.">
 <!ENTITY welcome.signIn.label "Hasi saioa">
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "Sinkronizatu laster-markak, historia, fitxak, pasahitzak, gehigarriak eta hobespenak zure gailu guztien artean.">
 <!ENTITY signedOut.accountBox.title   "Konektatu &syncBrand.fxAccount.label; erabiliz">
 <!ENTITY signedOut.accountBox.create  "Sortu kontua">
+<!ENTITY signedOut.accountBox.create.accesskey  "S">
 <!ENTITY signedOut.accountBox.signin  "Hasi saioa">
+<!ENTITY signedOut.accountBox.signin.accesskey  "H">
 
 <!ENTITY signedIn.engines.label       "Sinkronizatu gailu guztien artean">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to

@@ -25,7 +25,10 @@ add_task(function* setup() {
   // make sure userContext is enabled.
   yield new Promise(resolve => {
     SpecialPowers.pushPrefEnv({"set": [
-      ["privacy.userContext.enabled", true]
+      ["privacy.userContext.enabled", true],
+      ["dom.serviceWorkers.enabled", true],
+      ["dom.serviceWorkers.openWindow.enabled", true],
+      ["dom.ipc.processCount", 1]
     ]}, resolve);
   });
 });

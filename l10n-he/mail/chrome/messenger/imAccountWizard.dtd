@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY accountProtocolField.label   "רשת:">
+
+<!ENTITY accountUsernameTitle.label   "שם משתמש">
+<!ENTITY accountUsernameDuplicate.label "חשבון זה כבר הוגדר!">
+
+<!ENTITY accountPasswordTitle.label   "ססמה">
+<!ENTITY accountPasswordField.label   "ססמה:">
+
+<!ENTITY accountAdvancedTitle.label   "אפשרויות מתקדמות">
+<!ENTITY accountProxySettings.caption "הגדרות שרת מתווך">
+<!ENTITY accountProxySettings.change.label     "שינוי…">
+
+<!ENTITY accountSummaryTitle.label   "תקציר">

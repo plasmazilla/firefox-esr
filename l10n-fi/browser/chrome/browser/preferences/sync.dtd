@@ -16,9 +16,9 @@
 <!-- Manage Account -->
 <!ENTITY manageAccount.label          "Hallinnoi tiliä">
 <!ENTITY manageAccount.accesskey      "H">
-<!ENTITY changePassword2.label         "Vaihda salasana…">
+<!ENTITY changePassword2.label        "Vaihda salasana…">
 <!ENTITY myRecoveryKey.label          "Palautusavaimeni">
-<!ENTITY resetSync2.label              "Aloita synkronointi alusta…">
+<!ENTITY resetSync2.label             "Aloita synkronointi alusta…">
 
 <!ENTITY pairDevice.label             "Liitä laite">
 
@@ -38,11 +38,13 @@
 
 <!-- Device Settings -->
 <!ENTITY syncDeviceName.label       "Laitteen nimi:">
-<!ENTITY syncDeviceName.accesskey   "L">
 <!ENTITY fxaSyncDeviceName.label       "Laitteen nimi">
 <!ENTITY changeSyncDeviceName.label "Muuta laitteen nimeä…">
+<!ENTITY changeSyncDeviceName.accesskey "M">
 <!ENTITY cancelChangeSyncDeviceName.label "Peruuta">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "P">
 <!ENTITY saveChangeSyncDeviceName.label "Tallenna">
+<!ENTITY saveChangeSyncDeviceName.accesskey "T">
 <!ENTITY unlinkDevice.label           "Irrota laite">
 
 <!-- Footer stuff -->
@@ -71,11 +73,16 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY notSignedIn.label           "Et ole kirjautunut sisään.">
 <!ENTITY signIn.label                "Kirjaudu sisään">
+<!ENTITY signIn.accesskey            "r">
 <!ENTITY profilePicture.tooltip      "Vaihda kuva">
 <!ENTITY verifiedManage.label        "Hallinnoi tiliä">
+<!ENTITY verifiedManage.accesskey    "H">
 <!ENTITY disconnect.label            "Katkaise yhteys…">
+<!ENTITY disconnect.accesskey        "y">
 <!ENTITY verify.label                "Vahvista sähköpostiosoite">
+<!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "Unohda sähköpostiosoite">
+<!ENTITY forget.accesskey            "U">
 
 <!ENTITY welcome.description "Kun käytät &brandShortName;ia välilehtesi, kirjanmerkkisi, salasanasi ja muut tietosi ovat aina käytettävissäsi.">
 <!ENTITY welcome.signIn.label "Kirjaudu sisään">
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "Synkronoi kirjanmerkit, sivuhistoria, välilehdet, salasanat, lisäosat ja asetukset kaikilla laitteillasi.">
 <!ENTITY signedOut.accountBox.title   "Yhdistä &syncBrand.fxAccount.label;in">
 <!ENTITY signedOut.accountBox.create  "Luo tili">
+<!ENTITY signedOut.accountBox.create.accesskey  "L">
 <!ENTITY signedOut.accountBox.signin  "Kirjaudu sisään">
+<!ENTITY signedOut.accountBox.signin.accesskey  "i">
 
 <!ENTITY signedIn.engines.label       "Synkronoi kaikki laitteesi">
 

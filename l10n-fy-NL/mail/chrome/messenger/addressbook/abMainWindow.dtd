@@ -5,6 +5,7 @@
 <!ENTITY addressbookWindow.title                        "Adresboek">
 <!ENTITY blankResultsPaneMessage.label                  "Dit adresboek toant allnnich kontakten nei in sykopdracht">
 <!ENTITY localResultsOnlyMessage.label                  "Kontakten út eksterne adresboeken wurde pas nei in sykopdracht toand">
+
 <!-- File Menu -->
 <!ENTITY fileMenu.label                                 "Bestân">
 <!ENTITY fileMenu.accesskey                             "B">
@@ -75,9 +76,15 @@
 <!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
 <!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
 <!ENTITY hideSwapFnLnUI "true">
-<!ENTITY propertiesCmd2.label                           "Eigenskippen">
-<!ENTITY propertiesCmd2.accesskey                       "E">
+<!ENTITY propertiesMenu.label                           "Eigenskippen">
+<!ENTITY propertiesMenu.accesskey                       "i">
 <!ENTITY propertiesCmd.key                              "i">
+<!ENTITY abPropertiesMenu.label                         "Adresboekeigenskippen">
+<!ENTITY abPropertiesMenu.accesskey                     "i">
+<!ENTITY contactPropertiesMenu.label                    "Kontakteigenskippen">
+<!ENTITY contactPropertiesMenu.accesskey                "i">
+<!ENTITY mailingListPropertiesMenu.label                "Mailinglisteigenskippen">
+<!ENTITY mailingListPropertiesMenu.accesskey            "i">
 
 <!-- View Menu -->
 <!ENTITY viewMenu.label                                 "Byld">
@@ -133,8 +140,15 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newContactButton.accesskey                     "k">
 <!ENTITY newlistButton.label                            "Nije list">
 <!ENTITY newlistButton.accesskey                        "l">
-<!ENTITY editButton2.label                              "Eigenskippen">
-<!ENTITY editButton2.accesskey                          "E">
+<!ENTITY editPropertiesButton.label                     "Bewurkje">
+<!ENTITY propertiesContext.label                        "Eigenskippen">
+<!ENTITY propertiesContext.accesskey                    "i">
+<!ENTITY abPropertiesContext.label                      "Eigenskippen">
+<!ENTITY abPropertiesContext.accesskey                  "i">
+<!ENTITY editContactContext.label                       "Kontakt bewurkje">
+<!ENTITY editContactContext.accesskey                   "K">
+<!ENTITY editMailingListContext.label                   "List bewurkje">
+<!ENTITY editMailingListContext.accesskey               "L">
 <!ENTITY newmsgButton.label                             "Opstelle">
 <!ENTITY newmsgButton.accesskey                         "O">
 <!ENTITY newIM.label                                    "Ynstant-berjocht">
@@ -147,7 +161,10 @@ because displayed names don't have the comma in between. -->
 <!-- Address Book Toolbar Tooltips -->
 <!ENTITY newContactButton.tooltip                       "Nij adresboekkontakt oanmeitsje">
 <!ENTITY newlistButton.tooltip                          "Nije list oanmeitsje">
-<!ENTITY editButton2.tooltip                            "Selektearre kontakt bewurkje">
+<!ENTITY editPropertiesButton.tooltip                   "Selektearre item bewurkje">
+<!ENTITY editAbPropertiesButton.tooltip                 "Eigenskippen fan selektearre adresboek bewurkje">
+<!ENTITY editContactPropertiesButton.tooltip            "Selektearre kontakt bewurkje">
+<!ENTITY editMailingListPropertiesButton.tooltip        "Selektearre mailinglist bewurkje">
 <!ENTITY newmsgButton.tooltip                           "E-mailberjocht stjoere">
 <!ENTITY newIM.tooltip                                  "In ynstant-berjocht stjoere of chatte">
 <!ENTITY deleteButton2.tooltip                          "Selektearre item fuortsmite">

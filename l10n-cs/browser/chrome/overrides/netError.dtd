@@ -27,7 +27,7 @@
   <li>Pokud se vám nezobrazují ani ostatní stránky, zkontrolujte síťové připojení svého
     počítače.</li>
   <li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte, zda má
-    &brandShortName; přístup na Internet.</li>
+    &brandShortName; přístup na internet.</li>
 </ul>
 ">
 
@@ -48,6 +48,12 @@
 <!ENTITY generic.longDesc "
 <p>&brandShortName; nemůže tuto stránku načíst.</p>
 ">
+
+<!ENTITY captivePortal.title "Přihlásit se do sítě">
+<!ENTITY captivePortal.longDesc "<p>Tato síť může vyžadovat přihlášení pro přístup k internetu.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "Otevřít přihlašovací stránku">
 
 <!ENTITY malformedURI.title "Neplatná adresa">
 <!ENTITY malformedURI.longDesc "
@@ -103,7 +109,7 @@
 <!ENTITY proxyConnectFailure.longDesc "
 <ul>
   <li>Zkontrolujte nastavení proxy serveru.</li>
-  <li>Kontaktujte svého síťového administrátora, zda je proxy server v provozu.</li>
+  <li>Kontaktujte správce vaší sítě, zda je proxy server v provozu.</li>
 </ul>
 ">
 
@@ -113,7 +119,7 @@
   <li>Zkontrolujte nastavení proxy serveru.</li>
   <li>Zkontrolujte síťové připojení svého počítače.</li>
   <li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte, zda má
-    &brandShortName; přístup na Internet.</li>
+    &brandShortName; přístup na internet.</li>
 </ul>
 ">
 
@@ -155,7 +161,7 @@ za chvíli.</li>
   <li>Pokud se vám nezobrazují ani ostatní stránky, zkontrolujte síťové připojení svého
     počítače.</li>
   <li>Pokud je váš počítač chráněn firewallem nebo proxy serverem, zkontrolujte, zda má
-    &brandShortName; přístup na Internet.</li>
+    &brandShortName; přístup na internet.</li>
 </ul>
 ">
 
@@ -200,7 +206,7 @@ pouze zabezpečeně. Z tohoto důvodu není možné přidat pro tento certifiká
 <!ENTITY inadequateSecurityError.title "Vaše připojení není zabezpečené">
 <!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
      "NS_ERROR_NET_INADEQUATE_SECURITY". -->
-<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> používá technologii která je zastaralá a náchylná k útoku. Útočník může snadno získat informace, které si myslíte, že jsou zabezpečené. Administrátor serveru musí server opravit předtím, než budete moci stránku navštívit.</p><p>Kód chyby: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
+<!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> používá technologii která je zastaralá a náchylná k útoku. Útočník může snadno získat informace, které si myslíte, že jsou zabezpečené. Správce serveru musí server opravit předtím, než budete moci stránku navštívit.</p><p>Kód chyby: NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
 <!ENTITY prefReset.longDesc "Zdá se, že příčinou může být vaše nastavení zabezpečení. Chcete obnovit výchozí nastavení?">
 <!ENTITY prefReset.label "Obnovit výchozí nastavení">

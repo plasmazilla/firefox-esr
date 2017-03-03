@@ -40,3 +40,7 @@
 <!ENTITY pref.accessibility.label "الإتاحة" >
 <!ENTITY pref.systemcolors.label "حسّن الألوان للإتاحة" >
 <!ENTITY pref.systemcolors.accesskey "ل">
+
+<!ENTITY pref.eventsandtasks.label "الأحداث والمهام" >
+<!ENTITY pref.editInTab.label "حرّر الأحداث و المهام في لسان بدلا من نافذة حوارية." >
+<!ENTITY pref.editInTab.accesskey "ح">
