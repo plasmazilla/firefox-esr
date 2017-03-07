@@ -1,3 +1,13 @@
+firefox-esr (45.8.0esr-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2017-06, also known as:
+    CVE-2017-5400, CVE-2017-5401, CVE-2017-5402, CVE-2017-5404,
+    CVE-2017-5407, CVE-2017-5410, CVE-2017-5408, CVE-2017-5405,
+    CVE-2017-5398.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 08 Mar 2017 07:13:22 +0900
+
 firefox-esr (45.7.0esr-4) unstable; urgency=medium
 
   * debian/rules: Build with -fno-schedule-insns on armel and armhf when
