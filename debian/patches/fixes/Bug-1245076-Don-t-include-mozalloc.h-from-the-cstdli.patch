@@ -23,7 +23,7 @@ including mozalloc.h.
  1 file changed, 12 insertions(+), 5 deletions(-)
 
 diff --git a/config/gcc-stl-wrapper.template.h b/config/gcc-stl-wrapper.template.h
-index 75bbe75..b5ebeec 100644
+index 75bbe755b931..b5ebeec3cd75 100644
 --- a/config/gcc-stl-wrapper.template.h
 +++ b/config/gcc-stl-wrapper.template.h
 @@ -17,6 +17,11 @@

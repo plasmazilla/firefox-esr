@@ -26,13 +26,6 @@ ifeq ($(BACKPORT),wheezy)
 CC := gcc-4.7
 CXX := g++-4.7
 endif
-# Building with GCC 6 leads to crashes on arm*.
-ifeq (,$(filter $(BACKPORT),wheezy jessie))
-ifneq (,$(filter arm%,$(DEB_BUILD_ARCH)))
-CC := gcc-5
-CXX := g++-5
-endif
-endif
 
 OFFICIAL_BRANDING := browser/branding/official
 MOZILLA_OFFICIAL := 1
@@ -69,6 +62,8 @@ DISPLAY_NAME := $(call uc_first,$(PRODUCT_DOWNLOAD_NAME))$(if $(filter %-esr,$(P
 $(call uc,$(PRODUCT)) := $(call uc,$(DISPLAY_NAME))
 Product := $(call uc_first,$(PRODUCT))
 $(Product) := $(DISPLAY_NAME)
+
+MOZ_APP_REMOTINGNAME := $(call uc_first,$($(PRODUCT)))
 
 LIB_DIR := /usr/lib/$($(PRODUCT))
 SHARE_DIR := /usr/share/$($(PRODUCT))
@@ -135,7 +130,10 @@ endif
 
 ifneq (,$(findstring gcc,$(CC)))
 ifeq (,$(filter 4.% 5.%,$(shell $(CC) -dumpversion)))
-CFLAGS += -fno-schedule-insns2 -fno-delete-null-pointer-checks
+CFLAGS += -fno-schedule-insns2 -fno-lifetime-dse -fno-delete-null-pointer-checks
+ifneq (,$(filter armel armhf,$(DEB_BUILD_ARCH)))
+CFLAGS += -fno-schedule-insns
+endif
 endif
 endif
 
@@ -166,7 +164,7 @@ debian/l10n/$(PRODUCT)-l10n.control: %: %.in
 
 DICT_DIR := /usr/share/hunspell
 
-$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) LESS_SYSTEM_LIBS GSTREAMER_VERSION SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION CRASH_REPORTER
+$(PREPROCESSED_FILES): VARS = GRE_VERSION DICT_DIR $(PRODUCT) $(call uc,$(PRODUCT)) $(Product) MOZ_APP_REMOTINGNAME LESS_SYSTEM_LIBS GSTREAMER_VERSION SHORT_SOURCE_CHANNEL GTK3 BACKPORT TRANSITION CRASH_REPORTER
 debian/control: VARS += L10N_PACKAGES_DEPS PRODUCT
 $(PREPROCESSED_FILES):
 	$(PYTHON) python/mozbuild/mozbuild/preprocessor.py --marker % -Fsubstitution $(foreach var,$(VARS),-D$(var)="$($(var))" )$< > $@
@@ -228,6 +226,7 @@ stamps/configure-$(PRODUCT):: stamps/prepare-configure debian/$($(PRODUCT)).mozc
 	../configure --target=$(DEB_HOST_GNU_TYPE) --host=$(DEB_BUILD_GNU_TYPE) --build=$(DEB_BUILD_GNU_TYPE) --prefix=/usr $(CONFIGURE_FLAGS) \
 		--with-default-mozilla-five-home=$(LIB_DIR) \
 		$(BRANDING_CONFIGURE_FLAG)
+	sed -i "/MOZ_APP_REMOTINGNAME/s/r''' [^']* '''/r''' $(MOZ_APP_REMOTINGNAME) '''/" build-$(PRODUCT)/config.status
 
 stamps/build-$(PRODUCT):: stamps/configure-check-$(PRODUCT)
 	dh_auto_build --parallel --builddirectory=build-$(PRODUCT) -- \

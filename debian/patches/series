@@ -11,6 +11,8 @@ porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/NSS-GNU-kFreeBSD-support.patch
 porting/Make-powerpc-not-use-static-page-sizes-in-mozjemallo.patch
 porting/Disable-libyuv-assembly-on-mips64.patch
+porting/Bug-1091515-Don-t-set-64KB-page-size-on-aarch64.-r-g.patch
+porting/Bug-1257055-Use-jit-arm64-Architecture-arm64.h-on-no.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch
@@ -24,3 +26,4 @@ debian-hacks/Add-debian-extra-stuff-to-upstream-build-system-dire.patch
 debian-hacks/Make-upstream-build-system-create-debian-installer-M.patch
 debian-hacks/Work-around-binutils-assertion-on-mips.patch
 debian-hacks/Allow-unsigned-addons-in-usr-lib-share-mozilla-exten.patch
+debian-hacks/Set-program-name-from-the-remoting-name.patch

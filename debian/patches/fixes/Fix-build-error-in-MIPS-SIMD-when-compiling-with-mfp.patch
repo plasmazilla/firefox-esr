@@ -22,7 +22,7 @@ will now compile with -mfpxx.
  1 file changed, 196 insertions(+), 196 deletions(-)
 
 diff --git a/media/libjpeg/simd/jsimd_mips_dspr2.S b/media/libjpeg/simd/jsimd_mips_dspr2.S
-index 65c169a..bd55c76 100644
+index 65c169abd826..bd55c7636627 100644
 --- a/media/libjpeg/simd/jsimd_mips_dspr2.S
 +++ b/media/libjpeg/simd/jsimd_mips_dspr2.S
 @@ -2841,54 +2841,54 @@ LEAF_MIPS_DSPR2(jsimd_quantize_float_mips_dspr2)

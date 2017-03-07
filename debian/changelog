@@ -1,3 +1,33 @@
+firefox-esr (45.8.0esr-1~deb8u1) stable-security; urgency=medium
+
+  * New upstream release.
+  * Fixes for mfsa2017-06, also known as:
+    CVE-2017-5400, CVE-2017-5401, CVE-2017-5402, CVE-2017-5404,
+    CVE-2017-5407, CVE-2017-5410, CVE-2017-5408, CVE-2017-5405,
+    CVE-2017-5398.
+
+  * debian/browser.desktop.in, debian/rules: Use the application name as
+    StartupWMClass in the desktop file.  Along the change to nsAppRunner.cpp,
+    this prevents e.g. GNOME Shell from making Firefox appear as Firefox ESR
+    when both are used.
+  * debian/browser.desktop.in: Remove Encoding key from desktop file.
+    Closes: #812493
+  * debian/rules, debian/control*: Build with GCC6 on arm*/unstable.
+    Closes: #852009.
+  * debian/rules:
+    - Add -fno-lifetime-dse when building with GCC6.
+    - Build with -fno-schedule-insns on armel and armhf when building with
+      GCC6. Closes: #854640.
+
+  * memory/mozjemalloc/jemalloc.c: Don't set 64KB page size on aarch64.
+    bz#1091515. Closes: #819059, #825355.
+  * toolkit/xre/nsAppRunner.cpp: Set program name from the remoting name.
+  * js/src/jit/AtomicOperations.h, js/src/jit/arm64/AtomicOperations-arm64.h:
+    Use jit/arm64/Architecture-arm64.h on non-JIT aarch64. bz#1257055.
+    Closes: #854079.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 11 Feb 2017 07:34:43 +0900
+
 firefox-esr (45.7.0esr-1~deb8u1) stable-security; urgency=medium
 
   * New upstream release.

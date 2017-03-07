@@ -20,7 +20,7 @@ Subject: Bug 1239866 - Remove signaling standalone tests. r=bwc
  delete mode 100644 media/webrtc/signaling/test/standalone/signaling_unittests_standalone.cpp
 
 diff --git a/media/webrtc/moz.build b/media/webrtc/moz.build
-index 92f18f2..f48aa6f 100644
+index 92f18f2be896..f48aa6f5de45 100644
 --- a/media/webrtc/moz.build
 +++ b/media/webrtc/moz.build
 @@ -113,12 +113,3 @@ if CONFIG['MOZ_WIDGET_TOOLKIT'] != 'gonk':
@@ -38,7 +38,7 @@ index 92f18f2..f48aa6f 100644
 -        GYP_DIRS['signalingstandalone'].non_unified_sources += signaling_non_unified_sources
 diff --git a/media/webrtc/signaling/test/standalone/jsep_session_unittest_standalone.cpp b/media/webrtc/signaling/test/standalone/jsep_session_unittest_standalone.cpp
 deleted file mode 100644
-index 4c18464..0000000
+index 4c1846451237..000000000000
 --- a/media/webrtc/signaling/test/standalone/jsep_session_unittest_standalone.cpp
 +++ /dev/null
 @@ -1,7 +0,0 @@
@@ -51,7 +51,7 @@ index 4c18464..0000000
 -#include "../jsep_session_unittest.cpp"
 diff --git a/media/webrtc/signaling/test/standalone/mediaconduit_unittests_standalone.cpp b/media/webrtc/signaling/test/standalone/mediaconduit_unittests_standalone.cpp
 deleted file mode 100644
-index 051dfe7..0000000
+index 051dfe76ed37..000000000000
 --- a/media/webrtc/signaling/test/standalone/mediaconduit_unittests_standalone.cpp
 +++ /dev/null
 @@ -1,5 +0,0 @@
@@ -62,7 +62,7 @@ index 051dfe7..0000000
 -#include "../mediaconduit_unittests.cpp"
 diff --git a/media/webrtc/signaling/test/standalone/mediapipeline_unittest_standalone.cpp b/media/webrtc/signaling/test/standalone/mediapipeline_unittest_standalone.cpp
 deleted file mode 100644
-index a007031..0000000
+index a00703111bcc..000000000000
 --- a/media/webrtc/signaling/test/standalone/mediapipeline_unittest_standalone.cpp
 +++ /dev/null
 @@ -1,7 +0,0 @@
@@ -75,7 +75,7 @@ index a007031..0000000
 -#include "../mediapipeline_unittest.cpp"
 diff --git a/media/webrtc/signaling/test/standalone/moz.build b/media/webrtc/signaling/test/standalone/moz.build
 deleted file mode 100644
-index 5bb7fe6..0000000
+index 5bb7fe6e356e..000000000000
 --- a/media/webrtc/signaling/test/standalone/moz.build
 +++ /dev/null
 @@ -1,63 +0,0 @@
@@ -144,7 +144,7 @@ index 5bb7fe6..0000000
 -USE_LIBS += ['mozglue']
 diff --git a/media/webrtc/signaling/test/standalone/sdp_unittests_standalone.cpp b/media/webrtc/signaling/test/standalone/sdp_unittests_standalone.cpp
 deleted file mode 100644
-index 122eb46..0000000
+index 122eb46b21ba..000000000000
 --- a/media/webrtc/signaling/test/standalone/sdp_unittests_standalone.cpp
 +++ /dev/null
 @@ -1,7 +0,0 @@
@@ -157,7 +157,7 @@ index 122eb46..0000000
 -#include "../sdp_unittests.cpp"
 diff --git a/media/webrtc/signaling/test/standalone/signaling_unittests_standalone.cpp b/media/webrtc/signaling/test/standalone/signaling_unittests_standalone.cpp
 deleted file mode 100644
-index 8a0524f..0000000
+index 8a0524f3ef1f..000000000000
 --- a/media/webrtc/signaling/test/standalone/signaling_unittests_standalone.cpp
 +++ /dev/null
 @@ -1,6 +0,0 @@
@@ -168,7 +168,7 @@ index 8a0524f..0000000
 -#define SIGNALING_UNITTEST_STANDALONE 1
 -#include "../signaling_unittests.cpp"
 diff --git a/toolkit/toolkit.mozbuild b/toolkit/toolkit.mozbuild
-index b0872e2..e81bc02 100644
+index b0872e26f994..e81bc023a316 100644
 --- a/toolkit/toolkit.mozbuild
 +++ b/toolkit/toolkit.mozbuild
 @@ -183,6 +183,5 @@ if CONFIG['ENABLE_TESTS']:

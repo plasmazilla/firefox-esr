@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=@Browser@
 Name[bg]=@Browser@
 Name[ca]=@Browser@
@@ -101,5 +100,5 @@ Type=Application
 Icon=@browser@
 Categories=Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;
-StartupWMClass=Firefox
+StartupWMClass=@MOZ_APP_REMOTINGNAME@
 StartupNotify=true
