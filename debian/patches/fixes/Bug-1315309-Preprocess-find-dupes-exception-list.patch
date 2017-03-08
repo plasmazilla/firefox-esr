@@ -1,0 +1,87 @@
+From: Mike Hommey <mh@glandium.org>
+Date: Wed, 8 Mar 2017 14:09:24 +0900
+Subject: Bug 1315309 - Preprocess find-dupes exception list.
+
+---
+ browser/installer/allowed-dupes.mn      |  4 ++--
+ toolkit/mozapps/installer/find-dupes.py | 20 ++++++++++++++++++--
+ toolkit/mozapps/installer/packager.mk   |  2 +-
+ 3 files changed, 21 insertions(+), 5 deletions(-)
+
+diff --git a/browser/installer/allowed-dupes.mn b/browser/installer/allowed-dupes.mn
+index c5ab86b652ad..2ea55aff4bc2 100644
+--- a/browser/installer/allowed-dupes.mn
++++ b/browser/installer/allowed-dupes.mn
+@@ -209,8 +209,8 @@ components/FxAccountsPush.js
+ crashreporter.app/Contents/Resources/English.lproj/MainMenu.nib/classes.nib
+ crashreporter.app/Contents/Resources/English.lproj/MainMenuRTL.nib/classes.nib
+ # firefox/firefox-bin is bug 658850
+-firefox
+-firefox-bin
++@MOZ_APP_NAME@
++@MOZ_APP_NAME@-bin
+ modules/FxAccountsPush.js
+ modules/commonjs/index.js
+ modules/commonjs/sdk/ui/button/view/events.js
+diff --git a/toolkit/mozapps/installer/find-dupes.py b/toolkit/mozapps/installer/find-dupes.py
+index ec021c82c091..bd0561c97eff 100644
+--- a/toolkit/mozapps/installer/find-dupes.py
++++ b/toolkit/mozapps/installer/find-dupes.py
+@@ -5,10 +5,14 @@
+ import sys
+ import hashlib
+ import re
++from mozbuild.preprocessor import Preprocessor
++from mozbuild.util import DefinesAction
+ from mozpack.packager.unpack import UnpackFinder
+ from mozpack.files import DeflatedFile
+ from collections import OrderedDict
++from StringIO import StringIO
+ import argparse
++import buildconfig
+ 
+ '''
+ Find files duplicated in a given packaged directory, independently of its
+@@ -103,6 +107,8 @@ def main():
+                         help='Only warn about duplicates, do not exit with an error')
+     parser.add_argument('--file', '-f', action='append', dest='dupes_files', default=[],
+                         help='Add exceptions to the duplicate list from this file')
++    parser.add_argument('-D', action=DefinesAction)
++    parser.add_argument('-U', action='append', default=[])
+     parser.add_argument('directory',
+                         help='The directory to check for duplicates in')
+ 
+@@ -110,8 +116,18 @@ def main():
+ 
+     allowed_dupes = []
+     for filename in args.dupes_files:
+-        with open(filename) as dupes_file:
+-            allowed_dupes.extend([line.partition('#')[0].rstrip() for line in dupes_file])
++        pp = Preprocessor()
++        pp.context.update(buildconfig.defines)
++        if args.D:
++            pp.context.update(args.D)
++        for undefine in args.U:
++            if undefine in pp.context:
++                del pp.context[undefine]
++        pp.out = StringIO()
++        pp.do_filter('substitution')
++        pp.do_include(filename)
++        allowed_dupes.extend([line.partition('#')[0].rstrip()
++                              for line in pp.out.getvalue().splitlines()])
+ 
+     find_dupes(args.directory, bail=not args.warning, allowed_dupes=allowed_dupes)
+ 
+diff --git a/toolkit/mozapps/installer/packager.mk b/toolkit/mozapps/installer/packager.mk
+index 902565c250cd..80e87a1ec25b 100644
+--- a/toolkit/mozapps/installer/packager.mk
++++ b/toolkit/mozapps/installer/packager.mk
+@@ -54,7 +54,7 @@ stage-package: $(MOZ_PKG_MANIFEST) $(MOZ_PKG_MANIFEST_DEPS)
+ 		$(addprefix --unify ,$(UNIFY_DIST)) \
+ 		$(MOZ_PKG_MANIFEST) $(DIST) $(DIST)/$(STAGEPATH)$(MOZ_PKG_DIR)$(if $(MOZ_PKG_MANIFEST),,$(_BINPATH)) \
+ 		$(if $(filter omni,$(MOZ_PACKAGER_FORMAT)),$(if $(NON_OMNIJAR_FILES),--non-resource $(NON_OMNIJAR_FILES)))
+-	$(PYTHON) $(MOZILLA_DIR)/toolkit/mozapps/installer/find-dupes.py $(MOZ_PKG_DUPEFLAGS) $(DIST)/$(STAGEPATH)$(MOZ_PKG_DIR)
++	$(PYTHON) $(MOZILLA_DIR)/toolkit/mozapps/installer/find-dupes.py $(DEFINES) $(ACDEFINES) $(MOZ_PKG_DUPEFLAGS) $(DIST)/$(STAGEPATH)$(MOZ_PKG_DIR)
+ ifndef MOZ_THUNDERBIRD
+ 	# Package mozharness
+ 	$(call py_action,test_archive, \
