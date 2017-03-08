@@ -158,6 +158,15 @@
 <!ENTITY options.timestampMessages.label      "Activer l’horodatage">
 <!ENTITY options.timestampMessages.tooltip    "Si vous activez cette option, les commandes et les sorties dans la console web afficheront l’horodatage">
 
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+<!ENTITY options.debugger.label            "Débogueur">
+
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+<!ENTITY options.sourceMaps.label      "Activer les liens vers les sources">
+<!ENTITY options.sourceMaps.tooltip    "Si vous activez cette option, les sources seront accessibles depuis le débogueur et la console">
+
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->

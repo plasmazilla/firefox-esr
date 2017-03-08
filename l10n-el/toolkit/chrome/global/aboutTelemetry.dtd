@@ -4,7 +4,8 @@
 
 <!ENTITY aboutTelemetry.pageTitle "Δεδομένα τηλεμετρίας">
 
-<!ENTITY aboutTelemetry.changeDataChoices "  Αλλαγή">
+<!ENTITY aboutTelemetry.changeDataChoices "
+  Αλλαγή">
 
 
 
@@ -17,19 +18,48 @@
 
 
 
+<!ENTITY aboutTelemetry.choosePing "
+Επιλογή ping:
+">
 
+<!ENTITY aboutTelemetry.showNewerPing "
+&lt;&lt; Νεότερο ping
+">
 
+<!ENTITY aboutTelemetry.showOlderPing "
+Παλαιότερο ping &gt;&gt;
+">
 
+<!ENTITY aboutTelemetry.rawPingData "
+Ακατέργαστα δεδομένα ping…
+">
 
 <!ENTITY aboutTelemetry.archiveWeekHeader "
 Εβδομάδα">
 
+<!ENTITY aboutTelemetry.archivePingHeader "
+Ping
+">
+
+<!ENTITY aboutTelemetry.generalDataSection "
+  Γενικά δεδομένα
+">
+
+<!ENTITY aboutTelemetry.environmentDataSection "
+  Δεδομένα περιβάλλοντος
+">
+
+<!ENTITY aboutTelemetry.telemetryLogSection "
+  Αρχείο καταγραφής τηλεμετρίας
+">
 
 
 
 
 
-
+<!ENTITY aboutTelemetry.keyedScalarsSection "
+  Μονόμετρα μεγέθη με κλειδί
+">
 
 <!ENTITY aboutTelemetry.histogramsSection "
   Ιστογράμματα
@@ -40,8 +70,17 @@
   Απλές μετρήσεις
 ">
 
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Λεπτομέρειες προσθέτου
+">
 
+<!ENTITY aboutTelemetry.lateWritesSection "
+  Καθυστερημένες εγγραφές
+">
 
+<!ENTITY aboutTelemetry.sessionInfoSection "
+  Πληροφορίες συνεδρίας
+">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "
   Ιστογράμματα συλλεγμένα από πρόσθετα
@@ -54,6 +93,18 @@
 
 
 
+<!ENTITY aboutTelemetry.hideSymbols '
+  Εμφάνιση ακατέργαστων δεδομένων από τα "κολλήματα"
+'>
 
+<!ENTITY aboutTelemetry.filterText "
+  Φίλτρο (συμβολοσειρές ή /regexp/)
+">
 
+<!ENTITY aboutTelemetry.payloadChoiceHeader "
+  Ωφέλιμο φορτίο
+">
 
+<!ENTITY aboutTelemetry.rawPayload "
+  Ακατέργαστο ωφέλιμο φορτίο
+">

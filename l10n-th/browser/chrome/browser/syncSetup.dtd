@@ -16,7 +16,7 @@
 
 <!-- New Account AND Existing Account -->
 <!ENTITY server.label               "เซิร์ฟเวอร์">
-<!ENTITY serverType.default.label      "ปริยาย: เซิร์ฟเวอร์ Mozilla &syncBrand.fullName.label;">
+<!ENTITY serverType.default.label      "ค่าปริยาย: เซิร์ฟเวอร์ &syncBrand.fullName.label; ของ Mozilla">
 <!ENTITY serverType.custom2.label   "ใช้เซิร์ฟเวอร์ที่กำหนดเอง…">
 <!ENTITY signIn.account2.label      "บัญชี">
 <!ENTITY signIn.account2.accesskey  "บ">
@@ -91,7 +91,7 @@
 <!ENTITY engine.history.accesskey   "ป">
 <!ENTITY engine.passwords.label     "รหัสผ่าน">
 <!ENTITY engine.passwords.accesskey "ร">
-<!ENTITY engine.prefs.label         "ค่าปรับแต่ง">
+<!ENTITY engine.prefs.label         "การตั้งค่า">
 <!ENTITY engine.prefs.accesskey     "ต">
 <!ENTITY engine.addons.label        "ส่วนเสริม">
 <!ENTITY engine.addons.accesskey    "ส">

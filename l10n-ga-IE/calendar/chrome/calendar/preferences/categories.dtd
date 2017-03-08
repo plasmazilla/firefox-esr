@@ -7,9 +7,9 @@
   -->
 
 
-<!ENTITY pref.categories.add.title "Cuir Catagóir Leis">
-<!ENTITY pref.categories.addButton.label "Cuir Leis…">
-<!ENTITY pref.categories.addButton.accesskey "C">
+<!ENTITY pref.categories.new.title "Catagóir Nua">
+<!ENTITY pref.categories.newButton.label "Nua…">
+<!ENTITY pref.categories.newButton.accesskey "N">
 <!ENTITY pref.categories.edit.title "Cuir Catagóir in Eagar">
 <!ENTITY pref.categories.editButton.label "Eagar…">
 <!ENTITY pref.categories.editButton.accesskey "E">

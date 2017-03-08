@@ -10,10 +10,10 @@
 # live.
 
 
-#define bookmarks_title Ticcraḍ n isebtar
+#define bookmarks_title Ticraḍ n yisebtar
 
 
-#define bookmarks_heading Ticṛaḍ n isebtar
+#define bookmarks_heading Ticṛaḍ n yisebtar
 
 
 #define bookmarks_toolbarfolder Afeggag u&dmawan
@@ -74,6 +74,78 @@
 
 
 #define firefox_about Talɣut ɣef  Mozilla
+
+
+# LOCALIZATION NOTE (nightly_heading):
+
+
+# Firefox Nightly links folder name
+
+
+#define nightly_heading Tiɣbula n Firefox Nightly
+
+
+# LOCALIZATION NOTE (nightly_blog):
+
+
+# Nightly builds only, link title for https://blog.nightly.mozilla.org/
+
+
+#define nightly_blog Ablug n Firefox Nightly
+
+
+# LOCALIZATION NOTE (bugzilla):
+
+
+# Nightly builds only, link title for https://bugzilla.mozilla.org/
+
+
+#define bugzilla Aneḍfaṛ n ibugen n Mozilla
+
+
+# LOCALIZATION NOTE (mdn):
+
+
+# Nightly builds only, link title for https://developer.mozilla.org/
+
+
+#define mdn Aẓeṭṭa n ineflayen n Mozilla
+
+
+# LOCALIZATION NOTE (nightly_tester_tools):
+
+
+# Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
+
+
+#define nightly_tester_tools Ifecka Nightly Tester
+
+
+# LOCALIZATION NOTE (crashes):
+
+
+# Nightly builds only, link title for about:crashes
+
+
+#define crashes Akk iɣelluyen inek
+
+
+# LOCALIZATION NOTE (irc):
+
+
+# Nightly builds only, link title for ircs://irc.mozilla.org/nightly
+
+
+#define irc Mmeslay ɣef Nightly di IRC
+
+
+# LOCALIZATION NOTE (planet):
+
+
+# Nightly builds only, link title for https://planet.mozilla.org/
+
+
+#define planet Amtiweg Mozilla
 
 
 #unfilter emptyLines

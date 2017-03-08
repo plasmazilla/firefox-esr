@@ -13,8 +13,8 @@
 
 <!ENTITY  filter.placeholder          "Nadi">
 
-<!ENTITY saveTo.label                 "Kles ifuyla ɣeṛ">
-<!ENTITY saveTo.accesskey             "K">
+<!ENTITY saveTo.label                 "Sekles ifuyla ɣeṛ">
+<!ENTITY saveTo.accesskey             "k">
 <!ENTITY alwaysAsk.label              "Suter yal tikelt anda atkelseḍ ifuyla">
 <!ENTITY alwaysAsk.accesskey          "S">
 <!ENTITY chooseFolderWin.label        "Ḍum…">
@@ -25,8 +25,8 @@
 <!ENTITY attachments.incoming.label   "Ad yekcem">
 <!ENTITY attachments.outgoing.label   "Ad yeffeɣ">
 
-<!ENTITY addCloudFileAccount.label        "Rnu">
-<!ENTITY addCloudFileAccount.accesskey    "R">
+<!ENTITY addCloudFileAccount1.label       "Rnu…">
+<!ENTITY addCloudFileAccount1.accesskey   "R">
 <!ENTITY addCloudFileAccount.description  "Rnu ameẓlu n usekles n useɣwen n ufaylu amaynut">
 <!ENTITY removeCloudFileAccount.label     "Kkes">
 <!ENTITY removeCloudFileAccount.accesskey "K">

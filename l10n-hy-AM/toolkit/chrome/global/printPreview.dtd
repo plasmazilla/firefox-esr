@@ -33,6 +33,7 @@
 <!ENTITY ShrinkToFit.label    "Փոքրացնել Տեղավորելու Համար">
 <!ENTITY customPrompt.title   "Անհատական Չափափոխում...">
 <!ENTITY simplifyPage.label   "Պարզեցնել էջը">
+<!ENTITY simplifyPage.accesskey "ա">
 <!ENTITY simplifyPage.enabled.tooltip  "Փոխել դասավորությունը՝ դյուրին ընթերցման համար">
 <!ENTITY simplifyPage.disabled.tooltip "Այս էջը չի կարող ինքնաբար պարզեցվել">
 

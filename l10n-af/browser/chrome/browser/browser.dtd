@@ -185,10 +185,10 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY recentBookmarks.label "Onlangs geboekmerk">
 <!ENTITY otherBookmarksCmd.label "Ander boekmerke">
 <!ENTITY bookmarksToolbarChevron.tooltip "Wys meer boekmerke">
-
-
-
-
+<!ENTITY showRecentlyBookmarked.label     "Wys onlangs geboekmerk">
+<!ENTITY showRecentlyBookmarked.accesskey "b">
+<!ENTITY hideRecentlyBookmarked.label     "Versteek onlangs geboekmerk">
+<!ENTITY hideRecentlyBookmarked.accesskey "b">
 
 <!ENTITY backCmd.label                "Terug">
 <!ENTITY backButton.tooltip           "Gaan een bladsy terug">
@@ -207,17 +207,19 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY urlbar.viewSiteInfo.label                      "Wys werfinligting">
 
-
+<!ENTITY urlbar.defaultNotificationAnchor.tooltip         "Open boodskappaneel">
+<!ENTITY urlbar.geolocationNotificationAnchor.tooltip     "Open liggingversoek-paneel">
 <!ENTITY urlbar.addonsNotificationAnchor.tooltip          "Open paneel met boodskappe oor byvoeginginstallasie">
 <!ENTITY urlbar.indexedDBNotificationAnchor.tooltip       "Open paneel met boodskappe oor stoorplek vanlyn">
 <!ENTITY urlbar.passwordNotificationAnchor.tooltip        "Open paneel vir die stoor van wagwoorde">
-
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Bestuur gebruik van inproppe">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Verander of boodskappe van dié werf ontvang kan word">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Bestuur die deel van die kamera en/of mikrofoon met die werf">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "Bestuur die deel van die mikrofoon met die werf">
 <!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "Bestuur die deel van vensters of die skerm met die werf">
 
+<!ENTITY urlbar.servicesNotificationAnchor.tooltip        "Open paneel met installasieboodskappe">
 <!ENTITY urlbar.translateNotificationAnchor.tooltip       "Vertaal dié bladsy">
 <!ENTITY urlbar.translatedNotificationAnchor.tooltip      "Bestuur bladsyvertaling">
 <!ENTITY urlbar.emeNotificationAnchor.tooltip             "Bestuur die gebruik van DRM-sagteware">
@@ -246,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewBookmarksSidebar2.label        "Wys boekmerkkantbalk">
 <!ENTITY viewBookmarksToolbar.label         "Vertoon boekmerknutsbalk">
 
+<!ENTITY containersMenu.label "Kontekste">
 <!-- LOCALIZATION NOTE (bookmarksSidebarGtkCmd.commandkey): This command
   -  key should not contain the letters A-F, since these are reserved
   -  shortcut keys on Linux. -->
@@ -278,12 +281,12 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 <!ENTITY fileMenu.label         "Lêer"> 
 <!ENTITY fileMenu.accesskey       "L">
-
-
+<!ENTITY newUserContext.label             "Nuwe konteksoortjie">
+<!ENTITY newUserContext.accesskey         "r">
 <!ENTITY newNavigatorCmd.label        "Nuwe venster">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
-<!ENTITY newPrivateWindow.label     "Nuwe privaatvenster">
+<!ENTITY newPrivateWindow.label     "Nuwe private venster">
 <!ENTITY newPrivateWindow.accesskey "v">
 
 
@@ -389,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Soek of tik adres in">
 <!ENTITY urlbar.accesskey             "d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "Uitbreiding:">
 <!ENTITY urlbar.switchToTab.label     "Verwissel na oortjie:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Wil u die soek-ervaring verbeter met voorstelle?">
@@ -472,8 +477,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openFrameCmdInTab.accesskey  "o">
 <!ENTITY openFrameCmd.label           "Open raam in nuwe venster">
 <!ENTITY openFrameCmd.accesskey       "v">
-
-
+<!ENTITY openLinkCmdInContainerTab.label "Open skakel in nuwe konteksoortjie">
+<!ENTITY openLinkCmdInContainerTab.accesskey "t">
 <!ENTITY showOnlyThisFrameCmd.label     "Vertoon net hierdie raam">
 <!ENTITY showOnlyThisFrameCmd.accesskey "r">
 <!ENTITY reloadCmd.commandkey         "r">
@@ -692,7 +697,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY spellAddDictionaries.accesskey "V">
 
 <!ENTITY editBookmark.done.label                     "Klaar">
-
+<!ENTITY editBookmark.removeBookmark.accessKey       "V">
 
 <!ENTITY identity.connectionSecure "Beveiligde verbinding">
 <!ENTITY identity.connectionNotSecure "Verbinding is nié beveilig nie">
@@ -703,7 +708,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!-- Strings for connection state warnings. -->
 
 <!ENTITY identity.activeBlocked "&brandShortName; het dele van dié blad geblok wat nie beveilig is nie.">
-<!ENTITY identity.passiveLoaded "Dele van dié blad is nie beveilig nie (bv. beelde).">
+<!ENTITY identity.passiveLoaded "Dele van dié blad is nie beveilig nie (soos prente).">
 <!ENTITY identity.activeLoaded "U het beskerming vir dié blad gedeaktiveer.">
 <!ENTITY identity.weakEncryption "Dié bladsy gebruik swak enkripsie.">
 <!-- Strings for connection state warnings in the subview. -->
@@ -714,8 +719,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.description.weakCipher2 "Ander mense kan u inligting sien of die webwerf se gedrag verander.">
 <!ENTITY identity.description.activeBlocked "&brandShortName; het dele van dié blad geblok wat nie beveilig is nie.">
 <!ENTITY identity.description.passiveLoaded "U verbinding is nie privaat nie en inligting wat met die werf gedeel word kan deur ander gesien word.">
-<!ENTITY identity.description.passiveLoaded2 "Dié webwerf bevat inhoud wat nie beveilig is nie (soos beelde).">
-<!ENTITY identity.description.passiveLoaded3 "Alhoewel &brandShortName; sommige inhoud geblok het, is daar steeds inhoud op die bladsy wat nie beveilig is nie (soos beelde).">
+<!ENTITY identity.description.passiveLoaded2 "Dié webwerf bevat inhoud wat nie beveilig is nie (soos prente).">
+<!ENTITY identity.description.passiveLoaded3 "Alhoewel &brandShortName; sommige inhoud geblok het, is daar steeds inhoud op die bladsy wat nie beveilig is nie (soos prente).">
 <!ENTITY identity.description.activeLoaded "Dié webwerf bevat inhoud wat nie beveilig is nie (soos skripte) en u verbinding daaraan is nie privaat nie.">
 <!ENTITY identity.description.activeLoaded2 "Inligting wat gedeel word met die werf kan deur ander gesien word (bv. wagwoorde, boodskappe, kredietkaartnommers, ens.).">
 
@@ -769,7 +774,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY syncBrand.shortName.label    "Sync">
 
 <!ENTITY syncSignIn.label             "Meld aan by &syncBrand.shortName.label;…">
-
+<!ENTITY syncSignIn.accesskey         "Y">
 <!ENTITY syncSyncNowItem.label        "Sinkroniseer nou">
 <!ENTITY syncSyncNowItem.accesskey    "S">
 <!ENTITY syncReAuthItem.label         "Herkoppel aan &syncBrand.shortName.label;…">

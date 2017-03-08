@@ -11,7 +11,7 @@
 #define bookmarks_heading Favoritos
 
 #define bookmarks_toolbarfolder Pasta da barra de favoritos
-#define bookmarks_toolbarfolder_description Adicione favoritos nesta pasta para vê-los na barra de favoritos
+#define bookmarks_toolbarfolder_description Adicionar favoritos nesta pasta para vê-los exibidos na barra de favoritos
 
 # LOCALIZATION NOTE (getting_started):
 # link title for https://www.mozilla.org/en-US/firefox/central/
@@ -31,10 +31,42 @@
 
 # LOCALIZATION NOTE (firefox_community):
 # link title for https://www.mozilla.org/en-US/contribute/
-#define firefox_community Participe
+#define firefox_community Envolva-se
 
 # LOCALIZATION NOTE (firefox_about):
 # link title for https://www.mozilla.org/en-US/about/
-#define firefox_about Sobre nós
+#define firefox_about Quem somos
+
+# LOCALIZATION NOTE (nightly_heading):
+# Firefox Nightly links folder name
+#define nightly_heading Recursos do Firefox Nightly
+
+# LOCALIZATION NOTE (nightly_blog):
+# Nightly builds only, link title for https://blog.nightly.mozilla.org/
+#define nightly_blog Blog do Firefox Nightly
+
+# LOCALIZATION NOTE (bugzilla):
+# Nightly builds only, link title for https://bugzilla.mozilla.org/
+#define bugzilla Mozilla Bug Tracker
+
+# LOCALIZATION NOTE (mdn):
+# Nightly builds only, link title for https://developer.mozilla.org/
+#define mdn Mozilla Developer Network
+
+# LOCALIZATION NOTE (nightly_tester_tools):
+# Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
+#define nightly_tester_tools Ferramentas de testes do Nightly
+
+# LOCALIZATION NOTE (crashes):
+# Nightly builds only, link title for about:crashes
+#define crashes Todos os travamentos
+
+# LOCALIZATION NOTE (irc):
+# Nightly builds only, link title for ircs://irc.mozilla.org/nightly
+#define irc Discutir sobre o Nightly no IRC
+
+# LOCALIZATION NOTE (planet):
+# Nightly builds only, link title for https://planet.mozilla.org/
+#define planet Planet Mozilla
 
 #unfilter emptyLines

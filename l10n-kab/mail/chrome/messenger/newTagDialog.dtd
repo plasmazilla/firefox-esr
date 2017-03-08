@@ -3,6 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- New Tag Dialog -->
 
-<!ENTITY newTagDialog.title      "Rnu tabzimt tamaynut">
+<!ENTITY newTagDialog1.title     "Tabzimt tamaynut">
 <!ENTITY name.label              "Isem n tebzimt:">
 <!ENTITY name.accesskey          "b">

@@ -13,7 +13,7 @@ https://bugzilla.mozilla.org/show_bug.cgi?id=382214
  create mode 100644 xpcom/reflect/xptcall/src/md/unix/xptcstubs_linux_sh.cpp
 
 diff --git a/xpcom/reflect/xptcall/md/unix/moz.build b/xpcom/reflect/xptcall/md/unix/moz.build
-index c8576dfa93d3..1aa2bd99bbe4 100644
+index 1d182bbd6f06..067a6ad69898 100644
 --- a/xpcom/reflect/xptcall/md/unix/moz.build
 +++ b/xpcom/reflect/xptcall/md/unix/moz.build
 @@ -316,6 +316,11 @@ if CONFIG['OS_ARCH'] == 'Linux':

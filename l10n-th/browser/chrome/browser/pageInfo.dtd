@@ -15,6 +15,7 @@
 
 <!ENTITY  generalTab            "ทั่วไป">
 <!ENTITY  generalTab.accesskey  "G">
+<!ENTITY  generalTitle          "หัวข้อ:">
 <!ENTITY  generalURL            "ที่อยู่:">
 <!ENTITY  generalType           "ชนิด:">
 <!ENTITY  generalMode           "โหมดการเรนเดอร์:">
@@ -65,7 +66,7 @@
 <!ENTITY  securityTab.accesskey "S">
 <!ENTITY  securityView.certView "ดูใบรับรอง">
 <!ENTITY  securityView.accesskey "V">
-<!ENTITY  securityView.unknown   "ไม่รู้จัก">
+<!ENTITY  securityView.unknown   "ไม่ทราบ">
 
 
 <!ENTITY  securityView.identity.header   "อัตลักษณ์เว็บไซต์">

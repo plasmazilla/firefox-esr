@@ -86,13 +86,13 @@
 <!-- LOCALIZATION NOTE (options.enableChrome.label4): This is the label for the
   -  checkbox that toggles chrome debugging, i.e. devtools.chrome.enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableChrome.label5		"ブラウザーとアドオンのデバッガを有効化">
+<!ENTITY options.enableChrome.label5		"ブラウザーとアドオンのデバッガーを有効化">
 <!ENTITY options.enableChrome.tooltip3		"さまざまな開発ツールがブラウザーコンテキスト (ツール > ウェブ開発 > ブラウザーツールボックス) とアドオンマネージャーからのアドオンデバッグで使えるようになります">
 
 <!-- LOCALIZATION NOTE (options.enableRemote.label3): This is the label for the
   -  checkbox that toggles remote debugging, i.e. devtools.debugger.remote-enabled
   -  boolean preference in about:config, in the options panel. -->
-<!ENTITY options.enableRemote.label3		"リモートデバッガを有効化">
+<!ENTITY options.enableRemote.label3		"リモートデバッガーを有効化">
 <!ENTITY options.enableRemote.tooltip2		"Firefox OS などのリモート Firefox インスタンスを開発ツールでデバッグできるようにします">
 
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
@@ -159,20 +159,29 @@
 <!ENTITY options.timestampMessages.label	"タイムスタンプを表示">
 <!ENTITY options.timestampMessages.tooltip	"このオプションを有効にすると、ウェブコンソールにタイムスタンプを表示します">
 
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+<!ENTITY options.debugger.label			"デバッガー">
+
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+<!ENTITY options.sourceMaps.label		"ソースマップを有効化">
+<!ENTITY options.sourceMaps.tooltip		"このオプションを有効にすると、ソースがデバッガーとコンソールにマッピングされます。">
+
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
-<!ENTITY options.styleeditor.label		"スタイルエディタ">
+<!ENTITY options.styleeditor.label		"スタイルエディター">
 
 <!-- LOCALIZATION NOTE (options.stylesheetSourceMaps.label): This is the
    - label for the checkbox that toggles showing original sources in the Style Editor -->
 <!ENTITY options.stylesheetSourceMaps.label	"元のソースを表示">
-<!ENTITY options.stylesheetSourceMaps.tooltip	"スタイルエディタとインスペクターで元のソースを表示します (例: Sass ファイル)">
+<!ENTITY options.stylesheetSourceMaps.tooltip	"スタイルエディターとインスペクターで元のソースを表示します (例: Sass ファイル)">
 
 <!-- LOCALIZATION NOTE (options.stylesheetAutocompletion.label): This is the
    - label for the checkbox that toggles autocompletion of css in the Style Editor -->
 <!ENTITY options.stylesheetAutocompletion.label		"CSS 自動補完">
-<!ENTITY options.stylesheetAutocompletion.tooltip	"スタイルエディタで CSS プロパティ、値、セレクタ入力時に自動補完">
+<!ENTITY options.stylesheetAutocompletion.tooltip	"スタイルエディターで CSS プロパティ、値、セレクター入力時に自動補完">
 
 <!-- LOCALIZATION NOTE (options.commonprefs): This is the label for the heading
       of all preferences that affect both the Web Console and the Network
@@ -184,7 +193,7 @@
   -  network monitor,  i.e. devtools.webconsole.persistlog a boolean preference in
   -  about:config, in the options panel. -->
 <!ENTITY options.enablePersistentLogs.label	"ログ出力を残す">
-<!ENTITY options.enablePersistentLogs.tooltip	"このオプションを有効にすると、新しいページに誘導させられた場合でもウェブコンソールとネットワークモニタの出力を消去しないようになります">
+<!ENTITY options.enablePersistentLogs.tooltip	"このオプションを有効にすると、新しいページに誘導させられた場合でもウェブコンソールとネットワークモニターの出力を消去しないようになります">
 
 <!-- LOCALIZATION NOTE (options.showPlatformData.label): This is the
   -  label for the checkbox that toggles the display of the platform data in the,
@@ -196,7 +205,7 @@
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor
   -  section. -->
 
-<!ENTITY options.sourceeditor.label			"エディタ設定">
+<!ENTITY options.sourceeditor.label			"エディター設定">
 <!ENTITY options.sourceeditor.detectindentation.label	"インデントを検知">
 <!ENTITY options.sourceeditor.detectindentation.tooltip	"ソースの内容からインデントを推測します">
 <!ENTITY options.sourceeditor.autoclosebrackets.label	"閉じ括弧自動入力">

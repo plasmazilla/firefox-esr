@@ -5,14 +5,14 @@
 <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
 %brandDTD;
 
-<!ENTITY loadError.label "Falha no carregamento da página">
+<!ENTITY loadError.label "Problemas ao carregar a página">
 <!ENTITY retry.label "Tentar de novo">
 <!ENTITY returnToPreviousPage.label "Voltar">
 <!ENTITY advanced.label "Avançado">
 
 <!-- Specific error messages -->
 
-<!ENTITY connectionFailure.title "Não é possível conectar-se">
+<!ENTITY connectionFailure.title "Não foi possível conectar">
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Endereço restrito">
@@ -43,6 +43,11 @@ do seu computador.</li> 
 <!ENTITY generic.title "Oops.">
 <!ENTITY generic.longDesc "<p>Algo impediu o &brandShortName; de carregar esta página.</p>">
 
+<!ENTITY captivePortal.title "Autenticar na rede">
+<!ENTITY captivePortal.longDesc "<p>Esta rede pode exigir sua autenticação para usar a internet.</p>">
+
+<!ENTITY openPortalLoginPage.label "Abrir página de autenticação">
+
 <!ENTITY malformedURI.title "Endereço inválido">
 <!ENTITY malformedURI.longDesc "<ul> 
 <li>Endereços web são geralmente escritos como 
@@ -51,7 +56,7 @@ do seu computador.</li> 
 (isto é, <strong>/</strong>).</li> 
 </ul>">
 
-<!ENTITY netInterrupt.title "Conexão interrompida">
+<!ENTITY netInterrupt.title "A conexão foi interrompida">
 <!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
 
 <!ENTITY notCached.title "Documento fora de validade">
@@ -72,10 +77,10 @@ do seu computador.</li> 
 <li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li> 
 </ul>">
 
-<!ENTITY netReset.title "Conexão reiniciada">
+<!ENTITY netReset.title "A conexão foi redefinida">
 <!ENTITY netReset.longDesc "&sharedLongDesc;">
 
-<!ENTITY netTimeout.title "Tempo limite atingido">
+<!ENTITY netTimeout.title "A conexão expirou">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
 <!ENTITY unknownProtocolFound.title "Endereço não compreendido">
@@ -83,14 +88,14 @@ do seu computador.</li> 
 <li>Pode ser necessário instalar algum aplicativo para abrir este endereço.</li> 
 </ul>">
 
-<!ENTITY proxyConnectFailure.title "Conexão recusada pelo servidor proxy">
+<!ENTITY proxyConnectFailure.title "O servidor proxy está recusando conexões">
 <!ENTITY proxyConnectFailure.longDesc "<ul> 
 <li>Verifique as configurações de proxy para se certificar que estão corretas</li> 
 <li>Contate seu administrador de rede para se certificar que o servidor proxy está 
 funcionando.</li> 
 </ul>">
 
-<!ENTITY proxyResolveFailure.title "Não é possível localizar o servidor proxy">
+<!ENTITY proxyResolveFailure.title "Não foi possível localizar o servidor proxy">
 <!ENTITY proxyResolveFailure.longDesc "<ul> 
 <li>Verifique as configurações de proxy para certificar-se de que estejam corretas.</li> 
 <li>Certifique-se de que a conexão de rede do seu computador esteja funcionando.</li> 
@@ -104,7 +109,7 @@ de que o &brandShortName; esteja autorizado a acessar a web.</li>
 cookies.</li> 
 </ul>">
 
-<!ENTITY unknownSocketType.title "Resposta não prevista do servidor">
+<!ENTITY unknownSocketType.title "Resposta inesperada do servidor">
 <!ENTITY unknownSocketType.longDesc "<ul> 
 <li>Certifique-se de que o seu sistema possui o Personal Security Manager 
 instalado.</li> 
@@ -113,7 +118,7 @@ instalado.</li>
 
 <!ENTITY nssFailure2.title "Falha na conexão segura">
 <!ENTITY nssFailure2.longDesc2 "<ul> 
-<li>A página que está tentando abrir não pode ser aberta porque a autenticidade dos dados recebidos não pôde ser comprovada.</li> 
+<li>A página que está tentando ver não pode ser vista porque a autenticidade dos dados recebidos não pôde ser verificada.</li> 
 <li>Por favor, contate os responsáveis pelo site para informá-los sobre este problema.</li> 
 </ul>">
 
@@ -136,7 +141,7 @@ de que o &brandShortName; esteja autorizado a acessar a web.</li>
 <!ENTITY cspBlocked.longDesc "<p>O &brandShortName; impediu esta página de carregar desta forma porque a política de segurança de conteúdo da página não permite.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "Erro de conteúdo corrompido">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que está tentando visualizar não pode ser exibida porque foi detectado um erro na transmissão de dados.</p><ul><li>Entre em contato com os proprietários do site para informá-los sobre este problema.</li></ul>">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>A página que está tentando ver não pode ser vista porque foi detectado um erro na transmissão de dados.</p><ul><li>Entre em contato com os proprietários do site para informá-los sobre este problema.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Adicionar exceção…">
@@ -147,7 +152,7 @@ de que o &brandShortName; esteja autorizado a acessar a web.</li>
 <!ENTITY remoteXUL.title "XUL remoto">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Por favor, contate os responsáveis pelo site para informá-los deste problema.</li></ul></p>">
 
-<!ENTITY sslv3Used.title "Não é possível se conectar com segurança">
+<!ENTITY sslv3Used.title "Não foi possível conectar com segurança">
 <!-- LOCALIZATION NOTE (sslv3Used.longDesc2) - Do not translate
      "SSL_ERROR_UNSUPPORTED_VERSION". -->
 <!ENTITY sslv3Used.longDesc2 "Informações avançadas: SSL_ERROR_UNSUPPORTED_VERSION">
@@ -165,9 +170,9 @@ de que o &brandShortName; esteja autorizado a acessar a web.</li>
 <!ENTITY certerror.wrongSystemTime "<p>Não é possível se conectar com segurança a <span id='wrongSystemTime_URL'/> pois seu relógio parece estar com a hora incorreta.</p> <p>Seu computador pensa que é <span id='wrongSystemTime_systemDate'/>, quando deveria ser <span id='wrongSystemTime_actualDate'/>. Para corrigir esse problema, ajuste as configurações de data e hora para os valores corretos.</p>">
 
 <!ENTITY certerror.pagetitle1  "Conexão insegura">
-<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Este site usa HTTP 
-Strict Transport Security (HSTS) para indicar que o &brandShortName; deve se conectar 
-a ele apenas de forma segura. Como resultado, não é possível adicionar exceções para este 
+<!ENTITY certerror.whatShouldIDo.badStsCertExplanation "Este site usa HTTP
+Strict Transport Security (HSTS) para especificar que o &brandShortName; só pode se conectar
+a ele com segurança. Como resultado, não é possível adicionar uma exceção para este
 certificado.">
 <!ENTITY certerror.copyToClipboard.label "Copiar texto para a área de transferência">
 

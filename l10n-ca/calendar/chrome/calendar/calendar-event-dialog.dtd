@@ -28,15 +28,19 @@
 <!-- The following entity is for New Task dialog only -->
 
 <!ENTITY newtodo.percentcomplete.label      "&#037; acabat">
-<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
-   - These two labels are displayed side by side in the event dialog, make sure
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label,
+     event.attendees.disallowcounter.label)
+   - These three labels are displayed side by side in the event dialog, make sure
    - they still fit in. -->
 
-<!ENTITY event.attendees.notify.label               "Notifica els assistents">
-<!ENTITY event.attendees.notify.accesskey           "f">
-<!ENTITY event.attendees.notifyundisclosed.label    "Invitació separada per a cada assistent">
-<!ENTITY event.attendees.notifyundisclosed.accesskey  "n">
-<!ENTITY event.attendees.notifyundisclosed.tooltip  "Aquesta opció envia un missatge d'invitació per assistent. Cada invitació conté l'assistent com a únic destinatari, de forma que els assistents no veuen la identitat els uns dels altres.">
+<!ENTITY event.attendees.notify.label                "Notifica els assistents">
+<!ENTITY event.attendees.notify.accesskey            "f">
+<!ENTITY event.attendees.notifyundisclosed.label     "Invitació separada per a cada assistent">
+<!ENTITY event.attendees.notifyundisclosed.accesskey "n">
+<!ENTITY event.attendees.notifyundisclosed.tooltip   "Aquesta opció envia un missatge d'invitació per assistent. Cada invitació conté l'assistent com a únic destinatari, de forma que els assistents no veuen la identitat els uns dels altres.">
+<!ENTITY event.attendees.disallowcounter.label       "No permetis contrapropostes">
+<!ENTITY event.attendees.disallowcounter.accesskey   "a">
+<!ENTITY event.attendees.disallowcounter.tooltip     "Indica que no voleu acceptar contrapropostes">
 <!-- Keyboard Shortcuts -->
 
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -66,10 +70,25 @@
 <!ENTITY  event.menu.item.new.contact.accesskey           "C">
 <!ENTITY  event.menu.item.close.label                     "Tanca">
 <!ENTITY  event.menu.item.close.accesskey                 "T">
+<!-- LOCALIZATION NOTE
+   - event.menu.item.save.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a dialog window.
+   - event.menu.item.save.tab.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a tab. -->
+
 <!ENTITY  event.menu.item.save.label                      "Desa">
 <!ENTITY  event.menu.item.save.accesskey                  "D">
+<!ENTITY  event.menu.item.save.tab.accesskey              "a">
+<!-- LOCALIZATION NOTE
+    - event.menu.item.saveandclose.accesskey is used for "Save and Close"
+    - menu item when editing events/tasks in a dialog window.
+    - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
+    - when editing events/tasks in a tab. -->
+
 <!ENTITY  event.menu.item.saveandclose.label              "Desa i tanca">
 <!ENTITY  event.menu.item.saveandclose.accesskey          "e">
+<!ENTITY  event.menu.item.saveandclose.tab.accesskey      "t">
+
 <!ENTITY  event.menu.item.delete.label                    "Suprimeix…">
 <!ENTITY  event.menu.item.delete.accesskey                "S">
 <!ENTITY  event.menu.item.page.setup.label                "Configuració de la pàgina">
@@ -146,12 +165,14 @@
 <!ENTITY event.remove.attendee.accesskey                  "E">
 <!-- Toolbar -->
 
-<!ENTITY  event.toolbar.save.label                        "Desa i tanca">
+<!ENTITY  event.toolbar.save.label2                       "Desa">
+<!ENTITY  event.toolbar.saveandclose.label                "Desa i tanca">
 <!ENTITY  event.toolbar.delete.label                      "Suprimeix">
 <!ENTITY  event.toolbar.attendees.label                   "Invita assistents">
 <!ENTITY  event.toolbar.privacy.label                     "Privadesa">
 
-<!ENTITY  event.toolbar.save.tooltip                      "Desa i tanca">
+<!ENTITY  event.toolbar.save.tooltip2                     "Desa">
+<!ENTITY  event.toolbar.saveandclose.tooltip              "Desa i tanca">
 <!ENTITY  event.toolbar.delete.tooltip                    "Suprimeix">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Invita assistents">
 <!ENTITY  event.toolbar.attachments.tooltip               "Afegeix adjuncions">
@@ -159,6 +180,20 @@
 <!ENTITY  event.toolbar.priority.tooltip                  "Canvia la prioritat">
 <!ENTITY  event.toolbar.status.tooltip                    "Canvia l'estat">
 <!ENTITY  event.toolbar.freebusy.tooltip                  "Canvia la disponibilitat (lliure/ocupat)">
+<!-- Counter box -->
+<!-- LOCALIZATON NOTE(counter.button.*)
+   - This is only visible in the UI if you have received a counterproposal before and are going to
+   - reschedule the event from the imipbar in the email view. Clicking on the buttons will only
+   - populate the form fields in the dialog, there's no other immediate action on clicking like with
+   - the imip bar. Rescheduling will happen after clicking on save&close as usual. This screenshot
+   - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
+
+<!ENTITY counter.button.proposal.label                    "Aplica la proposta">
+<!ENTITY counter.button.proposal.accesskey                "p">
+<!ENTITY counter.button.proposal.tooltip2                 "Els camps de la cita s'emplenaran utilitzant els valors de la contraproposta; només quan es desi, amb canvis addicionals o sense, es notificaran tots els assistents degudament.">
+<!ENTITY counter.button.original.label                    "Aplica les dades originals">
+<!ENTITY counter.button.original.accesskey                "r">
+<!ENTITY counter.button.original.tooltip2                 "Els valors dels camps seran els de la cita original, abans de fer la contraproposta">
 <!-- Main page -->
 
 <!ENTITY event.title.textbox.label                        "Títol:" >
@@ -377,6 +412,7 @@
 <!ENTITY read.only.tentative.label       "Potser hi assistiré">
 <!ENTITY read.only.needs.action.label    "Ho confirmaré més tard">
 <!ENTITY read.only.reminder.label        "Recorda-m'ho:">
+<!ENTITY read.only.attachments.label     "Adjuncions:">
 <!ENTITY read.only.attendees.label       "Assistents">
 <!ENTITY read.only.description.label     "Descripció">
 <!ENTITY read.only.link.label            "Enllaç relacionat">

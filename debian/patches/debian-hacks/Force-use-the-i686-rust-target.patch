@@ -7,7 +7,7 @@ Subject: Force use the i686 rust target
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/build/moz.configure/rust.configure b/build/moz.configure/rust.configure
-index 282342b6b902..c3b988eaa6c2 100644
+index 261768f6402e..3f1497822765 100644
 --- a/build/moz.configure/rust.configure
 +++ b/build/moz.configure/rust.configure
 @@ -105,7 +105,7 @@ def rust_target(rust_compiler, rustc, target, cross_compiling):

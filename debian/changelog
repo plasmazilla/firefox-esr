@@ -1,3 +1,9 @@
+firefox-esr (52.0esr-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Mike Hommey <glandium@debian.org>  Wed, 08 Mar 2017 10:39:35 +0900
+
 firefox (51.0.1-3) unstable; urgency=medium
 
   * js/src/jit/mips-shared/Assembler-mips-shared.h,

@@ -76,4 +76,76 @@
 #define firefox_about Malunga Nathi
 
 
+# LOCALIZATION NOTE (nightly_heading):
+
+
+# Firefox Nightly links folder name
+
+
+#define nightly_heading Izinto Zangokuhlwa zeFirefox
+
+
+# LOCALIZATION NOTE (nightly_blog):
+
+
+# Nightly builds only, link title for https://blog.nightly.mozilla.org/
+
+
+#define nightly_blog Iblogi yaNgokuhlwa yeFirefox
+
+
+# LOCALIZATION NOTE (bugzilla):
+
+
+# Nightly builds only, link title for https://bugzilla.mozilla.org/
+
+
+#define bugzilla Itreka yeBhagi yeMozilla
+
+
+# LOCALIZATION NOTE (mdn):
+
+
+# Nightly builds only, link title for https://developer.mozilla.org/
+
+
+#define mdn INethiweki yokuPhuhlisa iMozilla
+
+
+# LOCALIZATION NOTE (nightly_tester_tools):
+
+
+# Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
+
+
+#define nightly_tester_tools Izixhobo Zokuvavanya Zangokuhlwa
+
+
+# LOCALIZATION NOTE (crashes):
+
+
+# Nightly builds only, link title for about:crashes
+
+
+#define crashes Zonke iikreshi zakho
+
+
+# LOCALIZATION NOTE (irc):
+
+
+# Nightly builds only, link title for ircs://irc.mozilla.org/nightly
+
+
+#define irc Ncokola Ngokuhlwa kwi-IRC
+
+
+# LOCALIZATION NOTE (planet):
+
+
+# Nightly builds only, link title for https://planet.mozilla.org/
+
+
+#define planet IPlanet Mozilla
+
+
 #unfilter emptyLines

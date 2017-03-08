@@ -9,10 +9,10 @@
 <!ENTITY  noupdatesfound.title            "Nenhuma atualização encontrada">
 <!ENTITY  noupdatesautoenabled.intro      "Não há atualizações disponíveis. O &brandShortName; verificará 
 periodicamente a disponibilidade de novas versões.">
-<!ENTITY  noupdatesautodisabled.intro     "Não há atualizações disponíveis. Por favor, verifique mais tarde ou ative 
-a verificação automática de atualizações do &brandShortName;.">
+<!ENTITY  noupdatesautodisabled.intro     "Não há atualizações disponíveis. Por favor, verifique mais tarde ou habilite
+                                           a verificação automática de atualizações do &brandShortName;.">
 
-<!ENTITY  manualUpdate.title              "Não é possível atualizar">
+<!ENTITY  manualUpdate.title              "Não foi possível atualizar">
 <!ENTITY  manualUpdate.desc               "Está disponível uma atualização de segurança e estabilidade, mas você 
 não tem as permissões necessárias para a instalar. Contate o administrador 
 do sistema ou tente novamente a partir de uma conta que tenha 
@@ -22,9 +22,9 @@ não tem espaço disponível para a instalar.">
 <!ENTITY  manualUpdateGetMsg.label        "Você sempre pode baixar a versão mais recente do &brandShortName; em:">
 
 <!ENTITY  unsupported.title               "Sistema não suportado">
-<!ENTITY  unsupported.label               "O &brandShortName; está desatualizado mas o seu sistema operacional 
-não possui suporte à versão mais recente. Atualize o seu sistema e tente novamente. 
-Este aviso não será mostrado de novo, mas você pode">
+<!ENTITY  unsupported.label               "O &brandShortName; está desatualizado, mas a última versão não é
+                                           suportada no seu sistema. Atualize o seu sistema e tente novamente.
+                                           Você não verá este aviso novamente, mas pode">
 <!ENTITY  unsupportedLink.label           "saber mais.">
 
 <!ENTITY  clickHere.label                 "Mais informações sobre esta atualização">
@@ -39,20 +39,20 @@ do &brandShortName; o mais depressa possível.">
 atualização parcial baixada, agora está baixando 
 o pacote completo da atualização.">
 
-<!ENTITY  viewDetails.tooltip             "Exibir detalhes desta atualização">
+<!ENTITY  viewDetails.tooltip             "Ver detalhes desta atualização">
 
 <!ENTITY  details.link                    "Detalhes">
 
 <!ENTITY  error.title                     "Falha na atualização">
 
-<!ENTITY  error.label                     "Houve problemas ao verificar, receber ou instalar esta 
-atualização. O &brandShortName; não pôde ser atualizado porque:">
+<!ENTITY  error.label                     "Houveram problemas ao verificar, baixar ou instalar esta 
+                                           atualização. O &brandShortName; não pôde ser atualizado porque:">
                                            
 <!ENTITY  errorManual.label               "Você pode atualizar manualmente o &brandShortName; visitando este link 
 e baixando a versão mais recente:">
                                            
-<!ENTITY  errorpatching.intro             "A atualização incremental não pôde ser aplicada. 
-O &brandShortName; tentará de novo, baixando a atualização completa.">
+<!ENTITY  errorpatching.intro             "A atualização parcial não pôde ser aplicada. 
+                                           O &brandShortName; tentará de novo, baixando a atualização completa.">
 
 <!ENTITY  genericBackgroundError.label    "O &brandShortName; não consegue determinar se existe uma atualização disponível. Por favor 
 verifique se tem a última versão do &brandShortName; em:">

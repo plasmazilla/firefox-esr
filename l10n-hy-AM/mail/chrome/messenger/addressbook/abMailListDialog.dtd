@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- Title -->
 
-<!ENTITY mailListWindow.title           "Նամակների ցանկը">
+<!ENTITY mailListWindowAdd.title        "Նամակների նոր ցանկ">
 <!-- Labels -->
 <!ENTITY addToAddressBook.label         "Ավելացնել՝">
 

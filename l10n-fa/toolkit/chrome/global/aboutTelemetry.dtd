@@ -54,6 +54,8 @@
 
 <!ENTITY aboutTelemetry.scalarsSection "  عددی">
 
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Keyed Scalars">
+
 <!ENTITY aboutTelemetry.histogramsSection "  نمودارهای هیستوگرام">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  نمودارهای هیستوگرام کوک شده">

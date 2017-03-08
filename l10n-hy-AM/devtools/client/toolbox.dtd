@@ -83,7 +83,7 @@
   -  boolean preference in about:config, in the options panel. -->
 
 <!ENTITY options.enableRemote.label3    "Դարձնել հնարին հեռակառավարվող կարգաբերումը">
-
+<!ENTITY options.enableRemote.tooltip2  "Այս ընտրանքի կապակցումը թույլ կտա ծրագրավորողի գործիքներին հեռակա կարգաբերել Firefox-ի նմուշը, ինչպիսինն Firefox OS-ն է">
 <!-- LOCALIZATION NOTE (options.enableWorkers.label): This is the label for the
   -  checkbox that toggles worker debugging, i.e. devtools.debugger.workers
   -  boolean preference in about:config, in the options panel. -->
@@ -135,6 +135,11 @@
 <!ENTITY options.webconsole.label            "Վեբ Կառավարակետ">
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
+
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
 
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options

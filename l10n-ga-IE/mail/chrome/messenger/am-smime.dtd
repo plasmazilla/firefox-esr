@@ -30,3 +30,8 @@
 <!ENTITY manageCerts2.accesskey "B">
 <!ENTITY manageDevices.label "Gléasanna Slándála">
 <!ENTITY manageDevices.accesskey "G">
+<!-- Strings for the cert picker dialog -->
+
+<!ENTITY certPicker.title "Roghnaigh Teastas">
+<!ENTITY certPicker.info  "Teastas:">
+<!ENTITY certPicker.detailsLabel "Mionsonraí an teastais roghnaithe:">

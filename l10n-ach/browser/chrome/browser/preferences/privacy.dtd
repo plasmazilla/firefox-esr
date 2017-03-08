@@ -1,6 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  trackingProtectionHeader.label       "Tii ki Gwoke ikom lubo kor">
 <!ENTITY  trackingProtectionAlways.label       "Jwijwi">
 <!ENTITY  trackingProtectionAlways.accesskey   "w">
 <!ENTITY  trackingProtectionPrivate.label      "I dirica me mung manyen keken">
@@ -22,7 +24,7 @@
 
 <!ENTITY  doNotTrack.pre.label          "Itwero bene ">
 
-
+<!ENTITY  doNotTrack.post.label         ".">
 
 <!ENTITY  history.label                 "Gin mukato">
 
@@ -44,7 +46,8 @@
 <!ENTITY  acceptCookies.label           "Ye angija ki bot kakube">
 <!ENTITY  acceptCookies.accesskey       "e">
 
-
+<!ENTITY  acceptThirdParty.pre.label      "Yee angija ki bot dul me adek:">
+<!ENTITY  acceptThirdParty.pre.accesskey  "e">
 <!ENTITY  acceptThirdParty.always.label   "Jwijwi">
 <!ENTITY  acceptThirdParty.never.label    "Pe matwal">
 <!ENTITY  acceptThirdParty.visited.label  "Ki i ma kilimo">
@@ -105,3 +108,5 @@
 <!ENTITY  browserContainersLearnMore.label      "Nong ngec mapol">
 
 
+<!ENTITY  browserContainersSettings.label        "Ter…">
+<!ENTITY  browserContainersSettings.accesskey    "r">

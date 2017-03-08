@@ -158,7 +158,7 @@
 <!ENTITY rating2.label                        "Rátáil">
 <!-- download/install progress -->
 
-<!ENTITY progress.pause.tooltip               "Cuir ar Shos">
+<!ENTITY progress.pause.tooltip               "Cuir ar Sos">
 <!ENTITY progress.cancel.tooltip              "Cealaigh">
 <!-- list sorting -->
 
@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Más forbróir thú, foghlaim conas is féidir breiseán a fhíorú inár ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "lámhleabhar">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Rud éigin ar iarraidh? Ní thacaíonn &brandShortName; le roinnt forlíontán a thuilleadh.">
+<!ENTITY pluginDeprecation.learnMore "Tuilleadh Eolais.">

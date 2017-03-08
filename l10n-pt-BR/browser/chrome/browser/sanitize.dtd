@@ -58,7 +58,7 @@ that require it.  -->
 <!ENTITY itemCache.accesskey               "a">
 <!ENTITY itemOfflineApps.label             "Dados offline de sites">
 <!ENTITY itemOfflineApps.accesskey         "f">
-<!ENTITY itemActiveLogins.label            "Logins ativos">
+<!ENTITY itemActiveLogins.label            "Contas de acesso ativas">
 <!ENTITY itemActiveLogins.accesskey        "L">
 <!ENTITY itemSitePreferences.label         "Preferências de sites">
 <!ENTITY itemSitePreferences.accesskey     "P">
@@ -66,4 +66,4 @@ that require it.  -->
 <!-- LOCALIZATION NOTE (sanitizeEverythingUndoWarning): Second warning paragraph
      that appears when "Time range to clear" is set to "Everything".  See UI
      mockup at bug 480169 -->
-<!ENTITY sanitizeEverythingUndoWarning     "Este comando não pode ser desfeito.">
+<!ENTITY sanitizeEverythingUndoWarning     "Esta ação não pode ser desfeita.">

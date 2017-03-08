@@ -111,7 +111,7 @@
   -  options.disableHTTPCache.tooltip): This is the options panel label and
   -  tooltip for the checkbox that toggles the HTTP cache on or off. -->
 <!ENTITY options.disableHTTPCache.label     "HTTP-buffer útskeakelje (as wurkset iepene is)">
-<!ENTITY options.disableHTTPCache.tooltip   "Troch dizze opsje oan te setten, wurdt de HTTP-buffer foar alle ljepblêden dy't de wurkset iepene hawwe útskeakele. Service Workers wurde net troch dizze opsje beÿnfloede.">
+<!ENTITY options.disableHTTPCache.tooltip   "Troch dizze opsje oan te setten, wurdt de HTTP-buffer foar alle ljepblêden dy't de wurkset iepene hawwe útskeakele. Service Workers wurde net troch dizze opsje beynfloede.">
 
 <!-- LOCALIZATION NOTE (options.enableServiceWorkersHTTP.label,
   -  options.enableServiceWorkersHTTP.tooltip): This is the options panel label and
@@ -159,6 +159,15 @@
 <!ENTITY options.timestampMessages.label      "Tiidstempels ynskeakelje">
 <!ENTITY options.timestampMessages.tooltip    "As jo dizze opsje ynskeakelje, sille opdrachten en útfier yn de webconsole in tiidstempel werjaan">
 
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+<!ENTITY options.debugger.label            "Debugger">
+
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+<!ENTITY options.sourceMaps.label      "Boarneferwizingen ynskeakelje">
+<!ENTITY options.sourceMaps.tooltip    "As jo dizze opsje ynskeakelje, sille boarnen yn de debugger en konsôle ferwize wurde.">
+
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->
@@ -190,7 +199,7 @@
   -  label for the checkbox that toggles the display of the platform data in the,
   -  Profiler i.e. devtools.profiler.ui.show-platform-data a boolean preference
   -  in about:config, in the options panel. -->
-<!ENTITY options.showPlatformData.label    "Toan Gecko-platfoarmgegevens">
+<!ENTITY options.showPlatformData.label    "Gecko-platfoarmgegevens toane">
 <!ENTITY options.showPlatformData.tooltip  "As jo dizze opsje ynskeakelje sil de JavaScript Profiler rapportearje ynklusyf Gecko-platformsymboalen">
 
 <!-- LOCALIZATION NOTE (options.sourceeditor.*): Options under the editor

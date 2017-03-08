@@ -15,7 +15,7 @@
 <!ENTITY allowHWAccel.accesskey			"h">
 <!ENTITY storeType.label			"新しいアカウントのメッセージ格納形式:">
 <!ENTITY storeType.accesskey			"T">
-<!ENTITY mboxStore2.label			"フォルダ単位 (mbox 形式)">
+<!ENTITY mboxStore2.label			"フォルダー単位 (mbox 形式)">
 <!ENTITY maildirStore.label			"メッセージ単位 (maildir 形式)">
 
 <!ENTITY scrolling.label			"スクロール">
@@ -32,7 +32,7 @@
 <!ENTITY checkDefaultsNow.label			"今すぐ確認...">
 <!ENTITY checkDefaultsNow.accesskey		"N">
 <!ENTITY configEditDesc.label			"高度な設定">
-<!ENTITY configEdit.label			"設定エディタ..."><!-- (^^; 要するに about:config -->
+<!ENTITY configEdit.label			"設定エディター..."><!-- (^^; 要するに about:config -->
 <!ENTITY configEdit.accesskey			"C">
 <!ENTITY returnReceiptsInfo.label		"開封確認の取り扱い方を設定します。">
 <!ENTITY showReturnReceipts.label		"開封確認...">
@@ -78,7 +78,7 @@
 <!ENTITY Diskspace				"ディスク領域">
 <!ENTITY offlineCompactFolders.label		"ディスク領域を合計"><!-- offlineCompactFolders.label [ ] offlineCompactFoldersMB.label -->
 <!ENTITY offlineCompactFolders.accesskey	"a">
-<!ENTITY offlineCompactFoldersMB.label		"MB 以上節約できるときはフォルダを最適化する">
+<!ENTITY offlineCompactFoldersMB.label		"MB 以上節約できるときはフォルダーを最適化する">
 
 <!-- LOCALIZATION NOTE:
   The entities useCacheBefore.label and useCacheAfter.label appear on a single

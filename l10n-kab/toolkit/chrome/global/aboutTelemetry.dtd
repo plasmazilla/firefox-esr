@@ -54,6 +54,8 @@
 
 <!ENTITY aboutTelemetry.scalarsSection "  Afesnan">
 
+<!ENTITY aboutTelemetry.keyedScalarsSection "Afesnan tasarutt">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Imazrudlifen">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Imazrudlifen s wawalen n tsura">

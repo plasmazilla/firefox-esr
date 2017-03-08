@@ -30,3 +30,8 @@
 <!ENTITY manageCerts2.accesskey "C">
 <!ENTITY manageDevices.label "Wěstotne graty">
 <!ENTITY manageDevices.accesskey "W">
+<!-- Strings for the cert picker dialog -->
+
+<!ENTITY certPicker.title "Certifikat wubrać">
+<!ENTITY certPicker.info  "Certifikat:">
+<!ENTITY certPicker.detailsLabel "Podrobnosće wubraneho certifikata:">

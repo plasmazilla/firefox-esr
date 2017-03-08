@@ -1,4 +1,4 @@
-Source: firefox
+Source: firefox-esr
 Section: web
 Priority: optional
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>

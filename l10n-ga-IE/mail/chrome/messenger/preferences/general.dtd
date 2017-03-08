@@ -16,9 +16,12 @@
 
 <!ENTITY newMessagesArrive.label          "Ar theacht teachtaireachtaí nua:">
 <!ENTITY playSound.label                  "Seinn fuaim">
-<!ENTITY playSound1.accesskey              "d">
+<!ENTITY playSound1.accesskey             "d">
+<!ENTITY playSoundMac.label               "Seinn an comhad fuaime seo a leanas:">
+<!ENTITY playSoundMac.accesskey           "u">
 <!ENTITY showAnimatedAlert.label          "Taispeáin airdeall">
 <!ENTITY showAnimatedAlert.accesskey      "s">
+<!ENTITY notificationAlertSettings2.label "Is féidir foláirimh agus an fhuaim réamhshocraithe a dhíchumasú sa bpána Fógraí i Sainroghanna an Chórais.">
 <!ENTITY customizeMailAlert.label         "Saincheap…">
 <!ENTITY customizeMailAlert.accesskey     "c">
 
@@ -28,8 +31,6 @@
 <!ENTITY play.label                       "Seinn">
 <!ENTITY play.accesskey                   "S">
 <!ENTITY systemsound.label                "Fuaim réamhshocraithe chórais le haghaidh ríomhphost nua">
-<!ENTITY systemsoundMac.label             "Fuaim airdill an chórais">
-<!ENTITY systemsoundMac.accesskey         "u">
 <!ENTITY systemsound.accesskey            "u">
 <!ENTITY customsound.label                "Úsáid an comhad fuaime seo">
 <!ENTITY customsound.accesskey            "u">

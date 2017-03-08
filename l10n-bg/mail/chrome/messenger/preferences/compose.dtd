@@ -11,7 +11,7 @@
 <!ENTITY forwardMsg.label                     "Препращане на писмата:">
 <!ENTITY forwardMsg.accesskey                 "П">
 <!ENTITY inline.label                         "Вложено">
-<!ENTITY asAttachment.label                   "Като притурка">
+<!ENTITY asAttachment.label                   "Прикачено">
 <!ENTITY addExtension.label                   "добавяне на разширение към името на файла">
 <!ENTITY addExtension.accesskey               "ф">
 
@@ -59,7 +59,7 @@
 <!ENTITY sendOptions.label                     "Настройки за изпращане…">
 <!ENTITY sendOptions.accesskey                 "Н">
 
-<!ENTITY attachmentReminder.label              "Проверка за липсващи притурки">
+<!ENTITY attachmentReminder.label              "Проверка за липсващи прикачени файлове">
 <!ENTITY attachmentReminder.accesskey          "л">
 <!ENTITY attachmentReminderOptions.label       "Ключови думи…">
 <!ENTITY attachmentReminderOptions.accesskey   "К">

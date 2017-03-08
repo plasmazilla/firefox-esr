@@ -51,6 +51,13 @@
 <p>&brandShortName; kin om ien oft oare reden dizze side net lade.</p>
 ">
 
+<!ENTITY captivePortal.title "Oanmelde by netwurk">
+<!ENTITY captivePortal.longDesc "
+<p>It is mooglik dat dit netwurk fereasket dat jo jo oanmelde foar tagong ta it ynternet.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "Oanmeldside iepenje">
+
 <!ENTITY malformedURI.title "It adres jildt net">
 <!ENTITY malformedURI.longDesc "
 <ul>

@@ -76,4 +76,76 @@
 #define firefox_about Maidir Linn
 
 
+# LOCALIZATION NOTE (nightly_heading):
+
+
+# Firefox Nightly links folder name
+
+
+#define nightly_heading Acmhainní Firefox Nightly
+
+
+# LOCALIZATION NOTE (nightly_blog):
+
+
+# Nightly builds only, link title for https://blog.nightly.mozilla.org/
+
+
+#define nightly_blog Blag Firefox Nightly
+
+
+# LOCALIZATION NOTE (bugzilla):
+
+
+# Nightly builds only, link title for https://bugzilla.mozilla.org/
+
+
+#define bugzilla Fabhtrianaire Mozilla
+
+
+# LOCALIZATION NOTE (mdn):
+
+
+# Nightly builds only, link title for https://developer.mozilla.org/
+
+
+#define mdn Líonra Forbróirí Mozilla
+
+
+# LOCALIZATION NOTE (nightly_tester_tools):
+
+
+# Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
+
+
+#define nightly_tester_tools Uirlisí Tástála Nightly
+
+
+# LOCALIZATION NOTE (crashes):
+
+
+# Nightly builds only, link title for about:crashes
+
+
+#define crashes Gach tuairt de do chuid
+
+
+# LOCALIZATION NOTE (irc):
+
+
+# Nightly builds only, link title for ircs://irc.mozilla.org/nightly
+
+
+#define irc Pléigh Nightly ar IRC
+
+
+# LOCALIZATION NOTE (planet):
+
+
+# Nightly builds only, link title for https://planet.mozilla.org/
+
+
+#define planet Pláinéad Mozilla
+
+
 #unfilter emptyLines

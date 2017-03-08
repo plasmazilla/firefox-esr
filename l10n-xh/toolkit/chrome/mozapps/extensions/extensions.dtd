@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Abenzi abanomdla ekufumaneni izongezelelo zabo ukuba ziqinisekiswe kungaqhubeka ngokufunda zethu">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "Ukwenza ngaphandle komatshini">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Ngaba kukho into engekhoyo? Ezinye iiplagini azisaxhaswa yi-&brandShortName;">
+<!ENTITY pluginDeprecation.learnMore "Funda Okungakumbi">

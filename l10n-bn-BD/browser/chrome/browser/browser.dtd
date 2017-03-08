@@ -304,7 +304,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY copyCmd.label            "অনুলিপি C">  
 <!ENTITY copyCmd.key            "C">  
 <!ENTITY copyCmd.accesskey          "C"> 
-<!ENTITY pasteCmd.label           "প্রতিলেপন (P)">  
+<!ENTITY pasteCmd.label           "প্রতিলেপন">  
 <!ENTITY pasteCmd.key           "V">  
 <!ENTITY pasteCmd.accesskey         "P"> 
 <!ENTITY deleteCmd.label          "মুছে ফেলুন (D)">  
@@ -392,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "অনুসন্ধান বা ঠিকানা দিন">
 <!ENTITY urlbar.accesskey             "d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "এক্সটেনশন:">
 <!ENTITY urlbar.switchToTab.label     "ট্যাবে যান:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "আপনি পরামর্শ দিয়ে আপনার অনুসন্ধান অভিজ্ঞতা উন্নত করতে চান?">

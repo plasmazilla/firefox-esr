@@ -6,9 +6,13 @@
      of accountTree.width entity. -->
 
 <!ENTITY identityDialog.style "min-width: 75ch;">
-<!ENTITY identityTitle.label "Postavke identiteta">
 <!ENTITY identityListDesc.label "Podesite postavke za ovaj identitet:">
 
 <!ENTITY settingsTab.label       "Postavke">
 <!ENTITY copiesFoldersTab.label "Kopije i mape">
 <!ENTITY addressingTab.label    "Sastavljanje i adresiranje">
+
+<!ENTITY publicData.label        "Javni podaci">
+<!ENTITY privateData.label       "Privatni podaci">
+<!ENTITY identityAlias.label     "Oznaka identiteta:">
+<!ENTITY identityAlias.accesskey "d">

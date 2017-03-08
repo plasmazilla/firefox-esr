@@ -33,6 +33,11 @@
 <!ENTITY generic.title "¡Chin!">
 <!ENTITY generic.longDesc "<p>&brandShortName; no puede cargar esta página por alguna razón.</p>">
 
+<!ENTITY captivePortal.title "Iniciar sesión en la red">
+<!ENTITY captivePortal.longDesc "<p>Esta red puede requerir que inicies sesión para el acceso a Internet.</p>">
+
+<!ENTITY openPortalLoginPage.label "Abrir página de inicio de sesión">
+
 <!ENTITY malformedURI.title "La dirección no es válida">
 <!ENTITY malformedURI.longDesc "
 <ul>

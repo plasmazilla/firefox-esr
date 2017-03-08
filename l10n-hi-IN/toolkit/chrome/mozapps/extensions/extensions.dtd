@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "डेवलपर्स जो कि अपने add-ons को सत्यापित करने मैं रुचि रखते हैं वे जारी कर सकते हैं">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "मैनुअल">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "कुछ भूल रहे हैं? कुछ प्लगइन &brandShortName; द्वारा समर्थित नही हैं">
+<!ENTITY pluginDeprecation.learnMore "अधिक जानें.">

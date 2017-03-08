@@ -2,22 +2,38 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY propertiesMenu.label               "Հատկություններ">
+<!ENTITY propertiesMenu.accesskey           "ն">
+<!ENTITY propertiesCmd.key                  "i">
+<!ENTITY abPropertiesMenu.label             "Հասցեագրքի հատկությունները">
+<!ENTITY abPropertiesMenu.accesskey         "ն">
+
+
+
+
+
 <!ENTITY addressbookPicker.label            "Հասցեագիրք.">
 <!ENTITY addressbookPicker.accesskey        "ք">
-<!ENTITY searchInput.label                  "Որոնել հետևյալը՝">
-<!ENTITY searchInput.accesskey              "և">
+
+
 <!ENTITY SearchNameOrEmail.label            "Անունը կամ էլ. հասցեն">
 
-<!ENTITY deleteAddrBookCard.label           "Ջնջել">
-<!ENTITY deleteAddrBookCard.accesskey       "Ջ">
-<!ENTITY addrBookCardProperties.label       "Հատկություններ">
-<!ENTITY addrBookCardProperties.accesskey   "Հ">
 <!ENTITY addtoToFieldMenu.label             "Ավելացնել Ում դաշտում">
 <!ENTITY addtoToFieldMenu.accesskey         "Ա">
 <!ENTITY addtoCcFieldMenu.label             "Ավելացնել CC դաշտում">
 <!ENTITY addtoCcFieldMenu.accesskey         "C">
 <!ENTITY addtoBccFieldMenu.label            "Ավելացնել Bcc դաշտում">
 <!ENTITY addtoBccFieldMenu.accesskey        "B">
+<!ENTITY deleteAddrBookCard.label           "Ջնջել">
+<!ENTITY deleteAddrBookCard.accesskey       "Ջ">
+<!ENTITY propertiesContext.label            "Հատկություններ">
+<!ENTITY propertiesContext.accesskey        "ն">
+<!ENTITY abPropertiesContext.label          "Հատկություններ">
+<!ENTITY abPropertiesContext.accesskey      "ն">
+
+
+<!ENTITY editMailingListContext.label       "Խմբագրել ցանկը">
+<!ENTITY editMailingListContext.accesskey   "Խ">
 
 <!ENTITY toButton.label                     "Ավելացնել Ում.">
 <!ENTITY toButton.accesskey                 "A">

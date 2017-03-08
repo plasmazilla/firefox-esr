@@ -211,7 +211,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 
 
 
-
+<!ENTITY urlbar.pluginsNotificationAnchor.tooltip         "Mba'ejoajurã jepuru ñangareko">
 <!ENTITY urlbar.webNotificationAnchor.tooltip             "Emoambue eipotárõ oñemog̃uahẽ ndéve ñemomarandu ko ñandutirenda omondóva.">
 
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "Eñangareko moherakuã nerovetã térã mba'erechaha ko tenda ndive">
@@ -388,6 +388,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Ñe'ẽreka ýrõ kundaharape">
 <!ENTITY urlbar.accesskey             "d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
 <!ENTITY urlbar.switchToTab.label     "Tendayképe jeguerova:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Eikuaasevépa nde jeheka rembihasakue ayvuporã rupi">

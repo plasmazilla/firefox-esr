@@ -158,6 +158,15 @@
 
 <!ENTITY options.timestampMessages.label      "Časowe kołki zmóžnić">
 <!ENTITY options.timestampMessages.tooltip    "Jeli tute nastajenje zmóžniš, přikazy a wudaće we webkonsoli časowy kołk pokazuja">
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+
+<!ENTITY options.debugger.label            "Pytanje za zmylkami">
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+
+<!ENTITY options.sourceMaps.label      "Žórłowe karty zmóžnić">
+<!ENTITY options.sourceMaps.tooltip    "Jeli tute nastajenje zmóžnjeće, so žórła w pytanju za zmylkami a w konsoli kartěruja.">
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->

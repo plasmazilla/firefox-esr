@@ -30,3 +30,8 @@
 <!ENTITY manageCerts2.accesskey "ش">
 <!ENTITY manageDevices.label "أجهزة الأمن">
 <!ENTITY manageDevices.accesskey "ج">
+<!-- Strings for the cert picker dialog -->
+
+<!ENTITY certPicker.title "اختر شهادة">
+<!ENTITY certPicker.info  "الشهادة:">
+<!ENTITY certPicker.detailsLabel "تفاصيل الشّهادة المختارة:">
