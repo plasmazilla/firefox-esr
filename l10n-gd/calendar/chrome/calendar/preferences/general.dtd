@@ -40,3 +40,7 @@
 <!ENTITY pref.accessibility.label "So-inntrigeachd" >
 <!ENTITY pref.systemcolors.label "Pisich na dathan a chum so-inntrigeachd" >
 <!ENTITY pref.systemcolors.accesskey "c">
+
+<!ENTITY pref.eventsandtasks.label "Tachartasan is saothraichean" >
+<!ENTITY pref.editInTab.label "Deasaich tachartasan is saothraichean ann an taba seach uinneag còmhraidh." >
+<!ENTITY pref.editInTab.accesskey "t">

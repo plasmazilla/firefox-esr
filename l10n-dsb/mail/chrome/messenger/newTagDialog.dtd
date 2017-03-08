@@ -3,6 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- New Tag Dialog -->
 
-<!ENTITY newTagDialog.title      "Nowe wobznamjenje napóraś">
+<!ENTITY newTagDialog1.title     "Nowe wobznamjenje">
 <!ENTITY name.label              "Mě wobznamjenja:">
 <!ENTITY name.accesskey          "M">

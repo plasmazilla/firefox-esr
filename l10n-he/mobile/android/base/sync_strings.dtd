@@ -11,7 +11,7 @@
 <!ENTITY sync.title.connect.label 'התחברות אל &syncBrand.shortName.label;'>
 
 <!-- J-PAKE Key Screen -->
-<!ENTITY sync.subtitle.connect.label 'כדי להפעיל את ההתקן החדש שלך, נא לבחור “הגדרת &syncBrand.shortName.label;” על ההתקן.'>
+<!ENTITY sync.subtitle.connect.label 'כדי להפעיל את ההתקן החדש שלך, נא לבחור באפשרות “הגדרת &syncBrand.shortName.label;” בהתקן.'>
 <!ENTITY sync.subtitle.pair.label 'כדי להפעיל, נא לבחור באפשרות ”שיוך התקן“ בהתקן האחר שלך.'>
 <!ENTITY sync.pin.default.label '...\n...\n...\n'>
 <!ENTITY sync.link.nodevice.label 'ההתקן אינו עימי…'>
@@ -26,7 +26,7 @@
      will be replaced by the name of the Firefox release channel and &formatS2
      by the model name of the Android device. Examples look like "Aurora on
      GT-I1950" and "Fennec on MI 2S". -->
-<!ENTITY sync.default.client.name '&formatS1; ב־&formatS2;'>
+<!ENTITY sync.default.client.name '‏&formatS1; ב־&formatS2;'>
 
 <!-- Bookmark folder strings -->
 <!ENTITY bookmarks.folder.menu.label 'תפריט סימניות'>
@@ -47,7 +47,7 @@
 <!ENTITY fxaccount_back_to_browsing 'בחזרה לגלישה'>
 
 <!ENTITY fxaccount_getting_started_welcome_to_sync 'ברוכים הבאים אל &syncBrand.shortName.label;'>
-<!ENTITY fxaccount_getting_started_description2 'התחבר כדי לסנכרן את הלשוניות, הסימניות, ההתחברויות ועוד.'>
+<!ENTITY fxaccount_getting_started_description2 'התחברו כדי לסנכרן את הלשוניות, הסימניות, הכניסות ועוד.'>
 <!ENTITY fxaccount_getting_started_get_started 'התחלת שימוש'>
 <!ENTITY fxaccount_getting_started_old_firefox 'משתמשים בגרסה ישנה של &syncBrand.shortName.label;?'>
 
@@ -59,10 +59,12 @@
 <!ENTITY fxaccount_status_device_name 'שם התקן'>
 <!ENTITY fxaccount_status_sync_server 'שרת סנכרון'>
 <!ENTITY fxaccount_status_sync '&syncBrand.shortName.label;'>
-<!ENTITY fxaccount_status_sync_enabled '&syncBrand.shortName.label;: מופעל'>
+<!ENTITY fxaccount_status_sync_enabled '‏&syncBrand.shortName.label;: מופעל'>
 <!ENTITY fxaccount_status_needs_verification2 'יש לאמת את החשבון שלך. עליך לגעת כדי לשלוח את דוא״ל האימות מחדש.'>
 <!ENTITY fxaccount_status_needs_credentials 'לא ניתן להיכנס. לגעת כדי להיכנס.'>
 <!ENTITY fxaccount_status_needs_upgrade 'יש לשדרג את &brandShortName; כדי להתחבר.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled '‏&syncBrand.shortName.label; הוגדר, אך אינו מסתנכרן באופן אוטומטי. יש להפעיל את האפשרות “סנכרון נתונים אוטומטי” בהגדרות המכשיר &gt; שימוש בנתונים.'>
+<!ENTITY fxaccount_status_needs_master_sync_automatically_enabled_v21 '‏&syncBrand.shortName.label; הוגדר, אך אינו מסתנכרן באופן אוטומטי. יש להפעיל את האפשרות “סנכרון נתונים אוטומטי” בתפריט של הגדרות המכשיר &gt; חשבונות.'>
 <!ENTITY fxaccount_status_needs_finish_migrating 'הקש כדי להתחבר לחשבון ה־Firefox החדש שלך.'>
 <!ENTITY fxaccount_status_bookmarks 'סימניות'>
 <!ENTITY fxaccount_status_history 'היסטוריה'>
@@ -79,10 +81,10 @@
 <!ENTITY fxaccount_remove_account 'ניתוק&ellipsis;'>
 
 <!ENTITY fxaccount_remove_account_dialog_title 'להסיר את חשבון ה־Firefox?'>
-<!ENTITY fxaccount_remove_account_dialog_message '&brandShortName; יפסיק את הסנכרון עם החשבון שלך, אך לא ימחק את נתוני היסטוריית הגלישה שלך בהתקן זה.'>
+<!ENTITY fxaccount_remove_account_dialog_message '‏&brandShortName; יפסיק את הסנכרון עם החשבון שלך, אך לא ימחק את נתוני היסטוריית הגלישה שלך בהתקן זה.'>
 <!-- Localization note: format string below will be replaced
      with the Firefox Account's email address. -->
-<!ENTITY fxaccount_remove_account_toast 'חשבון הפיירפוקס &formatS; הוסר.'>
+<!ENTITY fxaccount_remove_account_toast 'חשבון ה־Firefox בכתובת &formatS; הוסר.'>
 
 <!ENTITY fxaccount_enable_debug_mode 'הפעלת מצב ניפוי שגיאות'>
 
@@ -113,7 +115,7 @@
 <!ENTITY fxaccount_remote_error_UNKNOWN_ERROR 'אירעה תקלה'>
 <!ENTITY fxaccount_remote_error_ACCOUNT_LOCKED 'החשבון נעול. &formatS1;'>
 
-<!ENTITY fxaccount_sync_sign_in_error_notification_title2 '&syncBrand.shortName.label; אינו מחובר'>
+<!ENTITY fxaccount_sync_sign_in_error_notification_title2 '‏&syncBrand.shortName.label; אינו מחובר'>
 <!-- Localization note: the format string below will be replaced
      with the Firefox Account's email address. -->
 <!ENTITY fxaccount_sync_sign_in_error_notification_text2 'הקש כדי להתחבר בתור &formatS;'>

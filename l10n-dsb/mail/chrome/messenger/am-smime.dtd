@@ -30,3 +30,8 @@
 <!ENTITY manageCerts2.accesskey "C">
 <!ENTITY manageDevices.label "Wěstotne rědy">
 <!ENTITY manageDevices.accesskey "s">
+<!-- Strings for the cert picker dialog -->
+
+<!ENTITY certPicker.title "Certifikat wubraś">
+<!ENTITY certPicker.info  "Certifikat:">
+<!ENTITY certPicker.detailsLabel "Drobnostki wubranego certifikata:">

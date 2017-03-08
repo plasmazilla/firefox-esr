@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Wuwiwarjo, kotřiž chcedźa, zo so jich přidatki wobkrućeja, móža pokročować čitajo našu ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "přiručku">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Faluje něšto? Někotre tykače so wjace přez &brandShortName; njepodpěruja.">
+<!ENTITY pluginDeprecation.learnMore "Dalše informacije.">

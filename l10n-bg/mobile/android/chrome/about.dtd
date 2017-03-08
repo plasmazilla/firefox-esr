@@ -4,15 +4,15 @@
 <!ENTITY aboutPage.title                        "Относно &brandShortName;">
 <!ENTITY aboutPage.warningVersion               "Това е изпитателна версия на &brandShortName; и може да е нестабилна.">
 <!ENTITY aboutPage.telemetryStart               " Автоматично изпраща информация за производителността, хардуера и използваните настройки към ">
-<!ENTITY aboutPage.telemetryMozillaLink         "">
-<!ENTITY aboutPage.telemetryEnd                 "">
-<!ENTITY aboutPage.checkForUpdates.link         "Проверка за обновявания »">
-<!ENTITY aboutPage.checkForUpdates.checking     "Проверка за обновявания…">
+<!ENTITY aboutPage.telemetryMozillaLink         "&vendorShortName;">
+<!ENTITY aboutPage.telemetryEnd                 " за подобряване на &brandShortName;.">
+<!ENTITY aboutPage.checkForUpdates.link         "Проверка за обновяване »">
+<!ENTITY aboutPage.checkForUpdates.checking     "Проверяване…">
 <!ENTITY aboutPage.checkForUpdates.none         "Няма налични обновявания">
 <!ENTITY aboutPage.checkForUpdates.available2   "Изтегляне на обновяване">
-<!ENTITY aboutPage.checkForUpdates.downloading  "Изтегляне на обновяване…">
+<!ENTITY aboutPage.checkForUpdates.downloading  "Изтегляне на обновяването…">
 <!ENTITY aboutPage.checkForUpdates.downloaded2  "Инсталиране на обновяване">
-<!ENTITY aboutPage.faq.label                    "ЧЗВ">
+<!ENTITY aboutPage.faq.label                    "Въпроси и отговори">
 <!ENTITY aboutPage.support.label                "Поддръжка">
 <!ENTITY aboutPage.privacyPolicy.label          "Политика за личните данни">
 <!ENTITY aboutPage.rights.label                 "Познавайте своите права">

@@ -76,4 +76,76 @@
 #define firefox_about Apie „Mozillą“
 
 
+# LOCALIZATION NOTE (nightly_heading):
+
+
+# Firefox Nightly links folder name
+
+
+#define nightly_heading „Firefox Nightly“ ištekliai
+
+
+# LOCALIZATION NOTE (nightly_blog):
+
+
+# Nightly builds only, link title for https://blog.nightly.mozilla.org/
+
+
+#define nightly_blog „Firefox Nightly“ tinklaraštis
+
+
+# LOCALIZATION NOTE (bugzilla):
+
+
+# Nightly builds only, link title for https://bugzilla.mozilla.org/
+
+
+#define bugzilla „Mozillos“ klaidų seklys
+
+
+# LOCALIZATION NOTE (mdn):
+
+
+# Nightly builds only, link title for https://developer.mozilla.org/
+
+
+#define mdn „Mozillos“ programuotojų tinklas
+
+
+# LOCALIZATION NOTE (nightly_tester_tools):
+
+
+# Nightly builds only, link title for https://addons.mozilla.org/en-US/firefox/addon/nightly-tester-tools/
+
+
+#define nightly_tester_tools „Nightly“ testuotojų įrankiai
+
+
+# LOCALIZATION NOTE (crashes):
+
+
+# Nightly builds only, link title for about:crashes
+
+
+#define crashes Visos jūsų strigtys
+
+
+# LOCALIZATION NOTE (irc):
+
+
+# Nightly builds only, link title for ircs://irc.mozilla.org/nightly
+
+
+#define irc „Nightly“ diskusijos per IRC
+
+
+# LOCALIZATION NOTE (planet):
+
+
+# Nightly builds only, link title for https://planet.mozilla.org/
+
+
+#define planet „Mozillos“ planeta
+
+
 #unfilter emptyLines

@@ -204,7 +204,7 @@
 <!ENTITY pref_category_experimental "Funkcje eksperymentalne">
 
 <!ENTITY pref_custom_tabs "Niestandardowe karty">
-<!ENTITY pref_custom_tabs_summary "Zewnętrzne aplikacje mogą otwierać karty o niestandardowym wyglądzie.">
+<!ENTITY pref_custom_tabs_summary3 "Aplikacje mogą otwierać strony za pomocą niestandardowej wersji przeglądarki &brandShortName;">
 
 <!ENTITY pref_activity_stream "Activity Stream">
 <!ENTITY pref_activity_stream_summary "Wizualna historia i nowa strona domowa, ułatwiające wyszukiwanie treści w przeglądarce &brandShortName;.">
@@ -364,7 +364,7 @@
 <!ENTITY contextmenu_pasteandgo "Wklej i przejdź do strony">
 <!ENTITY contextmenu_paste "Wklej">
 <!ENTITY contextmenu_copyurl "Kopiuj adres">
-<!ENTITY contextmenu_edit_bookmark "Zmień">
+<!ENTITY contextmenu_edit_bookmark "Edytuj">
 <!ENTITY contextmenu_open_private_tab "Otwórz w trybie prywatnym">
 <!ENTITY contextmenu_subscribe "Subskrybuj stronę">
 <!ENTITY contextmenu_site_settings "Edytuj ustawienia witryny">
@@ -396,7 +396,7 @@
 
 <!ENTITY page_removed "Usunięto stronę">
 
-<!ENTITY bookmark_edit_title "Zmień zakładkę">
+<!ENTITY bookmark_edit_title "Edytuj zakładkę">
 <!ENTITY bookmark_edit_name "Nazwa">
 <!ENTITY bookmark_edit_location "Adres URL">
 <!ENTITY bookmark_edit_keyword "Słowa kluczowe">
@@ -569,7 +569,7 @@
 <!ENTITY bookmarks_restricted_support2 "Firefox: Pomoc dla ograniczonych profili na tabletach Android">
 <!ENTITY bookmarks_restricted_webmaker "Twórz Internet: Mozilla Webmaker">
 
-<!ENTITY unsupported_sdk_version "Ta wersja przeglądarki &brandShortName; nie może działać na tym urządzeniu (&formatS1;, &formatS2;). Prosimy pobrać właściwą wersję.">
+<!ENTITY unsupported_sdk_version "Ta wersja przeglądarki &brandShortName; nie może działać na tym urządzeniu (&formatS1;, &formatS2;). Proszę pobrać właściwą wersję.">
 
 <!ENTITY eol_notification_title2 "&brandShortName; nie będzie już aktualizowany">
 <!ENTITY eol_notification_summary "Stuknij, aby dowiedzieć się więcej">
@@ -589,4 +589,9 @@
 
 <!ENTITY activity_stream_topsites "Popularne">
 <!ENTITY activity_stream_highlights "Wyróżnione">
-<!ENTITY activity_stream_more "Więcej">
+
+<!ENTITY activity_stream_highlight_label_bookmarked "Zakładka">
+<!ENTITY activity_stream_highlight_label_visited "Odwiedzone">
+
+<!ENTITY activity_stream_dismiss "Odrzuć">
+<!ENTITY activity_stream_delete_history "Usuń z historii">

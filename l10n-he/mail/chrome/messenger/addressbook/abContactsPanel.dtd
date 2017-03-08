@@ -2,22 +2,27 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY propertiesMenu.label               "מאפיינים">
+<!ENTITY abPropertiesMenu.label             "מאפייני פנקס כתובות">
+<!ENTITY contactPropertiesMenu.label        "מאפייני איש קשר">
+<!ENTITY mailingListPropertiesMenu.label    "מאפייני רשימת דיוור">
+
 <!ENTITY addressbookPicker.label            "פנקס כתובות">
 <!ENTITY addressbookPicker.accesskey        "פ">
-<!ENTITY searchInput.label                  "חפש את:">
-<!ENTITY searchInput.accesskey              "ח">
 <!ENTITY SearchNameOrEmail.label            "שם או דוא״ל">
 
-<!ENTITY deleteAddrBookCard.label           "מחיקה">
-<!ENTITY deleteAddrBookCard.accesskey       "מ">
-<!ENTITY addrBookCardProperties.label       "מאפיינים">
-<!ENTITY addrBookCardProperties.accesskey   "מ">
 <!ENTITY addtoToFieldMenu.label             "הוספה לשדה אל">
 <!ENTITY addtoToFieldMenu.accesskey         "א">
 <!ENTITY addtoCcFieldMenu.label             "הוספה לשדה עותק">
 <!ENTITY addtoCcFieldMenu.accesskey         "ע">
 <!ENTITY addtoBccFieldMenu.label            "הוספה לשדה עותק מוסר">
 <!ENTITY addtoBccFieldMenu.accesskey        "מ">
+<!ENTITY deleteAddrBookCard.label           "מחיקה">
+<!ENTITY deleteAddrBookCard.accesskey       "מ">
+<!ENTITY propertiesContext.label            "מאפיינים">
+<!ENTITY abPropertiesContext.label          "מאפיינים">
+<!ENTITY editContactContext.label           "עריכת איש קשר">
+<!ENTITY editMailingListContext.label       "עריכת רשימה">
 
 <!ENTITY toButton.label                     "הוסף לשורה אל:">
 <!ENTITY toButton.accesskey                 "א">
@@ -25,4 +30,3 @@
 <!ENTITY ccButton.accesskey                 "ע">
 <!ENTITY bccButton.label                    "הוסף עותק סמוי:">
 <!ENTITY bccButton.accesskey                "ס">
-

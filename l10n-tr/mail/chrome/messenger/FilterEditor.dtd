@@ -23,8 +23,8 @@
 <!ENTITY contextManual.accesskey "E">
 <!ENTITY contextBeforeCls.label "Gereksiz sınıflandırmasından önce süz">
 <!ENTITY contextAfterCls.label "Gereksiz sınıflandırmasından sonra süz">
-<!ENTITY contextOutgoing.label "Gönderdikten Sonra">
-<!ENTITY contextOutgoing.accesskey "S">
+<!ENTITY contextOutgoing.label "Gönderdikten sonra">
+<!ENTITY contextOutgoing.accesskey "s">
 <!ENTITY contextArchive.label "Arşivleme">
 <!ENTITY contextArchive.accesskey "A">
 
@@ -56,10 +56,11 @@
 <!ENTITY addAction.tooltip "Yeni eylem ekle">
 <!ENTITY removeAction.tooltip "Bu eylemi kaldır">
 <!-- LOCALIZATION NOTE
-  The values below are used to control the widths of the filter action widgets.
-  Change the values only when the localized strings in the popup menus
-  are truncated in the widgets.
- -->
+     The values below are used to control the widths of the filter action widgets.
+     Change the values only when the localized strings in the popup menus
+     are truncated in the widgets.
+  -->
+<!-- Flex Attribute: https://developer.mozilla.org/docs/XUL/Attribute/flex -->
 
 <!ENTITY filterActionTypeFlexValue "1">
 <!ENTITY filterActionTargetFlexValue "4">

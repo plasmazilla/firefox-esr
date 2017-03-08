@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Ովքեր շահագրգռված են, որ իրենց հավելումները ստուգվեն, կարող են կարդալ մեր ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "ձեռնարկ">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Ինչ-որ բան բացակայու՞մ է: Որոշ բաղադրիչներ այլևս չեն աջակցվում &brandShortName;-ի կողմից:">
+<!ENTITY pluginDeprecation.learnMore "Իմանալ ավելին:">

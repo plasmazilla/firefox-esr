@@ -38,11 +38,13 @@
 
 <!-- Device Settings -->
 <!ENTITY syncDeviceName.label       "Emër Pajisjeje:">
-<!ENTITY syncDeviceName.accesskey   "E">
 <!ENTITY fxaSyncDeviceName.label    "Emër Pajisjeje">
 <!ENTITY changeSyncDeviceName.label "Ndryshoni Emër Pajisjeje…">
+<!ENTITY changeSyncDeviceName.accesskey "N">
 <!ENTITY cancelChangeSyncDeviceName.label "Anuloje">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "A">
 <!ENTITY saveChangeSyncDeviceName.label "Ruaje">
+<!ENTITY saveChangeSyncDeviceName.accesskey "u">
 <!ENTITY unlinkDevice.label           "Shkëpute Këtë Pajisje">
 
 <!-- Footer stuff -->
@@ -50,7 +52,7 @@
 <!ENTITY prefs.ppLink.label         "Rregulla Privatësie">
 
 <!-- Firefox Accounts stuff -->
-<!ENTITY fxaPrivacyNotice.link.label "Shënim Privatësie">
+<!ENTITY fxaPrivacyNotice.link.label "Shënim Mbi Privatësinë">
 <!ENTITY determiningAcctStatus.label     "Po përcaktohet gjendja e llogarisë suaj…">
 
 <!-- LOCALIZATION NOTE (signedInUnverified.beforename.label,
@@ -71,11 +73,16 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY notSignedIn.label           "S&apos;jeni i futur.">
 <!ENTITY signIn.label                "Hyni">
+<!ENTITY signIn.accesskey            "y">
 <!ENTITY profilePicture.tooltip      "Ndryshoni foto profili">
 <!ENTITY verifiedManage.label        "Administroni Llogari">
+<!ENTITY verifiedManage.accesskey    "A">
 <!ENTITY disconnect.label            "Shkëputuni…">
+<!ENTITY disconnect.accesskey        "k">
 <!ENTITY verify.label                "Verifikoni Email">
+<!ENTITY verify.accesskey            "V">
 <!ENTITY forget.label                "Harroje këtë Email">
+<!ENTITY forget.accesskey            "H">
 
 <!ENTITY welcome.description "Përdorni skedat, faqerojtësit, fjalëkalimet tuaja dhe të tjera kudo që përdorni &brandShortName;.">
 <!ENTITY welcome.signIn.label "Hyni">
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "Njëkohësoni nëpër krejt pajisjet tuaja faqerojtësit, historikun e shfletimeve, skedat, fjalëkalimet, shtesat dhe parapëlqimet tuaja.">
 <!ENTITY signedOut.accountBox.title   "Lidhuni përmes një &syncBrand.fxAccount.label;">
 <!ENTITY signedOut.accountBox.create  "Krijoje Llogarinë">
+<!ENTITY signedOut.accountBox.create.accesskey  "K">
 <!ENTITY signedOut.accountBox.signin  "Hyni">
+<!ENTITY signedOut.accountBox.signin.accesskey  "H">
 
 <!ENTITY signedIn.engines.label       "Njëkohësoje nëpër krejt pajisjet">
 

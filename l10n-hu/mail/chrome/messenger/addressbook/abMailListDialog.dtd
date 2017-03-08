@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!-- Title -->
 
-<!ENTITY mailListWindow.title           "Levelezőlista">
+<!ENTITY mailListWindowAdd.title        "Új levelezőlista">
 <!-- Labels -->
 <!ENTITY addToAddressBook.label         "Hozzáadás: ">
 

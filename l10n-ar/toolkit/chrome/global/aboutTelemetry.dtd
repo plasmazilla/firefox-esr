@@ -6,6 +6,7 @@
 
 <!ENTITY aboutTelemetry.changeDataChoices "  غيّر">
 
+<!ENTITY aboutTelemetry.uploadEnabled "  رفع بيانات FHR <span>مفعّل</span>.">
 
 <!ENTITY aboutTelemetry.uploadDisabled "  رفع بيانات FHR <span>معطّل</span>.">
 
@@ -13,6 +14,7 @@
 
 <!ENTITY aboutTelemetry.extendedRecordingDisabled "  تسجيل القياس عن بعد الموسع <span>معطل</span>.">
 
+<!ENTITY aboutTelemetry.pingDataSource "اختبار مصدر البيانات">
 
 
 
@@ -21,8 +23,11 @@
 <!ENTITY aboutTelemetry.raw "JSON خام">
 
 
+<!ENTITY aboutTelemetry.choosePing "اختر الاختبار">
 
+<!ENTITY aboutTelemetry.showNewerPing "&lt;&lt; أحدث اختبار">
 
+<!ENTITY aboutTelemetry.showOlderPing "الاختبار الأقدم &gt;&gt;">
 
 
 <!ENTITY aboutTelemetry.archiveWeekHeader "أسبوع">
@@ -42,6 +47,7 @@
 <!ENTITY aboutTelemetry.threadHangStatsSection "  تعليقات الخيوط">
 
 
+
 <!ENTITY aboutTelemetry.histogramsSection "  رسوم بيانية">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  رسوم بيانية مفتاحية">
@@ -52,6 +58,7 @@
 
 <!ENTITY aboutTelemetry.lateWritesSection "  كتابات متأخرّة">
 
+<!ENTITY aboutTelemetry.sessionInfoSection "  معلومات الجلسة">
 
 <!ENTITY aboutTelemetry.addonHistogramsSection "  رسومات بيانية جمعتها الإضافات">
 
@@ -67,4 +74,5 @@
 
 <!ENTITY aboutTelemetry.filterText "  مرشح (نصوص أو /regexp/)">
 
+<!ENTITY aboutTelemetry.payloadChoiceHeader "  الحمولة">
 

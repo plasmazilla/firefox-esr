@@ -3,8 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY identityDialog.style "min-width: 85ch;">
-<!ENTITY identityTitle.label "Параметры адреса электронной почты">
 <!ENTITY identityListDesc.label "Настроить параметры данного адреса электронной почты:">
 <!ENTITY settingsTab.label "Настройки">
 <!ENTITY copiesFoldersTab.label "Копии и папки">
 <!ENTITY addressingTab.label "Составление сообщений и адресация">
+<!ENTITY publicData.label "Публичные данные">
+<!ENTITY privateData.label "Приватные данные">
+<!ENTITY identityAlias.label "Метка адреса эл. почты:">
+<!ENTITY identityAlias.accesskey "к">

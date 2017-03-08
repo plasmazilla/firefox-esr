@@ -29,11 +29,11 @@
 <!ENTITY debugAddons.accesskey                "I">
 <!-- global warnings -->
 
-<!ENTITY warning.safemode.label                    "All add-ons have been disabled by safe mode.">
-<!ENTITY warning.checkcompatibility.label          "Add-on compatibility checking is disabled. You may have incompatible add-ons.">
+<!ENTITY warning.safemode.label                    "Armad n izegrar yekkes-it uskar aɣalsan.">
+<!ENTITY warning.checkcompatibility.label          "Asenqedn umṣada n izegrar ur yermid ara. Yezmer ad tesɛuḍ izegrar ur yemṣadan ara.">
 <!ENTITY warning.checkcompatibility.enable.label   "Rmed">
 <!ENTITY warning.checkcompatibility.enable.tooltip "Rmed asenqed n tisiḍent">
-<!ENTITY warning.updatesecurity.label              "Add-on update security checking is disabled. You may be compromised by updates.">
+<!ENTITY warning.updatesecurity.label              "Asenqed n ileqman n tɣellist n izegrar ur yermid ara. Yezmer ad tesɛuḍ yir izegrar.">
 <!ENTITY warning.updatesecurity.enable.label       "Rmed">
 <!ENTITY warning.updatesecurity.enable.tooltip     "Rmed asenqed n ileqman n tɣellist i yezgrar isemmadanen">
 <!-- categories / views -->
@@ -135,7 +135,7 @@
 <!ENTITY detail.updateType                    "Aleqqem awurman">
 <!ENTITY detail.updateDefault.label           "Awennez amezwaru">
 <!ENTITY detail.updateDefault.tooltip         "Sebded ileqman s wudem awurman ma yella d-amezwer kan.">
-<!ENTITY detail.updateAutomatic.label         "Remden">
+<!ENTITY detail.updateAutomatic.label         "Yermed">
 <!ENTITY detail.updateAutomatic.tooltip       "Sebded ileqman s wudem awurman">
 <!ENTITY detail.updateManual.label            "Yensa">
 <!ENTITY detail.updateManual.tooltip          "Ur sebdad ara ileqman s wudem awurman">
@@ -185,7 +185,7 @@
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
-<!ENTITY addon.disabled.postfix               "(yettwassens)">
+<!ENTITY addon.disabled.postfix               "(yensa)">
 <!-- LOCALIZATION NOTE (addon.update.postfix): This is used in the available
      updates list to signify that an item is an update, in the form
      "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "ineflayen yebɣan ad sneqden izegrar nsen zemren ad d-awin ugar n telɣut ma ɣṛan ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "s ufus">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Tettut kra? Kra nizegrar ur ttwasefranken ara tura di &brandShortName;.">
+<!ENTITY pluginDeprecation.learnMore "Issin ugar">

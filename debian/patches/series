@@ -1,6 +1,4 @@
 fixes/Allow-.js-preference-files-to-set-locked-prefs-with-.patch
-fixes/Bug-1115944-Work-around-race-condition-between-build.patch
-fixes/Bug-1315882-Unbreak-with-system-nspr-after-bug-11159.patch
 porting/Add-xptcall-support-for-SH4-processors.patch
 porting/NSS-Fix-FTBFS-on-Hurd-because-of-MAXPATHLEN.patch
 porting/NSS-GNU-kFreeBSD-support.patch
@@ -10,10 +8,6 @@ porting/Fix-CPU_ARCH-test-for-libjpeg-on-mips.patch
 porting/Fix-crashes-in-AtomicOperations-none-on-s390x.patch
 porting/Fix-broken-MIPS-build.patch
 porting/Work-around-Debian-bug-844357.patch
-porting/Bug-1319389-Generically-set-SK_CPU_-BL-ENDIAN-based-.patch
-porting/Bug-1319374.-Fix-disable-skia-builds.-r-lsalzman.patch
-porting/Build-Skia-NEON-code-on-arm64.patch
-porting/Bug-1303688-Baldr-MIPS-Take-advantage-of-guard-page-.patch
 prefs/Set-javascript.options.showInConsole.patch
 prefs/Set-DPI-to-system-settings.patch
 prefs/Don-t-auto-disable-extensions-in-system-directories.patch

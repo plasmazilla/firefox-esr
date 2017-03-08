@@ -246,3 +246,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Kehittäjät, joita kiinnostaa lisäosansa varmentaminen voivat lukea ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "käsikirjamme">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "Puuttuuko jotain? &brandShortName; ei enää tue joitain liitännäisiä.">
+<!ENTITY pluginDeprecation.learnMore "Lue lisää.">

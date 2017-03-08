@@ -2,9 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY addressbookWindow.title                        "Ευρετήριο διευθύνσεων">
+<!ENTITY addressbookWindow.title                        "Βιβλίο διευθύνσεων">
 <!ENTITY blankResultsPaneMessage.label                  "Αυτό το βιβλίο διευθύνσεων εμφανίζει επαφές μόνο μετά από μια αναζήτηση">
 <!ENTITY localResultsOnlyMessage.label                  "Επαφές από απομακρυσμένα βιβλία διευθύνσεων δεν εμφανίζονται μέχρι να γίνει αναζήτηση">
+
 <!-- File Menu -->
 <!ENTITY fileMenu.label                                 "Αρχείο">
 <!ENTITY fileMenu.accesskey                             "χ">
@@ -15,7 +16,7 @@
 <!ENTITY newContact.key                                 "N">
 <!ENTITY newListCmd.label                               "Λίστα αλληλογραφίας...">
 <!ENTITY newListCmd.accesskey                           "Λ">
-<!ENTITY newAddressBookCmd.label                        "Ευρετήριο διευθύνσεων...">
+<!ENTITY newAddressBookCmd.label                        "Βιβλίο διευθύνσεων…">
 <!ENTITY newAddressBookCmd.accesskey                    "ρ">
 <!ENTITY newLDAPDirectoryCmd.label                      "Κατάλογος LDAP...">
 <!ENTITY newLDAPDirectoryCmd.accesskey                  "Κ">
@@ -46,7 +47,7 @@
 <!ENTITY undoCmd.label                                  "Αναίρεση">
 <!ENTITY undoCmd.key                                    "Z">
 <!ENTITY undoCmd.accesskey                              "ν">
-<!ENTITY redoCmd.label                                  "Ακύρωση αναίρεσης">
+<!ENTITY redoCmd.label                                  "Επανάληψη">
 <!ENTITY redoCmd.key                                    "Y">
 <!ENTITY redoCmd.accesskey                              "κ">
 <!ENTITY cutCmd.label                                   "Αποκοπή">
@@ -75,18 +76,24 @@
 <!-- LOCALIZATION NOTE (hideSwapFnLnUI) : DONT_TRANSLATE -->
 <!-- Swap FN/LN UI  Set to "false" to show swap fn/ln UI -->
 <!ENTITY hideSwapFnLnUI "true">
-<!ENTITY propertiesCmd2.label                           "Ιδιότητες">
-<!ENTITY propertiesCmd2.accesskey                       "δ">
+<!ENTITY propertiesMenu.label                           "Ιδιότητες">
+<!ENTITY propertiesMenu.accesskey                       "ι">
 <!ENTITY propertiesCmd.key                              "i">
+<!ENTITY abPropertiesMenu.label                         "Ιδιότητες Βιβλίου Διευθύνσεων">
+<!ENTITY abPropertiesMenu.accesskey                     "ι">
+<!ENTITY contactPropertiesMenu.label                    "Ιδιότητες Επαφής">
+<!ENTITY contactPropertiesMenu.accesskey                "ι">
+<!ENTITY mailingListPropertiesMenu.label                "Ιδιότητες Λίστας Ταχυδρομείου">
+<!ENTITY mailingListPropertiesMenu.accesskey            "ι">
 
 <!-- View Menu -->
 <!ENTITY viewMenu.label                                 "Προβολή">
 <!ENTITY viewMenu.accesskey                             "β">
 <!ENTITY viewToolbarsMenu.label                         "Εργαλειοθήκες">
 <!ENTITY viewToolbarsMenu.accesskey                     "γ">
-<!ENTITY menubarCmd.label                               "Εργαλειοθήκη μενού">
+<!ENTITY menubarCmd.label                               "Γραμμή εργαλείων μενού">
 <!ENTITY menubarCmd.accesskey                           "μ">
-<!ENTITY showAbToolbarCmd.label                         "Εργαλειοθήκη ευρετηρίου διευθύνσεων">
+<!ENTITY showAbToolbarCmd.label                         "Γραμμή εργαλείων βιβλίου διευθύνσεων">
 <!ENTITY showAbToolbarCmd.accesskey                     "ρ">
 <!ENTITY showTaskbarCmd.label                           "Γραμμή κατάστασης">
 <!ENTITY showTaskbarCmd.accesskey                       "μ">
@@ -133,8 +140,15 @@ because displayed names don't have the comma in between. -->
 <!ENTITY newContactButton.accesskey                     "φ">
 <!ENTITY newlistButton.label                            "Νέα λίστα">
 <!ENTITY newlistButton.accesskey                        "λ">
-<!ENTITY editButton2.label                              "Ιδιότητες">
-<!ENTITY editButton2.accesskey                          "δ">
+<!ENTITY editPropertiesButton.label                     "Τροποποίηση">
+<!ENTITY propertiesContext.label                        "Ιδιότητες">
+<!ENTITY propertiesContext.accesskey                    "ι">
+<!ENTITY abPropertiesContext.label                      "Ιδιότητες">
+<!ENTITY abPropertiesContext.accesskey                  "ι">
+<!ENTITY editContactContext.label                       "Τροποποίηση Επαφής">
+<!ENTITY editContactContext.accesskey                   "Ε">
+<!ENTITY editMailingListContext.label                   "Τροποποίηση Λίστας">
+<!ENTITY editMailingListContext.accesskey               "Ε">
 <!ENTITY newmsgButton.label                             "Σύνταξη">
 <!ENTITY newmsgButton.accesskey                         "Σ">
 <!ENTITY newIM.label                                    "Άμεσο Μήνυμα">
@@ -147,7 +161,10 @@ because displayed names don't have the comma in between. -->
 <!-- Address Book Toolbar Tooltips -->
 <!ENTITY newContactButton.tooltip                       "Δημιουργία νέας επαφής στο ευρετήριο">
 <!ENTITY newlistButton.tooltip                          "Δημιουργία νέας λίστας">
-<!ENTITY editButton2.tooltip                            "Επεξεργασία επιλεγμένου αντικειμένου">
+<!ENTITY editPropertiesButton.tooltip                   "Τροποποίηση του επιλεγμένου αντικειμένου">
+<!ENTITY editAbPropertiesButton.tooltip                 "Τροποποίηση των ιδιοτήτων του επιλεγμένου βιβλίου διευθύνσεων">
+<!ENTITY editContactPropertiesButton.tooltip            "Τροποποίηση των ιδιοτήτων της επιλεγμένης επαφής">
+<!ENTITY editMailingListPropertiesButton.tooltip        "Τροποποίηση των ιδιοτήτων της επιλεγμένης λίστας ταχυδρομείου">
 <!ENTITY newmsgButton.tooltip                           "Αποστολή ενός μηνύματος αλληλογραφίας">
 <!ENTITY newIM.tooltip                                  "Αποστολή ενός άμεσου μηνύματος ή chat">
 <!ENTITY deleteButton2.tooltip                          "Διαγραφή επιλεγμένου αντικειμένου">

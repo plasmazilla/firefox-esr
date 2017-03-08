@@ -165,15 +165,15 @@
 <!ENTITY devicepreference_title "Настройки на устройството">
 <!ENTITY devicepreference_search "Настройки за търсенето">
 <!ENTITY devicepreference_newname "Ново име за настройките">
-<!ENTITY devicepreference_newtext "Референтна стойност">
-<!ENTITY devicepreference_addnew "Добавяне на нови настройки">
+<!ENTITY devicepreference_newtext "Стойност">
+<!ENTITY devicepreference_addnew "Добавяне на настройки">
 
 <!-- Device Settings -->
 <!ENTITY devicesetting_title "Настройки на устройството">
 <!ENTITY devicesetting_search "Настройки на търсене">
 <!ENTITY devicesetting_newname "Ново име за настройката">
 <!ENTITY devicesetting_newtext "Стойност за настройката">
-<!ENTITY devicesetting_addnew "Добавяне на нова настройка">
+<!ENTITY devicesetting_addnew "Добавяне на настройка">
 
 <!-- Monitor -->
 <!ENTITY monitor_title "Следене">

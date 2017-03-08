@@ -38,11 +38,13 @@
 <!-- Device Settings -->
 
 <!ENTITY syncDeviceName.label       "Nying Nyonyo:">
-<!ENTITY syncDeviceName.accesskey   "y">
 <!ENTITY fxaSyncDeviceName.label       "Nying Nyonyo">
 <!ENTITY changeSyncDeviceName.label "Lok nying nyonyo…">
-<!ENTITY cancelChangeSyncDeviceName.label "Juk">
-<!ENTITY saveChangeSyncDeviceName.label "Gwok">
+<!ENTITY changeSyncDeviceName.accesskey "o">
+<!ENTITY cancelChangeSyncDeviceName.label "Ngol">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "o">
+<!ENTITY saveChangeSyncDeviceName.label "Gwoki">
+<!ENTITY saveChangeSyncDeviceName.accesskey "o">
 <!ENTITY unlinkDevice.label           "Ngol kube ki nyonyo man">
 <!-- Footer stuff -->
 
@@ -71,11 +73,16 @@ both, to better adapt this sentence to their language.
 
 <!ENTITY notSignedIn.label           "Pe i donyo iye.">
 <!ENTITY signIn.label                "Dony iyie">
+<!ENTITY signIn.accesskey            "o">
 <!ENTITY profilePicture.tooltip      "Lok cal me propwail">
 <!ENTITY verifiedManage.label        "Lo Akaunt">
-<!ENTITY disconnect.label            "Wek kube…">
+<!ENTITY verifiedManage.accesskey    "o">
+<!ENTITY disconnect.label            "Juk kube…">
+<!ENTITY disconnect.accesskey        "J">
 <!ENTITY verify.label                "Mok ada pa email">
+<!ENTITY verify.accesskey            "M">
 <!ENTITY forget.label                "Wek wiyi owil ikom email man">
+<!ENTITY forget.accesskey            "e">
 
 <!ENTITY welcome.description "Nong dirica matino, alama me buk, mung me donyo ki mukene mamegi ka itiyo ki &brandShortName;.">
 <!ENTITY welcome.signIn.label "Dony iye">
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "Tim alamabuk, gin mukato, dirica matino, mung me donyo, med-ikome ki jami ayera i nyonyo ni weng marom.">
 <!ENTITY signedOut.accountBox.title   "Kube ki &syncBrand.fxAccount.label;">
 <!ENTITY signedOut.accountBox.create  "Cwe akaunt">
+<!ENTITY signedOut.accountBox.create.accesskey  "C">
 <!ENTITY signedOut.accountBox.signin  "Dony iye">
+<!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
 <!ENTITY signedIn.engines.label       "Tii marom i nyonyo weng">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to

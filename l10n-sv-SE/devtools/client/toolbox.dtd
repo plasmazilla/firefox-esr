@@ -158,6 +158,15 @@
 
 <!ENTITY options.timestampMessages.label      "Aktivera tidsstämplar">
 <!ENTITY options.timestampMessages.tooltip    "Om du aktiverar detta alternativ kommer kommandon och utdata i webbkonsolen att visas med en tidsstämpel">
+<!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
+  -  heading of the group of Debugger preferences in the options panel. -->
+
+<!ENTITY options.debugger.label            "Avlusare">
+<!-- LOCALIZATION NOTE (options.sourceMap.label): This is the
+   - label for the checkbox that toggles source maps in the Debugger -->
+
+<!ENTITY options.sourceMaps.label      "Aktivera källmappning">
+<!ENTITY options.sourceMaps.tooltip    "Om du aktiverar det här alternativet kommer källor att mappas i avlusaren och konsolen.">
 <!-- LOCALIZATION NOTE (options.styleeditor.label): This is the label for the
   -  heading of the group of Style Editor preferences in the options
   -  panel. -->

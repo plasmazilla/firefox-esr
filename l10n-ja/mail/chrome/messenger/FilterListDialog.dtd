@@ -7,6 +7,8 @@
 <!ENTITY activeColumn.label		"有効">
 <!ENTITY newButton.label		"新規...">
 <!ENTITY newButton.accesskey		"N">
+<!ENTITY newButton.popupCopy.label	"コピー...">
+<!ENTITY newButton.popupCopy.accesskey	"C">
 <!ENTITY editButton.label		"編集...">
 <!ENTITY editButton.accesskey		"E">
 <!ENTITY deleteButton.label		"削除">
@@ -30,7 +32,7 @@
 <!ENTITY runFilters.accesskey		"R">
 <!ENTITY stopFilters.label		"停止">
 <!ENTITY stopFilters.accesskey		"S">
-<!ENTITY folderPickerPrefix.label	"フィルターを使用するフォルダ:">
+<!ENTITY folderPickerPrefix.label	"フィルターを使用するフォルダー:">
 <!ENTITY folderPickerPrefix.accesskey	"c">
 <!ENTITY helpButton.label		"Help">
 <!ENTITY helpButton.accesskey		"H">

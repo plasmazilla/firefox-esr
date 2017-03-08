@@ -11,10 +11,14 @@
   https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
 -->
 
+<!ENTITY  enableSafeBrowsing.label        "Blokkeer gevaarlike en bedrieglike inhoud">
+<!ENTITY  enableSafeBrowsing.accesskey    "B">
 
+<!ENTITY  blockDownloads.label            "Blokkeer gevaarlike aflaaie">
+<!ENTITY  blockDownloads.accesskey        "g">
 
-
-
+<!ENTITY  blockUncommonUnwanted.label     "Waarsku my oor ongewensde en ongewone sagteware">
+<!ENTITY  blockUncommonUnwanted.accesskey "d">
 
 <!ENTITY  addonExceptions.label         "Uitsonderings…">
 <!ENTITY  addonExceptions.accesskey     "U">
@@ -22,7 +26,7 @@
 
 <!ENTITY  logins.label                  "Aanmeldings">
 
-<!ENTITY  rememberLogins.label          "Onthou aanmelinligting vir werwe">
+<!ENTITY  rememberLogins.label          "Onthou aanmeldinligting vir werwe">
 <!ENTITY  rememberLogins.accesskey      "O">
 <!ENTITY  passwordExceptions.label      "Uitsonderings…">
 <!ENTITY  passwordExceptions.accesskey  "U">

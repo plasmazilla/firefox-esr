@@ -54,6 +54,8 @@
 
 <!ENTITY aboutTelemetry.scalarsSection "  Skalari">
 
+<!ENTITY aboutTelemetry.keyedScalarsSection "  Keyed skalari">
+
 <!ENTITY aboutTelemetry.histogramsSection "  Histogrami">
 
 <!ENTITY aboutTelemetry.keyedHistogramsSection "  Histogrami s ključem">

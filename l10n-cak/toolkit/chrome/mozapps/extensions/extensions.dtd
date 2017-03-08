@@ -243,3 +243,6 @@
 <!ENTITY disabledUnsigned.devInfo.start "Nuk'unela' nikajo' yekinik'oj ri taq kitz'aqat, tikirel tikisik'ij ri qichin ">
 <!ENTITY disabledUnsigned.devInfo.linkToManual "etamawuj">
 <!ENTITY disabledUnsigned.devInfo.end ".">
+
+<!ENTITY pluginDeprecation.description "¿La k'o nanataj? Jujun taq nak'ab'äl man nikixïm ta chik ki' ruma &brandShortName;.">
+<!ENTITY pluginDeprecation.learnMore "Tetamäx ch'aqa' chik.">

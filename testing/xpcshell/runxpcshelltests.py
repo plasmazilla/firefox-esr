@@ -243,7 +243,7 @@ class XPCShellTestThread(Thread):
           Simple wrapper to launch a process.
           On a remote system, this is more complex and we need to overload this function.
         """
-        # timeout is needed by remote and b2g xpcshell to extend the
+        # timeout is needed by remote xpcshell to extend the
         # devicemanager.shell() timeout. It is not used in this function.
         if HAVE_PSUTIL:
             popen_func = psutil.Popen
@@ -1023,7 +1023,10 @@ class XPCShellTests(object):
             except (subprocess.CalledProcessError, OSError), e:
                 self.log.error('Could not retrieve node version: %s' % str(e))
 
-        if nodeBin:
+        if os.getenv('MOZ_ASSUME_NODE_RUNNING', None):
+            self.log.info('Assuming required node servers are already running')
+            nodeMozInfo['hasNode'] = True
+        elif nodeBin:
             self.log.info('Found node at %s' % (nodeBin,))
 
             def startServer(name, serverJs):
@@ -1051,9 +1054,6 @@ class XPCShellTests(object):
 
             myDir = os.path.split(os.path.abspath(__file__))[0]
             startServer('moz-http2', os.path.join(myDir, 'moz-http2', 'moz-http2.js'))
-        elif os.getenv('MOZ_ASSUME_NODE_RUNNING', None):
-            self.log.info('Assuming required node servers are already running')
-            nodeMozInfo['hasNode'] = True
 
         mozinfo.update(nodeMozInfo)
 

@@ -23,10 +23,13 @@
 <!ENTITY fileNotFound.longDesc "<ul> <li>Проверете името на файла за големи/малки букви или други грешки при въвеждане.</li> <li>Проверете дали файлът не е преместен, преименуван или изтрит.</li> </ul>">
 
 <!ENTITY fileAccessDenied.title "Достъпът до файла е отказан">
-<!ENTITY fileAccessDenied.longDesc "<ul><li>Може да е премахнат, преместен или правата му да забраняват достъпа.</li></ul>
+<!ENTITY fileAccessDenied.longDesc "
+<ul>
+  <li>Може да е премахнат, преместен или правата му да забраняват достъпа.</li>
+</ul>
 ">
 
-<!ENTITY generic.title "Опа.">
+<!ENTITY generic.title "Олеле.">
 <!ENTITY generic.longDesc "<p>По някаква причина &brandShortName; не може да зареди тази страница.</p>">
 
 <!ENTITY malformedURI.title "Този адрес не е верен">
@@ -87,7 +90,7 @@
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; предотврати зареждането на страницата по този начин, защото тя има политика за сигурност, която го забранява.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "Грешка поради развалено съдържание">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>Страницата не може да бъде показана поради грешка при прехвърлянето на данните.</p><ul><li>Моля, свържете се със собствениците на сайта, за да ги информирате за проблема.</li></ul>">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Страницата не може да бъде показана поради грешка при прехвърляне на данните.</p><ul><li>Моля, свържете се със собствениците на сайта, за да ги информирате за проблема.</li></ul>">
 
 <!ENTITY securityOverride.linkText "Или можете да добавите изключение…">
 <!ENTITY securityOverride.getMeOutOfHereButton "Махнете ме от тук!">

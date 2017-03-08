@@ -392,6 +392,8 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Kirjoita osoite tai hakutermi">
 <!ENTITY urlbar.accesskey             "d">
+<!-- LOCALIZATION NOTE (urlbar.extension.label): Used to indicate that a selected autocomplete entry is provided by an extension. -->
+<!ENTITY urlbar.extension.label       "Laajennus:">
 <!ENTITY urlbar.switchToTab.label     "Siirry välilehteen:">
 
 <!ENTITY urlbar.searchSuggestionsNotification.question "Näytetäänkö hakuja tehdessä hakuehdotuksia?">
@@ -710,16 +712,16 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.weakEncryption "Sivusto käyttää heikkoa salausta.">
 
 <!-- Strings for connection state warnings in the subview. -->
-<!ENTITY identity.description.insecure "Yhteytesi verkkosivustoon ei ole yksityinen. Sivullisten on mahdollista tarkastella lähetettyjä tietoja (esim. salasanoja, viestejä, luottokorttitietoja).">
+<!ENTITY identity.description.insecure "Yhteytesi verkkosivustoon ei ole yksityinen. Sivullisten on mahdollista tarkastella antamiasi tietoja (esim. salasanoja, viestejä, luottokorttitietoja).">
 <!ENTITY identity.description.insecureLoginForms "Kirjautumistiedot, jotka annat tällä sivulla eivät ole suojassa ja ne voidaan murtaa.">
 <!ENTITY identity.description.weakCipher "Yhteytesi verkkosivustoon käyttää heikkoa salausta eikä sen takia ole yksityinen.">
-<!ENTITY identity.description.weakCipher2 "Sivullisten on mahdollista tarkastella lähetettyjä tietoja tai vaikuttaa sivuston toimintaan.">
+<!ENTITY identity.description.weakCipher2 "Sivullisten on mahdollista tarkastella antamiasi tietoja tai vaikuttaa sivuston toimintaan.">
 <!ENTITY identity.description.activeBlocked "&brandShortName; on estänyt suojaamattoman sisällön näyttämisen.">
 <!ENTITY identity.description.passiveLoaded "Yhteytesi verkkosivustoon ei ole yksityinen ja sivullisten on mahdollista tarkastella tietoja, joita lähetät sivustolle.">
 <!ENTITY identity.description.passiveLoaded2 "Tällä sivulla on suojaamatonta sisältöä (kuten kuvia).">
 <!ENTITY identity.description.passiveLoaded3 "Vaikka &brandShortName; on osaksi estänyt suojaamattoman sisällön, mutta osa näkyvästä sisällöstä on edelleen suojaamatonta (kuten kuvat).">
 <!ENTITY identity.description.activeLoaded "Tällä sivulla on suojaamatonta sisältöä (kuten komentosarjoja) eikä yhteytesi sivustoon ei ole yksityinen.">
-<!ENTITY identity.description.activeLoaded2 "Sivullisten on mahdollista tarkastella lähetettyjä tietoja (esim. salasanoja, viestejä, luottokorttitietoja).">
+<!ENTITY identity.description.activeLoaded2 "Sivullisten on mahdollista tarkastella antamiasi tietoja (esim. salasanoja, viestejä, luottokorttitietoja).">
 
 <!ENTITY identity.enableMixedContentBlocking.label "Ota suojaus käyttöön">
 <!ENTITY identity.enableMixedContentBlocking.accesskey "O">
@@ -793,7 +795,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY customizeMode.toolbars "Näytä tai piilota työkalupalkkeja">
 <!ENTITY customizeMode.titlebar "Otsikkopalkki">
 <!ENTITY customizeMode.lwthemes "Teemat">
-<!ENTITY customizeMode.lwthemes.myThemes "Minun teemat">
+<!ENTITY customizeMode.lwthemes.myThemes "Omat teemat">
 <!ENTITY customizeMode.lwthemes.recommended "Suositellut">
 <!ENTITY customizeMode.lwthemes.menuManage "Muokkaa">
 <!ENTITY customizeMode.lwthemes.menuManage.accessKey "M">

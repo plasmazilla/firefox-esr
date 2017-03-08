@@ -28,10 +28,10 @@
 <!-- labels -->
 
 <!ENTITY displayTagsText.label     "Պիտակներով կարող եք կարգավորել և դասակարգել Ձեր նամակները։">
-<!ENTITY addTagButton.label        "Ավելացնել">
-<!ENTITY addTagButton.accesskey    "A">
-<!ENTITY editTagButton.label       "Խմբագրել">
-<!ENTITY editTagButton.accesskey   "E">
+<!ENTITY newTagButton.label        "Նոր...">
+<!ENTITY newTagButton.accesskey    "Ն">
+<!ENTITY editTagButton1.label      "Խմբագրել...">
+<!ENTITY editTagButton1.accesskey  "Խ">
 <!ENTITY removeTagButton.label     "Ջնջել">
 <!ENTITY removeTagButton.accesskey "D">
 <!-- Fonts and Colors -->

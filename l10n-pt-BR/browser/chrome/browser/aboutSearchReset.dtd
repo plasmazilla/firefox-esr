@@ -4,14 +4,14 @@
 
 <!ENTITY searchreset.tabtitle       "Restaurar as configurações de pesquisa">
 
-<!ENTITY searchreset.pageTitle      "Restaurar as configurações de pesquisa?">
+<!ENTITY searchreset.pageTitle      "Restaurar suas configurações de pesquisa?">
 
 <!ENTITY searchreset.pageInfo1      "Suas configurações de pesquisa podem estar desatualizadas. O &brandShortName; pode ajudar a restaurar as configurações de pesquisar.">
 
 
 <!-- LOCALIZATION NOTE (searchreset.selector.label): this string is
 followed by a dropdown of all the built-in search engines. -->
-<!ENTITY searchreset.selector.label "Isto irá definir o seu mecanismo de pesquisa padrão">
+<!ENTITY searchreset.selector.label "Isto definirá o seu mecanismo de pesquisa padrão">
 
 <!-- LOCALIZATION NOTE (searchreset.beforelink.pageInfo,
 searchreset.afterlink.pageInfo): these two string are used respectively

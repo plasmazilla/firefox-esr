@@ -29,14 +29,18 @@
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "&#037; завършено">
 
-<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
-   - These two labels are displayed side by side in the event dialog, make sure
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label,
+     event.attendees.disallowcounter.label)
+   - These three labels are displayed side by side in the event dialog, make sure
    - they still fit in. -->
-<!ENTITY event.attendees.notify.label               "Уведомяване на участниците">
-<!ENTITY event.attendees.notify.accesskey           "У">
-<!ENTITY event.attendees.notifyundisclosed.label    "Отделна покана за всеки участник">
-<!ENTITY event.attendees.notifyundisclosed.accesskey  "д">
-<!ENTITY event.attendees.notifyundisclosed.tooltip  "Така се изпраща отделна покана за всеки един участник. Всяка покана съдържа само адреса на получателя, така че другите участници не се виждат.">
+<!ENTITY event.attendees.notify.label                "Уведомяване на участниците">
+<!ENTITY event.attendees.notify.accesskey            "У">
+<!ENTITY event.attendees.notifyundisclosed.label     "Отделна покана за всеки участник">
+<!ENTITY event.attendees.notifyundisclosed.accesskey "д">
+<!ENTITY event.attendees.notifyundisclosed.tooltip   "Така се изпраща отделна покана за всеки един участник. Всяка покана съдържа само адреса на получателя, така че другите участници не се виждат.">
+<!ENTITY event.attendees.disallowcounter.label       "Забраняване на контрапредложения">
+<!ENTITY event.attendees.disallowcounter.accesskey   "а">
+<!ENTITY event.attendees.disallowcounter.tooltip     "Указва, че няма да приемете отправено друго предложение">
 
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -66,10 +70,25 @@
 <!ENTITY  event.menu.item.new.contact.accesskey           "р">
 <!ENTITY  event.menu.item.close.label                     "Затваряне">
 <!ENTITY  event.menu.item.close.accesskey                 "З">
+
+<!-- LOCALIZATION NOTE
+   - event.menu.item.save.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a dialog window.
+   - event.menu.item.save.tab.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a tab. -->
 <!ENTITY  event.menu.item.save.label                      "Запис">
 <!ENTITY  event.menu.item.save.accesskey                  "З">
+<!ENTITY  event.menu.item.save.tab.accesskey              "З">
+
+<!-- LOCALIZATION NOTE
+    - event.menu.item.saveandclose.accesskey is used for "Save and Close"
+    - menu item when editing events/tasks in a dialog window.
+    - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
+    - when editing events/tasks in a tab. -->
 <!ENTITY  event.menu.item.saveandclose.label              "Запис и затваряне">
 <!ENTITY  event.menu.item.saveandclose.accesskey          "п">
+<!ENTITY  event.menu.item.saveandclose.tab.accesskey      "т">
+
 <!ENTITY  event.menu.item.delete.label                    "Изтриване…">
 <!ENTITY  event.menu.item.delete.accesskey                "И">
 <!ENTITY  event.menu.item.page.setup.label                "Настройка на страницата">
@@ -146,12 +165,14 @@
 <!ENTITY event.remove.attendee.accesskey                  "х">
 
 <!-- Toolbar -->
-<!ENTITY  event.toolbar.save.label                        "Запис и затваряне">
+<!ENTITY  event.toolbar.save.label2                       "Запазване">
+<!ENTITY  event.toolbar.saveandclose.label                "Запазване и затваряне">
 <!ENTITY  event.toolbar.delete.label                      "Изтриване">
 <!ENTITY  event.toolbar.attendees.label                   "Поканване на участници">
 <!ENTITY  event.toolbar.privacy.label                     "Поверителност">
 
-<!ENTITY  event.toolbar.save.tooltip                      "Запис и затваряне">
+<!ENTITY  event.toolbar.save.tooltip2                     "Запазване">
+<!ENTITY  event.toolbar.saveandclose.tooltip              "Запис и затваряне">
 <!ENTITY  event.toolbar.delete.tooltip                    "Изтриване">
 <!ENTITY  event.toolbar.attendees.tooltip                 "Поканване на участници">
 <!ENTITY  event.toolbar.attachments.tooltip               "Добавяне на притурка">
@@ -159,6 +180,20 @@
 <!ENTITY  event.toolbar.priority.tooltip                  "Промяна на приоритета">
 <!ENTITY  event.toolbar.status.tooltip                    "Промяна на статуса">
 <!ENTITY  event.toolbar.freebusy.tooltip                  "Промяна на свободно/заето време">
+
+<!-- Counter box -->
+<!-- LOCALIZATON NOTE(counter.button.*)
+   - This is only visible in the UI if you have received a counterproposal before and are going to
+   - reschedule the event from the imipbar in the email view. Clicking on the buttons will only
+   - populate the form fields in the dialog, there's no other immediate action on clicking like with
+   - the imip bar. Rescheduling will happen after clicking on save&close as usual. This screenshot
+   - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
+<!ENTITY counter.button.proposal.label                    "Прилагане на предложението">
+<!ENTITY counter.button.proposal.accesskey                "П">
+<!ENTITY counter.button.proposal.tooltip2                 "Полетата на събитието ще бъдат попълнени със стойностите от контрапредложението, но ако само запазите с или без допълнителни промени всички участници ще бъдат уведомени">
+<!ENTITY counter.button.original.label                    "Прилагане на първоначалните данни">
+<!ENTITY counter.button.original.accesskey                "п">
+<!ENTITY counter.button.original.tooltip2                 "Полетата ще бъдат попълнени с данните от първоначалното събитие преди контрапредложението">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Заглавие:" >
@@ -178,7 +213,7 @@
 <!ENTITY event.from.accesskey                             "Н">
 <!ENTITY task.from.label                                  "Начало:" >
 <!ENTITY task.from.accesskey                              "Н">
-<!ENTITY event.to.label                                   "&amp;Край:" >
+<!ENTITY event.to.label                                   "Край:" >
 <!ENTITY event.to.accesskey                               "р">
 <!ENTITY task.to.label                                    "Крайна дата:" >
 <!ENTITY task.to.accesskey                                "й">
@@ -220,7 +255,7 @@
 <!ENTITY event.reminder.1day.before.label                 "1 ден преди" >
 <!ENTITY event.reminder.2days.before.label                "2 дена преди" >
 <!ENTITY event.reminder.1week.before.label                "1 седмица преди" >
-<!ENTITY event.reminder.custom.label                      "По избор…" >
+<!ENTITY event.reminder.custom.label                      "Персонализиране…" >
 
 <!ENTITY event.reminder.multiple.label                    "Много напомняния…" >
 
@@ -237,7 +272,7 @@
 <!ENTITY event.repeat.bi.weekly.label                   "През седмица">
 <!ENTITY event.repeat.monthly.label                     "Ежемесечно">
 <!ENTITY event.repeat.yearly.label                      "Ежегодно">
-<!ENTITY event.repeat.custom.label                      "По избор…">
+<!ENTITY event.repeat.custom.label                      "Персонализиране…">
 
 <!ENTITY event.recurrence.pattern.label                 "Модел на повторенията">
 <!ENTITY event.recurrence.occurs.label                  "Повторение" >
@@ -377,6 +412,7 @@
 <!ENTITY read.only.tentative.label       "Може би ще присъствам">
 <!ENTITY read.only.needs.action.label    "Ще потвърдя по-късно">
 <!ENTITY read.only.reminder.label        "Напомняне:">
+<!ENTITY read.only.attachments.label     "Прикачени файлове:">
 <!ENTITY read.only.attendees.label       "Участници">
 <!ENTITY read.only.description.label     "Описание">
 <!ENTITY read.only.link.label            "Сродни връзки">

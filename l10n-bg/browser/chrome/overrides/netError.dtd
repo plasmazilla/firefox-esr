@@ -8,7 +8,7 @@
 <!ENTITY loadError.label "Проблем при зареждане на страница">
 <!ENTITY retry.label "Нов опит">
 <!ENTITY returnToPreviousPage.label "Връщане назад">
-<!ENTITY advanced.label "Допълнително">
+<!ENTITY advanced.label "Подробности">
 
 <!-- Specific error messages -->
 
@@ -29,10 +29,18 @@
 <!ENTITY fileNotFound.longDesc "<ul> <li>Проверете името на файла за големи/малки букви или други грешки при въвеждане.</li> <li>Проверете дали файлът не е преместен, преименуван или изтрит.</li> </ul>">
 
 <!ENTITY fileAccessDenied.title "Достъпът до файла е отказан">
-<!ENTITY fileAccessDenied.longDesc "<ul><li>Може да е премахнат, преместен или правата му да ограничават достъпа.</li></ul>">
+<!ENTITY fileAccessDenied.longDesc "<ul>
+  <li>Може да е премахнат, преместен или правата му да ограничават достъпа.</li>
+</ul>">
 
 <!ENTITY generic.title "Олеле.">
 <!ENTITY generic.longDesc "<p>По някаква причина &brandShortName; не може да отвори страницата.</p>">
+
+<!ENTITY captivePortal.title "Влизане в мрежа">
+<!ENTITY captivePortal.longDesc "<p>Мрежата може да изисква вход, за да получи достъп до интернет.</p>
+">
+
+<!ENTITY openPortalLoginPage.label "Отваряне на страницата за вход">
 
 <!ENTITY malformedURI.title "Адресът е невалиден">
 <!ENTITY malformedURI.longDesc "<ul><li>Адресите обикновено изглеждат така <strong>http://www.example.com/</strong></li><li>Уверете се, че използвате наклонени черти(т.е. <strong>/</strong>).</li></ul>">
@@ -95,7 +103,7 @@ was trying to connect. -->
 <!ENTITY cspBlocked.longDesc "<p>&brandShortName; предотврати зареждането на страницата по този начин, защото тя има политика за сигурност, която го забранява.</p>">
 
 <!ENTITY corruptedContentErrorv2.title "Грешка поради развалено съдържание">
-<!ENTITY corruptedContentErrorv2.longDesc "<p>Не може да се покаже страницата, която се опитвате на видите, защото беше открита грешка при прехвърлянето на данни.</p><ul><li>Моля, свържете се със собствениците на сайта, за да ги информирате за проблема.</li></ul>">
+<!ENTITY corruptedContentErrorv2.longDesc "<p>Страницата не може да бъде показана поради грешка при прехвърляне на данните.</p><ul><li>Моля, свържете се със собствениците на сайта, за да ги информирате за проблема.</li></ul>">
 
 
 <!ENTITY securityOverride.exceptionButtonLabel "Добавяне на изключение…">
@@ -115,7 +123,7 @@ was trying to connect. -->
 <!-- LOCALIZATION NOTE (weakCryptoUsed.longDesc2) - Do not translate
      "SSL_ERROR_NO_CYPHER_OVERLAP". -->
 <!ENTITY weakCryptoUsed.longDesc2 "Допълнителна информация: SSL_ERROR_NO_CYPHER_OVERLAP">
-<!ENTITY weakCryptoAdvanced.title "Допълнително">
+<!ENTITY weakCryptoAdvanced.title "Подробности">
 <!ENTITY weakCryptoAdvanced.longDesc "<span class='hostname'></span> използва остаряла технология за сигурност, уязвима към атаки. Такива атаки могат лесно да разкрият информация, която мислите, че е защитена.">
 <!ENTITY weakCryptoAdvanced.override "(Не е защитено) Опит за зареждане на <span class='hostname'></span>, използвайки остарели нива на защита">
 

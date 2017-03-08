@@ -13,7 +13,7 @@ to disable the "set as default browser" dialog.
  1 file changed, 2 insertions(+)
 
 diff --git a/toolkit/xre/nsXREDirProvider.cpp b/toolkit/xre/nsXREDirProvider.cpp
-index 1014e1faeb7a..105a082718b9 100644
+index 2fbd324b70cb..c0c8677149cf 100644
 --- a/toolkit/xre/nsXREDirProvider.cpp
 +++ b/toolkit/xre/nsXREDirProvider.cpp
 @@ -989,6 +989,7 @@ nsXREDirProvider::LoadAppBundleDirs()

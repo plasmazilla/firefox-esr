@@ -6,9 +6,13 @@
      equal to the value of accountManager.size entity minus the value
      of accountTree.width entity. -->
 <!ENTITY identityDialog.style "min-width: 67ch;">
-<!ENTITY identityTitle.label "아이디 설정">
 <!ENTITY identityListDesc.label "아이디 설정:">
 
 <!ENTITY settingsTab.label       "설정">
 <!ENTITY copiesFoldersTab.label "사본과 폴더">
 <!ENTITY addressingTab.label    "쓰기 및 주소">
+
+<!ENTITY publicData.label        "공개 데이터">
+<!ENTITY privateData.label       "개인 데이터">
+<!ENTITY identityAlias.label     "아이디 라벨:">
+<!ENTITY identityAlias.accesskey "b">

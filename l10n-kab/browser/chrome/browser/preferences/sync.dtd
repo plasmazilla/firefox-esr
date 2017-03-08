@@ -5,7 +5,7 @@
 
 <!ENTITY setupButton.label          "Swel &syncBrand.fullName.label;">
 <!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; ad k-yeǧǧ ad tkecmeḍ ɣer umazray-inek, ticraḍ n isebtaren-inek, awalen-ik uffiren, iccaren yeldin seg yal aselkim d yal ibenk.">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; ad k-yeǧǧ ad tkecmeḍ ɣer umazray-inek, ticraḍ n isebtar-inek, awalen-ik uffiren, iccaren yeldin seg yal aselkim d yal ibenk.">
 <!-- The page shown when logged in... -->
 <!-- Login error feedback -->
 
@@ -37,12 +37,14 @@
 <!ENTITY engine.addons.accesskey    "z">
 <!-- Device Settings -->
 
-<!ENTITY syncDeviceName.label       "Isem n wallal:">
-<!ENTITY syncDeviceName.accesskey   "l">
+<!ENTITY syncDeviceName.label       "Isem n yibenk:">
 <!ENTITY fxaSyncDeviceName.label       "Isem n wallal">
-<!ENTITY changeSyncDeviceName.label "Snifel isem n wallal…">
+<!ENTITY changeSyncDeviceName.label "Snifel isem n yibenk…">
+<!ENTITY changeSyncDeviceName.accesskey "n">
 <!ENTITY cancelChangeSyncDeviceName.label "Sefsex">
-<!ENTITY saveChangeSyncDeviceName.label "Kles">
+<!ENTITY cancelChangeSyncDeviceName.accesskey "x">
+<!ENTITY saveChangeSyncDeviceName.label "Sekles">
+<!ENTITY saveChangeSyncDeviceName.accesskey "l">
 <!ENTITY unlinkDevice.label           "Kkes allal-agi">
 <!-- Footer stuff -->
 
@@ -70,14 +72,19 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedInLoginFailure.aftername.label "">
 
 <!ENTITY notSignedIn.label           "Ur teqqineḍ ara.">
-<!ENTITY signIn.label                "Tuqqna">
+<!ENTITY signIn.label                "Qqen">
+<!ENTITY signIn.accesskey            "Q">
 <!ENTITY profilePicture.tooltip      "Snifel tugna n umaɣnu">
 <!ENTITY verifiedManage.label        "Sefrek imiḍanen">
+<!ENTITY verifiedManage.accesskey    "m">
 <!ENTITY disconnect.label            "Tuffɣa…">
-<!ENTITY verify.label                "Senqed tansa yinek imayl">
+<!ENTITY disconnect.accesskey        "T">
+<!ENTITY verify.label                "Senqed tansa imayl">
+<!ENTITY verify.accesskey            "e">
 <!ENTITY forget.label                "Ttu tansa-agi imayl">
+<!ENTITY forget.accesskey            "y">
 
-<!ENTITY welcome.description "Kcem ɣer iccaren-ik, ticraḍ n isebtaren, awalen uffiren d wayen yugaren aya seg yal ibenk i tseqdaceḍ &brandShortName;.">
+<!ENTITY welcome.description "Kcem ɣer iccaren-ik, ticraḍ n isebtar, awalen uffiren d wayen yugaren aya seg yal ibenk i tseqdaceḍ &brandShortName;.">
 <!ENTITY welcome.signIn.label "Kcem">
 <!ENTITY welcome.createAccount.label "Rnu amiḍan">
 
@@ -87,7 +94,9 @@ both, to better adapt this sentence to their language.
 <!ENTITY signedOut.description        "Mtawi ticraḍ-inek n isebtar, amazray, awalen uffiren, izegrar, d ismenyifen akked ibenkan-inek akk.">
 <!ENTITY signedOut.accountBox.title   "Qqen ɣer &syncBrand.fxAccount.label;">
 <!ENTITY signedOut.accountBox.create  "Rnu amiḍan">
+<!ENTITY signedOut.accountBox.create.accesskey  "C">
 <!ENTITY signedOut.accountBox.signin  "Kcem">
+<!ENTITY signedOut.accountBox.signin.accesskey  "I">
 
 <!ENTITY signedIn.engines.label       "Mtawi d ibenkan akk">
 <!-- LOCALIZATION NOTE (mobilePromo3.*): the following strings will be used to
